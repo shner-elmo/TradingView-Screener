@@ -16,7 +16,7 @@ HEADERS = {
     'sec-fetch-dest': 'empty',
     'referer': 'https://www.tradingview.com/',
     'accept-language': 'en-US,en;q=0.9,it;q=0.8',
-    # optionally you can add you're cookies
+    # optionally you can add your cookies here
 }
 
 
@@ -38,7 +38,7 @@ class TradingViewScanner:
 
         :param scanner_type: must be one of the following: 'pm_gainers', 'pm_losers', 'pm_most_active'.
         :param return_type: 'df' or 'dict'
-        :return: pandas.DataFrame or None if request unsuccessful
+        :return: pandas.DataFrame or dictionary or None if request is unsuccessful
         """
         if scanner_type not in self.scanners.keys():
             raise KeyError("Error: Given scanner_type is not valid, must be one of the following: "
@@ -61,12 +61,3 @@ class TradingViewScanner:
         if return_type == 'dict':
             return df.to_dict('index')
         return df
-
-
-if __name__ == "__main__":
-    tvs = TradingViewScanner()
-    data = tvs.get_data(scanner_type='pm_gainers', return_type='dict')
-
-    my_filter = list(filter(lambda x: data[x]['premarket_change'] > 10 and data[x]['close'] > 3, data))
-    print(my_filter)
-    
