@@ -42,8 +42,8 @@ class TradingViewScanner:
         :return: pandas.DataFrame or dictionary or None if request is unsuccessful
         """
         if scanner_type not in self.scanners.keys():
-            raise KeyError("Error: Given scanner_type is not valid, must be one of the following: "
-                           "'pm_gainers', 'pm_losers', 'pm_most_active")
+            raise KeyError(f"Error: Given scanner_type is not valid, must be one of the following: "
+                           f"{list(self.scanners.keys())}")
 
         r = requests.post('https://scanner.tradingview.com/america/scan',
                           headers=HEADERS, data=self.scanners[scanner_type])
