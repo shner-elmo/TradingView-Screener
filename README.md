@@ -41,7 +41,7 @@ And to get a list of all the scanners available:
 print(tvs.scanners.keys())
 ```
 ```
-dict_keys(['pm_gainers', 'pm_losers', 'pm_most_active'])
+dict_keys(['pm_gainers', 'pm_losers', 'pm_most_active', 'pm_gappers'])
 ```
 
 
