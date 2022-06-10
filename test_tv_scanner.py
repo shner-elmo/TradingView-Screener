@@ -2,13 +2,14 @@ from tv_scanner import TradingViewScanner
 from time import sleep
 from datetime import *
 import pytz
+tz = pytz.timezone('US/Eastern')
 
 
-def time(hour: int, minute: int, second: int = 0, microsecond: int = 0):
-    """return time object, requires hour and minute parameters, optional params: second and microsecond"""
-    today = datetime.now(tz=pytz.timezone('US/Eastern'))
-    return datetime(today.year, today.month, today.day, hour=hour,
-                    minute=minute, second=second, microsecond=microsecond)
+def time(hour, minute, second=0, microsecond=0):
+    """return time object, requires hour and minute parameters, second: optional"""
+    today = datetime.now(tz=tz)
+    return datetime(today.year, today.month, today.day, hour=hour, minute=minute,
+                    second=second, microsecond=microsecond, tzinfo=tz)
 
 
 tvs = TradingViewScanner()
@@ -16,10 +17,8 @@ my_list = []
 my_dict = {}
 
 while True:
-    current_time = datetime.now(tz=pytz.timezone('US/Eastern'))
-    time_obj = time(9, 8)  # time of the test: 09:08 est time
 
-    if current_time.hour == time_obj.hour and current_time.minute == time_obj.minute:
+    if datetime.now(tz=tz) >= time(9, 8):  # time of the test: 09:08 est time
         for i in range(50):
             data = tvs.get_data(scanner_type='pm_gainers', return_type='dict')
             top_symbol = list(sorted(data, key=lambda x: data[x]['premarket_volume'], reverse=True))[0]
