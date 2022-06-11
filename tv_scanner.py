@@ -16,12 +16,19 @@ HEADERS = {
     'sec-fetch-dest': 'empty',
     'referer': 'https://www.tradingview.com/',
     'accept-language': 'en-US,en;q=0.9,it;q=0.8',
-    # optionally you can add your cookies here
 }
 
 
 class TradingViewScanner:
-    def __init__(self):
+
+    def __init__(self, cookies: str = None):
+        """
+        A class for getting data from TradingView's scanners, it's possible to provide your own cookies
+        but not necessary, for more on that check out the test for this module
+        """
+        if cookies is not None:
+            HEADERS['cookie'] = cookies
+
         self.columns = ["symbol", "premarket_close", "premarket_change", "premarket_change_perc", "premarket_volume",
                         "premarket_gap_perc", "close", "change_perc", "volume", "market_cap", "description"]
         self.scanners = {
