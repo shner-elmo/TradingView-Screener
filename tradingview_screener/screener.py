@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-__all__ = ['Scanner', 'get_scanner_data']
-
 import json
 from enum import Enum
 from typing import Iterable

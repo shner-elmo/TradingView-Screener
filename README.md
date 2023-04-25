@@ -4,12 +4,14 @@
 ### How It Works
 
 This module uses TradingView's API to retrieve the scanner data.
-For now there are 
-#### The following quick-guide will show you how to get started using the tv_scanner module
+For now there are
+
+
+#### The following quick-guide will show you how to get started using the tradingview-package module
 
 Import the function and the Enum class
 ```python
-from tv_scanner import get_scanner_data, Scanner
+from tradingview_screener import get_scanner_data, Scanner
 ```
 
 All the scanners available:
@@ -157,7 +159,7 @@ You can also specify the columns you want to get
 
 For the full list of columns have a look at the following dictionary:
 ```python
->>> from tv_scanner import COLUMNS
+>>> from tradingview_screener.screener import COLUMNS
 >>> COLUMNS
 ```
 ```
@@ -180,3 +182,12 @@ For the full list of columns have a look at the following dictionary:
  'Aroon Up (14)': 'Aroon.Up',
  ...}
 ```
+
+
+---
+
+
+## What's next
+
+* Create a SQL-like query language to create custom screeners 
+* Add tests

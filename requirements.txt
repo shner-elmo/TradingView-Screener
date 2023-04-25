@@ -1,4 +1,0 @@
-urllib3
-requests
-pandas
-pytz
