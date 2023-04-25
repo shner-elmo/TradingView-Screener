@@ -4,6 +4,7 @@ __all__ = ['Scanner', 'get_scanner_data']
 
 import json
 from enum import Enum
+from typing import Iterable
 
 import requests
 import pandas as pd
@@ -282,7 +283,7 @@ COLUMNS = {
     'Williams Percent Range (14)': 'W.R',
     'Yearly Performance': 'Perf.Y',
     'YTD Performance': 'Perf.YTD',
-}
+}  # TODO: test all columns
 API_SETTINGS = {
     'filter': [{'left': 'type', 'operation': 'equal', 'right': 'stock'},
                {'left': 'subtype', 'operation': 'in_range', 'right': ['common', 'foreign-issuer']},
@@ -290,9 +291,8 @@ API_SETTINGS = {
     'options': {'active_symbols_only': True, 'lang': 'en'},
     'markets': ['america'],
     'symbols': {'query': {'types': []}, 'tickers': []},
-    'columns': ['name', 'premarket_close', 'premarket_change_abs', 'premarket_change', 'premarket_volume',
-                'premarket_gap', 'close', 'change', 'volume', 'market_cap_basic', 'description', 'logoid', 'type',
-                'subtype'],
+    'columns': ['name', 'close', 'volume', 'market_cap_basic'],
+    # TODO: change the default columns
     # 'sort': {},  # the sortBy value should be replaced with a column name
     'range': [0, 50]
 }
@@ -312,8 +312,11 @@ class Scanner(dict, Enum):
     def names(cls) -> list[str]:
         return [x.name for x in cls]
 
-    def get_data(self) -> pd.DataFrame:
-        return get_scanner_data(sort=self.value)
+    def get_data(self, **kwargs) -> pd.DataFrame:
+        cols = API_SETTINGS['columns'].copy()
+        cols.insert(1, self.value['sortBy'])  # insert the column that we are sorting by, right after the symbol column
+        kwargs.setdefault('columns', cols)  # use `setdefault()` so the user can override this
+        return get_scanner_data(sort=self.value, **kwargs)
 
 
 def get_scanner_data(**kwargs) -> pd.DataFrame:
@@ -323,7 +326,7 @@ def get_scanner_data(**kwargs) -> pd.DataFrame:
     :param kwargs: kwargs to override fields in the `local_settings` dictionary
     :return: Pandas DataFrame
     """
-    local_settings = API_SETTINGS.copy()
+    local_settings = API_SETTINGS.copy()  # copy() to avoid modifying the global settings
     local_settings.update(**kwargs)
 
     r = requests.post(URL, headers=HEADERS, data=json.dumps(local_settings))
@@ -331,3 +334,24 @@ def get_scanner_data(**kwargs) -> pd.DataFrame:
 
     data = r.json()['data']
     return pd.DataFrame(data=(row['d'] for row in data), columns=local_settings['columns'])
+
+
+def get_all_symbols(exchanges: Iterable[str] = ('AMEX', 'OTC', 'NYSE', 'NASDAQ')) -> list[str]:
+    """
+    Get a list with all the symbols filtered by a given exchange.
+
+    Valid exchanges: {'AMEX', 'OTC', 'NYSE', 'NASDAQ'}
+
+    :param exchanges: a set which contains the exchanges you want to keep (all the rest will be ignored)
+    :return: list of symbols
+    """
+    exchanges = {x.upper() for x in exchanges}
+    r = requests.get(URL)
+    data = r.json()['data']  # [{'s': 'NYSE:HKD', 'd': []}, {'s': 'NASDAQ:ALTY', 'd': []}...]
+
+    symbols = []
+    for dct in data:
+        exchange, symbol = dct['s'].split(':')
+        if exchange in exchanges:
+            symbols.append(symbol)
+    return symbols
