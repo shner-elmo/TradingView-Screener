@@ -53,6 +53,20 @@ And we get a DataFrame with the data:
 [50 rows x 5 columns]
 ```
 
+If you aren't yet familiar with Pandas DataFrames, you can convert the output to a list of dictionaries like so:
+```python
+>>> df.to_dict('records')
+```
+[
+    {'name': 'VIRI', 'premarket_change': 77.5147929, 'close': 0.6253, 'volume': 4047431, 'market_cap_basic': 11461993.0},
+    {'name': 'CXAI', 'premarket_change': 45.3100159, 'close': 6.29, 'volume': 1407773, 'market_cap_basic': 53985175.00000001},
+    {'name': 'BXRX', 'premarket_change': 45.21276596, 'close': 1.88, 'volume': 469498, 'market_cap_basic': 4861120.0},
+    {'name': 'SPPI', 'premarket_change': 35.26430123, 'close': 0.6905, 'volume': 478063, 'market_cap_basic': 141760626.0},
+    {'name': 'MORF', 'premarket_change': 30.94417643, 'close': 43.53, 'volume': 239678, 'market_cap_basic': 1720920967.0},
+    ...
+]
+```
+
 Or to get the most active during the pre-market session:
 ```python
 >>> Scanner.premarket_most_active.get_data()
