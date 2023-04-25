@@ -1,11 +1,21 @@
 [tool.poetry]
 name = "tradingview-screener"
 version = "0.1.0"
-description = ""
+description = "A package for creating stock screeners with the TradingView API"
 authors = ["shner-elmo <770elmo@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "tradingview_screener"}]
+repository = "https://github.com/shner-elmo/TradingView-Screener"
+documentation = "https://github.com/shner-elmo/TradingView-Screener/blob/master/README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

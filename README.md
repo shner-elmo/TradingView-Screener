@@ -1,10 +1,19 @@
-# TradingViewScanner
+# TradingView-Screener
 
 
-### How It Works
+---
+[![PyPi](https://img.shields.io/badge/PyPi-0.3.0-yellow)](https://pypi.org/project/tradingview-screener/)
+[![Downloads](https://pepy.tech/badge/tradingview-screener)](https://pepy.tech/project/tradingview-screener)
+[![Downloads](https://pepy.tech/badge/tradingview-screener/month)](https://pepy.tech/project/tradingview-screener)
 
-This module uses TradingView's API to retrieve the scanner data.
-For now there are
+You can get the package directly from [PyPI](https://pypi.org/project/tradezero-api/)
+```
+pip install tradingview-screener
+```
+---
+
+This package allows you to create stock screeners with TradingView's, and retrieve the data directly from the official
+API (without doing any kind of web-scraping).
 
 
 #### The following quick-guide will show you how to get started using the tradingview-package module
