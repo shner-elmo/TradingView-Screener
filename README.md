@@ -57,6 +57,7 @@ If you aren't yet familiar with Pandas DataFrames, you can convert the output to
 ```python
 >>> df.to_dict('records')
 ```
+```
 [
     {'name': 'VIRI', 'premarket_change': 77.5147929, 'close': 0.6253, 'volume': 4047431, 'market_cap_basic': 11461993.0},
     {'name': 'CXAI', 'premarket_change': 45.3100159, 'close': 6.29, 'volume': 1407773, 'market_cap_basic': 53985175.00000001},
