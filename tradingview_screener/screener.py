@@ -281,16 +281,19 @@ COLUMNS = {
     'Williams Percent Range (14)': 'W.R',
     'Yearly Performance': 'Perf.Y',
     'YTD Performance': 'Perf.YTD',
+    'type': 'type',
+    'subtype': 'subtype',
+    'name': 'name',
+    'logoid': 'logoid',
 }  # TODO: test all columns
 API_SETTINGS = {
     'filter': [{'left': 'type', 'operation': 'equal', 'right': 'stock'},
                {'left': 'subtype', 'operation': 'in_range', 'right': ['common', 'foreign-issuer']},
                {'left': 'exchange', 'operation': 'in_range', 'right': ['AMEX', 'NASDAQ', 'NYSE']}],
-    'options': {'active_symbols_only': True, 'lang': 'en'},
+    'options': {'lang': 'en'},
     'markets': ['america'],
     'symbols': {'query': {'types': []}, 'tickers': []},
     'columns': ['name', 'close', 'volume', 'market_cap_basic'],
-    # TODO: change the default columns
     # 'sort': {},  # the sortBy value should be replaced with a column name
     'range': [0, 50]
 }
@@ -314,10 +317,10 @@ class Scanner(dict, Enum):
         cols = API_SETTINGS['columns'].copy()
         cols.insert(1, self.value['sortBy'])  # insert the column that we are sorting by, right after the symbol column
         kwargs.setdefault('columns', cols)  # use `setdefault()` so the user can override this
-        return get_scanner_data(sort=self.value, **kwargs)
+        return get_scanner_data(sort=self.value, **kwargs)[1]
 
 
-def get_scanner_data(**kwargs) -> pd.DataFrame:
+def get_scanner_data(**kwargs) -> tuple[int, pd.DataFrame]:
     """
     Get a dataframe with the scanner data directly from the API
 
@@ -330,8 +333,13 @@ def get_scanner_data(**kwargs) -> pd.DataFrame:
     r = requests.post(URL, headers=HEADERS, data=json.dumps(local_settings))
     r.raise_for_status()
 
-    data = r.json()['data']
-    return pd.DataFrame(data=(row['d'] for row in data), columns=local_settings['columns'])
+    json_obj = r.json()
+    rows_count = json_obj['totalCount']
+    data = json_obj['data']
+
+    if data is None:
+        return rows_count, pd.DataFrame(columns=local_settings['columns'])
+    return rows_count, pd.DataFrame(data=(row['d'] for row in data), columns=local_settings['columns'])
 
 
 def get_all_symbols(exchanges: Iterable[str] = ('AMEX', 'OTC', 'NYSE', 'NASDAQ')) -> list[str]:

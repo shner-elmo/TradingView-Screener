@@ -166,7 +166,7 @@ You can also specify the columns you want to get
 [10 rows x 8 columns]
 ```
 
-For the full list of columns have a look at the following dictionary:
+For the full list of columns have a look at the following dictionary (there are more that will be added in the future):
 ```python
 >>> from tradingview_screener.screener import COLUMNS
 >>> COLUMNS
@@ -193,10 +193,265 @@ For the full list of columns have a look at the following dictionary:
 ```
 
 
+## Creating Custom Stock Screeners
+
+```python
+from tradingview_screener import Query, Column
+```
+
+
+Create a query (like you would in a SQL database):
+```python
+q = Query().select('name', 'close', 'volume', 'relative_volume_10d_calc', 'market_cap_basic')
+```
+
+And to get the results we can call `get_scanner_data()` which will return a tuple with the number of results `COUNT(*)`
+that matched our query, and the actual data (as a pandas DataFrame):
+```python
+num_rows, df = q.get_scanner_data()
+print('Number of rows:', num_rows)
+```
+```
+Number of rows: 5271
+```
+
+And the data:
+```python
+df
+```
+```
+    name      close   volume  relative_volume_10d_calc  market_cap_basic
+0   SASI   0.421101     2176                  0.122958      4.536400e+06
+1   BROG   5.050000      491                  0.170126      4.445781e+08
+2   LAZR   6.020000  4643780                  0.644816      2.222977e+09
+3    PIK   0.598500    88926                  0.682655      4.601384e+06
+4   HAYW  12.040000  1464436                  0.986823      2.559983e+09
+..   ...        ...      ...                       ...               ...
+45  ATIP   0.271400   243505                  1.096411      5.628409e+07
+46  CLFD  43.680000   242512                  0.736585      6.647937e+08
+47  CRCT   9.130000    66012                  1.154169      2.003323e+09
+48   ENZ   2.530000   118980                  0.529591      1.256469e+08
+49  WLGS   2.220000  5589780                       NaN               NaN
+
+[50 rows x 5 columns]
+```
+
+As you may have noticed, there are only 50 rows in our dataframe, while `num_rows` is 5271,  
+this is because by default there is a `LIMIT` of 50, although you can override that by providing your own.
+But, note that the more results you try to fetch, the more work the server needs to do, and therefore the network request
+will take more time, so It's something to keep in mind.
+
+You can also filter the results:
+```python
+q = Query().select('name', 'close', 'volume', 'relative_volume_10d_calc')\
+    .where(
+        Column('market_cap_basic').between(1_000_000, 50_000_000), 
+        Column('relative_volume_10d_calc') > 1.2, 
+        Column('MACD.macd') >= 'MACD.signal'
+    )
+q.get_scanner_data()
+```
+```
+(493,
+      name    close  volume  relative_volume_10d_calc
+ 0    CMPD  2.90000    1308                  1.806380
+ 1   ABNAF  0.08500    7210                  1.365401
+ 2    TARA  3.16000  102277                  1.697113
+ 3   FLYLF  0.74853   15000                  1.973632
+ 4   OGBLY  0.04000   45005                  6.980766
+ ..    ...      ...     ...                       ...
+ 45   LPCN  0.26000  348622                  2.326042
+ 46   ELTP  0.03300  561900                  2.117304
+ 47   FNAM  0.70000    2000                  1.350348
+ 48     UK  1.04000  315203                  1.409103
+ 49   VERO  0.18880  218379                  1.435621
+ 
+ [50 rows x 4 columns])
+```
+
+To order the results:
+```python
+q = Query().select('name', 'close', 'volume', 'relative_volume_10d_calc')\
+    .where(
+        Column('market_cap_basic').between(1_000_000, 50_000_000), 
+        Column('relative_volume_10d_calc') > 1.2, 
+        Column('MACD.macd') >= 'MACD.signal'
+    )\
+    .order_by('volume', ascending=False)
+q.get_scanner_data()
+```
+```
+(493,
+     name    close    volume  relative_volume_10d_calc
+ 0    DXF  0.36990  92255915                 56.544501
+ 1   DPLS  0.00555  51685577                  1.528578
+ 2   LGHL  0.26800  48563857                 70.600598
+ 3   JZXN  0.26000  45771791                 82.053268
+ 4   PVSP  0.00060  45491685                  1.786331
+ ..   ...      ...       ...                       ...
+ 45  RMSL  0.01290   1943387                  1.542694
+ 46  TIRX  1.63000   1937953                 43.849456
+ 47  TNXP  0.52000   1870167                  2.578986
+ 48    MF  1.30000   1837216                108.688496
+ 49  EWRC  0.00280   1761115                 11.767738
+ 
+ [50 rows x 4 columns])
+```
+
+To get the slice `[5:15]`:
+```python
+q = Query().select('name', 'close', 'volume', 'relative_volume_10d_calc')\
+    .where(
+        Column('market_cap_basic').between(1_000_000, 50_000_000), 
+        Column('relative_volume_10d_calc') > 1.2, 
+        Column('MACD.macd') >= 'MACD.signal'
+    )\
+    .order_by('volume', ascending=False)\
+    .offset(5)\
+    .limit(15)
+q.get_scanner_data()
+```
+```
+(493,
+    name    close    volume  relative_volume_10d_calc
+ 0  INTK  0.00050  32999277                  3.749458
+ 1  BIEL  0.00040  26141639                  1.350728
+ 2  GSUN  1.35000  24240204                 98.543864
+ 3  FTXP  0.00020  21113909                  1.894780
+ 4  IGEX  0.00080  20660879                  1.211745
+ 5  HPNN  0.00090  16051557                  2.295840
+ 6  SGMD  0.00020  15761527                  2.232289
+ 7  ERBB  0.00102  14257745                  1.805648
+ 8  ASTA  0.00220  13801619                  1.537809
+ 9  BANT  0.00020  13514923                  1.573909)
+```
+
+### Reusing Scanners
+
+To avoid rewriting the same query again and again, you can save the query to a variable and just call 
+`get_scanner_data()` again and again to get the latest data:
+```python
+top_50_bullish = Query().select('name', 'close', 'volume', 'relative_volume_10d_calc')\
+    .where(
+        Column('market_cap_basic').between(1_000_000, 50_000_000), 
+        Column('relative_volume_10d_calc') > 1.2, 
+        Column('MACD.macd') >= 'MACD.signal'
+    )\
+    .order_by('volume', ascending=False)\
+    .limit(50)
+```
+
+And you can just call it like so:
+```python
+top_50_bullish.get_scanner_data()
+```
+```
+(493,
+     name    close    volume  relative_volume_10d_calc
+ 0    DXF  0.36990  92255915                 56.544501
+ 1   DPLS  0.00555  51685577                  1.528578
+ 2   LGHL  0.26800  48563857                 70.600598
+ 3   JZXN  0.26000  45771791                 82.053268
+ 4   PVSP  0.00060  45491685                  1.786331
+ ..   ...      ...       ...                       ...
+ 45  RMSL  0.01290   1943387                  1.542694
+ 46  TIRX  1.63000   1937953                 43.849456
+ 47  TNXP  0.52000   1870167                  2.578986
+ 48    MF  1.30000   1837216                108.688496
+ 49  EWRC  0.00280   1761115                 11.767738
+ 
+ [50 rows x 4 columns])
+```
+
+
+```python
+top_50_bullish.get_scanner_data()
+```
+```
+(493,
+     name    close    volume  relative_volume_10d_calc
+ 0    DXF  0.36990  92255915                 56.544501
+ 1   DPLS  0.00555  51685577                  1.528578
+ 2   LGHL  0.26800  48563857                 70.600598
+ 3   JZXN  0.26000  45771791                 82.053268
+ 4   PVSP  0.00060  45491685                  1.786331
+ ..   ...      ...       ...                       ...
+ 45  RMSL  0.01290   1943387                  1.542694
+ 46  TIRX  1.63000   1937953                 43.849456
+ 47  TNXP  0.52000   1870167                  2.578986
+ 48    MF  1.30000   1837216                108.688496
+ 49  EWRC  0.00280   1761115                 11.767738
+ 
+ [50 rows x 4 columns])
+```
+
+
 ---
 
+## Getting All The Stock Symbols
 
-## What's next
+#### There is a function that allows you to get all the symbols from a given exchange.
 
-* Create a SQL-like query language to create custom screeners 
-* Add tests
+
+Import the function
+```python
+from tradingview_screener import get_all_symbols
+```
+
+Get all the symbols in the US stock market:
+```python
+all_symbols = get_all_symbols()
+```
+
+```python
+len(all_symbols)
+```
+```
+18451
+```
+
+The first 10:
+```python
+all_symbols[:10]
+```
+```
+['IIGD', 'TBGPF', 'HLAN', 'FVC', 'GLNG', 'MMC', 'PFHO', 'IDU', 'AMLH', 'IHT']
+```
+
+You can also filter them by exchange, valid exchanges include: `'AMEX', 'OTC', 'NYSE', 'NASDAQ'`
+```python
+symbols = get_all_symbols(exchanges={'NYSE', 'NASDAQ'})
+len(symbols), symbols[:10]
+```
+```
+(7633,
+ ['TYRA',
+  'ACRS',
+  'RDNT',
+  'DCI',
+  'LIBY',
+  'EGIO',
+  'AGIO',
+  'KRON',
+  'BRO',
+  'PINC'])
+```
+
+Get all OTC stocks:
+```python
+symbols = get_all_symbols(exchanges={'OTC'})
+len(symbols), symbols[:10]
+```
+```
+(7933,
+ ['ADMQ',
+  'CSTPF',
+  'LSMG',
+  'LMGIF',
+  'PPMT',
+  'JBFCF',
+  'CVSI',
+  'RXLSF',
+  'STBFY',
+  'GNZUF'])
+```
