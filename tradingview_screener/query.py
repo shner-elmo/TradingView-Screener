@@ -6,7 +6,7 @@ from typing import TypedDict, Any, Literal, NotRequired
 import requests
 import pandas as pd
 
-from tradingview_screener.constants import COLUMNS, MARKETS, HEADERS
+from tradingview_screener.constants import COLUMNS, COLUMN_VALUES, MARKETS, HEADERS
 
 
 class FilterOperationDict(TypedDict):
@@ -37,13 +37,12 @@ class QueryDict(TypedDict):
     range: NotRequired[list[int]]  # a list with two integers, i.e. `[0, 100]`
 
 
-COLUMN_VALUES = set(COLUMNS.values())
-
-
 class Column:
     """
     A Column object represents a field in the tradingview stock screener,
     and it can be used in SELECT queries and FILTER queries with the `Query` object.
+
+    # TODO: add examples for all possible filter operations
     """
 
     def __init__(self, name: str) -> None:
@@ -52,7 +51,8 @@ class Column:
 
         :param name: string, should be either a key or a value from the `COLUMNS` dictionary
         """
-        # if `name` is a dictionary key: get its value. otherwise make sure that it's a dictionary value
+        # if `name` is a dictionary key: get its value. otherwise make sure that it's a
+        # dictionary value.
         if name in COLUMNS.keys():
             self.name = COLUMNS[name]
         elif name in COLUMN_VALUES:
@@ -62,6 +62,7 @@ class Column:
                 f'{name!r} is not a valid column. Must be key/value in the `COLUMNS` dictionary.'
             )
 
+    # if you find a valid column name that is not inside `COLUMNS` please open an issue on GitHub
     @classmethod
     def from_unknown_name(cls, name: str) -> Column:
         """
@@ -236,7 +237,8 @@ class Query:
     def order_by(self, column: Column | str, ascending: bool = True) -> Query:
         column = column.name if isinstance(column, Column) else Column(column).name
         sort_order = 'asc' if ascending else 'desc'
-        self.query['sort'] = {'sortBy': column, 'sortOrder': sort_order}
+        # noinspection PyTypeChecker
+        self.query['sort'] = SortByDict(sortBy=column, sortOrder=sort_order)
         return self
 
     def offset(self, offset: int) -> Query:
@@ -254,7 +256,8 @@ class Query:
         r = requests.post(self.url, headers=HEADERS, json=self.query, timeout=10)
 
         if r.status_code >= 400:
-            r.reason += f'\n Body: {r.text}\n'  # add the body to the
+            # add the body to the error message for debugging purposes
+            r.reason += f'\n Body: {r.text}\n'
             r.raise_for_status()
 
         json_obj = r.json()

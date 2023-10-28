@@ -8,7 +8,7 @@ HEADERS = {
     'accept': 'text/plain, */*; q=0.01',
     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'sec-ch-ua-mobile': '?0',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'
     'Chrome/98.0.4758.102 Safari/537.36',
     'sec-ch-ua-platform': '"Windows"',
     'origin': 'https://www.tradingview.com',
@@ -301,6 +301,7 @@ COLUMNS = {
     'currency': 'currency',
     'fundamental_currency_code': 'fundamental_currency_code',
 }  # TODO: test all columns
+COLUMN_VALUES = set(COLUMNS.values())
 MARKETS = {
     'america',
     'argentina',
