@@ -32,14 +32,24 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
-target-version = "py38"
+target-version = "py39"
 line-length = 100
 
+# BUG: it seems like these rules arent being enforced by ruff
+[tool.ruff.pycodestyle]
+max-line-length = 100
+max-doc-length = 88
+
+[pycodestyle]
+max-doc-length = 100
+
 [tool.ruff.format]
-# Like Black, use double quotes for strings.
 quote-style = "single"
 
 [tool.ruff.flake8-quotes]
 docstring-quotes = "double"
 inline-quotes = "single"
 multiline-quotes = "double"
+
+[tool.ruff.flake8-errmsg]
+max-string-length = 20
