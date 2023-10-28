@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from enum import Enum
-from typing import Iterable
 
 import requests
 import pandas as pd
@@ -64,26 +63,43 @@ def get_scanner_data(**kwargs) -> tuple[int, pd.DataFrame]:
     )
 
 
-def get_all_symbols(
-    exchanges: Iterable[str] | None = None,
-    market: str = 'america',
-) -> list[str]:
+def get_all_symbols(market: str = 'america') -> list[str]:
     """
-    Get a list with all the symbols filtered by a given exchange.
+    Get all the symbols of a given market.
 
-    Valid exchanges: {'AMEX', 'OTC', 'NYSE', 'NASDAQ'}
+    Examples:
 
-    :param exchanges: a set which contains the exchanges you want to keep (all the rest will be ignored)
-    :param market: ...
-    :return: list of symbols
+    >>> get_all_symbols()
+    ['OTC:BMVVF',
+     'OTC:BRQL',
+     'NYSE:EFC/PA',
+     'NASDAQ:NVCR',
+     'NASDAQ:OMIC',
+     ...
+
+    >>> len(get_all_symbols())
+    18060
+
+    The default market of is `america`, but you can change it with any market from
+    `tradingview_screener.constants.MARKETS`:
+    >>> get_all_symbols(market='switzerland')
+    ['BX:DLY',
+     'BX:DP4A',
+     'BX:1SQ',
+     'BX:49G',
+     ...
+
+    >>> len(get_all_symbols(market='germany'))
+    13251
+
+    >>> len(get_all_symbols(market='israel'))
+    1034
+
+    :param market: any market from `tradingview_screener.constants.MARKETS`, default 'america'
+    :return: list of tickers
     """
-    exchanges = {x.upper() for x in exchanges}
     r = requests.get(URL.format(market=market))
+    r.raise_for_status()
     data = r.json()['data']  # [{'s': 'NYSE:HKD', 'd': []}, {'s': 'NASDAQ:ALTY', 'd': []}...]
 
-    symbols = []
-    for dct in data:
-        exchange, symbol = dct['s'].split(':')
-        if exchange in exchanges:
-            symbols.append(symbol)
-    return symbols
+    return [dct['s'] for dct in data]
