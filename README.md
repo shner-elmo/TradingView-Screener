@@ -168,7 +168,7 @@ You can also specify the columns you want to get
 
 For the full list of columns have a look at the following dictionary (there are more that will be added in the future):
 ```python
->>> from tradingview_screener.screener import COLUMNS
+>>> from tradingview_screener.constants import COLUMNS
 >>> COLUMNS
 ```
 ```
@@ -400,58 +400,48 @@ from tradingview_screener import get_all_symbols
 
 Get all the symbols in the US stock market:
 ```python
-all_symbols = get_all_symbols()
+usa_symbols = get_all_symbols(market='america')
 ```
 
 ```python
-len(all_symbols)
+len(usa_symbols)
 ```
 ```
-18451
+18060
 ```
 
 The first 10:
 ```python
-all_symbols[:10]
+usa_symbols[:10]
 ```
 ```
-['IIGD', 'TBGPF', 'HLAN', 'FVC', 'GLNG', 'MMC', 'PFHO', 'IDU', 'AMLH', 'IHT']
+['OTC:IVRN',
+ 'OTC:KIKOF',
+ 'OTC:PDRDF',
+ 'OTC:CUAUF',
+ 'OTC:HUDRF',
+ 'NASDAQ:CRDL',
+ 'NYSE:BSL',
+ 'OTC:CMGHF',
+ 'NYSE:GNTY',
+ 'OTC:VTKLY']
 ```
 
-You can also filter them by exchange, valid exchanges include: `'AMEX', 'OTC', 'NYSE', 'NASDAQ'`
+You can also query other markets, for example:
 ```python
-symbols = get_all_symbols(exchanges={'NYSE', 'NASDAQ'})
+symbols = get_all_symbols(market='japan')
 len(symbols), symbols[:10]
 ```
 ```
-(7633,
- ['TYRA',
-  'ACRS',
-  'RDNT',
-  'DCI',
-  'LIBY',
-  'EGIO',
-  'AGIO',
-  'KRON',
-  'BRO',
-  'PINC'])
-```
-
-Get all OTC stocks:
-```python
-symbols = get_all_symbols(exchanges={'OTC'})
-len(symbols), symbols[:10]
-```
-```
-(7933,
- ['ADMQ',
-  'CSTPF',
-  'LSMG',
-  'LMGIF',
-  'PPMT',
-  'JBFCF',
-  'CVSI',
-  'RXLSF',
-  'STBFY',
-  'GNZUF'])
+(4369,
+ ['TSE:6267',
+  'TSE:4389',
+  'TSE:9450',
+  'TSE:6920',
+  'TSE:2863',
+  'TSE:7795',
+  'TSE:5243',
+  'TSE:2842',
+  'TSE:4417',
+  'TSE:7238'])
 ```
