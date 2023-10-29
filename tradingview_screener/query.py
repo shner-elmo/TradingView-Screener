@@ -133,13 +133,6 @@ class Column:
             raise ValueError(
                 f'{name!r} is not a valid column. Must be key/value in the `COLUMNS` dictionary.'
             )
-        (Query()
-         .select(Column('close'), Column('volume'), Column('type'))
-         .where(
-            Column('close').between(Column('EMA5'), Column('EMA20')),
-            Column('type').isin(['stock', 'fund'])
-         )
-         .get_scanner_data())
 
     # @classmethod
     # def from_unknown_name(cls, name: str) -> Column:
