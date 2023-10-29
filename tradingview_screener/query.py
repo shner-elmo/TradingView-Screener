@@ -367,6 +367,11 @@ class Query:
         )
         return rows_count, df
 
+    def copy(self) -> Query:
+        new = Query()
+        new.query = self.query.copy()
+        return new
+
     def __repr__(self) -> str:
         return f'< {pprint.pformat(self.query)} >'
 
