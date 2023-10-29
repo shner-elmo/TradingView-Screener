@@ -1,66 +1,108 @@
 from __future__ import annotations
 
-from enum import Enum
-
 import requests
-import pandas as pd
 
-from tradingview_screener.constants import URL, HEADERS, DEFAULT_API_SETTINGS
+from tradingview_screener.query import Query
+from tradingview_screener.constants import URL
 
 
-class Scanner(dict, Enum):
-    premarket_gainers = {'sortBy': 'premarket_change', 'sortOrder': 'desc'}
-    premarket_losers = {'sortBy': 'premarket_change', 'sortOrder': 'asc'}
-    premarket_most_active = {'sortBy': 'premarket_volume', 'sortOrder': 'desc'}
-    premarket_gappers = {'sortBy': 'premarket_gap', 'sortOrder': 'desc'}
+DEFAULT_COLUMNS = ['name', 'close', 'volume', 'market_cap_basic']  # for the scanners
 
-    postmarket_gainers = {'sortBy': 'postmarket_change', 'sortOrder': 'desc'}
-    postmarket_losers = {'sortBy': 'postmarket_change', 'sortOrder': 'asc'}
-    postmarket_most_active = {'sortBy': 'postmarket_volume', 'sortOrder': 'desc'}
+
+class Scanner:
+    """
+    This class contains some of the most common stock-screeners, to use them you just need to call
+    `get_scanner_data()` on any given stock-screener.
+
+    Examples:
+
+    Get the full list of scanners:
+    >>> from tradingview_screener import Scanner
+    >>> Scanner.names()
+    ['premarket_gainers',
+     'premarket_losers',
+     'premarket_most_active',
+     'premarket_gappers',
+     'postmarket_gainers',
+     'postmarket_losers',
+     'postmarket_most_active']
+
+    Get the Pre-Market gainers
+    >>> Scanner.premarket_gainers.get_scanner_data()
+    (18060,
+              ticker  name  ...  premarket_change_abs  premarket_volume
+     0   NASDAQ:APLM  APLM  ...               0.72200          30551043
+     1      OTC:RNVA  RNVA  ...               0.00005            200000
+     2      OTC:OCLN  OCLN  ...               0.00690            220000
+     3   NASDAQ:BKYI  BKYI  ...               0.09740           8826676
+     4    NASDAQ:ICU   ICU  ...               0.28790           7527703
+     ..          ...   ...  ...                   ...               ...
+     45     OTC:BSEM  BSEM  ...               0.25000               200
+     46     NYSE:SWI   SWI  ...               0.76000              5425
+     47     NYSE:BPT   BPT  ...               0.45000               380
+     48    NYSE:HOUS  HOUS  ...               0.39000               200
+     49   NASDAQ:HCM   HCM  ...               1.40000              1950
+     [50 rows x 8 columns])
+
+    Get the most active tickers during the Post-Market session (highest volume)
+    >>> Scanner.postmarket_most_active.get_scanner_data()
+    (18060,
+              ticker  name  ...  postmarket_change_abs  postmarket_volume
+     0   NASDAQ:MCOM  MCOM  ...                -0.0001           12432509
+     1   NASDAQ:AAPL  AAPL  ...                -0.2000           10364140
+     2      AMEX:XLF   XLF  ...                -0.0100            8813170
+     3      NYSE:BAC   BAC  ...                -0.0100            8741713
+     4   NASDAQ:INTC  INTC  ...                -0.0600            8493758
+     ..          ...   ...  ...                    ...                ...
+     45      NYSE:PG    PG  ...                 0.2200            1895116
+     46     NYSE:BMY   BMY  ...                -0.0700            1875806
+     47  NASDAQ:TQQQ  TQQQ  ...                -0.0200            1870908
+     48   NASDAQ:WBD   WBD  ...                -0.0003            1865705
+     49    NYSE:SNAP  SNAP  ...                -0.0100            1852715
+     [50 rows x 8 columns])
+
+    """
+
+    premarket_gainers = (
+        Query()
+        .select(*DEFAULT_COLUMNS, 'premarket_change', 'premarket_change_abs', 'premarket_volume')
+        .order_by('premarket_change', ascending=False)
+    )
+    premarket_losers = (
+        Query()
+        .select(*DEFAULT_COLUMNS, 'premarket_change', 'premarket_change_abs', 'premarket_volume')
+        .order_by('premarket_change', ascending=True)
+    )
+    premarket_most_active = (
+        Query()
+        .select(*DEFAULT_COLUMNS, 'premarket_change', 'premarket_change_abs', 'premarket_volume')
+        .order_by('premarket_volume', ascending=False)
+    )
+    premarket_gappers = (
+        Query()
+        .select(*DEFAULT_COLUMNS, 'premarket_change', 'premarket_change_abs', 'premarket_volume')
+        .order_by('premarket_gap', ascending=False)
+    )
+
+    postmarket_gainers = (
+        Query()
+        .select(*DEFAULT_COLUMNS, 'postmarket_change', 'postmarket_change_abs', 'postmarket_volume')
+        .order_by('postmarket_change', ascending=False)
+    )
+    postmarket_losers = (
+        Query()
+        .select(*DEFAULT_COLUMNS, 'postmarket_change', 'postmarket_change_abs', 'postmarket_volume')
+        .order_by('postmarket_change', ascending=True)
+    )
+    postmarket_most_active = (
+        Query()
+        .select(*DEFAULT_COLUMNS, 'postmarket_change', 'postmarket_change_abs', 'postmarket_volume')
+        .order_by('postmarket_volume', ascending=False)
+    )
 
     @classmethod
     def names(cls) -> list[str]:
-        return [x.name for x in cls]
-
-    def get_data(self, **kwargs) -> pd.DataFrame:
-        cols = DEFAULT_API_SETTINGS['columns'].copy()
-        cols.insert(
-            1, self.value['sortBy']
-        )  # insert the column that we are sorting by, right after the symbol column
-        kwargs.setdefault('columns', cols)  # use `setdefault()` so the user can override this
-        return get_scanner_data(sort=self.value, **kwargs)[1]
-
-
-def get_scanner_data(**kwargs) -> tuple[int, pd.DataFrame]:
-    """
-    Get a dataframe with the scanner data directly from the API
-
-    :param kwargs: kwargs to override fields in the `local_settings` dictionary
-    :return: Pandas DataFrame
-    """
-    local_settings = DEFAULT_API_SETTINGS.copy()  # copy() to avoid modifying the global settings
-    local_settings.update(**kwargs)
-
-    r = requests.post(
-        URL.format(market='america'),
-        headers=HEADERS,
-        json=local_settings,
-        timeout=10,
-    )
-
-    if r.status_code >= 400:
-        r.reason += f'\n Body: {r.text}\n'  # add the body to the
-        r.raise_for_status()
-
-    json_obj = r.json()
-    rows_count = json_obj['totalCount']
-    data = json_obj['data']
-
-    if data is None:
-        return rows_count, pd.DataFrame(columns=local_settings['columns'])
-    return rows_count, pd.DataFrame(
-        data=(row['d'] for row in data), columns=local_settings['columns']
-    )
+        return [x for x in cls.__dict__.keys() if not x.startswith('_') and x != 'names']
 
 
 def get_all_symbols(market: str = 'america') -> list[str]:
@@ -69,6 +111,7 @@ def get_all_symbols(market: str = 'america') -> list[str]:
 
     Examples:
 
+    >>> from tradingview_screener import get_all_symbols
     >>> get_all_symbols()
     ['OTC:BMVVF',
      'OTC:BRQL',
@@ -80,7 +123,7 @@ def get_all_symbols(market: str = 'america') -> list[str]:
     >>> len(get_all_symbols())
     18060
 
-    The default market of is `america`, but you can change it with any market from
+    The default market is `america`, but you can change it with any market from
     `tradingview_screener.constants.MARKETS`:
     >>> get_all_symbols(market='switzerland')
     ['BX:DLY',
