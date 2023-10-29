@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+__all__ = ['Query', 'Column']
+
 import pprint
 from typing import TypedDict, Any, Literal, NotRequired
 
@@ -40,9 +42,77 @@ class QueryDict(TypedDict):
 class Column:
     """
     A Column object represents a field in the tradingview stock screener,
-    and it can be used in SELECT queries and FILTER queries with the `Query` object.
+    and it's used in SELECT queries and WHERE queries with the `Query` object.
 
-    # TODO: add examples for all possible filter operations
+    A `Column` supports all the comparison operations:
+    `<`, `<=`, `>`, `>=`, `==`, `!=`, and also the following methods:
+    `between`, `not_between`, and `isin`.
+
+    Examples:
+
+    >>> Query().select(Column('close'), Column('volume'), Column('52 Week High')).get_scanner_data()
+    (18060,
+               ticker      close     volume  price_52_week_high
+     0       AMEX:SPY     410.68  107367671            459.4400
+     1     NASDAQ:QQQ     345.31   63475390            387.9800
+     2    NASDAQ:TSLA     207.30   94879471            299.2900
+     3    NASDAQ:NVDA     405.00   41677185            502.6600
+     4    NASDAQ:AMZN     127.74  125309313            145.8600
+
+    Select all the stocks that the `close` is bigger or equal than 350
+    >>> (Query()
+    ...  .select(Column('close'), Column('volume'), Column('52 Week High'))
+    ...  .where(Column('close') < 350)
+    ...  .get_scanner_data())
+    (159,
+              ticker      close     volume  price_52_week_high
+     0      AMEX:SPY     410.68  107367671            459.4400
+     1   NASDAQ:NVDA     405.00   41677185            502.6600
+     2    NYSE:BRK.A  503375.05       7910         566569.9700
+     3      AMEX:IVV     412.55    5604525            461.8800
+     4      AMEX:VOO     377.32    5638752            422.1500
+
+    You can even use other columns in these kind of operations
+    >>> (Query()
+    ...  .select(Column('close'), Column('VWAP'))
+    ...  .where(Column('close') >= Column('VWAP'))
+    ...  .get_scanner_data())
+    (9043,
+               ticker   close        VWAP
+     0    NASDAQ:AAPL  168.22  168.003333
+     1    NASDAQ:META  296.73  296.336667
+     2   NASDAQ:GOOGL  122.17  121.895233
+     3     NASDAQ:AMD   96.43   96.123333
+     4    NASDAQ:GOOG  123.40  123.100000
+
+    Let's find all the stocks that the price is between the EMA 5 and 20
+    >>> (Query()
+    ...  .select(Column('close'), Column('volume'), Column('EMA5'), Column('EMA20'))
+    ...  .where(Column('close').between(Column('EMA5'), Column('EMA20')))
+    ...  .get_scanner_data())
+    (1953,
+              ticker     close     volume         EMA5        EMA20
+     0   NASDAQ:AMZN   127.740  125309313   125.033517   127.795142
+     1      AMEX:HYG    72.360   35621800    72.340776    72.671058
+     2      AMEX:LQD    99.610   21362859    99.554272   100.346388
+     3    NASDAQ:IEF    90.080   11628236    89.856804    90.391503
+     4      NYSE:SYK   261.910    3783608   261.775130   266.343290
+
+    We can also filter the tickers by type
+    >>> (Query()
+    ...  .select(Column('close'), Column('volume'), Column('type'))
+    ...  .where(
+    ...     Column('close').between(Column('EMA5'), Column('EMA20')),
+    ...     Column('type').isin(['stock', 'fund'])
+    ...  )
+    ...  .get_scanner_data())
+    (1728,
+              ticker     close     volume   type
+     0   NASDAQ:AMZN   127.740  125309313  stock
+     1      AMEX:HYG    72.360   35621800   fund
+     2      AMEX:LQD    99.610   21362859   fund
+     3    NASDAQ:IEF    90.080   11628236   fund
+     4      NYSE:SYK   261.910    3783608  stock
     """
 
     def __init__(self, name: str) -> None:
@@ -58,47 +128,81 @@ class Column:
         elif name in COLUMN_VALUES:
             self.name = name
         else:
+            # if you find a valid column name that is not inside `COLUMNS` please open an issue
+            # on GitHub
             raise ValueError(
                 f'{name!r} is not a valid column. Must be key/value in the `COLUMNS` dictionary.'
             )
+        (Query()
+         .select(Column('close'), Column('volume'), Column('type'))
+         .where(
+            Column('close').between(Column('EMA5'), Column('EMA20')),
+            Column('type').isin(['stock', 'fund'])
+         )
+         .get_scanner_data())
 
-    # if you find a valid column name that is not inside `COLUMNS` please open an issue on GitHub
-    @classmethod
-    def from_unknown_name(cls, name: str) -> Column:
-        """
-        Create a column object from a column name that isn't in the `COLUMNS` dictionary
+    # @classmethod
+    # def from_unknown_name(cls, name: str) -> Column:
+    #     """
+    #     Create a column object from a column name that isn't in the `COLUMNS` dictionary
+    #
+    #     :param name: string, column name
+    #     :return: Column
+    #     """
+    #     # close is just a temporary column, so it won't raise an error at `__init__`
+    #     column = cls(name='close')
+    #     column.name = name
+    #     return column
 
-        :param name: string, column name
-        :return: Column
-        """
-        # close is just a temporary column, so it won't raise an error at `__init__`
-        column = cls(name='close')
-        column.name = name
-        return column
+    @staticmethod
+    def _extract_value(obj) -> ...:
+        if isinstance(obj, Column):
+            return obj.name
+        return obj
 
     def __gt__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='greater', right=other)
+        return FilterOperationDict(
+            left=self.name, operation='greater', right=self._extract_value(other)
+        )
 
     def __ge__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='egreater', right=other)
+        return FilterOperationDict(
+            left=self.name, operation='egreater', right=self._extract_value(other)
+        )
 
     def __lt__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='less', right=other)
+        return FilterOperationDict(
+            left=self.name, operation='less', right=self._extract_value(other)
+        )
 
     def __le__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='eless', right=other)
+        return FilterOperationDict(
+            left=self.name, operation='eless', right=self._extract_value(other)
+        )
 
     def __eq__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='equal', right=other)
+        return FilterOperationDict(
+            left=self.name, operation='equal', right=self._extract_value(other)
+        )
 
     def __ne__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='nequal', right=other)
+        return FilterOperationDict(
+            left=self.name, operation='nequal', right=self._extract_value(other)
+        )
 
     def between(self, left, right) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='in_range', right=[left, right])
+        return FilterOperationDict(
+            left=self.name,
+            operation='in_range',
+            right=[self._extract_value(left), self._extract_value(right)],
+        )
 
     def not_between(self, left, right) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='not_in_range', right=[left, right])
+        return FilterOperationDict(
+            left=self.name,
+            operation='not_in_range',
+            right=[self._extract_value(left), self._extract_value(right)],
+        )
 
     def isin(self, values) -> FilterOperationDict:
         return FilterOperationDict(left=self.name, operation='in_range', right=list(values))
