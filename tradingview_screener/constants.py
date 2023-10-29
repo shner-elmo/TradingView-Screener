@@ -301,7 +301,12 @@ COLUMNS = {
     'currency': 'currency',
     'fundamental_currency_code': 'fundamental_currency_code',
 }  # TODO: test all columns
-COLUMN_VALUES = set(COLUMNS.values())
+"""
+These are all the columns available that you can use in your queries, 
+either by passing the key, e.g. "Volume Weighted Average Price",
+or by passing the value, e.g. "VWAP".
+"""
+_COLUMN_VALUES = set(COLUMNS.values())
 MARKETS = {
     'america',
     'argentina',
