@@ -4,7 +4,7 @@ name: website
 on:
   push:
     branches:
-      - '*'
+      - master
 
 # security: restrict permissions for CI jobs.
 permissions:
