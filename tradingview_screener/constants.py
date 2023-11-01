@@ -308,6 +308,16 @@ or by passing the value, e.g. "VWAP".
 """
 _COLUMN_VALUES = set(COLUMNS.values())
 MARKETS = {
+    'bonds',
+    'cfd',
+    'coin',
+    'crypto',
+    'economics2',
+    'euronext',
+    'forex',
+    'futures',
+    'options',
+
     'america',
     'argentina',
     'australia',
