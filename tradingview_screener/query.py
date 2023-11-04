@@ -56,8 +56,7 @@ class Column:
     and it's used in SELECT queries and WHERE queries with the `Query` object.
 
     A `Column` supports all the comparison operations:
-    `<`, `<=`, `>`, `>=`, `==`, `!=`, and also the following methods:
-    `between`, `not_between`, and `isin`.
+    `<`, `<=`, `>`, `>=`, `==`, `!=`, and also other methods like `between()`, `isin()`, etc.
 
     Examples:
 
@@ -138,11 +137,6 @@ class Column:
             left=self.name, operation='nequal', right=self._extract_value(other)
         )
 
-    def like(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='match', right=self._extract_value(other)
-        )
-
     def crosses(self, other) -> FilterOperationDict:
         return FilterOperationDict(
             left=self.name, operation='crosses', right=self._extract_value(other)
@@ -174,6 +168,11 @@ class Column:
 
     def isin(self, values) -> FilterOperationDict:
         return FilterOperationDict(left=self.name, operation='in_range', right=list(values))
+
+    def like(self, other) -> FilterOperationDict:
+        return FilterOperationDict(
+            left=self.name, operation='match', right=self._extract_value(other)
+        )
 
     def __repr__(self) -> str:
         return f'< Column({self.name!r}) >'
@@ -569,8 +568,8 @@ class Query:
     # def set_options(self, options) -> None:
     #     raise NotImplementedError
 
-    def get_scanner_data(self) -> tuple[int, pd.DataFrame]:
-        r = requests.post(self.url, headers=HEADERS, json=self.query, timeout=10)
+    def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
+        r = requests.post(self.url, headers=HEADERS, json=self.query, timeout=10, **kwargs)
 
         if r.status_code >= 400:
             # add the body to the error message for debugging purposes
@@ -599,6 +598,5 @@ class Query:
         return isinstance(other, Query) and self.query == other.query
 
 
-# TODO: add forex and cyrpto scanners [done]
-# TODO: add the following operators: `crosses`, `crosses_above`, `crosses_below`, `match` [done]
+# TODO: add all 3k fields
 # TODO: add multiple timeframes (1m, 5m, hour, day, week, month, etc.)
