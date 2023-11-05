@@ -8,7 +8,7 @@ from typing import TypedDict, Any, Literal, NotRequired
 import requests
 import pandas as pd
 
-from tradingview_screener.constants import COLUMNS, _COLUMN_VALUES, MARKETS, HEADERS, URL
+from tradingview_screener.constants import COLUMNS, MARKETS, HEADERS, URL
 
 
 class FilterOperationDict(TypedDict):
@@ -79,8 +79,6 @@ class Column:
         # dictionary value.
         if name in COLUMNS.keys():
             self.name = COLUMNS[name]
-        elif name in _COLUMN_VALUES:
-            self.name = name
         else:
             # if you find a valid column name that is not inside `COLUMNS` please open an issue
             # on GitHub
