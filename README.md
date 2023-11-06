@@ -14,8 +14,16 @@ API (without doing any kind of web-scraping/HTML-parsing).
 
 [//]: # (TODO: add a list of bullet points with the main features)
 
-You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html)  
-And the source can be found on [GitHub](https://github.com/shner-elmo/TradingView-Screener)
+You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html),
+and the source [GitHub](https://github.com/shner-elmo/TradingView-Screener).
+
+
+Some of its main features are:
+
+- Get data from **over 3000 fields**, including OHLC, indicators, and fundamental data, for a variety of markets, including equities, crypto, forex, futures, and bonds.
+- **Choose the timeframe** for each field, such as 1 minute, 5 minutes, 1 hour, or 1 day.
+- **Filter and sort** the results using SQL, a common database language.
+- **Create and save** screeners to easily monitor the markets and identify trading opportunities.
 
 
 ## Quick Guide
@@ -157,4 +165,41 @@ A more elaborate query:
  [20 rows x 5 columns])
 ```
 
-For more examples have a look at the [docs](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html)
+For more examples have a look [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener/query.html).
+
+
+# How it works
+
+When you call a method like `select()` or `where()` on the `Query` object,
+it updates a dictionary that contains all the data to send to the API.
+
+For example, the previous query creates the following dictionary:
+```py
+{
+    'markets': ['america'],
+    'symbols': {'query': {'types': []}, 'tickers': []},
+    'options': {'lang': 'en'},
+    'columns': ['name', 'close', 'volume', 'relative_volume_10d_calc'],
+    'sort': {'sortBy': 'volume', 'sortOrder': 'desc'},
+    'range': [5, 25],
+    'filter': [
+        {'left': 'market_cap_basic', 'operation': 'in_range', 'right': [1000000, 50000000]},
+        {'left': 'relative_volume_10d_calc', 'operation': 'greater', 'right': 1.2},
+        {'left': 'MACD.macd', 'operation': 'egreater', 'right': 'MACD.signal'},
+    ],
+}
+```
+
+When the `get_scanner_data()` method is called, it will dump that dictionary as a JSON and send it to the API.
+
+Using this package, you can access and query TradingView data with a simple SQL syntax, without needing to know the 
+details of the TradingView's API.
+
+
+# Rate limiting
+
+I have been asked if the API has a rate limit, and to be honest I don't know. I haven't had any issues with doing too many requests. 
+
+However, it is important to be mindful of the server load. When you are doing a query, 
+don't request more than 100 fields or more rows than you need. It's recommended to always use the `limit()` method.
+
