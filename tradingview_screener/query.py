@@ -77,27 +77,21 @@ class Column:
         """
         # if `name` is a dictionary key: get its value. otherwise make sure that it's a
         # dictionary value.
-        if name in COLUMNS.keys():
-            self.name = COLUMNS[name]
-        else:
-            # if you find a valid column name that is not inside `COLUMNS` please open an issue
-            # on GitHub
-            raise ValueError(
-                f'{name!r} is not a valid column. Must be key/value in the `COLUMNS` dictionary.'
-            )
+        self.name = COLUMNS.get(name, name)
 
-    @classmethod
-    def from_unknown_name(cls, name: str) -> Column:
-        """
-        Create a column object from a column name that isn't in the `COLUMNS` dictionary
-
-        :param name: string, column name
-        :return: Column
-        """
-        # close is just a temporary column, so it won't raise an error at `__init__`
-        column = cls(name='close')
-        column.name = name
-        return column
+    # disable this method and do the column/field validation through the server
+    # @classmethod
+    # def from_unknown_name(cls, name: str) -> Column:
+    #     """
+    #     Create a column object from a column name that isn't in the `COLUMNS` dictionary
+    #
+    #     :param name: string, column name
+    #     :return: Column
+    #     """
+    #     # close is just a temporary column, so it won't raise an error at `__init__`
+    #     column = cls(name='close')
+    #     column.name = name
+    #     return column
 
     @staticmethod
     def _extract_value(obj) -> ...:
@@ -594,7 +588,3 @@ class Query:
 
     def __eq__(self, other) -> bool:
         return isinstance(other, Query) and self.query == other.query
-
-
-# TODO: add all 3k fields
-# TODO: add multiple timeframes (1m, 5m, hour, day, week, month, etc.)
