@@ -9,7 +9,7 @@ HEADERS = {
     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'sec-ch-ua-mobile': '?0',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'
-                  'Chrome/98.0.4758.102 Safari/537.36',
+    'Chrome/98.0.4758.102 Safari/537.36',
     'sec-ch-ua-platform': '"Windows"',
     'origin': 'https://www.tradingview.com',
     'sec-fetch-site': 'same-site',
@@ -3444,6 +3444,10 @@ These are all the columns available that you can use in your queries,
 either by passing the key, e.g. "Volume Weighted Average Price",
 or by passing the value, e.g. "VWAP".
 
+One important thing to note is that some fields are available only with certain markets,
+for example `market_cap_basic` wont work with forex as you cant do the calculation `shares * 
+price`.
+
 You can choose the timeframe for some columns, such as the close price:
 
 | Timeframe | Column |
@@ -3458,10 +3462,6 @@ You can choose the timeframe for some columns, such as the close price:
 | 1 Day | `close` |
 | 1 Week | `close\|1W` |
 | 1 Month | `close\|1M` |
-
-The column does not have the '|' character; its timeframe is 1 day
-
----
 
 Get scanner data with different timeframes:
 ```py
