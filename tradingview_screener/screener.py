@@ -126,11 +126,27 @@ def get_all_symbols(market: str = 'america') -> list[str]:
     The default market is `america`, but you can change it with any market from
     `tradingview_screener.constants.MARKETS`:
     >>> get_all_symbols(market='switzerland')
-    ['BX:DLY',
-     'BX:DP4A',
-     'BX:1SQ',
-     'BX:49G',
+    ['BX:UN01',
+     'BX:XFNT',
+     'BX:ZPDE',
+     'BX:0QF',
+     'BX:BSN',
      ...
+
+    For instance, to get all the crypto tickers:
+    >>> get_all_symbols(market='crypto')
+    ['KRAKEN:KNCEUR',
+     'TRADERJOE:WETHEWAVAX_FE15C2',
+     'UNISWAP:DBIWETH_DEDF7B',
+     'KUCOIN:DIABTC',
+     'QUICKSWAP:WIXSWMATIC_F87B83.USD',
+     ...
+
+    >>> len(get_all_symbols(market='futures'))
+    75205
+
+    >>> len(get_all_symbols(market='bonds'))
+    1090
 
     >>> len(get_all_symbols(market='germany'))
     13251
