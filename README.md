@@ -12,19 +12,16 @@ pip install tradingview-screener
 This package allows you to create stock screeners with TradingView, and retrieve the data directly from the official
 API (without doing any kind of web-scraping/HTML-parsing).
 
-[//]: # (TODO: add a list of bullet points with the main features)
-
-You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html),
-and the source [GitHub](https://github.com/shner-elmo/TradingView-Screener).
-
-
 Some of its main features are:
 
-- Get data from **over 3000 fields**, including OHLC, indicators, and fundamental data, for a variety of markets, including equities, crypto, forex, futures, and bonds.
+- Get data from **over 3000 fields**, including OHLC, indicators, and fundamental data.
+- Variety of markets, including equities, crypto, forex, futures, and bonds.
 - **Choose the timeframe** for each field, such as 1 minute, 5 minutes, 1 hour, or 1 day.
 - **Filter and sort** the results using SQL, a common database language.
 - **Create and save** screeners to easily monitor the markets and identify trading opportunities.
 
+You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html),
+and the source on [GitHub](https://github.com/shner-elmo/TradingView-Screener).
 
 ## Quick Guide
 
@@ -200,6 +197,6 @@ details of the TradingView's API.
 
 I have been asked if the API has a rate limit, and to be honest I don't know. I haven't had any issues with doing too many requests. 
 
-However, it is important to be mindful of the server load. When you are doing a query, 
-don't request more than 100 fields or more rows than you need. It's recommended to always use the `limit()` method.
-
+However, it is important to be mindful of the server load.
+When you are doing a query, don't request too many fields or more rows than you need. 
+It's recommended to always use the `limit()` method.
