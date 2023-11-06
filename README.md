@@ -3,17 +3,19 @@
 [![Downloads](https://static.pepy.tech/badge/tradingview-screener)](https://pepy.tech/project/tradingview-screener)
 [![Downloads](https://static.pepy.tech/badge/tradingview-screener/month)](https://pepy.tech/project/tradingview-screener)
 
-You can get the package directly from [PyPI](https://pypi.org/project/tradezero-api/)
 ```
 pip install tradingview-screener
 ```
----
+
 ## About
 
 This package allows you to create stock screeners with TradingView, and retrieve the data directly from the official
 API (without doing any kind of web-scraping/HTML-parsing).
 
-You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html)
+[//]: # (TODO: add a list of bullet points with the main features)
+
+You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html)  
+And the source can be found on [GitHub](https://github.com/shner-elmo/TradingView-Screener)
 
 
 ## Quick Guide
