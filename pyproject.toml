@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tradingview-screener"
-version = "2.1.0"
+version = "2.2.0"
 description = "A package for creating stock screeners with the TradingView API"
 authors = ["shner-elmo <770elmo@gmail.com>"]
 license = "MIT"
