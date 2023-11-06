@@ -3444,49 +3444,47 @@ These are all the columns available that you can use in your queries,
 either by passing the key, e.g. "Volume Weighted Average Price",
 or by passing the value, e.g. "VWAP".
 
-You can choose the timeframe for some columns, for example for the close price we have a few 
-options:
+You can choose the timeframe for some columns, such as the close price:
 
-|Timeframe|Column|
-|-----------|-----------|
-|1 Minute|`close\|1`|
-|5 Minute|`close\|5`|
-|15 Minute|`close\|15`|
-|30 Minute|`close\|30`|
-|1 Hour|`close\|60`|
-|2 Hours|`close\|120`|
-|4 Hours|`close\|240`|
-|1 Day|`close`|
-|1 Week|`close\|1W`|
-|1 Month|`close\|1M`|
+| Timeframe | Column |
+|---|---|
+| 1 Minute | `close\|1` |
+| 5 Minutes | `close\|5` |
+| 15 Minutes | `close\|15` |
+| 30 Minutes | `close\|30` |
+| 1 Hour | `close\|60` |
+| 2 Hours | `close\|120` |
+| 4 Hours | `close\|240` |
+| 1 Day | `close` |
+| 1 Week | `close\|1W` |
+| 1 Month | `close\|1M` |
 
-Note that when the column dosent contain the `|` character, the timeframe is 1 Day.
+The column does not have the '|' character; its timeframe is 1 day
 
 ---
 
-[//]: # (TODO: regenerate this example while the market is open)
-
-You can use different timeframes in the same query using the API:
+Get scanner data with different timeframes:
 ```py
->>> from tradingview_screener import Query
->>> (Query()
-...  .select('close', 'close|1M', 'volume', 'volume|5', 'RSI5|15')
-...  .get_scanner_data())
+from tradingview_screener import Query
+
+(Query()
+ .select('close', 'close|1M', 'volume', 'volume|1', 'RSI5|15')
+ .get_scanner_data())
 ```
 ```
-(17919,
-          ticker   close  close|1M     volume  volume|5    RSI5|15
- 0      AMEX:SPY  434.69    434.69  100167748   5834947  23.263754
- 1   NASDAQ:TSLA  219.96    219.96  119531571   1686126  57.880603
- 2    NASDAQ:QQQ  367.71    367.71   53278832   1713149  31.611439
- 3   NASDAQ:NVDA  450.05    450.05   42460227    756035  43.028694
- 4   NASDAQ:AAPL  176.65    176.65   79829036   2273724  72.357683
- ..          ...     ...       ...        ...       ...        ...
- 45     AMEX:EFA   69.66     69.66   20752899   2201068  34.389284
- 46     AMEX:FXI   26.35     26.35   53456081   4639972  40.579409
- 47     AMEX:XLU   61.86     61.86   22573676   1405704  10.205700
- 48    NYSE:BILL   66.93     66.93   20830954    716998  66.228178
- 49     AMEX:DIA  340.61    340.61    4046874    237174  25.191080
+(17829,
+          ticker     close  close|1M    volume  volume|1    RSI5|15
+ 0   NASDAQ:TSLA  216.1350  216.1350  84218164     52082  23.958212
+ 1      AMEX:SPY  434.3900  434.3900  36438753     27719  33.231938
+ 2   NASDAQ:NVDA  452.2800  452.2800  27854819     15048  42.992968
+ 3    NASDAQ:QQQ  367.7600  367.7600  23474255     18785  38.779725
+ 4   NASDAQ:AAPL  178.3699  178.3699  38685909     17793  34.885195
+ ..          ...       ...       ...       ...       ...        ...
+ 45    NYSE:BABA   85.3250   85.3250   6816970      3318  20.488758
+ 46   NASDAQ:IEF   91.1496   91.1496   6256164      2511  37.831837
+ 47     NYSE:DIS   83.9100   83.9100   6776768      8429   5.136948
+ 48    AMEX:ARKK   39.3650   39.3650  14207531     20762  30.582295
+ 49     NYSE:UNH  532.9000  532.9000   1048587       384  44.263227
  [50 rows x 6 columns])
 ```
 """
