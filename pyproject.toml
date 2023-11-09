@@ -21,6 +21,10 @@ classifiers = [
 python = ">=3.9, <3.13"
 pandas = "^2.1.2"
 requests = "^2.31.0"
+typer = {version = "^0.9.0", extras = ["login"]}
+selenium = {version = "^4.15.2", extras = ["login"]}
+webdriver-manager = {version = "^4.0.1", extras = ["login"]}
+selenium-wire = {version = "^5.1.0", extras = ["login"]}
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.16.1"
