@@ -80,5 +80,10 @@ def login(username: Optional[str] = None, password: Optional[str] = None):
     driver.close()
 
 
+@app.command()
+def emtpy_command():
+    raise NotImplementedError
+
+
 if __name__ == '__main__':
     app()
