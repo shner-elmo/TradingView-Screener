@@ -561,7 +561,21 @@ class Query:
     #     raise NotImplementedError
 
     def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
-        r = requests.post(self.url, headers=HEADERS, json=self.query, timeout=10, **kwargs)
+        """
+        Perform a POST web-request and return the data from the API as a DataFrame.
+
+        Note that you can pass extra keyword-arguments that will be forwarded to `requests.post()`,
+        this can be very useful if you want to pass your own headers/cookies.
+
+        (if you have paid for a live data add-on with TradingView, you want to pass your own
+        headers and cookies to access that real-time data)
+
+        :param kwargs: kwargs to pass to `requests.post()`
+        :return: a tuple consisting of: (total_count, dataframe)
+        """
+        kwargs.setdefault('headers', HEADERS)
+        kwargs.setdefault('timeout', 20)
+        r = requests.post(self.url, json=self.query, **kwargs)
 
         if r.status_code >= 400:
             # add the body to the error message for debugging purposes
