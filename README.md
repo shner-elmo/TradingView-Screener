@@ -7,7 +7,7 @@
 pip install tradingview-screener
 ```
 
-## About
+# About
 
 This package allows you to create stock screeners with TradingView, and retrieve the data directly from the official
 API (without doing any kind of web-scraping/HTML-parsing).
@@ -23,9 +23,9 @@ Some of its main features are:
 You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html),
 and the source on [GitHub](https://github.com/shner-elmo/TradingView-Screener).
 
-## Quick Guide
+# Quickstart
 
-### Builtin Stock Scanners
+## Builtin stock scanners
 
 ```python
 from tradingview_screener import Scanner
@@ -96,7 +96,7 @@ If you aren't yet familiar with Pandas DataFrames, you can convert the output to
 ]
 ```
 
-### Creating Custom Stock Screeners
+## Creating custom stock screeners
 
 ```python
 from tradingview_screener import Query, Column
@@ -126,10 +126,9 @@ Create a query (like you would in a SQL database):
  [50 rows x 6 columns])
 ```
 
-As you may have noticed, there are only 50 rows in our dataframe, while `num_rows` is 5271,  
-this is because by default there is a `LIMIT` of 50, although you can override that by providing your own.
-But, note that the more results you try to fetch, the more work the server needs to do, and therefore the network request
-will take more time, so It's something to keep in mind.
+Our dataframe only contains 50 rows, even though there are 5271 rows in total. 
+This is because the default LIMIT is 50, but you can change this by providing your own value. 
+However, keep in mind that the more rows you request, the longer the server will take to respond.
 
 A more elaborate query:
 ```python
@@ -164,6 +163,8 @@ A more elaborate query:
 
 For more examples have a look [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener/query.html).
 
+---
+
 
 # How it works
 
@@ -190,7 +191,7 @@ For example, the previous query creates the following dictionary:
 When the `get_scanner_data()` method is called, it will dump that dictionary as a JSON and send it to the API.
 
 Using this package, you can access and query TradingView data with a simple SQL syntax, without needing to know the 
-details of the TradingView's API.
+details of TradingView's API.
 
 
 # Rate limiting
