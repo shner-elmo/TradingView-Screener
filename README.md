@@ -127,8 +127,12 @@ Create a query (like you would in a SQL database):
 ```
 
 Our dataframe only contains 50 rows, even though there are 5271 rows in total. 
-This is because the default LIMIT is 50, but you can change this by providing your own value. 
-However, keep in mind that the more rows you request, the longer the server will take to respond.
+This is because the default LIMIT is 50, but you can change that if you need to. 
+Just keep in mind that the more rows you request, the heavier the load you're putting on the server, and the longer 
+it will take to respond. 
+And if you request too many rows, you might even get banned, so don't get crazy.
+
+
 
 A more elaborate query:
 ```python
@@ -192,12 +196,3 @@ When the `get_scanner_data()` method is called, it will dump that dictionary as 
 
 Using this package, you can access and query TradingView data with a simple SQL syntax, without needing to know the 
 details of TradingView's API.
-
-
-# Rate limiting
-
-I have been asked if the API has a rate limit, and to be honest I don't know. I haven't had any issues with doing too many requests. 
-
-However, it is important to be mindful of the server load.
-When you are doing a query, don't request too many fields or more rows than you need. 
-It's recommended to always use the `limit()` method.
