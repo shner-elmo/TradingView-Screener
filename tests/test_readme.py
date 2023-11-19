@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import re
 
+import pandas as pd
 
-def main():
-    with open('../README.md', 'r') as f:
+
+def test_readme_examples():
+    with open('README.md', 'r', encoding='utf8') as f:
         source = f.read()
 
     matches = re.findall(r'(?<=```python)(.*?)(?=```)', source, re.DOTALL)
@@ -15,7 +17,10 @@ def main():
             line = line.strip().lstrip('>>> ')
             lines.append(line)
 
+    pd.options.display.max_rows = 10  # hard limit, even on small DFs
+
     code = '\n'.join(lines)
+    print(code)
 
     assert '>>>' not in code, 'cleaning failed'
 
