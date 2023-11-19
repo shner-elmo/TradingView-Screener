@@ -3,7 +3,7 @@ from __future__ import annotations
 __all__ = ['Query', 'Column']
 
 import pprint
-from typing import TypedDict, Any, Literal, NotRequired
+from typing import TypedDict, Any, Literal
 
 import requests
 import pandas as pd
@@ -41,13 +41,13 @@ class QueryDict(TypedDict):
     """
 
     # TODO: test which optional ...
-    markets: NotRequired[list[str]]
-    symbols: NotRequired[dict]
-    options: NotRequired[dict]
-    columns: NotRequired[list[str]]
-    filter: NotRequired[list[FilterOperationDict]]
-    sort: NotRequired[SortByDict]
-    range: NotRequired[list[int]]  # a list with two integers, i.e. `[0, 100]`
+    markets: list[str]
+    symbols: dict
+    options: dict
+    columns: list[str]
+    filter: list[FilterOperationDict]
+    sort: SortByDict
+    range: list[int]  # a with two integers, i.e. `[0, 100]`
 
 
 class Column:
@@ -526,6 +526,7 @@ class Query:
         :return: Self
         """
         # no need to select the market if we specify the symbol we want
+        # noinspection PyTypedDict
         self.query.pop('markets', None)
 
         self.query['symbols'] = {'tickers': list(tickers)}
