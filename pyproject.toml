@@ -5,7 +5,7 @@ description = "A package for creating stock screeners with the TradingView API"
 authors = ["shner-elmo <770elmo@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "tradingview_screener"}]
+packages = [{include = "tradingview_screener", from = "src"}]
 repository = "https://github.com/shner-elmo/TradingView-Screener"
 documentation = "https://github.com/shner-elmo/TradingView-Screener/blob/master/README.md"
 classifiers = [
