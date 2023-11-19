@@ -1,5 +1,5 @@
 
-[![PyPi](https://img.shields.io/badge/PyPi-2.3.0-yellow)](https://pypi.org/project/tradingview-screener/)
+[![PyPi](https://img.shields.io/badge/PyPi-2.3.1-yellow)](https://pypi.org/project/tradingview-screener/)
 [![Downloads](https://static.pepy.tech/badge/tradingview-screener)](https://pepy.tech/project/tradingview-screener)
 [![Downloads](https://static.pepy.tech/badge/tradingview-screener/month)](https://pepy.tech/project/tradingview-screener)
 
