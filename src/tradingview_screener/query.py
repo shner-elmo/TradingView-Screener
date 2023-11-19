@@ -476,19 +476,19 @@ class Query:
         :param markets: one or more markets from `tradingview_screener.constants.MARKETS`
         :return: Self
         """
-        match markets:
-            case [single_market]:
-                assert single_market in MARKETS
+        if len(markets) == 1:
+            market = markets[0]
+            assert market in MARKETS
 
-                self.url = URL.format(market=single_market)
-                self.query['markets'] = [single_market]
+            self.url = URL.format(market=market)
+            self.query['markets'] = [market]
 
-            case [*multiple_markets]:
-                for m in multiple_markets:
-                    assert m in MARKETS
+        elif len(markets) >= 1:
+            for m in markets:
+                assert m in MARKETS
 
-                self.url = URL.format(market='global')
-                self.query['markets'] = multiple_markets
+            self.url = URL.format(market='global')
+            self.query['markets'] = list(markets)
 
         return self
 
