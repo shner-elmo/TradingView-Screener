@@ -6,7 +6,7 @@ import pandas as pd
 
 
 def test_readme_examples():
-    with open('../README.md', 'r', encoding='utf8') as f:
+    with open('README.md', 'r', encoding='utf8') as f:
         source = f.read()
 
     matches = re.findall(r'(?<=```python)(.*?)(?=```)', source, re.DOTALL)
