@@ -3487,4 +3487,87 @@ from tradingview_screener import Query
  49     NYSE:UNH  532.9000  532.9000   1048587       384  44.263227
  [50 rows x 6 columns])
 ```
+
+---
+
+
+## How to find a given column and format it like in the website
+
+
+This tutorial will show you how to find the "Technical Rating" column.
+
+1. **Locate the Column**: Use `ctrl` + `f` to search for the desired column in the file `tradingview_screener/constants.py`. In this case, the column is named `Recommend.All`.
+
+2. **Raw Data vs. Formatted Data**: This package retrieves raw data directly from TradingView's API. The website then uses JavaScript to format the values for user readability.
+
+3. **Formatting the Data**: You'll need to create a custom function to convert the raw rating values into human-readable strings like "Buy" or "Sell".
+
+---
+
+The raw data:
+```py
+from tradingview_screener import Query
+
+count, df = Query().select('Recommend.All').get_scanner_data()
+print(df)
+```
+```
+         ticker  Recommend.All
+0      AMEX:SPY       0.466667
+1   NASDAQ:TSLA       0.512121
+2    NASDAQ:QQQ       0.466667
+3   NASDAQ:NVDA       0.378788
+4    NASDAQ:AMD       0.557576
+..          ...            ...
+45     NYSE:CRM       0.490909
+46     NYSE:UNH       0.400000
+47  NASDAQ:CRSP      -0.024242
+48  NASDAQ:VCIT       0.354545
+49     NYSE:BAC       0.557576
+
+[50 rows x 2 columns]
+```
+
+And the data nicely formatted:
+```py
+# define a function to format rating values
+def format_technical_rating(rating: float) -> str:
+    if rating >= 0.5:
+        return 'Strong Buy'
+    elif rating >= 0.1:
+        return 'Buy'
+    elif rating >= -0.1:
+        return 'Neutral'
+    elif rating >= -0.5:
+        return 'Sell'
+    else:
+        return 'Strong Sell'
+
+
+# apply the formatting function to the column
+df['rating'] = df['Recommend.All'].apply(format_technical_rating)
+
+print(df)
+```
+```
+         ticker  Recommend.All      rating
+0      AMEX:SPY       0.466667         Buy
+1   NASDAQ:TSLA       0.512121  Strong Buy
+2    NASDAQ:QQQ       0.466667         Buy
+3   NASDAQ:NVDA       0.378788         Buy
+4    NASDAQ:AMD       0.557576  Strong Buy
+..          ...            ...         ...
+45     NYSE:CRM       0.490909         Buy
+46     NYSE:UNH       0.400000         Buy
+47  NASDAQ:CRSP      -0.024242     Neutral
+48  NASDAQ:VCIT       0.354545         Buy
+49     NYSE:BAC       0.557576  Strong Buy
+
+[50 rows x 3 columns]
+```
+
+And just like that we got the same data as in the website, you can follow the same process for 
+any other field.
+
+You are more than welcome to open a PR to add more formatters.
 """
