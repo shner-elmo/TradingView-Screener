@@ -37,7 +37,6 @@ MARKETS = {
     'coin',
     'crypto',
     'economics2',
-    'euronext',
     'forex',
     'futures',
     'options',
