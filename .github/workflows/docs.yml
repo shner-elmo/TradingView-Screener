@@ -24,7 +24,7 @@ jobs:
       - run: curl -sSL https://install.python-poetry.org | python3 -
       - run: poetry install
       # build your documentation into docs/.
-      - run: poetry run pdoc tradingview_screener/ -o docs/
+      - run: poetry run pdoc tradingview_screener/ -o docs/ -t templates/
 
       - uses: actions/upload-pages-artifact@v1
         with:

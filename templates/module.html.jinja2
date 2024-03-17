@@ -1,0 +1,19 @@
+{#
+We want to extend the default template instead of defining everything ourselves.
+#}
+{% extends "default/module.html.jinja2" %}
+
+{% block nav_title %}
+<script type="text/javascript">
+window.onload = function() {
+    let ul = document.evaluate("//h2[text() = 'Submodules']/following-sibling::ul", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    let li = document.createElement("li");
+    let a = document.createElement("a");
+    a.setAttribute('href', '../static/columns.html');
+    let text = document.createTextNode("columns");
+    a.appendChild(text);
+    li.appendChild(a);
+    ul.appendChild(li);
+}
+</script>
+{% endblock %}
