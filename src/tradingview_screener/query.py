@@ -3,7 +3,7 @@ from __future__ import annotations
 __all__ = ['Query', 'Column']
 
 import pprint
-from typing import TypedDict, Any, Literal
+from typing import TYPE_CHECKING
 
 import requests
 import pandas as pd
@@ -11,43 +11,59 @@ import pandas as pd
 from tradingview_screener.constants import COLUMNS, MARKETS, HEADERS, URL
 
 
-class FilterOperationDict(TypedDict):
-    left: str
-    operation: Literal[
-        'greater',
-        'egreater',
-        'less',
-        'eless',
-        'equal',
-        'nequal',
-        'in_range',
-        'not_in_range',
-        'match',  # the same as: `LOWER(col) LIKE '%pattern%'`
-        'crosses',
-        'crosses_above',
-        'crosses_below',
-    ]
-    right: Any
+if TYPE_CHECKING:
+    from typing import TypedDict, Any, Literal, Optional, NotRequired, Iterable
+
+    class FilterOperationDict(TypedDict):
+        left: str
+        operation: Literal[
+            'greater',
+            'egreater',
+            'less',
+            'eless',
+            'equal',
+            'nequal',
+            'in_range',
+            'not_in_range',
+            'match',  # the same as: `LOWER(col) LIKE '%pattern%'`
+            'crosses',
+            'crosses_above',
+            'crosses_below',
+            'above%',
+            'below%',
+            'in_range%',
+            'has',  # set must contain one of the values
+            'has_none_of',  # set must NOT contain ANY of the values
+        ]
+        right: Any
+
+    class SortByDict(TypedDict):
+        sortBy: str
+        sortOrder: Literal['asc', 'desc']
+        nullsFirst: NotRequired[bool]
+
+    class SymbolsDict(TypedDict, total=False):
+        query: dict[Literal['types'], list]
+        tickers: list[str]
+        symbolset: list[str]
+
+    class QueryDict(TypedDict, total=False):
+        """
+        The fields that can be passed to the tradingview scan API
+        """
+
+        markets: list[str]
+        symbols: dict
+        options: dict[str, Any]  # example: `{"options": {"lang": "en"}}`
+        columns: list[str]
+        filter: list[FilterOperationDict]
+        sort: SortByDict
+        range: list[int]  # list with two integers, i.e. `[0, 100]`
+        ignore_unknown_fields: bool  # default false
+        preset: Literal['index_components_market_pages', 'pre-market-gainers']
 
 
-class SortByDict(TypedDict):
-    sortBy: str
-    sortOrder: Literal['asc', 'desc']
-
-
-class QueryDict(TypedDict):
-    """
-    The fields that can be passed to the tradingview scan API
-    """
-
-    # TODO: test which optional ...
-    markets: list[str]
-    symbols: dict
-    options: dict
-    columns: list[str]
-    filter: list[FilterOperationDict]
-    sort: SortByDict
-    range: list[int]  # a with two integers, i.e. `[0, 100]`
+DEFAULT_RANGE = [0, 50]
 
 
 class Column:
@@ -94,77 +110,121 @@ class Column:
     #     return column
 
     @staticmethod
-    def _extract_value(obj) -> ...:
+    def _extract_name(obj) -> ...:
         if isinstance(obj, Column):
             return obj.name
         return obj
 
     def __gt__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='greater', right=self._extract_value(other)
-        )
+        return {'left': self.name, 'operation': 'greater', 'right': self._extract_name(other)}
 
     def __ge__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='egreater', right=self._extract_value(other)
-        )
+        return {'left': self.name, 'operation': 'egreater', 'right': self._extract_name(other)}
 
     def __lt__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='less', right=self._extract_value(other)
-        )
+        return {'left': self.name, 'operation': 'less', 'right': self._extract_name(other)}
 
     def __le__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='eless', right=self._extract_value(other)
-        )
+        return {'left': self.name, 'operation': 'eless', 'right': self._extract_name(other)}
 
-    def __eq__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='equal', right=self._extract_value(other)
-        )
+    def __eq__(self, other) -> FilterOperationDict:  # pyright: ignore [reportIncompatibleMethodOverride]
+        return {'left': self.name, 'operation': 'equal', 'right': self._extract_name(other)}
 
-    def __ne__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='nequal', right=self._extract_value(other)
-        )
+    def __ne__(self, other) -> FilterOperationDict:  # pyright: ignore [reportIncompatibleMethodOverride]
+        return {'left': self.name, 'operation': 'nequal', 'right': self._extract_name(other)}
 
     def crosses(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='crosses', right=self._extract_value(other)
-        )
+        return {'left': self.name, 'operation': 'crosses', 'right': self._extract_name(other)}
 
     def crosses_above(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='crosses_above', right=self._extract_value(other)
-        )
+        return {
+            'left': self.name,
+            'operation': 'crosses_above',
+            'right': self._extract_name(other),
+        }
 
     def crosses_below(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='crosses_below', right=self._extract_value(other)
-        )
+        return {
+            'left': self.name,
+            'operation': 'crosses_below',
+            'right': self._extract_name(other),
+        }
+
+    def _impl_above_below_pct(
+        self, operation: Literal['above%', 'below%'], column: Column | str, pct1, pct2=None
+    ) -> FilterOperationDict:
+        if pct2:
+            return {
+                'left': self.name,
+                'operation': 'in_range%',
+                'right': [self._extract_name(column), *sorted([pct1, pct2])],
+            }
+        return {
+            'left': self.name,
+            'operation': operation,
+            'right': [self._extract_name(column), pct1],
+        }
+
+    def above_pct(
+        self, column: Column | str, pct1: float, pct2: Optional[float] = None
+    ) -> FilterOperationDict:
+        """
+        Examples:
+
+        The closing price is higher than the VWAP by more than 3%
+        >>> Column('close').above_pct('VWAP', 1.03)
+
+        The percentage change between the Close and the EMA is between 20% and 50%
+        >>> Column('close').above_pct('EMA200', 1.2, 1.5)
+
+        closing price is above the 52-week-low by more than 150%
+        >>> Column('close').above_pct('price_52_week_low', 2.5)
+        """
+        return self._impl_above_below_pct('above%', column=column, pct1=pct1, pct2=pct2)
+
+    def below_pct(
+        self, column: Column | str, pct1, pct2: Optional[float] = None
+    ) -> FilterOperationDict:
+        """
+        Examples:
+
+        TODO
+        """
+        return self._impl_above_below_pct('below%', column=column, pct1=pct1, pct2=pct2)
+
+    def has(self, values: Iterable) -> FilterOperationDict:
+        """
+        Field contains any of the values
+
+        (it's the same as isin(), except that it works on fields of type `set`)
+        """
+        return {'left': self.name, 'operation': 'has', 'right': list(values)}
+
+    def has_none_of(self, values: Iterable) -> FilterOperationDict:
+        """
+        Field doesn't contain any of the values
+        """
+        return {'left': self.name, 'operation': 'has_none_of', 'right': list(values)}
 
     def between(self, left, right) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name,
-            operation='in_range',
-            right=[self._extract_value(left), self._extract_value(right)],
-        )
+        return {
+            'left': self.name,
+            'operation': 'in_range',
+            'right': [self._extract_name(left), self._extract_name(right)],
+        }
 
     def not_between(self, left, right) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name,
-            operation='not_in_range',
-            right=[self._extract_value(left), self._extract_value(right)],
-        )
+        return {
+            'left': self.name,
+            'operation': 'not_in_range',
+            'right': [self._extract_name(left), self._extract_name(right)],
+        }
 
-    def isin(self, values) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='in_range', right=list(values))
+    def isin(self, values: Iterable) -> FilterOperationDict:
+        return {'left': self.name, 'operation': 'in_range', 'right': list(values)}
 
     def like(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='match', right=self._extract_value(other)
-        )
+        return {'left': self.name, 'operation': 'match', 'right': self._extract_name(other)}
 
     def __repr__(self) -> str:
         return f'< Column({self.name!r}) >'
@@ -363,7 +423,7 @@ class Query:
         This method allows you to select the market/s which you want to query.
 
         By default, the screener will only scan US equities, but you can change it to scan any
-        or even multiple markets, that includes a list of 67 countries, and also the following 
+        or even multiple markets, that includes a list of 67 countries, and also the following
         commodities: `bonds`, `cfd`, `coin`, `crypto`, `economics2`, `euronext`, `forex`,
         `futures`, `options`.
 
@@ -478,15 +538,9 @@ class Query:
         """
         if len(markets) == 1:
             market = markets[0]
-            assert market in MARKETS
-
             self.url = URL.format(market=market)
             self.query['markets'] = [market]
-
-        elif len(markets) >= 1:
-            for m in markets:
-                assert m in MARKETS
-
+        else:  # len(markets) == 0 or len(markets) > 1
             self.url = URL.format(market='global')
             self.query['markets'] = list(markets)
 
@@ -498,39 +552,45 @@ class Query:
 
         Examples:
 
-        >>> Query().limit(5).get_scanner_data()
-        (17879,
-                 ticker  name   close     volume  market_cap_basic
-         0  NASDAQ:TSLA  TSLA  248.50  118559595      7.887376e+11
-         1     AMEX:SPY   SPY  445.52   62066984               NaN
-         2  NASDAQ:NVDA  NVDA  455.72   47389801      1.125628e+12
-         3   NASDAQ:QQQ   QQQ  372.58   35846281               NaN
-         4  NASDAQ:AAPL  AAPL  178.18   65600673      2.785707e+12)
-
         >>> q = Query().select('name', 'market', 'close', 'volume', 'VWAP', 'MACD.macd')
         >>> q.set_tickers('NASDAQ:TSLA').get_scanner_data()
-        (2,
-                 ticker  name   market   close     volume        VWAP  MACD.macd
-         0  NASDAQ:TSLA  TSLA  america  248.50  118559595  250.563333   0.730376
-         1  NASDAQ:NVDA  NVDA  america  455.72   47389801  458.163333   7.927189)
+        (1,
+                 ticker  name   market   close    volume    VWAP  MACD.macd
+         0  NASDAQ:TSLA  TSLA  america  147.05  87067667  148.07  -7.084974)
 
         >>> q.set_tickers('NYSE:GME', 'AMEX:SPY', 'MIL:RACE', 'HOSE:VIX').get_scanner_data()
         (4,
-              ticker  name   market     close    volume          VWAP    MACD.macd
-         0  HOSE:VIX   VIX  vietnam  19800.00  26292400  19883.333333  1291.359459
-         1  AMEX:SPY   SPY  america    445.52  62066984    445.720000     0.484263
-         2  NYSE:GME   GME  america     17.71   4693902     17.853333    -0.660342
-         3  MIL:RACE  RACE    italy    279.30    246547    279.033327    -1.398701)
+              ticker  name   market     close     volume          VWAP   MACD.macd
+         0  HOSE:VIX   VIX  vietnam  16300.00   47414700  16500.000000 -555.964349
+         1  AMEX:SPY   SPY  america    495.16  102212352    496.491667   -3.161249
+         2  MIL:RACE  RACE    italy    387.20     327247    387.866667    1.148431
+         3  NYSE:GME   GME  america     10.42    2462726     10.371667   -0.944336)
 
         :param tickers: One or more tickers, syntax: `exchange:symbol`
         :return: Self
         """
         # no need to select the market if we specify the symbol we want
-        # noinspection PyTypedDict
         self.query.pop('markets', None)
 
-        self.query['symbols'] = {'tickers': list(tickers)}
-        self.url = 'https://scanner.tradingview.com/global/scan'
+        self.query.setdefault('symbols', {})['tickers'] = list(tickers)
+        self.url = URL.format(market='global')
+        return self
+
+    def set_property(self, key: str, value: Any) -> Query:
+        self.query[key] = value
+        return self
+
+    def set_index(self, *indexes: str) -> Query:
+        """
+
+        :param indexes:
+        :return:
+        """
+        # no need to select the market if we specify the symbol we want
+        self.query.pop('markets', None)
+        self.query.setdefault('preset', 'index_components_market_pages')
+        self.query.setdefault('symbols', {})['symbolset'] = list(indexes)
+        self.url = URL.format(market='global')
         return self
 
     def select(self, *columns: Column | str) -> Query:
@@ -543,19 +603,32 @@ class Query:
         self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
         return self
 
-    def order_by(self, column: Column | str, ascending: bool = True) -> Query:
-        column = column.name if isinstance(column, Column) else Column(column).name
-        sort_order = 'asc' if ascending else 'desc'
-        # noinspection PyTypeChecker
-        self.query['sort'] = SortByDict(sortBy=column, sortOrder=sort_order)
+    def order_by(
+        self, column: Column | str, ascending: bool = True, nulls_first: Optional[bool] = None
+    ) -> Query:
+        """
+        # TODO add docu
+
+        :param column:
+        :param ascending:
+        :param nulls_first:
+        :return:
+        """
+        dct: SortByDict = {
+            'sortBy': column.name if isinstance(column, Column) else column,  # noqa
+            'sortOrder': 'asc' if ascending else 'desc',
+        }
+        if nulls_first is not None:
+            dct['nullsFirst'] = nulls_first
+        self.query['sort'] = dct
         return self
 
     def offset(self, offset: int) -> Query:
-        self.query['range'][0] = offset
+        self.query.setdefault('range', DEFAULT_RANGE.copy())[0] = offset
         return self
 
     def limit(self, limit: int) -> Query:
-        self.query['range'][1] = limit
+        self.query.setdefault('range', DEFAULT_RANGE.copy())[1] = limit
         return self
 
     # def set_options(self, options) -> None:
@@ -568,17 +641,23 @@ class Query:
         Note that you can pass extra keyword-arguments that will be forwarded to `requests.post()`,
         this can be very useful if you want to pass your own headers/cookies.
 
-        (if you have paid for a live data add-on with TradingView, you want to pass your own
-        headers and cookies to access that real-time data)
+        ### Live/Delayed data
+
+        If you have paid for a live data add-on with TradingView, you want to pass your own
+        headers and cookies to access that real-time data, otherwise you
+
+
 
         :param kwargs: kwargs to pass to `requests.post()`
         :return: a tuple consisting of: (total_count, dataframe)
         """
+        self.query.setdefault('range', DEFAULT_RANGE.copy())
+
         kwargs.setdefault('headers', HEADERS)
         kwargs.setdefault('timeout', 20)
         r = requests.post(self.url, json=self.query, **kwargs)
 
-        if r.status_code >= 400:
+        if not r.ok:
             # add the body to the error message for debugging purposes
             r.reason += f'\n Body: {r.text}\n'
             r.raise_for_status()
@@ -589,7 +668,7 @@ class Query:
 
         df = pd.DataFrame(
             data=([row['s'], *row['d']] for row in data),
-            columns=['ticker', *self.query.get('columns', ())],
+            columns=['ticker', *self.query.get('columns', ())],  # pyright: ignore [reportArgumentType]
         )
         return rows_count, df
 
@@ -603,3 +682,13 @@ class Query:
 
     def __eq__(self, other) -> bool:
         return isinstance(other, Query) and self.query == other.query
+
+
+# TODO: should it return self.copy()?
+# TODO: calling select() twice with different args should overwrite or append/extend?
+# TODO: move `Query` to separate module
+# TODO: should get_scanner_data() return the raw data instead of DF?
+# TODO: Query should have no defaults (except limit), and a separate module should have all the
+#  default screeners
+# TODO: return `Self` instead of `Query`?
+# TODO: add all presets
