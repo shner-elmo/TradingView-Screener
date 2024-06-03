@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 import re
+import tradingview_screener
+from pathlib import Path
 
 import pandas as pd
 
 
 def test_readme_examples():
-    with open('README.md', 'r', encoding='utf8') as f:
-        source = f.read()
+    readme = Path(tradingview_screener.__file__).parents[2] / 'README.md'
+    source = readme.read_text(encoding='utf-8')
 
     matches = re.findall(r'(?<=```python)(.*?)(?=```)', source, re.DOTALL)
 
@@ -29,6 +31,6 @@ def test_readme_examples():
 
 
 if __name__ == '__main__':
-    main()
+    test_readme_examples()
 
 # TODO: add this to CI/CD (with GH actions)
