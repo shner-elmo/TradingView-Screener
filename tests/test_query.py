@@ -1,6 +1,6 @@
 import pytest
 
-from tradingview_screener.query import Query, Column
+from tradingview_screener.query import Query, Column, And, Or
 
 
 @pytest.mark.parametrize(
@@ -18,20 +18,9 @@ def test_set_markets(markets: list[str], expected_url: str):
     q = Query().set_markets(*markets)
 
     assert q.url == expected_url
-    assert q.query['markets'] == markets
+    assert q.query['markets'] == markets  # pyright: ignore [reportTypedDictNotRequiredAccess]
 
 
-# @pytest.mark.parametrize(
-#     ['markets', 'expected_url'],
-#     [
-#         (['crypto'], 'https://scanner.tradingview.com/crypto/scan'),
-#         (['forex'], 'https://scanner.tradingview.com/forex/scan'),
-#         (['america'], 'https://scanner.tradingview.com/america/scan'),
-#         (['israel'], 'https://scanner.tradingview.com/israel/scan'),
-#         (['america', 'israel'], 'https://scanner.tradingview.com/global/scan'),
-#         (['crypto', 'israel'], 'https://scanner.tradingview.com/global/scan'),
-#     ],
-# )
 def test_limit_and_offset():
     from tradingview_screener.query import DEFAULT_RANGE
 
@@ -103,3 +92,106 @@ def test_get_scanner_data():
 
     with pytest.raises(HTTPError):
         Query().limit(-5).get_scanner_data()
+
+
+def test_and_or_chaining():
+    q = Query().where2(
+        Or(
+            And(Column('type') == 'stock', Column('typespecs').has(['common'])),
+            And(Column('type') == 'stock', Column('typespecs').has(['preferred'])),
+            And(Column('type') == 'dr'),
+            And(Column('type') == 'fund', Column('typespecs').has_none_of(['etf'])),
+        )
+    )
+    # this dictionary/JSON was taken from the website, to make sure its reproduced correctly from
+    # the function calls.
+    dct = {
+        'operator': 'and',
+        'operands': [
+            {
+                'operation': {
+                    'operator': 'or',
+                    'operands': [
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'stock',
+                                        }
+                                    },
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has',
+                                            'right': ['common'],
+                                        }
+                                    },
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'stock',
+                                        }
+                                    },
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has',
+                                            'right': ['preferred'],
+                                        }
+                                    },
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'dr',
+                                        }
+                                    }
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'fund',
+                                        }
+                                    },
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has_none_of',
+                                            'right': ['etf'],
+                                        }
+                                    },
+                                ],
+                            }
+                        },
+                    ],
+                }
+            }
+        ],
+    }
+    assert q.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]

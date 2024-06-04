@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-__all__ = ['Query', 'Column']
+__all__ = ['Query', 'Column', 'And', 'Or']
 
 import pprint
 from typing import TYPE_CHECKING
@@ -47,6 +47,16 @@ if TYPE_CHECKING:
         tickers: list[str]
         symbolset: list[str]
 
+    class ExpressionDict(TypedDict):
+        expression: FilterOperationDict
+
+    class OperationComparisonDict(TypedDict):
+        operator: Literal['and', 'or']
+        operands: list[OperationDict | ExpressionDict]
+
+    class OperationDict(TypedDict):
+        operation: OperationComparisonDict
+
     class QueryDict(TypedDict, total=False):
         """
         The fields that can be passed to the tradingview scan API
@@ -57,10 +67,35 @@ if TYPE_CHECKING:
         options: dict[str, Any]  # example: `{"options": {"lang": "en"}}`
         columns: list[str]
         filter: list[FilterOperationDict]
+        filter2: OperationComparisonDict
         sort: SortByDict
         range: list[int]  # list with two integers, i.e. `[0, 100]`
         ignore_unknown_fields: bool  # default false
         preset: Literal['index_components_market_pages', 'pre-market-gainers']
+        price_conversion: dict[Literal['to_symbol'], bool]  # symbol currency vs market currency
+
+
+def _impl_and_or_chaining(
+    expressions: tuple[FilterOperationDict | OperationDict, ...], operator: Literal['and', 'or']
+) -> OperationDict:
+    # we want to wrap all the `FilterOperationDict` expressions with `{'expression': expr}`,
+    # to know if it's an instance of `FilterOperationDict` we simply check if it has the `left` key,
+    # which no other TypedDict has.
+    lst = []
+    for expr in expressions:
+        if 'left' in expr:  # if isinstance(expr, FilterOperationDict): ...
+            lst.append({'expression': expr})
+        else:
+            lst.append(expr)
+    return {'operation': {'operator': operator, 'operands': lst}}
+
+
+def And(*expressions: FilterOperationDict | OperationDict) -> OperationDict:
+    return _impl_and_or_chaining(expressions, operator='and')
+
+
+def Or(*expressions: FilterOperationDict | OperationDict) -> OperationDict:
+    return _impl_and_or_chaining(expressions, operator='or')
 
 
 DEFAULT_RANGE = [0, 50]
@@ -603,6 +638,10 @@ class Query:
         self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
         return self
 
+    def where2(self, operation: OperationDict) -> Query:
+        self.query['filter2'] = {'operator': 'and', 'operands': [operation]}
+        return self
+
     def order_by(
         self, column: Column | str, ascending: bool = True, nulls_first: Optional[bool] = None
     ) -> Query:
@@ -692,3 +731,12 @@ class Query:
 #  default screeners
 # TODO: return `Self` instead of `Query`?
 # TODO: add all presets
+
+q = Query().where2(
+    Or(
+        And(Column('type') == 'stock', Column('typespecs').has(['common'])),
+        And(Column('type') == 'stock', Column('typespecs').has(['preferred'])),
+        And(Column('type') == 'dr'),
+        And(Column('type') == 'fund', Column('typespecs').has_none_of(['etf'])),
+    )
+)
