@@ -296,7 +296,7 @@ class Query:
 
         By default, the screener will only scan US equities, but you can change it to scan any
         or even multiple markets, that includes a list of 67 countries, and also the following
-        commodities: `bonds`, `cfd`, `coin`, `crypto`, `economics2`, `euronext`, `forex`,
+        commodities: `bonds`, `cfd`, `coin`, `crypto`, `euronext`, `forex`,
         `futures`, `options`.
 
         You may choose any value from `tradingview_screener.constants.MARKETS`.
@@ -488,6 +488,9 @@ class Query:
          8           NSE:LT          LT   3532.500000    5879660      5.816100e+10
          9         LSE:SHEL        SHEL   2732.500000    7448315      2.210064e+11)
 
+        You can find the full list of indices in [`constants.INDICES`](constants.html#INDICES),
+        just note that the syntax is `SYML:{source};{ticker}`.
+
         :param indexes: One or more strings representing the financial indexes to filter by
         :return: An instance of the `Query` class with the filter applied
         """
@@ -513,7 +516,7 @@ class Query:
         return self
 
     def order_by(
-        self, column: Column | str, ascending: bool = True, nulls_first: Optional[bool] = None
+        self, column: Column | str, ascending: bool = True, nulls_first: bool = False
     ) -> Self:
         """
         # TODO add docu
@@ -526,9 +529,8 @@ class Query:
         dct: SortByDict = {
             'sortBy': column.name if isinstance(column, Column) else column,
             'sortOrder': 'asc' if ascending else 'desc',
+            'nullsFirst': nulls_first,
         }
-        if nulls_first is not None:
-            dct['nullsFirst'] = nulls_first
         self.query['sort'] = dct
         return self
 
