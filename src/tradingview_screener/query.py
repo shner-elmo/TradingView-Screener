@@ -71,7 +71,9 @@ if TYPE_CHECKING:
         range: list[int]  # list with two integers, i.e. `[0, 100]`
         ignore_unknown_fields: bool  # default false
         preset: Literal['index_components_market_pages', 'pre-market-gainers']
-        price_conversion: dict[Literal['to_symbol'], bool]  # symbol currency vs market currency
+        price_conversion: dict[Literal['to_symbol'], bool] | dict[
+            Literal['price_conversion'], str  # this string should be a currency
+        ]  # symbol currency vs market currency
 
 
 DEFAULT_RANGE = [0, 50]
@@ -284,7 +286,7 @@ class Query:
             'columns': ['name', 'close', 'volume', 'market_cap_basic'],
             # 'filter': ...,
             'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
-            'range': [0, 50],
+            'range': DEFAULT_RANGE.copy(),
         }
         self.url = 'https://scanner.tradingview.com/america/scan'
 
@@ -452,9 +454,42 @@ class Query:
 
     def set_index(self, *indexes: str) -> Query:
         """
+        Filter data to include only the tickers/components of a specified index.
 
-        :param indexes:
-        :return:
+        Examples:
+
+        >>> Query().set_index('SYML:SP;SPX').get_scanner_data()
+        (503,
+                   ticker   name    close    volume  market_cap_basic
+         0    NASDAQ:NVDA   NVDA  1208.88  41238122      2.973644e+12
+         1    NASDAQ:AAPL   AAPL   196.89  53103705      3.019127e+12
+         2    NASDAQ:TSLA   TSLA   177.48  56244929      5.660185e+11
+         3     NASDAQ:AMD    AMD   167.87  44795240      2.713306e+11
+         4    NASDAQ:MSFT   MSFT   423.85  13621485      3.150183e+12
+         5    NASDAQ:AMZN   AMZN   184.30  28021473      1.917941e+12
+         6    NASDAQ:META   META   492.96   9379199      1.250410e+12
+         7   NASDAQ:GOOGL  GOOGL   174.46  19660698      2.164346e+12
+         8    NASDAQ:SMCI   SMCI   769.11   3444852      4.503641e+10
+         9    NASDAQ:GOOG   GOOG   175.95  14716134      2.164346e+12
+         10   NASDAQ:AVGO   AVGO  1406.64   1785876      6.518669e+11)
+
+        You can set multiple indices as well, like the NIFTY 50 and UK 100 Index.
+        >>> Query().set_index('SYML:NSE;NIFTY', 'SYML:TVC;UKX').get_scanner_data()
+        (150,
+                     ticker        name         close     volume  market_cap_basic
+         0         NSE:INFY        INFY   1533.600000   24075302      7.623654e+10
+         1          LSE:AZN         AZN  12556.000000    2903032      2.489770e+11
+         2     NSE:HDFCBANK    HDFCBANK   1573.350000   18356108      1.432600e+11
+         3     NSE:RELIANCE    RELIANCE   2939.899900    9279348      2.381518e+11
+         4         LSE:LSEG        LSEG   9432.000000    2321053      6.395329e+10
+         5   NSE:BAJFINANCE  BAJFINANCE   7191.399900    2984052      5.329685e+10
+         6         LSE:BARC        BARC    217.250000   96238723      4.133010e+10
+         7         NSE:SBIN        SBIN    829.950010   25061284      8.869327e+10
+         8           NSE:LT          LT   3532.500000    5879660      5.816100e+10
+         9         LSE:SHEL        SHEL   2732.500000    7448315      2.210064e+11)
+
+        :param indexes: One or more strings representing the financial indexes to filter by
+        :return: An instance of the `Query` class with the filter applied
         """
         # no need to select the market if we specify the symbol we want
         self.query.pop('markets', None)
@@ -474,7 +509,7 @@ class Query:
         return self
 
     def where2(self, operation: OperationDict) -> Query:
-        self.query['filter2'] = {'operator': 'and', 'operands': [operation]}
+        self.query['filter2'] = operation['operation']
         return self
 
     def order_by(
@@ -489,7 +524,7 @@ class Query:
         :return:
         """
         dct: SortByDict = {
-            'sortBy': column.name if isinstance(column, Column) else column,  # noqa
+            'sortBy': column.name if isinstance(column, Column) else column,
             'sortOrder': 'asc' if ascending else 'desc',
         }
         if nulls_first is not None:
@@ -552,7 +587,7 @@ class Query:
         return f'< {pprint.pformat(self.query)} >'
 
     def __eq__(self, other) -> bool:
-        return isinstance(other, Query) and self.query == other.query
+        return isinstance(other, Query) and self.query == other.query and self.url == other.url
 
 
 # TODO: should it return self.copy()?
