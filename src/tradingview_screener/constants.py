@@ -163,6 +163,110 @@ MARKETS = (
     'venezuela',
     'vietnam',
 )
+
+INDICES = [
+    ('SP:SPX', 'SPX', 'S&P 500'),
+    ('TVC:IXIC', 'IXIC', 'US Composite Index'),
+    ('DJ:DJI', 'DJI', 'Dow Jones Industrial Average Index'),
+    ('CBOE:VIX', 'VIX', 'CBOE Volatility Index'),
+    ('TSX:TSX', 'TSX', 'S&P/TSX Composite index'),
+    ('TVC:UKX', 'UKX', 'UK 100 INDEX'),
+    ('XETR:DAX', 'DAX', 'DAX Index'),
+    ('EURONEXT:PX1', 'PX1', 'CAC 40 Index'),
+    ('TVC:FTMIB', 'FTMIB', 'MILANO ITALIA BORSA INDEX'),
+    ('TVC:NI225', 'NI225', 'Nikkei 225 Index'),
+    ('TVC:KOSPI', 'KOSPI', 'KOREA COMPOSITE STOCK PRICE INDEX (KOSPI)'),
+    ('SSE:000001', '000001', 'SSE Composite Index'),
+    ('SZSE:399001', '399001', 'Shenzhen Component Index'),
+    ('HSI:HSI', 'HSI', 'Hang Seng Index'),
+    ('TVC:STI', 'STI', 'STRAITS TIMES INDEX'),
+    ('ASX:XJO', 'XJO', 'S&P/ASX 200 Index'),
+    ('NZX:NZ50G', 'NZ50G', 'S&P/NZX 50 Gross Index'),
+    ('TWSE:TAIEX', 'TAIEX', 'TWSE Capitalization Weighted Stock Index'),
+    ('FTSEMYX:FBMKLCI', 'FBMKLCI', 'FTSE Bursa Malaysia KLCI Index'),
+    ('IDX:COMPOSITE', 'COMPOSITE', 'IDX Composite Index'),
+    ('TVC:SX5E', 'SX5E', 'STOXX 50'),
+    ('BME:IBC', 'IBC', 'IBEX 35 Index'),
+    ('SIX:SMI', 'SMI', 'Swiss Market Index'),
+    ('GPW:WIG20', 'WIG20', 'WIG20 Index'),
+    ('EURONEXT:AEX', 'AEX', 'AEX-Index'),
+    ('EURONEXT:BEL20', 'BEL20', 'BEL 20 Index'),
+    ('MOEX:IMOEX', 'IMOEX', 'MOEX Russia Index'),
+    ('OMXHEX:OMXH25', 'OMXH25', 'OMX Helsinki 25 Index'),
+    ('OMXSTO:OMXS30', 'OMXS30', 'OMX Stockholm 30 Index'),
+    ('OMXCOP:OMXC25', 'OMXC25', 'OMX Copenhagen 25 Index'),
+    ('BELEX:BELEX15', 'BELEX15', 'BELEX 15 Index'),
+    ('OMXRSE:OMXRGI', 'OMXRGI', 'OMX Riga Gross Index'),
+    ('OMXTSE:OMXTGI', 'OMXTGI', 'OMX Tallinn Gross Index'),
+    ('OMXVSE:OMXVGI', 'OMXVGI', 'OMX Vilnius Gross Index'),
+    ('BIST:XU100', 'XU100', 'BIST 100 Index'),
+    ('TASE:TA35', 'TA35', 'TA-35 Index'),
+    ('TVC:SA40', 'SA40', 'SOUTH AFRICA TOP 40 INDEX'),
+    ('NSE:NIFTY', 'NIFTY', 'Nifty 50 Index'),
+    ('BSE:SENSEX', 'SENSEX', 'S&P BSE SENSEX Index'),
+    ('DFM:DFMGI', 'DFMGI', 'DFM General Index'),
+    ('TADAWUL:TASI', 'TASI', 'Tadawul All Shares Index'),
+    ('QSE:GNRI', 'GNRI', 'QE Index'),
+    ('BAHRAIN:BHBX', 'BHBX', 'Bahrain All Share Index'),
+    ('EGX:EGX30', 'EGX30', 'EGX 30 Index'),
+    ('BMFBOVESPA:IBOV', 'IBOV', 'Bovespa Index'),
+    ('BMV:ME', 'ME', 'S&P/BMV IPC Index'),
+    ('BCBA:IMV', 'IMV', 'S&P MERVAL Index'),
+    ('BVC:ICAP', 'ICAP', 'MSCI COLCAP Index'),
+    ('BCS:SP_IPSA', 'SP_IPSA', 'S&P IPSA Index'),
+    ('BVL:SPBLPGPT', 'SPBLPGPT', 'S&P/BVL Peru General Index TR (PEN)'),
+    ('BET:BUX', 'BUX', 'Budapest Stock Exchange Index'),
+    ('ATHEX:GD', 'GD', 'ATHEX Composite Index'),
+    ('BVB:BET', 'BET', 'Bucharest Exchange Trading Index'),
+    ('IDX:IDX30', 'IDX30', 'IDX 30 Index'),
+    ('TVC:XAX', 'XAX', 'NYSE American Composite Index'),
+    ('TVC:DEU40', 'DEU40', 'GERMAN STOCK INDEX (DAX)'),
+    ('TVC:IBEX35', 'IBEX35', 'IBEX 35'),
+    ('TVC:NZ50G', 'NZ50G', 'NZX 50 INDEX'),
+    ('TVC:AEX', 'AEX', 'AEX'),
+    ('TVC:RUA', 'RUA', 'US Small Cap 3000 Index'),
+    ('TVC:SXXP', 'SXXP', 'STOXX 600'),
+    ('TVC:OSX', 'OSX', 'PHLX Oil Service Sector'),
+    ('TVC:TRJEFFCRB', 'TRJEFFCRB', 'Thomson Reuters/CoreCommodity CRB Index'),
+    ('TVC:RUI', 'RUI', 'US Small Cap 1000 Index'),
+    ('TVC:VIX', 'VIX', 'VOLATILITY S&P 500'),
+    ('OANDA:DE30EUR', 'DE30EUR', 'Germany 30'),
+    ('TVC:MOVE', 'MOVE', 'ICE BofAML U.S. Bond Market Option Volatility Estimate Index'),
+    ('TVC:RUT', 'RUT', 'US Small Cap 2000 Index'),
+    ('TVC:HSI', 'HSI', 'Hang Seng Index'),
+    ('TVC:SOX', 'SOX', 'PHLX Semiconductor'),
+    ('OANDA:US30USD', 'US30USD', 'US Wall St 30'),
+    ('OANDA:HK33HKD', 'HK33HKD', 'Hong Kong 33'),
+    ('OANDA:AU200AUD', 'AU200AUD', 'Australia 200'),
+    ('TVC:CAC40', 'CAC40', 'CAC 40'),
+    ('TVC:HGX', 'HGX', 'PHLX Housing Sector'),
+    ('TVC:XAU', 'XAU', 'PHLX GOLD and SILVER SECTOR INDEX'),
+    ('TVC:NYA', 'NYA', 'NYSE Composite Index'),
+    ('TVC:SSMI', 'SSMI', 'SWISS MARKET INDEX'),
+    ('TVC:XMI', 'XMI', 'NYSE Arca Major Market Index'),
+    ('TVC:DJI', 'DJI', 'Dow Jones Industrial Average Index'),
+    ('TVC:UTY', 'UTY', 'PHLX Utility Sector'),
+    ('OANDA:NL25EUR', 'NL25EUR', 'Netherlands 25'),
+]
+"""
+This is a list of all the indices in the world.
+These can be passed to [`Query.set_index()`](query.html#Query.set_index)
+
+<!--
+Use this query to get the full list:
+```py
+(
+    Query()
+    .select('name', 'description')
+    .order_by('index_priority')
+    .set_markets('cfd')
+    .set_property('preset', 'indices_all')
+    .limit(1000)
+    .get_scanner_data()
+)
+```
+-->
+"""
 COLUMNS = {
     'Average Day Range (14)': 'ADR',
     'Average Directional Index (14)': 'ADX',
