@@ -11,7 +11,7 @@ from tradingview_screener.constants import MARKETS, HEADERS, URL
 
 
 if TYPE_CHECKING:
-    from typing import TypedDict, Any, Literal, Optional, NotRequired
+    from typing import TypedDict, Any, Literal, Optional, NotRequired, Self
 
     class FilterOperationDict(TypedDict):
         left: str
@@ -290,7 +290,7 @@ class Query:
         }
         self.url = 'https://scanner.tradingview.com/america/scan'
 
-    def set_markets(self, *markets: str) -> Query:
+    def set_markets(self, *markets: str) -> Self:
         """
         This method allows you to select the market/s which you want to query.
 
@@ -418,7 +418,7 @@ class Query:
 
         return self
 
-    def set_tickers(self, *tickers: str) -> Query:
+    def set_tickers(self, *tickers: str) -> Self:
         """
         Set the tickers you wish to receive information on.
 
@@ -448,11 +448,11 @@ class Query:
         self.url = URL.format(market='global')
         return self
 
-    def set_property(self, key: str, value: Any) -> Query:
+    def set_property(self, key: str, value: Any) -> Self:
         self.query[key] = value
         return self
 
-    def set_index(self, *indexes: str) -> Query:
+    def set_index(self, *indexes: str) -> Self:
         """
         Filter data to include only the tickers/components of a specified index.
 
@@ -498,23 +498,23 @@ class Query:
         self.url = URL.format(market='global')
         return self
 
-    def select(self, *columns: Column | str) -> Query:
+    def select(self, *columns: Column | str) -> Self:
         self.query['columns'] = [
             col.name if isinstance(col, Column) else Column(col).name for col in columns
         ]
         return self
 
-    def where(self, *expressions: FilterOperationDict) -> Query:
+    def where(self, *expressions: FilterOperationDict) -> Self:
         self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
         return self
 
-    def where2(self, operation: OperationDict) -> Query:
+    def where2(self, operation: OperationDict) -> Self:
         self.query['filter2'] = operation['operation']
         return self
 
     def order_by(
         self, column: Column | str, ascending: bool = True, nulls_first: Optional[bool] = None
-    ) -> Query:
+    ) -> Self:
         """
         # TODO add docu
 
@@ -532,11 +532,11 @@ class Query:
         self.query['sort'] = dct
         return self
 
-    def offset(self, offset: int) -> Query:
+    def offset(self, offset: int) -> Self:
         self.query.setdefault('range', DEFAULT_RANGE.copy())[0] = offset
         return self
 
-    def limit(self, limit: int) -> Query:
+    def limit(self, limit: int) -> Self:
         self.query.setdefault('range', DEFAULT_RANGE.copy())[1] = limit
         return self
 
@@ -590,11 +590,7 @@ class Query:
         return isinstance(other, Query) and self.query == other.query and self.url == other.url
 
 
-# TODO: should it return self.copy()?
-# TODO: calling select() twice with different args should overwrite or append/extend?
-# TODO: move `Query` to separate module
 # TODO: should get_scanner_data() return the raw data instead of DF?
 # TODO: Query should have no defaults (except limit), and a separate module should have all the
 #  default screeners
-# TODO: return `Self` instead of `Query`?
 # TODO: add all presets
