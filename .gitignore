@@ -2,3 +2,6 @@ __pycache__/
 .idea/
 env
 notes.txt
+docs/
+data/
+dist/
