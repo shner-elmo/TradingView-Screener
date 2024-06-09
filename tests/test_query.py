@@ -1,6 +1,6 @@
 import pytest
 
-from tradingview_screener.query import Query, Column, And, Or
+from tradingview_screener.query import Query, Column
 
 
 @pytest.mark.parametrize(
@@ -95,14 +95,8 @@ def test_get_scanner_data():
 
 
 def test_and_or_chaining():
-    q = Query().where2(
-        Or(
-            And(Column('type') == 'stock', Column('typespecs').has(['common'])),
-            And(Column('type') == 'stock', Column('typespecs').has(['preferred'])),
-            And(Column('type') == 'dr'),
-            And(Column('type') == 'fund', Column('typespecs').has_none_of(['etf'])),
-        )
-    )
+    from tradingview_screener.default_screeners import stock_screener2, etf_screener
+
     # this dictionary/JSON was taken from the website, to make sure its reproduced correctly from
     # the function calls.
     dct = {
@@ -194,4 +188,60 @@ def test_and_or_chaining():
             }
         ],
     }
-    assert q.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]
+    assert stock_screener2.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]
+
+    dct = {
+        'operator': 'and',
+        'operands': [
+            {
+                'operation': {
+                    'operator': 'or',
+                    'operands': [
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has',
+                                            'right': ['etn'],
+                                        }
+                                    }
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has',
+                                            'right': ['etf'],
+                                        }
+                                    }
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'structured',
+                                        }
+                                    }
+                                ],
+                            }
+                        },
+                    ],
+                }
+            }
+        ],
+    }
+    assert etf_screener.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]
