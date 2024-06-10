@@ -290,40 +290,65 @@ class Query:
         }
         self.url = 'https://scanner.tradingview.com/america/scan'
 
+    def select(self, *columns: Column | str) -> Self:
+        self.query['columns'] = [
+            col.name if isinstance(col, Column) else Column(col).name for col in columns
+        ]
+        return self
+
+    def where(self, *expressions: FilterOperationDict) -> Self:
+        self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
+        return self
+
+    def where2(self, operation: OperationDict) -> Self:
+        self.query['filter2'] = operation['operation']
+        return self
+
+    def order_by(
+        self, column: Column | str, ascending: bool = True, nulls_first: bool = False
+    ) -> Self:
+        """
+        # TODO add docu
+
+        :param column:
+        :param ascending:
+        :param nulls_first:
+        :return:
+        """
+        dct: SortByDict = {
+            'sortBy': column.name if isinstance(column, Column) else column,
+            'sortOrder': 'asc' if ascending else 'desc',
+            'nullsFirst': nulls_first,
+        }
+        self.query['sort'] = dct
+        return self
+
+    def limit(self, limit: int) -> Self:
+        self.query.setdefault('range', DEFAULT_RANGE.copy())[1] = limit
+        return self
+
+    def offset(self, offset: int) -> Self:
+        self.query.setdefault('range', DEFAULT_RANGE.copy())[0] = offset
+        return self
+
     def set_markets(self, *markets: str) -> Self:
         """
         This method allows you to select the market/s which you want to query.
 
         By default, the screener will only scan US equities, but you can change it to scan any
-        or even multiple markets, that includes a list of 67 countries, and also the following
-        commodities: `bonds`, `cfd`, `coin`, `crypto`, `euronext`, `forex`,
+        market or country, that includes a list of 67 countries, and also the following
+        asset classes: `bonds`, `cfd`, `coin`, `crypto`, `euronext`, `forex`,
         `futures`, `options`.
 
         You may choose any value from `tradingview_screener.constants.MARKETS`.
 
         Examples:
 
-        By default, the screener will search the `america` market
-        >>> default_columns = ['close', 'market', 'country', 'currency']
-        >>> Query().select(*default_columns).get_scanner_data()
-        (17898,
-                  ticker     close   market        country currency
-         0      AMEX:SPY  419.9900  america  United States      USD
-         1   NASDAQ:TSLA  201.7201  america  United States      USD
-         2   NASDAQ:NVDA  416.3800  america  United States      USD
-         3    NASDAQ:AMD  106.4499  america  United States      USD
-         4    NASDAQ:QQQ  353.4000  america  United States      USD
-         ..          ...       ...      ...            ...      ...
-         45  NASDAQ:ADBE  538.0000  america  United States      USD
-         46      NYSE:BA  188.9000  america  United States      USD
-         47  NASDAQ:SBUX   90.9100  america  United States      USD
-         48     NYSE:HUM  500.6350  america  United States      USD
-         49     NYSE:CAT  227.3400  america  United States      USD
-         [50 rows x 5 columns])
-
-        But you can change it (note the difference between `market` and `country`)
+        By default, the screener will show results from the `america` market, but you can
+        change it (note the difference between `market` and `country`)
+        >>> columns = ['close', 'market', 'country', 'currency']
         >>> (Query()
-        ...  .select(*default_columns)
+        ...  .select(*columns)
         ...  .set_markets('italy')
         ...  .get_scanner_data())
         (2346,
@@ -343,7 +368,7 @@ class Query:
 
         You can also select multiple markets
         >>> (Query()
-        ...  .select(*default_columns)
+        ...  .select(*columns)
         ...  .set_markets('america', 'israel', 'hongkong', 'switzerland')
         ...  .get_scanner_data())
         (23964,
@@ -364,45 +389,21 @@ class Query:
         You may also select different financial instruments
         >>> (Query()
         ...  .select('close', 'market')
-        ...  .set_markets('cfd', 'crypto', 'futures', 'options')
+        ...  .set_markets('cfd', 'crypto', 'forex', 'futures')
         ...  .get_scanner_data())
         (118076,
-                                 ticker  ...   market
-         0          UNISWAP3ETH:WETHVGT  ...   crypto
-         1   UNISWAP3POLYGON:BONKWMATIC  ...   crypto
-         2   UNISWAP3ARBITRUM:WETHTROVE  ...   crypto
-         3          UNISWAP3ETH:USDTBRD  ...   crypto
-         4         UNISWAP3ETH:WBTCAUSD  ...   crypto
-         ..                         ...  ...      ...
-         45               NSE:IDEAF2024  ...  futures
-         46         NSE:INDUSTOWERX2023  ...  futures
-         47            NSE:INDUSTOWER1!  ...  futures
-         48                  BIST:XU100  ...      cfd
-         49              BYBIT:BTCUSD.P  ...   crypto
-         [50 rows x 3 columns])
-
-        To select all the avaialble markets you can do this trick
-        >>> from tradingview_screener.constants import MARKETS
-        >>> len(MARKETS)
-        76
-        >>> (Query()
-        ...  .select('close', 'market')
-        ...  .set_markets(*MARKETS)
-        ...  .get_scanner_data())  # notice how many records we find: over 240k
-        (241514,
-                                 ticker  ...   market
-         0          UNISWAP3ETH:WETHVGT  ...   crypto
-         1   UNISWAP3POLYGON:BONKWMATIC  ...   crypto
-         2   UNISWAP3ARBITRUM:WETHTROVE  ...   crypto
-         3          UNISWAP3ETH:USDTBRD  ...   crypto
-         4         UNISWAP3ETH:WBTCAUSD  ...   crypto
-         ..                         ...  ...      ...
-         45               NSE:IDEAF2024  ...  futures
-         46            NSE:INDUSTOWER1!  ...  futures
-         47         NSE:INDUSTOWERX2023  ...  futures
-         48                  BIST:XU100  ...      cfd
-         49              BYBIT:BTCUSD.P  ...   crypto
-
+                                    ticker  ...  market
+         0          UNISWAP3ETH:JUSTICEUSDT  ...  crypto
+         1             UNISWAP3ETH:UAHGUSDT  ...  crypto
+         2            UNISWAP3ETH:KENDUWETH  ...  crypto
+         3         UNISWAP3ETH:MATICSTMATIC  ...  crypto
+         4             UNISWAP3ETH:WETHETHM  ...  crypto
+         ..                             ...  ...     ...
+         45  UNISWAP:MUSICAIWETH_1F5304.USD  ...  crypto
+         46                   CRYPTOCAP:FIL  ...     cfd
+         47                   CRYPTOCAP:SUI  ...     cfd
+         48                  CRYPTOCAP:ARBI  ...     cfd
+         49                    CRYPTOCAP:OP  ...     cfd
          [50 rows x 3 columns])
 
         :param markets: one or more markets from `tradingview_screener.constants.MARKETS`
@@ -446,10 +447,6 @@ class Query:
 
         self.query.setdefault('symbols', {})['tickers'] = list(tickers)
         self.url = URL.format(market='global')
-        return self
-
-    def set_property(self, key: str, value: Any) -> Self:
-        self.query[key] = value
         return self
 
     def set_index(self, *indexes: str) -> Self:
@@ -501,45 +498,8 @@ class Query:
         self.url = URL.format(market='global')
         return self
 
-    def select(self, *columns: Column | str) -> Self:
-        self.query['columns'] = [
-            col.name if isinstance(col, Column) else Column(col).name for col in columns
-        ]
-        return self
-
-    def where(self, *expressions: FilterOperationDict) -> Self:
-        self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
-        return self
-
-    def where2(self, operation: OperationDict) -> Self:
-        self.query['filter2'] = operation['operation']
-        return self
-
-    def order_by(
-        self, column: Column | str, ascending: bool = True, nulls_first: bool = False
-    ) -> Self:
-        """
-        # TODO add docu
-
-        :param column:
-        :param ascending:
-        :param nulls_first:
-        :return:
-        """
-        dct: SortByDict = {
-            'sortBy': column.name if isinstance(column, Column) else column,
-            'sortOrder': 'asc' if ascending else 'desc',
-            'nullsFirst': nulls_first,
-        }
-        self.query['sort'] = dct
-        return self
-
-    def offset(self, offset: int) -> Self:
-        self.query.setdefault('range', DEFAULT_RANGE.copy())[0] = offset
-        return self
-
-    def limit(self, limit: int) -> Self:
-        self.query.setdefault('range', DEFAULT_RANGE.copy())[1] = limit
+    def set_property(self, key: str, value: Any) -> Self:
+        self.query[key] = value
         return self
 
     def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
