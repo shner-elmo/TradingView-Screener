@@ -160,6 +160,9 @@ class Column:
 
     def isin(self, values) -> FilterOperationDict:
         return FilterOperationDict(left=self.name, operation='in_range', right=list(values))
+    
+    def has(self, values) -> FilterOperationDict:
+        return FilterOperationDict(left=self.name, operation='has', right=list(values))
 
     def like(self, other) -> FilterOperationDict:
         return FilterOperationDict(
