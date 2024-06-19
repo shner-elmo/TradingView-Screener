@@ -1,6 +1,7 @@
 import pytest
 
-from tradingview_screener.query import Query, Column
+from tradingview_screener.query import Query
+from tradingview_screener.column import col
 
 
 @pytest.mark.parametrize(
@@ -68,22 +69,54 @@ def test_order_by():
 
 
 def test_query_above_pct():
-    count, df = (
-        Query().where(Column('close').above_pct('price_52_week_low', 0.99)).get_scanner_data()
-    )
-    assert count >= 0
+    query = Query().select('close', 'price_52_week_low').limit(100_000)
 
-    count, _ = Query().where(Column('close').above_pct('price_52_week_low', 1)).get_scanner_data()
+    # `X > (X * 1)` should always be false.
+    count, _ = query.where(
+        col('price_52_week_low').above_pct('price_52_week_low', 1)
+    ).get_scanner_data()
     assert count == 0
 
-    count, _ = (
-        Query().where(Column('close').above_pct('price_52_week_low', 1.01)).get_scanner_data()
-    )
-    assert count == 0
+    # this test case whould also pass, but I guess the TV's 52-week-low is updated at the end of
+    # the day or smth.
+    # # `X > (X * 0.99)` should always be true.
+    # n_stocks = Query().get_scanner_data()[0]
+    # count, _ = query.where(
+    #     col('price_52_week_low').above_pct('price_52_week_low', 0.9)
+    # ).get_scanner_data()
+    # assert count == n_stocks
 
-    _, df = Query().where(Column('close').above_pct('price_52_week_high', 0.99)).get_scanner_data()
-    df['pct'] = df[['price_52_week_high', 'close']].pct_change(axis=1)['close']
-    assert df['pct'].min() > 0.03
+    # WHERE `close` is 10% higher than the `price_52_week_low`
+    _, df = query.where(col('close').above_pct('price_52_week_low', 1.1)).get_scanner_data()
+    assert (df['close'] > df['price_52_week_low'] * 1.1).all()
+
+    # WHERE `close` is 10% higher than the `price_52_week_low`
+    _, df = query.where(col('close').below_pct('price_52_week_low', 1.1)).get_scanner_data()
+    assert (df['close'] < df['price_52_week_low'] * 1.1).all()
+
+    # WHERE `close` is 3x higher than the `price_52_week_low`
+    _, df = query.where(col('close').above_pct('price_52_week_low', 3)).get_scanner_data()
+    assert (df['close'] > df['price_52_week_low'] * 3).all()
+
+    # WHERE `close` is below 50% from `price_52_week_high`
+    _, df = (
+        Query()
+        .select('close', 'price_52_week_high')
+        .where(col('close').below_pct('price_52_week_high', 0.5))
+        .get_scanner_data()
+    )
+    assert (df['close'] < df['price_52_week_high'] * 0.5).all()
+
+
+def test_between_and_not_between():
+    query = Query().select('close', 'VWAP').limit(100_000)
+
+    c, df = query.where(col('close').between_pct('VWAP', 1.1, 1.3)).get_scanner_data()
+    assert df['close'].between(df['VWAP'] * 1.1, df['VWAP'] * 1.3).all()
+
+    # this should be the opposite, so we use the  `~` operator to invert it
+    c, df = query.where(col('close').not_between_pct('VWAP', 1.1, 1.3)).get_scanner_data()
+    assert (~df['close'].between(df['VWAP'] * 1.1, df['VWAP'] * 1.3)).all()
 
 
 def test_get_scanner_data():
@@ -95,7 +128,10 @@ def test_get_scanner_data():
 
 
 def test_and_or_chaining():
-    from tradingview_screener.default_screeners import stock_screener2, etf_screener
+    from tradingview_screener.default_screeners import (
+        stock_screener2,
+        etf_screener,
+    )
 
     # this dictionary/JSON was taken from the website, to make sure its reproduced correctly from
     # the function calls.
