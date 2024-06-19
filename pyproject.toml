@@ -37,10 +37,9 @@ build-backend = "poetry.core.masonry.api"
 target-version = "py39"
 line-length = 100
 
-# BUG: it seems like these rules arent being enforced by ruff
-[tool.ruff.pycodestyle]
-max-line-length = 100
+[tool.ruff.lint.pycodestyle]
 max-doc-length = 88
+#max-line-length = 100
 
 [tool.ruff.format]
 quote-style = "single"
