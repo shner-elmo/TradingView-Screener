@@ -5,7 +5,7 @@ from tradingview_screener.constants import COLUMNS
 
 
 if TYPE_CHECKING:
-    from typing import Literal, Optional, Iterable
+    from typing import Optional, Iterable
     from tradingview_screener.query import FilterOperationDict
 
 
@@ -66,74 +66,10 @@ class Column:
         return {'left': self.name, 'operation': 'crosses', 'right': self._extract_name(other)}
 
     def crosses_above(self, other) -> FilterOperationDict:
-        return {
-            'left': self.name,
-            'operation': 'crosses_above',
-            'right': self._extract_name(other),
-        }
+        return {'left': self.name, 'operation': 'crosses_above', 'right': self._extract_name(other)}
 
     def crosses_below(self, other) -> FilterOperationDict:
-        return {
-            'left': self.name,
-            'operation': 'crosses_below',
-            'right': self._extract_name(other),
-        }
-
-    def _impl_above_below_pct(
-        self, operation: Literal['above%', 'below%'], column: Column | str, pct1, pct2=None
-    ) -> FilterOperationDict:
-        if pct2:
-            return {
-                'left': self.name,
-                'operation': 'in_range%',
-                'right': [self._extract_name(column), *sorted([pct1, pct2])],
-            }
-        return {
-            'left': self.name,
-            'operation': operation,
-            'right': [self._extract_name(column), pct1],
-        }
-
-    def above_pct(
-        self, column: Column | str, pct1: float, pct2: Optional[float] = None
-    ) -> FilterOperationDict:
-        """
-        Examples:
-
-        The closing price is higher than the VWAP by more than 3%
-        >>> Column('close').above_pct('VWAP', 1.03)
-
-        The percentage change between the Close and the EMA is between 20% and 50%
-        >>> Column('close').above_pct('EMA200', 1.2, 1.5)
-
-        closing price is above the 52-week-low by more than 150%
-        >>> Column('close').above_pct('price_52_week_low', 2.5)
-        """
-        return self._impl_above_below_pct('above%', column=column, pct1=pct1, pct2=pct2)
-
-    def below_pct(
-        self, column: Column | str, pct1, pct2: Optional[float] = None
-    ) -> FilterOperationDict:
-        """
-        Examples:
-
-        TODO
-        """
-        return self._impl_above_below_pct('below%', column=column, pct1=pct1, pct2=pct2)
-
-    def has(self, values: Iterable) -> FilterOperationDict:
-        """
-        Field contains any of the values
-
-        (it's the same as isin(), except that it works on fields of type `set`)
-        """
-        return {'left': self.name, 'operation': 'has', 'right': list(values)}
-
-    def has_none_of(self, values: Iterable) -> FilterOperationDict:
-        """
-        Field doesn't contain any of the values
-        """
-        return {'left': self.name, 'operation': 'has_none_of', 'right': list(values)}
+        return {'left': self.name, 'operation': 'crosses_below', 'right': self._extract_name(other)}
 
     def between(self, left, right) -> FilterOperationDict:
         return {
@@ -152,8 +88,89 @@ class Column:
     def isin(self, values: Iterable) -> FilterOperationDict:
         return {'left': self.name, 'operation': 'in_range', 'right': list(values)}
 
+    def not_in(self, values: Iterable) -> FilterOperationDict:
+        return {'left': self.name, 'operation': 'not_in_range', 'right': list(values)}
+
+    def has(self, values: Iterable) -> FilterOperationDict:
+        """
+        Field contains any of the values
+
+        (it's the same as `isin()`, except that it works on fields of type `set`)
+        """
+        return {'left': self.name, 'operation': 'has', 'right': list(values)}
+
+    def has_none_of(self, values: Iterable) -> FilterOperationDict:
+        """
+        Field doesn't contain any of the values
+
+        (it's the same as `not_in()`, except that it works on fields of type `set`)
+        """
+        return {'left': self.name, 'operation': 'has_none_of', 'right': list(values)}
+
+    def above_pct(self, column: Column | str, pct: float) -> FilterOperationDict:
+        """
+        Examples:
+
+        The closing price is higher than the VWAP by more than 3%
+        >>> Column('close').above_pct('VWAP', 1.03)
+
+        closing price is above the 52-week-low by more than 150%
+        >>> Column('close').above_pct('price_52_week_low', 2.5)
+        """
+        return {
+            'left': self.name,
+            'operation': 'above%',
+            'right': [self._extract_name(column), pct],
+        }
+
+    def below_pct(self, column: Column | str, pct: float) -> FilterOperationDict:
+        """
+        Examples:
+
+        The closing price is lower than the VWAP by 3% or more
+        >>> Column('close').below_pct('VWAP', 1.03)
+        """
+        return {
+            'left': self.name,
+            'operation': 'below%',
+            'right': [self._extract_name(column), pct],
+        }
+
+    def between_pct(
+        self, column: Column | str, pct1: float, pct2: Optional[float] = None
+    ) -> FilterOperationDict:
+        """
+        Examples:
+
+        The percentage change between the Close and the EMA is between 20% and 50%
+        >>> Column('close').between_pct('EMA200', 1.2, 1.5)
+        """
+        return {
+            'left': self.name,
+            'operation': 'in_range%',
+            'right': [self._extract_name(column), pct1, pct2],
+        }
+
+    def not_between_pct(
+        self, column: Column | str, pct1: float, pct2: Optional[float] = None
+    ) -> FilterOperationDict:
+        """
+        Examples:
+
+        The percentage change between the Close and the EMA is between 20% and 50%
+        >>> Column('close').not_between_pct('EMA200', 1.2, 1.5)
+        """
+        return {
+            'left': self.name,
+            'operation': 'not_in_range%',
+            'right': [self._extract_name(column), pct1, pct2],
+        }
+
     def like(self, other) -> FilterOperationDict:
         return {'left': self.name, 'operation': 'match', 'right': self._extract_name(other)}
 
     def __repr__(self) -> str:
         return f'< Column({self.name!r}) >'
+
+
+col = Column  # create a short alias for convenience

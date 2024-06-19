@@ -7,11 +7,11 @@ import requests
 import pandas as pd
 
 from tradingview_screener.column import Column
-from tradingview_screener.constants import MARKETS, HEADERS, URL
+from tradingview_screener.constants import HEADERS, URL
 
 
 if TYPE_CHECKING:
-    from typing import TypedDict, Any, Literal, Optional, NotRequired, Self
+    from typing import TypedDict, Any, Literal, NotRequired, Self
 
     class FilterOperationDict(TypedDict):
         left: str
@@ -31,6 +31,7 @@ if TYPE_CHECKING:
             'above%',
             'below%',
             'in_range%',
+            'not_in_range%',
             'has',  # set must contain one of the values
             'has_none_of',  # set must NOT contain ANY of the values
         ]
@@ -45,6 +46,7 @@ if TYPE_CHECKING:
         query: dict[Literal['types'], list]
         tickers: list[str]
         symbolset: list[str]
+        watchlist: dict[Literal['id'], int]
 
     class ExpressionDict(TypedDict):
         expression: FilterOperationDict
@@ -486,7 +488,8 @@ class Query:
          9         LSE:SHEL        SHEL   2732.500000    7448315      2.210064e+11)
 
         You can find the full list of indices in [`constants.INDICES`](constants.html#INDICES),
-        just note that the syntax is `SYML:{source};{ticker}`.
+        just note that the syntax is
+        `SYML:{source};{symbol}`.
 
         :param indexes: One or more strings representing the financial indexes to filter by
         :return: An instance of the `Query` class with the filter applied
