@@ -3,7 +3,7 @@ from __future__ import annotations
 __all__ = ['Query', 'Column']
 
 import pprint
-from typing import TypedDict, Any, Literal
+from typing import TypedDict, Any, Literal, Optional, Iterable
 
 import requests
 import pandas as pd
@@ -26,6 +26,12 @@ class FilterOperationDict(TypedDict):
         'crosses',
         'crosses_above',
         'crosses_below',
+        'above%',
+        'below%',
+        'in_range%',
+        'not_in_range%',
+        'has',  # set must contain one of the values
+        'has_none_of',  # set must NOT contain ANY of the values
     ]
     right: Any
 
@@ -160,6 +166,84 @@ class Column:
 
     def isin(self, values) -> FilterOperationDict:
         return FilterOperationDict(left=self.name, operation='in_range', right=list(values))
+
+    def not_in(self, values: Iterable) -> FilterOperationDict:
+        return {'left': self.name, 'operation': 'not_in_range', 'right': list(values)}
+
+    def has(self, values: Iterable) -> FilterOperationDict:
+        """
+        Field contains any of the values
+
+        (it's the same as `isin()`, except that it works on fields of type `set`)
+        """
+        return {'left': self.name, 'operation': 'has', 'right': list(values)}
+
+    def has_none_of(self, values: Iterable) -> FilterOperationDict:
+        """
+        Field doesn't contain any of the values
+
+        (it's the same as `not_in()`, except that it works on fields of type `set`)
+        """
+        return {'left': self.name, 'operation': 'has_none_of', 'right': list(values)}
+
+    def above_pct(self, column: Column | str, pct: float) -> FilterOperationDict:
+        """
+        Examples:
+
+        The closing price is higher than the VWAP by more than 3%
+        >>> Column('close').above_pct('VWAP', 1.03)
+
+        closing price is above the 52-week-low by more than 150%
+        >>> Column('close').above_pct('price_52_week_low', 2.5)
+        """
+        return {
+            'left': self.name,
+            'operation': 'above%',
+            'right': [self._extract_value(column), pct],
+        }
+
+    def below_pct(self, column: Column | str, pct: float) -> FilterOperationDict:
+        """
+        Examples:
+
+        The closing price is lower than the VWAP by 3% or more
+        >>> Column('close').below_pct('VWAP', 1.03)
+        """
+        return {
+            'left': self.name,
+            'operation': 'below%',
+            'right': [self._extract_value(column), pct],
+        }
+
+    def between_pct(
+        self, column: Column | str, pct1: float, pct2: Optional[float] = None
+    ) -> FilterOperationDict:
+        """
+        Examples:
+
+        The percentage change between the Close and the EMA is between 20% and 50%
+        >>> Column('close').between_pct('EMA200', 1.2, 1.5)
+        """
+        return {
+            'left': self.name,
+            'operation': 'in_range%',
+            'right': [self._extract_value(column), pct1, pct2],
+        }
+
+    def not_between_pct(
+        self, column: Column | str, pct1: float, pct2: Optional[float] = None
+    ) -> FilterOperationDict:
+        """
+        Examples:
+
+        The percentage change between the Close and the EMA is between 20% and 50%
+        >>> Column('close').not_between_pct('EMA200', 1.2, 1.5)
+        """
+        return {
+            'left': self.name,
+            'operation': 'not_in_range%',
+            'right': [self._extract_value(column), pct1, pct2],
+        }
 
     def like(self, other) -> FilterOperationDict:
         return FilterOperationDict(
