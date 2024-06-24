@@ -1,5 +1,5 @@
 
-[![PyPi](https://img.shields.io/badge/PyPi-2.4.1-yellow)](https://pypi.org/project/tradingview-screener/)
+[![PyPi](https://img.shields.io/badge/PyPi-2.6.0rc0-yellow)](https://pypi.org/project/tradingview-screener/)
 [![Downloads](https://static.pepy.tech/badge/tradingview-screener)](https://pepy.tech/project/tradingview-screener)
 [![Downloads](https://static.pepy.tech/badge/tradingview-screener/month)](https://pepy.tech/project/tradingview-screener)
 
@@ -25,86 +25,13 @@ and the source on [GitHub](https://github.com/shner-elmo/TradingView-Screener).
 
 # Quickstart
 
-## Builtin stock scanners
-
-```python
-from tradingview_screener import Scanner
-```
-
-Some of the pre-built scanners:
-```python
->>> Scanner.names()
-```
-```
-['premarket_gainers',
- 'premarket_losers',
- 'premarket_most_active',
- 'premarket_gappers',
- 'postmarket_gainers',
- 'postmarket_losers',
- 'postmarket_most_active']
-```
-
-Say we want to get the Pre-Market Gainers:
-```python
-n_rows, df = Scanner.premarket_gainers.get_scanner_data()
-```
-
-And we get a DataFrame with the data:
-```python
->>> df
-```
-```
-         ticker  name  ...  premarket_change_abs  premarket_volume
-0   NASDAQ:APLM  APLM  ...               0.72200          30551043
-1      OTC:RNVA  RNVA  ...               0.00005            200000
-2      OTC:OCLN  OCLN  ...               0.00690            220000
-3   NASDAQ:BKYI  BKYI  ...               0.09740           8826676
-4    NASDAQ:ICU   ICU  ...               0.28790           7527703
-..          ...   ...  ...                   ...               ...
-45     OTC:BSEM  BSEM  ...               0.25000               200
-46     NYSE:SWI   SWI  ...               0.76000              5425
-47     NYSE:BPT   BPT  ...               0.45000               380
-48    NYSE:HOUS  HOUS  ...               0.39000               200
-49   NASDAQ:HCM   HCM  ...               1.40000              1950
-
-[50 rows x 8 columns]
-```
-
-With the following columns:
-```python
->>> df.columns
-```
-```
-Index(['ticker', 'name', 'close', 'volume', 'market_cap_basic',
-       'premarket_change', 'premarket_change_abs', 'premarket_volume'],
-      dtype='object')
-```
-
-If you aren't yet familiar with Pandas DataFrames, you can convert the output to a list of dictionaries like so:
-```python
->>> df.to_dict('records')[:10]
-```
-```
-[
-    {'ticker': 'NASDAQ:APLM', 'name': 'APLM', 'close': 0.862, 'volume': 94235502, 'market_cap_basic': 146422699.0, 'premarket_change': 127.11267606, 'premarket_change_abs': 0.722, 'premarket_volume': 30551043}
-    {'ticker': 'OTC:RNVA', 'name': 'RNVA', 'close': 0.0001, 'volume': 11050007, 'market_cap_basic': 2993432.0, 'premarket_change': 100.0, 'premarket_change_abs': 5e-05, 'premarket_volume': 200000}
-    {'ticker': 'OTC:OCLN', 'name': 'OCLN', 'close': 0.0076, 'volume': 2543494, 'market_cap_basic': 9864586.0, 'premarket_change': 86.25, 'premarket_change_abs': 0.0069, 'premarket_volume': 220000}
-    {'ticker': 'NASDAQ:BKYI', 'name': 'BKYI', 'close': 0.22, 'volume': 39926873, 'market_cap_basic': 2036156.0, 'premarket_change': 57.05916813, 'premarket_change_abs': 0.0974, 'premarket_volume': 8826676}
-    {'ticker': 'NASDAQ:ICU', 'name': 'ICU', 'close': 1.02, 'volume': 46835892, 'market_cap_basic': 19834890.0, 'premarket_change': 36.3510101, 'premarket_change_abs': 0.2879, 'premarket_volume': 7527703}
-    ...
-]
-```
-
 ## Creating custom stock screeners
-
-```python
-from tradingview_screener import Query, Column
-```
 
 
 Create a query (like you would in a SQL database):
 ```python
+from tradingview_screener import Query
+
 (Query()
  .select('name', 'close', 'volume', 'relative_volume_10d_calc', 'market_cap_basic')
  .get_scanner_data())
@@ -126,7 +53,7 @@ Create a query (like you would in a SQL database):
  [50 rows x 6 columns])
 ```
 
-Our dataframe only contains 50 rows, even though there are 5271 rows in total. 
+Our dataframe only contains 50 rows, even though there are 18060 rows in total. 
 This is because the default LIMIT is 50, but you can change that if you need to. 
 Just keep in mind that the more rows you request, the heavier the load you're putting on the server, and the longer 
 it will take to respond. 
@@ -136,12 +63,14 @@ And if you request too many rows, you might even get banned, so don't get crazy.
 
 A more elaborate query:
 ```python
+from tradingview_screener import Query, col
+
 (Query()
  .select('name', 'close', 'volume', 'relative_volume_10d_calc')
  .where(
-     Column('market_cap_basic').between(1_000_000, 50_000_000),
-     Column('relative_volume_10d_calc') > 1.2,
-     Column('MACD.macd') >= Column('MACD.signal')
+     col('market_cap_basic').between(1_000_000, 50_000_000),
+     col('relative_volume_10d_calc') > 1.2,
+     col('MACD.macd') >= col('MACD.signal')
  )
  .order_by('volume', ascending=False)
  .offset(5)
