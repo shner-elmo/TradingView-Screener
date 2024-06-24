@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ primary_screener.rstrip('s') }} Fields</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+</head>
+<body>
+  <main class="container">
+    <div role="group">
+        {% for name, file, set_markets in screeners %}
+            <button
+                class="{{ "primary" if name == primary_screener else "secondary" }}"
+                onclick="window.location.href = '{{ file }}'"
+                data-tooltip="{{ set_markets }}"
+                data-placement="bottom"
+            >{{ name }}</button>
+        {% endfor %}
+    </div>
+    <table>
+      <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Display name</th>
+            <th scope="col">Type</th>
+            <th scope="col" data-tooltip="If true it has the following timeframes: `'1', '5', '15', '30', '60', '120', '240', '1W', '1M'`">Timeframes</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+            <tr>
+                {% if is_list(row) %}
+                    <td>
+                        <details>
+                            <summary>{{ row[0][0] }}</summary>
+                            <ul>
+                                {% for val in row[1:] %}
+                                    <li>{{ val }}</li>
+                                {% endfor %}
+                            </ul>
+                        </details>
+                    </td>
+                    {% for val in row[0][1:] %}
+                        <td>{{ val }}</td>
+                    {% endfor %}
+                {% else %}
+                    {% for val in row %}
+                        <td>{{ val }}</td>
+                    {% endfor %}
+                {% endif %}
+            </tr>
+        {% endfor %}
+    </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Fields</th>
+          <td>{{ n_fields }}</td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+</body>
+</html>
