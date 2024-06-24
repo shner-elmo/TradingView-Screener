@@ -1,6 +1,6 @@
 import pytest
 
-from tradingview_screener.query import Query
+from tradingview_screener.query import Query, And, Or
 from tradingview_screener.column import col
 
 
@@ -128,11 +128,6 @@ def test_get_scanner_data():
 
 
 def test_and_or_chaining():
-    from tradingview_screener.default_screeners import (
-        stock_screener2,
-        etf_screener,
-    )
-
     # this dictionary/JSON was taken from the website, to make sure its reproduced correctly from
     # the function calls.
     dct = {
@@ -224,7 +219,20 @@ def test_and_or_chaining():
             }
         ],
     }
-    assert stock_screener2.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]
+    query = Query().where2(
+        And(
+            Or(
+                And(col('type') == 'stock', col('typespecs').has(['common'])),
+                And(col('type') == 'stock', col('typespecs').has(['preferred'])),
+                And(col('type') == 'dr'),
+                And(col('type') == 'fund', col('typespecs').has_none_of(['etf'])),
+            )
+        )
+    )
+    assert query.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]
+    # make sure the API accepts this filtering
+    count, _ = query.get_scanner_data()
+    assert count > 0
 
     dct = {
         'operator': 'and',
@@ -280,4 +288,15 @@ def test_and_or_chaining():
             }
         ],
     }
-    assert etf_screener.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]
+    query = Query().where2(
+        And(
+            Or(
+                And(col('typespecs').has(['etn'])),
+                And(col('typespecs').has(['etf'])),
+                And(col('type') == 'structured'),
+            )
+        )
+    )
+    assert query.query['filter2'] == dct  # pyright: ignore [reportTypedDictNotRequiredAccess]
+    count, _ = query.get_scanner_data()
+    assert count > 0
