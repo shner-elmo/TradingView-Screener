@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+__all__ = ['And', 'Or', 'Query']
 import pprint
 from typing import TYPE_CHECKING
 
@@ -344,6 +345,8 @@ class Query:
 
         You may choose any value from `tradingview_screener.constants.MARKETS`.
 
+        If you select multiple countries, you might want to
+
         Examples:
 
         By default, the screener will show results from the `america` market, but you can
@@ -430,25 +433,25 @@ class Query:
         >>> q = Query().select('name', 'market', 'close', 'volume', 'VWAP', 'MACD.macd')
         >>> q.set_tickers('NASDAQ:TSLA').get_scanner_data()
         (1,
-                 ticker  name   market   close    volume    VWAP  MACD.macd
-         0  NASDAQ:TSLA  TSLA  america  147.05  87067667  148.07  -7.084974)
+                 ticker  name   market  close   volume    VWAP  MACD.macd
+         0  NASDAQ:TSLA  TSLA  america    186  3519931  185.53   2.371601)
 
-        >>> q.set_tickers('NYSE:GME', 'AMEX:SPY', 'MIL:RACE', 'HOSE:VIX').get_scanner_data()
+        To set tickers from multiple markets we need to update the markets that include them:
+        >>> (Query()
+        ...  .set_markets('america', 'italy', 'vietnam')
+        ...  .set_tickers('NYSE:GME', 'AMEX:SPY', 'MIL:RACE', 'HOSE:VIX')
+        ...  .get_scanner_data())
         (4,
-              ticker  name   market     close     volume          VWAP   MACD.macd
-         0  HOSE:VIX   VIX  vietnam  16300.00   47414700  16500.000000 -555.964349
-         1  AMEX:SPY   SPY  america    495.16  102212352    496.491667   -3.161249
-         2  MIL:RACE  RACE    italy    387.20     327247    387.866667    1.148431
-         3  NYSE:GME   GME  america     10.42    2462726     10.371667   -0.944336)
+              ticker  name     close    volume  market_cap_basic
+         0  HOSE:VIX   VIX  16700.00  33192500      4.568961e+08
+         1  AMEX:SPY   SPY    544.35   1883562               NaN
+         2  NYSE:GME   GME     23.80   3116758      1.014398e+10
+         3  MIL:RACE  RACE    393.30    122878      1.006221e+11)
 
         :param tickers: One or more tickers, syntax: `exchange:symbol`
         :return: Self
         """
-        # no need to select the market if we specify the symbol we want
-        self.query.pop('markets', None)
-
         self.query.setdefault('symbols', {})['tickers'] = list(tickers)
-        self.url = URL.format(market='global')
         return self
 
     def set_index(self, *indexes: str) -> Self:
@@ -494,12 +497,13 @@ class Query:
         :param indexes: One or more strings representing the financial indexes to filter by
         :return: An instance of the `Query` class with the filter applied
         """
-        # no need to select the market if we specify the symbol we want
-        self.query.pop('markets', None)
         self.query.setdefault('preset', 'index_components_market_pages')
         self.query.setdefault('symbols', {})['symbolset'] = list(indexes)
         self.url = URL.format(market='global')
         return self
+    # TODO: add tests for set_ticker() and set_index() and make sure if its necessary to reset the 
+    #  URL or markets property
+    #  and review the docs again
 
     def set_property(self, key: str, value: Any) -> Self:
         self.query[key] = value
