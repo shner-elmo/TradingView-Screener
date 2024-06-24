@@ -20,7 +20,7 @@ Some of its main features are:
 - **Filter and sort** the results using SQL, a common database language.
 - **Create and save** screeners to easily monitor the markets and identify trading opportunities.
 
-You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener.html),
+You can find the docs [here](https://shner-elmo.github.io/TradingView-Screener/2.5.0/tradingview_screener.html),
 and the source on [GitHub](https://github.com/shner-elmo/TradingView-Screener).
 
 # Quickstart
