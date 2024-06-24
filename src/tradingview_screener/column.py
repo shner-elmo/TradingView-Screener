@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from typing import TYPE_CHECKING
-from tradingview_screener.constants import COLUMNS
 
 
 if TYPE_CHECKING:
@@ -29,14 +28,7 @@ class Column:
     """
 
     def __init__(self, name: str) -> None:
-        """
-        Create a column object from a given column name
-
-        :param name: string, should be either a key or a value from the `COLUMNS` dictionary
-        """
-        # if `name` is a dictionary key: get its value. otherwise make sure that it's a
-        # dictionary value.
-        self.name = COLUMNS.get(name, name)
+        self.name = name
 
     @staticmethod
     def _extract_name(obj) -> ...:
