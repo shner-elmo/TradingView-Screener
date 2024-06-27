@@ -1,0 +1,525 @@
+[
+    {
+        "n": "exchange",
+        "t": "text",
+        "r": [
+            "NSE",
+            "CBOT",
+            "CBOT_MINI",
+            "NYMEX",
+            "BSE",
+            "CME_MINI",
+            "OPRA",
+            "COMEX",
+            "CME"
+        ]
+    },
+    {
+        "n": "is_primary",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "active_symbol",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "submarket",
+        "t": "text",
+        "r": [
+            ""
+        ]
+    },
+    {
+        "n": "sector",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "industry",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "country",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "volume",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "high",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "low",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "premarket_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_from_open_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "all_time_open",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "ask",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "bars_count",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "base_currency_kind",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "bid",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "country_code_fund",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "coupon",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cryptoasset-info.description",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "cryptoasset-info.id",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "currency",
+        "t": "text",
+        "r": [
+            "USD",
+            "INR",
+            "USX",
+            "GBP",
+            "CHF",
+            "JPY",
+            "EUR",
+            "CNH"
+        ]
+    },
+    {
+        "n": "currency_id",
+        "t": "text",
+        "r": [
+            "GBP",
+            "CHF",
+            "JPY",
+            "EUR",
+            "XTVCNH",
+            "USD",
+            "INR",
+            "XTVUSX"
+        ]
+    },
+    {
+        "n": "currency_kind",
+        "t": "text",
+        "r": [
+            "fiat"
+        ]
+    },
+    {
+        "n": "days_to_maturity",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "expiration",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "fractional",
+        "t": "text",
+        "r": [
+            "false",
+            "true"
+        ]
+    },
+    {
+        "n": "gap_down",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_down_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "indexes",
+        "t": "interface",
+        "r": null
+    },
+    {
+        "n": "indicators_bars_count",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "is_blacklisted",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "is_shariah_compliant",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "last_bar_update_time",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "market",
+        "t": "text",
+        "r": [
+            "options"
+        ]
+    },
+    {
+        "n": "maturity_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "minmov",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "minmove2",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "option-type",
+        "t": "text",
+        "r": [
+            "call",
+            "put"
+        ]
+    },
+    {
+        "n": "post_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pricescale",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "rates_cf",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_current",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_dividend_recent",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_dividend_upcoming",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_earnings_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_earnings_next_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fh",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fy",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_mc",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_pt",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_time_series",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_ttm",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "source-logoid",
+        "t": "text",
+        "r": [
+            "provider/ice",
+            "source/BSE",
+            "source/CME",
+            "source/NSE"
+        ]
+    },
+    {
+        "n": "strike",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "subtype",
+        "t": "text",
+        "r": [
+            ""
+        ]
+    },
+    {
+        "n": "time",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "type",
+        "t": "text",
+        "r": [
+            "option"
+        ]
+    },
+    {
+        "n": "typespecs",
+        "t": "set",
+        "r": [
+            ""
+        ]
+    },
+    {
+        "n": "update-time",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "update_mode",
+        "t": "text",
+        "r": [
+            "streaming"
+        ]
+    },
+    {
+        "n": "update_time",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "volume_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "volume_change_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    }
+]

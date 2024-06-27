@@ -1,0 +1,2494 @@
+[
+    {
+        "n": "exchange",
+        "t": "text",
+        "r": [
+            "EUREX",
+            "CBOT",
+            "MYX",
+            "DFM",
+            "ICEUS",
+            "TOCOM",
+            "NSEIX",
+            "CBOT_MINI",
+            "COMEX_MINI",
+            "GPW",
+            "NCDEX",
+            "OSE",
+            "EURONEXT",
+            "BET",
+            "NYMEX_MINI",
+            "TFEX",
+            "SHFE",
+            "MOEX",
+            "MGEX",
+            "NYMEX",
+            "SGX",
+            "NSE",
+            "BMFBOVESPA",
+            "ASX24",
+            "BIST",
+            "MATBAROFEX",
+            "TFX",
+            "NASDAQDUBAI",
+            "CME",
+            "LME",
+            "ICEEUR",
+            "ICESG",
+            "HNX",
+            "ADX",
+            "BSE",
+            "TAIFEX",
+            "COMEX",
+            "HKEX",
+            "CME_MINI",
+            "MSEI",
+            "MCX",
+            "NZX",
+            "CBOE"
+        ]
+    },
+    {
+        "n": "is_primary",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "active_symbol",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "submarket",
+        "t": "text",
+        "r": [
+            ""
+        ]
+    },
+    {
+        "n": "sector",
+        "t": "text",
+        "r": [
+            "Energy",
+            "Financials",
+            "Agricultural",
+            "Indexes",
+            "Currencies",
+            "Metals"
+        ]
+    },
+    {
+        "n": "volume",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "average_volume_10d_calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "average_volume_30d_calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "average_volume_60d_calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "average_volume_90d_calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "relative_volume_10d_calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "high",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "low",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.3M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.YTD",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.5Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Volatility.W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Volatility.M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Volatility.D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI7",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ATR",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Mom",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_high",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_low",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.3M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.3M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA10",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA100",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA200",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA10",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA100",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA200",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "MACD.macd",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "MACD.signal",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Aroon.Up",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Aroon.Down",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "BB.upper",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "BB.lower",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "KltChnl.upper",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "KltChnl.lower",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "P.SAR",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Value.Traded",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "MoneyFlow",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ChaikinMoneyFlow",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "CCI20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "DonchCh20.Upper",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "DonchCh20.Lower",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AO",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_from_open_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Recommend.All",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Recommend.MA",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Recommend.Other",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.RSI.K",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.RSI.D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "W.R",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ROC",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "BBPower",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "UO",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "VWAP",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "VWMA",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADR",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.CLine",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.BLine",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.Lead1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.Lead2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADRP",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_100[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_20[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_50[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_9[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX+DI_100",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_100[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_20[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_50[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_9[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX-DI_100",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX_9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX_20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX_50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ADX_100",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AO[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AO[2]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "ATRP",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "BB.basis",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "BB.basis_50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "BB.lower_50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "BB.upper_50",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "CCI20[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.3BlackCrows",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.3WhiteSoldiers",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.AbandonedBaby.Bearish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.AbandonedBaby.Bullish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Doji",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Doji.Dragonfly",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Doji.Gravestone",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Engulfing.Bearish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Engulfing.Bullish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.EveningStar",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Hammer",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.HangingMan",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Harami.Bearish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Harami.Bullish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.InvertedHammer",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Kicking.Bearish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Kicking.Bullish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.LongShadow.Lower",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.LongShadow.Upper",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Marubozu.Black",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.Marubozu.White",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.MorningStar",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.ShootingStar",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.SpinningTop.Black",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.SpinningTop.White",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.TriStar.Bearish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Candle.TriStar.Bullish",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "DonchCh20.Middle",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA6",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA7",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA8",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA12",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA13",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA21",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA25",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA40",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA75",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA150",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA250",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA300",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.1M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.3M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.5D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.6M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All.Calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All.Calc.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.BLine_20_60_120_30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.CLine_20_60_120_30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.Lead1_20_60_120_30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Ichimoku.Lead2_20_60_120_30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "KltChnl.basis",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.1M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.3M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.5D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.6M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.After.High.All",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All.Calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All.Calc.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "MACD.hist",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Mom[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Mom_14",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Mom_14[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Open.All.Calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.10Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.3Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.5D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Camarilla.Middle",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Camarilla.R1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Camarilla.R2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Camarilla.R3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Camarilla.S1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Camarilla.S2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Camarilla.S3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Classic.Middle",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Classic.R1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Classic.R2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Classic.R3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Classic.S1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Classic.S2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Classic.S3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Demark.Middle",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Demark.R1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Demark.S1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Fibonacci.Middle",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Fibonacci.R1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Fibonacci.R2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Fibonacci.R3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Fibonacci.S1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Fibonacci.S2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Fibonacci.S3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Woodie.Middle",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Woodie.R1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Woodie.R2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Woodie.R3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Woodie.S1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Woodie.S2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Pivot.M.Woodie.S3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI21",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI21[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI2[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI7[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI9[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Rec.BBPower",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Rec.HullMA9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Rec.Ichimoku",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Rec.Stoch.RSI",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Rec.UO",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Rec.VWMA",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Rec.WR",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA6",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA7",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA8",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA9",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA12",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA13",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA21",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA25",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA40",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA75",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA150",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA250",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA300",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D[1]_14_1_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K[1]_14_1_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "all_time_high",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "all_time_high_day",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "all_time_low",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "all_time_low_day",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "all_time_open",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "bars_count",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "base_currency_kind",
+        "t": "text",
+        "r": [
+            "crypto",
+            "fiat"
+        ]
+    },
+    {
+        "n": "coupon",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cryptoasset-info.description",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "cryptoasset-info.id",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "currency",
+        "t": "text",
+        "r": [
+            "GBX",
+            "CHF",
+            "MYR",
+            "USD",
+            "NOK",
+            "PLN",
+            "MXN",
+            "CZK",
+            "VND",
+            "CLP",
+            "TWD",
+            "THB",
+            "RUB",
+            "UAH",
+            "KRW",
+            "SEK",
+            "JPY",
+            "CNH",
+            "INR",
+            "GBP",
+            "CAD",
+            "ARS",
+            "USX",
+            "SGD",
+            "AED",
+            "HUF",
+            "CNY",
+            "RON",
+            "ZAR",
+            "TRY",
+            "NZD",
+            "RSD",
+            "EUR",
+            "HKD",
+            "BRL",
+            "AUD",
+            "DKK"
+        ]
+    },
+    {
+        "n": "currency_id",
+        "t": "text",
+        "r": [
+            "CHF",
+            "CNY",
+            "CZK",
+            "VND",
+            "KRW",
+            "XTVGBX",
+            "GBP",
+            "MYR",
+            "MXN",
+            "ARS",
+            "NOK",
+            "AUD",
+            "RUB",
+            "AED",
+            "RSD",
+            "XTVUSX",
+            "BRL",
+            "PLN",
+            "CAD",
+            "INR",
+            "SEK",
+            "JPY",
+            "ZAR",
+            "USD",
+            "HUF",
+            "HKD",
+            "TRY",
+            "THB",
+            "UAH",
+            "NZD",
+            "DKK",
+            "CLP",
+            "EUR",
+            "TWD",
+            "SGD",
+            "XTVCNH",
+            "RON"
+        ]
+    },
+    {
+        "n": "currency_kind",
+        "t": "text",
+        "r": [
+            "fiat"
+        ]
+    },
+    {
+        "n": "current_session",
+        "t": "text",
+        "r": [
+            "market",
+            "out_of_session"
+        ]
+    },
+    {
+        "n": "days_to_maturity",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "expiration",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "first_bar_time",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "fractional",
+        "t": "text",
+        "r": [
+            "false",
+            "true"
+        ]
+    },
+    {
+        "n": "fundamental_currency_code",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "gap_down",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_down_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "indexes",
+        "t": "interface",
+        "r": null
+    },
+    {
+        "n": "indicators_bars_count",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "is_blacklisted",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "is_shariah_compliant",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "last_bar_update_time",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "low_after_high_all_change",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "low_after_high_all_change_abs",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "market",
+        "t": "text",
+        "r": [
+            "futures"
+        ]
+    },
+    {
+        "n": "maturity_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "minmov",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "minmove2",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "open_interest",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "post_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_high_date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_low_date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pricescale",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "provider-id",
+        "t": "text",
+        "r": [
+            "moex",
+            "ice"
+        ]
+    },
+    {
+        "n": "rates_cf",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_current",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_dividend_recent",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_dividend_upcoming",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_earnings_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_earnings_next_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fh",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fy",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_mc",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_pt",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_time_series",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_ttm",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "source-logoid",
+        "t": "text",
+        "r": [
+            "source/CME",
+            "source/EURONEXT",
+            "source/HNX",
+            "source/HKEX",
+            "source/GPW",
+            "source/MATBAROFEX",
+            "country/US",
+            "source/TAIFEX",
+            "source/TOCOM",
+            "source/NCDEX",
+            "source/CBOE",
+            "source/BSE",
+            "source/BMFBOVESPA",
+            "source/ICEUS",
+            "source/OSE",
+            "source/TFX",
+            "country/AU",
+            "source/MSEI",
+            "country/IN",
+            "source/ADX",
+            "source/BET",
+            "source/SHFE",
+            "source/MOEX",
+            "source/BIST",
+            "source/MCX",
+            "source/SGX",
+            "source/NSE",
+            "country/EU",
+            "source/NZX",
+            "source/DFM",
+            "country/AE",
+            "source/EUREX",
+            "source/LME",
+            "source/TFEX",
+            "source/MYX",
+            "country/SG"
+        ]
+    },
+    {
+        "n": "subtype",
+        "t": "text",
+        "r": [
+            "",
+            "continuous",
+            "micro",
+            "mini"
+        ]
+    },
+    {
+        "n": "time",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "time_business_day",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "type",
+        "t": "text",
+        "r": [
+            "futures"
+        ]
+    },
+    {
+        "n": "typespecs",
+        "t": "set",
+        "r": [
+            "synthetic",
+            "micro",
+            "mini",
+            "expired",
+            "",
+            "continuous"
+        ]
+    },
+    {
+        "n": "update-time",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "update_mode",
+        "t": "text",
+        "r": [
+            "streaming",
+            "endofday"
+        ]
+    },
+    {
+        "n": "update_time",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "volume_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "volume_change_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    }
+]

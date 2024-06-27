@@ -1,0 +1,1289 @@
+[
+    {
+        "n": "exchange",
+        "t": "text",
+        "r": [
+            "TVC"
+        ]
+    },
+    {
+        "n": "is_primary",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "active_symbol",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "submarket",
+        "t": "text",
+        "r": [
+            ""
+        ]
+    },
+    {
+        "n": "sector",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "volume",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "volume|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "high",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "high|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "low",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "low|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.3M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.YTD",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.5Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Volatility.W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Volatility.M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Volatility.D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_high",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_low",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.3M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.3M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_change_from_open_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "premarket_gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Bond.Change",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Bond.Change|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Bond.Change.%",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Bond.Change.%|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Bond.Currency",
+        "t": "text",
+        "r": [
+            "DKK",
+            "UAH",
+            "ISK",
+            "THB",
+            "CHF",
+            "AUD",
+            "VND",
+            "COP",
+            "GBP",
+            "CZK",
+            "ZAR",
+            "EUR",
+            "MYR",
+            "RUB",
+            "SEK",
+            "NZD",
+            "KRW",
+            "RON",
+            "PLN",
+            "CNY",
+            "IDR",
+            "PHP",
+            "NOK",
+            "INR",
+            "BRL",
+            "SGD",
+            "TWD",
+            "JPY",
+            "PEN",
+            "HKD",
+            "CAD",
+            "TRY",
+            "USD",
+            "CLP",
+            "HUF"
+        ]
+    },
+    {
+        "n": "Bond.Price",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Bond.Price|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.1M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.3M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.5D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.6M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All.Calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All.Calc.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.1M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.3M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.5D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.6M.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.After.High.All",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All.Calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All.Calc.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All.Date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Open.All.Calc",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.10Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.3Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.5D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "all_time_high",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "all_time_high_day",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "all_time_low",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "all_time_low_day",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "all_time_open",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "ask",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "bars_count",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "bars_count|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "base_currency_kind",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "bid",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "close_1_days_back",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close_30_days_back",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close_365_days_back",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "country_code",
+        "t": "text",
+        "r": [
+            "DE",
+            "FR",
+            "PH",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "PL",
+            "AU",
+            "NO",
+            "DK",
+            "IN",
+            "IE",
+            "UA",
+            "US",
+            "NZ",
+            "SK",
+            "TH",
+            "NL",
+            "SG",
+            "MY",
+            "HK",
+            "AT",
+            "IT",
+            "ZA",
+            "EU",
+            "PE",
+            "TR",
+            "JP",
+            "KR",
+            "GR",
+            "SE",
+            "GB",
+            "IS",
+            "CN",
+            "TW",
+            "CZ",
+            "HU",
+            "BE",
+            "RO",
+            "RU",
+            "LT",
+            "FI",
+            "PT",
+            "ES",
+            "ID",
+            "VN",
+            "BR"
+        ]
+    },
+    {
+        "n": "coupon",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cryptoasset-info.description",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "cryptoasset-info.id",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "currency",
+        "t": "text",
+        "r": [
+            "GBP",
+            "ISK",
+            "CHF",
+            "INR",
+            "HKD",
+            "USD",
+            "PLN",
+            "NZD",
+            "CZK",
+            "BRL",
+            "TWD",
+            "CNY",
+            "THB",
+            "AUD",
+            "SGD",
+            "ZAR",
+            "MYR",
+            "VND",
+            "NOK",
+            "HUF",
+            "PEN",
+            "RUB",
+            "KRW",
+            "SEK",
+            "CAD",
+            "RON",
+            "TRY",
+            "PHP",
+            "COP",
+            "IDR",
+            "DKK",
+            "EUR",
+            "UAH",
+            "CLP",
+            "JPY"
+        ]
+    },
+    {
+        "n": "currency_id",
+        "t": "text",
+        "r": [
+            "EUR",
+            "PHP",
+            "SEK",
+            "RON",
+            "CLP",
+            "ISK",
+            "THB",
+            "DKK",
+            "CAD",
+            "RUB",
+            "UAH",
+            "CHF",
+            "MYR",
+            "INR",
+            "NZD",
+            "BRL",
+            "VND",
+            "TRY",
+            "HUF",
+            "KRW",
+            "HKD",
+            "PLN",
+            "TWD",
+            "COP",
+            "ZAR",
+            "IDR",
+            "USD",
+            "PEN",
+            "SGD",
+            "GBP",
+            "JPY",
+            "CNY",
+            "",
+            "CZK",
+            "AUD",
+            "NOK"
+        ]
+    },
+    {
+        "n": "currency_kind",
+        "t": "text",
+        "r": [
+            "fiat"
+        ]
+    },
+    {
+        "n": "current_session",
+        "t": "text",
+        "r": [
+            "market"
+        ]
+    },
+    {
+        "n": "days_to_maturity",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "expiration",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "first_bar_time",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "forex_priority",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "fractional",
+        "t": "text",
+        "r": [
+            "false",
+            "true"
+        ]
+    },
+    {
+        "n": "gap_down",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_down|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_down_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_down_abs|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "gap_up_abs|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "index_priority",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "indexes",
+        "t": "interface",
+        "r": null
+    },
+    {
+        "n": "indicators_bars_count",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "indicators_bars_count|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "is_blacklisted",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "is_shariah_compliant",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "last_bar_update_time",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "last_bar_update_time|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "low_after_high_all_change",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "low_after_high_all_change_abs",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "market",
+        "t": "text",
+        "r": [
+            "bonds"
+        ]
+    },
+    {
+        "n": "maturity_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "minmov",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "minmove2",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "popularity_rank",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "post_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "post_change|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pre_change_abs|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_high_date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_low_date",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "pricescale",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "provider-id",
+        "t": "text",
+        "r": [
+            "refinitiv",
+            "tvc"
+        ]
+    },
+    {
+        "n": "rates_cf",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_current",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_dividend_recent",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_dividend_upcoming",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_earnings_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_earnings_next_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fh",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fq",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_fy",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_mc",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_pt",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_time_series",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "rates_ttm",
+        "t": "map",
+        "r": null
+    },
+    {
+        "n": "region",
+        "t": "text",
+        "r": [
+            "Pacific",
+            "Middle East",
+            "Africa",
+            "Europe",
+            "Asia",
+            "Americas"
+        ]
+    },
+    {
+        "n": "rtc",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "source-logoid",
+        "t": "text",
+        "r": [
+            "provider/tvc"
+        ]
+    },
+    {
+        "n": "subtype",
+        "t": "text",
+        "r": [
+            "government",
+            "continuous"
+        ]
+    },
+    {
+        "n": "term-to-maturity",
+        "t": "text",
+        "r": [
+            "P1M",
+            "P50Y",
+            "P2M",
+            "P9M",
+            "P3M",
+            "P15Y",
+            "P19Y",
+            "P40Y",
+            "P7Y",
+            "P25Y",
+            "P20Y",
+            "P24Y",
+            "P12Y",
+            "P13Y",
+            "P10Y",
+            "P1Y",
+            "P30Y",
+            "P3Y",
+            "P6M",
+            "P8Y",
+            "P5Y",
+            "P2Y",
+            "P11Y",
+            "P4M",
+            "P95Y",
+            "P4Y",
+            "P6Y",
+            "P5M",
+            "P18Y",
+            "P14Y",
+            "P9Y",
+            "P7M"
+        ]
+    },
+    {
+        "n": "time",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "time|1",
+        "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "time_business_day",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "type",
+        "t": "text",
+        "r": [
+            "bond"
+        ]
+    },
+    {
+        "n": "typespecs",
+        "t": "set",
+        "r": [
+            "continuous",
+            "cfd",
+            "synthetic",
+            "government",
+            "benchmark",
+            "yield"
+        ]
+    },
+    {
+        "n": "update-time",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "update_mode",
+        "t": "text",
+        "r": [
+            "streaming"
+        ]
+    },
+    {
+        "n": "update_mode|1",
+        "t": "text",
+        "r": [
+            "streaming"
+        ]
+    },
+    {
+        "n": "update_time",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "volume_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "volume_change|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "volume_change_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "volume_change_abs|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    }
+]
