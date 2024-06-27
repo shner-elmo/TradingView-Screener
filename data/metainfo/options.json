@@ -8,15 +8,15 @@
         "n": "exchange",
         "t": "text",
         "r": [
+            "NYMEX",
             "CME",
             "BSE",
-            "CBOT_MINI",
-            "NSE",
-            "NYMEX",
             "CBOT",
-            "COMEX",
             "CME_MINI",
-            "OPRA"
+            "OPRA",
+            "NSE",
+            "COMEX",
+            "CBOT_MINI"
         ]
     },
     {
@@ -226,28 +226,28 @@
         "n": "currency",
         "t": "text",
         "r": [
-            "GBP",
-            "JPY",
-            "EUR",
             "CNH",
-            "INR",
+            "CHF",
             "USD",
+            "INR",
             "USX",
-            "CHF"
+            "EUR",
+            "JPY",
+            "GBP"
         ]
     },
     {
         "n": "currency_id",
         "t": "text",
         "r": [
-            "GBP",
-            "JPY",
-            "EUR",
-            "XTVCNH",
-            "INR",
-            "USD",
             "XTVUSX",
-            "CHF"
+            "EUR",
+            "JPY",
+            "GBP",
+            "XTVCNH",
+            "CHF",
+            "USD",
+            "INR"
         ]
     },
     {
@@ -276,8 +276,8 @@
         "n": "fractional",
         "t": "text",
         "r": [
-            "true",
-            "false"
+            "false",
+            "true"
         ]
     },
     {
@@ -467,10 +467,10 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
+            "source/BSE",
             "source/NSE",
             "provider/ice",
-            "source/CME",
-            "source/BSE"
+            "source/CME"
         ]
     },
     {
