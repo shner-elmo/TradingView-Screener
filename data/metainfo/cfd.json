@@ -1,67 +1,72 @@
 [
     {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "exchange",
         "t": "text",
         "r": [
+            "OMXSTO",
+            "FX",
+            "EIGHTCAP",
+            "BVC",
+            "TADAWUL",
+            "TVC",
             "EGX",
-            "SPARKS",
-            "BME",
-            "BMFBOVESPA",
-            "BELEX",
-            "FTSEMYX",
-            "FOREXCOM",
-            "ASX",
-            "ATHEX",
             "NSE",
-            "FXOPEN",
-            "BLACKBULL",
-            "TSX",
-            "IDX",
-            "OMXCOP",
+            "BELEX",
+            "OMXRSE",
+            "HSI",
+            "TWSE",
+            "CRYPTOCAP",
+            "NZX",
+            "BIST",
+            "EASYMARKETS",
             "SP",
-            "CITYINDEX",
-            "DFM",
-            "OMXVSE",
-            "BSE",
+            "IDX",
+            "TSX",
+            "OMXHEX",
             "BET",
+            "BCBA",
+            "BME",
+            "DFM",
+            "QSE",
+            "SAXO",
+            "PEPPERSTONE",
+            "PHILLIPNOVA",
+            "FX_IDC",
+            "FOREXCOM",
+            "BMFBOVESPA",
+            "ASX",
+            "BLACKBULL",
             "MOEX",
+            "BSE",
+            "BVL",
+            "EURONEXT",
+            "BMV",
             "CBOE",
-            "DJ",
+            "SSE",
+            "TASE",
+            "GPW",
+            "XETR",
+            "FTSEMYX",
+            "SPARKS",
+            "SZSE",
+            "SIX",
+            "OMXVSE",
+            "ATHEX",
+            "CITYINDEX",
+            "FXOPEN",
             "BCS",
             "SKILLING",
-            "SIX",
-            "CRYPTOCAP",
-            "OMXSTO",
-            "TADAWUL",
-            "TASE",
-            "PEPPERSTONE",
-            "TWSE",
-            "OMXRSE",
-            "XETR",
-            "NZX",
-            "SSE",
-            "SAXO",
-            "BIST",
-            "BMV",
-            "PHILLIPNOVA",
-            "BAHRAIN",
+            "OMXCOP",
             "OANDA",
+            "DJ",
             "BVB",
-            "GPW",
-            "HSI",
-            "SZSE",
-            "BVC",
-            "BVL",
-            "FX_IDC",
-            "EASYMARKETS",
-            "EIGHTCAP",
-            "OMXTSE",
-            "QSE",
-            "TVC",
-            "OMXHEX",
-            "EURONEXT",
-            "FX",
-            "BCBA"
+            "BAHRAIN",
+            "OMXTSE"
         ]
     },
     {
@@ -85,23 +90,23 @@
         "n": "sector",
         "t": "text",
         "r": [
-            "currency",
-            "Energy",
+            "Metals",
             "Agricultural",
-            "index",
-            "Metals"
+            "Energy",
+            "currency",
+            "index"
         ]
     },
     {
         "n": "country",
         "t": "text",
         "r": [
-            "Middle East",
-            "Africa",
             "Europe",
             "Asia",
-            "Pacific",
-            "Americas"
+            "Americas",
+            "Middle East",
+            "Africa",
+            "Pacific"
         ]
     },
     {
@@ -9448,6 +9453,13 @@
         "rd": true
     },
     {
+        "n": "EMA15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA21",
         "t": "number",
         "r": null,
@@ -9456,6 +9468,20 @@
     },
     {
         "n": "EMA25",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34",
         "t": "number",
         "r": null,
         "hh": true,
@@ -9652,6 +9678,69 @@
     },
     {
         "n": "EMA13|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -9910,6 +9999,69 @@
         "rd": true
     },
     {
+        "n": "EMA26|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA3|1",
         "t": "number",
         "r": null,
@@ -10036,6 +10188,69 @@
         "rd": true
     },
     {
+        "n": "EMA34|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA40|1",
         "t": "number",
         "r": null,
@@ -10099,6 +10314,69 @@
         "rd": true
     },
     {
+        "n": "EMA55|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA6|1",
         "t": "number",
         "r": null,
@@ -10156,6 +10434,13 @@
     },
     {
         "n": "EMA6|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55",
         "t": "number",
         "r": null,
         "hh": true,
@@ -10493,6 +10778,146 @@
     {
         "n": "High.All.Date",
         "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200",
+        "t": "number",
         "r": null,
         "hh": true,
         "rd": true
@@ -13459,7 +13884,154 @@
         "rd": true
     },
     {
+        "n": "RSI10",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI21",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -13789,6 +14361,139 @@
     },
     {
         "n": "RSI3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15524,6 +16229,69 @@
         "rd": true
     },
     {
+        "n": "SMA60|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA7|1",
         "t": "number",
         "r": null,
@@ -15776,6 +16544,13 @@
         "rd": true
     },
     {
+        "n": "SMA60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA75",
         "t": "number",
         "r": null,
@@ -15881,76 +16656,6 @@
         "rd": true
     },
     {
-        "n": "Stoch.D[1]_14_1_3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "Stoch.D_14_1_3",
         "t": "number",
         "r": null,
@@ -16015,6 +16720,216 @@
     },
     {
         "n": "Stoch.D_14_1_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16091,76 +17006,6 @@
         "rd": true
     },
     {
-        "n": "Stoch.K[1]_14_1_3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "Stoch.K_14_1_3",
         "t": "number",
         "r": null,
@@ -16225,6 +17070,216 @@
     },
     {
         "n": "Stoch.K_14_1_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16391,54 +17446,54 @@
         "n": "country_code",
         "t": "text",
         "r": [
+            "NZ",
+            "CH",
+            "GB",
+            "GR",
+            "FR",
+            "AU",
+            "SE",
+            "CO",
+            "RS",
+            "NL",
             "SA",
             "EU",
-            "ID",
-            "SG",
-            "PE",
-            "FR",
-            "LV",
-            "HK",
-            "BR",
-            "PL",
-            "TR",
-            "KR",
-            "CN",
-            "RS",
-            "AE",
-            "IT",
-            "AR",
-            "NL",
-            "GR",
-            "LT",
-            "BH",
-            "CH",
-            "BE",
-            "DK",
-            "ZA",
-            "CL",
-            "QA",
-            "IL",
-            "FI",
-            "NZ",
-            "ES",
             "HU",
-            "SE",
-            "GB",
-            "MY",
-            "MX",
+            "DK",
             "IN",
+            "HK",
+            "QA",
             "RO",
-            "DE",
-            "CA",
-            "AU",
-            "EG",
+            "AE",
+            "PE",
+            "IL",
+            "LT",
+            "FI",
             "JP",
-            "TW",
+            "BE",
+            "ZA",
+            "TR",
+            "BR",
+            "DE",
+            "CL",
+            "MX",
+            "EE",
+            "KR",
             "US",
-            "CO",
+            "LV",
+            "MY",
+            "CA",
             "RU",
-            "EE"
+            "TW",
+            "AR",
+            "BH",
+            "IT",
+            "CN",
+            "ID",
+            "PL",
+            "EG",
+            "ES",
+            "SG"
         ]
     },
     {
@@ -16450,287 +17505,287 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
-            "Dogecoin",
-            "Stacks",
-            "NEAR Protocol",
-            "Frax",
-            "OKB",
-            "BNB",
-            "Polygon",
-            "Polkadot",
-            "Frax Share",
-            "GMX",
-            "JITO",
-            "THORChain",
-            "Amp",
-            "Radix",
-            "SushiSwap",
-            "USDD",
-            "DeXe",
-            "Optimism",
-            "Arweave",
-            "Dai",
-            "MultiversX",
-            "Ravencoin",
-            "Mantle",
-            "Conflux",
-            "Gemini Dollar",
-            "Toncoin",
-            "Synthetix",
-            "Pepe",
-            "yearn.finance",
-            "Immutable X",
-            "Shiba Inu",
-            "Injective",
-            "Render Token",
-            "PancakeSwap",
-            "USD Coin",
-            "Centrifuge",
-            "Solana",
-            "Avalanche",
-            "MANTRA",
-            "ether.fi",
-            "Marinade Staked SOL",
-            "Bitcoin Cash",
-            "Litecoin",
-            "Threshold",
-            "Bittensor",
-            "Raydium",
-            "Monero",
-            "Kaspa",
-            "Filecoin",
-            "Aptos",
-            "Uniswap",
-            "Lido Staked ETH",
-            "Hedera",
-            "Lido DAO",
-            "Internet Computer",
-            "Ethena",
-            "Stellar",
-            "Gnosis",
-            "Arbitrum",
             "Compound",
-            "Ethereum Classic",
-            "Sui",
-            "UNUS SED LEO",
-            "Maker",
-            "Tether",
-            "Jupiter",
-            "Cosmos",
-            "Chainlink",
-            "TRON",
-            "dYdX (ethDYDX)",
-            "Wormhole",
-            "WOO Network",
-            "First Digital USD",
-            "UMA",
-            "1inch Network",
-            "JUST",
-            "Rocket Pool",
-            "Tellor",
-            "0x",
-            "The Graph",
             "Aave",
-            "VeChain",
-            "Cardano",
-            "Tribe",
-            "Convex Finance",
-            "Ethereum",
-            "Curve DAO Token",
-            "Loopring",
-            "Wrapped eETH",
-            "dogwifhat",
-            "Bitcoin",
-            "Cronos",
+            "UMA",
+            "Tellor",
+            "Threshold",
+            "Ethena",
+            "Lido Staked ETH",
             "Aerodrome Finance",
-            "XRP"
+            "Shiba Inu",
+            "Immutable X",
+            "First Digital USD",
+            "Litecoin",
+            "Pepe",
+            "Jupiter",
+            "Frax Share",
+            "JITO",
+            "Ethereum",
+            "Gnosis",
+            "Internet Computer",
+            "Ethereum Classic",
+            "SushiSwap",
+            "Curve DAO Token",
+            "JUST",
+            "Dai",
+            "Conflux",
+            "Lido DAO",
+            "Monero",
+            "Frax",
+            "NEAR Protocol",
+            "Uniswap",
+            "THORChain",
+            "The Graph",
+            "Cronos",
+            "TRON",
+            "Loopring",
+            "dogwifhat",
+            "Bitcoin Cash",
+            "BNB",
+            "Chainlink",
+            "Avalanche",
+            "Synthetix",
+            "Marinade Staked SOL",
+            "Ravencoin",
+            "DeXe",
+            "Mantle",
+            "Stellar",
+            "1inch Network",
+            "Amp",
+            "WOO Network",
+            "0x",
+            "Gemini Dollar",
+            "Tribe",
+            "Cardano",
+            "MultiversX",
+            "Injective",
+            "XRP",
+            "Arweave",
+            "OKB",
+            "Radix",
+            "MANTRA",
+            "Dogecoin",
+            "GMX",
+            "dYdX (ethDYDX)",
+            "Toncoin",
+            "VeChain",
+            "Maker",
+            "Polygon",
+            "ether.fi",
+            "Stacks",
+            "Arbitrum",
+            "Solana",
+            "UNUS SED LEO",
+            "Tether",
+            "Rocket Pool",
+            "PancakeSwap",
+            "Hedera",
+            "Sui",
+            "Raydium",
+            "Filecoin",
+            "Optimism",
+            "Render Token",
+            "Centrifuge",
+            "USDD",
+            "Bittensor",
+            "Convex Finance",
+            "Polkadot",
+            "USD Coin",
+            "Bitcoin",
+            "Kaspa",
+            "Aptos",
+            "Wrapped eETH",
+            "yearn.finance",
+            "Wormhole",
+            "Cosmos"
         ]
     },
     {
         "n": "cryptoasset-info.id",
         "t": "text",
         "r": [
-            "XTVCOP",
+            "XTVCGMX",
+            "XTVCTAOB",
+            "XTVCLTC",
+            "XTVCSNX",
+            "XTVCAEROD",
             "XTVCDOGE",
-            "XTVCPEPE",
-            "XTVCFDUSD",
-            "XTVCVET",
+            "XTVCBTC",
+            "XTVCRAY",
+            "XTVCAVAX",
+            "XTVCUSDT",
+            "XTVCMKR",
+            "XTVCNEAR",
+            "XTVCCRV",
+            "XTVCXMR",
+            "XTVCTRX",
+            "XTVCT",
+            "XTVCADA",
+            "XTVCETHFI",
+            "XTVCSHIB",
+            "XTVCGUSD",
+            "XTVCW",
+            "XTVCKAS",
+            "XTVCOP",
+            "XTVCDAI",
+            "XTVCRNDR",
+            "XTVCUMA",
+            "XTVCXLM",
+            "XTVCRUNE",
+            "XTVCXRD",
+            "XTVCSUI",
+            "XTVCETC",
+            "XTVCATOM",
+            "XTVCSTETH",
+            "XTVCCFG",
+            "XTVCFRAX",
+            "XTVCEGLD",
+            "XTVC1INCH",
+            "XTVCFIL",
+            "XTVCDOT",
+            "XTVCBNB",
+            "XTVCZRX",
+            "XTVCLDO",
+            "XTVCMSOL",
+            "XTVCUNI",
+            "XTVCRVN",
+            "XTVCENA",
+            "XTVCBCH",
+            "XTVCXRP",
+            "XTVCWOO",
+            "XTVCJST",
+            "XTVCCAKE",
+            "XTVCIMX",
+            "XTVCLRC",
+            "XTVCSTXS",
             "XTVCLEO",
-            "XTVCAPTO",
             "XTVCGRT",
+            "XTVCGNO",
+            "XTVCJTO",
+            "XTVCRPL",
+            "XTVCTRIBE",
+            "XTVCETH",
+            "XTVCMATIC",
+            "XTVCAMP2",
+            "XTVCDYDX",
             "XTVCSUSHI",
             "XTVCYFI",
-            "XTVCATOM",
-            "XTVCGMX",
-            "XTVCKAS",
-            "XTVCMKR",
-            "XTVCSTXS",
-            "XTVC1INCH",
-            "XTVCMSOL",
-            "XTVCIMX",
-            "XTVCCRO",
-            "XTVCCFG",
-            "XTVCRAY",
-            "XTVCXMR",
-            "XTVCAR",
-            "XTVCLRC",
-            "XTVCRNDR",
-            "XTVCSHIB",
-            "XTVCINJ",
-            "XTVCT",
-            "XTVCETHFI",
-            "XTVCJUPI",
-            "XTVCBCH",
-            "XTVCTRB",
-            "XTVCLTC",
-            "XTVCWEETH",
-            "XTVCSUI",
-            "XTVCTAOB",
-            "XTVCDOT",
-            "XTVCCFX",
-            "XTVCRPL",
-            "XTVCUNI",
-            "XTVCSTETH",
-            "XTVCDAI",
-            "XTVCMNT",
-            "XTVCTRIBE",
-            "XTVCBNB",
-            "XTVCAEROD",
-            "XTVCZRX",
-            "XTVCENA",
-            "XTVCFIL",
-            "XTVCUSDT",
-            "XTVCAAVE",
-            "XTVCHBAR",
-            "XTVCXRP",
-            "XTVCADA",
-            "XTVCMATIC",
-            "XTVCICP",
-            "XTVCSNX",
-            "XTVCGNO",
-            "XTVCUSDC",
-            "XTVCLINK",
-            "XTVCAVAX",
-            "XTVCTON",
-            "XTVCOKB",
-            "XTVCWIF",
-            "XTVCJTO",
-            "XTVCSOL",
-            "XTVCXRD",
-            "XTVCEGLD",
-            "XTVCDYDX",
-            "XTVCBTC",
-            "XTVCAMP2",
-            "XTVCCOMP",
-            "XTVCETC",
-            "XTVCJST",
-            "XTVCFRAX",
-            "XTVCW",
-            "XTVCLDO",
-            "XTVCETH",
-            "XTVCOM",
-            "XTVCRVN",
-            "XTVCNEAR",
-            "XTVCXLM",
-            "XTVCCVX",
-            "XTVCDEXE",
-            "XTVCWOO",
-            "XTVCCRV",
-            "XTVCCAKE",
-            "XTVCUMA",
-            "XTVCUSDD",
-            "XTVCRUNE",
             "XTVCFXS",
-            "XTVCGUSD",
-            "XTVCTRX",
-            "XTVCARBI"
+            "XTVCUSDC",
+            "XTVCCOMP",
+            "XTVCVET",
+            "XTVCAPTO",
+            "XTVCICP",
+            "XTVCFDUSD",
+            "XTVCSOL",
+            "XTVCLINK",
+            "XTVCMNT",
+            "XTVCOKB",
+            "XTVCTRB",
+            "XTVCCVX",
+            "XTVCAAVE",
+            "XTVCAR",
+            "XTVCTON",
+            "XTVCARBI",
+            "XTVCJUPI",
+            "XTVCINJ",
+            "XTVCDEXE",
+            "XTVCHBAR",
+            "XTVCOM",
+            "XTVCUSDD",
+            "XTVCWIF",
+            "XTVCPEPE",
+            "XTVCCFX",
+            "XTVCCRO",
+            "XTVCWEETH"
         ]
     },
     {
         "n": "currency",
         "t": "text",
         "r": [
-            "CLP",
-            "SGD",
-            "ILS",
-            "HUF",
-            "DKK",
-            "GBP",
-            "TRY",
-            "TWD",
-            "NZD",
-            "ZAR",
-            "MYR",
-            "KRW",
-            "RUB",
-            "SAR",
-            "JPY",
-            "EGP",
-            "USD",
-            "BRL",
-            "IDR",
             "COP",
-            "PEN",
-            "PLN",
-            "QAR",
-            "ARS",
-            "EUR",
-            "INR",
-            "CNY",
-            "CHF",
-            "MXN",
-            "SEK",
-            "BHD",
-            "CAD",
-            "AUD",
             "RSD",
-            "AED",
+            "BHD",
+            "JPY",
+            "KRW",
+            "AUD",
+            "QAR",
+            "TRY",
             "RON",
-            "HKD"
+            "MYR",
+            "PLN",
+            "CHF",
+            "BRL",
+            "SEK",
+            "MXN",
+            "TWD",
+            "AED",
+            "USD",
+            "PEN",
+            "ILS",
+            "GBP",
+            "CLP",
+            "RUB",
+            "HUF",
+            "CNY",
+            "IDR",
+            "EGP",
+            "SGD",
+            "CAD",
+            "DKK",
+            "INR",
+            "HKD",
+            "SAR",
+            "EUR",
+            "NZD",
+            "ARS",
+            "ZAR"
         ]
     },
     {
         "n": "currency_id",
         "t": "text",
         "r": [
+            "TWD",
+            "AED",
+            "SAR",
             "EUR",
-            "KRW",
             "PEN",
             "ILS",
-            "EGP",
-            "SEK",
             "PLN",
-            "AED",
-            "SGD",
-            "HKD",
-            "SAR",
-            "TRY",
-            "JPY",
-            "TWD",
-            "NZD",
-            "CNY",
-            "COP",
-            "BHD",
-            "MYR",
-            "MXN",
-            "ARS",
             "CAD",
-            "CLP",
             "QAR",
-            "USD",
+            "SEK",
+            "CLP",
+            "SGD",
             "INR",
-            "HUF",
-            "AUD",
-            "RSD",
-            "RON",
-            "GBP",
-            "CHF",
-            "",
             "IDR",
             "BRL",
-            "RUB",
+            "JPY",
+            "KRW",
+            "USD",
+            "ARS",
+            "HUF",
             "DKK",
-            "ZAR"
+            "ZAR",
+            "AUD",
+            "GBP",
+            "RSD",
+            "MYR",
+            "RUB",
+            "",
+            "HKD",
+            "CNY",
+            "RON",
+            "NZD",
+            "COP",
+            "CHF",
+            "TRY",
+            "EGP",
+            "MXN",
+            "BHD"
         ]
     },
     {
@@ -16745,13 +17800,17 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
         "n": "days_to_maturity",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "description",
+        "t": "text",
         "r": null
     },
     {
@@ -17271,6 +18330,11 @@
         "rd": true
     },
     {
+        "n": "logoid",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "low_after_high_all_change",
         "t": "percent",
         "r": null
@@ -17633,21 +18697,21 @@
         "n": "provider-id",
         "t": "text",
         "r": [
-            "fxopen",
-            "saxobank",
-            "skilling",
-            "blackbullmarkets",
             "ice",
-            "eightcap",
+            "saxobank",
+            "cityindex",
             "tvc",
             "pepperstone",
-            "cityindex",
-            "easymarkets",
             "gain",
-            "fxcm",
             "phillipnova",
-            "moex",
-            "oanda"
+            "fxcm",
+            "skilling",
+            "blackbullmarkets",
+            "oanda",
+            "fxopen",
+            "eightcap",
+            "easymarkets",
+            "moex"
         ]
     },
     {
@@ -17731,73 +18795,73 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
-            "source/IDX",
-            "source/GPW",
-            "source/BELEX",
             "country/MY",
-            "provider/tvc",
-            "provider/eightcap",
-            "source/ATHEX",
-            "source/XETR",
-            "source/QSE",
-            "source/OMXHEX",
-            "source/EURONEXT",
-            "source/BMFBOVESPA",
-            "provider/ice",
-            "source/SIX",
-            "provider/gain",
-            "source/BCBA",
-            "source/OMXSTO",
-            "provider/phillipnova",
-            "provider/saxobank",
-            "source/TWSE",
-            "source/HSI",
-            "provider/cityindex",
-            "source/OMXTSE",
-            "source/NZX",
-            "provider/blackbullmarkets",
-            "source/SSE",
-            "source/NSE",
-            "provider/fxopen",
-            "source/TASE",
-            "provider/easymarkets",
-            "source/BSE",
-            "country/US",
-            "source/OMXCOP",
-            "source/BIST",
-            "provider/skilling",
-            "source/SZSE",
-            "source/BVC",
-            "source/MOEX",
-            "provider/fxcm",
             "source/BCS",
-            "source/OMXRSE",
-            "source/ASX",
-            "source/EGX",
-            "provider/oanda",
-            "source/OMXVSE",
-            "source/DFM",
-            "source/BVB",
-            "source/BVL",
-            "provider/pepperstone",
             "source/CBOE",
-            "source/BME",
-            "source/TSX",
-            "source/BET",
             "source/TADAWUL",
+            "provider/saxobank",
+            "source/NSE",
+            "source/BELEX",
+            "provider/ice",
+            "source/BIST",
+            "source/OMXSTO",
+            "source/BET",
+            "source/EGX",
+            "source/BVB",
+            "source/OMXRSE",
+            "provider/skilling",
+            "source/TASE",
+            "country/US",
+            "provider/eightcap",
+            "source/IDX",
+            "source/OMXTSE",
+            "source/BSE",
+            "source/OMXVSE",
+            "source/EURONEXT",
+            "provider/pepperstone",
+            "source/BMFBOVESPA",
+            "source/BME",
+            "source/ATHEX",
+            "provider/easymarkets",
+            "source/BMV",
+            "source/MOEX",
+            "source/OMXCOP",
+            "source/SZSE",
+            "source/QSE",
+            "provider/gain",
+            "provider/tvc",
+            "source/TSX",
+            "source/SSE",
+            "source/XETR",
+            "source/HSI",
+            "source/BVL",
+            "source/ASX",
+            "provider/blackbullmarkets",
+            "source/NZX",
             "source/BAHRAIN",
-            "source/BMV"
+            "source/BCBA",
+            "source/BVC",
+            "provider/oanda",
+            "source/GPW",
+            "provider/cityindex",
+            "source/SIX",
+            "provider/fxopen",
+            "source/DFM",
+            "provider/phillipnova",
+            "provider/fxcm",
+            "source/OMXHEX",
+            "source/TWSE"
         ]
     },
     {
         "n": "subtype",
         "t": "text",
         "r": [
-            "index_other",
+            "synthetic",
             "cfd",
-            "crypto",
             "main",
-            "synthetic"
+            "index_other",
+            "crypto"
         ]
     },
     {
@@ -17889,12 +18953,12 @@
         "n": "typespecs",
         "t": "set",
         "r": [
-            "crypto",
             "synthetic",
-            "main",
+            "cfd",
             "defi",
+            "main",
             "",
-            "cfd"
+            "crypto"
         ]
     },
     {

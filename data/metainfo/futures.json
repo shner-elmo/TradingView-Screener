@@ -1,51 +1,56 @@
 [
     {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "exchange",
         "t": "text",
         "r": [
-            "EUREX",
-            "CBOT",
-            "MYX",
-            "DFM",
-            "ICEUS",
-            "TOCOM",
+            "MCX",
             "NSEIX",
-            "CBOT_MINI",
-            "COMEX_MINI",
-            "GPW",
-            "NCDEX",
-            "OSE",
-            "EURONEXT",
-            "BET",
+            "ADX",
+            "HKEX",
+            "CBOT",
             "NYMEX_MINI",
-            "TFEX",
-            "SHFE",
+            "BET",
             "MOEX",
-            "MGEX",
-            "NYMEX",
-            "SGX",
-            "NSE",
-            "BMFBOVESPA",
-            "ASX24",
-            "BIST",
-            "MATBAROFEX",
-            "TFX",
+            "TFEX",
+            "CME_MINI",
             "NASDAQDUBAI",
+            "SHFE",
+            "ICESG",
+            "BIST",
+            "SGX",
+            "TOCOM",
+            "MSEI",
+            "MGEX",
+            "TFX",
+            "ICEEUR",
+            "BMFBOVESPA",
+            "ICEUS",
+            "MYX",
+            "TAIFEX",
+            "CBOT_MINI",
+            "DFM",
+            "NZX",
+            "CBOE",
             "CME",
             "LME",
-            "ICEEUR",
-            "ICESG",
-            "HNX",
-            "ADX",
-            "BSE",
-            "TAIFEX",
+            "NSE",
+            "COMEX_MINI",
             "COMEX",
-            "HKEX",
-            "CME_MINI",
-            "MSEI",
-            "MCX",
-            "NZX",
-            "CBOE"
+            "ASX24",
+            "OSE",
+            "HNX",
+            "MATBAROFEX",
+            "EUREX",
+            "NYMEX",
+            "BSE",
+            "GPW",
+            "EURONEXT",
+            "NCDEX"
         ]
     },
     {
@@ -69,12 +74,12 @@
         "n": "sector",
         "t": "text",
         "r": [
-            "Energy",
+            "Currencies",
+            "Indexes",
             "Financials",
             "Agricultural",
-            "Indexes",
-            "Currencies",
-            "Metals"
+            "Metals",
+            "Energy"
         ]
     },
     {
@@ -1231,6 +1236,13 @@
         "rd": true
     },
     {
+        "n": "EMA15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA21",
         "t": "number",
         "r": null,
@@ -1245,7 +1257,28 @@
         "rd": true
     },
     {
+        "n": "EMA26",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA40",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1331,6 +1364,20 @@
     {
         "n": "High.All.Date",
         "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200",
+        "t": "number",
         "r": null,
         "hh": true,
         "rd": true
@@ -1728,7 +1775,28 @@
         "rd": true
     },
     {
+        "n": "RSI10",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI21",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1743,6 +1811,13 @@
     },
     {
         "n": "RSI2[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1903,6 +1978,13 @@
         "rd": true
     },
     {
+        "n": "SMA60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA75",
         "t": "number",
         "r": null,
@@ -1945,14 +2027,28 @@
         "rd": true
     },
     {
-        "n": "Stoch.D[1]_14_1_3",
+        "n": "Stoch.D_14_1_3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "Stoch.D_14_1_3",
+        "n": "Stoch.D_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1966,14 +2062,28 @@
         "rd": true
     },
     {
-        "n": "Stoch.K[1]_14_1_3",
+        "n": "Stoch.K_14_1_3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "Stoch.K_14_1_3",
+        "n": "Stoch.K_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]",
         "t": "number",
         "r": null,
         "hh": true,
@@ -2038,86 +2148,86 @@
         "n": "currency",
         "t": "text",
         "r": [
+            "VND",
+            "RSD",
+            "TWD",
+            "SGD",
+            "JPY",
+            "BRL",
+            "AUD",
+            "NZD",
+            "HUF",
+            "USD",
+            "MXN",
+            "USX",
+            "THB",
+            "KRW",
+            "DKK",
+            "UAH",
             "GBX",
             "CHF",
             "MYR",
-            "USD",
-            "NOK",
-            "PLN",
-            "MXN",
-            "CZK",
-            "VND",
-            "CLP",
-            "TWD",
-            "THB",
-            "RUB",
-            "UAH",
-            "KRW",
-            "SEK",
-            "JPY",
-            "CNH",
             "INR",
-            "GBP",
-            "CAD",
-            "ARS",
-            "USX",
-            "SGD",
-            "AED",
-            "HUF",
-            "CNY",
-            "RON",
             "ZAR",
+            "GBP",
             "TRY",
-            "NZD",
-            "RSD",
-            "EUR",
+            "AED",
+            "ARS",
+            "CNH",
+            "RON",
             "HKD",
-            "BRL",
-            "AUD",
-            "DKK"
+            "NOK",
+            "RUB",
+            "CAD",
+            "PLN",
+            "CNY",
+            "EUR",
+            "SEK",
+            "CLP",
+            "CZK"
         ]
     },
     {
         "n": "currency_id",
         "t": "text",
         "r": [
-            "CHF",
+            "PLN",
             "CNY",
-            "CZK",
-            "VND",
-            "KRW",
-            "XTVGBX",
-            "GBP",
             "MYR",
             "MXN",
-            "ARS",
-            "NOK",
-            "AUD",
-            "RUB",
-            "AED",
-            "RSD",
-            "XTVUSX",
-            "BRL",
-            "PLN",
-            "CAD",
-            "INR",
-            "SEK",
-            "JPY",
-            "ZAR",
-            "USD",
-            "HUF",
+            "RON",
+            "CHF",
             "HKD",
-            "TRY",
+            "CZK",
+            "BRL",
+            "INR",
+            "CAD",
+            "VND",
+            "EUR",
+            "SEK",
+            "ZAR",
+            "RUB",
             "THB",
-            "UAH",
             "NZD",
+            "SGD",
+            "ARS",
+            "XTVGBX",
+            "NOK",
+            "RSD",
+            "UAH",
+            "GBP",
+            "HUF",
+            "XTVUSX",
+            "KRW",
+            "USD",
+            "JPY",
+            "AUD",
             "DKK",
             "CLP",
-            "EUR",
-            "TWD",
-            "SGD",
             "XTVCNH",
-            "RON"
+            "AED",
+            "TWD",
+            "TRY"
         ]
     },
     {
@@ -2141,6 +2251,11 @@
         "r": null
     },
     {
+        "n": "description",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "expiration",
         "t": "time",
         "r": null
@@ -2156,8 +2271,8 @@
         "n": "fractional",
         "t": "text",
         "r": [
-            "false",
-            "true"
+            "true",
+            "false"
         ]
     },
     {
@@ -2221,6 +2336,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "logoid",
+        "t": "text",
+        "r": null
     },
     {
         "n": "low_after_high_all_change",
@@ -2305,8 +2425,8 @@
         "n": "provider-id",
         "t": "text",
         "r": [
-            "moex",
-            "ice"
+            "ice",
+            "moex"
         ]
     },
     {
@@ -2378,42 +2498,42 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
-            "source/CME",
-            "source/EURONEXT",
-            "source/HNX",
-            "source/HKEX",
-            "source/GPW",
-            "source/MATBAROFEX",
-            "country/US",
-            "source/TAIFEX",
-            "source/TOCOM",
-            "source/NCDEX",
-            "source/CBOE",
-            "source/BSE",
             "source/BMFBOVESPA",
             "source/ICEUS",
-            "source/OSE",
-            "source/TFX",
-            "country/AU",
-            "source/MSEI",
-            "country/IN",
-            "source/ADX",
-            "source/BET",
-            "source/SHFE",
-            "source/MOEX",
-            "source/BIST",
-            "source/MCX",
-            "source/SGX",
-            "source/NSE",
-            "country/EU",
-            "source/NZX",
-            "source/DFM",
-            "country/AE",
-            "source/EUREX",
-            "source/LME",
-            "source/TFEX",
             "source/MYX",
-            "country/SG"
+            "source/NSE",
+            "country/AE",
+            "source/BIST",
+            "source/MOEX",
+            "source/BET",
+            "source/LME",
+            "source/MCX",
+            "source/TFEX",
+            "source/MATBAROFEX",
+            "country/US",
+            "source/HKEX",
+            "country/SG",
+            "country/AU",
+            "source/NCDEX",
+            "source/TFX",
+            "source/SHFE",
+            "country/EU",
+            "source/CME",
+            "source/TOCOM",
+            "source/GPW",
+            "source/HNX",
+            "source/TAIFEX",
+            "source/OSE",
+            "source/NZX",
+            "source/ADX",
+            "source/EUREX",
+            "source/CBOE",
+            "source/BSE",
+            "country/IN",
+            "source/DFM",
+            "source/EURONEXT",
+            "source/SGX",
+            "source/MSEI"
         ]
     },
     {
@@ -2422,8 +2542,8 @@
         "r": [
             "",
             "continuous",
-            "micro",
-            "mini"
+            "mini",
+            "micro"
         ]
     },
     {
@@ -2451,12 +2571,12 @@
         "n": "typespecs",
         "t": "set",
         "r": [
+            "continuous",
             "synthetic",
-            "micro",
             "mini",
+            "micro",
             "expired",
-            "",
-            "continuous"
+            ""
         ]
     },
     {
@@ -2469,7 +2589,8 @@
         "t": "text",
         "r": [
             "streaming",
-            "endofday"
+            "endofday",
+            "delayed_streaming_1200"
         ]
     },
     {

@@ -1,5 +1,10 @@
 [
     {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "exchange",
         "t": "text",
         "r": [
@@ -9441,6 +9446,13 @@
         "rd": true
     },
     {
+        "n": "EMA15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA21",
         "t": "number",
         "r": null,
@@ -9449,6 +9461,20 @@
     },
     {
         "n": "EMA25",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34",
         "t": "number",
         "r": null,
         "hh": true,
@@ -9645,6 +9671,69 @@
     },
     {
         "n": "EMA13|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -9903,6 +9992,69 @@
         "rd": true
     },
     {
+        "n": "EMA26|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA3|1",
         "t": "number",
         "r": null,
@@ -10029,6 +10181,69 @@
         "rd": true
     },
     {
+        "n": "EMA34|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA40|1",
         "t": "number",
         "r": null,
@@ -10092,6 +10307,69 @@
         "rd": true
     },
     {
+        "n": "EMA55|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA6|1",
         "t": "number",
         "r": null,
@@ -10149,6 +10427,13 @@
     },
     {
         "n": "EMA6|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55",
         "t": "number",
         "r": null,
         "hh": true,
@@ -10486,6 +10771,146 @@
     {
         "n": "High.All.Date",
         "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200",
+        "t": "number",
         "r": null,
         "hh": true,
         "rd": true
@@ -13403,7 +13828,154 @@
         "rd": true
     },
     {
+        "n": "RSI10",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI21",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -13733,6 +14305,139 @@
     },
     {
         "n": "RSI3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15468,6 +16173,69 @@
         "rd": true
     },
     {
+        "n": "SMA60|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA7|1",
         "t": "number",
         "r": null,
@@ -15720,6 +16488,13 @@
         "rd": true
     },
     {
+        "n": "SMA60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA75",
         "t": "number",
         "r": null,
@@ -15825,76 +16600,6 @@
         "rd": true
     },
     {
-        "n": "Stoch.D[1]_14_1_3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "Stoch.D_14_1_3",
         "t": "number",
         "r": null,
@@ -15959,6 +16664,216 @@
     },
     {
         "n": "Stoch.D_14_1_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16035,76 +16950,6 @@
         "rd": true
     },
     {
-        "n": "Stoch.K[1]_14_1_3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "Stoch.K_14_1_3",
         "t": "number",
         "r": null,
@@ -16169,6 +17014,216 @@
     },
     {
         "n": "Stoch.K_14_1_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16360,137 +17415,137 @@
         "n": "crypto_blockchain_ecosystems",
         "t": "set",
         "r": [
-            "near-protocol-ecosystem",
-            "optimism-ecosystem",
-            "algorand-ecosystem",
-            "cronos-ecosystem",
-            "sui-ecosystem",
-            "harmony-ecosystem",
-            "chromia-ecosystem",
             "moonriver-ecosystem",
-            "terra-ecosystem",
+            "sui-ecosystem",
             "solana-ecosystem",
-            "bitcoin-ecosystem",
-            "fantom-ecosystem",
-            "zilliqa-ecosystem",
-            "cardano-ecosystem",
-            "olympus-pro-ecosystem",
-            "everscale-ecosystem",
-            "ethereum-ecosystem",
-            "toncoin-ecosystem",
-            "arbitrum-ecosystem",
-            "ontology-ecosystem",
-            "cosmos-ecosystem",
-            "bnb-chain-ecosystem",
-            "avalanche-ecosystem",
-            "elrond-ecosystem",
-            "theta-network-ecosystem",
-            "celo-ecosystem",
-            "tron-ecosystem",
-            "polygon-ecosystem",
-            "chiliz-ecosystem",
             "eigenlayer-ecosystem",
-            "tezos-ecosystem",
-            "iotex-ecosystem",
+            "cosmos-ecosystem",
+            "fantom-ecosystem",
+            "harmony-ecosystem",
+            "toncoin-ecosystem",
+            "ontology-ecosystem",
+            "cronos-ecosystem",
+            "optimism-ecosystem",
+            "tron-ecosystem",
             "heco-ecosystem",
-            "polkadot-ecosystem"
+            "theta-network-ecosystem",
+            "arbitrum-ecosystem",
+            "bitcoin-ecosystem",
+            "olympus-pro-ecosystem",
+            "cardano-ecosystem",
+            "zilliqa-ecosystem",
+            "tezos-ecosystem",
+            "bnb-chain-ecosystem",
+            "elrond-ecosystem",
+            "everscale-ecosystem",
+            "algorand-ecosystem",
+            "terra-ecosystem",
+            "iotex-ecosystem",
+            "polygon-ecosystem",
+            "avalanche-ecosystem",
+            "celo-ecosystem",
+            "ethereum-ecosystem",
+            "near-protocol-ecosystem",
+            "chiliz-ecosystem",
+            "polkadot-ecosystem",
+            "chromia-ecosystem"
         ]
     },
     {
         "n": "crypto_categories",
         "t": "set",
         "r": [
-            "algorand-ecosystem",
-            "cybersecurity",
-            "polygon-ecosystem",
-            "hybrid-algorithm",
-            "marketplace",
-            "scaling",
-            "interoperability",
-            "memecoins",
-            "defi",
-            "sec-security-token",
-            "bitcoin-ecosystem",
-            "layer-1",
-            "elrond-ecosystem",
-            "developments-tools",
-            "derivatives",
-            "asset-management",
-            "proof-of-authority",
-            "moonriver-ecosystem",
-            "prediction-markets",
-            "terra-ecosystem",
-            "jobs",
-            "privacy",
-            "everscale-ecosystem",
-            "bnb-chain-ecosystem",
-            "data-management-ai",
-            "chiliz-ecosystem",
-            "seigniorage",
-            "asset-backed-tokens",
-            "marketing",
-            "decentralized-exchange",
-            "arbitrum-ecosystem",
-            "cardano-ecosystem",
-            "loyalty-rewards",
-            "proof-of-work-algorithm",
-            "harmony-ecosystem",
-            "transport",
-            "lending-borrowing",
-            "celo-ecosystem",
-            "wrapped-tokens",
-            "asset-backed-stablecoins",
-            "education",
-            "theta-network-ecosystem",
-            "olympus-pro-ecosystem",
-            "fantom-ecosystem",
-            "ontology-ecosystem",
-            "ethereum-ecosystem",
             "avalanche-ecosystem",
-            "centralized-exchange",
-            "enterprise-solutions",
-            "proof-of-stake-algorithm",
-            "optimism-ecosystem",
-            "fundraising",
-            "zilliqa-ecosystem",
-            "analytics",
-            "oracles",
-            "sports",
-            "fan-tokens",
-            "tron-ecosystem",
-            "heco-ecosystem",
-            "payments",
-            "dao",
-            "social-media-content",
-            "health",
+            "sec-security-token",
             "toncoin-ecosystem",
-            "tezos-ecosystem",
-            "gaming",
-            "identity",
-            "near-protocol-ecosystem",
-            "insurance",
-            "solana-ecosystem",
-            "cosmos-ecosystem",
-            "cryptocurrencies",
-            "move-to-earn",
-            "logistics",
-            "e-commerce",
             "hospitality",
-            "iotex-ecosystem",
-            "web3",
-            "metaverse",
-            "distributed-computing-storage",
+            "education",
+            "logistics",
+            "transport",
+            "tezos-ecosystem",
+            "terra-ecosystem",
+            "seigniorage",
+            "loyalty-rewards",
+            "lending-borrowing",
+            "near-protocol-ecosystem",
+            "asset-backed-stablecoins",
+            "derivatives",
+            "theta-network-ecosystem",
+            "developments-tools",
+            "cosmos-ecosystem",
+            "health",
+            "data-management-ai",
+            "centralized-exchange",
             "internet-of-things",
-            "smart-contract-platforms",
+            "cardano-ecosystem",
+            "zilliqa-ecosystem",
+            "social-media-content",
+            "optimism-ecosystem",
+            "tron-ecosystem",
+            "scaling",
             "algorithmic-stablecoins",
-            "energy",
-            "real-estate",
-            "collectibles-nfts",
-            "tourism",
-            "stablecoins",
-            "cronos-ecosystem",
+            "proof-of-authority",
+            "fundraising",
+            "decentralized-exchange",
+            "enterprise-solutions",
+            "hybrid-algorithm",
             "chromia-ecosystem",
-            "polkadot-ecosystem"
+            "defi",
+            "proof-of-stake-algorithm",
+            "polygon-ecosystem",
+            "cryptocurrencies",
+            "memecoins",
+            "harmony-ecosystem",
+            "cybersecurity",
+            "insurance",
+            "interoperability",
+            "fan-tokens",
+            "web3",
+            "layer-1",
+            "olympus-pro-ecosystem",
+            "heco-ecosystem",
+            "marketing",
+            "iotex-ecosystem",
+            "stablecoins",
+            "analytics",
+            "dao",
+            "bitcoin-ecosystem",
+            "marketplace",
+            "bnb-chain-ecosystem",
+            "solana-ecosystem",
+            "polkadot-ecosystem",
+            "sports",
+            "identity",
+            "privacy",
+            "payments",
+            "elrond-ecosystem",
+            "proof-of-work-algorithm",
+            "energy",
+            "distributed-computing-storage",
+            "wrapped-tokens",
+            "e-commerce",
+            "ontology-ecosystem",
+            "tourism",
+            "metaverse",
+            "oracles",
+            "asset-backed-tokens",
+            "real-estate",
+            "move-to-earn",
+            "cronos-ecosystem",
+            "arbitrum-ecosystem",
+            "asset-management",
+            "fantom-ecosystem",
+            "moonriver-ecosystem",
+            "celo-ecosystem",
+            "algorand-ecosystem",
+            "chiliz-ecosystem",
+            "gaming",
+            "collectibles-nfts",
+            "ethereum-ecosystem",
+            "smart-contract-platforms",
+            "jobs",
+            "everscale-ecosystem",
+            "prediction-markets"
         ]
     },
     {
@@ -16502,62 +17557,62 @@
         "n": "crypto_common_categories",
         "t": "set",
         "r": [
+            "fundraising",
+            "seigniorage",
+            "cybersecurity",
+            "move-to-earn",
+            "cryptocurrencies",
             "data-management-ai",
-            "payments",
+            "sports",
+            "sec-security-token",
+            "defi",
+            "distributed-computing-storage",
+            "energy",
             "decentralized-exchange",
-            "asset-backed-stablecoins",
-            "privacy",
-            "algorithmic-stablecoins",
-            "logistics",
-            "metaverse",
             "identity",
             "jobs",
-            "marketplace",
-            "distributed-computing-storage",
-            "cryptocurrencies",
-            "wrapped-tokens",
-            "web3",
+            "hospitality",
+            "enterprise-solutions",
+            "asset-management",
+            "derivatives",
             "depin",
-            "internet-of-things",
-            "move-to-earn",
-            "stablecoins",
+            "asset-backed-tokens",
+            "social-media-content",
+            "layer-1",
+            "memecoins",
+            "asset-backed-stablecoins",
+            "real-estate",
+            "gaming",
+            "payments",
+            "interoperability",
+            "privacy",
+            "insurance",
+            "dao",
+            "marketplace",
+            "developments-tools",
+            "centralized-exchange",
+            "smart-contract-platforms",
+            "education",
+            "health",
+            "wrapped-tokens",
+            "e-commerce",
+            "scaling",
+            "logistics",
+            "transport",
             "tourism",
             "analytics",
-            "fan-tokens",
-            "education",
-            "asset-backed-tokens",
-            "oracles",
-            "interoperability",
-            "collectibles-nfts",
-            "seigniorage",
-            "energy",
-            "fundraising",
-            "e-commerce",
-            "insurance",
-            "transport",
-            "hospitality",
-            "loyalty-rewards",
-            "marketing",
-            "memecoins",
-            "scaling",
-            "derivatives",
-            "asset-management",
-            "cybersecurity",
-            "developments-tools",
+            "metaverse",
             "lending-borrowing",
+            "loyalty-rewards",
+            "fan-tokens",
             "prediction-markets",
-            "dao",
-            "layer-1",
-            "sports",
-            "enterprise-solutions",
-            "gaming",
-            "defi",
-            "smart-contract-platforms",
-            "sec-security-token",
-            "centralized-exchange",
-            "social-media-content",
-            "real-estate",
-            "health"
+            "stablecoins",
+            "algorithmic-stablecoins",
+            "internet-of-things",
+            "marketing",
+            "collectibles-nfts",
+            "web3",
+            "oracles"
         ]
     },
     {
@@ -16616,6 +17671,11 @@
     {
         "n": "days_to_maturity",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "description",
+        "t": "text",
         "r": null
     },
     {
@@ -17336,6 +18396,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "logoid",
+        "t": "text",
+        "r": null
     },
     {
         "n": "losses_addresses_percentage",

@@ -1,17 +1,22 @@
 [
     {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "exchange",
         "t": "text",
         "r": [
-            "NSE",
-            "CBOT",
-            "CBOT_MINI",
-            "NYMEX",
+            "CME",
             "BSE",
-            "CME_MINI",
-            "OPRA",
+            "CBOT_MINI",
+            "NSE",
+            "NYMEX",
+            "CBOT",
             "COMEX",
-            "CME"
+            "CME_MINI",
+            "OPRA"
         ]
     },
     {
@@ -221,14 +226,14 @@
         "n": "currency",
         "t": "text",
         "r": [
-            "USD",
-            "INR",
-            "USX",
             "GBP",
-            "CHF",
             "JPY",
             "EUR",
-            "CNH"
+            "CNH",
+            "INR",
+            "USD",
+            "USX",
+            "CHF"
         ]
     },
     {
@@ -236,13 +241,13 @@
         "t": "text",
         "r": [
             "GBP",
-            "CHF",
             "JPY",
             "EUR",
             "XTVCNH",
-            "USD",
             "INR",
-            "XTVUSX"
+            "USD",
+            "XTVUSX",
+            "CHF"
         ]
     },
     {
@@ -258,6 +263,11 @@
         "r": null
     },
     {
+        "n": "description",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "expiration",
         "t": "time",
         "r": null
@@ -266,8 +276,8 @@
         "n": "fractional",
         "t": "text",
         "r": [
-            "false",
-            "true"
+            "true",
+            "false"
         ]
     },
     {
@@ -328,6 +338,11 @@
         "rd": true
     },
     {
+        "n": "logoid",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "market",
         "t": "text",
         "r": [
@@ -353,8 +368,8 @@
         "n": "option-type",
         "t": "text",
         "r": [
-            "call",
-            "put"
+            "put",
+            "call"
         ]
     },
     {
@@ -452,10 +467,10 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
+            "source/NSE",
             "provider/ice",
-            "source/BSE",
             "source/CME",
-            "source/NSE"
+            "source/BSE"
         ]
     },
     {

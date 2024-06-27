@@ -1,36 +1,41 @@
 [
     {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "exchange",
         "t": "text",
         "r": [
-            "FPMARKETS",
-            "ICMARKETS",
-            "FX",
-            "PHILLIPNOVA",
-            "FXOPEN",
-            "FX_IDC",
-            "IBROKER",
-            "VELOCITY",
-            "ACTIVTRADES",
+            "VANTAGE",
+            "BLACKBULL",
+            "GBEBROKERS",
             "JFX",
-            "MOEX",
-            "CITYINDEX",
             "CAPITALCOM",
+            "FOREXCOM",
+            "ACTIVTRADES",
             "FUSIONMARKETS",
+            "FX_IDC",
+            "SKILLING",
+            "ICMARKETS",
+            "VELOCITY",
+            "IBKR",
+            "SPREADEX",
             "SAXO",
+            "MOEX",
+            "EASYMARKETS",
+            "FPMARKETS",
+            "FX",
+            "FXOPEN",
+            "WHSELFINVEST",
+            "PHILLIPNOVA",
+            "CITYINDEX",
+            "IBROKER",
+            "EIGHTCAP",
             "AFTERPRIME",
             "PEPPERSTONE",
-            "OANDA",
-            "FOREXCOM",
-            "WHSELFINVEST",
-            "IBKR",
-            "GBEBROKERS",
-            "SKILLING",
-            "EASYMARKETS",
-            "VANTAGE",
-            "EIGHTCAP",
-            "SPREADEX",
-            "BLACKBULL"
+            "OANDA"
         ]
     },
     {
@@ -54,21 +59,21 @@
         "n": "sector",
         "t": "text",
         "r": [
-            "Major",
+            "Exotic",
             "Minor",
-            "Exotic"
+            "Major"
         ]
     },
     {
         "n": "country",
         "t": "text",
         "r": [
-            "Europe",
-            "Pacific",
-            "Middle East",
             "Asia",
-            "Americas",
-            "Africa"
+            "Pacific",
+            "Africa",
+            "Middle East",
+            "Europe",
+            "Americas"
         ]
     },
     {
@@ -9415,6 +9420,13 @@
         "rd": true
     },
     {
+        "n": "EMA15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA21",
         "t": "number",
         "r": null,
@@ -9423,6 +9435,20 @@
     },
     {
         "n": "EMA25",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34",
         "t": "number",
         "r": null,
         "hh": true,
@@ -9619,6 +9645,69 @@
     },
     {
         "n": "EMA13|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA15|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -9877,6 +9966,69 @@
         "rd": true
     },
     {
+        "n": "EMA26|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA26|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA3|1",
         "t": "number",
         "r": null,
@@ -10003,6 +10155,69 @@
         "rd": true
     },
     {
+        "n": "EMA34|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA34|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA40|1",
         "t": "number",
         "r": null,
@@ -10066,6 +10281,69 @@
         "rd": true
     },
     {
+        "n": "EMA55|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA6|1",
         "t": "number",
         "r": null,
@@ -10123,6 +10401,13 @@
     },
     {
         "n": "EMA6|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA55",
         "t": "number",
         "r": null,
         "hh": true,
@@ -10460,6 +10745,146 @@
     {
         "n": "High.All.Date",
         "t": "time",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA20|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "HullMA200",
+        "t": "number",
         "r": null,
         "hh": true,
         "rd": true
@@ -13426,7 +13851,154 @@
         "rd": true
     },
     {
+        "n": "RSI10",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI21",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI10[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -13756,6 +14328,139 @@
     },
     {
         "n": "RSI3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI30[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15491,6 +16196,69 @@
         "rd": true
     },
     {
+        "n": "SMA60|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA60|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA7|1",
         "t": "number",
         "r": null,
@@ -15743,6 +16511,13 @@
         "rd": true
     },
     {
+        "n": "SMA60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA75",
         "t": "number",
         "r": null,
@@ -15848,76 +16623,6 @@
         "rd": true
     },
     {
-        "n": "Stoch.D[1]_14_1_3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.D[1]_14_1_3|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "Stoch.D_14_1_3",
         "t": "number",
         "r": null,
@@ -15982,6 +16687,216 @@
     },
     {
         "n": "Stoch.D_14_1_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_14_1_3[1]|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_8_3_3[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16058,76 +16973,6 @@
         "rd": true
     },
     {
-        "n": "Stoch.K[1]_14_1_3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Stoch.K[1]_14_1_3|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "Stoch.K_14_1_3",
         "t": "number",
         "r": null,
@@ -16192,6 +17037,216 @@
     },
     {
         "n": "Stoch.K_14_1_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_14_1_3[1]|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3|1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|240",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_8_3_3[1]|1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16343,8 +17398,8 @@
         "n": "base_currency_kind",
         "t": "text",
         "r": [
-            "fiat",
             "forex",
+            "fiat",
             "metal"
         ]
     },
@@ -16357,12 +17412,12 @@
         "n": "country2",
         "t": "text",
         "r": [
-            "Africa",
             "Europe",
-            "Pacific",
-            "Middle East",
+            "Americas",
             "Asia",
-            "Americas"
+            "Pacific",
+            "Africa",
+            "Middle East"
         ]
     },
     {
@@ -16391,360 +17446,360 @@
         "n": "currency",
         "t": "text",
         "r": [
-            "KYD",
-            "CLP",
-            "KZT",
-            "FIM",
-            "AED",
-            "CNH",
-            "TTD",
-            "BIF",
-            "MVR",
-            "BGN",
-            "CVE",
-            "LAK",
-            "IDR",
-            "SYP",
-            "PYG",
-            "NGN",
-            "RWF",
-            "UGX",
-            "CNY",
-            "ALL",
-            "FJD",
-            "UAH",
-            "DOP",
-            "WST",
-            "IRR",
-            "ILS",
-            "TWD",
-            "GYD",
-            "TZS",
-            "CAD",
-            "VND",
-            "SZL",
-            "LUF",
-            "KWF",
-            "PTE",
-            "MGA",
-            "KWD",
-            "UYU",
-            "XOF",
-            "GHS",
-            "WCU",
-            "KPW",
-            "HUF",
-            "INR",
-            "KRW",
-            "SRD",
-            "MNT",
-            "EUR",
-            "HKD",
-            "BOB",
-            "ETB",
-            "DZD",
-            "GTQ",
-            "PGK",
-            "LYD",
-            "AUD",
-            "MKD",
-            "PHP",
-            "TJS",
-            "ESP",
-            "MZN",
-            "BEF",
-            "PAB",
-            "SVC",
-            "ZMW",
-            "FKP",
-            "SIT",
-            "EGP",
-            "MWK",
-            "SDG",
-            "XPF",
-            "ANG",
-            "NZD",
-            "NPR",
-            "HNL",
-            "KMF",
-            "BYN",
-            "RON",
-            "ITL",
             "NLG",
-            "AZN",
-            "SEK",
-            "YER",
-            "ATS",
-            "RSD",
-            "XCD",
-            "DKK",
-            "GNF",
-            "LKR",
-            "SLL",
-            "NAD",
-            "CLF",
-            "TMT",
-            "AWG",
-            "NOK",
-            "MXN",
-            "LRD",
-            "MMK",
-            "ILA",
-            "MXV",
-            "NIO",
-            "TOP",
-            "AOA",
-            "OMR",
-            "USD",
-            "DEM",
-            "TND",
-            "KES",
-            "SCR",
-            "BBD",
-            "ZAC",
-            "MYR",
-            "SAR",
-            "CUP",
-            "DJF",
-            "LSL",
-            "ARS",
-            "THB",
-            "CDF",
-            "CZK",
-            "CRC",
-            "VES",
-            "BAM",
-            "XDR",
-            "UZS",
-            "GIP",
-            "LBP",
-            "MRU",
-            "COP",
-            "TRY",
-            "PLN",
-            "BWP",
-            "SBD",
-            "FRF",
-            "GBX",
-            "QAR",
-            "ISK",
-            "GMD",
-            "SOS",
-            "KHR",
-            "IQD",
-            "MOP",
-            "GBP",
-            "SGD",
-            "ZAR",
-            "AMD",
-            "JOD",
-            "JMD",
-            "BSD",
-            "VUV",
-            "AFN",
-            "KGS",
-            "MDL",
-            "BND",
+            "MVR",
             "XAF",
-            "BRL",
-            "MAD",
-            "HTG",
+            "EGP",
+            "NPR",
+            "ARS",
+            "XDR",
+            "VUV",
+            "LSL",
+            "FIM",
+            "ETB",
+            "BOB",
+            "SYP",
+            "BDT",
             "BZD",
-            "GRD",
+            "TMT",
+            "VES",
+            "TND",
+            "XOF",
+            "SBD",
+            "TWD",
+            "LKR",
+            "CNY",
+            "RON",
+            "SOS",
+            "KYD",
+            "TJS",
             "ERN",
             "MUR",
-            "CHF",
-            "JPY",
-            "GEL",
-            "BHD",
-            "SHP",
-            "BTN",
-            "STN",
+            "KWD",
+            "HNL",
+            "SZL",
+            "AWG",
+            "LAK",
+            "COP",
+            "PEN",
+            "UAH",
+            "MOP",
+            "UZS",
+            "SIT",
+            "BND",
+            "TRY",
+            "MMK",
+            "ANG",
+            "AOA",
+            "PAB",
+            "BBD",
+            "ZAR",
+            "NZD",
+            "MXN",
+            "BIF",
             "BMD",
-            "PKR",
-            "BDT",
+            "GNF",
+            "DEM",
+            "BSD",
+            "JPY",
+            "JMD",
+            "QAR",
+            "DZD",
+            "MAD",
+            "HTG",
+            "LYD",
+            "BRL",
+            "GBP",
+            "AED",
+            "BTN",
             "RUB",
-            "PEN"
+            "BAM",
+            "BYN",
+            "RSD",
+            "TZS",
+            "ILA",
+            "SVC",
+            "MRU",
+            "CHF",
+            "DKK",
+            "AUD",
+            "STN",
+            "IDR",
+            "ITL",
+            "CZK",
+            "SAR",
+            "UGX",
+            "JOD",
+            "AZN",
+            "MGA",
+            "KPW",
+            "CNH",
+            "PLN",
+            "ISK",
+            "BGN",
+            "NGN",
+            "FKP",
+            "ESP",
+            "KWF",
+            "USD",
+            "SGD",
+            "TOP",
+            "AFN",
+            "NAD",
+            "KHR",
+            "DJF",
+            "SEK",
+            "HKD",
+            "GMD",
+            "MZN",
+            "ATS",
+            "PHP",
+            "LBP",
+            "KES",
+            "KMF",
+            "OMR",
+            "ALL",
+            "GHS",
+            "BWP",
+            "PTE",
+            "CAD",
+            "AMD",
+            "KZT",
+            "GRD",
+            "SHP",
+            "GBX",
+            "RWF",
+            "EUR",
+            "CLP",
+            "MWK",
+            "GIP",
+            "MYR",
+            "PKR",
+            "LUF",
+            "PYG",
+            "MNT",
+            "IRR",
+            "NOK",
+            "PGK",
+            "MKD",
+            "DOP",
+            "BEF",
+            "CDF",
+            "ZAC",
+            "SLL",
+            "SRD",
+            "XPF",
+            "WCU",
+            "KRW",
+            "XCD",
+            "CLF",
+            "KGS",
+            "LRD",
+            "GTQ",
+            "TTD",
+            "INR",
+            "YER",
+            "CRC",
+            "FRF",
+            "SCR",
+            "THB",
+            "ZMW",
+            "GYD",
+            "ILS",
+            "BHD",
+            "CVE",
+            "NIO",
+            "VND",
+            "GEL",
+            "MXV",
+            "SDG",
+            "WST",
+            "IQD",
+            "FJD",
+            "UYU",
+            "CUP",
+            "HUF",
+            "MDL"
         ]
     },
     {
         "n": "currency_id",
         "t": "text",
         "r": [
-            "BWP",
-            "BTN",
-            "XTVZAC",
-            "XTVKWF",
-            "QAR",
-            "EUR",
-            "MDL",
-            "AMD",
-            "NIO",
-            "XTVSIT",
-            "VUV",
-            "NAD",
-            "HUF",
-            "MKD",
-            "XTVDEM",
-            "NZD",
-            "IRR",
-            "XTVLUF",
-            "CDF",
-            "BBD",
-            "XTVFRF",
-            "LAK",
-            "BIF",
-            "GBP",
-            "HTG",
-            "RWF",
-            "SAR",
-            "THB",
-            "UZS",
-            "SOS",
-            "TRY",
-            "LBP",
-            "GIP",
-            "PAB",
-            "XTVWCU",
-            "MGA",
-            "XTVESP",
-            "SRD",
-            "MXV",
-            "PHP",
-            "BND",
-            "TND",
-            "DKK",
-            "ARS",
-            "CLF",
-            "GHS",
-            "KYD",
-            "KPW",
-            "INR",
-            "BOB",
-            "BHD",
-            "DZD",
-            "XTVNLG",
-            "MXN",
-            "MMK",
-            "MWK",
-            "PYG",
-            "RON",
-            "XTVGRD",
-            "AED",
-            "GNF",
-            "SGD",
-            "XPF",
-            "TMT",
-            "SHP",
-            "UAH",
-            "SVC",
-            "ZMW",
-            "BZD",
-            "EGP",
-            "ERN",
-            "XDR",
-            "NGN",
-            "ILS",
-            "CNY",
-            "LKR",
-            "BGN",
-            "GYD",
-            "TTD",
-            "AUD",
-            "KGS",
-            "MAD",
-            "SZL",
-            "DOP",
-            "XCD",
-            "LYD",
-            "DJF",
-            "SLL",
-            "SYP",
-            "XTVFIM",
-            "XAF",
-            "BYN",
-            "XTVGBX",
-            "MRU",
-            "HKD",
-            "BMD",
-            "LSL",
-            "CLP",
-            "IQD",
-            "BRL",
             "ZAR",
-            "XTVPTE",
-            "KES",
+            "AED",
+            "VUV",
+            "ZMW",
             "CAD",
-            "JPY",
-            "CRC",
-            "KHR",
-            "MOP",
-            "AFN",
-            "LRD",
-            "KRW",
-            "JMD",
-            "AWG",
-            "KWD",
-            "ANG",
-            "SEK",
-            "GEL",
-            "YER",
-            "PEN",
-            "RUB",
-            "GMD",
-            "UYU",
-            "KZT",
-            "MYR",
-            "CZK",
-            "BDT",
-            "HNL",
-            "SDG",
-            "TOP",
-            "AOA",
-            "CVE",
-            "MVR",
-            "PKR",
-            "BSD",
-            "FJD",
             "OMR",
-            "USD",
-            "FKP",
-            "TZS",
-            "COP",
-            "PLN",
-            "SCR",
-            "PGK",
-            "JOD",
-            "XTVILA",
-            "XTVCNH",
-            "AZN",
-            "MNT",
-            "XTVATS",
-            "CUP",
-            "TWD",
+            "XTVWCU",
+            "XAF",
+            "NAD",
+            "IRR",
+            "BSD",
             "STN",
-            "UGX",
-            "NPR",
+            "BND",
+            "BOB",
+            "INR",
+            "XTVGRD",
             "RSD",
-            "ETB",
-            "XTVBEF",
-            "NOK",
-            "VES",
-            "BAM",
-            "ALL",
-            "XOF",
-            "MZN",
             "WST",
-            "ISK",
-            "XTVITL",
-            "MUR",
-            "CHF",
-            "IDR",
+            "EUR",
+            "MMK",
+            "TMT",
+            "AZN",
+            "PGK",
+            "MGA",
+            "GNF",
+            "JOD",
             "TJS",
-            "SBD",
-            "VND",
+            "CLF",
+            "JPY",
+            "PHP",
+            "CRC",
+            "AWG",
+            "NZD",
+            "GMD",
+            "XTVNLG",
+            "GHS",
+            "MVR",
+            "SYP",
+            "MWK",
+            "HTG",
+            "BAM",
+            "KES",
+            "MNT",
+            "XCD",
             "KMF",
-            "GTQ"
+            "SEK",
+            "BZD",
+            "UGX",
+            "SDG",
+            "FKP",
+            "XTVITL",
+            "BTN",
+            "MXN",
+            "PLN",
+            "HUF",
+            "MAD",
+            "XPF",
+            "MOP",
+            "NGN",
+            "BIF",
+            "ETB",
+            "MRU",
+            "KPW",
+            "XTVCNH",
+            "UYU",
+            "BMD",
+            "KRW",
+            "XTVFIM",
+            "PAB",
+            "FJD",
+            "CUP",
+            "HKD",
+            "QAR",
+            "ILS",
+            "CZK",
+            "SLL",
+            "PEN",
+            "TRY",
+            "GIP",
+            "BGN",
+            "VND",
+            "KWD",
+            "XTVFRF",
+            "HNL",
+            "XTVBEF",
+            "XDR",
+            "PYG",
+            "UZS",
+            "LKR",
+            "BHD",
+            "TTD",
+            "EGP",
+            "GEL",
+            "ALL",
+            "SCR",
+            "CNY",
+            "LYD",
+            "MZN",
+            "LBP",
+            "IQD",
+            "CDF",
+            "XTVDEM",
+            "XTVGBX",
+            "XTVKWF",
+            "MXV",
+            "XTVATS",
+            "KYD",
+            "DJF",
+            "CHF",
+            "YER",
+            "SRD",
+            "XTVLUF",
+            "ERN",
+            "BWP",
+            "XTVZAC",
+            "IDR",
+            "GYD",
+            "AFN",
+            "KZT",
+            "DOP",
+            "BBD",
+            "GBP",
+            "DKK",
+            "LAK",
+            "LRD",
+            "ANG",
+            "COP",
+            "JMD",
+            "CLP",
+            "XTVILA",
+            "SZL",
+            "SVC",
+            "BYN",
+            "SOS",
+            "SGD",
+            "LSL",
+            "GTQ",
+            "XTVESP",
+            "PKR",
+            "NOK",
+            "THB",
+            "AMD",
+            "XTVPTE",
+            "AOA",
+            "NPR",
+            "SBD",
+            "BRL",
+            "UAH",
+            "TOP",
+            "RUB",
+            "TWD",
+            "MUR",
+            "BDT",
+            "CVE",
+            "VES",
+            "ARS",
+            "MDL",
+            "AUD",
+            "RON",
+            "NIO",
+            "MKD",
+            "TND",
+            "USD",
+            "MYR",
+            "DZD",
+            "KGS",
+            "SAR",
+            "TZS",
+            "KHR",
+            "XOF",
+            "XTVSIT",
+            "RWF",
+            "ISK",
+            "SHP"
         ]
     },
     {
@@ -16766,6 +17821,11 @@
     {
         "n": "days_to_maturity",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "description",
+        "t": "text",
         "r": null
     },
     {
@@ -17285,6 +18345,11 @@
         "rd": true
     },
     {
+        "n": "logoid",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "low_after_high_all_change",
         "t": "percent",
         "r": null
@@ -17647,35 +18712,35 @@
         "n": "provider-id",
         "t": "text",
         "r": [
-            "tvc",
+            "pepperstone",
             "fusionmarkets",
-            "afterprime",
-            "icmarkets",
-            "fxcm",
-            "cityindex",
-            "fxopen",
             "capitalcom",
-            "velocitytrade",
-            "jfx",
+            "phillipnova",
+            "ibkr",
+            "gbebrokers",
+            "eightcap",
             "saxobank",
             "whselfinvest",
-            "pepperstone",
             "moex",
-            "fpmarkets",
-            "spreadex",
-            "ibroker",
-            "phillipnova",
-            "eightcap",
-            "oanda",
             "ice",
             "easymarkets",
+            "afterprime",
+            "fxopen",
+            "fxcm",
+            "jfx",
             "vantagefx",
-            "activtrades",
-            "gbebrokers",
             "blackbullmarkets",
-            "skilling",
+            "spreadex",
             "gain",
-            "ibkr"
+            "fpmarkets",
+            "ibroker",
+            "cityindex",
+            "skilling",
+            "icmarkets",
+            "tvc",
+            "activtrades",
+            "oanda",
+            "velocitytrade"
         ]
     },
     {
@@ -17759,43 +18824,43 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
-            "provider/fusionmarkets",
-            "provider/fpmarkets",
-            "provider/eightcap",
-            "provider/skilling",
-            "provider/vantagefx",
-            "provider/whselfinvest",
-            "provider/pepperstone",
-            "provider/ice",
-            "provider/oanda",
-            "provider/gbebrokers",
-            "provider/gain",
-            "provider/jfx",
-            "provider/icmarkets",
             "provider/capitalcom",
-            "provider/activtrades",
-            "provider/ibroker",
-            "provider/afterprime",
-            "provider/ibkr",
-            "provider/phillipnova",
-            "provider/cityindex",
-            "provider/fxopen",
-            "provider/fxcm",
-            "provider/saxobank",
-            "provider/blackbullmarkets",
+            "provider/gain",
+            "provider/skilling",
             "provider/easymarkets",
-            "provider/velocitytrade",
+            "provider/afterprime",
+            "provider/gbebrokers",
+            "provider/saxobank",
+            "provider/fxcm",
+            "provider/fpmarkets",
+            "source/MOEX",
             "provider/spreadex",
-            "source/MOEX"
+            "provider/phillipnova",
+            "provider/activtrades",
+            "provider/whselfinvest",
+            "provider/ibroker",
+            "provider/fxopen",
+            "provider/eightcap",
+            "provider/velocitytrade",
+            "provider/blackbullmarkets",
+            "provider/oanda",
+            "provider/vantagefx",
+            "provider/pepperstone",
+            "provider/fusionmarkets",
+            "provider/icmarkets",
+            "provider/ibkr",
+            "provider/ice",
+            "provider/jfx",
+            "provider/cityindex"
         ]
     },
     {
         "n": "subtype",
         "t": "text",
         "r": [
+            "",
             "cfd",
-            "synthetic",
-            ""
+            "synthetic"
         ]
     },
     {
@@ -17886,9 +18951,9 @@
         "n": "typespecs",
         "t": "set",
         "r": [
-            "synthetic",
             "",
-            "cfd"
+            "cfd",
+            "synthetic"
         ]
     },
     {
