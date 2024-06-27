@@ -8,13 +8,13 @@
         "n": "exchange",
         "t": "text",
         "r": [
-            "CBOT_MINI",
-            "CME_MINI",
-            "NSE",
-            "CBOT",
-            "COMEX",
             "BSE",
+            "CBOT",
+            "CBOT_MINI",
             "CME",
+            "CME_MINI",
+            "COMEX",
+            "NSE",
             "NYMEX",
             "OPRA"
         ]
@@ -226,28 +226,28 @@
         "n": "currency",
         "t": "text",
         "r": [
-            "USD",
-            "JPY",
-            "INR",
-            "USX",
-            "GBP",
-            "EUR",
             "CHF",
-            "CNH"
+            "CNH",
+            "EUR",
+            "GBP",
+            "INR",
+            "JPY",
+            "USD",
+            "USX"
         ]
     },
     {
         "n": "currency_id",
         "t": "text",
         "r": [
-            "USD",
-            "JPY",
-            "INR",
-            "XTVUSX",
-            "GBP",
-            "EUR",
             "CHF",
-            "XTVCNH"
+            "EUR",
+            "GBP",
+            "INR",
+            "JPY",
+            "USD",
+            "XTVCNH",
+            "XTVUSX"
         ]
     },
     {
@@ -368,8 +368,8 @@
         "n": "option-type",
         "t": "text",
         "r": [
-            "put",
-            "call"
+            "call",
+            "put"
         ]
     },
     {
@@ -468,9 +468,9 @@
         "t": "text",
         "r": [
             "provider/ice",
+            "source/BSE",
             "source/CME",
-            "source/NSE",
-            "source/BSE"
+            "source/NSE"
         ]
     },
     {
