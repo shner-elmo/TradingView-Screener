@@ -20087,6 +20087,7 @@
             "Amundi",
             "Anfield",
             "Angel Oak",
+            "Antipodes",
             "Anydrus",
             "Applied Finance",
             "Aptus",
@@ -20443,7 +20444,6 @@
             "Nippon",
             "Nomura",
             "North Shore",
-            "Northern Trust",
             "Numoro",
             "Nusadana ETF",
             "Nuveen",
@@ -21129,9 +21129,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
+            "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -23375,6 +23374,7 @@
             "PhillipCapital",
             "Picton Mahoney Asset Management",
             "Ping An Insurance (Group) Co. of China Ltd.",
+            "Pinnacle Investment Management Group Ltd.",
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
