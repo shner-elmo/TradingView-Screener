@@ -65,7 +65,6 @@
             "TASE",
             "TSX",
             "TVC",
-            "TWSE",
             "XETR"
         ]
     },
@@ -17491,7 +17490,6 @@
             "SE",
             "SG",
             "TR",
-            "TW",
             "US",
             "ZA"
         ]
@@ -17509,6 +17507,7 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
+            "Aevo",
             "Amp",
             "Aptos",
             "Arbitrum",
@@ -17533,6 +17532,7 @@
             "Ethena",
             "Ethereum",
             "Ethereum Classic",
+            "Fetch.ai",
             "Filecoin",
             "First Digital USD",
             "Frax",
@@ -17541,7 +17541,7 @@
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
-            "Immutable X",
+            "Immutable",
             "Injective",
             "Internet Computer",
             "JITO",
@@ -17585,13 +17585,12 @@
             "Threshold",
             "Toncoin",
             "Tribe",
-            "UMA",
             "UNUS SED LEO",
             "USD Coin",
             "USDD",
             "Uniswap",
             "VeChain",
-            "WOO Network",
+            "WOO",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
@@ -17609,6 +17608,7 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
+            "XTVCAEVO",
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCAR",
@@ -17636,6 +17636,7 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCFDUSD",
+            "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFXS",
@@ -17683,7 +17684,6 @@
             "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
-            "XTVCUMA",
             "XTVCUNI",
             "XTVCUSDC",
             "XTVCUSDD",
@@ -17739,7 +17739,6 @@
             "SEK",
             "SGD",
             "TRY",
-            "TWD",
             "USD",
             "ZAR"
         ]
@@ -17783,7 +17782,6 @@
             "SEK",
             "SGD",
             "TRY",
-            "TWD",
             "USD",
             "ZAR"
         ]
@@ -18850,7 +18848,6 @@
             "source/TADAWUL",
             "source/TASE",
             "source/TSX",
-            "source/TWSE",
             "source/XETR"
         ]
     },

@@ -424,6 +424,7 @@
             "PHP",
             "PLN",
             "RON",
+            "RUB",
             "SEK",
             "SGD",
             "THB",
@@ -698,6 +699,7 @@
             "PL",
             "PT",
             "RO",
+            "RU",
             "SE",
             "SG",
             "SK",
@@ -817,7 +819,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market"
+            "market",
+            "out_of_session"
         ]
     },
     {
