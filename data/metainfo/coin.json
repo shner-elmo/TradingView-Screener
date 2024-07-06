@@ -17665,7 +17665,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market"
+            "market",
+            "out_of_session"
         ]
     },
     {
@@ -18964,6 +18965,7 @@
         "r": [
             "crypto",
             "cryptoasset",
+            "discontinued",
             "synthetic"
         ]
     },

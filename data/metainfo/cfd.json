@@ -17511,12 +17511,12 @@
             "Amp",
             "Aptos",
             "Arbitrum",
-            "Arweave",
             "Avalanche",
             "BNB",
             "Bitcoin",
             "Bitcoin Cash",
             "Bittensor",
+            "Bonk",
             "Cardano",
             "Centrifuge",
             "Chainlink",
@@ -17611,12 +17611,12 @@
             "XTVCAEVO",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCAR",
             "XTVCARBI",
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
+            "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
             "XTVCCFG",
@@ -17798,8 +17798,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

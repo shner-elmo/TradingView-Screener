@@ -2120,8 +2120,7 @@
             "Vanuatu",
             "Venezuela",
             "Vietnam",
-            "Zambia",
-            "Zimbabwe"
+            "Zambia"
         ]
     },
     {
@@ -20148,6 +20147,7 @@
             "Build",
             "Burney",
             "Bushido",
+            "CARNE",
             "CCB",
             "CCM",
             "CI",
@@ -20205,7 +20205,6 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
-            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -20368,6 +20367,7 @@
             "Kurv",
             "Kyobo",
             "L&G",
+            "L1 Capital",
             "LAFFER TENGLER",
             "LGIM",
             "LIC Mutual Fund",
@@ -20529,6 +20529,7 @@
             "SBI",
             "SEI",
             "SMDAM",
+            "SMI Funds",
             "SMTAM",
             "SP Funds",
             "SPDR",
@@ -20966,8 +20967,7 @@
             "VN",
             "VU",
             "ZA",
-            "ZM",
-            "ZW"
+            "ZM"
         ]
     },
     {
@@ -21010,7 +21010,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -21076,7 +21075,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -21134,10 +21132,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -22880,6 +22875,7 @@
             "Water Island Capital LLC",
             "Wiener B\u00f6rse AG",
             "WilderShares LLC",
+            "Wilshire Advisors LLC",
             "WisdomTree Asset Management, Inc.",
             "Zacks Investment Management, Inc.",
             "Zagreb Stock Exchange, Inc.",
@@ -23041,6 +23037,8 @@
             "Amplify Holding Co. LLC",
             "Angel Oak Cos. LLC",
             "Ant Group Co., Ltd.",
+            "Antipodes Partners Ltd.",
+            "Aoris Investment Management (Pty) Ltd.",
             "Aptus Holdings LLC",
             "Arch Indices Investment Advisors LLC",
             "Ardea Investment Management Pty Ltd.",
@@ -23049,6 +23047,7 @@
             "Ashmore Group Plc",
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
+            "Aviva Plc",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BNK Financial Group, Inc.",
@@ -23158,8 +23157,6 @@
             "DriveWealth LLC",
             "Dynamic Shares LLC",
             "E Fund Management Co., Ltd.",
-            "EQT Holdings Ltd.",
-            "ESR-LOGOS REIT",
             "ETC Holdings Ltd. (Guernsey)",
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
@@ -23284,6 +23281,7 @@
             "Kotak Mahindra Bank Ltd.",
             "Kurv Investment Management LLC",
             "Kyobo AXA Investment Managers Co., Ltd.",
+            "L1 Capital International (Pty) Ltd.",
             "LIC Mutual Fund Asset Management Ltd.",
             "Lagan Holding Co. Trust",
             "Langar Investment Management LLC",
@@ -23307,6 +23305,7 @@
             "Main Management LLC",
             "Mairs & Power, Inc.",
             "Manulife Financial Corp.",
+            "Marathon Partners LLC",
             "Matthews International Capital Management LLC",
             "Maxwealth Fund Management Co., Ltd.",
             "Mega Financial Holding Co., Ltd.",
@@ -23381,7 +23380,6 @@
             "PhillipCapital",
             "Picton Mahoney Asset Management",
             "Ping An Insurance (Group) Co. of China Ltd.",
-            "Pinnacle Investment Management Group Ltd.",
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
