@@ -10,6 +10,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Run `pdoc` on current branch `master`/`live`
+        run: |
+          echo ${{ github.event.pull_request.head.ref }}
+          echo ${{ github.ref_name }}
+          echo ${{ github.ref }}
+
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
