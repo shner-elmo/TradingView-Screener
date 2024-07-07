@@ -10,19 +10,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Run `pdoc` on current branch `master`/`live`
-        run: |
-          echo ${{ github.event.pull_request.head.ref }}
-          echo ${{ github.ref_name }}
-          echo ${{ github.ref }}
-
-      - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
           python-version: '3.12'
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
       - name: Run `pdoc` on current branch `master`/`live`
         run: |
-          ls -la
           TEMP_DOCS_DIR=$(mktemp -d)
           curl -sSL https://install.python-poetry.org | python3 -
           poetry install
@@ -32,9 +29,12 @@ jobs:
         with:
           ref: docs
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
       - name: Move generated docs from temp directory to branch `docs`, and commit
         run: |
           mkdir -p ./docs/latest
+          ls ./docs/latest -a
+          ls $TEMP_DOCS_DIR -la
           cp -r "${TEMP_DOCS_DIR}/." ./docs/latest
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
