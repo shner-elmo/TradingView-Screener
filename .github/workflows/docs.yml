@@ -30,8 +30,8 @@ jobs:
 
       - name: Move generated docs from temp directory to branch `docs`, and commit (branch docs contains a folder named docs)
         run: |
-          mkdir -p ./docs/master
-          cp -r /tmp/docs/* ./docs/master
+          mkdir -p ./docs/dev
+          cp -r /tmp/docs/* ./docs/dev
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
