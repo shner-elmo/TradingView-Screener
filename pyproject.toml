@@ -27,6 +27,9 @@ ipython = "^8.16.1"
 ruff = "^0.1.3"
 pdoc = "^14.1.0"
 pytest = "^7.4.3"
+pyright = "^1.1.364"
+jinja2 = "^3.1.4"
+parsel = "^1.9.1"
 
 [build-system]
 requires = ["poetry-core"]
@@ -36,13 +39,9 @@ build-backend = "poetry.core.masonry.api"
 target-version = "py39"
 line-length = 100
 
-# BUG: it seems like these rules arent being enforced by ruff
-[tool.ruff.pycodestyle]
-max-line-length = 100
+[tool.ruff.lint.pycodestyle]
 max-doc-length = 88
-
-[pycodestyle]
-max-doc-length = 100
+#max-line-length = 100
 
 [tool.ruff.format]
 quote-style = "single"
@@ -54,3 +53,11 @@ multiline-quotes = "double"
 
 [tool.ruff.flake8-errmsg]
 max-string-length = 20
+
+[tool.pyright]
+typeCheckingMode = "standard"
+pythonVersion = "3.11"
+include = [
+    "src/tradingview_screener/**",
+    "tests",
+]

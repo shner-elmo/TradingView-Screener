@@ -1,257 +1,108 @@
 from __future__ import annotations
 
-__all__ = ['Query', 'Column']
-
+__all__ = ['And', 'Or', 'Query']
 import pprint
-from typing import TypedDict, Any, Literal, Optional, Iterable
+from typing import TYPE_CHECKING
 
 import requests
 import pandas as pd
 
-from tradingview_screener.constants import COLUMNS, MARKETS, HEADERS, URL
+from tradingview_screener.column import Column
+from tradingview_screener.constants import HEADERS, URL
 
 
-class FilterOperationDict(TypedDict):
-    left: str
-    operation: Literal[
-        'greater',
-        'egreater',
-        'less',
-        'eless',
-        'equal',
-        'nequal',
-        'in_range',
-        'not_in_range',
-        'match',  # the same as: `LOWER(col) LIKE '%pattern%'`
-        'crosses',
-        'crosses_above',
-        'crosses_below',
-        'above%',
-        'below%',
-        'in_range%',
-        'not_in_range%',
-        'has',  # set must contain one of the values
-        'has_none_of',  # set must NOT contain ANY of the values
-    ]
-    right: Any
+if TYPE_CHECKING:
+    from typing import TypedDict, Any, Literal, NotRequired, Self
 
+    class FilterOperationDict(TypedDict):
+        left: str
+        operation: Literal[
+            'greater',
+            'egreater',
+            'less',
+            'eless',
+            'equal',
+            'nequal',
+            'in_range',
+            'not_in_range',
+            'match',  # the same as: `LOWER(col) LIKE '%pattern%'`
+            'crosses',
+            'crosses_above',
+            'crosses_below',
+            'above%',
+            'below%',
+            'in_range%',
+            'not_in_range%',
+            'has',  # set must contain one of the values
+            'has_none_of',  # set must NOT contain ANY of the values
+        ]
+        right: Any
 
-class SortByDict(TypedDict):
-    sortBy: str
-    sortOrder: Literal['asc', 'desc']
+    class SortByDict(TypedDict):
+        sortBy: str
+        sortOrder: Literal['asc', 'desc']
+        nullsFirst: NotRequired[bool]
 
+    class SymbolsDict(TypedDict, total=False):
+        query: dict[Literal['types'], list]
+        tickers: list[str]
+        symbolset: list[str]
+        watchlist: dict[Literal['id'], int]
 
-class QueryDict(TypedDict):
-    """
-    The fields that can be passed to the tradingview scan API
-    """
+    class ExpressionDict(TypedDict):
+        expression: FilterOperationDict
 
-    # TODO: test which optional ...
-    markets: list[str]
-    symbols: dict
-    options: dict
-    columns: list[str]
-    filter: list[FilterOperationDict]
-    sort: SortByDict
-    range: list[int]  # a with two integers, i.e. `[0, 100]`
+    class OperationComparisonDict(TypedDict):
+        operator: Literal['and', 'or']
+        operands: list[OperationDict | ExpressionDict]
 
+    class OperationDict(TypedDict):
+        operation: OperationComparisonDict
 
-class Column:
-    """
-    A Column object represents a field in the tradingview stock screener,
-    and it's used in SELECT queries and WHERE queries with the `Query` object.
-
-    A `Column` supports all the comparison operations:
-    `<`, `<=`, `>`, `>=`, `==`, `!=`, and also other methods like `between()`, `isin()`, etc.
-
-    Examples:
-
-    Some of the operations that you can do with `Column` objects:
-    >>> Column('close') >= 2.5
-    >>> Column('close').between(2.5, 15)
-    >>> Column('high') > Column('VWAP')
-    >>> Column('close').between(Column('EMA5'), Column('EMA20')
-    >>> Column('type').isin(['stock', 'fund'])
-    >>> Column('description').like('apple')  # the same as `description LIKE '%apple%'`
-    """
-
-    def __init__(self, name: str) -> None:
+    class QueryDict(TypedDict, total=False):
         """
-        Create a column object from a given column name
-
-        :param name: string, should be either a key or a value from the `COLUMNS` dictionary
+        The fields that can be passed to the tradingview scan API
         """
-        # if `name` is a dictionary key: get its value. otherwise make sure that it's a
-        # dictionary value.
-        self.name = COLUMNS.get(name, name)
 
-    # disable this method and do the column/field validation through the server
-    # @classmethod
-    # def from_unknown_name(cls, name: str) -> Column:
-    #     """
-    #     Create a column object from a column name that isn't in the `COLUMNS` dictionary
-    #
-    #     :param name: string, column name
-    #     :return: Column
-    #     """
-    #     # close is just a temporary column, so it won't raise an error at `__init__`
-    #     column = cls(name='close')
-    #     column.name = name
-    #     return column
+        markets: list[str]
+        symbols: dict
+        options: dict[str, Any]  # example: `{"options": {"lang": "en"}}`
+        columns: list[str]
+        filter: list[FilterOperationDict]
+        filter2: OperationComparisonDict
+        sort: SortByDict
+        range: list[int]  # list with two integers, i.e. `[0, 100]`
+        ignore_unknown_fields: bool  # default false
+        preset: Literal['index_components_market_pages', 'pre-market-gainers']
+        price_conversion: dict[Literal['to_symbol'], bool] | dict[
+            Literal['price_conversion'], str  # this string should be a currency
+        ]  # symbol currency vs market currency
 
-    @staticmethod
-    def _extract_value(obj) -> ...:
-        if isinstance(obj, Column):
-            return obj.name
-        return obj
 
-    def __gt__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='greater', right=self._extract_value(other)
-        )
+DEFAULT_RANGE = [0, 50]
 
-    def __ge__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='egreater', right=self._extract_value(other)
-        )
 
-    def __lt__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='less', right=self._extract_value(other)
-        )
+def _impl_and_or_chaining(
+    expressions: tuple[FilterOperationDict | OperationDict, ...], operator: Literal['and', 'or']
+) -> OperationDict:
+    # we want to wrap all the `FilterOperationDict` expressions with `{'expression': expr}`,
+    # to know if it's an instance of `FilterOperationDict` we simply check if it has the `left` key,
+    # which no other TypedDict has.
+    lst = []
+    for expr in expressions:
+        if 'left' in expr:  # if isinstance(expr, FilterOperationDict): ...
+            lst.append({'expression': expr})
+        else:
+            lst.append(expr)
+    return {'operation': {'operator': operator, 'operands': lst}}
 
-    def __le__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='eless', right=self._extract_value(other)
-        )
 
-    def __eq__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='equal', right=self._extract_value(other)
-        )
+def And(*expressions: FilterOperationDict | OperationDict) -> OperationDict:
+    return _impl_and_or_chaining(expressions, operator='and')
 
-    def __ne__(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='nequal', right=self._extract_value(other)
-        )
 
-    def crosses(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='crosses', right=self._extract_value(other)
-        )
-
-    def crosses_above(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='crosses_above', right=self._extract_value(other)
-        )
-
-    def crosses_below(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='crosses_below', right=self._extract_value(other)
-        )
-
-    def between(self, left, right) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name,
-            operation='in_range',
-            right=[self._extract_value(left), self._extract_value(right)],
-        )
-
-    def not_between(self, left, right) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name,
-            operation='not_in_range',
-            right=[self._extract_value(left), self._extract_value(right)],
-        )
-
-    def isin(self, values) -> FilterOperationDict:
-        return FilterOperationDict(left=self.name, operation='in_range', right=list(values))
-
-    def not_in(self, values: Iterable) -> FilterOperationDict:
-        return {'left': self.name, 'operation': 'not_in_range', 'right': list(values)}
-
-    def has(self, values: Iterable) -> FilterOperationDict:
-        """
-        Field contains any of the values
-
-        (it's the same as `isin()`, except that it works on fields of type `set`)
-        """
-        return {'left': self.name, 'operation': 'has', 'right': list(values)}
-
-    def has_none_of(self, values: Iterable) -> FilterOperationDict:
-        """
-        Field doesn't contain any of the values
-
-        (it's the same as `not_in()`, except that it works on fields of type `set`)
-        """
-        return {'left': self.name, 'operation': 'has_none_of', 'right': list(values)}
-
-    def above_pct(self, column: Column | str, pct: float) -> FilterOperationDict:
-        """
-        Examples:
-
-        The closing price is higher than the VWAP by more than 3%
-        >>> Column('close').above_pct('VWAP', 1.03)
-
-        closing price is above the 52-week-low by more than 150%
-        >>> Column('close').above_pct('price_52_week_low', 2.5)
-        """
-        return {
-            'left': self.name,
-            'operation': 'above%',
-            'right': [self._extract_value(column), pct],
-        }
-
-    def below_pct(self, column: Column | str, pct: float) -> FilterOperationDict:
-        """
-        Examples:
-
-        The closing price is lower than the VWAP by 3% or more
-        >>> Column('close').below_pct('VWAP', 1.03)
-        """
-        return {
-            'left': self.name,
-            'operation': 'below%',
-            'right': [self._extract_value(column), pct],
-        }
-
-    def between_pct(
-        self, column: Column | str, pct1: float, pct2: Optional[float] = None
-    ) -> FilterOperationDict:
-        """
-        Examples:
-
-        The percentage change between the Close and the EMA is between 20% and 50%
-        >>> Column('close').between_pct('EMA200', 1.2, 1.5)
-        """
-        return {
-            'left': self.name,
-            'operation': 'in_range%',
-            'right': [self._extract_value(column), pct1, pct2],
-        }
-
-    def not_between_pct(
-        self, column: Column | str, pct1: float, pct2: Optional[float] = None
-    ) -> FilterOperationDict:
-        """
-        Examples:
-
-        The percentage change between the Close and the EMA is between 20% and 50%
-        >>> Column('close').not_between_pct('EMA200', 1.2, 1.5)
-        """
-        return {
-            'left': self.name,
-            'operation': 'not_in_range%',
-            'right': [self._extract_value(column), pct1, pct2],
-        }
-
-    def like(self, other) -> FilterOperationDict:
-        return FilterOperationDict(
-            left=self.name, operation='match', right=self._extract_value(other)
-        )
-
-    def __repr__(self) -> str:
-        return f'< Column({self.name!r}) >'
+def Or(*expressions: FilterOperationDict | OperationDict) -> OperationDict:
+    return _impl_and_or_chaining(expressions, operator='or')
 
 
 class Query:
@@ -438,44 +289,71 @@ class Query:
             'columns': ['name', 'close', 'volume', 'market_cap_basic'],
             # 'filter': ...,
             'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
-            'range': [0, 50],
+            'range': DEFAULT_RANGE.copy(),
         }
         self.url = 'https://scanner.tradingview.com/america/scan'
 
-    def set_markets(self, *markets: str) -> Query:
+    def select(self, *columns: Column | str) -> Self:
+        self.query['columns'] = [
+            col.name if isinstance(col, Column) else Column(col).name for col in columns
+        ]
+        return self
+
+    def where(self, *expressions: FilterOperationDict) -> Self:
+        self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
+        return self
+
+    def where2(self, operation: OperationDict) -> Self:
+        self.query['filter2'] = operation['operation']
+        return self
+
+    def order_by(
+        self, column: Column | str, ascending: bool = True, nulls_first: bool = False
+    ) -> Self:
+        """
+        # TODO add docu
+
+        :param column:
+        :param ascending:
+        :param nulls_first:
+        :return:
+        """
+        dct: SortByDict = {
+            'sortBy': column.name if isinstance(column, Column) else column,
+            'sortOrder': 'asc' if ascending else 'desc',
+            'nullsFirst': nulls_first,
+        }
+        self.query['sort'] = dct
+        return self
+
+    def limit(self, limit: int) -> Self:
+        self.query.setdefault('range', DEFAULT_RANGE.copy())[1] = limit
+        return self
+
+    def offset(self, offset: int) -> Self:
+        self.query.setdefault('range', DEFAULT_RANGE.copy())[0] = offset
+        return self
+
+    def set_markets(self, *markets: str) -> Self:
         """
         This method allows you to select the market/s which you want to query.
 
         By default, the screener will only scan US equities, but you can change it to scan any
-        or even multiple markets, that includes a list of 67 countries, and also the following 
-        commodities: `bonds`, `cfd`, `coin`, `crypto`, `economics2`, `euronext`, `forex`,
+        market or country, that includes a list of 67 countries, and also the following
+        asset classes: `bonds`, `cfd`, `coin`, `crypto`, `euronext`, `forex`,
         `futures`, `options`.
 
         You may choose any value from `tradingview_screener.constants.MARKETS`.
 
+        If you select multiple countries, you might want to
+
         Examples:
 
-        By default, the screener will search the `america` market
-        >>> default_columns = ['close', 'market', 'country', 'currency']
-        >>> Query().select(*default_columns).get_scanner_data()
-        (17898,
-                  ticker     close   market        country currency
-         0      AMEX:SPY  419.9900  america  United States      USD
-         1   NASDAQ:TSLA  201.7201  america  United States      USD
-         2   NASDAQ:NVDA  416.3800  america  United States      USD
-         3    NASDAQ:AMD  106.4499  america  United States      USD
-         4    NASDAQ:QQQ  353.4000  america  United States      USD
-         ..          ...       ...      ...            ...      ...
-         45  NASDAQ:ADBE  538.0000  america  United States      USD
-         46      NYSE:BA  188.9000  america  United States      USD
-         47  NASDAQ:SBUX   90.9100  america  United States      USD
-         48     NYSE:HUM  500.6350  america  United States      USD
-         49     NYSE:CAT  227.3400  america  United States      USD
-         [50 rows x 5 columns])
-
-        But you can change it (note the difference between `market` and `country`)
+        By default, the screener will show results from the `america` market, but you can
+        change it (note the difference between `market` and `country`)
+        >>> columns = ['close', 'market', 'country', 'currency']
         >>> (Query()
-        ...  .select(*default_columns)
+        ...  .select(*columns)
         ...  .set_markets('italy')
         ...  .get_scanner_data())
         (2346,
@@ -495,7 +373,7 @@ class Query:
 
         You can also select multiple markets
         >>> (Query()
-        ...  .select(*default_columns)
+        ...  .select(*columns)
         ...  .set_markets('america', 'israel', 'hongkong', 'switzerland')
         ...  .get_scanner_data())
         (23964,
@@ -516,45 +394,21 @@ class Query:
         You may also select different financial instruments
         >>> (Query()
         ...  .select('close', 'market')
-        ...  .set_markets('cfd', 'crypto', 'futures', 'options')
+        ...  .set_markets('cfd', 'crypto', 'forex', 'futures')
         ...  .get_scanner_data())
         (118076,
-                                 ticker  ...   market
-         0          UNISWAP3ETH:WETHVGT  ...   crypto
-         1   UNISWAP3POLYGON:BONKWMATIC  ...   crypto
-         2   UNISWAP3ARBITRUM:WETHTROVE  ...   crypto
-         3          UNISWAP3ETH:USDTBRD  ...   crypto
-         4         UNISWAP3ETH:WBTCAUSD  ...   crypto
-         ..                         ...  ...      ...
-         45               NSE:IDEAF2024  ...  futures
-         46         NSE:INDUSTOWERX2023  ...  futures
-         47            NSE:INDUSTOWER1!  ...  futures
-         48                  BIST:XU100  ...      cfd
-         49              BYBIT:BTCUSD.P  ...   crypto
-         [50 rows x 3 columns])
-
-        To select all the avaialble markets you can do this trick
-        >>> from tradingview_screener.constants import MARKETS
-        >>> len(MARKETS)
-        76
-        >>> (Query()
-        ...  .select('close', 'market')
-        ...  .set_markets(*MARKETS)
-        ...  .get_scanner_data())  # notice how many records we find: over 240k
-        (241514,
-                                 ticker  ...   market
-         0          UNISWAP3ETH:WETHVGT  ...   crypto
-         1   UNISWAP3POLYGON:BONKWMATIC  ...   crypto
-         2   UNISWAP3ARBITRUM:WETHTROVE  ...   crypto
-         3          UNISWAP3ETH:USDTBRD  ...   crypto
-         4         UNISWAP3ETH:WBTCAUSD  ...   crypto
-         ..                         ...  ...      ...
-         45               NSE:IDEAF2024  ...  futures
-         46            NSE:INDUSTOWER1!  ...  futures
-         47         NSE:INDUSTOWERX2023  ...  futures
-         48                  BIST:XU100  ...      cfd
-         49              BYBIT:BTCUSD.P  ...   crypto
-
+                                    ticker  ...  market
+         0          UNISWAP3ETH:JUSTICEUSDT  ...  crypto
+         1             UNISWAP3ETH:UAHGUSDT  ...  crypto
+         2            UNISWAP3ETH:KENDUWETH  ...  crypto
+         3         UNISWAP3ETH:MATICSTMATIC  ...  crypto
+         4             UNISWAP3ETH:WETHETHM  ...  crypto
+         ..                             ...  ...     ...
+         45  UNISWAP:MUSICAIWETH_1F5304.USD  ...  crypto
+         46                   CRYPTOCAP:FIL  ...     cfd
+         47                   CRYPTOCAP:SUI  ...     cfd
+         48                  CRYPTOCAP:ARBI  ...     cfd
+         49                    CRYPTOCAP:OP  ...     cfd
          [50 rows x 3 columns])
 
         :param markets: one or more markets from `tradingview_screener.constants.MARKETS`
@@ -562,88 +416,98 @@ class Query:
         """
         if len(markets) == 1:
             market = markets[0]
-            assert market in MARKETS
-
             self.url = URL.format(market=market)
             self.query['markets'] = [market]
-
-        elif len(markets) >= 1:
-            for m in markets:
-                assert m in MARKETS
-
+        else:  # len(markets) == 0 or len(markets) > 1
             self.url = URL.format(market='global')
             self.query['markets'] = list(markets)
 
         return self
 
-    def set_tickers(self, *tickers: str) -> Query:
+    def set_tickers(self, *tickers: str) -> Self:
         """
         Set the tickers you wish to receive information on.
 
         Examples:
 
-        >>> Query().limit(5).get_scanner_data()
-        (17879,
-                 ticker  name   close     volume  market_cap_basic
-         0  NASDAQ:TSLA  TSLA  248.50  118559595      7.887376e+11
-         1     AMEX:SPY   SPY  445.52   62066984               NaN
-         2  NASDAQ:NVDA  NVDA  455.72   47389801      1.125628e+12
-         3   NASDAQ:QQQ   QQQ  372.58   35846281               NaN
-         4  NASDAQ:AAPL  AAPL  178.18   65600673      2.785707e+12)
-
         >>> q = Query().select('name', 'market', 'close', 'volume', 'VWAP', 'MACD.macd')
         >>> q.set_tickers('NASDAQ:TSLA').get_scanner_data()
-        (2,
-                 ticker  name   market   close     volume        VWAP  MACD.macd
-         0  NASDAQ:TSLA  TSLA  america  248.50  118559595  250.563333   0.730376
-         1  NASDAQ:NVDA  NVDA  america  455.72   47389801  458.163333   7.927189)
+        (1,
+                 ticker  name   market  close   volume    VWAP  MACD.macd
+         0  NASDAQ:TSLA  TSLA  america    186  3519931  185.53   2.371601)
 
-        >>> q.set_tickers('NYSE:GME', 'AMEX:SPY', 'MIL:RACE', 'HOSE:VIX').get_scanner_data()
+        To set tickers from multiple markets we need to update the markets that include them:
+        >>> (Query()
+        ...  .set_markets('america', 'italy', 'vietnam')
+        ...  .set_tickers('NYSE:GME', 'AMEX:SPY', 'MIL:RACE', 'HOSE:VIX')
+        ...  .get_scanner_data())
         (4,
-              ticker  name   market     close    volume          VWAP    MACD.macd
-         0  HOSE:VIX   VIX  vietnam  19800.00  26292400  19883.333333  1291.359459
-         1  AMEX:SPY   SPY  america    445.52  62066984    445.720000     0.484263
-         2  NYSE:GME   GME  america     17.71   4693902     17.853333    -0.660342
-         3  MIL:RACE  RACE    italy    279.30    246547    279.033327    -1.398701)
+              ticker  name     close    volume  market_cap_basic
+         0  HOSE:VIX   VIX  16700.00  33192500      4.568961e+08
+         1  AMEX:SPY   SPY    544.35   1883562               NaN
+         2  NYSE:GME   GME     23.80   3116758      1.014398e+10
+         3  MIL:RACE  RACE    393.30    122878      1.006221e+11)
 
         :param tickers: One or more tickers, syntax: `exchange:symbol`
         :return: Self
         """
-        # no need to select the market if we specify the symbol we want
-        # noinspection PyTypedDict
-        self.query.pop('markets', None)
-
-        self.query['symbols'] = {'tickers': list(tickers)}
-        self.url = 'https://scanner.tradingview.com/global/scan'
+        self.query.setdefault('symbols', {})['tickers'] = list(tickers)
         return self
 
-    def select(self, *columns: Column | str) -> Query:
-        self.query['columns'] = [
-            col.name if isinstance(col, Column) else Column(col).name for col in columns
-        ]
-        return self
+    def set_index(self, *indexes: str) -> Self:
+        """
+        Filter data to include only the tickers/components of a specified index.
 
-    def where(self, *expressions: FilterOperationDict) -> Query:
-        self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
-        return self
+        Examples:
 
-    def order_by(self, column: Column | str, ascending: bool = True) -> Query:
-        column = column.name if isinstance(column, Column) else Column(column).name
-        sort_order = 'asc' if ascending else 'desc'
-        # noinspection PyTypeChecker
-        self.query['sort'] = SortByDict(sortBy=column, sortOrder=sort_order)
-        return self
+        >>> Query().set_index('SYML:SP;SPX').get_scanner_data()
+        (503,
+                   ticker   name    close    volume  market_cap_basic
+         0    NASDAQ:NVDA   NVDA  1208.88  41238122      2.973644e+12
+         1    NASDAQ:AAPL   AAPL   196.89  53103705      3.019127e+12
+         2    NASDAQ:TSLA   TSLA   177.48  56244929      5.660185e+11
+         3     NASDAQ:AMD    AMD   167.87  44795240      2.713306e+11
+         4    NASDAQ:MSFT   MSFT   423.85  13621485      3.150183e+12
+         5    NASDAQ:AMZN   AMZN   184.30  28021473      1.917941e+12
+         6    NASDAQ:META   META   492.96   9379199      1.250410e+12
+         7   NASDAQ:GOOGL  GOOGL   174.46  19660698      2.164346e+12
+         8    NASDAQ:SMCI   SMCI   769.11   3444852      4.503641e+10
+         9    NASDAQ:GOOG   GOOG   175.95  14716134      2.164346e+12
+         10   NASDAQ:AVGO   AVGO  1406.64   1785876      6.518669e+11)
 
-    def offset(self, offset: int) -> Query:
-        self.query['range'][0] = offset
-        return self
+        You can set multiple indices as well, like the NIFTY 50 and UK 100 Index.
+        >>> Query().set_index('SYML:NSE;NIFTY', 'SYML:TVC;UKX').get_scanner_data()
+        (150,
+                     ticker        name         close     volume  market_cap_basic
+         0         NSE:INFY        INFY   1533.600000   24075302      7.623654e+10
+         1          LSE:AZN         AZN  12556.000000    2903032      2.489770e+11
+         2     NSE:HDFCBANK    HDFCBANK   1573.350000   18356108      1.432600e+11
+         3     NSE:RELIANCE    RELIANCE   2939.899900    9279348      2.381518e+11
+         4         LSE:LSEG        LSEG   9432.000000    2321053      6.395329e+10
+         5   NSE:BAJFINANCE  BAJFINANCE   7191.399900    2984052      5.329685e+10
+         6         LSE:BARC        BARC    217.250000   96238723      4.133010e+10
+         7         NSE:SBIN        SBIN    829.950010   25061284      8.869327e+10
+         8           NSE:LT          LT   3532.500000    5879660      5.816100e+10
+         9         LSE:SHEL        SHEL   2732.500000    7448315      2.210064e+11)
 
-    def limit(self, limit: int) -> Query:
-        self.query['range'][1] = limit
-        return self
+        You can find the full list of indices in [`constants.INDICES`](constants.html#INDICES),
+        just note that the syntax is
+        `SYML:{source};{symbol}`.
 
-    # def set_options(self, options) -> None:
-    #     raise NotImplementedError
+        :param indexes: One or more strings representing the financial indexes to filter by
+        :return: An instance of the `Query` class with the filter applied
+        """
+        self.query.setdefault('preset', 'index_components_market_pages')
+        self.query.setdefault('symbols', {})['symbolset'] = list(indexes)
+        self.url = URL.format(market='global')
+        return self
+    # TODO: add tests for set_ticker() and set_index() and make sure if its necessary to reset the 
+    #  URL or markets property
+    #  and review the docs again
+
+    def set_property(self, key: str, value: Any) -> Self:
+        self.query[key] = value
+        return self
 
     def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
         """
@@ -652,17 +516,23 @@ class Query:
         Note that you can pass extra keyword-arguments that will be forwarded to `requests.post()`,
         this can be very useful if you want to pass your own headers/cookies.
 
-        (if you have paid for a live data add-on with TradingView, you want to pass your own
-        headers and cookies to access that real-time data)
+        ### Live/Delayed data
+
+        If you have paid for a live data add-on with TradingView, you want to pass your own
+        headers and cookies to access that real-time data, otherwise you
+
+
 
         :param kwargs: kwargs to pass to `requests.post()`
         :return: a tuple consisting of: (total_count, dataframe)
         """
+        self.query.setdefault('range', DEFAULT_RANGE.copy())
+
         kwargs.setdefault('headers', HEADERS)
         kwargs.setdefault('timeout', 20)
         r = requests.post(self.url, json=self.query, **kwargs)
 
-        if r.status_code >= 400:
+        if not r.ok:
             # add the body to the error message for debugging purposes
             r.reason += f'\n Body: {r.text}\n'
             r.raise_for_status()
@@ -673,7 +543,7 @@ class Query:
 
         df = pd.DataFrame(
             data=([row['s'], *row['d']] for row in data),
-            columns=['ticker', *self.query.get('columns', ())],
+            columns=['ticker', *self.query.get('columns', ())],  # pyright: ignore [reportArgumentType]
         )
         return rows_count, df
 
@@ -686,4 +556,10 @@ class Query:
         return f'< {pprint.pformat(self.query)} >'
 
     def __eq__(self, other) -> bool:
-        return isinstance(other, Query) and self.query == other.query
+        return isinstance(other, Query) and self.query == other.query and self.url == other.url
+
+
+# TODO: should get_scanner_data() return the raw data instead of DF?
+# TODO: Query should have no defaults (except limit), and a separate module should have all the
+#  default screeners
+# TODO: add all presets
