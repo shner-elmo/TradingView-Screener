@@ -20,17 +20,19 @@ jobs:
 
       - name: Run `pdoc` on current branch `master`/`live`
         run: |
-          TEMP_DOCS_DIR=$(mktemp -d)
           curl -sSL https://install.python-poetry.org | python3 -
           poetry install
-          poetry run pdoc tradingview_screener/ -o $TEMP_DOCS_DIR -t templates/
+          poetry run pdoc tradingview_screener/ -o /tmp/docs -t templates/
 
-          # Move generated docs from temp directory to branch `docs`, and commit
-          # (branch docs contains a folder named docs)
-          git checkout docs
-          
+      - uses: actions/checkout@v4
+        with:
+          ref: docs
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
+      - name: Move generated docs from temp directory to branch `docs`, and commit (branch docs contains a folder named docs)
+        run: |
           mkdir -p ./docs/latest
-          cp -r "${TEMP_DOCS_DIR}/." ./docs/latest
+          cp -r /tmp/docs/* ./docs/latest
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Generated docs for latest dev version"
