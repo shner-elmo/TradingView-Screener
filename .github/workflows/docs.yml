@@ -1,46 +1,35 @@
 name: website
 
-# build the documentation whenever there are new commits on main
 on:
   push:
     branches:
       - master
-
-# security: restrict permissions for CI jobs.
-permissions:
-  contents: read
+      - staging
 
 jobs:
-  # Build the documentation and upload the static HTML files as an artifact.
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
           python-version: '3.12'
+      - name: Run `pdoc` on current branch `master`/`live`
+        run: |
+          TEMP_DOCS_DIR=$(mktemp -d)
+          curl -sSL https://install.python-poetry.org | python3 -
+          poetry install
+          poetry run pdoc tradingview_screener/ -o $TEMP_DOCS_DIR
 
-      # install all dependencies (including pdoc)
-      - run: curl -sSL https://install.python-poetry.org | python3 -
-      - run: poetry install
-      # build your documentation into docs/.
-      - run: poetry run pdoc tradingview_screener/ -o docs/
-
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/checkout@v4
         with:
-          path: docs/
-
-  # Deploy the artifact to GitHub pages.
-  # This is a separate job so that only actions/deploy-pages has the necessary permissions.
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v2
+          ref: docs
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+      - name: Move generated docs from temp directory to branch `docs`, and commit
+        run: |
+          mkdir -p ./docs/latest
+          cp -r "${TEMP_DOCS_DIR}/." ./docs/latest
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Generated docs for latest dev version"
+          git status
+          git push
