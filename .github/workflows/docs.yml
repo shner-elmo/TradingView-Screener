@@ -25,17 +25,12 @@ jobs:
           poetry install
           poetry run pdoc tradingview_screener/ -o $TEMP_DOCS_DIR -t templates/
 
-      - uses: actions/checkout@v4
-        with:
-          ref: docs
-          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-
-      - name: Move generated docs from temp directory to branch `docs`, and commit
-        run: |
+          # Move generated docs from temp directory to branch `docs`, and commit
+          # (branch docs contains a folder named docs)
+          git checkout docs
+          
           mkdir -p ./docs/latest
-          ls ./docs/latest -a
-          ls $TEMP_DOCS_DIR -la
-          cp -r "${TEMP_DOCS_DIR}/*" ./docs/latest
+          cp -r "${TEMP_DOCS_DIR}/." ./docs/latest
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Generated docs for latest dev version"
