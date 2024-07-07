@@ -1,0 +1,28 @@
+{#
+We want to extend the default template instead of defining everything ourselves.
+#}
+{% extends "default/module.html.jinja2" %}
+
+{% block nav_title %}
+<script type="text/javascript">
+window.onload = function() {
+    let ul = document.evaluate("//h2[text() = 'Submodules']/following-sibling::ul", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    ul.insertAdjacentHTML('afterend', '<h2 id="fields">Fields</h2>');
+
+    let html = `
+        <ul>
+            <li><a href="../fields/stocks.html">Stocks</a></li>
+            <li><a href="../fields/crypto.html">Crypto</a></li>
+            <li><a href="../fields/forex.html">Forex</a></li>
+            <li><a href="../fields/coin.html">Coin</a></li>
+            <li><a href="../fields/cfd.html">Cfd</a></li>
+            <li><a href="../fields/futures.html">Futures</a></li>
+            <li><a href="../fields/bonds.html">Bonds</a></li>
+            <li><a href="../fields/economics2.html">Economics2</a></li>
+            <li><a href="../fields/options.html">Options</a></li>
+        </ul>
+    `;
+    document.getElementById('fields').insertAdjacentHTML('afterend', html);
+}
+</script>
+{% endblock %}
