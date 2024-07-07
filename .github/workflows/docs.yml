@@ -4,21 +4,20 @@ on:
   push:
     branches:
       - master
-      - staging
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: master
 
-      - name: Run `pdoc` on current branch `master`/`live`
+      - name: Run `pdoc` on branch master
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
           poetry install
@@ -31,11 +30,16 @@ jobs:
 
       - name: Move generated docs from temp directory to branch `docs`, and commit (branch docs contains a folder named docs)
         run: |
-          mkdir -p ./docs/latest
-          cp -r /tmp/docs/* ./docs/latest
+          mkdir -p ./docs/master
+          cp -r /tmp/docs/* ./docs/master
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
           git status
-          git commit -a -m "Generated docs for latest dev version"
-          git push
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -a -m "Generated docs for latest dev version"
+            git push
+          else
+            echo "No changes"
+          fi          
