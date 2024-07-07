@@ -15,10 +15,10 @@ jobs:
           python-version: '3.12'
       - name: Run `pdoc` on current branch `master`/`live`
         run: |
+          ls -la
           TEMP_DOCS_DIR=$(mktemp -d)
           curl -sSL https://install.python-poetry.org | python3 -
           poetry install
-          ls -la
           poetry run pdoc tradingview_screener/ -o $TEMP_DOCS_DIR
 
       - uses: actions/checkout@v4
