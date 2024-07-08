@@ -840,10 +840,6 @@
                 "name": "WIGdiv"
             },
             {
-                "id": "GPW:WIGTECH",
-                "name": "WIGtech"
-            },
-            {
                 "id": "GPW:WIGTECHTR",
                 "name": "WIGtechTR"
             },
@@ -20147,7 +20143,6 @@
             "Build",
             "Burney",
             "Bushido",
-            "CARNE",
             "CCB",
             "CCM",
             "CI",
@@ -20189,6 +20184,7 @@
             "Conductor Fund",
             "Congress",
             "Convergence",
+            "Copper Place",
             "Core Alternative",
             "CoreValues Alpha",
             "CornerCap",
@@ -21132,6 +21128,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
+            "market",
             "out_of_session",
             "pre_market"
         ]
@@ -22413,7 +22411,6 @@
             "SYML:GPW;WIG30",
             "SYML:GPW;WIG30TR",
             "SYML:GPW;WIGDIV",
-            "SYML:GPW;WIGTECH",
             "SYML:GPW;WIGTECHTR",
             "SYML:GPW;WIG_BANKI",
             "SYML:GPW;WIG_BUDOW",
@@ -23391,7 +23388,6 @@
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Public Trust Advisors LLC",
