@@ -21133,7 +21133,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
