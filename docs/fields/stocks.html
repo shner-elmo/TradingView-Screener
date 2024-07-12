@@ -11,7 +11,7 @@
     <button
       class="primary"
       data-placement="bottom"
-      data-tooltip="set_markets('america', 'argentina', 'australia', 'austria', 'bahrain', 'bangladesh', 'belgium', 'brazil', 'canada', 'chile', 'china', 'colombia', 'cyprus', 'czech', 'denmark', 'egypt', 'estonia', 'finland', 'france', 'germany', 'greece', 'hongkong', 'hungary', 'iceland', 'india', 'indonesia', 'israel', 'italy', 'japan', 'kenya', 'korea', 'ksa', 'kuwait', 'latvia', 'lithuania', 'luxembourg', 'malaysia', 'mexico', 'morocco', 'netherlands', 'newzealand', 'nigeria', 'norway', 'pakistan', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'romania', 'rsa', 'russia', 'serbia', 'singapore', 'slovakia', 'spain', 'srilanka', 'sweden', 'switzerland', 'taiwan', 'thailand', 'tunisia', 'turkey', 'uae', 'uk', 'venezuela', 'vietnam')"
+      data-tooltip="set_markets('america', 'argentina', 'australia', 'austria', 'bahrain', 'bangladesh', 'belgium', 'bond', 'brazil', 'canada', 'chile', 'china', 'colombia', 'cyprus', 'czech', 'denmark', 'egypt', 'estonia', 'finland', 'france', 'germany', 'greece', 'hongkong', 'hungary', 'iceland', 'india', 'indonesia', 'israel', 'italy', 'japan', 'kenya', 'korea', 'ksa', 'kuwait', 'latvia', 'lithuania', 'luxembourg', 'malaysia', 'mexico', 'morocco', 'netherlands', 'newzealand', 'nigeria', 'norway', 'pakistan', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'romania', 'rsa', 'russia', 'serbia', 'singapore', 'slovakia', 'spain', 'srilanka', 'sweden', 'switzerland', 'taiwan', 'thailand', 'tunisia', 'turkey', 'uae', 'uk', 'venezuela', 'vietnam')"
       onclick="window.location.href = 'stocks.html'"
     >Stocks
     </button>
@@ -2914,6 +2914,11 @@
       </td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>Bond.Currency</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>
@@ -6005,6 +6010,11 @@
       <td>fundamental_price</td>
     </tr>
     <tr>
+      <td>ask</td>
+      <td></td>
+      <td>price</td>
+    </tr>
+    <tr>
       <td>asset_class</td>
       <td></td>
       <td>text</td>
@@ -6096,6 +6106,61 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>bid</td>
+      <td></td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>bond_deepest_history_symbol</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_outlook_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_outlook_st</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_rating_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_rating_st</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_stock_symbol</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_snp_outlook_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_snp_rating_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_type_gen</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>book_value_per_share_fq</td>
       <td></td>
       <td>fundamental_price</td>
@@ -6107,6 +6172,11 @@
     </tr>
     <tr>
       <td>brand</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bus_day_conv_method</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -6134,6 +6204,11 @@
       <td>cagr_5_revenue</td>
       <td></td>
       <td>percent</td>
+    </tr>
+    <tr>
+      <td>call_option</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>capital_expenditures_qoq_growth_fq</td>
@@ -6231,6 +6306,16 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>close_net</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>close_pct</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
       <td>continuous_dividend_growth</td>
       <td></td>
       <td>number</td>
@@ -6241,7 +6326,17 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>country_code</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>country_code_fund</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>country_fund</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -6249,6 +6344,21 @@
       <td>coupon</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>coupon_exdate_gap</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_frequency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_type_general</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>cryptoasset-info.description</td>
@@ -6281,6 +6391,11 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>current_coupon</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
       <td>current_ratio_current</td>
       <td></td>
       <td>number</td>
@@ -6294,6 +6409,11 @@
       <td>current_session</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>current_yield</td>
+      <td></td>
+      <td>percent</td>
     </tr>
     <tr>
       <td>days_to_maturity</td>
@@ -6429,6 +6549,11 @@
       <td>dps_common_stock_prim_issue_fy_h</td>
       <td></td>
       <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>duration_type</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>earnings_per_share_basic_fy</td>
@@ -6714,6 +6839,11 @@
       <td>focus</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>forex_priority</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>fractional</td>
@@ -7031,6 +7161,16 @@
       <td>fundamental_price</td>
     </tr>
     <tr>
+      <td>issue_amount</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>issue_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
       <td>issuer</td>
       <td></td>
       <td>text</td>
@@ -7134,7 +7274,12 @@
     <tr>
       <td>maturity_date</td>
       <td></td>
-      <td>time</td>
+      <td>time-yyyymmdd</td>
+    </tr>
+    <tr>
+      <td>measure</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>minmov</td>
@@ -7302,6 +7447,11 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>nominal_value</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
       <td>non_gaap_price_to_earnings_per_share_forecast_next_fy</td>
       <td></td>
       <td>number</td>
@@ -7342,6 +7492,11 @@
       <td>percent</td>
     </tr>
     <tr>
+      <td>outstanding_amount</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
       <td>payment_date_recent</td>
       <td></td>
       <td>time</td>
@@ -7350,6 +7505,11 @@
       <td>payment_date_upcoming</td>
       <td></td>
       <td>time</td>
+    </tr>
+    <tr>
+      <td>popularity_rank</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
@@ -7550,6 +7710,11 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>put_option</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>quick_ratio_current</td>
       <td></td>
       <td>number</td>
@@ -7668,6 +7833,11 @@
       <td>recommendation_under</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>region</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>relative_volume</td>
@@ -7856,6 +8026,11 @@
     </tr>
     <tr>
       <td>subtype</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>term-to-maturity</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -8159,9 +8334,19 @@
       <td>fundamental_price</td>
     </tr>
     <tr>
+      <td>years_to_maturity</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>yield_recent</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>yield_to_maturity</td>
+      <td></td>
+      <td>percent</td>
     </tr>
     <tr>
       <td>yield_upcoming</td>
@@ -8172,16 +8357,16 @@
     <tfoot>
     <tr>
       <th scope="row">Fields</th>
-      <td>3089</td>
+      <td>3126</td>
     </tr>
     <tr>
       <th scope="row">Deduplicated fields</th>
-      <td>803</td>
+      <td>840</td>
     </tr>
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2024-07-11 07:11:49</mark>
+    <mark>Last updated: 2024-07-12 07:12:21</mark>
   </div>
 </main>
 <script>

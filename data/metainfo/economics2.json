@@ -797,7 +797,7 @@
     },
     {
         "n": "maturity_date",
-        "t": "time",
+        "t": "time-yyyymmdd",
         "r": null
     },
     {

@@ -17517,7 +17517,6 @@
             "Bitcoin Cash",
             "Bittensor",
             "Bonk",
-            "BounceBit",
             "Cardano",
             "Centrifuge",
             "Chainlink",
@@ -17576,6 +17575,7 @@
             "Stacks",
             "Stellar",
             "Sui",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -17614,7 +17614,6 @@
             "XTVCARBI",
             "XTVCATOM",
             "XTVCAVAX",
-            "XTVCBBBOU",
             "XTVCBCH",
             "XTVCBNB",
             "XTVCBONK",
@@ -17678,6 +17677,7 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
+            "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -17797,7 +17797,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -18353,7 +18352,7 @@
     },
     {
         "n": "maturity_date",
-        "t": "time",
+        "t": "time-yyyymmdd",
         "r": null
     },
     {
