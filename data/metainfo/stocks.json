@@ -865,10 +865,6 @@
                 "name": "WIG-Energy"
             },
             {
-                "id": "GPW:WIG_ESG",
-                "name": "WIG-ESG"
-            },
-            {
                 "id": "GPW:WIG_GORNIC",
                 "name": "WIG-Mining"
             },
@@ -33345,7 +33341,6 @@
             "Faith Investor Services",
             "Federated Hermes",
             "Fidelity",
-            "FinEx ETF",
             "Finans Asset Management",
             "Fineco",
             "Firetraill",
@@ -34425,6 +34420,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -35733,7 +35729,6 @@
             "SYML:GPW;WIG_CEE",
             "SYML:GPW;WIG_CHEMIA",
             "SYML:GPW;WIG_ENERG",
-            "SYML:GPW;WIG_ESG",
             "SYML:GPW;WIG_GORNIC",
             "SYML:GPW;WIG_GRY",
             "SYML:GPW;WIG_INFO",
@@ -36491,7 +36486,6 @@
             "FMR LLC",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
-            "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
             "First Financial Holding Co., Ltd.",
