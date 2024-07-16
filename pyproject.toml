@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tradingview-screener"
-version = "2.5.0"
+version = "2.5.1"
 description = "A package for creating stock screeners with the TradingView API"
 authors = ["shner-elmo <770elmo@gmail.com>"]
 license = "MIT"
@@ -19,8 +19,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.13"
-pandas = "^2.1.2"
-requests = "^2.31.0"
+pandas = "2.*"
+requests = "2.*"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.16.1"
