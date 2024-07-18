@@ -17511,6 +17511,7 @@
             "Amp",
             "Aptos",
             "Arbitrum",
+            "Artificial Superintelligence Alliance",
             "Arweave",
             "Avalanche",
             "BNB",
@@ -17533,7 +17534,6 @@
             "Ethena",
             "Ethereum",
             "Ethereum Classic",
-            "Fetch.ai",
             "Filecoin",
             "First Digital USD",
             "Frax",
@@ -17797,7 +17797,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
