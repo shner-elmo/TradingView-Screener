@@ -3,12 +3,10 @@ name: Test
 on:
   pull_request:
     branches:
-      - master
-      - live
+      - "*"
   push:
-    branches:
-      - master
-      - live
+    branches-ignore:
+      - docs
 
 jobs:
   test:
