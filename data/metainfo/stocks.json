@@ -27087,6 +27087,7 @@
             "Ringerikskraft AS",
             "Ringkj\u00f8bing Landbobank A/S",
             "Rinker Materials Corp.",
+            "Rino Mastrotto Group SpA",
             "Rio Oil Finance Trust - (Series 2014-1)",
             "Rio Oil Finance Trust Series 2018-1",
             "Rio Tinto Finance (USA) Ltd.",
@@ -28106,8 +28107,8 @@
             "Tabreed Sukuk SPC Ltd.",
             "Tabula Rasa Healthcare, Inc.",
             "Tacora Resources, Inc.",
-            "Taizhou City Construction Investment Group Co. Ltd.",
             "Taizhou Urban Construction & Investment Development Gp Co. Ltd",
+            "Taizhou Urban Construction Investment Group Co., Ltd.",
             "Take-Two Interactive Software, Inc.",
             "Takeda Pharmaceutical Co., Ltd.",
             "Talanx AG",
@@ -29508,7 +29509,6 @@
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
             "BER:6FE",
-            "BER:A8U",
             "BER:VG1",
             "BET:MKBBANK",
             "BET:MOL",
@@ -29860,6 +29860,7 @@
             "GETTEX:2MD",
             "GETTEX:3AI",
             "GETTEX:8LV",
+            "GETTEX:A8U",
             "GETTEX:E1B1",
             "GETTEX:IJY",
             "GETTEX:MDH",
@@ -30022,6 +30023,7 @@
             "LSE:BLND",
             "LSE:BME",
             "LSE:BOXE",
+            "LSE:BPC1",
             "LSE:BRBY",
             "LSE:CBG",
             "LSE:CCL",
@@ -30081,7 +30083,6 @@
             "LSE:QLT",
             "LSE:RE.",
             "LSE:RGL",
-            "LSE:RSAB",
             "LSE:RTO",
             "LSE:RWI",
             "LSE:SAGA",
@@ -30122,7 +30123,6 @@
             "LUXSE:GB00BD3SR009",
             "LUXSE:GPINA",
             "LUXSE:LU0386500333",
-            "LUXSE:US06738C8284",
             "LUXSE:WBROM",
             "MIL:A2A",
             "MIL:ACE",
@@ -33522,9 +33522,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

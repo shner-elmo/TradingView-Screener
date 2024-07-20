@@ -17508,7 +17508,6 @@
             "Aave",
             "Aerodrome Finance",
             "Aevo",
-            "Amp",
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
@@ -17518,6 +17517,7 @@
             "Bitcoin",
             "Bitcoin Cash",
             "Bittensor",
+            "Bonk",
             "BounceBit",
             "Cardano",
             "Centrifuge",
@@ -17535,7 +17535,6 @@
             "Ethereum",
             "Ethereum Classic",
             "Filecoin",
-            "First Digital USD",
             "Frax",
             "Frax Share",
             "GMX",
@@ -17585,6 +17584,7 @@
             "Threshold",
             "Toncoin",
             "Tribe",
+            "UMA",
             "UNUS SED LEO",
             "USD Coin",
             "USDD",
@@ -17609,7 +17609,6 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
-            "XTVCAMP2",
             "XTVCAPTO",
             "XTVCAR",
             "XTVCARBI",
@@ -17618,6 +17617,7 @@
             "XTVCBBBOU",
             "XTVCBCH",
             "XTVCBNB",
+            "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
             "XTVCCFG",
@@ -17636,7 +17636,6 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFDUSD",
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
@@ -17684,6 +17683,7 @@
             "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
+            "XTVCUMA",
             "XTVCUNI",
             "XTVCUSDC",
             "XTVCUSDD",
@@ -17798,8 +17798,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
