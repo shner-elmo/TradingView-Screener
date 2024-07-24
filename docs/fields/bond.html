@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Option Fields</title>
+  <title>Bond Fields</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
 </head>
 <body>
@@ -58,7 +58,7 @@
     >Government Bonds
     </button>
     <button
-      class="secondary"
+      class="primary"
       data-placement="bottom"
       data-tooltip="set_markets('bond')"
       onclick="window.location.href = 'bond.html'"
@@ -72,7 +72,7 @@
     >Economy
     </button>
     <button
-      class="primary"
+      class="secondary"
       data-placement="bottom"
       data-tooltip="set_markets('options')"
       onclick="window.location.href = 'options.html'"
@@ -227,6 +227,31 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>Bond.Currency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>all_time_high</td>
+      <td></td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>all_time_high_day</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>all_time_low</td>
+      <td></td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>all_time_low_day</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
       <td>all_time_open</td>
       <td></td>
       <td>price</td>
@@ -252,7 +277,52 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>bond_deepest_history_symbol</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_stock_symbol</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bus_day_conv_method</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>call_option</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>close_net</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>close_pct</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>country_code</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>country_code_fund</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>country_fund</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -260,6 +330,21 @@
       <td>coupon</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>coupon_exdate_gap</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_frequency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_type_general</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>cryptoasset-info.description</td>
@@ -287,12 +372,32 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>current_coupon</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>current_session</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>days_to_maturity</td>
       <td></td>
       <td>number</td>
     </tr>
     <tr>
+      <td>denom_min</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
       <td>description</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>duration_type</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -302,7 +407,17 @@
       <td>time</td>
     </tr>
     <tr>
+      <td>forex_priority</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>fractional</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>fundamental_currency_code</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -327,6 +442,11 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>index_priority</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>indexes</td>
       <td></td>
       <td>interface</td>
@@ -345,6 +465,16 @@
       <td>is_shariah_compliant</td>
       <td></td>
       <td>bool</td>
+    </tr>
+    <tr>
+      <td>issue_amount</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>issue_date</td>
+      <td></td>
+      <td>time</td>
     </tr>
     <tr>
       <td>last_bar_update_time</td>
@@ -367,6 +497,11 @@
       <td>time-yyyymmdd</td>
     </tr>
     <tr>
+      <td>measure</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>minmov</td>
       <td></td>
       <td>number</td>
@@ -377,9 +512,19 @@
       <td>number</td>
     </tr>
     <tr>
-      <td>option-type</td>
+      <td>nominal_value</td>
       <td></td>
-      <td>text</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>outstanding_amount</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>popularity_rank</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>post_change</td>
@@ -400,6 +545,16 @@
       <td>pricescale</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>provider-id</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>put_option</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>rates_cf</td>
@@ -467,17 +622,27 @@
       <td>map</td>
     </tr>
     <tr>
+      <td>region</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>rtc</td>
+      <td></td>
+      <td>price</td>
+    </tr>
+    <tr>
       <td>source-logoid</td>
       <td></td>
       <td>text</td>
     </tr>
     <tr>
-      <td>strike</td>
+      <td>subtype</td>
       <td></td>
-      <td>price</td>
+      <td>text</td>
     </tr>
     <tr>
-      <td>subtype</td>
+      <td>term-to-maturity</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -521,15 +686,25 @@
       <td></td>
       <td>number</td>
     </tr>
+    <tr>
+      <td>years_to_maturity</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>yield_to_maturity</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
     </tbody>
     <tfoot>
     <tr>
       <th scope="row">Fields</th>
-      <td>85</td>
+      <td>120</td>
     </tr>
     <tr>
       <th scope="row">Deduplicated fields</th>
-      <td>85</td>
+      <td>120</td>
     </tr>
     </tfoot>
   </table>
