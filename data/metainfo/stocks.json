@@ -21135,7 +21135,6 @@
             "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -22734,6 +22733,7 @@
             "CoinDesk Indices, Inc.",
             "Columbia Management Investment Advisers LLC",
             "Comdaq Metals Ltd.",
+            "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
             "Credit Suisse Asset Management LLC",
             "Dalian Commodity Exchange",
@@ -23514,6 +23514,7 @@
             "VI Asset Management Co., Ltd.",
             "VNDirect Securities Corp.",
             "VTB Bank PJSC",
+            "Valour Digital Securities Ltd.",
             "Valour, Inc. (Switzerland)",
             "Value Partners Group Ltd.",
             "Van Eck Associates Corp.",
