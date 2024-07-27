@@ -17508,7 +17508,6 @@
             "Aave",
             "Aerodrome Finance",
             "Aevo",
-            "Amp",
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
@@ -17537,6 +17536,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -17609,7 +17609,6 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
-            "XTVCAMP2",
             "XTVCAPTO",
             "XTVCAR",
             "XTVCARBI",
@@ -17640,6 +17639,7 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
+            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -17798,8 +17798,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
