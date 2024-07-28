@@ -1833,7 +1833,6 @@
             "BlueHub Loan Fund, Inc.",
             "BlueLinx Holdings, Inc.",
             "BlueNord ASA",
-            "Bluestar Finance Holdings Ltd.",
             "Bluewater Holding BV",
             "BoCom Leasing Management Hong Kong Co. Ltd.",
             "Board of Trustees of the Leland Stanford Junior University",
@@ -3151,7 +3150,6 @@
             "Difosis SE",
             "Digi Romania SA",
             "Digicel Group Holdings Ltd.",
-            "Digicel Holdings (Bermuda) Ltd.",
             "Digicel International Finance Ltd.",
             "Digicel MidCo Ltd.",
             "Digital Constellation BV",
@@ -4121,7 +4119,6 @@
             "Global Switch Finance BV",
             "Global Switch Holdings Ltd.",
             "GlobalWafers GmbH",
-            "Globalworth Real Estate Investments Ltd.",
             "Globe Life, Inc.",
             "Globe Telecom, Inc.",
             "Globo Comunica\u00e7oes e Participa\u00e7\u00f5es SA",
@@ -4747,7 +4744,6 @@
             "IDB Trust Services Ltd.",
             "IDBI Bank Ltd.",
             "IDEX Corp.",
-            "IEA Energy Services LLC",
             "IFC Development (Corporate Treasury) Ltd.",
             "IFCI Ltd.",
             "IFCI Venture Capital Funds Ltd.",
@@ -5598,7 +5594,6 @@
             "Linden Bancshares, Inc.",
             "Lineage Financial Network, Inc.",
             "Lingang Oasis, Inc.",
-            "Lion/Polaris Lux 4 SA",
             "Lions Gate Capital Holdings LLC",
             "Liquid Telecommunications Financing Plc",
             "Listrindo Capital BV",
@@ -8974,7 +8969,6 @@
             "Trivium Packaging Finance BV",
             "Trondelag Sparebank",
             "Tronox, Inc.",
-            "Trousdale Issuer LLC",
             "TruCap Finance Ltd.",
             "TruStage Financial Group, Inc.",
             "True Potential LLP",
@@ -9166,7 +9160,6 @@
             "University College London",
             "University of Cambridge",
             "University of Cardiff",
-            "University of Greenwich",
             "University of Leeds",
             "University of Louisville Foundation, Inc.",
             "University of Miami",
@@ -12456,7 +12449,6 @@
             "TURQUOISE:A5GI",
             "TURQUOISE:BIRGI",
             "TURQUOISE:BURL",
-            "TURQUOISE:GWIL",
             "TURQUOISE:JET2L",
             "TURQUOISE:PTSBI",
             "TURQUOISE:VCPL",
@@ -12948,7 +12940,6 @@
             "AUD",
             "CNY",
             "EUR",
-            "GBP",
             "INR",
             "USD"
         ]
@@ -12961,7 +12952,6 @@
             "AUD",
             "CNY",
             "EUR",
-            "GBP",
             "INR",
             "USD"
         ]
@@ -12982,6 +12972,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
