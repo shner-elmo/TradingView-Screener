@@ -97,13 +97,8 @@
     </thead>
     <tbody>
     <tr>
-      <td>name</td>
+      <td>type</td>
       <td>Symbol Type</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>exchange</td>
-      <td>Exchange</td>
       <td>text</td>
     </tr>
     <tr>
@@ -115,29 +110,6 @@
       <td>active_symbol</td>
       <td>Current trading day</td>
       <td>bool</td>
-    </tr>
-    <tr>
-      <td>submarket</td>
-      <td>Submarket</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>sector</td>
-      <td>Sector</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>volume</summary>
-          <ul>
-            <li>volume</li>
-            <li>volume|1</li>
-          </ul>
-        </details>
-      </td>
-      <td>Volume</td>
-      <td>number</td>
     </tr>
     <tr>
       <td>
@@ -168,19 +140,6 @@
     <tr>
       <td>
         <details>
-          <summary>open</summary>
-          <ul>
-            <li>open</li>
-            <li>open|1</li>
-          </ul>
-        </details>
-      </td>
-      <td>Open</td>
-      <td>price</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
           <summary>close</summary>
           <ul>
             <li>close</li>
@@ -192,43 +151,92 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>high</summary>
-          <ul>
-            <li>high</li>
-            <li>high|1</li>
-          </ul>
-        </details>
-      </td>
-      <td>High</td>
-      <td>price</td>
+      <td>sector</td>
+      <td>Group</td>
+      <td>text</td>
     </tr>
     <tr>
       <td>
         <details>
-          <summary>low</summary>
+          <summary>volume</summary>
           <ul>
-            <li>low</li>
-            <li>low|1</li>
+            <li>volume</li>
+            <li>volume|1</li>
           </ul>
         </details>
       </td>
-      <td>Low</td>
-      <td>price</td>
+      <td>Volume</td>
+      <td>number</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>gap</summary>
-          <ul>
-            <li>gap</li>
-            <li>gap|1</li>
-          </ul>
-        </details>
-      </td>
-      <td>Gap %</td>
-      <td>percent</td>
+      <td>High.1M</td>
+      <td>1-Month High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.1M</td>
+      <td>1-Month Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>High.3M</td>
+      <td>3-Month High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.3M</td>
+      <td>3-Month Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.3M</td>
+      <td>3-Month Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.5Y</td>
+      <td>5Y Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>High.6M</td>
+      <td>6-Month High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.6M</td>
+      <td>6-Month Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.6M</td>
+      <td>6-Month Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_52_week_high</td>
+      <td>52 Week High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_52_week_low</td>
+      <td>52 Week Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>High.All</td>
+      <td>All Time High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.All</td>
+      <td>All Time Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.All</td>
+      <td>All Time Performance</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
@@ -257,9 +265,48 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>Perf.W</td>
-      <td>Weekly Performance</td>
-      <td>number</td>
+      <td>exchange</td>
+      <td>Exchange</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>gap</summary>
+          <ul>
+            <li>gap</li>
+            <li>gap|1</li>
+          </ul>
+        </details>
+      </td>
+      <td>Gap %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>high</summary>
+          <ul>
+            <li>high</li>
+            <li>high|1</li>
+          </ul>
+        </details>
+      </td>
+      <td>High</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>low</summary>
+          <ul>
+            <li>low</li>
+            <li>low|1</li>
+          </ul>
+        </details>
+      </td>
+      <td>Low</td>
+      <td>price</td>
     </tr>
     <tr>
       <td>Perf.1M</td>
@@ -267,99 +314,27 @@
       <td>number</td>
     </tr>
     <tr>
-      <td>Perf.3M</td>
-      <td>3-Month Performance</td>
-      <td>number</td>
+      <td>
+        <details>
+          <summary>open</summary>
+          <ul>
+            <li>open</li>
+            <li>open|1</li>
+          </ul>
+        </details>
+      </td>
+      <td>Open</td>
+      <td>price</td>
     </tr>
     <tr>
-      <td>Perf.6M</td>
-      <td>6-Month Performance</td>
-      <td>number</td>
+      <td>postmarket_change</td>
+      <td>Post-market Change %</td>
+      <td>percent</td>
     </tr>
     <tr>
-      <td>Perf.Y</td>
-      <td>Yearly Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.YTD</td>
-      <td>YTD Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.5Y</td>
-      <td>5Y Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.All</td>
-      <td>All Time Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Volatility.W</td>
-      <td>Volatility Week</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Volatility.M</td>
-      <td>Volatility Month</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Volatility.D</td>
-      <td>Volatility</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.All</td>
-      <td>New All Time High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.All</td>
-      <td>New All Time Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>price_52_week_high</td>
-      <td>New 52 Week High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>price_52_week_low</td>
-      <td>New 52 Week Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.6M</td>
-      <td>New 6-Month High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.6M</td>
-      <td>New 6-Month Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.3M</td>
-      <td>New 3-Month High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.3M</td>
-      <td>New 3-Month Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.1M</td>
-      <td>New 1-Month High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.1M</td>
-      <td>New 1-Month Low</td>
-      <td>number</td>
+      <td>postmarket_change_abs</td>
+      <td>Post-market Change</td>
+      <td>price</td>
     </tr>
     <tr>
       <td>premarket_change</td>
@@ -387,13 +362,53 @@
       <td>percent</td>
     </tr>
     <tr>
-      <td>postmarket_change</td>
-      <td>Post-market Change %</td>
-      <td>percent</td>
+      <td>submarket</td>
+      <td>Submarket</td>
+      <td>text</td>
     </tr>
     <tr>
-      <td>postmarket_change_abs</td>
-      <td>Post-market Change</td>
+      <td>Volatility.D</td>
+      <td>Volatility</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Volatility.M</td>
+      <td>Volatility Month</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Volatility.W</td>
+      <td>Volatility Week</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.W</td>
+      <td>Weekly Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.Y</td>
+      <td>Yearly Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.YTD</td>
+      <td>YTD Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>currency</td>
+      <td>Quote currency</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>ask</td>
+      <td>Ask</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>bid</td>
+      <td>Bid</td>
       <td>price</td>
     </tr>
     <tr>
@@ -561,11 +576,6 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>ask</td>
-      <td></td>
-      <td>price</td>
-    </tr>
-    <tr>
       <td>
         <details>
           <summary>bars_count</summary>
@@ -582,11 +592,6 @@
       <td>base_currency_kind</td>
       <td></td>
       <td>text</td>
-    </tr>
-    <tr>
-      <td>bid</td>
-      <td></td>
-      <td>price</td>
     </tr>
     <tr>
       <td>close_1_days_back</td>
@@ -620,11 +625,6 @@
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
-      <td></td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>currency</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -807,6 +807,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>name</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>popularity_rank</td>
       <td></td>
       <td>number</td>
@@ -979,11 +984,6 @@
       <td>number</td>
     </tr>
     <tr>
-      <td>type</td>
-      <td></td>
-      <td>text</td>
-    </tr>
-    <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
@@ -1050,7 +1050,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2024-07-31 21:35:01</mark>
+    <mark>Last updated: 2024-07-31 21:51:37</mark>
   </div>
 </main>
 <script>

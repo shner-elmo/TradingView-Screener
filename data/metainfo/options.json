@@ -1,8 +1,77 @@
 [
     {
-        "n": "name",
+        "n": "type",
         "t": "text",
+        "r": [
+            "option"
+        ]
+    },
+    {
+        "n": "is_primary",
+        "t": "bool",
         "r": null
+    },
+    {
+        "n": "active_symbol",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "sector",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "volume",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "country",
+        "t": "text",
+        "r": []
     },
     {
         "n": "exchange",
@@ -20,26 +89,18 @@
         ]
     },
     {
-        "n": "is_primary",
-        "t": "bool",
-        "r": null
+        "n": "gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
-        "n": "active_symbol",
-        "t": "bool",
-        "r": null
-    },
-    {
-        "n": "submarket",
-        "t": "text",
-        "r": [
-            ""
-        ]
-    },
-    {
-        "n": "sector",
-        "t": "text",
-        "r": []
+        "n": "high",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "industry",
@@ -47,26 +108,7 @@
         "r": []
     },
     {
-        "n": "country",
-        "t": "text",
-        "r": []
-    },
-    {
-        "n": "volume",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_abs",
+        "n": "low",
         "t": "price",
         "r": null,
         "hh": true,
@@ -80,51 +122,18 @@
         "rd": true
     },
     {
-        "n": "close",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "high",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "low",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "gap",
+        "n": "postmarket_change",
         "t": "percent",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "change_from_open",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_from_open_abs",
+        "n": "postmarket_change_abs",
         "t": "price",
         "r": null,
         "hh": true,
         "rd": true
-    },
-    {
-        "n": "Perf.All",
-        "t": "number",
-        "r": null
     },
     {
         "n": "premarket_change",
@@ -162,26 +171,38 @@
         "rd": true
     },
     {
-        "n": "postmarket_change",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "n": "submarket",
+        "t": "text",
+        "r": [
+            ""
+        ]
     },
     {
-        "n": "postmarket_change_abs",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "n": "currency",
+        "t": "text",
+        "r": [
+            "CHF",
+            "CNH",
+            "EUR",
+            "GBP",
+            "INR",
+            "JPY",
+            "USD",
+            "USX"
+        ]
     },
     {
-        "n": "all_time_open",
+        "n": "ask",
         "t": "price",
         "r": null
     },
     {
-        "n": "ask",
+        "n": "bid",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "all_time_open",
         "t": "price",
         "r": null
     },
@@ -196,11 +217,6 @@
         "n": "base_currency_kind",
         "t": "text",
         "r": []
-    },
-    {
-        "n": "bid",
-        "t": "price",
-        "r": null
     },
     {
         "n": "country_code_fund",
@@ -221,20 +237,6 @@
         "n": "cryptoasset-info.id",
         "t": "text",
         "r": []
-    },
-    {
-        "n": "currency",
-        "t": "text",
-        "r": [
-            "CHF",
-            "CNH",
-            "EUR",
-            "GBP",
-            "INR",
-            "JPY",
-            "USD",
-            "USX"
-        ]
     },
     {
         "n": "currency_id",
@@ -365,6 +367,11 @@
         "r": null
     },
     {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "option-type",
         "t": "text",
         "r": [
@@ -491,13 +498,6 @@
         "r": null,
         "hh": true,
         "rd": true
-    },
-    {
-        "n": "type",
-        "t": "text",
-        "r": [
-            "option"
-        ]
     },
     {
         "n": "typespecs",

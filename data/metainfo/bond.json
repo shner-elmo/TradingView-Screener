@@ -1,8 +1,226 @@
 [
     {
-        "n": "name",
+        "n": "type",
         "t": "text",
+        "r": [
+            "bond"
+        ]
+    },
+    {
+        "n": "is_primary",
+        "t": "bool",
         "r": null
+    },
+    {
+        "n": "active_symbol",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "sector",
+        "t": "text",
+        "r": [
+            "Commercial Services",
+            "Communications",
+            "Consumer Durables",
+            "Consumer Non-Durables",
+            "Consumer Services",
+            "Distribution Services",
+            "Electronic Technology",
+            "Energy Minerals",
+            "Finance",
+            "Government",
+            "Health Services",
+            "Health Technology",
+            "Industrial Services",
+            "Miscellaneous",
+            "Non-Energy Minerals",
+            "Process Industries",
+            "Producer Manufacturing",
+            "Retail Trade",
+            "Technology Services",
+            "Transportation",
+            "Utilities"
+        ]
+    },
+    {
+        "n": "volume",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "country",
+        "t": "text",
+        "r": [
+            "Albania",
+            "Andorra",
+            "Angola",
+            "Argentina",
+            "Armenia",
+            "Australia",
+            "Austria",
+            "Azerbaijan",
+            "Bahamas",
+            "Bahrain",
+            "Bangladesh",
+            "Barbados",
+            "Belarus",
+            "Belgium",
+            "Bermuda",
+            "Bolivia",
+            "Bosnia and Herzegovina",
+            "Brazil",
+            "British Virgin Islands",
+            "Bulgaria",
+            "Cameroon",
+            "Canada",
+            "Cape Verde",
+            "Cayman Islands",
+            "Chile",
+            "China",
+            "Colombia",
+            "Costa Rica",
+            "Croatia",
+            "Cyprus",
+            "Czech Republic",
+            "Denmark",
+            "Dominican Republic",
+            "Ecuador",
+            "Egypt",
+            "El Salvador",
+            "Estonia",
+            "Fiji",
+            "Finland",
+            "France",
+            "Georgia",
+            "Germany",
+            "Ghana",
+            "Gibraltar",
+            "Greece",
+            "Guatemala",
+            "Honduras",
+            "Hong Kong",
+            "Hungary",
+            "Iceland",
+            "India",
+            "Indonesia",
+            "Iraq",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Ivory Coast",
+            "Jamaica",
+            "Japan",
+            "Jordan",
+            "Kazakhstan",
+            "Kenya",
+            "Kuwait",
+            "Latvia",
+            "Lebanon",
+            "Liechtenstein",
+            "Lithuania",
+            "Luxembourg",
+            "Macau",
+            "Macedonia",
+            "Malaysia",
+            "Malta",
+            "Mauritius",
+            "Mexico",
+            "Moldova",
+            "Mongolia",
+            "Montenegro",
+            "Morocco",
+            "Namibia",
+            "Netherlands",
+            "New Zealand",
+            "Nigeria",
+            "Norway",
+            "Oman",
+            "Pakistan",
+            "Panama",
+            "Papua New Guinea",
+            "Paraguay",
+            "Peru",
+            "Philippines",
+            "Poland",
+            "Portugal",
+            "Puerto Rico",
+            "Qatar",
+            "Romania",
+            "Russian Federation",
+            "Rwanda",
+            "Saudi Arabia",
+            "Serbia",
+            "Seychelles",
+            "Singapore",
+            "Slovakia",
+            "Slovenia",
+            "South Africa",
+            "South Korea",
+            "Spain",
+            "Sri Lanka",
+            "St. Lucia",
+            "Sweden",
+            "Switzerland",
+            "Taiwan",
+            "Tajikistan",
+            "Tanzania",
+            "Thailand",
+            "Trinidad and Tobago",
+            "Tunisia",
+            "Turkey",
+            "Ukraine",
+            "United Arab Emirates",
+            "United Kingdom",
+            "United States",
+            "Uruguay",
+            "Uzbekistan",
+            "Venezuela",
+            "Vietnam",
+            "Zambia"
+        ]
     },
     {
         "n": "exchange",
@@ -37,48 +255,18 @@
         ]
     },
     {
-        "n": "is_primary",
-        "t": "bool",
-        "r": null
+        "n": "gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
-        "n": "active_symbol",
-        "t": "bool",
-        "r": null
-    },
-    {
-        "n": "submarket",
-        "t": "text",
-        "r": [
-            ""
-        ]
-    },
-    {
-        "n": "sector",
-        "t": "text",
-        "r": [
-            "Commercial Services",
-            "Communications",
-            "Consumer Durables",
-            "Consumer Non-Durables",
-            "Consumer Services",
-            "Distribution Services",
-            "Electronic Technology",
-            "Energy Minerals",
-            "Finance",
-            "Government",
-            "Health Services",
-            "Health Technology",
-            "Industrial Services",
-            "Miscellaneous",
-            "Non-Energy Minerals",
-            "Process Industries",
-            "Producer Manufacturing",
-            "Retail Trade",
-            "Technology Services",
-            "Transportation",
-            "Utilities"
-        ]
+        "n": "high",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "industry",
@@ -224,153 +412,7 @@
         ]
     },
     {
-        "n": "country",
-        "t": "text",
-        "r": [
-            "Albania",
-            "Andorra",
-            "Angola",
-            "Argentina",
-            "Armenia",
-            "Australia",
-            "Austria",
-            "Azerbaijan",
-            "Bahamas",
-            "Bahrain",
-            "Bangladesh",
-            "Barbados",
-            "Belarus",
-            "Belgium",
-            "Bermuda",
-            "Bolivia",
-            "Bosnia and Herzegovina",
-            "Brazil",
-            "British Virgin Islands",
-            "Bulgaria",
-            "Cameroon",
-            "Canada",
-            "Cape Verde",
-            "Cayman Islands",
-            "Chile",
-            "China",
-            "Colombia",
-            "Costa Rica",
-            "Croatia",
-            "Cyprus",
-            "Czech Republic",
-            "Denmark",
-            "Dominican Republic",
-            "Ecuador",
-            "Egypt",
-            "El Salvador",
-            "Estonia",
-            "Fiji",
-            "Finland",
-            "France",
-            "Georgia",
-            "Germany",
-            "Ghana",
-            "Gibraltar",
-            "Greece",
-            "Guatemala",
-            "Honduras",
-            "Hong Kong",
-            "Hungary",
-            "Iceland",
-            "India",
-            "Indonesia",
-            "Iraq",
-            "Ireland",
-            "Israel",
-            "Italy",
-            "Ivory Coast",
-            "Jamaica",
-            "Japan",
-            "Jordan",
-            "Kazakhstan",
-            "Kenya",
-            "Kuwait",
-            "Latvia",
-            "Lebanon",
-            "Liechtenstein",
-            "Lithuania",
-            "Luxembourg",
-            "Macau",
-            "Macedonia",
-            "Malaysia",
-            "Malta",
-            "Mauritius",
-            "Mexico",
-            "Moldova",
-            "Mongolia",
-            "Montenegro",
-            "Morocco",
-            "Namibia",
-            "Netherlands",
-            "New Zealand",
-            "Nigeria",
-            "Norway",
-            "Oman",
-            "Pakistan",
-            "Panama",
-            "Papua New Guinea",
-            "Paraguay",
-            "Peru",
-            "Philippines",
-            "Poland",
-            "Portugal",
-            "Puerto Rico",
-            "Qatar",
-            "Romania",
-            "Russian Federation",
-            "Rwanda",
-            "Saudi Arabia",
-            "Serbia",
-            "Seychelles",
-            "Singapore",
-            "Slovakia",
-            "Slovenia",
-            "South Africa",
-            "South Korea",
-            "Spain",
-            "Sri Lanka",
-            "St. Lucia",
-            "Sweden",
-            "Switzerland",
-            "Taiwan",
-            "Tajikistan",
-            "Tanzania",
-            "Thailand",
-            "Trinidad and Tobago",
-            "Tunisia",
-            "Turkey",
-            "Ukraine",
-            "United Arab Emirates",
-            "United Kingdom",
-            "United States",
-            "Uruguay",
-            "Uzbekistan",
-            "Venezuela",
-            "Vietnam",
-            "Zambia"
-        ]
-    },
-    {
-        "n": "volume",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_abs",
+        "n": "low",
         "t": "price",
         "r": null,
         "hh": true,
@@ -384,51 +426,18 @@
         "rd": true
     },
     {
-        "n": "close",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "high",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "low",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "gap",
+        "n": "postmarket_change",
         "t": "percent",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "change_from_open",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_from_open_abs",
+        "n": "postmarket_change_abs",
         "t": "price",
         "r": null,
         "hh": true,
         "rd": true
-    },
-    {
-        "n": "Perf.All",
-        "t": "number",
-        "r": null
     },
     {
         "n": "premarket_change",
@@ -466,18 +475,33 @@
         "rd": true
     },
     {
-        "n": "postmarket_change",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "n": "submarket",
+        "t": "text",
+        "r": [
+            ""
+        ]
     },
     {
-        "n": "postmarket_change_abs",
+        "n": "currency",
+        "t": "text",
+        "r": [
+            "AUD",
+            "EUR",
+            "INR",
+            "SEK",
+            "USD",
+            "ZAR"
+        ]
+    },
+    {
+        "n": "ask",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "bid",
+        "t": "price",
+        "r": null
     },
     {
         "n": "Bond.Currency",
@@ -510,11 +534,6 @@
         "r": null
     },
     {
-        "n": "ask",
-        "t": "price",
-        "r": null
-    },
-    {
         "n": "bars_count",
         "t": "number",
         "r": null,
@@ -525,11 +544,6 @@
         "n": "base_currency_kind",
         "t": "text",
         "r": []
-    },
-    {
-        "n": "bid",
-        "t": "price",
-        "r": null
     },
     {
         "n": "bond_issuer",
@@ -12906,18 +12920,6 @@
         "r": []
     },
     {
-        "n": "currency",
-        "t": "text",
-        "r": [
-            "AUD",
-            "EUR",
-            "INR",
-            "SEK",
-            "USD",
-            "ZAR"
-        ]
-    },
-    {
         "n": "currency_id",
         "t": "text",
         "r": [
@@ -13168,6 +13170,11 @@
         "r": null
     },
     {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
         "n": "nominal_value",
         "t": "fundamental_price",
         "r": null
@@ -13345,13 +13352,6 @@
         "r": null,
         "hh": true,
         "rd": true
-    },
-    {
-        "n": "type",
-        "t": "text",
-        "r": [
-            "bond"
-        ]
     },
     {
         "n": "typespecs",

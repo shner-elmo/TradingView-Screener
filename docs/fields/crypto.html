@@ -97,13 +97,8 @@
     </thead>
     <tbody>
     <tr>
-      <td>name</td>
+      <td>type</td>
       <td>Symbol Type</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>exchange</td>
-      <td>Exchange</td>
       <td>text</td>
     </tr>
     <tr>
@@ -117,19 +112,93 @@
       <td>bool</td>
     </tr>
     <tr>
-      <td>submarket</td>
-      <td>Submarket</td>
-      <td>text</td>
+      <td>
+        <details>
+          <summary>change</summary>
+          <ul>
+            <li>change</li>
+            <li>change|1</li>
+            <li>change|5</li>
+            <li>change|15</li>
+            <li>change|30</li>
+            <li>change|60</li>
+            <li>change|120</li>
+            <li>change|240</li>
+            <li>change|1W</li>
+            <li>change|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Change %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>change_abs</summary>
+          <ul>
+            <li>change_abs</li>
+            <li>change_abs|1</li>
+            <li>change_abs|5</li>
+            <li>change_abs|15</li>
+            <li>change_abs|30</li>
+            <li>change_abs|60</li>
+            <li>change_abs|120</li>
+            <li>change_abs|240</li>
+            <li>change_abs|1W</li>
+            <li>change_abs|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Change</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>close</summary>
+          <ul>
+            <li>close</li>
+            <li>close|1</li>
+            <li>close|5</li>
+            <li>close|15</li>
+            <li>close|30</li>
+            <li>close|60</li>
+            <li>close|120</li>
+            <li>close|240</li>
+            <li>close|1W</li>
+            <li>close|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Price</td>
+      <td>price</td>
     </tr>
     <tr>
       <td>sector</td>
-      <td>Sector</td>
+      <td>Group</td>
       <td>text</td>
     </tr>
     <tr>
-      <td>country</td>
-      <td>Country</td>
-      <td>text</td>
+      <td>
+        <details>
+          <summary>Recommend.All</summary>
+          <ul>
+            <li>Recommend.All</li>
+            <li>Recommend.All|1</li>
+            <li>Recommend.All|5</li>
+            <li>Recommend.All|15</li>
+            <li>Recommend.All|30</li>
+            <li>Recommend.All|60</li>
+            <li>Recommend.All|120</li>
+            <li>Recommend.All|240</li>
+            <li>Recommend.All|1W</li>
+            <li>Recommend.All|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Technical Rating</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
@@ -150,6 +219,202 @@
         </details>
       </td>
       <td>Volume</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Value.Traded</summary>
+          <ul>
+            <li>Value.Traded</li>
+            <li>Value.Traded|1</li>
+            <li>Value.Traded|5</li>
+            <li>Value.Traded|15</li>
+            <li>Value.Traded|30</li>
+            <li>Value.Traded|60</li>
+            <li>Value.Traded|120</li>
+            <li>Value.Traded|240</li>
+            <li>Value.Traded|1W</li>
+            <li>Value.Traded|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Volume*Price</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>High.1M</td>
+      <td>1-Month High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.1M</td>
+      <td>1-Month Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>High.3M</td>
+      <td>3-Month High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.3M</td>
+      <td>3-Month Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.3M</td>
+      <td>3-Month Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.5Y</td>
+      <td>5Y Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>High.6M</td>
+      <td>6-Month High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.6M</td>
+      <td>6-Month Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.6M</td>
+      <td>6-Month Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_52_week_high</td>
+      <td>52 Week High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_52_week_low</td>
+      <td>52 Week Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>High.All</td>
+      <td>All Time High</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Low.All</td>
+      <td>All Time Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.All</td>
+      <td>All Time Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Aroon.Down</summary>
+          <ul>
+            <li>Aroon.Down</li>
+            <li>Aroon.Down|1</li>
+            <li>Aroon.Down|5</li>
+            <li>Aroon.Down|15</li>
+            <li>Aroon.Down|30</li>
+            <li>Aroon.Down|60</li>
+            <li>Aroon.Down|120</li>
+            <li>Aroon.Down|240</li>
+            <li>Aroon.Down|1W</li>
+            <li>Aroon.Down|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Aroon Down (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Aroon.Up</summary>
+          <ul>
+            <li>Aroon.Up</li>
+            <li>Aroon.Up|1</li>
+            <li>Aroon.Up|5</li>
+            <li>Aroon.Up|15</li>
+            <li>Aroon.Up|30</li>
+            <li>Aroon.Up|60</li>
+            <li>Aroon.Up|120</li>
+            <li>Aroon.Up|240</li>
+            <li>Aroon.Up|1W</li>
+            <li>Aroon.Up|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Aroon Up (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>ADR</summary>
+          <ul>
+            <li>ADR</li>
+            <li>ADR|1</li>
+            <li>ADR|5</li>
+            <li>ADR|15</li>
+            <li>ADR|30</li>
+            <li>ADR|60</li>
+            <li>ADR|120</li>
+            <li>ADR|240</li>
+            <li>ADR|1W</li>
+            <li>ADR|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Average Day Range (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>ADX</summary>
+          <ul>
+            <li>ADX</li>
+            <li>ADX|1</li>
+            <li>ADX|5</li>
+            <li>ADX|15</li>
+            <li>ADX|30</li>
+            <li>ADX|60</li>
+            <li>ADX|120</li>
+            <li>ADX|240</li>
+            <li>ADX|1W</li>
+            <li>ADX|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Average Directional Index (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>ATR</summary>
+          <ul>
+            <li>ATR</li>
+            <li>ATR|1</li>
+            <li>ATR|5</li>
+            <li>ATR|15</li>
+            <li>ATR|30</li>
+            <li>ATR|60</li>
+            <li>ATR|120</li>
+            <li>ATR|240</li>
+            <li>ATR|1W</li>
+            <li>ATR|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Average True Range (14)</td>
       <td>number</td>
     </tr>
     <tr>
@@ -239,170 +504,107 @@
     <tr>
       <td>
         <details>
-          <summary>relative_volume_10d_calc</summary>
+          <summary>AO</summary>
           <ul>
-            <li>relative_volume_10d_calc</li>
-            <li>relative_volume_10d_calc|1</li>
-            <li>relative_volume_10d_calc|5</li>
-            <li>relative_volume_10d_calc|15</li>
-            <li>relative_volume_10d_calc|30</li>
-            <li>relative_volume_10d_calc|60</li>
-            <li>relative_volume_10d_calc|120</li>
-            <li>relative_volume_10d_calc|240</li>
-            <li>relative_volume_10d_calc|1W</li>
-            <li>relative_volume_10d_calc|1M</li>
+            <li>AO</li>
+            <li>AO|1</li>
+            <li>AO|5</li>
+            <li>AO|15</li>
+            <li>AO|30</li>
+            <li>AO|60</li>
+            <li>AO|120</li>
+            <li>AO|240</li>
+            <li>AO|1W</li>
+            <li>AO|1M</li>
           </ul>
         </details>
       </td>
-      <td>Relative Volume</td>
+      <td>Awesome Oscillator</td>
       <td>number</td>
     </tr>
     <tr>
       <td>
         <details>
-          <summary>change</summary>
+          <summary>BB.lower</summary>
           <ul>
-            <li>change</li>
-            <li>change|1</li>
-            <li>change|5</li>
-            <li>change|15</li>
-            <li>change|30</li>
-            <li>change|60</li>
-            <li>change|120</li>
-            <li>change|240</li>
-            <li>change|1W</li>
-            <li>change|1M</li>
+            <li>BB.lower</li>
+            <li>BB.lower|1</li>
+            <li>BB.lower|5</li>
+            <li>BB.lower|15</li>
+            <li>BB.lower|30</li>
+            <li>BB.lower|60</li>
+            <li>BB.lower|120</li>
+            <li>BB.lower|240</li>
+            <li>BB.lower|1W</li>
+            <li>BB.lower|1M</li>
           </ul>
         </details>
       </td>
-      <td>Change %</td>
-      <td>percent</td>
+      <td>Bollinger Lower Band (20)</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
         <details>
-          <summary>change_abs</summary>
+          <summary>BB.upper</summary>
           <ul>
-            <li>change_abs</li>
-            <li>change_abs|1</li>
-            <li>change_abs|5</li>
-            <li>change_abs|15</li>
-            <li>change_abs|30</li>
-            <li>change_abs|60</li>
-            <li>change_abs|120</li>
-            <li>change_abs|240</li>
-            <li>change_abs|1W</li>
-            <li>change_abs|1M</li>
+            <li>BB.upper</li>
+            <li>BB.upper|1</li>
+            <li>BB.upper|5</li>
+            <li>BB.upper|15</li>
+            <li>BB.upper|30</li>
+            <li>BB.upper|60</li>
+            <li>BB.upper|120</li>
+            <li>BB.upper|240</li>
+            <li>BB.upper|1W</li>
+            <li>BB.upper|1M</li>
           </ul>
         </details>
       </td>
-      <td>Change</td>
-      <td>price</td>
+      <td>Bollinger Upper Band (20)</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
         <details>
-          <summary>open</summary>
+          <summary>BBPower</summary>
           <ul>
-            <li>open</li>
-            <li>open|1</li>
-            <li>open|5</li>
-            <li>open|15</li>
-            <li>open|30</li>
-            <li>open|60</li>
-            <li>open|120</li>
-            <li>open|240</li>
-            <li>open|1W</li>
-            <li>open|1M</li>
+            <li>BBPower</li>
+            <li>BBPower|1</li>
+            <li>BBPower|5</li>
+            <li>BBPower|15</li>
+            <li>BBPower|30</li>
+            <li>BBPower|60</li>
+            <li>BBPower|120</li>
+            <li>BBPower|240</li>
+            <li>BBPower|1W</li>
+            <li>BBPower|1M</li>
           </ul>
         </details>
       </td>
-      <td>Open</td>
-      <td>price</td>
+      <td>Bull Bear Power</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
         <details>
-          <summary>close</summary>
+          <summary>ChaikinMoneyFlow</summary>
           <ul>
-            <li>close</li>
-            <li>close|1</li>
-            <li>close|5</li>
-            <li>close|15</li>
-            <li>close|30</li>
-            <li>close|60</li>
-            <li>close|120</li>
-            <li>close|240</li>
-            <li>close|1W</li>
-            <li>close|1M</li>
+            <li>ChaikinMoneyFlow</li>
+            <li>ChaikinMoneyFlow|1</li>
+            <li>ChaikinMoneyFlow|5</li>
+            <li>ChaikinMoneyFlow|15</li>
+            <li>ChaikinMoneyFlow|30</li>
+            <li>ChaikinMoneyFlow|60</li>
+            <li>ChaikinMoneyFlow|120</li>
+            <li>ChaikinMoneyFlow|240</li>
+            <li>ChaikinMoneyFlow|1W</li>
+            <li>ChaikinMoneyFlow|1M</li>
           </ul>
         </details>
       </td>
-      <td>Price</td>
-      <td>price</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>high</summary>
-          <ul>
-            <li>high</li>
-            <li>high|1</li>
-            <li>high|5</li>
-            <li>high|15</li>
-            <li>high|30</li>
-            <li>high|60</li>
-            <li>high|120</li>
-            <li>high|240</li>
-            <li>high|1W</li>
-            <li>high|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>High</td>
-      <td>price</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>low</summary>
-          <ul>
-            <li>low</li>
-            <li>low|1</li>
-            <li>low|5</li>
-            <li>low|15</li>
-            <li>low|30</li>
-            <li>low|60</li>
-            <li>low|120</li>
-            <li>low|240</li>
-            <li>low|1W</li>
-            <li>low|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Low</td>
-      <td>price</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>gap</summary>
-          <ul>
-            <li>gap</li>
-            <li>gap|1</li>
-            <li>gap|5</li>
-            <li>gap|15</li>
-            <li>gap|30</li>
-            <li>gap|60</li>
-            <li>gap|120</li>
-            <li>gap|240</li>
-            <li>gap|1W</li>
-            <li>gap|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Gap %</td>
-      <td>percent</td>
+      <td>Chaikin Money Flow (20)</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
@@ -447,256 +649,77 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>Perf.W</td>
-      <td>Weekly Performance</td>
+      <td>
+        <details>
+          <summary>CCI20</summary>
+          <ul>
+            <li>CCI20</li>
+            <li>CCI20|1</li>
+            <li>CCI20|5</li>
+            <li>CCI20|15</li>
+            <li>CCI20|30</li>
+            <li>CCI20|60</li>
+            <li>CCI20|120</li>
+            <li>CCI20|240</li>
+            <li>CCI20|1W</li>
+            <li>CCI20|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Commodity Channel Index (20)</td>
       <td>number</td>
     </tr>
     <tr>
-      <td>Perf.1M</td>
-      <td>Monthly Performance</td>
-      <td>number</td>
+      <td>country</td>
+      <td>Region</td>
+      <td>text</td>
     </tr>
     <tr>
-      <td>Perf.3M</td>
-      <td>3-Month Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.6M</td>
-      <td>6-Month Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.Y</td>
-      <td>Yearly Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.YTD</td>
-      <td>YTD Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.5Y</td>
-      <td>5Y Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Perf.All</td>
-      <td>All Time Performance</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Volatility.W</td>
-      <td>Volatility Week</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Volatility.M</td>
-      <td>Volatility Month</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Volatility.D</td>
-      <td>Volatility</td>
+      <td>
+        <details>
+          <summary>DonchCh20.Lower</summary>
+          <ul>
+            <li>DonchCh20.Lower</li>
+            <li>DonchCh20.Lower|1</li>
+            <li>DonchCh20.Lower|5</li>
+            <li>DonchCh20.Lower|15</li>
+            <li>DonchCh20.Lower|30</li>
+            <li>DonchCh20.Lower|60</li>
+            <li>DonchCh20.Lower|120</li>
+            <li>DonchCh20.Lower|240</li>
+            <li>DonchCh20.Lower|1W</li>
+            <li>DonchCh20.Lower|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Donchian Channels Lower Band (20)</td>
       <td>number</td>
     </tr>
     <tr>
       <td>
         <details>
-          <summary>RSI</summary>
+          <summary>DonchCh20.Upper</summary>
           <ul>
-            <li>RSI</li>
-            <li>RSI|1</li>
-            <li>RSI|5</li>
-            <li>RSI|15</li>
-            <li>RSI|30</li>
-            <li>RSI|60</li>
-            <li>RSI|120</li>
-            <li>RSI|240</li>
-            <li>RSI|1W</li>
-            <li>RSI|1M</li>
+            <li>DonchCh20.Upper</li>
+            <li>DonchCh20.Upper|1</li>
+            <li>DonchCh20.Upper|5</li>
+            <li>DonchCh20.Upper|15</li>
+            <li>DonchCh20.Upper|30</li>
+            <li>DonchCh20.Upper|60</li>
+            <li>DonchCh20.Upper|120</li>
+            <li>DonchCh20.Upper|240</li>
+            <li>DonchCh20.Upper|1W</li>
+            <li>DonchCh20.Upper|1M</li>
           </ul>
         </details>
       </td>
-      <td>Relative Strength Index (14)</td>
+      <td>Donchian Channels Upper Band (20)</td>
       <td>number</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>RSI7</summary>
-          <ul>
-            <li>RSI7</li>
-            <li>RSI7|1</li>
-            <li>RSI7|5</li>
-            <li>RSI7|15</li>
-            <li>RSI7|30</li>
-            <li>RSI7|60</li>
-            <li>RSI7|120</li>
-            <li>RSI7|240</li>
-            <li>RSI7|1W</li>
-            <li>RSI7|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Relative Strength Index (7)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>ADX</summary>
-          <ul>
-            <li>ADX</li>
-            <li>ADX|1</li>
-            <li>ADX|5</li>
-            <li>ADX|15</li>
-            <li>ADX|30</li>
-            <li>ADX|60</li>
-            <li>ADX|120</li>
-            <li>ADX|240</li>
-            <li>ADX|1W</li>
-            <li>ADX|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Average Directional Index (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>ADX+DI</summary>
-          <ul>
-            <li>ADX+DI</li>
-            <li>ADX+DI|1</li>
-            <li>ADX+DI|5</li>
-            <li>ADX+DI|15</li>
-            <li>ADX+DI|30</li>
-            <li>ADX+DI|60</li>
-            <li>ADX+DI|120</li>
-            <li>ADX+DI|240</li>
-            <li>ADX+DI|1W</li>
-            <li>ADX+DI|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Positive Directional Indicator (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>ADX-DI</summary>
-          <ul>
-            <li>ADX-DI</li>
-            <li>ADX-DI|1</li>
-            <li>ADX-DI|5</li>
-            <li>ADX-DI|15</li>
-            <li>ADX-DI|30</li>
-            <li>ADX-DI|60</li>
-            <li>ADX-DI|120</li>
-            <li>ADX-DI|240</li>
-            <li>ADX-DI|1W</li>
-            <li>ADX-DI|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Negative Directional Indicator (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>ATR</summary>
-          <ul>
-            <li>ATR</li>
-            <li>ATR|1</li>
-            <li>ATR|5</li>
-            <li>ATR|15</li>
-            <li>ATR|30</li>
-            <li>ATR|60</li>
-            <li>ATR|120</li>
-            <li>ATR|240</li>
-            <li>ATR|1W</li>
-            <li>ATR|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Average True Range (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Mom</summary>
-          <ul>
-            <li>Mom</li>
-            <li>Mom|1</li>
-            <li>Mom|5</li>
-            <li>Mom|15</li>
-            <li>Mom|30</li>
-            <li>Mom|60</li>
-            <li>Mom|120</li>
-            <li>Mom|240</li>
-            <li>Mom|1W</li>
-            <li>Mom|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Momentum (10)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.All</td>
-      <td>New All Time High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.All</td>
-      <td>New All Time Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>price_52_week_high</td>
-      <td>New 52 Week High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>price_52_week_low</td>
-      <td>New 52 Week Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.6M</td>
-      <td>New 6-Month High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.6M</td>
-      <td>New 6-Month Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.3M</td>
-      <td>New 3-Month High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.3M</td>
-      <td>New 3-Month Low</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>High.1M</td>
-      <td>New 1-Month High</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>Low.1M</td>
-      <td>New 1-Month Low</td>
-      <td>number</td>
+      <td>exchange</td>
+      <td>Exchange</td>
+      <td>text</td>
     </tr>
     <tr>
       <td>
@@ -808,6 +831,7 @@
         <details>
           <summary>EMA100</summary>
           <ul>
+            <li>EMA100</li>
             <li>EMA100|1</li>
             <li>EMA100|5</li>
             <li>EMA100|15</li>
@@ -817,7 +841,6 @@
             <li>EMA100|240</li>
             <li>EMA100|1W</li>
             <li>EMA100|1M</li>
-            <li>EMA100</li>
           </ul>
         </details>
       </td>
@@ -829,6 +852,7 @@
         <details>
           <summary>EMA200</summary>
           <ul>
+            <li>EMA200</li>
             <li>EMA200|1</li>
             <li>EMA200|5</li>
             <li>EMA200|15</li>
@@ -838,11 +862,1205 @@
             <li>EMA200|240</li>
             <li>EMA200|1W</li>
             <li>EMA200|1M</li>
-            <li>EMA200</li>
           </ul>
         </details>
       </td>
       <td>Exponential Moving Average (200)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>gap</summary>
+          <ul>
+            <li>gap</li>
+            <li>gap|1</li>
+            <li>gap|5</li>
+            <li>gap|15</li>
+            <li>gap|30</li>
+            <li>gap|60</li>
+            <li>gap|120</li>
+            <li>gap|240</li>
+            <li>gap|1W</li>
+            <li>gap|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Gap %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>high</summary>
+          <ul>
+            <li>high</li>
+            <li>high|1</li>
+            <li>high|5</li>
+            <li>high|15</li>
+            <li>high|30</li>
+            <li>high|60</li>
+            <li>high|120</li>
+            <li>high|240</li>
+            <li>high|1W</li>
+            <li>high|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>High</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>HullMA9</summary>
+          <ul>
+            <li>HullMA9</li>
+            <li>HullMA9|1</li>
+            <li>HullMA9|5</li>
+            <li>HullMA9|15</li>
+            <li>HullMA9|30</li>
+            <li>HullMA9|60</li>
+            <li>HullMA9|120</li>
+            <li>HullMA9|240</li>
+            <li>HullMA9|1W</li>
+            <li>HullMA9|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Hull Moving Average (9)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Ichimoku.BLine</summary>
+          <ul>
+            <li>Ichimoku.BLine</li>
+            <li>Ichimoku.BLine|1</li>
+            <li>Ichimoku.BLine|5</li>
+            <li>Ichimoku.BLine|15</li>
+            <li>Ichimoku.BLine|30</li>
+            <li>Ichimoku.BLine|60</li>
+            <li>Ichimoku.BLine|120</li>
+            <li>Ichimoku.BLine|240</li>
+            <li>Ichimoku.BLine|1W</li>
+            <li>Ichimoku.BLine|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Ichimoku Base Line (9, 26, 52, 26)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Ichimoku.CLine</summary>
+          <ul>
+            <li>Ichimoku.CLine</li>
+            <li>Ichimoku.CLine|1</li>
+            <li>Ichimoku.CLine|5</li>
+            <li>Ichimoku.CLine|15</li>
+            <li>Ichimoku.CLine|30</li>
+            <li>Ichimoku.CLine|60</li>
+            <li>Ichimoku.CLine|120</li>
+            <li>Ichimoku.CLine|240</li>
+            <li>Ichimoku.CLine|1W</li>
+            <li>Ichimoku.CLine|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Ichimoku Conversion Line (9, 26, 52, 26)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Ichimoku.Lead1</summary>
+          <ul>
+            <li>Ichimoku.Lead1</li>
+            <li>Ichimoku.Lead1|1</li>
+            <li>Ichimoku.Lead1|5</li>
+            <li>Ichimoku.Lead1|15</li>
+            <li>Ichimoku.Lead1|30</li>
+            <li>Ichimoku.Lead1|60</li>
+            <li>Ichimoku.Lead1|120</li>
+            <li>Ichimoku.Lead1|240</li>
+            <li>Ichimoku.Lead1|1W</li>
+            <li>Ichimoku.Lead1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Ichimoku Leading Span A (9, 26, 52, 26)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Ichimoku.Lead2</summary>
+          <ul>
+            <li>Ichimoku.Lead2</li>
+            <li>Ichimoku.Lead2|1</li>
+            <li>Ichimoku.Lead2|5</li>
+            <li>Ichimoku.Lead2|15</li>
+            <li>Ichimoku.Lead2|30</li>
+            <li>Ichimoku.Lead2|60</li>
+            <li>Ichimoku.Lead2|120</li>
+            <li>Ichimoku.Lead2|240</li>
+            <li>Ichimoku.Lead2|1W</li>
+            <li>Ichimoku.Lead2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Ichimoku Leading Span B (9, 26, 52, 26)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>KltChnl.lower</summary>
+          <ul>
+            <li>KltChnl.lower</li>
+            <li>KltChnl.lower|1</li>
+            <li>KltChnl.lower|5</li>
+            <li>KltChnl.lower|15</li>
+            <li>KltChnl.lower|30</li>
+            <li>KltChnl.lower|60</li>
+            <li>KltChnl.lower|120</li>
+            <li>KltChnl.lower|240</li>
+            <li>KltChnl.lower|1W</li>
+            <li>KltChnl.lower|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Keltner Channels Lower Band (20)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>KltChnl.upper</summary>
+          <ul>
+            <li>KltChnl.upper</li>
+            <li>KltChnl.upper|1</li>
+            <li>KltChnl.upper|5</li>
+            <li>KltChnl.upper|15</li>
+            <li>KltChnl.upper|30</li>
+            <li>KltChnl.upper|60</li>
+            <li>KltChnl.upper|120</li>
+            <li>KltChnl.upper|240</li>
+            <li>KltChnl.upper|1W</li>
+            <li>KltChnl.upper|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Keltner Channels Upper Band (20)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>low</summary>
+          <ul>
+            <li>low</li>
+            <li>low|1</li>
+            <li>low|5</li>
+            <li>low|15</li>
+            <li>low|30</li>
+            <li>low|60</li>
+            <li>low|120</li>
+            <li>low|240</li>
+            <li>low|1W</li>
+            <li>low|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Low</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>MACD.macd</summary>
+          <ul>
+            <li>MACD.macd</li>
+            <li>MACD.macd|1</li>
+            <li>MACD.macd|5</li>
+            <li>MACD.macd|15</li>
+            <li>MACD.macd|30</li>
+            <li>MACD.macd|60</li>
+            <li>MACD.macd|120</li>
+            <li>MACD.macd|240</li>
+            <li>MACD.macd|1W</li>
+            <li>MACD.macd|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>MACD Level (12, 26)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>MACD.signal</summary>
+          <ul>
+            <li>MACD.signal</li>
+            <li>MACD.signal|1</li>
+            <li>MACD.signal|5</li>
+            <li>MACD.signal|15</li>
+            <li>MACD.signal|30</li>
+            <li>MACD.signal|60</li>
+            <li>MACD.signal|120</li>
+            <li>MACD.signal|240</li>
+            <li>MACD.signal|1W</li>
+            <li>MACD.signal|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>MACD Signal (12, 26)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Mom</summary>
+          <ul>
+            <li>Mom</li>
+            <li>Mom|1</li>
+            <li>Mom|5</li>
+            <li>Mom|15</li>
+            <li>Mom|30</li>
+            <li>Mom|60</li>
+            <li>Mom|120</li>
+            <li>Mom|240</li>
+            <li>Mom|1W</li>
+            <li>Mom|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Momentum (10)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>MoneyFlow</summary>
+          <ul>
+            <li>MoneyFlow</li>
+            <li>MoneyFlow|1</li>
+            <li>MoneyFlow|5</li>
+            <li>MoneyFlow|15</li>
+            <li>MoneyFlow|30</li>
+            <li>MoneyFlow|60</li>
+            <li>MoneyFlow|120</li>
+            <li>MoneyFlow|240</li>
+            <li>MoneyFlow|1W</li>
+            <li>MoneyFlow|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Money Flow (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Perf.1M</td>
+      <td>Monthly Performance</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Recommend.MA</summary>
+          <ul>
+            <li>Recommend.MA</li>
+            <li>Recommend.MA|1</li>
+            <li>Recommend.MA|5</li>
+            <li>Recommend.MA|15</li>
+            <li>Recommend.MA|30</li>
+            <li>Recommend.MA|60</li>
+            <li>Recommend.MA|120</li>
+            <li>Recommend.MA|240</li>
+            <li>Recommend.MA|1W</li>
+            <li>Recommend.MA|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Moving Averages Rating</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>ADX-DI</summary>
+          <ul>
+            <li>ADX-DI</li>
+            <li>ADX-DI|1</li>
+            <li>ADX-DI|5</li>
+            <li>ADX-DI|15</li>
+            <li>ADX-DI|30</li>
+            <li>ADX-DI|60</li>
+            <li>ADX-DI|120</li>
+            <li>ADX-DI|240</li>
+            <li>ADX-DI|1W</li>
+            <li>ADX-DI|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Negative Directional Indicator (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>open</summary>
+          <ul>
+            <li>open</li>
+            <li>open|1</li>
+            <li>open|5</li>
+            <li>open|15</li>
+            <li>open|30</li>
+            <li>open|60</li>
+            <li>open|120</li>
+            <li>open|240</li>
+            <li>open|1W</li>
+            <li>open|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Open</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Recommend.Other</summary>
+          <ul>
+            <li>Recommend.Other</li>
+            <li>Recommend.Other|1</li>
+            <li>Recommend.Other|5</li>
+            <li>Recommend.Other|15</li>
+            <li>Recommend.Other|30</li>
+            <li>Recommend.Other|60</li>
+            <li>Recommend.Other|120</li>
+            <li>Recommend.Other|240</li>
+            <li>Recommend.Other|1W</li>
+            <li>Recommend.Other|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Oscillators Rating</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>P.SAR</summary>
+          <ul>
+            <li>P.SAR</li>
+            <li>P.SAR|1</li>
+            <li>P.SAR|5</li>
+            <li>P.SAR|15</li>
+            <li>P.SAR|30</li>
+            <li>P.SAR|60</li>
+            <li>P.SAR|120</li>
+            <li>P.SAR|240</li>
+            <li>P.SAR|1W</li>
+            <li>P.SAR|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Parabolic SAR</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Camarilla.Middle</summary>
+          <ul>
+            <li>Pivot.M.Camarilla.Middle</li>
+            <li>Pivot.M.Camarilla.Middle|1</li>
+            <li>Pivot.M.Camarilla.Middle|5</li>
+            <li>Pivot.M.Camarilla.Middle|15</li>
+            <li>Pivot.M.Camarilla.Middle|30</li>
+            <li>Pivot.M.Camarilla.Middle|60</li>
+            <li>Pivot.M.Camarilla.Middle|120</li>
+            <li>Pivot.M.Camarilla.Middle|240</li>
+            <li>Pivot.M.Camarilla.Middle|1W</li>
+            <li>Pivot.M.Camarilla.Middle|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Camarilla P</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Camarilla.R1</summary>
+          <ul>
+            <li>Pivot.M.Camarilla.R1</li>
+            <li>Pivot.M.Camarilla.R1|1</li>
+            <li>Pivot.M.Camarilla.R1|5</li>
+            <li>Pivot.M.Camarilla.R1|15</li>
+            <li>Pivot.M.Camarilla.R1|30</li>
+            <li>Pivot.M.Camarilla.R1|60</li>
+            <li>Pivot.M.Camarilla.R1|120</li>
+            <li>Pivot.M.Camarilla.R1|240</li>
+            <li>Pivot.M.Camarilla.R1|1W</li>
+            <li>Pivot.M.Camarilla.R1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Camarilla R1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Camarilla.R2</summary>
+          <ul>
+            <li>Pivot.M.Camarilla.R2</li>
+            <li>Pivot.M.Camarilla.R2|1</li>
+            <li>Pivot.M.Camarilla.R2|5</li>
+            <li>Pivot.M.Camarilla.R2|15</li>
+            <li>Pivot.M.Camarilla.R2|30</li>
+            <li>Pivot.M.Camarilla.R2|60</li>
+            <li>Pivot.M.Camarilla.R2|120</li>
+            <li>Pivot.M.Camarilla.R2|240</li>
+            <li>Pivot.M.Camarilla.R2|1W</li>
+            <li>Pivot.M.Camarilla.R2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Camarilla R2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Camarilla.R3</summary>
+          <ul>
+            <li>Pivot.M.Camarilla.R3</li>
+            <li>Pivot.M.Camarilla.R3|1</li>
+            <li>Pivot.M.Camarilla.R3|5</li>
+            <li>Pivot.M.Camarilla.R3|15</li>
+            <li>Pivot.M.Camarilla.R3|30</li>
+            <li>Pivot.M.Camarilla.R3|60</li>
+            <li>Pivot.M.Camarilla.R3|120</li>
+            <li>Pivot.M.Camarilla.R3|240</li>
+            <li>Pivot.M.Camarilla.R3|1W</li>
+            <li>Pivot.M.Camarilla.R3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Camarilla R3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Camarilla.S1</summary>
+          <ul>
+            <li>Pivot.M.Camarilla.S1</li>
+            <li>Pivot.M.Camarilla.S1|1</li>
+            <li>Pivot.M.Camarilla.S1|5</li>
+            <li>Pivot.M.Camarilla.S1|15</li>
+            <li>Pivot.M.Camarilla.S1|30</li>
+            <li>Pivot.M.Camarilla.S1|60</li>
+            <li>Pivot.M.Camarilla.S1|120</li>
+            <li>Pivot.M.Camarilla.S1|240</li>
+            <li>Pivot.M.Camarilla.S1|1W</li>
+            <li>Pivot.M.Camarilla.S1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Camarilla S1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Camarilla.S2</summary>
+          <ul>
+            <li>Pivot.M.Camarilla.S2</li>
+            <li>Pivot.M.Camarilla.S2|1</li>
+            <li>Pivot.M.Camarilla.S2|5</li>
+            <li>Pivot.M.Camarilla.S2|15</li>
+            <li>Pivot.M.Camarilla.S2|30</li>
+            <li>Pivot.M.Camarilla.S2|60</li>
+            <li>Pivot.M.Camarilla.S2|120</li>
+            <li>Pivot.M.Camarilla.S2|240</li>
+            <li>Pivot.M.Camarilla.S2|1W</li>
+            <li>Pivot.M.Camarilla.S2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Camarilla S2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Camarilla.S3</summary>
+          <ul>
+            <li>Pivot.M.Camarilla.S3</li>
+            <li>Pivot.M.Camarilla.S3|1</li>
+            <li>Pivot.M.Camarilla.S3|5</li>
+            <li>Pivot.M.Camarilla.S3|15</li>
+            <li>Pivot.M.Camarilla.S3|30</li>
+            <li>Pivot.M.Camarilla.S3|60</li>
+            <li>Pivot.M.Camarilla.S3|120</li>
+            <li>Pivot.M.Camarilla.S3|240</li>
+            <li>Pivot.M.Camarilla.S3|1W</li>
+            <li>Pivot.M.Camarilla.S3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Camarilla S3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Classic.Middle</summary>
+          <ul>
+            <li>Pivot.M.Classic.Middle</li>
+            <li>Pivot.M.Classic.Middle|1</li>
+            <li>Pivot.M.Classic.Middle|5</li>
+            <li>Pivot.M.Classic.Middle|15</li>
+            <li>Pivot.M.Classic.Middle|30</li>
+            <li>Pivot.M.Classic.Middle|60</li>
+            <li>Pivot.M.Classic.Middle|120</li>
+            <li>Pivot.M.Classic.Middle|240</li>
+            <li>Pivot.M.Classic.Middle|1W</li>
+            <li>Pivot.M.Classic.Middle|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Classic P</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Classic.R1</summary>
+          <ul>
+            <li>Pivot.M.Classic.R1</li>
+            <li>Pivot.M.Classic.R1|1</li>
+            <li>Pivot.M.Classic.R1|5</li>
+            <li>Pivot.M.Classic.R1|15</li>
+            <li>Pivot.M.Classic.R1|30</li>
+            <li>Pivot.M.Classic.R1|60</li>
+            <li>Pivot.M.Classic.R1|120</li>
+            <li>Pivot.M.Classic.R1|240</li>
+            <li>Pivot.M.Classic.R1|1W</li>
+            <li>Pivot.M.Classic.R1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Classic R1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Classic.R2</summary>
+          <ul>
+            <li>Pivot.M.Classic.R2</li>
+            <li>Pivot.M.Classic.R2|1</li>
+            <li>Pivot.M.Classic.R2|5</li>
+            <li>Pivot.M.Classic.R2|15</li>
+            <li>Pivot.M.Classic.R2|30</li>
+            <li>Pivot.M.Classic.R2|60</li>
+            <li>Pivot.M.Classic.R2|120</li>
+            <li>Pivot.M.Classic.R2|240</li>
+            <li>Pivot.M.Classic.R2|1W</li>
+            <li>Pivot.M.Classic.R2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Classic R2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Classic.R3</summary>
+          <ul>
+            <li>Pivot.M.Classic.R3</li>
+            <li>Pivot.M.Classic.R3|1</li>
+            <li>Pivot.M.Classic.R3|5</li>
+            <li>Pivot.M.Classic.R3|15</li>
+            <li>Pivot.M.Classic.R3|30</li>
+            <li>Pivot.M.Classic.R3|60</li>
+            <li>Pivot.M.Classic.R3|120</li>
+            <li>Pivot.M.Classic.R3|240</li>
+            <li>Pivot.M.Classic.R3|1W</li>
+            <li>Pivot.M.Classic.R3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Classic R3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Classic.S1</summary>
+          <ul>
+            <li>Pivot.M.Classic.S1</li>
+            <li>Pivot.M.Classic.S1|1</li>
+            <li>Pivot.M.Classic.S1|5</li>
+            <li>Pivot.M.Classic.S1|15</li>
+            <li>Pivot.M.Classic.S1|30</li>
+            <li>Pivot.M.Classic.S1|60</li>
+            <li>Pivot.M.Classic.S1|120</li>
+            <li>Pivot.M.Classic.S1|240</li>
+            <li>Pivot.M.Classic.S1|1W</li>
+            <li>Pivot.M.Classic.S1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Classic S1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Classic.S2</summary>
+          <ul>
+            <li>Pivot.M.Classic.S2</li>
+            <li>Pivot.M.Classic.S2|1</li>
+            <li>Pivot.M.Classic.S2|5</li>
+            <li>Pivot.M.Classic.S2|15</li>
+            <li>Pivot.M.Classic.S2|30</li>
+            <li>Pivot.M.Classic.S2|60</li>
+            <li>Pivot.M.Classic.S2|120</li>
+            <li>Pivot.M.Classic.S2|240</li>
+            <li>Pivot.M.Classic.S2|1W</li>
+            <li>Pivot.M.Classic.S2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Classic S2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Classic.S3</summary>
+          <ul>
+            <li>Pivot.M.Classic.S3</li>
+            <li>Pivot.M.Classic.S3|1</li>
+            <li>Pivot.M.Classic.S3|5</li>
+            <li>Pivot.M.Classic.S3|15</li>
+            <li>Pivot.M.Classic.S3|30</li>
+            <li>Pivot.M.Classic.S3|60</li>
+            <li>Pivot.M.Classic.S3|120</li>
+            <li>Pivot.M.Classic.S3|240</li>
+            <li>Pivot.M.Classic.S3|1W</li>
+            <li>Pivot.M.Classic.S3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Classic S3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Demark.Middle</summary>
+          <ul>
+            <li>Pivot.M.Demark.Middle</li>
+            <li>Pivot.M.Demark.Middle|1</li>
+            <li>Pivot.M.Demark.Middle|5</li>
+            <li>Pivot.M.Demark.Middle|15</li>
+            <li>Pivot.M.Demark.Middle|30</li>
+            <li>Pivot.M.Demark.Middle|60</li>
+            <li>Pivot.M.Demark.Middle|120</li>
+            <li>Pivot.M.Demark.Middle|240</li>
+            <li>Pivot.M.Demark.Middle|1W</li>
+            <li>Pivot.M.Demark.Middle|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot DM P</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Demark.R1</summary>
+          <ul>
+            <li>Pivot.M.Demark.R1</li>
+            <li>Pivot.M.Demark.R1|1</li>
+            <li>Pivot.M.Demark.R1|5</li>
+            <li>Pivot.M.Demark.R1|15</li>
+            <li>Pivot.M.Demark.R1|30</li>
+            <li>Pivot.M.Demark.R1|60</li>
+            <li>Pivot.M.Demark.R1|120</li>
+            <li>Pivot.M.Demark.R1|240</li>
+            <li>Pivot.M.Demark.R1|1W</li>
+            <li>Pivot.M.Demark.R1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot DM R1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Demark.S1</summary>
+          <ul>
+            <li>Pivot.M.Demark.S1</li>
+            <li>Pivot.M.Demark.S1|1</li>
+            <li>Pivot.M.Demark.S1|5</li>
+            <li>Pivot.M.Demark.S1|15</li>
+            <li>Pivot.M.Demark.S1|30</li>
+            <li>Pivot.M.Demark.S1|60</li>
+            <li>Pivot.M.Demark.S1|120</li>
+            <li>Pivot.M.Demark.S1|240</li>
+            <li>Pivot.M.Demark.S1|1W</li>
+            <li>Pivot.M.Demark.S1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot DM S1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Fibonacci.Middle</summary>
+          <ul>
+            <li>Pivot.M.Fibonacci.Middle</li>
+            <li>Pivot.M.Fibonacci.Middle|1</li>
+            <li>Pivot.M.Fibonacci.Middle|5</li>
+            <li>Pivot.M.Fibonacci.Middle|15</li>
+            <li>Pivot.M.Fibonacci.Middle|30</li>
+            <li>Pivot.M.Fibonacci.Middle|60</li>
+            <li>Pivot.M.Fibonacci.Middle|120</li>
+            <li>Pivot.M.Fibonacci.Middle|240</li>
+            <li>Pivot.M.Fibonacci.Middle|1W</li>
+            <li>Pivot.M.Fibonacci.Middle|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Fibonacci P</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Fibonacci.R1</summary>
+          <ul>
+            <li>Pivot.M.Fibonacci.R1</li>
+            <li>Pivot.M.Fibonacci.R1|1</li>
+            <li>Pivot.M.Fibonacci.R1|5</li>
+            <li>Pivot.M.Fibonacci.R1|15</li>
+            <li>Pivot.M.Fibonacci.R1|30</li>
+            <li>Pivot.M.Fibonacci.R1|60</li>
+            <li>Pivot.M.Fibonacci.R1|120</li>
+            <li>Pivot.M.Fibonacci.R1|240</li>
+            <li>Pivot.M.Fibonacci.R1|1W</li>
+            <li>Pivot.M.Fibonacci.R1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Fibonacci R1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Fibonacci.R2</summary>
+          <ul>
+            <li>Pivot.M.Fibonacci.R2</li>
+            <li>Pivot.M.Fibonacci.R2|1</li>
+            <li>Pivot.M.Fibonacci.R2|5</li>
+            <li>Pivot.M.Fibonacci.R2|15</li>
+            <li>Pivot.M.Fibonacci.R2|30</li>
+            <li>Pivot.M.Fibonacci.R2|60</li>
+            <li>Pivot.M.Fibonacci.R2|120</li>
+            <li>Pivot.M.Fibonacci.R2|240</li>
+            <li>Pivot.M.Fibonacci.R2|1W</li>
+            <li>Pivot.M.Fibonacci.R2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Fibonacci R2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Fibonacci.R3</summary>
+          <ul>
+            <li>Pivot.M.Fibonacci.R3</li>
+            <li>Pivot.M.Fibonacci.R3|1</li>
+            <li>Pivot.M.Fibonacci.R3|5</li>
+            <li>Pivot.M.Fibonacci.R3|15</li>
+            <li>Pivot.M.Fibonacci.R3|30</li>
+            <li>Pivot.M.Fibonacci.R3|60</li>
+            <li>Pivot.M.Fibonacci.R3|120</li>
+            <li>Pivot.M.Fibonacci.R3|240</li>
+            <li>Pivot.M.Fibonacci.R3|1W</li>
+            <li>Pivot.M.Fibonacci.R3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Fibonacci R3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Fibonacci.S1</summary>
+          <ul>
+            <li>Pivot.M.Fibonacci.S1</li>
+            <li>Pivot.M.Fibonacci.S1|1</li>
+            <li>Pivot.M.Fibonacci.S1|5</li>
+            <li>Pivot.M.Fibonacci.S1|15</li>
+            <li>Pivot.M.Fibonacci.S1|30</li>
+            <li>Pivot.M.Fibonacci.S1|60</li>
+            <li>Pivot.M.Fibonacci.S1|120</li>
+            <li>Pivot.M.Fibonacci.S1|240</li>
+            <li>Pivot.M.Fibonacci.S1|1W</li>
+            <li>Pivot.M.Fibonacci.S1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Fibonacci S1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Fibonacci.S2</summary>
+          <ul>
+            <li>Pivot.M.Fibonacci.S2</li>
+            <li>Pivot.M.Fibonacci.S2|1</li>
+            <li>Pivot.M.Fibonacci.S2|5</li>
+            <li>Pivot.M.Fibonacci.S2|15</li>
+            <li>Pivot.M.Fibonacci.S2|30</li>
+            <li>Pivot.M.Fibonacci.S2|60</li>
+            <li>Pivot.M.Fibonacci.S2|120</li>
+            <li>Pivot.M.Fibonacci.S2|240</li>
+            <li>Pivot.M.Fibonacci.S2|1W</li>
+            <li>Pivot.M.Fibonacci.S2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Fibonacci S2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Fibonacci.S3</summary>
+          <ul>
+            <li>Pivot.M.Fibonacci.S3</li>
+            <li>Pivot.M.Fibonacci.S3|1</li>
+            <li>Pivot.M.Fibonacci.S3|5</li>
+            <li>Pivot.M.Fibonacci.S3|15</li>
+            <li>Pivot.M.Fibonacci.S3|30</li>
+            <li>Pivot.M.Fibonacci.S3|60</li>
+            <li>Pivot.M.Fibonacci.S3|120</li>
+            <li>Pivot.M.Fibonacci.S3|240</li>
+            <li>Pivot.M.Fibonacci.S3|1W</li>
+            <li>Pivot.M.Fibonacci.S3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Fibonacci S3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Woodie.Middle</summary>
+          <ul>
+            <li>Pivot.M.Woodie.Middle</li>
+            <li>Pivot.M.Woodie.Middle|1</li>
+            <li>Pivot.M.Woodie.Middle|5</li>
+            <li>Pivot.M.Woodie.Middle|15</li>
+            <li>Pivot.M.Woodie.Middle|30</li>
+            <li>Pivot.M.Woodie.Middle|60</li>
+            <li>Pivot.M.Woodie.Middle|120</li>
+            <li>Pivot.M.Woodie.Middle|240</li>
+            <li>Pivot.M.Woodie.Middle|1W</li>
+            <li>Pivot.M.Woodie.Middle|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Woodie P</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Woodie.R1</summary>
+          <ul>
+            <li>Pivot.M.Woodie.R1</li>
+            <li>Pivot.M.Woodie.R1|1</li>
+            <li>Pivot.M.Woodie.R1|5</li>
+            <li>Pivot.M.Woodie.R1|15</li>
+            <li>Pivot.M.Woodie.R1|30</li>
+            <li>Pivot.M.Woodie.R1|60</li>
+            <li>Pivot.M.Woodie.R1|120</li>
+            <li>Pivot.M.Woodie.R1|240</li>
+            <li>Pivot.M.Woodie.R1|1W</li>
+            <li>Pivot.M.Woodie.R1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Woodie R1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Woodie.R2</summary>
+          <ul>
+            <li>Pivot.M.Woodie.R2</li>
+            <li>Pivot.M.Woodie.R2|1</li>
+            <li>Pivot.M.Woodie.R2|5</li>
+            <li>Pivot.M.Woodie.R2|15</li>
+            <li>Pivot.M.Woodie.R2|30</li>
+            <li>Pivot.M.Woodie.R2|60</li>
+            <li>Pivot.M.Woodie.R2|120</li>
+            <li>Pivot.M.Woodie.R2|240</li>
+            <li>Pivot.M.Woodie.R2|1W</li>
+            <li>Pivot.M.Woodie.R2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Woodie R2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Woodie.R3</summary>
+          <ul>
+            <li>Pivot.M.Woodie.R3</li>
+            <li>Pivot.M.Woodie.R3|1</li>
+            <li>Pivot.M.Woodie.R3|5</li>
+            <li>Pivot.M.Woodie.R3|15</li>
+            <li>Pivot.M.Woodie.R3|30</li>
+            <li>Pivot.M.Woodie.R3|60</li>
+            <li>Pivot.M.Woodie.R3|120</li>
+            <li>Pivot.M.Woodie.R3|240</li>
+            <li>Pivot.M.Woodie.R3|1W</li>
+            <li>Pivot.M.Woodie.R3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Woodie R3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Woodie.S1</summary>
+          <ul>
+            <li>Pivot.M.Woodie.S1</li>
+            <li>Pivot.M.Woodie.S1|1</li>
+            <li>Pivot.M.Woodie.S1|5</li>
+            <li>Pivot.M.Woodie.S1|15</li>
+            <li>Pivot.M.Woodie.S1|30</li>
+            <li>Pivot.M.Woodie.S1|60</li>
+            <li>Pivot.M.Woodie.S1|120</li>
+            <li>Pivot.M.Woodie.S1|240</li>
+            <li>Pivot.M.Woodie.S1|1W</li>
+            <li>Pivot.M.Woodie.S1|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Woodie S1</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Woodie.S2</summary>
+          <ul>
+            <li>Pivot.M.Woodie.S2</li>
+            <li>Pivot.M.Woodie.S2|1</li>
+            <li>Pivot.M.Woodie.S2|5</li>
+            <li>Pivot.M.Woodie.S2|15</li>
+            <li>Pivot.M.Woodie.S2|30</li>
+            <li>Pivot.M.Woodie.S2|60</li>
+            <li>Pivot.M.Woodie.S2|120</li>
+            <li>Pivot.M.Woodie.S2|240</li>
+            <li>Pivot.M.Woodie.S2|1W</li>
+            <li>Pivot.M.Woodie.S2|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Woodie S2</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>Pivot.M.Woodie.S3</summary>
+          <ul>
+            <li>Pivot.M.Woodie.S3</li>
+            <li>Pivot.M.Woodie.S3|1</li>
+            <li>Pivot.M.Woodie.S3|5</li>
+            <li>Pivot.M.Woodie.S3|15</li>
+            <li>Pivot.M.Woodie.S3|30</li>
+            <li>Pivot.M.Woodie.S3|60</li>
+            <li>Pivot.M.Woodie.S3|120</li>
+            <li>Pivot.M.Woodie.S3|240</li>
+            <li>Pivot.M.Woodie.S3|1W</li>
+            <li>Pivot.M.Woodie.S3|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Pivot Woodie S3</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>ADX+DI</summary>
+          <ul>
+            <li>ADX+DI</li>
+            <li>ADX+DI|1</li>
+            <li>ADX+DI|5</li>
+            <li>ADX+DI|15</li>
+            <li>ADX+DI|30</li>
+            <li>ADX+DI|60</li>
+            <li>ADX+DI|120</li>
+            <li>ADX+DI|240</li>
+            <li>ADX+DI|1W</li>
+            <li>ADX+DI|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Positive Directional Indicator (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>postmarket_change</td>
+      <td>Post-market Change %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>postmarket_change_abs</td>
+      <td>Post-market Change</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>premarket_change</td>
+      <td>Pre-market Change %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>premarket_change_abs</td>
+      <td>Pre-market Change</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>premarket_change_from_open</td>
+      <td>Pre-market Change from Open %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>premarket_change_from_open_abs</td>
+      <td>Pre-market Change from Open</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>premarket_gap</td>
+      <td>Pre-market Gap %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>ROC</summary>
+          <ul>
+            <li>ROC</li>
+            <li>ROC|1</li>
+            <li>ROC|5</li>
+            <li>ROC|15</li>
+            <li>ROC|30</li>
+            <li>ROC|60</li>
+            <li>ROC|120</li>
+            <li>ROC|240</li>
+            <li>ROC|1W</li>
+            <li>ROC|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Rate Of Change (9)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>RSI7</summary>
+          <ul>
+            <li>RSI7</li>
+            <li>RSI7|1</li>
+            <li>RSI7|5</li>
+            <li>RSI7|15</li>
+            <li>RSI7|30</li>
+            <li>RSI7|60</li>
+            <li>RSI7|120</li>
+            <li>RSI7|240</li>
+            <li>RSI7|1W</li>
+            <li>RSI7|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Relative Strength Index (7)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>RSI</summary>
+          <ul>
+            <li>RSI</li>
+            <li>RSI|1</li>
+            <li>RSI|5</li>
+            <li>RSI|15</li>
+            <li>RSI|30</li>
+            <li>RSI|60</li>
+            <li>RSI|120</li>
+            <li>RSI|240</li>
+            <li>RSI|1W</li>
+            <li>RSI|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Relative Strength Index (14)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>
+        <details>
+          <summary>relative_volume_10d_calc</summary>
+          <ul>
+            <li>relative_volume_10d_calc</li>
+            <li>relative_volume_10d_calc|1</li>
+            <li>relative_volume_10d_calc|5</li>
+            <li>relative_volume_10d_calc|15</li>
+            <li>relative_volume_10d_calc|30</li>
+            <li>relative_volume_10d_calc|60</li>
+            <li>relative_volume_10d_calc|120</li>
+            <li>relative_volume_10d_calc|240</li>
+            <li>relative_volume_10d_calc|1W</li>
+            <li>relative_volume_10d_calc|1M</li>
+          </ul>
+        </details>
+      </td>
+      <td>Relative Volume</td>
       <td>number</td>
     </tr>
     <tr>
@@ -955,6 +2173,7 @@
         <details>
           <summary>SMA100</summary>
           <ul>
+            <li>SMA100</li>
             <li>SMA100|1</li>
             <li>SMA100|5</li>
             <li>SMA100|15</li>
@@ -964,7 +2183,6 @@
             <li>SMA100|240</li>
             <li>SMA100|1W</li>
             <li>SMA100|1M</li>
-            <li>SMA100</li>
           </ul>
         </details>
       </td>
@@ -976,6 +2194,7 @@
         <details>
           <summary>SMA200</summary>
           <ul>
+            <li>SMA200</li>
             <li>SMA200|1</li>
             <li>SMA200|5</li>
             <li>SMA200|15</li>
@@ -985,32 +2204,10 @@
             <li>SMA200|240</li>
             <li>SMA200|1W</li>
             <li>SMA200|1M</li>
-            <li>SMA200</li>
           </ul>
         </details>
       </td>
       <td>Simple Moving Average (200)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Stoch.K</summary>
-          <ul>
-            <li>Stoch.K</li>
-            <li>Stoch.K|1</li>
-            <li>Stoch.K|5</li>
-            <li>Stoch.K|15</li>
-            <li>Stoch.K|30</li>
-            <li>Stoch.K|60</li>
-            <li>Stoch.K|120</li>
-            <li>Stoch.K|240</li>
-            <li>Stoch.K|1W</li>
-            <li>Stoch.K|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Stochastic %K (14, 3, 3)</td>
       <td>number</td>
     </tr>
     <tr>
@@ -1037,456 +2234,22 @@
     <tr>
       <td>
         <details>
-          <summary>MACD.macd</summary>
+          <summary>Stoch.K</summary>
           <ul>
-            <li>MACD.macd</li>
-            <li>MACD.macd|1</li>
-            <li>MACD.macd|5</li>
-            <li>MACD.macd|15</li>
-            <li>MACD.macd|30</li>
-            <li>MACD.macd|60</li>
-            <li>MACD.macd|120</li>
-            <li>MACD.macd|240</li>
-            <li>MACD.macd|1W</li>
-            <li>MACD.macd|1M</li>
+            <li>Stoch.K</li>
+            <li>Stoch.K|1</li>
+            <li>Stoch.K|5</li>
+            <li>Stoch.K|15</li>
+            <li>Stoch.K|30</li>
+            <li>Stoch.K|60</li>
+            <li>Stoch.K|120</li>
+            <li>Stoch.K|240</li>
+            <li>Stoch.K|1W</li>
+            <li>Stoch.K|1M</li>
           </ul>
         </details>
       </td>
-      <td>MACD Level (12, 26)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>MACD.signal</summary>
-          <ul>
-            <li>MACD.signal</li>
-            <li>MACD.signal|1</li>
-            <li>MACD.signal|5</li>
-            <li>MACD.signal|15</li>
-            <li>MACD.signal|30</li>
-            <li>MACD.signal|60</li>
-            <li>MACD.signal|120</li>
-            <li>MACD.signal|240</li>
-            <li>MACD.signal|1W</li>
-            <li>MACD.signal|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>MACD Signal (12, 26)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Aroon.Up</summary>
-          <ul>
-            <li>Aroon.Up</li>
-            <li>Aroon.Up|1</li>
-            <li>Aroon.Up|5</li>
-            <li>Aroon.Up|15</li>
-            <li>Aroon.Up|30</li>
-            <li>Aroon.Up|60</li>
-            <li>Aroon.Up|120</li>
-            <li>Aroon.Up|240</li>
-            <li>Aroon.Up|1W</li>
-            <li>Aroon.Up|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Aroon Up (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Aroon.Down</summary>
-          <ul>
-            <li>Aroon.Down</li>
-            <li>Aroon.Down|1</li>
-            <li>Aroon.Down|5</li>
-            <li>Aroon.Down|15</li>
-            <li>Aroon.Down|30</li>
-            <li>Aroon.Down|60</li>
-            <li>Aroon.Down|120</li>
-            <li>Aroon.Down|240</li>
-            <li>Aroon.Down|1W</li>
-            <li>Aroon.Down|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Aroon Down (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>BB.upper</summary>
-          <ul>
-            <li>BB.upper</li>
-            <li>BB.upper|1</li>
-            <li>BB.upper|5</li>
-            <li>BB.upper|15</li>
-            <li>BB.upper|30</li>
-            <li>BB.upper|60</li>
-            <li>BB.upper|120</li>
-            <li>BB.upper|240</li>
-            <li>BB.upper|1W</li>
-            <li>BB.upper|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Bollinger Upper Band (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>BB.lower</summary>
-          <ul>
-            <li>BB.lower</li>
-            <li>BB.lower|1</li>
-            <li>BB.lower|5</li>
-            <li>BB.lower|15</li>
-            <li>BB.lower|30</li>
-            <li>BB.lower|60</li>
-            <li>BB.lower|120</li>
-            <li>BB.lower|240</li>
-            <li>BB.lower|1W</li>
-            <li>BB.lower|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Bollinger Lower Band (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>KltChnl.upper</summary>
-          <ul>
-            <li>KltChnl.upper</li>
-            <li>KltChnl.upper|1</li>
-            <li>KltChnl.upper|5</li>
-            <li>KltChnl.upper|15</li>
-            <li>KltChnl.upper|30</li>
-            <li>KltChnl.upper|60</li>
-            <li>KltChnl.upper|120</li>
-            <li>KltChnl.upper|240</li>
-            <li>KltChnl.upper|1W</li>
-            <li>KltChnl.upper|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Keltner Channels Upper Band (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>KltChnl.lower</summary>
-          <ul>
-            <li>KltChnl.lower</li>
-            <li>KltChnl.lower|1</li>
-            <li>KltChnl.lower|5</li>
-            <li>KltChnl.lower|15</li>
-            <li>KltChnl.lower|30</li>
-            <li>KltChnl.lower|60</li>
-            <li>KltChnl.lower|120</li>
-            <li>KltChnl.lower|240</li>
-            <li>KltChnl.lower|1W</li>
-            <li>KltChnl.lower|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Keltner Channels Lower Band (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>P.SAR</summary>
-          <ul>
-            <li>P.SAR</li>
-            <li>P.SAR|1</li>
-            <li>P.SAR|5</li>
-            <li>P.SAR|15</li>
-            <li>P.SAR|30</li>
-            <li>P.SAR|60</li>
-            <li>P.SAR|120</li>
-            <li>P.SAR|240</li>
-            <li>P.SAR|1W</li>
-            <li>P.SAR|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Parabolic SAR</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Value.Traded</summary>
-          <ul>
-            <li>Value.Traded</li>
-            <li>Value.Traded|1</li>
-            <li>Value.Traded|5</li>
-            <li>Value.Traded|15</li>
-            <li>Value.Traded|30</li>
-            <li>Value.Traded|60</li>
-            <li>Value.Traded|120</li>
-            <li>Value.Traded|240</li>
-            <li>Value.Traded|1W</li>
-            <li>Value.Traded|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Volume*Price</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>MoneyFlow</summary>
-          <ul>
-            <li>MoneyFlow</li>
-            <li>MoneyFlow|1</li>
-            <li>MoneyFlow|5</li>
-            <li>MoneyFlow|15</li>
-            <li>MoneyFlow|30</li>
-            <li>MoneyFlow|60</li>
-            <li>MoneyFlow|120</li>
-            <li>MoneyFlow|240</li>
-            <li>MoneyFlow|1W</li>
-            <li>MoneyFlow|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Money Flow (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>ChaikinMoneyFlow</summary>
-          <ul>
-            <li>ChaikinMoneyFlow</li>
-            <li>ChaikinMoneyFlow|1</li>
-            <li>ChaikinMoneyFlow|5</li>
-            <li>ChaikinMoneyFlow|15</li>
-            <li>ChaikinMoneyFlow|30</li>
-            <li>ChaikinMoneyFlow|60</li>
-            <li>ChaikinMoneyFlow|120</li>
-            <li>ChaikinMoneyFlow|240</li>
-            <li>ChaikinMoneyFlow|1W</li>
-            <li>ChaikinMoneyFlow|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Chaikin Money Flow (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>CCI20</summary>
-          <ul>
-            <li>CCI20</li>
-            <li>CCI20|1</li>
-            <li>CCI20|5</li>
-            <li>CCI20|15</li>
-            <li>CCI20|30</li>
-            <li>CCI20|60</li>
-            <li>CCI20|120</li>
-            <li>CCI20|240</li>
-            <li>CCI20|1W</li>
-            <li>CCI20|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Commodity Channel Index (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>DonchCh20.Upper</summary>
-          <ul>
-            <li>DonchCh20.Upper</li>
-            <li>DonchCh20.Upper|1</li>
-            <li>DonchCh20.Upper|5</li>
-            <li>DonchCh20.Upper|15</li>
-            <li>DonchCh20.Upper|30</li>
-            <li>DonchCh20.Upper|60</li>
-            <li>DonchCh20.Upper|120</li>
-            <li>DonchCh20.Upper|240</li>
-            <li>DonchCh20.Upper|1W</li>
-            <li>DonchCh20.Upper|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Donchian Channels Upper Band (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>DonchCh20.Lower</summary>
-          <ul>
-            <li>DonchCh20.Lower</li>
-            <li>DonchCh20.Lower|1</li>
-            <li>DonchCh20.Lower|5</li>
-            <li>DonchCh20.Lower|15</li>
-            <li>DonchCh20.Lower|30</li>
-            <li>DonchCh20.Lower|60</li>
-            <li>DonchCh20.Lower|120</li>
-            <li>DonchCh20.Lower|240</li>
-            <li>DonchCh20.Lower|1W</li>
-            <li>DonchCh20.Lower|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Donchian Channels Lower Band (20)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>HullMA9</summary>
-          <ul>
-            <li>HullMA9</li>
-            <li>HullMA9|1</li>
-            <li>HullMA9|5</li>
-            <li>HullMA9|15</li>
-            <li>HullMA9|30</li>
-            <li>HullMA9|60</li>
-            <li>HullMA9|120</li>
-            <li>HullMA9|240</li>
-            <li>HullMA9|1W</li>
-            <li>HullMA9|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Hull Moving Average (9)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>AO</summary>
-          <ul>
-            <li>AO</li>
-            <li>AO|1</li>
-            <li>AO|5</li>
-            <li>AO|15</li>
-            <li>AO|30</li>
-            <li>AO|60</li>
-            <li>AO|120</li>
-            <li>AO|240</li>
-            <li>AO|1W</li>
-            <li>AO|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Awesome Oscillator</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>premarket_change</td>
-      <td>Pre-market Change %</td>
-      <td>percent</td>
-    </tr>
-    <tr>
-      <td>premarket_change_abs</td>
-      <td>Pre-market Change</td>
-      <td>price</td>
-    </tr>
-    <tr>
-      <td>premarket_change_from_open</td>
-      <td>Pre-market Change from Open %</td>
-      <td>percent</td>
-    </tr>
-    <tr>
-      <td>premarket_change_from_open_abs</td>
-      <td>Pre-market Change from Open</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>premarket_gap</td>
-      <td>Pre-market Gap %</td>
-      <td>percent</td>
-    </tr>
-    <tr>
-      <td>postmarket_change</td>
-      <td>Post-market Change %</td>
-      <td>percent</td>
-    </tr>
-    <tr>
-      <td>postmarket_change_abs</td>
-      <td>Post-market Change</td>
-      <td>price</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Recommend.All</summary>
-          <ul>
-            <li>Recommend.All</li>
-            <li>Recommend.All|1</li>
-            <li>Recommend.All|5</li>
-            <li>Recommend.All|15</li>
-            <li>Recommend.All|30</li>
-            <li>Recommend.All|60</li>
-            <li>Recommend.All|120</li>
-            <li>Recommend.All|240</li>
-            <li>Recommend.All|1W</li>
-            <li>Recommend.All|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Technical Rating</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Recommend.MA</summary>
-          <ul>
-            <li>Recommend.MA</li>
-            <li>Recommend.MA|1</li>
-            <li>Recommend.MA|5</li>
-            <li>Recommend.MA|15</li>
-            <li>Recommend.MA|30</li>
-            <li>Recommend.MA|60</li>
-            <li>Recommend.MA|120</li>
-            <li>Recommend.MA|240</li>
-            <li>Recommend.MA|1W</li>
-            <li>Recommend.MA|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Moving Averages Rating</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Recommend.Other</summary>
-          <ul>
-            <li>Recommend.Other</li>
-            <li>Recommend.Other|1</li>
-            <li>Recommend.Other|5</li>
-            <li>Recommend.Other|15</li>
-            <li>Recommend.Other|30</li>
-            <li>Recommend.Other|60</li>
-            <li>Recommend.Other|120</li>
-            <li>Recommend.Other|240</li>
-            <li>Recommend.Other|1W</li>
-            <li>Recommend.Other|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Oscillators Rating</td>
+      <td>Stochastic %K (14, 3, 3)</td>
       <td>number</td>
     </tr>
     <tr>
@@ -1532,67 +2295,9 @@
       <td>number</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>W.R</summary>
-          <ul>
-            <li>W.R</li>
-            <li>W.R|1</li>
-            <li>W.R|5</li>
-            <li>W.R|15</li>
-            <li>W.R|30</li>
-            <li>W.R|60</li>
-            <li>W.R|120</li>
-            <li>W.R|240</li>
-            <li>W.R|1W</li>
-            <li>W.R|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Williams Percent Range (14)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>ROC</summary>
-          <ul>
-            <li>ROC</li>
-            <li>ROC|1</li>
-            <li>ROC|5</li>
-            <li>ROC|15</li>
-            <li>ROC|30</li>
-            <li>ROC|60</li>
-            <li>ROC|120</li>
-            <li>ROC|240</li>
-            <li>ROC|1W</li>
-            <li>ROC|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Rate Of Change (9)</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>BBPower</summary>
-          <ul>
-            <li>BBPower</li>
-            <li>BBPower|1</li>
-            <li>BBPower|5</li>
-            <li>BBPower|15</li>
-            <li>BBPower|30</li>
-            <li>BBPower|60</li>
-            <li>BBPower|120</li>
-            <li>BBPower|240</li>
-            <li>BBPower|1W</li>
-            <li>BBPower|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Bull Bear Power</td>
-      <td>number</td>
+      <td>submarket</td>
+      <td>Submarket</td>
+      <td>text</td>
     </tr>
     <tr>
       <td>
@@ -1613,6 +2318,21 @@
         </details>
       </td>
       <td>Ultimate Oscillator (7, 14, 28)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Volatility.D</td>
+      <td>Volatility</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Volatility.M</td>
+      <td>Volatility Month</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>Volatility.W</td>
+      <td>Volatility Week</td>
       <td>number</td>
     </tr>
     <tr>
@@ -1658,109 +2378,95 @@
       <td>number</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>ADR</summary>
-          <ul>
-            <li>ADR</li>
-            <li>ADR|1</li>
-            <li>ADR|5</li>
-            <li>ADR|15</li>
-            <li>ADR|30</li>
-            <li>ADR|60</li>
-            <li>ADR|120</li>
-            <li>ADR|240</li>
-            <li>ADR|1W</li>
-            <li>ADR|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Average Day Range (14)</td>
+      <td>Perf.W</td>
+      <td>Weekly Performance</td>
       <td>number</td>
     </tr>
     <tr>
       <td>
         <details>
-          <summary>Ichimoku.CLine</summary>
+          <summary>W.R</summary>
           <ul>
-            <li>Ichimoku.CLine</li>
-            <li>Ichimoku.CLine|1</li>
-            <li>Ichimoku.CLine|5</li>
-            <li>Ichimoku.CLine|15</li>
-            <li>Ichimoku.CLine|30</li>
-            <li>Ichimoku.CLine|60</li>
-            <li>Ichimoku.CLine|120</li>
-            <li>Ichimoku.CLine|240</li>
-            <li>Ichimoku.CLine|1W</li>
-            <li>Ichimoku.CLine|1M</li>
+            <li>W.R</li>
+            <li>W.R|1</li>
+            <li>W.R|5</li>
+            <li>W.R|15</li>
+            <li>W.R|30</li>
+            <li>W.R|60</li>
+            <li>W.R|120</li>
+            <li>W.R|240</li>
+            <li>W.R|1W</li>
+            <li>W.R|1M</li>
           </ul>
         </details>
       </td>
-      <td>Ichimoku Conversion Line (9, 26, 52, 26)</td>
+      <td>Williams Percent Range (14)</td>
       <td>number</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>Ichimoku.BLine</summary>
-          <ul>
-            <li>Ichimoku.BLine</li>
-            <li>Ichimoku.BLine|1</li>
-            <li>Ichimoku.BLine|5</li>
-            <li>Ichimoku.BLine|15</li>
-            <li>Ichimoku.BLine|30</li>
-            <li>Ichimoku.BLine|60</li>
-            <li>Ichimoku.BLine|120</li>
-            <li>Ichimoku.BLine|240</li>
-            <li>Ichimoku.BLine|1W</li>
-            <li>Ichimoku.BLine|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Ichimoku Base Line (9, 26, 52, 26)</td>
+      <td>Perf.Y</td>
+      <td>Yearly Performance</td>
       <td>number</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>Ichimoku.Lead1</summary>
-          <ul>
-            <li>Ichimoku.Lead1</li>
-            <li>Ichimoku.Lead1|1</li>
-            <li>Ichimoku.Lead1|5</li>
-            <li>Ichimoku.Lead1|15</li>
-            <li>Ichimoku.Lead1|30</li>
-            <li>Ichimoku.Lead1|60</li>
-            <li>Ichimoku.Lead1|120</li>
-            <li>Ichimoku.Lead1|240</li>
-            <li>Ichimoku.Lead1|1W</li>
-            <li>Ichimoku.Lead1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Ichimoku Leading Span A (9, 26, 52, 26)</td>
+      <td>Perf.YTD</td>
+      <td>YTD Performance</td>
       <td>number</td>
     </tr>
     <tr>
-      <td>
-        <details>
-          <summary>Ichimoku.Lead2</summary>
-          <ul>
-            <li>Ichimoku.Lead2</li>
-            <li>Ichimoku.Lead2|1</li>
-            <li>Ichimoku.Lead2|5</li>
-            <li>Ichimoku.Lead2|15</li>
-            <li>Ichimoku.Lead2|30</li>
-            <li>Ichimoku.Lead2|60</li>
-            <li>Ichimoku.Lead2|120</li>
-            <li>Ichimoku.Lead2|240</li>
-            <li>Ichimoku.Lead2|1W</li>
-            <li>Ichimoku.Lead2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Ichimoku Leading Span B (9, 26, 52, 26)</td>
+      <td>centralization</td>
+      <td>Exchange type</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>currency</td>
+      <td>Quote currency</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>24h_vol_change|5</td>
+      <td>Volume 24h Change %</td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>24h_vol|5</td>
+      <td>Volume 24h in USD</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>ask</td>
+      <td>Ask</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>total_shares_outstanding</td>
+      <td>Available Coins</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>bid</td>
+      <td>Bid</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>market_cap_diluted_calc</td>
+      <td>Fully Diluted Market Cap</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>market_cap_calc</td>
+      <td>Market Capitalization</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_shares_diluted</td>
+      <td>Total Coins</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_value_traded</td>
+      <td>Traded Volume</td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>24h_close_change|5</td>
@@ -1774,16 +2480,6 @@
     </tr>
     <tr>
       <td>24h_close_prev|5</td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>24h_vol|5</td>
-      <td></td>
-      <td>fundamental_price</td>
-    </tr>
-    <tr>
-      <td>24h_vol_change|5</td>
       <td></td>
       <td>number</td>
     </tr>
@@ -3779,657 +4475,6 @@
     <tr>
       <td>
         <details>
-          <summary>Pivot.M.Camarilla.Middle</summary>
-          <ul>
-            <li>Pivot.M.Camarilla.Middle</li>
-            <li>Pivot.M.Camarilla.Middle|1</li>
-            <li>Pivot.M.Camarilla.Middle|5</li>
-            <li>Pivot.M.Camarilla.Middle|15</li>
-            <li>Pivot.M.Camarilla.Middle|30</li>
-            <li>Pivot.M.Camarilla.Middle|60</li>
-            <li>Pivot.M.Camarilla.Middle|120</li>
-            <li>Pivot.M.Camarilla.Middle|240</li>
-            <li>Pivot.M.Camarilla.Middle|1W</li>
-            <li>Pivot.M.Camarilla.Middle|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Camarilla.R1</summary>
-          <ul>
-            <li>Pivot.M.Camarilla.R1</li>
-            <li>Pivot.M.Camarilla.R1|1</li>
-            <li>Pivot.M.Camarilla.R1|5</li>
-            <li>Pivot.M.Camarilla.R1|15</li>
-            <li>Pivot.M.Camarilla.R1|30</li>
-            <li>Pivot.M.Camarilla.R1|60</li>
-            <li>Pivot.M.Camarilla.R1|120</li>
-            <li>Pivot.M.Camarilla.R1|240</li>
-            <li>Pivot.M.Camarilla.R1|1W</li>
-            <li>Pivot.M.Camarilla.R1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Camarilla.R2</summary>
-          <ul>
-            <li>Pivot.M.Camarilla.R2</li>
-            <li>Pivot.M.Camarilla.R2|1</li>
-            <li>Pivot.M.Camarilla.R2|5</li>
-            <li>Pivot.M.Camarilla.R2|15</li>
-            <li>Pivot.M.Camarilla.R2|30</li>
-            <li>Pivot.M.Camarilla.R2|60</li>
-            <li>Pivot.M.Camarilla.R2|120</li>
-            <li>Pivot.M.Camarilla.R2|240</li>
-            <li>Pivot.M.Camarilla.R2|1W</li>
-            <li>Pivot.M.Camarilla.R2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Camarilla.R3</summary>
-          <ul>
-            <li>Pivot.M.Camarilla.R3</li>
-            <li>Pivot.M.Camarilla.R3|1</li>
-            <li>Pivot.M.Camarilla.R3|5</li>
-            <li>Pivot.M.Camarilla.R3|15</li>
-            <li>Pivot.M.Camarilla.R3|30</li>
-            <li>Pivot.M.Camarilla.R3|60</li>
-            <li>Pivot.M.Camarilla.R3|120</li>
-            <li>Pivot.M.Camarilla.R3|240</li>
-            <li>Pivot.M.Camarilla.R3|1W</li>
-            <li>Pivot.M.Camarilla.R3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Camarilla.S1</summary>
-          <ul>
-            <li>Pivot.M.Camarilla.S1</li>
-            <li>Pivot.M.Camarilla.S1|1</li>
-            <li>Pivot.M.Camarilla.S1|5</li>
-            <li>Pivot.M.Camarilla.S1|15</li>
-            <li>Pivot.M.Camarilla.S1|30</li>
-            <li>Pivot.M.Camarilla.S1|60</li>
-            <li>Pivot.M.Camarilla.S1|120</li>
-            <li>Pivot.M.Camarilla.S1|240</li>
-            <li>Pivot.M.Camarilla.S1|1W</li>
-            <li>Pivot.M.Camarilla.S1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Camarilla.S2</summary>
-          <ul>
-            <li>Pivot.M.Camarilla.S2</li>
-            <li>Pivot.M.Camarilla.S2|1</li>
-            <li>Pivot.M.Camarilla.S2|5</li>
-            <li>Pivot.M.Camarilla.S2|15</li>
-            <li>Pivot.M.Camarilla.S2|30</li>
-            <li>Pivot.M.Camarilla.S2|60</li>
-            <li>Pivot.M.Camarilla.S2|120</li>
-            <li>Pivot.M.Camarilla.S2|240</li>
-            <li>Pivot.M.Camarilla.S2|1W</li>
-            <li>Pivot.M.Camarilla.S2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Camarilla.S3</summary>
-          <ul>
-            <li>Pivot.M.Camarilla.S3</li>
-            <li>Pivot.M.Camarilla.S3|1</li>
-            <li>Pivot.M.Camarilla.S3|5</li>
-            <li>Pivot.M.Camarilla.S3|15</li>
-            <li>Pivot.M.Camarilla.S3|30</li>
-            <li>Pivot.M.Camarilla.S3|60</li>
-            <li>Pivot.M.Camarilla.S3|120</li>
-            <li>Pivot.M.Camarilla.S3|240</li>
-            <li>Pivot.M.Camarilla.S3|1W</li>
-            <li>Pivot.M.Camarilla.S3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Classic.Middle</summary>
-          <ul>
-            <li>Pivot.M.Classic.Middle</li>
-            <li>Pivot.M.Classic.Middle|1</li>
-            <li>Pivot.M.Classic.Middle|5</li>
-            <li>Pivot.M.Classic.Middle|15</li>
-            <li>Pivot.M.Classic.Middle|30</li>
-            <li>Pivot.M.Classic.Middle|60</li>
-            <li>Pivot.M.Classic.Middle|120</li>
-            <li>Pivot.M.Classic.Middle|240</li>
-            <li>Pivot.M.Classic.Middle|1W</li>
-            <li>Pivot.M.Classic.Middle|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Classic.R1</summary>
-          <ul>
-            <li>Pivot.M.Classic.R1</li>
-            <li>Pivot.M.Classic.R1|1</li>
-            <li>Pivot.M.Classic.R1|5</li>
-            <li>Pivot.M.Classic.R1|15</li>
-            <li>Pivot.M.Classic.R1|30</li>
-            <li>Pivot.M.Classic.R1|60</li>
-            <li>Pivot.M.Classic.R1|120</li>
-            <li>Pivot.M.Classic.R1|240</li>
-            <li>Pivot.M.Classic.R1|1W</li>
-            <li>Pivot.M.Classic.R1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Classic.R2</summary>
-          <ul>
-            <li>Pivot.M.Classic.R2</li>
-            <li>Pivot.M.Classic.R2|1</li>
-            <li>Pivot.M.Classic.R2|5</li>
-            <li>Pivot.M.Classic.R2|15</li>
-            <li>Pivot.M.Classic.R2|30</li>
-            <li>Pivot.M.Classic.R2|60</li>
-            <li>Pivot.M.Classic.R2|120</li>
-            <li>Pivot.M.Classic.R2|240</li>
-            <li>Pivot.M.Classic.R2|1W</li>
-            <li>Pivot.M.Classic.R2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Classic.R3</summary>
-          <ul>
-            <li>Pivot.M.Classic.R3</li>
-            <li>Pivot.M.Classic.R3|1</li>
-            <li>Pivot.M.Classic.R3|5</li>
-            <li>Pivot.M.Classic.R3|15</li>
-            <li>Pivot.M.Classic.R3|30</li>
-            <li>Pivot.M.Classic.R3|60</li>
-            <li>Pivot.M.Classic.R3|120</li>
-            <li>Pivot.M.Classic.R3|240</li>
-            <li>Pivot.M.Classic.R3|1W</li>
-            <li>Pivot.M.Classic.R3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Classic.S1</summary>
-          <ul>
-            <li>Pivot.M.Classic.S1</li>
-            <li>Pivot.M.Classic.S1|1</li>
-            <li>Pivot.M.Classic.S1|5</li>
-            <li>Pivot.M.Classic.S1|15</li>
-            <li>Pivot.M.Classic.S1|30</li>
-            <li>Pivot.M.Classic.S1|60</li>
-            <li>Pivot.M.Classic.S1|120</li>
-            <li>Pivot.M.Classic.S1|240</li>
-            <li>Pivot.M.Classic.S1|1W</li>
-            <li>Pivot.M.Classic.S1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Classic.S2</summary>
-          <ul>
-            <li>Pivot.M.Classic.S2</li>
-            <li>Pivot.M.Classic.S2|1</li>
-            <li>Pivot.M.Classic.S2|5</li>
-            <li>Pivot.M.Classic.S2|15</li>
-            <li>Pivot.M.Classic.S2|30</li>
-            <li>Pivot.M.Classic.S2|60</li>
-            <li>Pivot.M.Classic.S2|120</li>
-            <li>Pivot.M.Classic.S2|240</li>
-            <li>Pivot.M.Classic.S2|1W</li>
-            <li>Pivot.M.Classic.S2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Classic.S3</summary>
-          <ul>
-            <li>Pivot.M.Classic.S3</li>
-            <li>Pivot.M.Classic.S3|1</li>
-            <li>Pivot.M.Classic.S3|5</li>
-            <li>Pivot.M.Classic.S3|15</li>
-            <li>Pivot.M.Classic.S3|30</li>
-            <li>Pivot.M.Classic.S3|60</li>
-            <li>Pivot.M.Classic.S3|120</li>
-            <li>Pivot.M.Classic.S3|240</li>
-            <li>Pivot.M.Classic.S3|1W</li>
-            <li>Pivot.M.Classic.S3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Demark.Middle</summary>
-          <ul>
-            <li>Pivot.M.Demark.Middle</li>
-            <li>Pivot.M.Demark.Middle|1</li>
-            <li>Pivot.M.Demark.Middle|5</li>
-            <li>Pivot.M.Demark.Middle|15</li>
-            <li>Pivot.M.Demark.Middle|30</li>
-            <li>Pivot.M.Demark.Middle|60</li>
-            <li>Pivot.M.Demark.Middle|120</li>
-            <li>Pivot.M.Demark.Middle|240</li>
-            <li>Pivot.M.Demark.Middle|1W</li>
-            <li>Pivot.M.Demark.Middle|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Demark.R1</summary>
-          <ul>
-            <li>Pivot.M.Demark.R1</li>
-            <li>Pivot.M.Demark.R1|1</li>
-            <li>Pivot.M.Demark.R1|5</li>
-            <li>Pivot.M.Demark.R1|15</li>
-            <li>Pivot.M.Demark.R1|30</li>
-            <li>Pivot.M.Demark.R1|60</li>
-            <li>Pivot.M.Demark.R1|120</li>
-            <li>Pivot.M.Demark.R1|240</li>
-            <li>Pivot.M.Demark.R1|1W</li>
-            <li>Pivot.M.Demark.R1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Demark.S1</summary>
-          <ul>
-            <li>Pivot.M.Demark.S1</li>
-            <li>Pivot.M.Demark.S1|1</li>
-            <li>Pivot.M.Demark.S1|5</li>
-            <li>Pivot.M.Demark.S1|15</li>
-            <li>Pivot.M.Demark.S1|30</li>
-            <li>Pivot.M.Demark.S1|60</li>
-            <li>Pivot.M.Demark.S1|120</li>
-            <li>Pivot.M.Demark.S1|240</li>
-            <li>Pivot.M.Demark.S1|1W</li>
-            <li>Pivot.M.Demark.S1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Fibonacci.Middle</summary>
-          <ul>
-            <li>Pivot.M.Fibonacci.Middle</li>
-            <li>Pivot.M.Fibonacci.Middle|1</li>
-            <li>Pivot.M.Fibonacci.Middle|5</li>
-            <li>Pivot.M.Fibonacci.Middle|15</li>
-            <li>Pivot.M.Fibonacci.Middle|30</li>
-            <li>Pivot.M.Fibonacci.Middle|60</li>
-            <li>Pivot.M.Fibonacci.Middle|120</li>
-            <li>Pivot.M.Fibonacci.Middle|240</li>
-            <li>Pivot.M.Fibonacci.Middle|1W</li>
-            <li>Pivot.M.Fibonacci.Middle|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Fibonacci.R1</summary>
-          <ul>
-            <li>Pivot.M.Fibonacci.R1</li>
-            <li>Pivot.M.Fibonacci.R1|1</li>
-            <li>Pivot.M.Fibonacci.R1|5</li>
-            <li>Pivot.M.Fibonacci.R1|15</li>
-            <li>Pivot.M.Fibonacci.R1|30</li>
-            <li>Pivot.M.Fibonacci.R1|60</li>
-            <li>Pivot.M.Fibonacci.R1|120</li>
-            <li>Pivot.M.Fibonacci.R1|240</li>
-            <li>Pivot.M.Fibonacci.R1|1W</li>
-            <li>Pivot.M.Fibonacci.R1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Fibonacci.R2</summary>
-          <ul>
-            <li>Pivot.M.Fibonacci.R2</li>
-            <li>Pivot.M.Fibonacci.R2|1</li>
-            <li>Pivot.M.Fibonacci.R2|5</li>
-            <li>Pivot.M.Fibonacci.R2|15</li>
-            <li>Pivot.M.Fibonacci.R2|30</li>
-            <li>Pivot.M.Fibonacci.R2|60</li>
-            <li>Pivot.M.Fibonacci.R2|120</li>
-            <li>Pivot.M.Fibonacci.R2|240</li>
-            <li>Pivot.M.Fibonacci.R2|1W</li>
-            <li>Pivot.M.Fibonacci.R2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Fibonacci.R3</summary>
-          <ul>
-            <li>Pivot.M.Fibonacci.R3</li>
-            <li>Pivot.M.Fibonacci.R3|1</li>
-            <li>Pivot.M.Fibonacci.R3|5</li>
-            <li>Pivot.M.Fibonacci.R3|15</li>
-            <li>Pivot.M.Fibonacci.R3|30</li>
-            <li>Pivot.M.Fibonacci.R3|60</li>
-            <li>Pivot.M.Fibonacci.R3|120</li>
-            <li>Pivot.M.Fibonacci.R3|240</li>
-            <li>Pivot.M.Fibonacci.R3|1W</li>
-            <li>Pivot.M.Fibonacci.R3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Fibonacci.S1</summary>
-          <ul>
-            <li>Pivot.M.Fibonacci.S1</li>
-            <li>Pivot.M.Fibonacci.S1|1</li>
-            <li>Pivot.M.Fibonacci.S1|5</li>
-            <li>Pivot.M.Fibonacci.S1|15</li>
-            <li>Pivot.M.Fibonacci.S1|30</li>
-            <li>Pivot.M.Fibonacci.S1|60</li>
-            <li>Pivot.M.Fibonacci.S1|120</li>
-            <li>Pivot.M.Fibonacci.S1|240</li>
-            <li>Pivot.M.Fibonacci.S1|1W</li>
-            <li>Pivot.M.Fibonacci.S1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Fibonacci.S2</summary>
-          <ul>
-            <li>Pivot.M.Fibonacci.S2</li>
-            <li>Pivot.M.Fibonacci.S2|1</li>
-            <li>Pivot.M.Fibonacci.S2|5</li>
-            <li>Pivot.M.Fibonacci.S2|15</li>
-            <li>Pivot.M.Fibonacci.S2|30</li>
-            <li>Pivot.M.Fibonacci.S2|60</li>
-            <li>Pivot.M.Fibonacci.S2|120</li>
-            <li>Pivot.M.Fibonacci.S2|240</li>
-            <li>Pivot.M.Fibonacci.S2|1W</li>
-            <li>Pivot.M.Fibonacci.S2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Fibonacci.S3</summary>
-          <ul>
-            <li>Pivot.M.Fibonacci.S3</li>
-            <li>Pivot.M.Fibonacci.S3|1</li>
-            <li>Pivot.M.Fibonacci.S3|5</li>
-            <li>Pivot.M.Fibonacci.S3|15</li>
-            <li>Pivot.M.Fibonacci.S3|30</li>
-            <li>Pivot.M.Fibonacci.S3|60</li>
-            <li>Pivot.M.Fibonacci.S3|120</li>
-            <li>Pivot.M.Fibonacci.S3|240</li>
-            <li>Pivot.M.Fibonacci.S3|1W</li>
-            <li>Pivot.M.Fibonacci.S3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Woodie.Middle</summary>
-          <ul>
-            <li>Pivot.M.Woodie.Middle</li>
-            <li>Pivot.M.Woodie.Middle|1</li>
-            <li>Pivot.M.Woodie.Middle|5</li>
-            <li>Pivot.M.Woodie.Middle|15</li>
-            <li>Pivot.M.Woodie.Middle|30</li>
-            <li>Pivot.M.Woodie.Middle|60</li>
-            <li>Pivot.M.Woodie.Middle|120</li>
-            <li>Pivot.M.Woodie.Middle|240</li>
-            <li>Pivot.M.Woodie.Middle|1W</li>
-            <li>Pivot.M.Woodie.Middle|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Woodie.R1</summary>
-          <ul>
-            <li>Pivot.M.Woodie.R1</li>
-            <li>Pivot.M.Woodie.R1|1</li>
-            <li>Pivot.M.Woodie.R1|5</li>
-            <li>Pivot.M.Woodie.R1|15</li>
-            <li>Pivot.M.Woodie.R1|30</li>
-            <li>Pivot.M.Woodie.R1|60</li>
-            <li>Pivot.M.Woodie.R1|120</li>
-            <li>Pivot.M.Woodie.R1|240</li>
-            <li>Pivot.M.Woodie.R1|1W</li>
-            <li>Pivot.M.Woodie.R1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Woodie.R2</summary>
-          <ul>
-            <li>Pivot.M.Woodie.R2</li>
-            <li>Pivot.M.Woodie.R2|1</li>
-            <li>Pivot.M.Woodie.R2|5</li>
-            <li>Pivot.M.Woodie.R2|15</li>
-            <li>Pivot.M.Woodie.R2|30</li>
-            <li>Pivot.M.Woodie.R2|60</li>
-            <li>Pivot.M.Woodie.R2|120</li>
-            <li>Pivot.M.Woodie.R2|240</li>
-            <li>Pivot.M.Woodie.R2|1W</li>
-            <li>Pivot.M.Woodie.R2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Woodie.R3</summary>
-          <ul>
-            <li>Pivot.M.Woodie.R3</li>
-            <li>Pivot.M.Woodie.R3|1</li>
-            <li>Pivot.M.Woodie.R3|5</li>
-            <li>Pivot.M.Woodie.R3|15</li>
-            <li>Pivot.M.Woodie.R3|30</li>
-            <li>Pivot.M.Woodie.R3|60</li>
-            <li>Pivot.M.Woodie.R3|120</li>
-            <li>Pivot.M.Woodie.R3|240</li>
-            <li>Pivot.M.Woodie.R3|1W</li>
-            <li>Pivot.M.Woodie.R3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Woodie.S1</summary>
-          <ul>
-            <li>Pivot.M.Woodie.S1</li>
-            <li>Pivot.M.Woodie.S1|1</li>
-            <li>Pivot.M.Woodie.S1|5</li>
-            <li>Pivot.M.Woodie.S1|15</li>
-            <li>Pivot.M.Woodie.S1|30</li>
-            <li>Pivot.M.Woodie.S1|60</li>
-            <li>Pivot.M.Woodie.S1|120</li>
-            <li>Pivot.M.Woodie.S1|240</li>
-            <li>Pivot.M.Woodie.S1|1W</li>
-            <li>Pivot.M.Woodie.S1|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Woodie.S2</summary>
-          <ul>
-            <li>Pivot.M.Woodie.S2</li>
-            <li>Pivot.M.Woodie.S2|1</li>
-            <li>Pivot.M.Woodie.S2|5</li>
-            <li>Pivot.M.Woodie.S2|15</li>
-            <li>Pivot.M.Woodie.S2|30</li>
-            <li>Pivot.M.Woodie.S2|60</li>
-            <li>Pivot.M.Woodie.S2|120</li>
-            <li>Pivot.M.Woodie.S2|240</li>
-            <li>Pivot.M.Woodie.S2|1W</li>
-            <li>Pivot.M.Woodie.S2|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Pivot.M.Woodie.S3</summary>
-          <ul>
-            <li>Pivot.M.Woodie.S3</li>
-            <li>Pivot.M.Woodie.S3|1</li>
-            <li>Pivot.M.Woodie.S3|5</li>
-            <li>Pivot.M.Woodie.S3|15</li>
-            <li>Pivot.M.Woodie.S3|30</li>
-            <li>Pivot.M.Woodie.S3|60</li>
-            <li>Pivot.M.Woodie.S3|120</li>
-            <li>Pivot.M.Woodie.S3|240</li>
-            <li>Pivot.M.Woodie.S3|1W</li>
-            <li>Pivot.M.Woodie.S3|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
           <summary>RSI2</summary>
           <ul>
             <li>RSI2</li>
@@ -5507,11 +5552,6 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>ask</td>
-      <td></td>
-      <td>price</td>
-    </tr>
-    <tr>
       <td>at_the_money_addresses_percentage</td>
       <td></td>
       <td>percent</td>
@@ -5553,11 +5593,6 @@
       <td>text</td>
     </tr>
     <tr>
-      <td>bid</td>
-      <td></td>
-      <td>price</td>
-    </tr>
-    <tr>
       <td>blockchain-id</td>
       <td></td>
       <td>text</td>
@@ -5566,11 +5601,6 @@
       <td>break_even_addresses_percentage</td>
       <td></td>
       <td>percent</td>
-    </tr>
-    <tr>
-      <td>centralization</td>
-      <td></td>
-      <td>text</td>
     </tr>
     <tr>
       <td>circulating_supply</td>
@@ -5624,11 +5654,6 @@
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
-      <td></td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>currency</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -6109,16 +6134,6 @@
       <td>fundamental_price</td>
     </tr>
     <tr>
-      <td>market_cap_calc</td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>market_cap_diluted_calc</td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
       <td>market_cap_to_tvl</td>
       <td></td>
       <td>number</td>
@@ -6142,6 +6157,11 @@
       <td>minmove2</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>nvt</td>
@@ -6373,16 +6393,6 @@
       <td>number</td>
     </tr>
     <tr>
-      <td>total_shares_diluted</td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>total_shares_outstanding</td>
-      <td></td>
-      <td>number</td>
-    </tr>
-    <tr>
       <td>total_supply</td>
       <td></td>
       <td>number</td>
@@ -6391,11 +6401,6 @@
       <td>total_to_max_supply_ratio</td>
       <td></td>
       <td>percent</td>
-    </tr>
-    <tr>
-      <td>total_value_traded</td>
-      <td></td>
-      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>tvl</td>
@@ -6426,11 +6431,6 @@
       <td>txs_volume_usd</td>
       <td></td>
       <td>fundamental_price</td>
-    </tr>
-    <tr>
-      <td>type</td>
-      <td></td>
-      <td>text</td>
     </tr>
     <tr>
       <td>typespecs</td>
@@ -6575,7 +6575,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2024-07-31 21:35:00</mark>
+    <mark>Last updated: 2024-07-31 21:51:36</mark>
   </div>
 </main>
 <script>

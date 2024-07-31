@@ -1,14 +1,9 @@
 [
     {
-        "n": "name",
-        "t": "text",
-        "r": null
-    },
-    {
-        "n": "exchange",
+        "n": "type",
         "t": "text",
         "r": [
-            "TVC"
+            "bond"
         ]
     },
     {
@@ -22,11 +17,25 @@
         "r": null
     },
     {
-        "n": "submarket",
-        "t": "text",
-        "r": [
-            ""
-        ]
+        "n": "change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "sector",
@@ -41,250 +50,14 @@
         "rd": true
     },
     {
-        "n": "volume|1",
+        "n": "High.1M",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "change",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change|1",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_abs",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_abs|1",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "open",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "open|1",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "close",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "close|1",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "high",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "high|1",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "low",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "low|1",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "gap",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "gap|1",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_from_open",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_from_open|1",
-        "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_from_open_abs",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "change_from_open_abs|1",
-        "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.3M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.6M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.Y",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.YTD",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.5Y",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Perf.All",
-        "t": "number",
-        "r": null
-    },
-    {
-        "n": "Volatility.W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Volatility.M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Volatility.D",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "High.All",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Low.All",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "price_52_week_high",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "price_52_week_low",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "High.6M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Low.6M",
+        "n": "Low.1M",
         "t": "number",
         "r": null,
         "hh": true,
@@ -305,15 +78,139 @@
         "rd": true
     },
     {
-        "n": "High.1M",
+        "n": "Perf.3M",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "Low.1M",
+        "n": "Perf.5Y",
         "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.6M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_high",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "price_52_week_low",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "High.All",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Low.All",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "change_from_open",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "exchange",
+        "t": "text",
+        "r": [
+            "TVC"
+        ]
+    },
+    {
+        "n": "gap",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "high",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "low",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.1M",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "postmarket_change_abs",
+        "t": "price",
         "r": null,
         "hh": true,
         "rd": true
@@ -354,18 +251,103 @@
         "rd": true
     },
     {
-        "n": "postmarket_change",
-        "t": "percent",
+        "n": "submarket",
+        "t": "text",
+        "r": [
+            ""
+        ]
+    },
+    {
+        "n": "Volatility.D",
+        "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "postmarket_change_abs",
-        "t": "price",
+        "n": "Volatility.M",
+        "t": "number",
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "Volatility.W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.W",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.YTD",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "currency",
+        "t": "text",
+        "r": [
+            "AUD",
+            "BRL",
+            "CAD",
+            "CHF",
+            "CLP",
+            "CNY",
+            "COP",
+            "CZK",
+            "DKK",
+            "EUR",
+            "GBP",
+            "HKD",
+            "HUF",
+            "IDR",
+            "INR",
+            "ISK",
+            "JPY",
+            "KRW",
+            "MYR",
+            "NOK",
+            "NZD",
+            "PEN",
+            "PHP",
+            "PLN",
+            "RON",
+            "SEK",
+            "SGD",
+            "THB",
+            "TRY",
+            "TWD",
+            "UAH",
+            "USD",
+            "VND",
+            "ZAR"
+        ]
+    },
+    {
+        "n": "ask",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "bid",
+        "t": "price",
+        "r": null
     },
     {
         "n": "Bond.Change",
@@ -609,11 +591,6 @@
         "r": null
     },
     {
-        "n": "ask",
-        "t": "price",
-        "r": null
-    },
-    {
         "n": "bars_count",
         "t": "number",
         "r": null,
@@ -633,9 +610,39 @@
         "r": []
     },
     {
-        "n": "bid",
+        "n": "change|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_abs|1",
         "t": "price",
-        "r": null
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "change_from_open_abs|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "close|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "close_1_days_back",
@@ -726,46 +733,6 @@
         "n": "cryptoasset-info.id",
         "t": "text",
         "r": []
-    },
-    {
-        "n": "currency",
-        "t": "text",
-        "r": [
-            "AUD",
-            "BRL",
-            "CAD",
-            "CHF",
-            "CLP",
-            "CNY",
-            "COP",
-            "CZK",
-            "DKK",
-            "EUR",
-            "GBP",
-            "HKD",
-            "HUF",
-            "IDR",
-            "INR",
-            "ISK",
-            "JPY",
-            "KRW",
-            "MYR",
-            "NOK",
-            "NZD",
-            "PEN",
-            "PHP",
-            "PLN",
-            "RON",
-            "SEK",
-            "SGD",
-            "THB",
-            "TRY",
-            "TWD",
-            "UAH",
-            "USD",
-            "VND",
-            "ZAR"
-        ]
     },
     {
         "n": "currency_id",
@@ -859,6 +826,13 @@
         ]
     },
     {
+        "n": "gap|1",
+        "t": "percent",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "gap_down",
         "t": "percent",
         "r": null,
@@ -909,6 +883,13 @@
     },
     {
         "n": "gap_up_abs|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "high|1",
         "t": "price",
         "r": null,
         "hh": true,
@@ -968,6 +949,13 @@
         "r": null
     },
     {
+        "n": "low|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "low_after_high_all_change",
         "t": "percent",
         "r": null
@@ -998,6 +986,18 @@
         "n": "minmove2",
         "t": "number",
         "r": null
+    },
+    {
+        "n": "name",
+        "t": "text",
+        "r": null
+    },
+    {
+        "n": "open|1",
+        "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "popularity_rank",
@@ -1230,13 +1230,6 @@
         "rd": true
     },
     {
-        "n": "type",
-        "t": "text",
-        "r": [
-            "bond"
-        ]
-    },
-    {
         "n": "typespecs",
         "t": "set",
         "r": [
@@ -1271,6 +1264,13 @@
         "n": "update_time",
         "t": "time",
         "r": null
+    },
+    {
+        "n": "volume|1",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "volume_change",

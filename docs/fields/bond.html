@@ -97,13 +97,8 @@
     </thead>
     <tbody>
     <tr>
-      <td>name</td>
+      <td>type</td>
       <td>Symbol Type</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>exchange</td>
-      <td>Exchange</td>
       <td>text</td>
     </tr>
     <tr>
@@ -117,31 +112,6 @@
       <td>bool</td>
     </tr>
     <tr>
-      <td>submarket</td>
-      <td>Submarket</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>sector</td>
-      <td>Sector</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>industry</td>
-      <td>Industry</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>country</td>
-      <td>Country</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>volume</td>
-      <td>Volume</td>
-      <td>number</td>
-    </tr>
-    <tr>
       <td>change</td>
       <td>Change %</td>
       <td>percent</td>
@@ -152,29 +122,24 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>open</td>
-      <td>Open</td>
-      <td>price</td>
-    </tr>
-    <tr>
       <td>close</td>
       <td>Price</td>
       <td>price</td>
     </tr>
     <tr>
-      <td>high</td>
-      <td>High</td>
-      <td>price</td>
+      <td>sector</td>
+      <td>Group</td>
+      <td>text</td>
     </tr>
     <tr>
-      <td>low</td>
-      <td>Low</td>
-      <td>price</td>
+      <td>volume</td>
+      <td>Volume</td>
+      <td>number</td>
     </tr>
     <tr>
-      <td>gap</td>
-      <td>Gap %</td>
-      <td>percent</td>
+      <td>Perf.All</td>
+      <td>All Time Performance</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>change_from_open</td>
@@ -187,9 +152,49 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>Perf.All</td>
-      <td>All Time Performance</td>
-      <td>number</td>
+      <td>country</td>
+      <td>Region</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>exchange</td>
+      <td>Exchange</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>gap</td>
+      <td>Gap %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>high</td>
+      <td>High</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>industry</td>
+      <td>Industry</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>low</td>
+      <td>Low</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>open</td>
+      <td>Open</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>postmarket_change</td>
+      <td>Post-market Change %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>postmarket_change_abs</td>
+      <td>Post-market Change</td>
+      <td>price</td>
     </tr>
     <tr>
       <td>premarket_change</td>
@@ -217,13 +222,23 @@
       <td>percent</td>
     </tr>
     <tr>
-      <td>postmarket_change</td>
-      <td>Post-market Change %</td>
-      <td>percent</td>
+      <td>submarket</td>
+      <td>Submarket</td>
+      <td>text</td>
     </tr>
     <tr>
-      <td>postmarket_change_abs</td>
-      <td>Post-market Change</td>
+      <td>currency</td>
+      <td>Quote currency</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>ask</td>
+      <td>Ask</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>bid</td>
+      <td>Bid</td>
       <td>price</td>
     </tr>
     <tr>
@@ -257,11 +272,6 @@
       <td>price</td>
     </tr>
     <tr>
-      <td>ask</td>
-      <td></td>
-      <td>price</td>
-    </tr>
-    <tr>
       <td>bars_count</td>
       <td></td>
       <td>number</td>
@@ -270,11 +280,6 @@
       <td>base_currency_kind</td>
       <td></td>
       <td>text</td>
-    </tr>
-    <tr>
-      <td>bid</td>
-      <td></td>
-      <td>price</td>
     </tr>
     <tr>
       <td>bond_issuer</td>
@@ -358,11 +363,6 @@
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
-      <td></td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <td>currency</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -512,6 +512,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>name</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>nominal_value</td>
       <td></td>
       <td>fundamental_price</td>
@@ -652,11 +657,6 @@
       <td>time</td>
     </tr>
     <tr>
-      <td>type</td>
-      <td></td>
-      <td>text</td>
-    </tr>
-    <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
@@ -709,7 +709,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2024-07-31 21:35:06</mark>
+    <mark>Last updated: 2024-07-31 21:51:43</mark>
   </div>
 </main>
 <script>
