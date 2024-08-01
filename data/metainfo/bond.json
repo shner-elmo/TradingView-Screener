@@ -2393,7 +2393,6 @@
             "Centre Hospitalier Universitaire de Rennes",
             "Centre Hospitalier Yves Le Foll",
             "Centre Hospitalier d'Arles",
-            "Centre Hospitalier de Cambrai",
             "Centrica Plc",
             "Centrus Energy Corp.",
             "Centurion Bidco SpA",
@@ -2483,7 +2482,6 @@
             "China Evergrande Group",
             "China Gezhouba Group Co., Ltd.",
             "China Great Wall International Holdings III Ltd.",
-            "China Great Wall International Holdings IV Ltd.",
             "China Great Wall International Holdings V Ltd.",
             "China Great Wall International Holdings VI Ltd.",
             "China Hongqiao Group Ltd.",
@@ -4203,7 +4201,6 @@
             "Government of Hong Kong Special Administrative Region",
             "Government of Hungary",
             "Government of Iceland",
-            "Government of India",
             "Government of Indonesia",
             "Government of Iraq",
             "Government of Ireland",
@@ -9866,6 +9863,7 @@
             "BCS:LTM",
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
+            "BER:GDGE",
             "BER:VG1",
             "BET:MKBBANK",
             "BET:MOL",
@@ -10197,7 +10195,6 @@
             "EURONEXT:VANTI",
             "EURONEXT:VGP",
             "EURONEXT:VIE",
-            "EURONEXT:VIRI",
             "EURONEXT:VIV",
             "EURONEXT:VK",
             "EURONEXT:VLK",
@@ -12948,8 +12945,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session",
-            "post_market"
+            "pre_market"
         ]
     },
     {

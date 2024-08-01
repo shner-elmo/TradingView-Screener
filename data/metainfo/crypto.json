@@ -99,7 +99,6 @@
             "Band Protocol",
             "Bankera",
             "Basic Attention Token",
-            "Beldex",
             "Bella Protocol",
             "Big Time",
             "BigONE Token",
@@ -436,7 +435,6 @@
             "Tachyon Protocol",
             "Taiko",
             "Tap",
-            "Telcoin",
             "Tellor",
             "Telos",
             "TenX",
@@ -12398,13 +12396,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12412,7 +12403,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12426,6 +12417,13 @@
         "rd": true
     },
     {
+        "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12433,14 +12431,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17959,7 +17957,6 @@
             "BCH",
             "BCN",
             "BCUG",
-            "BDX",
             "BEL",
             "BGB",
             "BIGTIME",
@@ -18292,7 +18289,6 @@
             "T",
             "TAIKO",
             "TAO",
-            "TEL",
             "TFUEL",
             "THETA",
             "TIA",
@@ -18526,7 +18522,6 @@
             "XTVCFTXTOKEN",
             "XTVCFUD",
             "XTVCFUL",
-            "XTVCFXB20241231",
             "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXUSD",
@@ -18683,6 +18678,7 @@
             "XTVCWCRO",
             "XTVCWEETH",
             "XTVCWEGLD",
+            "XTVCWETF",
             "XTVCWETH",
             "XTVCWETHE",
             "XTVCWFTM",
