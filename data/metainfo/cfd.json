@@ -11670,14 +11670,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17175,7 +17175,6 @@
             "Aave",
             "Aerodrome Finance",
             "Aevo",
-            "Amp",
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
@@ -17247,7 +17246,6 @@
             "TRON",
             "Tellor",
             "Tether USDt",
-            "The Graph",
             "Threshold",
             "Toncoin",
             "Tribe",
@@ -17257,6 +17255,7 @@
             "USDD",
             "Uniswap",
             "VeChain",
+            "Venom",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
@@ -17276,7 +17275,6 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
-            "XTVCAMP2",
             "XTVCAPTO",
             "XTVCAR",
             "XTVCARBI",
@@ -17309,7 +17307,6 @@
             "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
-            "XTVCGRT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
@@ -17355,6 +17352,7 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDT",
+            "XTVCVENOM2",
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
@@ -17422,10 +17420,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

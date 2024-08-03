@@ -2053,7 +2053,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -14200,14 +14199,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14235,14 +14234,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19678,6 +19677,7 @@
             "Harvest Funds",
             "Hashdex",
             "Hejaz",
+            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -19833,6 +19833,7 @@
             "Obermatt",
             "Obra",
             "Ocean Park",
+            "Octane",
             "OneETF",
             "Oneascent",
             "Onefund",
@@ -20550,7 +20551,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -20771,10 +20771,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23015,6 +23012,7 @@
             "Harvest Portfolios Group, Inc.",
             "Hashdex AG",
             "Hejaz Capital Pty Ltd.",
+            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
@@ -23435,7 +23433,6 @@
             "03c3e49bdc7aeee29cfd314c475fb410",
             "1636f70a7bf29b6ae3bdd70362782a50",
             "176120eec53119ba0b1bb2b7a4e77538",
-            "18b6334d73b71c138ac7dfc3ca1ba779",
             "205b83335c9d5a9dad8dae82e0856c1f",
             "2c72cb32dc2f849b1df36621bbe622de",
             "3c10eee496eb162ae0ed866403f2f032",
