@@ -14199,14 +14199,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23146,7 +23146,6 @@
             "PDR Services LLC",
             "PEH Wertpapier AG",
             "PMV Capital LLC",
-            "PT Capital Financial Indonesia Tbk",
             "PT Indo Premier Securities",
             "PT Insight Investments Management",
             "PT Lenox Pasifik Investama Tbk",

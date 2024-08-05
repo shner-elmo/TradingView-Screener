@@ -17183,6 +17183,7 @@
             "BNB",
             "Bitcoin",
             "Bitcoin Cash",
+            "Bitget Token",
             "Bittensor",
             "Bonk",
             "Cardano",
@@ -17261,7 +17262,6 @@
             "Wrapped eETH",
             "XRP",
             "dYdX (ethDYDX)",
-            "dogwifhat",
             "ether.fi",
             "yearn.finance"
         ]
@@ -17281,6 +17281,7 @@
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
+            "XTVCBGB",
             "XTVCBNB",
             "XTVCBONK",
             "XTVCBTC",
@@ -17356,7 +17357,6 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
-            "XTVCWIF",
             "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
@@ -17421,7 +17421,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

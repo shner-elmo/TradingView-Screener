@@ -1929,7 +1929,6 @@
             "BroadStreet Partners, Inc.",
             "Broadcom Corp.",
             "Broadcom Inc.",
-            "Broadmark Realty Capital, Inc.",
             "Broadridge Financial Solutions, Inc.",
             "Broadstone Net Lease, Inc.",
             "Bromford Housing Group Ltd.",
@@ -3606,6 +3605,7 @@
             "European Union",
             "Eushi Finance, Inc.",
             "Eutelsat SA",
+            "Evan Group Plc",
             "Evans Bancorp, Inc.",
             "Eve Battery Investment Ltd.",
             "Eventbrite, Inc.",
@@ -8265,6 +8265,7 @@
             "StoneCo Ltd.",
             "StoneX Group, Inc.",
             "Stonegate Pub Company Financing 2019 Plc",
+            "Stonegate Pub Company Financing Plc",
             "Stonewater Funding Plc",
             "Stora Enso Oyj",
             "StorageVault Canada, Inc.",
@@ -8769,7 +8770,6 @@
             "The Trustees of Princeton University",
             "The Trustees of Union College",
             "The U.S. International Development Finance Corp.",
-            "The UNITE Group Plc",
             "The University of Chicago",
             "The University of Liverpool",
             "The University of Manchester",
@@ -10462,7 +10462,6 @@
             "LSE:TRN",
             "LSE:TSCO",
             "LSE:ULVR",
-            "LSE:UTG",
             "LSE:UU.",
             "LSE:VANQ",
             "LSE:VMUK",
@@ -12934,7 +12933,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "out_of_session"
+            "market",
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
