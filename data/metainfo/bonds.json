@@ -786,7 +786,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "out_of_session"
+            "market",
+            "pre_market"
         ]
     },
     {
