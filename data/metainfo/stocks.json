@@ -20773,7 +20773,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market"
         ]
     },
     {
