@@ -11691,14 +11691,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17183,7 +17183,6 @@
             "BNB",
             "Bitcoin",
             "Bitcoin Cash",
-            "Bitget Token",
             "Bittensor",
             "Bonk",
             "Cardano",
@@ -17262,6 +17261,7 @@
             "Wrapped eETH",
             "XRP",
             "dYdX (ethDYDX)",
+            "dogwifhat",
             "ether.fi",
             "yearn.finance"
         ]
@@ -17281,7 +17281,6 @@
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
-            "XTVCBGB",
             "XTVCBNB",
             "XTVCBONK",
             "XTVCBTC",
@@ -17357,6 +17356,7 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
+            "XTVCWIF",
             "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",

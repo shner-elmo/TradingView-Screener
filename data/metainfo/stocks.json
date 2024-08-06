@@ -14234,14 +14234,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19570,6 +19570,7 @@
             "Cultivar",
             "DB",
             "DGA",
+            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -21154,6 +21155,7 @@
             "KRW",
             "MXN",
             "MYR",
+            "NOK",
             "NZD",
             "PHP",
             "PLN",
@@ -22914,6 +22916,7 @@
             "DB Financial Investment Co., Ltd.",
             "DMS Governance Ltd.",
             "DMS Offshore Investment Services (UK) Ltd.",
+            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",
             "Daintree Capital Management Pty Ltd.",

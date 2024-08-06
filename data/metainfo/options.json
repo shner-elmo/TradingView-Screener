@@ -477,7 +477,8 @@
             "provider/ice",
             "source/BSE",
             "source/CME",
-            "source/NSE"
+            "source/NSE",
+            "source/OPRA"
         ]
     },
     {
