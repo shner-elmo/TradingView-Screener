@@ -14199,13 +14199,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14213,7 +14206,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14227,6 +14220,13 @@
         "rd": true
     },
     {
+        "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14234,14 +14234,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19514,7 +19514,6 @@
             "Bristol Gate",
             "Brompton",
             "Brookstone",
-            "Buena",
             "Build",
             "Burney",
             "Bushido",
@@ -19714,6 +19713,7 @@
             "Invesco Great Wall",
             "Investlinx",
             "Ionic",
+            "Itau",
             "JKO",
             "JPMorgan",
             "Jacob",
@@ -20771,9 +20771,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -21138,7 +21138,6 @@
             "AED",
             "AUD",
             "BGN",
-            "BRL",
             "CAD",
             "CHF",
             "CNH",
@@ -22861,7 +22860,6 @@
             "Brandes Worldwide Holdings LP",
             "Bristol Gate Capital Partners, Inc.",
             "Brompton Corp.",
-            "Buena Vista Gestora de Recursos Ltda.",
             "Build Asset Management LLC",
             "CCB Principal Asset Management Co., Ltd.",
             "CGS International Securities Pte Ltd.",
@@ -23048,6 +23046,7 @@
             "InvestSMART Funds Management Ltd.",
             "Investlinx Investment Management Ltd.",
             "IronHorse Holdings LLC",
+            "Ita\u00fa Unibanco Holding SA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Jacob Asset Management of New York LLC",
