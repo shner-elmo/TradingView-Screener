@@ -246,7 +246,6 @@
             "MUN",
             "NASDAQDUBAI",
             "NEO",
-            "NSE",
             "PSECZ",
             "PSX",
             "TRADEGATE",
@@ -7394,7 +7393,6 @@
             "Region of Valencia",
             "Region of Veneto",
             "Region of Wallonia (Belgium)",
-            "Regional REIT Ltd.",
             "Regions Bank",
             "Regions Financial Corp.",
             "Regi\u00e3o Autonoma dos A\u00e7ores",
@@ -8497,7 +8495,6 @@
             "Tandem Diabetes Care, Inc.",
             "Tanger Properties LP",
             "Tangerine Bidco SpA",
-            "Tangerine Pomelo Group SAPI de CV",
             "Tapestry, Inc.",
             "Tapir Constructions Ltd.",
             "Taquito Lease Operators Pvt Ltd.",
@@ -10441,7 +10438,6 @@
             "LSE:PTEC",
             "LSE:QLT",
             "LSE:RE.",
-            "LSE:RGL",
             "LSE:RTO",
             "LSE:RWI",
             "LSE:SAGA",
@@ -12769,6 +12765,7 @@
             "CLP",
             "CNH",
             "COP",
+            "CRC",
             "CZK",
             "DKK",
             "DOP",
@@ -12944,6 +12941,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
