@@ -724,7 +724,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market"
+            "market",
+            "pre_market"
         ]
     },
     {

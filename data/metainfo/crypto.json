@@ -259,6 +259,7 @@
             "Kusama",
             "Kyber Network",
             "LTO Network",
+            "Lambda",
             "LayerZero",
             "League of Kingdoms Arena",
             "Lido DAO",
@@ -356,7 +357,6 @@
             "PowerPool",
             "Prom",
             "Propy",
-            "PumaPay",
             "Push Protocol",
             "Pyth Network",
             "Qredo",
@@ -12388,13 +12388,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12402,7 +12395,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12410,6 +12403,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18112,6 +18112,7 @@
             "KMD",
             "KNC",
             "KSM",
+            "LAMB",
             "LDO",
             "LEO",
             "LINK",
@@ -18195,7 +18196,6 @@
             "PHB",
             "PIVX",
             "PIXEL",
-            "PMA",
             "PNK",
             "POE",
             "POKT",
@@ -18512,6 +18512,7 @@
             "XTVCFTXTOKEN",
             "XTVCFUD",
             "XTVCFUL",
+            "XTVCFXB20241231",
             "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXUSD",

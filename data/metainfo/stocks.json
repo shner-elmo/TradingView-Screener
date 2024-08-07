@@ -14213,14 +14213,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20771,10 +20771,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {
@@ -23243,7 +23241,6 @@
             "State Street Corp.",
             "State of Zurich",
             "Stf Management LP",
-            "Subversive LLC",
             "Sumitomo Mitsui Financial Group, Inc.",
             "Sumitomo Mitsui Trust Holdings, Inc.",
             "Summit Global LLC",
