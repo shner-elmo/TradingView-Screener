@@ -11656,13 +11656,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -11670,7 +11663,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11678,6 +11671,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17175,6 +17175,7 @@
             "Aave",
             "Aerodrome Finance",
             "Aevo",
+            "Amp",
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
@@ -17255,7 +17256,6 @@
             "USDD",
             "Uniswap",
             "VeChain",
-            "Venom",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
@@ -17275,6 +17275,7 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
+            "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
             "XTVCATOM",
@@ -17352,7 +17353,6 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDT",
-            "XTVCVENOM2",
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",

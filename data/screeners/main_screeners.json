@@ -1,0 +1,287 @@
+[
+    {
+        "name": "stocks",
+        "url": "https://www.tradingview.com/legacy-screener/",
+        "query": {
+            "filter": [
+                {
+                    "left": "type",
+                    "operation": "in_range",
+                    "right": [
+                        "stock",
+                        "dr",
+                        "fund"
+                    ]
+                },
+                {
+                    "left": "subtype",
+                    "operation": "in_range",
+                    "right": [
+                        "common",
+                        "foreign-issuer",
+                        "",
+                        "etf",
+                        "etf,odd",
+                        "etf,otc",
+                        "etf,cfd"
+                    ]
+                },
+                {
+                    "left": "exchange",
+                    "operation": "in_range",
+                    "right": [
+                        "AMEX",
+                        "NASDAQ",
+                        "NYSE"
+                    ]
+                },
+                {
+                    "left": "is_primary",
+                    "operation": "equal",
+                    "right": true
+                },
+                {
+                    "left": "active_symbol",
+                    "operation": "equal",
+                    "right": true
+                }
+            ],
+            "options": {
+                "lang": "en"
+            },
+            "markets": [
+                "america"
+            ],
+            "symbols": {
+                "query": {
+                    "types": []
+                },
+                "tickers": []
+            },
+            "columns": [
+                "logoid",
+                "name",
+                "close",
+                "change",
+                "change_abs",
+                "Recommend.All",
+                "volume",
+                "Value.Traded",
+                "market_cap_basic",
+                "price_earnings_ttm",
+                "earnings_per_share_basic_ttm",
+                "number_of_employees",
+                "sector",
+                "description",
+                "type",
+                "subtype",
+                "update_mode",
+                "pricescale",
+                "minmov",
+                "fractional",
+                "minmove2",
+                "currency",
+                "fundamental_currency_code"
+            ],
+            "sort": {
+                "sortBy": "market_cap_basic",
+                "sortOrder": "desc"
+            },
+            "range": [
+                0,
+                150
+            ]
+        },
+        "query_as_code": "(Query()\n .select(\n     \"logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"Recommend.All\",\n     \"volume\",\n     \"Value.Traded\",\n     \"market_cap_basic\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_basic_ttm\",\n     \"number_of_employees\",\n     \"sector\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"fundamental_currency_code\",\n )\n .where(\n     col(\"type\").isin([\"stock\", \"dr\", \"fund\"]),\n     col(\"subtype\").isin(\n         [\"common\", \"foreign-issuer\", \"\", \"etf\", \"etf,odd\", \"etf,otc\", \"etf,cfd\"]\n     ),\n     col(\"exchange\").isin([\"AMEX\", \"NASDAQ\", \"NYSE\"]),\n     col(\"is_primary\") == True,\n     col(\"active_symbol\") == True,\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(150)\n .set_markets(\"america\"))"
+    },
+    {
+        "name": "crypto",
+        "url": "https://www.tradingview.com/crypto-screener/",
+        "query": {
+            "filter": [
+                {
+                    "left": "type",
+                    "operation": "in_range",
+                    "right": [
+                        "stock",
+                        "dr",
+                        "fund"
+                    ]
+                },
+                {
+                    "left": "subtype",
+                    "operation": "in_range",
+                    "right": [
+                        "common",
+                        "foreign-issuer",
+                        "",
+                        "etf",
+                        "etf,odd",
+                        "etf,otc",
+                        "etf,cfd"
+                    ]
+                },
+                {
+                    "left": "exchange",
+                    "operation": "in_range",
+                    "right": [
+                        "AMEX",
+                        "NASDAQ",
+                        "NYSE"
+                    ]
+                },
+                {
+                    "left": "is_primary",
+                    "operation": "equal",
+                    "right": true
+                },
+                {
+                    "left": "active_symbol",
+                    "operation": "equal",
+                    "right": true
+                }
+            ],
+            "options": {
+                "lang": "en"
+            },
+            "markets": [
+                "america"
+            ],
+            "symbols": {
+                "query": {
+                    "types": []
+                },
+                "tickers": []
+            },
+            "columns": [
+                "logoid",
+                "name",
+                "close",
+                "change",
+                "change_abs",
+                "Recommend.All",
+                "volume",
+                "Value.Traded",
+                "market_cap_basic",
+                "price_earnings_ttm",
+                "earnings_per_share_basic_ttm",
+                "number_of_employees",
+                "sector",
+                "description",
+                "type",
+                "subtype",
+                "update_mode",
+                "pricescale",
+                "minmov",
+                "fractional",
+                "minmove2",
+                "currency",
+                "fundamental_currency_code"
+            ],
+            "sort": {
+                "sortBy": "market_cap_basic",
+                "sortOrder": "desc"
+            },
+            "range": [
+                0,
+                150
+            ]
+        },
+        "query_as_code": "(Query()\n .select(\n     \"logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"Recommend.All\",\n     \"volume\",\n     \"Value.Traded\",\n     \"market_cap_basic\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_basic_ttm\",\n     \"number_of_employees\",\n     \"sector\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"fundamental_currency_code\",\n )\n .where(\n     col(\"type\").isin([\"stock\", \"dr\", \"fund\"]),\n     col(\"subtype\").isin(\n         [\"common\", \"foreign-issuer\", \"\", \"etf\", \"etf,odd\", \"etf,otc\", \"etf,cfd\"]\n     ),\n     col(\"exchange\").isin([\"AMEX\", \"NASDAQ\", \"NYSE\"]),\n     col(\"is_primary\") == True,\n     col(\"active_symbol\") == True,\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(150)\n .set_markets(\"america\"))"
+    },
+    {
+        "name": "forex",
+        "url": "https://www.tradingview.com/forex-screener/",
+        "query": {
+            "filter": [
+                {
+                    "left": "type",
+                    "operation": "in_range",
+                    "right": [
+                        "stock",
+                        "dr",
+                        "fund"
+                    ]
+                },
+                {
+                    "left": "subtype",
+                    "operation": "in_range",
+                    "right": [
+                        "common",
+                        "foreign-issuer",
+                        "",
+                        "etf",
+                        "etf,odd",
+                        "etf,otc",
+                        "etf,cfd"
+                    ]
+                },
+                {
+                    "left": "exchange",
+                    "operation": "in_range",
+                    "right": [
+                        "AMEX",
+                        "NASDAQ",
+                        "NYSE"
+                    ]
+                },
+                {
+                    "left": "is_primary",
+                    "operation": "equal",
+                    "right": true
+                },
+                {
+                    "left": "active_symbol",
+                    "operation": "equal",
+                    "right": true
+                }
+            ],
+            "options": {
+                "lang": "en"
+            },
+            "markets": [
+                "america"
+            ],
+            "symbols": {
+                "query": {
+                    "types": []
+                },
+                "tickers": []
+            },
+            "columns": [
+                "logoid",
+                "name",
+                "close",
+                "change",
+                "change_abs",
+                "Recommend.All",
+                "volume",
+                "Value.Traded",
+                "market_cap_basic",
+                "price_earnings_ttm",
+                "earnings_per_share_basic_ttm",
+                "number_of_employees",
+                "sector",
+                "description",
+                "type",
+                "subtype",
+                "update_mode",
+                "pricescale",
+                "minmov",
+                "fractional",
+                "minmove2",
+                "currency",
+                "fundamental_currency_code"
+            ],
+            "sort": {
+                "sortBy": "market_cap_basic",
+                "sortOrder": "desc"
+            },
+            "range": [
+                0,
+                150
+            ]
+        },
+        "query_as_code": "(Query()\n .select(\n     \"logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"Recommend.All\",\n     \"volume\",\n     \"Value.Traded\",\n     \"market_cap_basic\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_basic_ttm\",\n     \"number_of_employees\",\n     \"sector\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"fundamental_currency_code\",\n )\n .where(\n     col(\"type\").isin([\"stock\", \"dr\", \"fund\"]),\n     col(\"subtype\").isin(\n         [\"common\", \"foreign-issuer\", \"\", \"etf\", \"etf,odd\", \"etf,otc\", \"etf,cfd\"]\n     ),\n     col(\"exchange\").isin([\"AMEX\", \"NASDAQ\", \"NYSE\"]),\n     col(\"is_primary\") == True,\n     col(\"active_symbol\") == True,\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(150)\n .set_markets(\"america\"))"
+    }
+]
