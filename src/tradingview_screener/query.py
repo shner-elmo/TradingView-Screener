@@ -12,7 +12,7 @@ from tradingview_screener.constants import HEADERS, URL
 
 
 if TYPE_CHECKING:
-    from typing import TypedDict, Any, Literal, NotRequired, Self
+    from typing_extensions import TypedDict, Any, Literal, NotRequired, Self
 
     class FilterOperationDict(TypedDict):
         left: str
@@ -23,20 +23,29 @@ if TYPE_CHECKING:
             'eless',
             'equal',
             'nequal',
-            'in_range',
+            'in_range',  # equivalent to SQL `BETWEEN` or `IN (...)`
             'not_in_range',
-            'match',  # the same as: `LOWER(col) LIKE '%pattern%'`
+            'empty',
+            'nempty',
             'crosses',
             'crosses_above',
             'crosses_below',
+            'match',  # the same as: `LOWER(col) LIKE '%pattern%'`
+            'nmatch',  # not match
+            # simple match, there is no method for this operation as of right now, because it does
+            # the same thing as `match`
+            'smatch',
+            'has',  # set must contain one of the values
+            'has_none_of',  # set must NOT contain ANY of the values
             'above%',
             'below%',
             'in_range%',
             'not_in_range%',
-            'has',  # set must contain one of the values
-            'has_none_of',  # set must NOT contain ANY of the values
+            'in_day_range',
+            'in_week_range',
+            'in_month_range',
         ]
-        right: Any
+        right: Any  # its optional when the operation is `empty` or `nempty`
 
     class SortByDict(TypedDict):
         sortBy: str
@@ -44,10 +53,12 @@ if TYPE_CHECKING:
         nullsFirst: NotRequired[bool]
 
     class SymbolsDict(TypedDict, total=False):
-        query: dict[Literal['types'], list]
+        query: dict[Literal['types'], list[str]]
         tickers: list[str]
         symbolset: list[str]
         watchlist: dict[Literal['id'], int]
+        groups: list[dict[Literal['type', 'values'], str]]
+        # for example [{'type': 'index', 'values': ['DJ:DJU']}]
 
     class ExpressionDict(TypedDict):
         expression: FilterOperationDict
@@ -65,7 +76,7 @@ if TYPE_CHECKING:
         """
 
         markets: list[str]
-        symbols: dict
+        symbols: SymbolsDict
         options: dict[str, Any]  # example: `{"options": {"lang": "en"}}`
         columns: list[str]
         filter: list[FilterOperationDict]
@@ -501,7 +512,8 @@ class Query:
         self.query.setdefault('symbols', {})['symbolset'] = list(indexes)
         self.url = URL.format(market='global')
         return self
-    # TODO: add tests for set_ticker() and set_index() and make sure if its necessary to reset the 
+
+    # TODO: add tests for set_ticker() and set_index() and make sure if its necessary to reset the
     #  URL or markets property
     #  and review the docs again
 

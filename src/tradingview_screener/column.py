@@ -18,13 +18,32 @@ class Column:
 
     Examples:
 
-    Some of the operations that you can do with `Column` objects:
-    >>> Column('close') >= 2.5
+    Some of the operations you can do:
+    >>> Column('close') > 2.5
+    >>> Column('High.All') <= 'high'
+    >>> Column('high') > 'VWAP'
+    >>> Column('high') > Column('VWAP')  # same thing as above
+    >>> Column('is_primary') == True
+    >>> Column('exchange') != 'OTC'
+
+    >>> Column('close').above_pct('VWAP', 1.03)
+    >>> Column('close').above_pct('price_52_week_low', 2.5)
+    >>> Column('close').below_pct('VWAP', 1.03)
+    >>> Column('close').between_pct('EMA200', 1.2, 1.5)
+    >>> Column('close').not_between_pct('EMA200', 1.2, 1.5)
+
     >>> Column('close').between(2.5, 15)
-    >>> Column('high') > Column('VWAP')
-    >>> Column('close').between(Column('EMA5'), Column('EMA20')
+    >>> Column('close').between('EMA5', 'EMA20')
+
     >>> Column('type').isin(['stock', 'fund'])
+    >>> Column('exchange').isin(['AMEX', 'NASDAQ', 'NYSE'])
+    >>> Column('sector').not_in(['Health Technology', 'Health Services'])
+    >>> Column('typespecs').has(['common']),
+    >>> Column('typespecs').has_none_of(['reit', 'etn', 'etf']),
+
     >>> Column('description').like('apple')  # the same as `description LIKE '%apple%'`
+    >>> Column('premarket_change').not_empty()  # same as `Column('premarket_change') != None`
+    >>> Column('earnings_release_next_trading_date_fq').in_day_range(0, 0)  # same day
     """
 
     def __init__(self, name: str) -> None:
@@ -83,21 +102,30 @@ class Column:
     def not_in(self, values: Iterable) -> FilterOperationDict:
         return {'left': self.name, 'operation': 'not_in_range', 'right': list(values)}
 
-    def has(self, values: Iterable) -> FilterOperationDict:
+    def has(self, values: str | list[str]) -> FilterOperationDict:
         """
         Field contains any of the values
 
         (it's the same as `isin()`, except that it works on fields of type `set`)
         """
-        return {'left': self.name, 'operation': 'has', 'right': list(values)}
+        return {'left': self.name, 'operation': 'has', 'right': values}
 
-    def has_none_of(self, values: Iterable) -> FilterOperationDict:
+    def has_none_of(self, values: str | list[str]) -> FilterOperationDict:
         """
         Field doesn't contain any of the values
 
         (it's the same as `not_in()`, except that it works on fields of type `set`)
         """
-        return {'left': self.name, 'operation': 'has_none_of', 'right': list(values)}
+        return {'left': self.name, 'operation': 'has_none_of', 'right': values}
+
+    def in_day_range(self, a: int, b: int) -> FilterOperationDict:
+        return {'left': self.name, 'operation': 'in_day_range', 'right': [a, b]}
+
+    def in_week_range(self, a: int, b: int) -> FilterOperationDict:
+        return {'left': self.name, 'operation': 'in_week_range', 'right': [a, b]}
+
+    def in_month_range(self, a: int, b: int) -> FilterOperationDict:
+        return {'left': self.name, 'operation': 'in_month_range', 'right': [a, b]}
 
     def above_pct(self, column: Column | str, pct: float) -> FilterOperationDict:
         """
@@ -160,6 +188,19 @@ class Column:
 
     def like(self, other) -> FilterOperationDict:
         return {'left': self.name, 'operation': 'match', 'right': self._extract_name(other)}
+
+    def not_like(self, other) -> FilterOperationDict:
+        return {'left': self.name, 'operation': 'nmatch', 'right': self._extract_name(other)}
+
+    def empty(self) -> FilterOperationDict:
+        # it seems like the `right` key is optional
+        return {'left': self.name, 'operation': 'empty', 'right': None}
+
+    def not_empty(self) -> FilterOperationDict:
+        """
+        This method can be used to check if a field is not None/null.
+        """
+        return {'left': self.name, 'operation': 'nempty', 'right': None}
 
     def __repr__(self) -> str:
         return f'< Column({self.name!r}) >'
