@@ -11656,14 +11656,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17179,12 +17179,12 @@
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
+            "Arweave",
             "Avalanche",
             "BNB",
             "Bitcoin",
             "Bitcoin Cash",
             "Bittensor",
-            "Bonk",
             "Cardano",
             "Centrifuge",
             "Chainlink",
@@ -17277,12 +17277,12 @@
             "XTVCAEVO",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCAR",
             "XTVCARBI",
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
-            "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
             "XTVCCFG",
@@ -17420,6 +17420,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"

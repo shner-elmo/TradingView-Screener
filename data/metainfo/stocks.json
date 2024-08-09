@@ -14199,14 +14199,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14234,14 +14234,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19697,6 +19697,7 @@
             "ICICI",
             "IDFC",
             "IDX",
+            "IML",
             "IPAAM",
             "Impact Shares",
             "IndexIQ",
@@ -19857,6 +19858,7 @@
             "Perennial",
             "Performance Trust",
             "Perpetual",
+            "Perth Mint",
             "Phillip",
             "Picton Mahoney",
             "Ping An",
@@ -19927,6 +19929,7 @@
             "SciBeta",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -20771,6 +20774,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23049,6 +23053,7 @@
             "Investlinx Investment Management Ltd.",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Jacob Asset Management of New York LLC",
@@ -23150,6 +23155,7 @@
             "PDR Services LLC",
             "PEH Wertpapier AG",
             "PMV Capital LLC",
+            "PT Capital Financial Indonesia Tbk",
             "PT Indo Premier Securities",
             "PT Insight Investments Management",
             "PT Lenox Pasifik Investama Tbk",
@@ -23242,6 +23248,7 @@
             "Sprott, Inc.",
             "Starlight Investments Ltd. (Canada)",
             "State Street Corp.",
+            "State of Western Australia",
             "State of Zurich",
             "Stf Management LP",
             "Sumitomo Mitsui Financial Group, Inc.",
