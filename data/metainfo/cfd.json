@@ -11656,14 +11656,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17185,6 +17185,7 @@
             "Bitcoin",
             "Bitcoin Cash",
             "Bittensor",
+            "Bonk",
             "Cardano",
             "Centrifuge",
             "Chainlink",
@@ -17245,7 +17246,6 @@
             "Synthetix",
             "THORChain",
             "TRON",
-            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -17256,6 +17256,7 @@
             "USDD",
             "Uniswap",
             "VeChain",
+            "Venom",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
@@ -17283,6 +17284,7 @@
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
+            "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
             "XTVCCFG",
@@ -17345,7 +17347,6 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
-            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -17353,6 +17354,7 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDT",
+            "XTVCVENOM2",
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
@@ -17420,10 +17422,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

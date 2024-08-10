@@ -637,7 +637,7 @@
             "AGCO Corp.",
             "AGCO International Holdings BV",
             "AGPS BondCo Plc",
-            "AGT Ltd.",
+            "AGT Ltd. (Canada)",
             "AHEAD DB Holdings LLC",
             "AHP Health Partners, Inc.",
             "AHS Hospital Corp.",
@@ -6800,6 +6800,7 @@
             "PT Pertamina Geothermal Energy Tbk",
             "PT Perusahaan Listrik Negara (Persero)",
             "PT Sarana Multi Infrastruktur (Persero)",
+            "PT Sorik Marapi Geothermal Power",
             "PT Sri Rejeki Isman Tbk",
             "PT Tower Bersama Infrastructure Tbk",
             "PTC India Financial Services Ltd.",
@@ -10338,6 +10339,7 @@
             "JSE:ABSP",
             "JSE:BAT",
             "JSE:NRP",
+            "JSE:SBOIL",
             "KRX:000270",
             "KRX:000660",
             "KRX:003490",
@@ -12945,9 +12947,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
