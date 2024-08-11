@@ -8526,6 +8526,7 @@
             "Techem Verwaltungsgesellschaft 675 mbH",
             "Technip Energies NV",
             "Technip SA",
+            "TechnipFMC Plc (France)",
             "TechnipFMC plc",
             "Teck Resources Limited",
             "Tecnica Universal Solar SA",
@@ -12947,6 +12948,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },

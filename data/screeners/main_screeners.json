@@ -1,6 +1,6 @@
 [
     {
-        "name": "stocks",
+        "name": "Stocks (legacy)",
         "url": "https://www.tradingview.com/legacy-screener/",
         "query": {
             "filter": [
@@ -92,155 +92,224 @@
                 150
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     \"logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"Recommend.All\",\n     \"volume\",\n     \"Value.Traded\",\n     \"market_cap_basic\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_basic_ttm\",\n     \"number_of_employees\",\n     \"sector\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"fundamental_currency_code\",\n )\n .where(\n     col(\"type\").isin([\"stock\", \"dr\", \"fund\"]),\n     col(\"subtype\").isin(\n         [\"common\", \"foreign-issuer\", \"\", \"etf\", \"etf,odd\", \"etf,otc\", \"etf,cfd\"]\n     ),\n     col(\"exchange\").isin([\"AMEX\", \"NASDAQ\", \"NYSE\"]),\n     col(\"is_primary\") == True,\n     col(\"active_symbol\") == True,\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(150)\n .set_markets(\"america\"))"
+        "query_as_code": "(Query()\n .select(\n     \"logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"Recommend.All\",\n     \"volume\",\n     \"Value.Traded\",\n     \"market_cap_basic\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_basic_ttm\",\n     \"number_of_employees\",\n     \"sector\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"fundamental_currency_code\",\n )\n .where(\n     col(\"type\").isin([\"stock\", \"dr\", \"fund\"]),\n     col(\"subtype\").isin(\n         [\"common\", \"foreign-issuer\", \"\", \"etf\", \"etf,odd\", \"etf,otc\", \"etf,cfd\"]\n     ),\n     col(\"exchange\").isin([\"AMEX\", \"NASDAQ\", \"NYSE\"]),\n     col(\"is_primary\") == True,\n     col(\"active_symbol\") == True,\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(150)\n .set_markets(\"america\")\n .set_property(\"symbols\", {\"query\": {\"types\": []}, \"tickers\": []})\n .set_property(\"options\", {\"lang\": \"en\"}))"
     },
     {
-        "name": "crypto",
-        "url": "https://www.tradingview.com/crypto-screener/",
+        "name": "Stocks (v2)",
+        "url": "https://www.tradingview.com/screener/",
         "query": {
-            "filter": [
-                {
-                    "left": "type",
-                    "operation": "in_range",
-                    "right": [
-                        "stock",
-                        "dr",
-                        "fund"
-                    ]
-                },
-                {
-                    "left": "subtype",
-                    "operation": "in_range",
-                    "right": [
-                        "common",
-                        "foreign-issuer",
-                        "",
-                        "etf",
-                        "etf,odd",
-                        "etf,otc",
-                        "etf,cfd"
-                    ]
-                },
-                {
-                    "left": "exchange",
-                    "operation": "in_range",
-                    "right": [
-                        "AMEX",
-                        "NASDAQ",
-                        "NYSE"
-                    ]
-                },
-                {
-                    "left": "is_primary",
-                    "operation": "equal",
-                    "right": true
-                },
-                {
-                    "left": "active_symbol",
-                    "operation": "equal",
-                    "right": true
-                }
-            ],
-            "options": {
-                "lang": "en"
-            },
-            "markets": [
-                "america"
-            ],
-            "symbols": {
-                "query": {
-                    "types": []
-                },
-                "tickers": []
-            },
             "columns": [
-                "logoid",
                 "name",
-                "close",
-                "change",
-                "change_abs",
-                "Recommend.All",
-                "volume",
-                "Value.Traded",
-                "market_cap_basic",
-                "price_earnings_ttm",
-                "earnings_per_share_basic_ttm",
-                "number_of_employees",
-                "sector",
                 "description",
-                "type",
-                "subtype",
+                "logoid",
                 "update_mode",
+                "type",
+                "typespecs",
+                "close",
                 "pricescale",
                 "minmov",
                 "fractional",
                 "minmove2",
                 "currency",
-                "fundamental_currency_code"
+                "change",
+                "volume",
+                "relative_volume_10d_calc",
+                "market_cap_basic",
+                "fundamental_currency_code",
+                "price_earnings_ttm",
+                "earnings_per_share_diluted_ttm",
+                "earnings_per_share_diluted_yoy_growth_ttm",
+                "dividends_yield_current",
+                "sector.tr",
+                "market",
+                "sector",
+                "recommendation_mark",
+                "exchange"
+            ],
+            "ignore_unknown_fields": false,
+            "options": {
+                "lang": "en"
+            },
+            "range": [
+                0,
+                100
             ],
             "sort": {
                 "sortBy": "market_cap_basic",
                 "sortOrder": "desc"
             },
-            "range": [
-                0,
-                150
-            ]
+            "symbols": {},
+            "markets": [
+                "america"
+            ],
+            "filter2": {
+                "operator": "and",
+                "operands": [
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "type",
+                                                    "operation": "equal",
+                                                    "right": "stock"
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "typespecs",
+                                                    "operation": "has",
+                                                    "right": [
+                                                        "common"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "type",
+                                                    "operation": "equal",
+                                                    "right": "stock"
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "typespecs",
+                                                    "operation": "has",
+                                                    "right": [
+                                                        "preferred"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "type",
+                                                    "operation": "equal",
+                                                    "right": "dr"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "type",
+                                                    "operation": "equal",
+                                                    "right": "fund"
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "typespecs",
+                                                    "operation": "has_none_of",
+                                                    "right": [
+                                                        "etf"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
         },
-        "query_as_code": "(Query()\n .select(\n     \"logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"Recommend.All\",\n     \"volume\",\n     \"Value.Traded\",\n     \"market_cap_basic\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_basic_ttm\",\n     \"number_of_employees\",\n     \"sector\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"fundamental_currency_code\",\n )\n .where(\n     col(\"type\").isin([\"stock\", \"dr\", \"fund\"]),\n     col(\"subtype\").isin(\n         [\"common\", \"foreign-issuer\", \"\", \"etf\", \"etf,odd\", \"etf,otc\", \"etf,cfd\"]\n     ),\n     col(\"exchange\").isin([\"AMEX\", \"NASDAQ\", \"NYSE\"]),\n     col(\"is_primary\") == True,\n     col(\"active_symbol\") == True,\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(150)\n .set_markets(\"america\"))"
+        "query_as_code": "(Query()\n .select(\n     \"name\",\n     \"description\",\n     \"logoid\",\n     \"update_mode\",\n     \"type\",\n     \"typespecs\",\n     \"close\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"change\",\n     \"volume\",\n     \"relative_volume_10d_calc\",\n     \"market_cap_basic\",\n     \"fundamental_currency_code\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_diluted_ttm\",\n     \"earnings_per_share_diluted_yoy_growth_ttm\",\n     \"dividends_yield_current\",\n     \"sector.tr\",\n     \"market\",\n     \"sector\",\n     \"recommendation_mark\",\n     \"exchange\",\n )\n .where2(\n     And(\n         Or(\n             And(col(\"type\") == \"stock\", col(\"typespecs\").has([\"common\"])),\n             And(col(\"type\") == \"stock\", col(\"typespecs\").has([\"preferred\"])),\n             And(col(\"type\") == \"dr\"),\n             And(col(\"type\") == \"fund\", col(\"typespecs\").has_none_of([\"etf\"])),\n         )\n     )\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(100)\n .set_markets(\"america\")\n .set_property(\"symbols\", {})\n .set_property(\"options\", {\"lang\": \"en\"})\n .set_property(\"ignore_unknown_fields\", False))"
     },
     {
-        "name": "forex",
+        "name": "Forex",
         "url": "https://www.tradingview.com/forex-screener/",
         "query": {
             "filter": [
                 {
-                    "left": "type",
+                    "left": "sector",
                     "operation": "in_range",
                     "right": [
-                        "stock",
-                        "dr",
-                        "fund"
+                        "Major",
+                        "Minor"
                     ]
-                },
-                {
-                    "left": "subtype",
-                    "operation": "in_range",
-                    "right": [
-                        "common",
-                        "foreign-issuer",
-                        "",
-                        "etf",
-                        "etf,odd",
-                        "etf,otc",
-                        "etf,cfd"
-                    ]
-                },
-                {
-                    "left": "exchange",
-                    "operation": "in_range",
-                    "right": [
-                        "AMEX",
-                        "NASDAQ",
-                        "NYSE"
-                    ]
-                },
-                {
-                    "left": "is_primary",
-                    "operation": "equal",
-                    "right": true
-                },
-                {
-                    "left": "active_symbol",
-                    "operation": "equal",
-                    "right": true
                 }
             ],
             "options": {
                 "lang": "en"
             },
             "markets": [
-                "america"
+                "forex"
+            ],
+            "symbols": {
+                "query": {
+                    "types": [
+                        "forex"
+                    ]
+                },
+                "tickers": []
+            },
+            "columns": [
+                "base_currency_logoid",
+                "currency_logoid",
+                "name",
+                "close",
+                "change",
+                "change_abs",
+                "bid",
+                "ask",
+                "high",
+                "low",
+                "Recommend.All",
+                "description",
+                "type",
+                "subtype",
+                "update_mode",
+                "pricescale",
+                "minmov",
+                "fractional",
+                "minmove2"
+            ],
+            "sort": {
+                "sortBy": "name",
+                "sortOrder": "asc"
+            },
+            "range": [
+                0,
+                150
+            ]
+        },
+        "query_as_code": "(Query()\n .select(\n     \"base_currency_logoid\",\n     \"currency_logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"bid\",\n     \"ask\",\n     \"high\",\n     \"low\",\n     \"Recommend.All\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n )\n .where(col(\"sector\").isin([\"Major\", \"Minor\"]))\n .order_by(\"name\", ascending=True)\n .limit(150)\n .set_markets(\"forex\")\n .set_property(\"symbols\", {\"query\": {\"types\": [\"forex\"]}, \"tickers\": []})\n .set_property(\"options\", {\"lang\": \"en\"}))"
+    },
+    {
+        "name": "Crypto",
+        "url": "https://www.tradingview.com/crypto-screener/",
+        "query": {
+            "filter": [],
+            "options": {
+                "lang": "en"
+            },
+            "markets": [
+                "crypto"
             ],
             "symbols": {
                 "query": {
@@ -249,19 +318,19 @@
                 "tickers": []
             },
             "columns": [
-                "logoid",
+                "base_currency_logoid",
+                "currency_logoid",
                 "name",
                 "close",
                 "change",
                 "change_abs",
-                "Recommend.All",
+                "high",
+                "low",
                 "volume",
-                "Value.Traded",
-                "market_cap_basic",
-                "price_earnings_ttm",
-                "earnings_per_share_basic_ttm",
-                "number_of_employees",
-                "sector",
+                "24h_vol|5",
+                "24h_vol_change|5",
+                "Recommend.All",
+                "exchange",
                 "description",
                 "type",
                 "subtype",
@@ -269,19 +338,209 @@
                 "pricescale",
                 "minmov",
                 "fractional",
-                "minmove2",
-                "currency",
-                "fundamental_currency_code"
+                "minmove2"
             ],
             "sort": {
-                "sortBy": "market_cap_basic",
+                "sortBy": "24h_vol|5",
                 "sortOrder": "desc"
+            },
+            "price_conversion": {
+                "to_symbol": false
             },
             "range": [
                 0,
                 150
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     \"logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"Recommend.All\",\n     \"volume\",\n     \"Value.Traded\",\n     \"market_cap_basic\",\n     \"price_earnings_ttm\",\n     \"earnings_per_share_basic_ttm\",\n     \"number_of_employees\",\n     \"sector\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"fundamental_currency_code\",\n )\n .where(\n     col(\"type\").isin([\"stock\", \"dr\", \"fund\"]),\n     col(\"subtype\").isin(\n         [\"common\", \"foreign-issuer\", \"\", \"etf\", \"etf,odd\", \"etf,otc\", \"etf,cfd\"]\n     ),\n     col(\"exchange\").isin([\"AMEX\", \"NASDAQ\", \"NYSE\"]),\n     col(\"is_primary\") == True,\n     col(\"active_symbol\") == True,\n )\n .order_by(\"market_cap_basic\", ascending=False)\n .limit(150)\n .set_markets(\"america\"))"
+        "query_as_code": "(Query()\n .select(\n     \"base_currency_logoid\",\n     \"currency_logoid\",\n     \"name\",\n     \"close\",\n     \"change\",\n     \"change_abs\",\n     \"high\",\n     \"low\",\n     \"volume\",\n     \"24h_vol|5\",\n     \"24h_vol_change|5\",\n     \"Recommend.All\",\n     \"exchange\",\n     \"description\",\n     \"type\",\n     \"subtype\",\n     \"update_mode\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n )\n .order_by(\"24h_vol|5\", ascending=False)\n .limit(150)\n .set_markets(\"crypto\")\n .set_property(\"symbols\", {\"query\": {\"types\": []}, \"tickers\": []})\n .set_property(\"price_conversion\", {\"to_symbol\": False})\n .set_property(\"options\", {\"lang\": \"en\"}))"
+    },
+    {
+        "name": "Crypto Coins",
+        "url": "https://www.tradingview.com/crypto-coins-screener/",
+        "query": {
+            "columns": [
+                "base_currency",
+                "base_currency_desc",
+                "base_currency_logoid",
+                "update_mode",
+                "type",
+                "typespecs",
+                "exchange",
+                "crypto_total_rank",
+                "close",
+                "pricescale",
+                "minmov",
+                "fractional",
+                "minmove2",
+                "currency",
+                "24h_close_change|5",
+                "market_cap_calc",
+                "fundamental_currency_code",
+                "24h_vol_cmc",
+                "circulating_supply",
+                "crypto_common_categories.tr"
+            ],
+            "ignore_unknown_fields": false,
+            "options": {
+                "lang": "en"
+            },
+            "range": [
+                0,
+                100
+            ],
+            "sort": {
+                "sortBy": "crypto_total_rank",
+                "sortOrder": "asc"
+            },
+            "symbols": {},
+            "markets": [
+                "coin"
+            ]
+        },
+        "query_as_code": "(Query()\n .select(\n     \"base_currency\",\n     \"base_currency_desc\",\n     \"base_currency_logoid\",\n     \"update_mode\",\n     \"type\",\n     \"typespecs\",\n     \"exchange\",\n     \"crypto_total_rank\",\n     \"close\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"24h_close_change|5\",\n     \"market_cap_calc\",\n     \"fundamental_currency_code\",\n     \"24h_vol_cmc\",\n     \"circulating_supply\",\n     \"crypto_common_categories.tr\",\n )\n .order_by(\"crypto_total_rank\", ascending=True)\n .limit(100)\n .set_markets(\"coin\")\n .set_property(\"symbols\", {})\n .set_property(\"options\", {\"lang\": \"en\"})\n .set_property(\"ignore_unknown_fields\", False))"
+    },
+    {
+        "name": "ETFs",
+        "url": "https://www.tradingview.com/etf-screener/",
+        "query": {
+            "columns": [
+                "name",
+                "description",
+                "logoid",
+                "update_mode",
+                "type",
+                "typespecs",
+                "close",
+                "pricescale",
+                "minmov",
+                "fractional",
+                "minmove2",
+                "currency",
+                "change",
+                "Value.Traded",
+                "relative_volume_10d_calc",
+                "aum",
+                "fundamental_currency_code",
+                "nav_total_return.5Y",
+                "expense_ratio",
+                "asset_class.tr",
+                "focus.tr",
+                "exchange"
+            ],
+            "ignore_unknown_fields": false,
+            "options": {
+                "lang": "en"
+            },
+            "range": [
+                0,
+                100
+            ],
+            "sort": {
+                "sortBy": "aum",
+                "sortOrder": "desc"
+            },
+            "symbols": {},
+            "markets": [
+                "america"
+            ],
+            "filter2": {
+                "operator": "and",
+                "operands": [
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "typespecs",
+                                                    "operation": "has",
+                                                    "right": [
+                                                        "etn"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "typespecs",
+                                                    "operation": "has",
+                                                    "right": [
+                                                        "etf"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "type",
+                                                    "operation": "equal",
+                                                    "right": "structured"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "query_as_code": "(Query()\n .select(\n     \"name\",\n     \"description\",\n     \"logoid\",\n     \"update_mode\",\n     \"type\",\n     \"typespecs\",\n     \"close\",\n     \"pricescale\",\n     \"minmov\",\n     \"fractional\",\n     \"minmove2\",\n     \"currency\",\n     \"change\",\n     \"Value.Traded\",\n     \"relative_volume_10d_calc\",\n     \"aum\",\n     \"fundamental_currency_code\",\n     \"nav_total_return.5Y\",\n     \"expense_ratio\",\n     \"asset_class.tr\",\n     \"focus.tr\",\n     \"exchange\",\n )\n .where2(\n     And(\n         Or(\n             And(col(\"typespecs\").has([\"etn\"])),\n             And(col(\"typespecs\").has([\"etf\"])),\n             And(col(\"type\") == \"structured\"),\n         )\n     )\n )\n .order_by(\"aum\", ascending=False)\n .limit(100)\n .set_markets(\"america\")\n .set_property(\"symbols\", {})\n .set_property(\"options\", {\"lang\": \"en\"})\n .set_property(\"ignore_unknown_fields\", False))"
+    },
+    {
+        "name": "Bonds",
+        "url": "https://www.tradingview.com/bond-screener/",
+        "query": {
+            "columns": [
+                "name",
+                "description",
+                "logoid",
+                "update_mode",
+                "type",
+                "typespecs",
+                "country.tr",
+                "country_code_fund",
+                "bond_issuer_type.tr",
+                "yield_to_maturity",
+                "current_coupon",
+                "maturity_date",
+                "redemption_type.tr",
+                "bond_snp_rating_lt.tr"
+            ],
+            "ignore_unknown_fields": false,
+            "options": {
+                "lang": "en"
+            },
+            "range": [
+                0,
+                100
+            ],
+            "sort": {
+                "sortBy": "yield_to_maturity",
+                "sortOrder": "desc"
+            },
+            "symbols": {},
+            "markets": [
+                "bond"
+            ]
+        },
+        "query_as_code": "(Query()\n .select(\n     \"name\",\n     \"description\",\n     \"logoid\",\n     \"update_mode\",\n     \"type\",\n     \"typespecs\",\n     \"country.tr\",\n     \"country_code_fund\",\n     \"bond_issuer_type.tr\",\n     \"yield_to_maturity\",\n     \"current_coupon\",\n     \"maturity_date\",\n     \"redemption_type.tr\",\n     \"bond_snp_rating_lt.tr\",\n )\n .order_by(\"yield_to_maturity\", ascending=False)\n .limit(100)\n .set_markets(\"bond\")\n .set_property(\"symbols\", {})\n .set_property(\"options\", {\"lang\": \"en\"})\n .set_property(\"ignore_unknown_fields\", False))"
     }
 ]
