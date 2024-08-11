@@ -42,6 +42,11 @@
   <ul>
     <li><a href="#creating-custom-stock-screeners">Creating custom stock screeners</a></li>
   </ul></li>
+  <li><a href="#real-time-data">Real-time data</a></li>
+  <li><a href="#comparison-to-similar-packages">Comparison to similar packages</a>
+  <ul>
+    <li><a href="#longevity-this-is-made-to-last-even-if-the-api-changes">Longevity this is made to last, even if the API changes</a></li>
+  </ul></li>
   <li><a href="#how-it-works">How it works</a></li>
 </ul>
 
@@ -70,10 +75,22 @@ tradingview_screener    </h1>
 
                         <div class="docstring"><div align="center">
 
-  <a href="https://pypi.org/project/tradingview-screener">![PyPi Version](https://badge.fury.io/py/tradingview-screener.svg)</a>
-  <a href="https://pypi.org/project/tradingview-screener">![Supported Python versions](https://img.shields.io/pypi/pyversions/tradingview-screener.svg?color=%2334D058)</a>
-  <a href="https://pepy.tech/project/tradingview-screener">![Downloads](https://static.pepy.tech/badge/tradingview-screener)</a>
-  <a href="https://pepy.tech/project/tradingview-screener">![Downloads](https://static.pepy.tech/badge/tradingview-screener/month)</a>
+  <a href="https://pypi.org/project/tradingview-screener">
+    <img alt="PyPi Version"
+         src="https://badge.fury.io/py/tradingview-screener.svg">
+  </a>
+  <a href="https://pypi.org/project/tradingview-screener">
+    <img alt="Supported Python versions"
+         src="https://img.shields.io/pypi/pyversions/tradingview-screener.svg?color=%2334D058">
+  </a>
+  <a href="https://pepy.tech/project/tradingview-screener">
+    <img alt="Downloads"
+         src="https://static.pepy.tech/badge/tradingview-screener">
+  </a>
+  <a href="https://pepy.tech/project/tradingview-screener">
+    <img alt="Downloads"
+         src="https://static.pepy.tech/badge/tradingview-screener/month">
+  </a>
 
 </div>
 
@@ -172,7 +189,27 @@ And if you request too many rows, you might even get banned, so don't get crazy.
 
 <p>For more examples have a look <a href="https://shner-elmo.github.io/TradingView-Screener/tradingview_screener/query.html">here</a>.</p>
 
+<h1 id="real-time-data">Real-time data</h1>
+
+<p>So if you paid for a live-data add-on you need to login, you can do that </p>
+
+<div class="pdoc-code codehilite">
+<pre><span></span><code>
+</code></pre>
+</div>
+
 <hr />
+
+<h1 id="comparison-to-similar-packages">Comparison to similar packages</h1>
+
+<p>...</p>
+
+<h2 id="longevity-this-is-made-to-last-even-if-the-api-changes">Longevity this is made to last, even if the API changes</h2>
+
+<p>Learned from my mistakes and all columns, markets are documented in the website instead of being hardcoded in the library.
+And the website is updated daily by a GH actions script.</p>
+
+<p>You can also easily use other operations if theyre not documented: <code>Query.where({'left': ..., 'right': ..., 'operation': ...})</code></p>
 
 <h1 id="how-it-works">How it works</h1>
 
