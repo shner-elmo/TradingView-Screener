@@ -1,9 +1,21 @@
 <div align="center">
     
-  <a href="https://pypi.org/project/tradingview-screener">![PyPi Version](https://badge.fury.io/py/tradingview-screener.svg)</a>
-  <a href="https://pypi.org/project/tradingview-screener">![Supported Python versions](https://img.shields.io/pypi/pyversions/tradingview-screener.svg?color=%2334D058)</a>
-  <a href="https://pepy.tech/project/tradingview-screener">![Downloads](https://static.pepy.tech/badge/tradingview-screener)</a>
-  <a href="https://pepy.tech/project/tradingview-screener">![Downloads](https://static.pepy.tech/badge/tradingview-screener/month)</a>
+  <a href="https://pypi.org/project/tradingview-screener">
+    <img alt="PyPi Version"
+         src="https://badge.fury.io/py/tradingview-screener.svg">
+  </a>
+  <a href="https://pypi.org/project/tradingview-screener">
+    <img alt="Supported Python versions"
+         src="https://img.shields.io/pypi/pyversions/tradingview-screener.svg?color=%2334D058">
+  </a>
+  <a href="https://pepy.tech/project/tradingview-screener">
+    <img alt="Downloads"
+         src="https://static.pepy.tech/badge/tradingview-screener">
+  </a>
+  <a href="https://pepy.tech/project/tradingview-screener">
+    <img alt="Downloads"
+         src="https://static.pepy.tech/badge/tradingview-screener/month">
+  </a>
     
 </div>
 
@@ -100,8 +112,24 @@ from tradingview_screener import Query, col
 
 For more examples have a look [here](https://shner-elmo.github.io/TradingView-Screener/tradingview_screener/query.html).
 
+
+# Real-time data
+
+So if you paid for a live-data add-on you need to login, you can do that 
+```python
+```
 ---
 
+# Comparison to similar packages
+
+...
+
+## Longevity this is made to last, even if the API changes
+
+Learned from my mistakes and all columns, markets are documented in the website instead of being hardcoded in the library.
+And the website is updated daily by a GH actions script.
+
+You can also easily use other operations if theyre not documented: `Query.where({'left': ..., 'right': ..., 'operation': ...})`
 
 # How it works
 
