@@ -744,7 +744,6 @@
             "Abu Dhabi Ports Co. PJSC",
             "Academy Ltd.",
             "Acadia Healthcare Co., Inc.",
-            "Accelerate Diagnostics, Inc.",
             "Accent Capital Plc",
             "Accentro Real Estate AG",
             "Access Bank Plc",
@@ -864,7 +863,6 @@
             "Ahli Bank QPSC",
             "Ahlstrom Holding 3 Oy",
             "Ahmedabad Municipal Corp.",
-            "Ahmedabad-Maliya Tollway Ltd.",
             "Ahold Finance U.S.A. LLC",
             "Ahold Lease 2001-A Pass Through Trusts",
             "Aigrette Financing (Issuer) PLC",
@@ -1325,7 +1323,6 @@
             "Autonomous Region of Madeira",
             "Autopista Del Sol Concesionaria Espanola SA",
             "Autopista del Guadalmedina Concesionaria Espa\u00f1ola SA",
-            "Autopistas Metropolitanas de Puerto Rico LLC",
             "Autopistas del Sol SA",
             "Autoridad del Canal de Panama",
             "Autoroute de Liaison Seine-Sarthe SA",
@@ -1784,7 +1781,6 @@
             "Bharat Sanchar Nigam Ltd.",
             "Bharti Airtel Ltd.",
             "Bhira Investments Pte Ltd.",
-            "BidCo RelyOn Nutec A/S",
             "Bien Sparebank ASA",
             "Big Poppy Holdings, Inc.",
             "Big River Steel LLC",
@@ -2953,7 +2949,6 @@
             "DAE Funding LLC",
             "DAE Sukuk (DIFC) Ltd.",
             "DAH Energie GmbH",
-            "DBL Borgaon Watambare Highways Pvt Ltd.",
             "DBL Infra Assets Pvt Ltd.",
             "DBS Bank Ltd.",
             "DBS Group Holdings Ltd.",
@@ -3961,7 +3956,6 @@
             "GFH Sukuk Ltd.",
             "GFL Environmental, Inc.",
             "GGAM Finance Ltd.",
-            "GHK Hospitality & Infrastructures Ltd.",
             "GI.VI. SpA",
             "GIC Housing Finance Ltd.",
             "GIE PSA Tresorerie",
@@ -5792,7 +5786,6 @@
             "Manchester Corp. Ltd. (United Kingdom)",
             "Mandatum Henkivakuutusosakeyhti\u00f6 Oy",
             "Mangalore Refinery & Petrochemicals Ltd.",
-            "Mangalwedha Solapur Highways Pvt Ltd.",
             "Mangloor Highways Pvt Ltd.",
             "Mangrove LuxCo III SARL",
             "Manila Water Co., Inc.",
@@ -6974,7 +6967,6 @@
             "Phillips Edison Grocery Center Operating Partnership I LP",
             "Phillips Petroleum Co.",
             "Phinia Delphi (UK) Ltd.",
-            "Phoenix 2012 LLC",
             "Phoenix Group Holdings Plc",
             "Phosagro Bond Funding DAC",
             "Photo Holdings Merger Sub, Inc.",
@@ -9384,7 +9376,6 @@
             "Vroom, Inc.",
             "Vulcan Materials Co.",
             "V\u00e5r Energi ASA",
-            "V\u00eda C\u00e9lere Desarrollos Inmobiliarios SA",
             "V\u0161eobecn\u00e1 \u00faverov\u00e1 banka as",
             "W&T Offshore, Inc.",
             "W. R. Grace & Co.-Conn.",
@@ -10586,7 +10577,6 @@
             "NASDAQ:ATSG",
             "NASDAQ:AVGO",
             "NASDAQ:AVT",
-            "NASDAQ:AXDX",
             "NASDAQ:AXON",
             "NASDAQ:AY",
             "NASDAQ:BAND",
@@ -12948,7 +12938,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "out_of_session"
+            "market",
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -13295,9 +13287,7 @@
     {
         "n": "region",
         "t": "text",
-        "r": [
-            "MA"
-        ]
+        "r": []
     },
     {
         "n": "rtc",

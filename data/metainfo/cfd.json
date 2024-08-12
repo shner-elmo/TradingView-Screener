@@ -11670,14 +11670,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11691,14 +11691,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17175,11 +17175,9 @@
             "Aave",
             "Aerodrome Finance",
             "Aevo",
-            "Amp",
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
-            "Arweave",
             "Avalanche",
             "BNB",
             "Bitcoin",
@@ -17243,6 +17241,7 @@
             "Stacks",
             "Stellar",
             "Sui",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -17276,9 +17275,7 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
-            "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCAR",
             "XTVCARBI",
             "XTVCATOM",
             "XTVCAVAX",
@@ -17344,6 +17341,7 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
+            "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -17423,7 +17421,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
