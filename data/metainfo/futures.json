@@ -304,6 +304,7 @@
         "t": "text",
         "r": [
             "ADX",
+            "ALOR",
             "ASX24",
             "BET",
             "BIST",
@@ -329,7 +330,6 @@
             "MATBAROFEX",
             "MCX",
             "MGEX",
-            "MOEX",
             "MSEI",
             "MYX",
             "NASDAQDUBAI",
@@ -2243,9 +2243,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market"
         ]
     },
     {
@@ -2510,6 +2510,7 @@
             "country/AU",
             "country/EU",
             "country/IN",
+            "country/RU",
             "country/SG",
             "country/US",
             "source/ADX",
@@ -2529,7 +2530,6 @@
             "source/LME",
             "source/MATBAROFEX",
             "source/MCX",
-            "source/MOEX",
             "source/MSEI",
             "source/MYX",
             "source/NCDEX",

@@ -314,6 +314,7 @@
         "r": [
             "ACTIVTRADES",
             "AFTERPRIME",
+            "ALOR",
             "BLACKBULL",
             "CAPITALCOM",
             "CITYINDEX",
@@ -330,7 +331,6 @@
             "IBROKER",
             "ICMARKETS",
             "JFX",
-            "MOEX",
             "OANDA",
             "PEPPERSTONE",
             "PHILLIPNOVA",
@@ -18788,6 +18788,7 @@
             "provider/ice",
             "provider/icmarkets",
             "provider/jfx",
+            "provider/moex",
             "provider/oanda",
             "provider/pepperstone",
             "provider/phillipnova",
@@ -18796,8 +18797,7 @@
             "provider/spreadex",
             "provider/vantagefx",
             "provider/velocitytrade",
-            "provider/whselfinvest",
-            "source/MOEX"
+            "provider/whselfinvest"
         ]
     },
     {

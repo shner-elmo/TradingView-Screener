@@ -36,6 +36,66 @@
                 "name": "FTSE ADX 15"
             },
             {
+                "id": "ALOR:IMOEX",
+                "name": "Russia Market Index"
+            },
+            {
+                "id": "ALOR:MCXSM",
+                "name": "Russia SMID"
+            },
+            {
+                "id": "ALOR:MOEX10",
+                "name": "Russia 10"
+            },
+            {
+                "id": "ALOR:MOEXBMI",
+                "name": "Russia Broad Market"
+            },
+            {
+                "id": "ALOR:MOEXCH",
+                "name": "Russia Chemicals"
+            },
+            {
+                "id": "ALOR:MOEXCN",
+                "name": "Russia Consumer"
+            },
+            {
+                "id": "ALOR:MOEXEU",
+                "name": "Russia Electric Utilities"
+            },
+            {
+                "id": "ALOR:MOEXFN",
+                "name": "Russia Financials"
+            },
+            {
+                "id": "ALOR:MOEXINN",
+                "name": "Russia Innovation"
+            },
+            {
+                "id": "ALOR:MOEXMM",
+                "name": "Russia Metals and Mining"
+            },
+            {
+                "id": "ALOR:MOEXTL",
+                "name": "Russia Telecommunication"
+            },
+            {
+                "id": "ALOR:MOEXTN",
+                "name": "Russia Transportation"
+            },
+            {
+                "id": "ALOR:RTSCH",
+                "name": "RTS Chemicals"
+            },
+            {
+                "id": "ALOR:RTSI",
+                "name": "RTS"
+            },
+            {
+                "id": "ALOR:RUBMI",
+                "name": "RTS Broad Market"
+            },
+            {
                 "id": "ASX:XAO",
                 "name": "All Ordinaries"
             },
@@ -1040,66 +1100,6 @@
                 "name": "LuxX Price Index"
             },
             {
-                "id": "MOEX:IMOEX",
-                "name": "MOEX Russia"
-            },
-            {
-                "id": "MOEX:MCXSM",
-                "name": "MOEX SMID"
-            },
-            {
-                "id": "MOEX:MOEX10",
-                "name": "MOEX 10"
-            },
-            {
-                "id": "MOEX:MOEXBMI",
-                "name": "MOEX Broad Market"
-            },
-            {
-                "id": "MOEX:MOEXCH",
-                "name": "MOEX Chemicals"
-            },
-            {
-                "id": "MOEX:MOEXCN",
-                "name": "MOEX Consumer"
-            },
-            {
-                "id": "MOEX:MOEXEU",
-                "name": "MOEX Electric Utilities"
-            },
-            {
-                "id": "MOEX:MOEXFN",
-                "name": "MOEX Financials"
-            },
-            {
-                "id": "MOEX:MOEXINN",
-                "name": "MOEX Innovation"
-            },
-            {
-                "id": "MOEX:MOEXMM",
-                "name": "MOEX Metals and Mining"
-            },
-            {
-                "id": "MOEX:MOEXTL",
-                "name": "MOEX Telecommunication"
-            },
-            {
-                "id": "MOEX:MOEXTN",
-                "name": "MOEX Transportation"
-            },
-            {
-                "id": "MOEX:RTSCH",
-                "name": "RTS Chemicals"
-            },
-            {
-                "id": "MOEX:RTSI",
-                "name": "RTS"
-            },
-            {
-                "id": "MOEX:RUBMI",
-                "name": "RTS Broad Market"
-            },
-            {
                 "id": "NASDAQ:BANK",
                 "name": "NASDAQ Bank"
             },
@@ -2079,7 +2079,6 @@
             "Cyprus",
             "Czech Republic",
             "Denmark",
-            "Dominican Republic",
             "Egypt",
             "Estonia",
             "Faroe Islands",
@@ -2348,7 +2347,6 @@
             "LSIN",
             "LUXSE",
             "MIL",
-            "MOEX",
             "MUN",
             "MYX",
             "NAG",
@@ -14213,14 +14211,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14234,14 +14232,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19576,7 +19574,6 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
-            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -19655,6 +19652,7 @@
             "GraniteShares",
             "Grayscale",
             "Grizzle",
+            "Groww",
             "Guardian",
             "Guolianan",
             "Guotai",
@@ -19718,6 +19716,7 @@
             "JPMorgan",
             "Jacob",
             "Janus Henderson",
+            "Jensen",
             "John Hancock",
             "K2",
             "KB",
@@ -20578,7 +20577,6 @@
             "CZ",
             "DE",
             "DK",
-            "DO",
             "EE",
             "EG",
             "ES",
@@ -20774,10 +20772,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
-            "pre_market"
+            "post_market"
         ]
     },
     {
@@ -22859,6 +22856,7 @@
             "BetaShares Capital Ltd.",
             "BetaShares Holdings Pty Ltd.",
             "Beyond Investing LLC",
+            "Billionbrains Garage Ventures Pvt Ltd.",
             "Bitcoin Capital AG",
             "Bitwise Asset Management, Inc.",
             "BlackRock, Inc.",
@@ -23059,6 +23057,7 @@
             "Jacob Asset Management of New York LLC",
             "Janus Henderson Group Plc",
             "Japan Agricultural Cooperatives Group",
+            "Jensen Investment Management, Inc.",
             "K2 Asset Management Holdings Ltd.",
             "KB Financial Group, Inc.",
             "KB Securities Co., Ltd.",
@@ -24860,6 +24859,7 @@
             "country/JP",
             "country/NO",
             "country/PL",
+            "country/RU",
             "country/US",
             "country/VN",
             "country/ZA",
@@ -24909,7 +24909,6 @@
             "source/LSIN",
             "source/LUXSE",
             "source/MIL",
-            "source/MOEX",
             "source/MUN",
             "source/MYX",
             "source/NAG",
