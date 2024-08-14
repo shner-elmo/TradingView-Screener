@@ -2244,8 +2244,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {

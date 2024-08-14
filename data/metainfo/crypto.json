@@ -343,6 +343,7 @@
             "PancakeSwap",
             "Pantos",
             "Partisia Blockchain",
+            "Patientory",
             "Pearl",
             "Pendle",
             "Perpetual Protocol",
@@ -411,6 +412,7 @@
             "Shiden Network",
             "Shimmer",
             "Siacoin",
+            "Small Love Potion",
             "SmartCash",
             "Solana",
             "Solar",
@@ -1617,7 +1619,6 @@
             "HELP",
             "HIT",
             "HNY",
-            "HONOR",
             "HTX",
             "IC",
             "IDRT",
@@ -1687,7 +1688,6 @@
             "SAND",
             "SBTC",
             "SDAI",
-            "SDEX",
             "SDT",
             "SETH",
             "SEUR",
@@ -12398,13 +12398,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12412,7 +12405,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12426,6 +12419,13 @@
         "rd": true
     },
     {
+        "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12433,14 +12433,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18226,6 +18226,7 @@
             "POWR",
             "PRE",
             "PROM",
+            "PTOY",
             "PUSH",
             "PYR",
             "PYTH",
@@ -18270,6 +18271,7 @@
             "SHIB",
             "SIDUS",
             "SKL",
+            "SLP",
             "SMART",
             "SMR",
             "SNC",
@@ -18531,6 +18533,7 @@
             "XTVCFRAX",
             "XTVCFRXETH",
             "XTVCFTC",
+            "XTVCFTMM",
             "XTVCFTXTOKEN",
             "XTVCFUD",
             "XTVCFUL",
@@ -18548,7 +18551,6 @@
             "XTVCHITB",
             "XTVCHM",
             "XTVCHNY",
-            "XTVCHONOR",
             "XTVCHOWDY",
             "XTVCHTX",
             "XTVCICY",
@@ -18614,7 +18616,6 @@
             "XTVCPVC",
             "XTVCPXETH",
             "XTVCPYUSD",
-            "XTVCPYUSDUSDC",
             "XTVCQUICK",
             "XTVCRDNT",
             "XTVCRENBTC",
@@ -18629,7 +18630,6 @@
             "XTVCSBNB",
             "XTVCSBTC",
             "XTVCSDAI",
-            "XTVCSDEX",
             "XTVCSDT",
             "XTVCSETH",
             "XTVCSEUR",

@@ -2097,6 +2097,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14197,14 +14198,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19903,6 +19904,7 @@
             "RiverNorth",
             "Rize",
             "Robinson",
+            "Rockefeller Capital Management",
             "Rongtong",
             "Roundhill",
             "Royal Canadian Mint",
@@ -19922,7 +19924,6 @@
             "SWS",
             "Saba",
             "Samsung",
-            "Sber",
             "Schroder",
             "Schwab",
             "SciBeta",
@@ -20597,6 +20598,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -20772,9 +20774,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market"
+            "pre_market"
         ]
     },
     {
@@ -23225,7 +23228,6 @@
             "Samsung Life Insurance Co., Ltd.",
             "Samsung Securities Co., Ltd.",
             "Sausalito Partners LLC",
-            "Sberbank Russia PJSC",
             "Schroders Plc",
             "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",

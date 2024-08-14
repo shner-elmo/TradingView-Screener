@@ -1,1 +1,23 @@
-[]
+[
+    [
+        {
+            "country_code": "cz",
+            "screener_name": "czech",
+            "url": "/markets/stocks-czech/",
+            "country_page_url": "/markets/czech/",
+            "title": "Czech Republic",
+            "group": "Europe",
+            "original_group_name": "Europe",
+            "stock_exchanges": [
+                "PSECZ"
+            ]
+        },
+        {
+            "path": "all-stocks",
+            "url": "/markets/stocks-czech/market-movers-all-stocks/",
+            "title_for_label": "All stocks",
+            "role": "tab"
+        },
+        "Traceback (most recent call last):\n  File \"/home/runner/work/tradingview-screener-docs/tradingview-screener-docs/scripts/get_screeners.py\", line 96, in get_all_screeners\n    dct = get_screener(f\"https://www.tradingview.com{tab['url']}\")\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/tradingview-screener-docs/tradingview-screener-docs/scripts/get_screeners.py\", line 60, in get_screener\n    assert len(dct['data']['screener']['data']['params']) == 1\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\nKeyError: 'params'\n"
+    ]
+]
