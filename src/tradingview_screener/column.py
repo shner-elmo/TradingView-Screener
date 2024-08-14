@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from typing import Optional, Iterable
-    from tradingview_screener.query import FilterOperationDict
+    from tradingview_screener.models import FilterOperationDict
 
 
 class Column:
