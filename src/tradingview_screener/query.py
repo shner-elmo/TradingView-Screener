@@ -1,17 +1,17 @@
 from __future__ import annotations
 
 __all__ = ['And', 'Or', 'Query']
+
 import pprint
 from typing import TYPE_CHECKING
 
 import requests
-import pandas as pd
 
 from tradingview_screener.column import Column
 from tradingview_screener.constants import HEADERS, URL
 
-
 if TYPE_CHECKING:
+    import pandas as pd
     from typing_extensions import TypedDict, Any, Literal, NotRequired, Self
 
     class FilterOperationDict(TypedDict):
@@ -84,10 +84,19 @@ if TYPE_CHECKING:
         sort: SortByDict
         range: list[int]  # list with two integers, i.e. `[0, 100]`
         ignore_unknown_fields: bool  # default false
-        preset: Literal['index_components_market_pages', 'pre-market-gainers']
+        preset: Literal['index_components_market_pages', 'pre-market-gainers']  # there are many
+        # other presets (these are just some a examples)
         price_conversion: dict[Literal['to_symbol'], bool] | dict[
-            Literal['price_conversion'], str  # this string should be a currency
-        ]  # symbol currency vs market currency
+            Literal['to_currency'], str  # this string should be the currency in lower-case
+        ]
+
+    class ScreenerRowDict(TypedDict):
+        s: str  # ticker (NASDAQ:AAPL)
+        d: list  # list of values
+
+    class ScreenerDict(TypedDict):
+        totalCount: int
+        data: list[ScreenerRowDict]
 
 
 DEFAULT_RANGE = [0, 50]
@@ -513,6 +522,35 @@ class Query:
         self.url = URL.format(market='global')
         return self
 
+    # def set_currency(self, currency: Literal['symbol', 'market'] | str) -> Self:
+    #     """
+    #     Change the currency of the screener.
+    #
+    #     Note that this changes *only* the currency of the columns of type `fundamental_price`,
+    #     for example: `market_cap_basic`, `net_income`, `total_debt`. Other columns like `close` and
+    #     `Value.Traded` won't change, because they are of a different type.
+    #
+    #     This can be particularly useful if you are querying tickers across different markets.
+    #
+    #     Examples:
+    #
+    #     >>> Query().set_currency('symbol')  # convert to symbol currency
+    #     >>> Query().set_currency('market')  # convert to market currency
+    #     >>> Query().set_currency('usd')  # or another currency
+    #     >>> Query().set_currency('jpy')
+    #     >>> Query().set_currency('eur')
+    #     """
+    #     # symbol currency -> self.query['price_conversion'] = {'to_symbol': True}
+    #     # market currency -> self.query['price_conversion'] = {'to_symbol': False}
+    #     # USD or other currency -> self.query['price_conversion'] = {'to_currency': 'usd'}
+    #     if currency == 'symbol':
+    #         self.query['price_conversion'] = {'to_symbol': True}
+    #     elif currency == 'market':
+    #         self.query['price_conversion'] = {'to_symbol': False}
+    #     else:
+    #         self.query['price_conversion'] = {'to_currency': currency}
+    #     return self
+
     # TODO: add tests for set_ticker() and set_index() and make sure if its necessary to reset the
     #  URL or markets property
     #  and review the docs again
@@ -521,22 +559,24 @@ class Query:
         self.query[key] = value
         return self
 
-    def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
+    def get_scanner_data_raw(self, **kwargs) -> ScreenerDict:
         """
-        Perform a POST web-request and return the data from the API as a DataFrame.
+        Perform a POST web-request and return the data from the API (dictionary).
 
         Note that you can pass extra keyword-arguments that will be forwarded to `requests.post()`,
         this can be very useful if you want to pass your own headers/cookies.
 
-        ### Live/Delayed data
-
-        If you have paid for a live data add-on with TradingView, you want to pass your own
-        headers and cookies to access that real-time data, otherwise you
-
-
-
-        :param kwargs: kwargs to pass to `requests.post()`
-        :return: a tuple consisting of: (total_count, dataframe)
+        >>> Query().select('close', 'volume').limit(5).get_scanner_data_raw()
+        {
+            'totalCount': 17559,
+            'data': [
+                {'s': 'NASDAQ:NVDA', 'd': [116.14, 312636630]},
+                {'s': 'AMEX:SPY', 'd': [542.04, 52331224]},
+                {'s': 'NASDAQ:QQQ', 'd': [462.58, 40084156]},
+                {'s': 'NASDAQ:TSLA', 'd': [207.83, 76247251]},
+                {'s': 'NASDAQ:SBUX', 'd': [95.9, 157211696]},
+            ],
+        }
         """
         self.query.setdefault('range', DEFAULT_RANGE.copy())
 
@@ -549,12 +589,32 @@ class Query:
             r.reason += f'\n Body: {r.text}\n'
             r.raise_for_status()
 
-        json_obj = r.json()
+        return r.json()
+
+    def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
+        """
+        Perform a POST web-request and return the data from the API as a DataFrame.
+
+        Note that you can pass extra keyword-arguments that will be forwarded to `requests.post()`,
+        this can be very useful if you want to pass your own headers/cookies.
+
+        ### Live/Delayed data
+
+        If you have paid for a live data add-on with TradingView, you want to pass your own
+        headers and cookies to access that real-time data, otherwise you
+        # TODO finish this and add to the README too
+
+        :param kwargs: kwargs to pass to `requests.post()`
+        :return: a tuple consisting of: (total_count, dataframe)
+        """
+        import pandas as pd
+
+        json_obj = self.get_scanner_data_raw(**kwargs)
         rows_count = json_obj['totalCount']
         data = json_obj['data']
 
         df = pd.DataFrame(
-            data=([row['s'], *row['d']] for row in data),
+            data=([row['d'], *row['d']] for row in data),
             columns=['ticker', *self.query.get('columns', ())],  # pyright: ignore [reportArgumentType]
         )
         return rows_count, df
@@ -565,7 +625,7 @@ class Query:
         return new
 
     def __repr__(self) -> str:
-        return f'< {pprint.pformat(self.query)} >'
+        return f'< {pprint.pformat(self.query)}\n url={self.url!r} >'
 
     def __eq__(self, other) -> bool:
         return isinstance(other, Query) and self.query == other.query and self.url == other.url
