@@ -11654,13 +11654,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -11668,7 +11661,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11676,6 +11669,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17199,7 +17199,6 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
-            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -17253,6 +17252,7 @@
             "USDD",
             "Uniswap",
             "VeChain",
+            "Venom",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
@@ -17301,7 +17301,6 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -17350,6 +17349,7 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDT",
+            "XTVCVENOM2",
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
@@ -17416,6 +17416,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"

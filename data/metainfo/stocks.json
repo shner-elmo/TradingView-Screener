@@ -2053,6 +2053,7 @@
         "t": "text",
         "r": [
             "Aland Islands",
+            "Americas Unallocated",
             "Argentina",
             "Australia",
             "Austria",
@@ -3568,7 +3569,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14212,14 +14212,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19924,6 +19924,7 @@
             "SWS",
             "Saba",
             "Samsung",
+            "Sber",
             "Schroder",
             "Schwab",
             "SciBeta",
@@ -20665,6 +20666,7 @@
             "VI",
             "VN",
             "VU",
+            "XS",
             "ZA",
             "ZM"
         ]
@@ -20716,7 +20718,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22895,7 +22896,6 @@
             "Challenger Ltd.",
             "Chimera Investments LLC",
             "China Capital-COFCO Purchase Final No. 1 Asset-backed Special",
-            "China Development Financial Holding Corp.",
             "China Industrial Securities Co. Ltd.",
             "China International Capital Corp. Ltd.",
             "China Merchants Bank Co., Ltd.",
@@ -23066,6 +23066,7 @@
             "KB Securities Co., Ltd.",
             "KBA Consulting Management Ltd.",
             "KCGI Asset Management Co., Ltd.",
+            "KGI Financial Holding Co., Ltd.",
             "KGI Securities (Thailand) Public Co., Ltd.",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
@@ -23228,6 +23229,7 @@
             "Samsung Life Insurance Co., Ltd.",
             "Samsung Securities Co., Ltd.",
             "Sausalito Partners LLC",
+            "Sberbank Russia PJSC",
             "Schroders Plc",
             "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",

@@ -330,6 +330,7 @@
             "IBKR",
             "IBROKER",
             "ICMARKETS",
+            "IG",
             "JFX",
             "OANDA",
             "PEPPERSTONE",
@@ -337,6 +338,9 @@
             "SAXO",
             "SKILLING",
             "SPREADEX",
+            "THINKMARKETS",
+            "TRADENATION",
+            "TRADENATIONSB",
             "VANTAGE",
             "VELOCITY",
             "WHSELFINVEST"
@@ -11776,14 +11780,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18612,6 +18616,7 @@
             "ibroker",
             "ice",
             "icmarkets",
+            "ig",
             "jfx",
             "moex",
             "oanda",
@@ -18620,6 +18625,8 @@
             "saxobank",
             "skilling",
             "spreadex",
+            "thinkmarkets",
+            "tradenation",
             "tvc",
             "vantagefx",
             "velocitytrade",
@@ -18787,6 +18794,7 @@
             "provider/ibroker",
             "provider/ice",
             "provider/icmarkets",
+            "provider/ig",
             "provider/jfx",
             "provider/moex",
             "provider/oanda",
@@ -18795,6 +18803,8 @@
             "provider/saxobank",
             "provider/skilling",
             "provider/spreadex",
+            "provider/thinkmarkets",
+            "provider/tradenation",
             "provider/vantagefx",
             "provider/velocitytrade",
             "provider/whselfinvest"
@@ -18806,6 +18816,7 @@
         "r": [
             "",
             "cfd",
+            "spreadbet",
             "synthetic"
         ]
     },
@@ -18892,6 +18903,7 @@
         "r": [
             "",
             "cfd",
+            "spreadbet",
             "synthetic"
         ]
     },
