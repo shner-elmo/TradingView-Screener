@@ -259,6 +259,9 @@ class Query:
         return self
 
     def where(self, *expressions: FilterOperationDict) -> Self:
+        """
+        Filter screener (expressions are joined with the AND operator)
+        """
         self.query['filter'] = list(expressions)  # convert tuple[dict] -> list[dict]
         return self
 
@@ -553,7 +556,7 @@ class Query:
         data = json_obj['data']
 
         df = pd.DataFrame(
-            data=([row['d'], *row['d']] for row in data),
+            data=([row['s'], *row['d']] for row in data),
             columns=['ticker', *self.query.get('columns', ())],  # pyright: ignore [reportArgumentType]
         )
         return rows_count, df
