@@ -1,22 +1,22 @@
 [
     [
         {
-            "country_code": "il",
-            "screener_name": "israel",
-            "url": "/markets/stocks-israel/",
-            "country_page_url": "/markets/israel/",
-            "title": "Israel",
-            "locale": "he_IL",
-            "group": "Middle East / Africa",
-            "original_group_name": "Middle East / Africa",
+            "country_code": "mx",
+            "screener_name": "mexico",
+            "url": "/markets/stocks-mexico/",
+            "country_page_url": "/markets/mexico/",
+            "title": "Mexico",
+            "group": "Mexico and South America",
+            "original_group_name": "Mexico and South America",
             "stock_exchanges": [
-                "TASE"
+                "BMV",
+                "BIVA"
             ]
         },
         {
-            "path": "high-beta",
-            "url": "/markets/stocks-israel/market-movers-high-beta/",
-            "title_for_label": "High beta",
+            "path": "highest-revenue-per-employee",
+            "url": "/markets/stocks-mexico/market-movers-highest-revenue-per-employee/",
+            "title_for_label": "Highest revenue per employee",
             "role": "tab"
         },
         "Traceback (most recent call last):\n  File \"/home/runner/work/tradingview-screener-docs/tradingview-screener-docs/scripts/get_screeners.py\", line 96, in get_all_screeners\n    dct = get_screener(f\"https://www.tradingview.com{tab['url']}\")\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/tradingview-screener-docs/tradingview-screener-docs/scripts/get_screeners.py\", line 60, in get_screener\n    assert len(dct['data']['screener']['data']['params']) == 1\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\nKeyError: 'params'\n"

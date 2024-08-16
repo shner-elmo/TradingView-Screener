@@ -11654,13 +11654,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -11668,7 +11661,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11682,6 +11675,13 @@
         "rd": true
     },
     {
+        "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -11689,14 +11689,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17172,6 +17172,7 @@
             "Aave",
             "Aerodrome Finance",
             "Aevo",
+            "Amp",
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
@@ -17241,7 +17242,6 @@
             "Synthetix",
             "THORChain",
             "TRON",
-            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -17272,6 +17272,7 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
+            "XTVCAMP2",
             "XTVCAPTO",
             "XTVCAR",
             "XTVCARBI",
@@ -17341,7 +17342,6 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
-            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -17416,7 +17416,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"

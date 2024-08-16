@@ -2053,7 +2053,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Americas Unallocated",
             "Argentina",
             "Australia",
             "Austria",
@@ -2104,7 +2103,6 @@
             "Kazakhstan",
             "Kenya",
             "Kuwait",
-            "Kyrgyzstan",
             "La Reunion",
             "Latvia",
             "Liberia",
@@ -3569,6 +3567,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14198,13 +14197,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14212,7 +14204,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14220,6 +14212,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19976,6 +19975,7 @@
             "Tactical Funds",
             "Taikang",
             "Taishin",
+            "TappAlpha",
             "Tata",
             "Tema",
             "Teucrium",
@@ -20603,7 +20603,6 @@
             "JO",
             "JP",
             "KE",
-            "KG",
             "KH",
             "KR",
             "KW",
@@ -20666,7 +20665,6 @@
             "VI",
             "VN",
             "VU",
-            "XS",
             "ZA",
             "ZM"
         ]
@@ -20718,6 +20716,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -20775,7 +20774,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23267,6 +23265,7 @@
             "Tabula Investment Management Ltd.",
             "Taikang Life Insurance Co., Ltd.",
             "Taishin Financial Holdings Co., Ltd.",
+            "Tapp Finance, Inc.",
             "Tata Sons Pvt Ltd.",
             "Teucrium Trading LLC",
             "Texas Capital Bancshares, Inc.",
@@ -23452,6 +23451,7 @@
             "40ae032593e6551c0ada26bc3cb0c8a7",
             "49204706ae89a84f49643608a4a1eccb",
             "496c5d6ea632c128a304c0b683f2bdfc",
+            "4e470efe30c902cb55523e3e03220099",
             "832d32f3f136894002cbfdd85961c8cf",
             "88ba1211175189c63246bb29132b1d2e",
             "a91c78e040f7b9d158f381e197f8beb4",
@@ -23468,6 +23468,7 @@
         "r": [
             "1.25x",
             "1.5x",
+            "1.75x",
             "2x",
             "3x",
             "Other",
