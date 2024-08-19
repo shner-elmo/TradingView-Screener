@@ -562,6 +562,7 @@
             "3 Banken Gruppe",
             "3-Banken Wohnbaubank AG",
             "360 ONE Prime Ltd.",
+            "360 One Portfolio Managers Ltd.",
             "360 One Wam Ltd.",
             "365.bank, as",
             "3D Systems Corp.",
@@ -3773,7 +3774,6 @@
             "Finep Barrandov Zapad KS",
             "Fingrid Oyj",
             "Finlombarda SpA",
-            "Finnair Oyj",
             "Finnair Plc",
             "Finnovation Tech Solutions Pvt Ltd.",
             "Finnvera Oyj",
@@ -5766,7 +5766,6 @@
             "Majordrive Holdings IV LLC",
             "MakeMyTrip Ltd.",
             "Malachite Funding Ltd.",
-            "Malayan Banking Bhd.",
             "Malaysia Sovereign Sukuk Bhd.",
             "Malaysia Sukuk Global Bhd.",
             "Maldives Sukuk Issuance Ltd.",
@@ -6329,6 +6328,7 @@
             "New Gold, Inc.",
             "New Immo Holding SA",
             "New Jersey Bell Telephone Co.",
+            "New Look Builders & Developers Pvt Ltd.",
             "New Metro Global Ltd.",
             "New Mountain Finance Corp.",
             "New Oriental Education & Technology Group, Inc.",
@@ -7358,7 +7358,7 @@
             "Region of Azores",
             "Region of Balearic Islands (Spain)",
             "Region of Basque Country (Spain)",
-            "Region of Bourgogne-Franche-Comte (France)",
+            "Region of Bourgogne-Franche-Comte",
             "Region of Bretagne (France)",
             "Region of Brussels (Belgium)",
             "Region of Campania",
@@ -10528,7 +10528,6 @@
             "MUN:BENH",
             "MUN:CEW3",
             "MUN:SY5N",
-            "MYX:MAYBANK",
             "MYX:RHBBANK",
             "MYX:TENAGA",
             "MYX:TM",
@@ -11951,7 +11950,6 @@
             "OMXHEX:CGCBV",
             "OMXHEX:CTY1S",
             "OMXHEX:ELISA",
-            "OMXHEX:FIA1S",
             "OMXHEX:FORTUM",
             "OMXHEX:FSKRS",
             "OMXHEX:HKFOODS",
@@ -12931,7 +12929,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

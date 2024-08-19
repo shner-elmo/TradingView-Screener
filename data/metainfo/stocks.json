@@ -14197,14 +14197,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14232,14 +14232,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19872,7 +19872,6 @@
             "Polen",
             "Premia",
             "Premier ETF",
-            "Prescient",
             "Principal",
             "ProShares",
             "Procure",
@@ -19980,7 +19979,6 @@
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
-            "Tachlit",
             "Tactical Funds",
             "Taikang",
             "Taishin",
@@ -20783,8 +20781,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -22800,10 +22800,8 @@
         "n": "issuer",
         "t": "text",
         "r": [
-            "10X Fund Managers (RF) Proprietary Ltd",
             "10X Investments (Pty) Ltd.",
             "1251 Capital Group, Inc.",
-            "1nvest SA",
             "21Shares AG",
             "3iQ Corp.",
             "483A Bay Street Holdings LP",
@@ -23099,7 +23097,6 @@
             "Leonteq AG",
             "Leonteq Securities AG",
             "Leverage Shares LLC",
-            "Liberty Holdings Ltd.",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
@@ -23120,7 +23117,6 @@
             "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
             "Mega Financial Holding Co., Ltd.",
-            "Meitav Investment House Ltd.",
             "Melanion Capital SAS",
             "Midas International Asset Management Ltd.",
             "Midas Investment Management Ltd.",
@@ -23197,7 +23193,6 @@
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
-            "Portfoliometrix Holdings Ltd.",
             "Power Corp. of Canada",
             "Power Financial Corp.",
             "Prescient Management Co. Rf Pty Ltd.",
