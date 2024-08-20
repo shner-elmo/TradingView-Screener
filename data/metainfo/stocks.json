@@ -14197,13 +14197,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14211,7 +14204,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14219,6 +14212,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19913,6 +19913,7 @@
             "Roundhill",
             "Royal Canadian Mint",
             "Russell",
+            "SA Funds",
             "SAM",
             "SBI",
             "SEI",
@@ -20030,7 +20031,6 @@
             "Vanguard",
             "Vaughan",
             "VegTech",
-            "Veridien",
             "Vert",
             "Vesper",
             "Vest",
@@ -22800,8 +22800,10 @@
         "n": "issuer",
         "t": "text",
         "r": [
+            "10X Fund Managers (RF) Proprietary Ltd",
             "10X Investments (Pty) Ltd.",
             "1251 Capital Group, Inc.",
+            "1nvest SA",
             "21Shares AG",
             "3iQ Corp.",
             "483A Bay Street Holdings LP",
@@ -23173,6 +23175,7 @@
             "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
             "PT Nusadana Investama Indonesia",
+            "PT Panin Sekuritas Tbk",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
