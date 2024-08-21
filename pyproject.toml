@@ -28,7 +28,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.9"
-requests = "*"
+requests = "2.*"
+pandas = "2.*"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.16.1"
