@@ -11668,14 +11668,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11689,14 +11689,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17239,6 +17239,7 @@
             "Stacks",
             "Stellar",
             "Sui",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -17252,7 +17253,6 @@
             "USDD",
             "Uniswap",
             "VeChain",
-            "Venom",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
@@ -17339,6 +17339,7 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
+            "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -17349,7 +17350,6 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDT",
-            "XTVCVENOM2",
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
@@ -17416,7 +17416,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"

@@ -14197,14 +14197,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14232,14 +14232,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19446,7 +19446,6 @@
             "Alexis",
             "Alger",
             "Allianz",
-            "AllianzIM",
             "Alpha",
             "Alpha Architect",
             "AlphaMark",
@@ -19872,6 +19871,7 @@
             "Polen",
             "Premia",
             "Premier ETF",
+            "Prescient",
             "Principal",
             "ProShares",
             "Procure",
@@ -19980,6 +19980,7 @@
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
+            "Tachlit",
             "Tactical Funds",
             "Taikang",
             "Taishin",
@@ -20009,6 +20010,7 @@
             "True",
             "TrueShares",
             "Tuttle",
+            "Twin Oak",
             "UBS",
             "UOB",
             "UPAMC",
@@ -20781,7 +20783,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -22819,6 +22820,7 @@
             "Acquirers Funds LLC",
             "Aditya Birla Sun Life AMC Ltd.",
             "Affin Bank Bhd.",
+            "African Bank Holdings Ltd",
             "AgioFunds TFI SA",
             "Akbank TAS",
             "Albert D. Mason, Inc.",
@@ -23099,6 +23101,7 @@
             "Leonteq AG",
             "Leonteq Securities AG",
             "Leverage Shares LLC",
+            "Liberty Holdings Ltd.",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
@@ -23119,6 +23122,7 @@
             "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
             "Mega Financial Holding Co., Ltd.",
+            "Meitav Investment House Ltd.",
             "Melanion Capital SAS",
             "Midas International Asset Management Ltd.",
             "Midas Investment Management Ltd.",
@@ -23196,6 +23200,7 @@
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
+            "Portfoliometrix Holdings Ltd.",
             "Power Corp. of Canada",
             "Power Financial Corp.",
             "Prescient Management Co. Rf Pty Ltd.",
@@ -23318,6 +23323,7 @@
             "Truemark Group",
             "Truston Asset Management Co., Ltd.",
             "Tuttle Capital Management LLC",
+            "Twin Oak Holdings LP",
             "U.S. Global Investors, Inc.",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
