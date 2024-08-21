@@ -11,6 +11,7 @@ from tradingview_screener.column import Column
 
 if TYPE_CHECKING:
     import pandas as pd
+    from typing import Literal, Any
     from typing_extensions import Self
     from tradingview_screener.models import (
         QueryDict,
@@ -266,6 +267,29 @@ class Query:
         return self
 
     def where2(self, operation: OperationDict) -> Self:
+        """
+        Filter screener
+
+        This syntax was introduced in the screener 2.0, which allows you to filter the screener,
+        using both the AND/OR operators. Unlike `where()`, which the conditions are joined using
+        only the `AND` operator.
+
+        Exmamples:
+        # TODO: finish this
+
+        >>> from tradingview_screener import Query, col
+        ((col('type') == 'stock' and col('typespecs').has(['common']))
+         or (col('type') == 'stock' and col('typespecs').has(['common']))
+         or col('type') == 'dr'
+         or (col('type') == 'fund' and col('typespecs').has(['etf'])))
+
+        Or(
+            And(col('type') == 'stock', col('typespecs').has(['common'])),
+            And(col('type') == 'stock', col('typespecs').has(['preferred'])),
+            And(col('type') == 'dr'),
+            And(col('type') == 'fund', col('typespecs').has_none_of(['etf'])),
+        )
+        """
         self.query['filter2'] = operation['operation']
         return self
 
