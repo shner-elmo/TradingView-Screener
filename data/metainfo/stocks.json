@@ -2097,6 +2097,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -14197,13 +14198,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14211,7 +14205,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14225,6 +14219,13 @@
         "rd": true
     },
     {
+        "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14232,14 +14233,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19699,7 +19700,6 @@
             "ICICI",
             "IDFC",
             "IDX",
-            "IML",
             "IPAAM",
             "Impact Shares",
             "IndexIQ",
@@ -19936,7 +19936,6 @@
             "SciBeta",
             "Scotia",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -20579,6 +20578,7 @@
             "BW",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -22510,6 +22510,7 @@
             "Change Finance PBC",
             "Charles Schwab Investment Management, Inc.",
             "China Securities Index Co., Ltd.",
+            "ChinaBond Pricing Center Co Ltd",
             "Cohen & Steers Capital Management, Inc.",
             "CoinDesk Indices, Inc.",
             "Columbia Management Investment Advisers LLC",
@@ -22595,6 +22596,7 @@
             "Moscow Stock Exchange OJSC",
             "Mount Lucas Management LP",
             "NASDAQ",
+            "NH Investment & Securities Co., Ltd.",
             "NSE Indices Ltd.",
             "NYSE Euronext Holding NV",
             "Nasdaq ISE LLC",
@@ -23068,7 +23070,6 @@
             "Investlinx Investment Management Ltd.",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Jacob Asset Management of New York LLC",
