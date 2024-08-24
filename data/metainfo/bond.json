@@ -698,6 +698,7 @@
             "BMFBOVESPA:ELET3",
             "BMFBOVESPA:ITUB3",
             "BMFBOVESPA:KLBN11M",
+            "BMFBOVESPA:NTCO3",
             "BMFBOVESPA:OIBR3",
             "BMFBOVESPA:SANB11M",
             "BMFBOVESPA:VALE3",
@@ -1099,6 +1100,7 @@
             "IDX:JPFA",
             "IDX:KIJA",
             "IDX:PGEO",
+            "IDX:POWR",
             "IDX:PWON",
             "IDX:SRIL",
             "IDX:TBIG",
@@ -2910,7 +2912,6 @@
             "PSECZ:MONET",
             "QSE:ABQK",
             "QSE:CBQK",
-            "SET:KBANK",
             "SET:KTB",
             "SET:MINT",
             "SET:PTT",
@@ -3006,7 +3007,6 @@
             "SZSE:300498",
             "TADAWUL:1050",
             "TADAWUL:2222",
-            "TADAWUL:5110",
             "TASE:ICL",
             "TASE:LUMI",
             "TASE:MZTF",
@@ -3569,6 +3569,7 @@
             "TND",
             "TRY",
             "TZS",
+            "UAH",
             "USD",
             "UVA",
             "UYU",
@@ -3588,6 +3589,7 @@
             "10",
             "10-business",
             "10-calendar",
+            "11",
             "11-calendar",
             "12-calendar",
             "13",
@@ -3603,6 +3605,7 @@
             "17",
             "17-business",
             "17-calendar",
+            "18",
             "18-calendar",
             "19",
             "19-calendar",
@@ -3699,9 +3702,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
