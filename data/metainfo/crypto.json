@@ -114,7 +114,6 @@
             "Bitcoin SV",
             "Bitcoin Vault",
             "Bitget Token",
-            "Bitpanda Ecosystem Token",
             "Bittensor",
             "BlackFort Exchange Network",
             "Blast",
@@ -130,7 +129,6 @@
             "Braintrust",
             "Bytecoin",
             "CANTO",
-            "COMBO",
             "COTI",
             "CUDOS",
             "Cardano",
@@ -263,7 +261,6 @@
             "Litecoin",
             "Litentry",
             "LockTrip",
-            "Loom Network",
             "Loopring",
             "Lympo",
             "MAGIC",
@@ -344,6 +341,7 @@
             "Polytrade",
             "Portal",
             "Power Ledger",
+            "PowerPool",
             "Prom",
             "Propy",
             "PumaPay",
@@ -376,7 +374,6 @@
             "SPACE ID",
             "SSV Network",
             "STP",
-            "SaTT",
             "SafePal",
             "Saga",
             "SaitaChain Coin",
@@ -471,7 +468,6 @@
             "Waves",
             "WhiteBIT Coin",
             "Wild Credit",
-            "Wings",
             "Wolf Works DAO",
             "Wormhole",
             "Wrapped Bitcoin",
@@ -12369,13 +12365,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12383,7 +12372,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12397,6 +12386,13 @@
         "rd": true
     },
     {
+        "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12404,14 +12400,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17929,7 +17925,6 @@
             "BCN",
             "BCUG",
             "BEL",
-            "BEST",
             "BGB",
             "BICO",
             "BIGTIME",
@@ -17965,7 +17960,6 @@
             "CHZ",
             "CKB",
             "CLV",
-            "COMBO",
             "COMP",
             "COQ",
             "COS",
@@ -17982,6 +17976,7 @@
             "CTXC",
             "CUDOS",
             "CURE",
+            "CVP",
             "CYBER",
             "DAI",
             "DAR",
@@ -18094,7 +18089,6 @@
             "LNC",
             "LOC",
             "LOKA",
-            "LOOM",
             "LQTY",
             "LRC",
             "LSK",
@@ -18206,7 +18200,6 @@
             "SALT",
             "SAND",
             "SANTOS",
-            "SATT",
             "SC",
             "SCRT",
             "SDN",
@@ -18296,7 +18289,6 @@
             "WIF",
             "WILD",
             "WIN",
-            "WINGS",
             "WLD",
             "WNCG",
             "XAI",

@@ -1354,7 +1354,6 @@
             "NASDAQ:ATSG",
             "NASDAQ:AVGO",
             "NASDAQ:AVT",
-            "NASDAQ:AXDX",
             "NASDAQ:AXON",
             "NASDAQ:AY",
             "NASDAQ:BAND",
@@ -2579,7 +2578,6 @@
             "NYSE:STZ",
             "NYSE:SUM",
             "NYSE:SUN",
-            "NYSE:SUP",
             "NYSE:SWK",
             "NYSE:SWN",
             "NYSE:SXC",
@@ -3693,8 +3691,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -3776,7 +3776,6 @@
             "KRW",
             "KWD",
             "KZT",
-            "MAD",
             "MNT",
             "MXN",
             "MXV",

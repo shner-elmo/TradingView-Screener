@@ -11654,13 +11654,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -11668,7 +11661,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11682,6 +11675,13 @@
         "rd": true
     },
     {
+        "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -11689,14 +11689,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17200,7 +17200,6 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
-            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -17260,7 +17259,8 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -17302,7 +17302,6 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -17360,6 +17359,7 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -17416,8 +17416,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
