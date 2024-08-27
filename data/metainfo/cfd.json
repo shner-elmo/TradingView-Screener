@@ -17416,7 +17416,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -18898,6 +18897,7 @@
         "n": "update_mode",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18905,6 +18905,7 @@
         "n": "update_mode|1",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18912,6 +18913,7 @@
         "n": "update_mode|5",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18919,6 +18921,7 @@
         "n": "update_mode|15",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18926,6 +18929,7 @@
         "n": "update_mode|30",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18933,6 +18937,7 @@
         "n": "update_mode|60",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18940,6 +18945,7 @@
         "n": "update_mode|120",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18947,6 +18953,7 @@
         "n": "update_mode|240",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18954,6 +18961,7 @@
         "n": "update_mode|1W",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },
@@ -18961,6 +18969,7 @@
         "n": "update_mode|1M",
         "t": "text",
         "r": [
+            "delayed_streaming_900",
             "streaming"
         ]
     },

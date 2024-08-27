@@ -14233,14 +14233,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20785,9 +20785,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -22964,6 +22964,7 @@
             "Dragon Capital Vietfund Management JSC",
             "Dynamic Shares LLC",
             "E Fund Management Co., Ltd.",
+            "EQT Holdings Ltd.",
             "ETC Holdings Ltd. (Guernsey)",
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
