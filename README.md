@@ -254,3 +254,9 @@ request. Here’s an example of the dictionary generated:
 
 The `get_scanner_data()` method sends this dictionary as a JSON payload to the TradingView API,
 allowing you to query data using SQL-like syntax without knowing the specifics of the API.
+
+## Open to New Opportunities
+
+I’m actively looking for Data Engineering or Backend Development roles, preferably in NYC—but I’m flexible with remote or freelance work too. If you’ve got something awesome in mind, let’s [talk](mailto:770elmo@gmail.com)!
+
+
