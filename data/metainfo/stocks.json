@@ -2098,7 +2098,6 @@
             "Israel",
             "Italy",
             "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2140,6 +2139,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14198,13 +14198,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14212,7 +14205,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14226,6 +14219,13 @@
         "rd": true
     },
     {
+        "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14233,14 +14233,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19584,6 +19584,7 @@
             "Deka",
             "Democracy",
             "Desjardins",
+            "DigitalX",
             "Dimensional",
             "Direxion",
             "Discipline Funds",
@@ -19622,6 +19623,7 @@
             "FTSE",
             "Fairlead",
             "Faith Investor Services",
+            "Fat Prophets",
             "Federated Hermes",
             "Fidelity",
             "Figment",
@@ -20022,6 +20024,7 @@
             "USCF Advisers",
             "UTI",
             "UVA",
+            "UWP",
             "Ultramarin",
             "Unicorn",
             "VI",
@@ -20610,7 +20613,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -20662,6 +20664,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "TG",
             "TH",
             "TN",
@@ -22955,6 +22958,7 @@
             "Deutsche B\u00f6rse Commodities GmbH",
             "Deutscher Sparkassen-und Giroverband eV",
             "Digital Currency Group, Inc.",
+            "DigitalX Asset Management Pty Ltd.",
             "Dimensional Holdings, Inc.",
             "Distillate Capital Partners LLC",
             "Distribution Cognizant LLC",
