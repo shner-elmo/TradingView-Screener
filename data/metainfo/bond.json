@@ -486,6 +486,7 @@
         "t": "text",
         "r": [
             "AUD",
+            "CHF",
             "CNY",
             "EGP",
             "EUR",
@@ -632,7 +633,6 @@
             "BCS:LTM",
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
-            "BER:RFB",
             "BER:VG1",
             "BET:MKBBANK",
             "BET:MOL",
@@ -2861,6 +2861,7 @@
             "OTC:FMCC",
             "OTC:FNBT",
             "OTC:FNMA",
+            "OTC:FRBKQ",
             "OTC:FRCB",
             "OTC:FTCHQ",
             "OTC:HALL",
@@ -3660,6 +3661,7 @@
         "r": [
             "",
             "AUD",
+            "CHF",
             "CNY",
             "EGP",
             "EUR",
@@ -3684,9 +3686,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
