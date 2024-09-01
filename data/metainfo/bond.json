@@ -2557,7 +2557,6 @@
             "NYSE:SJM",
             "NYSE:SKLZ",
             "NYSE:SLGN",
-            "NYSE:SLVM",
             "NYSE:SM",
             "NYSE:SMG",
             "NYSE:SNA",
@@ -3523,7 +3522,6 @@
             "CLP",
             "CNH",
             "COP",
-            "CRC",
             "CZK",
             "DKK",
             "DOP",
@@ -3559,7 +3557,6 @@
             "PLN",
             "PYG",
             "RON",
-            "RSD",
             "RUB",
             "SAR",
             "SEK",
@@ -3567,13 +3564,12 @@
             "THB",
             "TND",
             "TRY",
-            "TTD",
             "TZS",
-            "UAH",
             "USD",
             "UVA",
             "UYU",
             "UZS",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -3686,6 +3682,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
