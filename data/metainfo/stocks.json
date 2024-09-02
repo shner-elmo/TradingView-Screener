@@ -3571,7 +3571,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -20736,7 +20735,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -20794,8 +20792,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

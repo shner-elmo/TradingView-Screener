@@ -486,7 +486,6 @@
         "t": "text",
         "r": [
             "AUD",
-            "CHF",
             "CNY",
             "EGP",
             "EUR",
@@ -566,7 +565,6 @@
             "AMEX:GTE",
             "AMEX:LEU",
             "AMEX:PCG/PA",
-            "AMEX:PLX",
             "AMEX:PRK",
             "ASX:ALD",
             "ASX:AN3PH",
@@ -1434,7 +1432,6 @@
             "NASDAQ:ECPG",
             "NASDAQ:EEFT",
             "NASDAQ:EFSC",
-            "NASDAQ:EGBN",
             "NASDAQ:EGHT",
             "NASDAQ:EGIO",
             "NASDAQ:EMBC",
@@ -3657,7 +3654,6 @@
         "r": [
             "",
             "AUD",
-            "CHF",
             "CNY",
             "EGP",
             "EUR",
@@ -3683,7 +3679,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
