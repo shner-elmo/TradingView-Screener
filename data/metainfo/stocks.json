@@ -14235,14 +14235,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19562,6 +19562,7 @@
             "Core Alternative",
             "CoreValues Alpha",
             "CornerCap",
+            "Coronation",
             "Counterpoint",
             "Credit Suisse",
             "CrossingBridge Funds",
@@ -19577,6 +19578,7 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
+            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -19838,6 +19840,7 @@
             "Nusadana ETF",
             "Nuveen",
             "OTP",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Octane",
@@ -23133,6 +23136,7 @@
             "Manulife Financial Corp.",
             "Marathon Partners LLC",
             "Matthews International Capital Management LLC",
+            "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
             "Mega Financial Holding Co., Ltd.",
             "Meitav Investment House Ltd.",
