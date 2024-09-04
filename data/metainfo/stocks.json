@@ -14200,14 +14200,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19448,6 +19448,7 @@
             "Alexis",
             "Alger",
             "Allianz",
+            "AllianzIM",
             "Alpha",
             "Alpha Architect",
             "AlphaMark",
@@ -19758,7 +19759,6 @@
             "Langar",
             "LeaderShares",
             "Leatherback",
-            "Legg Mason",
             "Leonteq",
             "Leuthold",
             "Leverage Shares",
@@ -19964,7 +19964,6 @@
             "Sovereign's",
             "Sparkline",
             "Spear",
-            "Sphere",
             "Sprott",
             "Starlight",
             "State Street",
@@ -20795,7 +20794,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23018,7 +23016,6 @@
             "Future Fund Advisors",
             "GAMCO Investors, Inc.",
             "GF Securities Co., Ltd.",
-            "Gea Sphere LLC",
             "Global Beta Advisors LLC",
             "Global X Japan Co., Ltd.",
             "Goose Hollow Capital Management LLC",
@@ -23118,6 +23115,7 @@
             "Leonteq AG",
             "Leonteq Securities AG",
             "Leverage Shares LLC",
+            "Leverage Shares Management Co. Ltd.",
             "Liberty Holdings Ltd.",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
