@@ -14200,13 +14200,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14214,7 +14207,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14222,6 +14215,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22992,7 +22992,6 @@
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",

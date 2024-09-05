@@ -632,6 +632,7 @@
             "BCS:LTM",
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
+            "BER:RTA1",
             "BER:VG1",
             "BET:MKBBANK",
             "BET:MOL",
@@ -986,7 +987,6 @@
             "GETTEX:3AI",
             "GETTEX:6FE",
             "GETTEX:8LV",
-            "GETTEX:A8U",
             "GETTEX:IJY",
             "GETTEX:MDH",
             "GETTEX:P9I",
@@ -2844,6 +2844,7 @@
             "OTC:AFHIF",
             "OTC:AILLP",
             "OTC:ALPIB",
+            "OTC:AOBI",
             "OTC:AUDAQ",
             "OTC:AVBH",
             "OTC:BDVC",
@@ -2877,7 +2878,6 @@
             "OTC:PNMXO",
             "OTC:PPWLO",
             "OTC:QNTO",
-            "OTC:RADCQ",
             "OTC:SBNY",
             "OTC:SBSAA",
             "OTC:SFIGA",
@@ -3051,6 +3051,7 @@
             "TSX:AQN",
             "TSX:ATD",
             "TSX:ATS",
+            "TSX:BB",
             "TSX:BBD.A",
             "TSX:BHC",
             "TSX:BMO",
@@ -4028,7 +4029,9 @@
     {
         "n": "region",
         "t": "text",
-        "r": []
+        "r": [
+            "TX"
+        ]
     },
     {
         "n": "rtc",

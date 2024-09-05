@@ -313,6 +313,7 @@
             "CBOE",
             "CBOT",
             "CBOT_MINI",
+            "CFFEX",
             "CME",
             "CME_MINI",
             "COMEX",
@@ -2507,6 +2508,7 @@
         "r": [
             "country/AE",
             "country/AU",
+            "country/CN",
             "country/EU",
             "country/IN",
             "country/RU",
