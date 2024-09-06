@@ -1450,6 +1450,13 @@
         "rd": true
     },
     {
+        "n": "EMA2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA3",
         "t": "number",
         "r": null,
@@ -1493,6 +1500,13 @@
     },
     {
         "n": "EMA13",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA14",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1548,6 +1562,13 @@
         "rd": true
     },
     {
+        "n": "EMA60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA75",
         "t": "number",
         "r": null,
@@ -1555,7 +1576,21 @@
         "rd": true
     },
     {
+        "n": "EMA89",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "EMA120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "EMA144",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1807,6 +1842,13 @@
         "rd": true
     },
     {
+        "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI5",
         "t": "number",
         "r": null,
@@ -1828,6 +1870,13 @@
         "rd": true
     },
     {
+        "n": "RSI20",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "RSI21",
         "t": "number",
         "r": null,
@@ -1843,6 +1892,13 @@
     },
     {
         "n": "RSI10[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI20[1]",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1871,6 +1927,13 @@
     },
     {
         "n": "RSI3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4[1]",
         "t": "number",
         "r": null,
         "hh": true,
@@ -1954,6 +2017,13 @@
         "rd": true
     },
     {
+        "n": "SMA2",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA3",
         "t": "number",
         "r": null,
@@ -2003,6 +2073,20 @@
         "rd": true
     },
     {
+        "n": "SMA14",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA15",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA21",
         "t": "number",
         "r": null,
@@ -2017,7 +2101,28 @@
         "rd": true
     },
     {
+        "n": "SMA26",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA34",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA40",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA55",
         "t": "number",
         "r": null,
         "hh": true,
@@ -2038,7 +2143,21 @@
         "rd": true
     },
     {
+        "n": "SMA89",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "SMA120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "SMA144",
         "t": "number",
         "r": null,
         "hh": true,
@@ -2087,6 +2206,34 @@
         "rd": true
     },
     {
+        "n": "Stoch.D_5_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_5_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_6_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.D_6_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "Stoch.D_8_3_3",
         "t": "number",
         "r": null,
@@ -2116,6 +2263,34 @@
     },
     {
         "n": "Stoch.K_14_1_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_5_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_5_3_3[1]",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_6_3_3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Stoch.K_6_3_3[1]",
         "t": "number",
         "r": null,
         "hh": true,
