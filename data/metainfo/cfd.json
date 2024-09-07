@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12047,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18926,7 +18926,6 @@
             "Aptos",
             "Arbitrum",
             "Artificial Superintelligence Alliance",
-            "Arweave",
             "Avalanche",
             "BNB",
             "Bitcoin",
@@ -18974,6 +18973,7 @@
             "NEAR Protocol",
             "OKB",
             "Optimism",
+            "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
             "Polkadot",
@@ -19024,7 +19024,6 @@
             "XTVCAEVO",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCAR",
             "XTVCARBI",
             "XTVCATOM",
             "XTVCAVAX",
@@ -19077,6 +19076,7 @@
             "XTVCOM",
             "XTVCOP",
             "XTVCPEPE",
+            "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRPL",
@@ -19167,8 +19167,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

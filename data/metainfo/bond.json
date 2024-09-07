@@ -492,6 +492,7 @@
             "EUR",
             "INR",
             "NOK",
+            "SGD",
             "USD"
         ]
     },
@@ -1089,6 +1090,7 @@
             "GETTEX:2MD",
             "GETTEX:3AI",
             "GETTEX:8LV",
+            "GETTEX:9JG0",
             "GETTEX:CGE",
             "GETTEX:IJY",
             "GETTEX:P9I",
@@ -3726,7 +3728,6 @@
             "TSX:BEP.PR.R",
             "TSX:BHC",
             "TSX:BMO",
-            "TSX:BNRE",
             "TSX:BNS",
             "TSX:BRE",
             "TSX:BTB.UN",
@@ -7108,6 +7109,7 @@
             "EUR",
             "INR",
             "NOK",
+            "SGD",
             "USD"
         ]
     },
@@ -7127,9 +7129,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

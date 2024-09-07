@@ -14564,13 +14564,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14578,7 +14571,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14592,7 +14585,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14600,6 +14593,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21580,6 +21580,7 @@
             "Neuberger Berman",
             "New York Life Investments",
             "Newday",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22545,9 +22546,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24309,7 +24308,7 @@
             "Global X Investments Canada, Inc.",
             "Global X Management Co. LLC",
             "Goldman Sachs International",
-            "Hang Seng Indexes Co., Ltd.",
+            "Hang Seng Indexes Co. Ltd.",
             "Harvest Portfolios Group, Inc.",
             "Hedge Fund Research, Inc.",
             "Howard Capital Management Group LLC",
@@ -24918,6 +24917,7 @@
             "Neil Azous Revocable Trust",
             "Neos Investments LLC",
             "New York Life Insurance Co.",
+            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",

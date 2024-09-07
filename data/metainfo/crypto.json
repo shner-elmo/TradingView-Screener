@@ -244,6 +244,7 @@
             "Immutable X",
             "Index Chain",
             "Injective Protocol",
+            "InsurAce",
             "Internet Computer",
             "IoTeX",
             "JOE",
@@ -1549,6 +1550,7 @@
             "CLEV",
             "CNC",
             "CNHT",
+            "COCO",
             "COP",
             "COQ",
             "CORGIAI",
@@ -12725,13 +12727,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12739,7 +12734,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12747,6 +12742,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12767,14 +12769,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19833,6 +19835,7 @@
             "ILV",
             "IMX",
             "INJ",
+            "INSUR",
             "IO",
             "IOTX",
             "IPL",
@@ -20199,6 +20202,7 @@
             "XTVCCLEV",
             "XTVCCNC",
             "XTVCCNHT",
+            "XTVCCOCO",
             "XTVCCOQ",
             "XTVCCORGIAI",
             "XTVCCOTI",
@@ -20305,6 +20309,7 @@
             "XTVCNEIRO",
             "XTVCNESG",
             "XTVCNMT",
+            "XTVCNYA",
             "XTVCOETH",
             "XTVCOHM",
             "XTVCOMG",
