@@ -2683,7 +2683,6 @@
         "r": [
             "country/AE",
             "country/AU",
-            "country/CN",
             "country/EU",
             "country/IN",
             "country/RU",
@@ -2695,6 +2694,7 @@
             "source/BMFBOVESPA",
             "source/BSE",
             "source/CBOE",
+            "source/CFFEX",
             "source/CME",
             "source/DFM",
             "source/EUREX",

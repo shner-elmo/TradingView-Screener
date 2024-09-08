@@ -422,7 +422,6 @@
             "Stratis",
             "Suku",
             "SunContract",
-            "Super Bitcoin",
             "SuperFarm",
             "SushiSwap",
             "Sweat Economy",
@@ -1543,7 +1542,6 @@
             "CAD",
             "CAKE",
             "CATGIRL",
-            "CAW",
             "CBETH",
             "CDCETH",
             "CHF",
@@ -1570,6 +1568,7 @@
             "DEXE",
             "DF",
             "DIP",
+            "DMT",
             "DOGE",
             "DOT",
             "ECO",
@@ -12727,13 +12726,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12741,7 +12733,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12749,6 +12741,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12769,14 +12768,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19981,7 +19980,6 @@
             "SAND",
             "SANTOS",
             "SATT",
-            "SBTC",
             "SC",
             "SCRT",
             "SDN",
@@ -20196,7 +20194,6 @@
             "XTVCBUSD",
             "XTVCCAKE",
             "XTVCCATGIRL",
-            "XTVCCAW",
             "XTVCCBETH",
             "XTVCCDCETH",
             "XTVCCLEV",
@@ -20223,6 +20220,7 @@
             "XTVCDEXE",
             "XTVCDF",
             "XTVCDIP",
+            "XTVCDMT",
             "XTVCDOGE",
             "XTVCDOT",
             "XTVCDPLY",
@@ -20230,7 +20228,6 @@
             "XTVCEDU",
             "XTVCENSURE",
             "XTVCEOS",
-            "XTVCETCS20",
             "XTVCETG",
             "XTVCETH",
             "XTVCETHX",
@@ -20355,7 +20352,6 @@
             "XTVCSEUR",
             "XTVCSFRAX",
             "XTVCSFUND",
-            "XTVCSLEEPY",
             "XTVCSOL",
             "XTVCSPA",
             "XTVCSQUID",
