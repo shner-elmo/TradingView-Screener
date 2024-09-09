@@ -2150,7 +2150,6 @@
             "NSE:FLUOROCHEM",
             "NSE:FRETAIL",
             "NSE:FSC",
-            "NSE:FUSION",
             "NSE:GAIL",
             "NSE:GICHSGFIN",
             "NSE:GMRINFRA",
@@ -5260,7 +5259,6 @@
             "NSE:FLUOROCHEM",
             "NSE:FRETAIL",
             "NSE:FSC",
-            "NSE:FUSION",
             "NSE:GAIL",
             "NSE:GICHSGFIN",
             "NSE:GMRINFRA",
@@ -6162,6 +6160,7 @@
             "OMXCOP:ORSTED",
             "OMXCOP:PNDORA",
             "OMXCOP:RILBA",
+            "OMXCOP:STG",
             "OMXCOP:SYDB",
             "OMXCOP:TRMD_A",
             "OMXCOP:VWS",
@@ -7130,7 +7129,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
