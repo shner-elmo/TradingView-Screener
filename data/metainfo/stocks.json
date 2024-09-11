@@ -14550,14 +14550,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21642,6 +21642,7 @@
             "Quadratic",
             "Quadravest",
             "Quantum",
+            "RAFI Indices",
             "RAM",
             "RBC",
             "REX",
@@ -21689,6 +21690,7 @@
             "SWS",
             "Saba",
             "Samsung",
+            "SanJac Alpha",
             "Satrix",
             "Sber",
             "Schroder",
@@ -24766,6 +24768,7 @@
             "Future Fund Advisors",
             "GAMCO Investors, Inc.",
             "GF Securities Co., Ltd.",
+            "GLOBAL X MANAGEMENT COMPANY (EUROPE) LIMITED",
             "Global Beta Advisors LLC",
             "Global X Japan Co., Ltd.",
             "Goose Hollow Capital Management LLC",
@@ -25014,6 +25017,7 @@
             "Samsung Life Insurance Co., Ltd.",
             "Samsung Securities Co., Ltd.",
             "Sanlam Ltd.",
+            "Saracen Energy Advisors LP",
             "Sausalito Partners LLC",
             "Sberbank Russia PJSC",
             "Schroders Plc",
