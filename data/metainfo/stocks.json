@@ -2062,7 +2062,6 @@
             "Bangladesh",
             "Barbados",
             "Belgium",
-            "Belize",
             "Bermuda",
             "Botswana",
             "Brazil",
@@ -2086,7 +2085,6 @@
             "Finland",
             "France",
             "Gabon",
-            "Georgia",
             "Germany",
             "Gibraltar",
             "Greece",
@@ -14564,13 +14562,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14578,7 +14569,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14592,7 +14583,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14600,6 +14591,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21239,6 +21237,7 @@
             "BNY Mellon",
             "BOC",
             "BOCOM Schroder",
+            "BTG Pactual",
             "Bahl & Gaynor",
             "Bajaj Allianz",
             "Bajaj Finserv",
@@ -21821,6 +21820,7 @@
             "X-Square",
             "XACT",
             "XBT",
+            "XP",
             "Xetra",
             "Xingquan",
             "Xingyin",
@@ -22340,7 +22340,6 @@
             "BR",
             "BS",
             "BW",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -22361,7 +22360,6 @@
             "FR",
             "GA",
             "GB",
-            "GE",
             "GI",
             "GL",
             "GR",
@@ -22916,6 +22914,7 @@
             "AED",
             "AUD",
             "BGN",
+            "BRL",
             "CAD",
             "CHF",
             "CNH",
@@ -24624,6 +24623,7 @@
             "Bahl & Gaynor, Inc.",
             "Baird Financial Group, Inc.",
             "Bajaj Finserv Ltd.",
+            "Banco BTG Pactual SA",
             "Banco Bilbao Vizcaya Argentaria SA",
             "Bandhan Asset Management Co. Ltd.",
             "Bangkok Bank PCL",
@@ -24970,6 +24970,7 @@
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
+            "Polen Capital Management LLC",
             "Portfoliometrix Holdings Ltd.",
             "Power Corp. of Canada",
             "Power Financial Corp.",
@@ -25133,6 +25134,7 @@
             "Woori Financial Group, Inc.",
             "World Gold Council Ltd.",
             "X Square Capital LLC",
+            "XP, Inc.",
             "Xinghua Fund Management Co. Ltd.",
             "Yingda Asset Management Co., Ltd.",
             "Yinhua Fund Management Co., Ltd.",
@@ -25786,6 +25788,7 @@
             "9528",
             "9530",
             "9535",
+            "9537",
             "97",
             "98"
         ]
