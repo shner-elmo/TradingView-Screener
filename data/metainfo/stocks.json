@@ -14576,13 +14576,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14590,7 +14583,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14598,6 +14591,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21608,6 +21608,7 @@
             "PIMCO",
             "PMV",
             "Pacer",
+            "Palmer Square",
             "Panagram",
             "Pando",
             "Pando Asset",
@@ -24940,7 +24941,6 @@
             "Otter Creek Advisors LLC",
             "Oversea-Chinese Banking Corp. Ltd.",
             "PBT Group Ltd.",
-            "PDR Services LLC",
             "PEH Wertpapier AG",
             "PMV Capital LLC",
             "PT Capital Financial Indonesia Tbk",
@@ -24954,6 +24954,7 @@
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
             "Pacer Advisors, Inc.",
+            "Palmer Square Holdings LLC",
             "Pando Finance Ltd.",
             "Paralel Technologies LLC",
             "Passionate Investment Management Pvt Ltd.",
@@ -24970,7 +24971,6 @@
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
-            "Polen Capital Management LLC",
             "Portfoliometrix Holdings Ltd.",
             "Power Corp. of Canada",
             "Power Financial Corp.",
