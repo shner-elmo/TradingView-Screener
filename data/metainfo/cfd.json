@@ -12018,14 +12018,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18992,6 +18992,7 @@
             "Synthetix",
             "THORChain",
             "TRON",
+            "Tellor",
             "Tether USDt",
             "The Graph",
             "Threshold",
@@ -19009,8 +19010,7 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi",
-            "yearn.finance"
+            "ether.fi"
         ]
     },
     {
@@ -19093,6 +19093,7 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
+            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -19109,7 +19110,6 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19167,8 +19167,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

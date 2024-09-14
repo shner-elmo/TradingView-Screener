@@ -2164,7 +2164,6 @@
             "United Kingdom",
             "United States",
             "Uruguay",
-            "Vanuatu",
             "Venezuela",
             "Vietnam",
             "Zambia"
@@ -14548,14 +14547,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21440,6 +21439,7 @@
             "Honeytree",
             "Hony Horizon",
             "Horizon",
+            "Horizon Kinetics",
             "Horizons",
             "Hoya",
             "HuaAn",
@@ -22439,7 +22439,6 @@
             "VG",
             "VI",
             "VN",
-            "VU",
             "ZA",
             "ZM"
         ]
@@ -22548,9 +22547,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

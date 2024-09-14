@@ -489,8 +489,10 @@
             "CNY",
             "EGP",
             "EUR",
+            "GBP",
             "INR",
             "NOK",
+            "SEK",
             "USD"
         ]
     },
@@ -7002,6 +7004,7 @@
             "KZT",
             "LAJ",
             "MAD",
+            "MNT",
             "MXN",
             "MXV",
             "NGN",
@@ -7075,8 +7078,10 @@
             "CNY",
             "EGP",
             "EUR",
+            "GBP",
             "INR",
             "NOK",
+            "SEK",
             "USD"
         ]
     },
@@ -7096,9 +7101,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -7445,9 +7448,7 @@
     {
         "n": "region",
         "t": "text",
-        "r": [
-            "NY"
-        ]
+        "r": []
     },
     {
         "n": "rtc",
