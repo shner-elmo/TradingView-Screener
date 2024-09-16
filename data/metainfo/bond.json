@@ -489,9 +489,7 @@
             "CNY",
             "EGP",
             "EUR",
-            "GBP",
             "INR",
-            "NOK",
             "SEK",
             "USD"
         ]
@@ -2855,7 +2853,6 @@
             "NYSE:MGY",
             "NYSE:MHK",
             "NYSE:MHO",
-            "NYSE:MITT",
             "NYSE:MKC",
             "NYSE:MKL",
             "NYSE:MLM",
@@ -3014,7 +3011,6 @@
             "NYSE:REZI",
             "NYSE:RF",
             "NYSE:RGA",
-            "NYSE:RH",
             "NYSE:RHP",
             "NYSE:RIG",
             "NYSE:RITM",
@@ -4622,6 +4618,7 @@
             "LSE:FSTA",
             "LSE:GPE",
             "LSE:HBR",
+            "LSE:HLN",
             "LSE:HMSO",
             "LSE:HSBA",
             "LSE:HSX",
@@ -4691,7 +4688,6 @@
             "LSE:TRN",
             "LSE:TSCO",
             "LSE:ULVR",
-            "LSE:UTG",
             "LSE:UU.",
             "LSE:VANQ",
             "LSE:VMUK",
@@ -5976,7 +5972,6 @@
             "NYSE:RDN",
             "NYSE:RF",
             "NYSE:RGA",
-            "NYSE:RH",
             "NYSE:RITM",
             "NYSE:RJF",
             "NYSE:RL",
@@ -7077,9 +7072,7 @@
             "CNY",
             "EGP",
             "EUR",
-            "GBP",
             "INR",
-            "NOK",
             "SEK",
             "USD"
         ]
@@ -7102,7 +7095,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

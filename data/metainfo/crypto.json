@@ -299,7 +299,6 @@
             "Moonriver",
             "Morpheus Labs",
             "MyNeighborAlice",
-            "Mysterium",
             "NEAR Protocol",
             "NEM",
             "NEO",
@@ -355,7 +354,6 @@
             "Prom",
             "Proton Loan",
             "PumaPay",
-            "Pundi X[new]",
             "Push Protocol",
             "Pyth Network",
             "Qredo",
@@ -1686,7 +1684,6 @@
             "TUSD",
             "UAH",
             "UAHG",
-            "UNB",
             "UNI",
             "USD",
             "USD0",
@@ -12730,13 +12727,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12744,7 +12734,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12752,6 +12742,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19883,7 +19880,6 @@
             "MTL",
             "MTLX",
             "MXNT",
-            "MYST",
             "NEAR",
             "NEO",
             "NEXO",
@@ -19934,7 +19930,6 @@
             "PORTAL",
             "POWR",
             "PROM",
-            "PUNDIX",
             "PUSH",
             "PYR",
             "PYTH",
@@ -20162,7 +20157,6 @@
             "XTVCBCT",
             "XTVCBETH",
             "XTVCBFIC",
-            "XTVCBHNY",
             "XTVCBITCOIN",
             "XTVCBNB",
             "XTVCBNO",
@@ -20308,6 +20302,7 @@
             "XTVCPUTIN",
             "XTVCPXETH",
             "XTVCPYUSD",
+            "XTVCPYUSDUSDC",
             "XTVCQUICK",
             "XTVCRDNT",
             "XTVCRENBTC",
@@ -20348,7 +20343,6 @@
             "XTVCTRX",
             "XTVCTUSD",
             "XTVCUAHG",
-            "XTVCUNB",
             "XTVCUNI",
             "XTVCUSC",
             "XTVCUSD0",

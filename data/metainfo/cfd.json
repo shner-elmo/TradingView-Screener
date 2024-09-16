@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18946,6 +18946,7 @@
             "Ethena",
             "Ethereum",
             "Ethereum Classic",
+            "Fantom",
             "Filecoin",
             "First Digital USD",
             "Frax",
@@ -18963,7 +18964,6 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
-            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -18994,7 +18994,6 @@
             "TRON",
             "Tellor",
             "Tether USDt",
-            "The Graph",
             "Threshold",
             "Toncoin",
             "Tribe",
@@ -19010,7 +19009,8 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19051,9 +19051,9 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
+            "XTVCFTM",
             "XTVCGMX",
             "XTVCGNO",
-            "XTVCGRT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
@@ -19066,7 +19066,6 @@
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
-            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19110,6 +19109,7 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19168,7 +19168,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
