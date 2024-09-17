@@ -14548,14 +14548,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14576,14 +14576,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21328,7 +21328,6 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
-            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -24341,7 +24340,6 @@
             "LPX AG",
             "Lattice Strategies LLC",
             "Legal & General Investment Management Ltd.",
-            "Leonteq Securities AG",
             "Level ETF Ventures LLC",
             "Life + Liberty Indexes",
             "LifeSci Index Partners LLC",
