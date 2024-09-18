@@ -2157,7 +2157,6 @@
             "Togo",
             "Tunisia",
             "Turkey",
-            "U.S. Virgin Islands",
             "Uganda",
             "Ukraine",
             "United Arab Emirates",
@@ -14548,13 +14547,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14562,7 +14554,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14570,6 +14562,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14590,14 +14589,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21328,6 +21327,7 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
+            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -21698,6 +21698,7 @@
             "SciBeta",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -22437,7 +22438,6 @@
             "UY",
             "VE",
             "VG",
-            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -24340,6 +24340,7 @@
             "LPX AG",
             "Lattice Strategies LLC",
             "Legal & General Investment Management Ltd.",
+            "Leonteq Securities AG",
             "Level ETF Ventures LLC",
             "Life + Liberty Indexes",
             "LifeSci Index Partners LLC",
@@ -24367,6 +24368,7 @@
             "NYSE Euronext Holding NV",
             "Nasdaq ISE LLC",
             "Ned Davis Research, Inc.",
+            "New York Life Investment Management LLC",
             "New York Stock Exchange",
             "Newfound Research LLC",
             "Nikkei, Inc.",
@@ -24836,6 +24838,7 @@
             "Investlinx Investment Management Ltd.",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Jacob Asset Management of New York LLC",
@@ -24924,6 +24927,7 @@
             "Neil Azous Revocable Trust",
             "Neos Investments LLC",
             "New York Life Insurance Co.",
+            "Newgold Owner Trust",
             "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",

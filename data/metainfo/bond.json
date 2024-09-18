@@ -490,6 +490,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]
@@ -3704,7 +3705,6 @@
             "TSE:9020",
             "TSE:9022",
             "TSE:9432",
-            "TSE:9503",
             "TSE:9531",
             "TSE:9616",
             "TSE:9984",
@@ -3860,6 +3860,7 @@
             "TWSE:2317",
             "TWSE:2330",
             "TWSE:2376",
+            "TWSE:2382",
             "TWSE:2884",
             "TWSE:3665",
             "TWSE:4958",
@@ -6489,7 +6490,6 @@
             "TSE:8801",
             "TSE:9020",
             "TSE:9022",
-            "TSE:9503",
             "TSE:9616",
             "TSE:9984",
             "TSX:AAV",
@@ -6624,6 +6624,7 @@
             "TWSE:1101",
             "TWSE:2317",
             "TWSE:2376",
+            "TWSE:2382",
             "TWSE:3665",
             "TWSE:4958",
             "TWSE:6669",
@@ -6993,6 +6994,7 @@
             "KZT",
             "LAJ",
             "MAD",
+            "MNT",
             "MXN",
             "MXV",
             "NGN",
@@ -7016,7 +7018,6 @@
             "UVA",
             "UYU",
             "UZS",
-            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7068,6 +7069,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]
@@ -7088,7 +7090,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
