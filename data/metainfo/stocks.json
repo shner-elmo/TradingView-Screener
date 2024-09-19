@@ -14575,14 +14575,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22548,7 +22548,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24324,7 +24323,6 @@
             "IHS Markit Ltd.",
             "IPOX Schuster LLC",
             "Index Design Group LLC",
-            "IndexIQ Advisors LLC",
             "India Index Services & Products Ltd.",
             "Inspire Investing LLC",
             "Intercontinental Exchange, Inc.",
@@ -24854,6 +24852,7 @@
             "KGI Securities (Thailand) Public Co., Ltd.",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
+            "Kasikornbank Public Co. Ltd.",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
             "Kingsbarn Capital Management LLC",
