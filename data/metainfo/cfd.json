@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18931,7 +18931,6 @@
             "Bitcoin",
             "Bitcoin Cash",
             "Bittensor",
-            "BounceBit",
             "Cardano",
             "Chainlink",
             "Compound",
@@ -18985,6 +18984,7 @@
             "Rocket Pool",
             "Shiba Inu",
             "Solana",
+            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -18995,6 +18995,7 @@
             "TRON",
             "Tellor",
             "Tether USDt",
+            "The Graph",
             "Threshold",
             "Toncoin",
             "Tribe",
@@ -19027,7 +19028,6 @@
             "XTVCARBI",
             "XTVCATOM",
             "XTVCAVAX",
-            "XTVCBBBOU",
             "XTVCBCH",
             "XTVCBNB",
             "XTVCBTC",
@@ -19054,6 +19054,7 @@
             "XTVCFTM",
             "XTVCGMX",
             "XTVCGNO",
+            "XTVCGRT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
@@ -19090,6 +19091,7 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
+            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",

@@ -11945,13 +11945,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -11959,7 +11952,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11967,6 +11960,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18134,6 +18134,11 @@
         "r": null
     },
     {
+        "n": "altrank",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "at_the_money_addresses_percentage",
         "t": "percent",
         "r": null
@@ -18813,6 +18818,16 @@
         "rd": true
     },
     {
+        "n": "contributorsactive",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "contributorscreated",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "coupon",
         "t": "number",
         "r": null
@@ -19342,6 +19357,11 @@
         "r": null
     },
     {
+        "n": "galaxyscore",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "gap|1",
         "t": "percent",
         "r": null,
@@ -19833,6 +19853,11 @@
         "rd": true
     },
     {
+        "n": "interactions",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "is_blacklisted",
         "t": "bool",
         "r": null
@@ -20191,6 +20216,16 @@
         "rd": true
     },
     {
+        "n": "postsactive",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "postscreated",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "pre_change",
         "t": "percent",
         "r": null,
@@ -20495,6 +20530,21 @@
         "r": null
     },
     {
+        "n": "sentiment",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "social_volume_24h",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "socialdominance",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "source-logoid",
         "t": "text",
         "r": [
@@ -20618,6 +20668,11 @@
     {
         "n": "tvl",
         "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "tweets",
+        "t": "number",
         "r": null
     },
     {

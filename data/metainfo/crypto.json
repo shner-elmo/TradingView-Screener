@@ -63,6 +63,7 @@
             "Aevo",
             "Akash Network",
             "Akropolis",
+            "Alchemix",
             "Aleph Zero",
             "Algorand",
             "Alien Worlds",
@@ -90,6 +91,8 @@
             "Axelar",
             "Axie Infinity",
             "BENQI",
+            "BICONOMY (BICO)",
+            "BIZZCOIN",
             "BOOK OF MEME",
             "Baby Bali",
             "Baby Moon Floki",
@@ -120,6 +123,7 @@
             "BlackFort Exchange Network",
             "Blast",
             "Blockchain Cuties Universe Governance",
+            "Blocklancer",
             "Blur",
             "Bluzelle",
             "Boba Network",
@@ -211,6 +215,7 @@
             "FlypMe",
             "ForTube",
             "Frax Share",
+            "Friendz",
             "Fringe Finance",
             "G999",
             "GMT Token",
@@ -234,7 +239,6 @@
             "Hiveterminal Token",
             "Hooked Protocol",
             "Horizen",
-            "Hub - Human Trust Protocol",
             "Humaniq",
             "Huobi Token",
             "ICON",
@@ -251,6 +255,7 @@
             "JOE",
             "Jasmy",
             "Jigstack",
+            "JulSwap",
             "Jupiter",
             "Kadena",
             "Karate Combat",
@@ -308,6 +313,7 @@
             "NKN",
             "Nano",
             "Nervos Network",
+            "Newscrypto",
             "Nexo",
             "Nimiq",
             "Notcoin",
@@ -337,7 +343,9 @@
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pantos",
+            "Particl",
             "Partisia Blockchain",
+            "Patientory",
             "Pendle",
             "Perpetual Protocol",
             "Phala.Network",
@@ -345,6 +353,7 @@
             "Pirate Chain",
             "PixelVerse",
             "PlayDapp",
+            "Pluton",
             "Pocket Network",
             "Polkadot",
             "Polkastarter",
@@ -378,6 +387,7 @@
             "Renzo",
             "Request Network",
             "Revain",
+            "Rupiah Token",
             "SAFE(AnWang)",
             "SALT",
             "SENSO",
@@ -399,14 +409,18 @@
             "Shiden Network",
             "Siacoin",
             "Solana",
+            "Solanium",
             "Solar",
+            "Sologenic",
             "Songbird",
             "Spectral",
             "Spell Token",
             "Stacks",
             "Stafi",
+            "Standard Protocol",
             "Stargate Finance",
             "Starknet",
+            "Starlink",
             "Status",
             "Steem",
             "Stellar",
@@ -417,8 +431,10 @@
             "SuperFarm",
             "SushiSwap",
             "Sweat Economy",
+            "Swerve",
             "SwftCoin",
             "SwissBorg",
+            "Symbol",
             "Synthetix Network Token",
             "Syscoin",
             "THORChain",
@@ -12731,14 +12747,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12759,14 +12775,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18906,6 +18922,11 @@
         "r": null
     },
     {
+        "n": "altrank",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "at_the_money_addresses_percentage",
         "t": "percent",
         "r": null
@@ -19604,6 +19625,16 @@
         "rd": true
     },
     {
+        "n": "contributorsactive",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "contributorscreated",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "coupon",
         "t": "number",
         "r": null
@@ -19636,6 +19667,7 @@
             "AIOZ",
             "AKRO",
             "AKT",
+            "ALCX",
             "ALGO",
             "ALICE",
             "ALPHA",
@@ -19681,7 +19713,9 @@
             "BEL",
             "BEST",
             "BGB",
+            "BICO",
             "BIGTIME",
+            "BIZZ",
             "BLAST",
             "BLUR",
             "BLZ",
@@ -19773,6 +19807,7 @@
             "ETHW",
             "EUNO",
             "EUT",
+            "FDZ",
             "FET",
             "FIDA",
             "FIL",
@@ -19814,12 +19849,12 @@
             "HOOK",
             "HT",
             "HTX",
-            "HUB",
             "HVN",
             "ICP",
             "ICX",
             "ID",
             "IDEX",
+            "IDRT",
             "IDX",
             "ILV",
             "IMX",
@@ -19831,6 +19866,7 @@
             "IRIS",
             "JASMY",
             "JOE",
+            "JULD",
             "JUP",
             "JUSTICE",
             "KAN",
@@ -19848,6 +19884,7 @@
             "LEO",
             "LINK",
             "LIT",
+            "LNC",
             "LOAN",
             "LOKA",
             "LQTY",
@@ -19893,6 +19930,7 @@
             "NOT",
             "NRG",
             "NULS",
+            "NWC",
             "NXRA",
             "OAS",
             "OAX",
@@ -19913,6 +19951,7 @@
             "ORN",
             "OXT",
             "PAN",
+            "PART",
             "PAXG",
             "PAY",
             "PDA",
@@ -19924,6 +19963,7 @@
             "PHB",
             "PIVX",
             "PIXEL",
+            "PLU",
             "PMA",
             "PNK",
             "POKT",
@@ -19934,6 +19974,7 @@
             "POWR",
             "PRO",
             "PROM",
+            "PTOY",
             "PUSH",
             "PYR",
             "PYTH",
@@ -19975,18 +20016,22 @@
             "SHIB",
             "SKL",
             "SLF",
+            "SLIM",
             "SNC",
             "SNT",
             "SNX",
             "SOL",
+            "SOLO",
             "SOLVE",
             "SPEC",
             "SPELL",
             "SSV",
             "STAK",
+            "STARL",
             "STC",
             "STEEM",
             "STG",
+            "STND",
             "STORJ",
             "STPT",
             "STRAX",
@@ -19998,6 +20043,7 @@
             "SUSHI",
             "SWEAT",
             "SWFTC",
+            "SWRV",
             "SXP",
             "SYS",
             "T",
@@ -20075,6 +20121,7 @@
             "XTZ",
             "XVG",
             "XVS",
+            "XYM",
             "XYO",
             "YFI",
             "ZEC",
@@ -20290,7 +20337,6 @@
             "XTVCOP",
             "XTVCOVER",
             "XTVCPAXG",
-            "XTVCPEACE314",
             "XTVCPEAS",
             "XTVCPEMPXPEAS",
             "XTVCPEPE",
@@ -20687,6 +20733,11 @@
     {
         "n": "fully_diluted_value",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "galaxyscore",
+        "t": "number",
         "r": null
     },
     {
@@ -21181,6 +21232,11 @@
         "rd": true
     },
     {
+        "n": "interactions",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "is_blacklisted",
         "t": "bool",
         "r": null
@@ -21537,6 +21593,16 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "postsactive",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "postscreated",
+        "t": "number",
+        "r": null
     },
     {
         "n": "pre_change",
@@ -21913,6 +21979,21 @@
         "r": null
     },
     {
+        "n": "sentiment",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "social_volume_24h",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "socialdominance",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "source-logoid",
         "t": "text",
         "r": [
@@ -22100,6 +22181,11 @@
     {
         "n": "tvl",
         "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "tweets",
+        "t": "number",
         "r": null
     },
     {
