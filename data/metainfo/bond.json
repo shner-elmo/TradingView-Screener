@@ -490,6 +490,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]
@@ -669,7 +670,6 @@
             "BCS:LTM",
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
-            "BER:1HW",
             "BER:1TM",
             "BER:318",
             "BER:DO10",
@@ -1362,7 +1362,6 @@
             "LSE:DGE",
             "LSE:DLN",
             "LSE:DRX",
-            "LSE:ECHO",
             "LSE:ENOG",
             "LSE:ENQ",
             "LSE:EVOK",
@@ -1414,6 +1413,7 @@
             "LSE:NBS",
             "LSE:NG.",
             "LSE:NOG",
+            "LSE:NTVO",
             "LSE:NWG",
             "LSE:NXT",
             "LSE:OCDO",
@@ -2314,6 +2314,7 @@
             "NYSE:AJG",
             "NYSE:AL",
             "NYSE:ALB",
+            "NYSE:ALK",
             "NYSE:ALL",
             "NYSE:ALLE",
             "NYSE:ALLY",
@@ -3335,6 +3336,7 @@
             "OSL:DNO",
             "OSL:EQNR",
             "OSL:FFSB",
+            "OSL:GJF",
             "OSL:GRONG",
             "OSL:HELG",
             "OSL:HGSB",
@@ -4603,7 +4605,6 @@
             "LSE:CPG",
             "LSE:CSN",
             "LSE:DLN",
-            "LSE:ECHO",
             "LSE:ENOG",
             "LSE:ENQ",
             "LSE:EZJ",
@@ -4612,7 +4613,6 @@
             "LSE:FSTA",
             "LSE:GPE",
             "LSE:HBR",
-            "LSE:HLN",
             "LSE:HMSO",
             "LSE:HSBA",
             "LSE:HSX",
@@ -4642,6 +4642,7 @@
             "LSE:MTRO",
             "LSE:NBS",
             "LSE:NG.",
+            "LSE:NTVO",
             "LSE:NWG",
             "LSE:NXT",
             "LSE:OCDO",
@@ -7063,6 +7064,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]
@@ -7083,9 +7085,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
