@@ -42,6 +42,154 @@
 
 
 
+            <h2>API Documentation</h2>
+                <ul class="memberlist">
+            <li>
+                    <a class="class" href="#FilterOperationDict">FilterOperationDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#FilterOperationDict.left">left</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#FilterOperationDict.operation">operation</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#FilterOperationDict.right">right</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#SortByDict">SortByDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#SortByDict.sortBy">sortBy</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#SortByDict.sortOrder">sortOrder</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#SortByDict.nullsFirst">nullsFirst</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#SymbolsDict">SymbolsDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#SymbolsDict.query">query</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#SymbolsDict.tickers">tickers</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#SymbolsDict.symbolset">symbolset</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#SymbolsDict.watchlist">watchlist</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#SymbolsDict.groups">groups</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#ExpressionDict">ExpressionDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#ExpressionDict.expression">expression</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#OperationComparisonDict">OperationComparisonDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#OperationComparisonDict.operator">operator</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#OperationComparisonDict.operands">operands</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#OperationDict">OperationDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#OperationDict.operation">operation</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#QueryDict">QueryDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#QueryDict.markets">markets</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.symbols">symbols</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.options">options</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.columns">columns</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.filter">filter</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.filter2">filter2</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.sort">sort</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.range">range</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.ignore_unknown_fields">ignore_unknown_fields</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.preset">preset</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#QueryDict.price_conversion">price_conversion</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#ScreenerRowDict">ScreenerRowDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#ScreenerRowDict.s">s</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#ScreenerRowDict.d">d</a>
+                        </li>
+                </ul>
+
+            </li>
+            <li>
+                    <a class="class" href="#ScreenerDict">ScreenerDict</a>
+                            <ul class="memberlist">
+                        <li>
+                                <a class="variable" href="#ScreenerDict.totalCount">totalCount</a>
+                        </li>
+                        <li>
+                                <a class="variable" href="#ScreenerDict.data">data</a>
+                        </li>
+                </ul>
+
+            </li>
+    </ul>
+
 
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
@@ -63,98 +211,838 @@
 
                         <div class="pdoc-code codehilite"><pre><span></span><span id="L-1"><a href="#L-1"><span class="linenos"> 1</span></a><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
 </span><span id="L-2"><a href="#L-2"><span class="linenos"> 2</span></a>
-</span><span id="L-3"><a href="#L-3"><span class="linenos"> 3</span></a><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">TYPE_CHECKING</span>
+</span><span id="L-3"><a href="#L-3"><span class="linenos"> 3</span></a><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">TypedDict</span><span class="p">,</span> <span class="n">TYPE_CHECKING</span>
 </span><span id="L-4"><a href="#L-4"><span class="linenos"> 4</span></a>
 </span><span id="L-5"><a href="#L-5"><span class="linenos"> 5</span></a><span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
-</span><span id="L-6"><a href="#L-6"><span class="linenos"> 6</span></a>    <span class="kn">from</span> <span class="nn">typing_extensions</span> <span class="kn">import</span> <span class="n">TypedDict</span><span class="p">,</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Literal</span><span class="p">,</span> <span class="n">NotRequired</span>
+</span><span id="L-6"><a href="#L-6"><span class="linenos"> 6</span></a>    <span class="kn">from</span> <span class="nn">typing_extensions</span> <span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Literal</span><span class="p">,</span> <span class="n">NotRequired</span>
 </span><span id="L-7"><a href="#L-7"><span class="linenos"> 7</span></a>
-</span><span id="L-8"><a href="#L-8"><span class="linenos"> 8</span></a>    <span class="k">class</span> <span class="nc">FilterOperationDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a>        <span class="n">left</span><span class="p">:</span> <span class="nb">str</span>
-</span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a>        <span class="n">operation</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span>
-</span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a>            <span class="s1">&#39;greater&#39;</span><span class="p">,</span>
-</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a>            <span class="s1">&#39;egreater&#39;</span><span class="p">,</span>
-</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a>            <span class="s1">&#39;less&#39;</span><span class="p">,</span>
-</span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a>            <span class="s1">&#39;eless&#39;</span><span class="p">,</span>
-</span><span id="L-15"><a href="#L-15"><span class="linenos">15</span></a>            <span class="s1">&#39;equal&#39;</span><span class="p">,</span>
-</span><span id="L-16"><a href="#L-16"><span class="linenos">16</span></a>            <span class="s1">&#39;nequal&#39;</span><span class="p">,</span>
-</span><span id="L-17"><a href="#L-17"><span class="linenos">17</span></a>            <span class="s1">&#39;in_range&#39;</span><span class="p">,</span>  <span class="c1"># equivalent to SQL `BETWEEN` or `IN (...)`</span>
-</span><span id="L-18"><a href="#L-18"><span class="linenos">18</span></a>            <span class="s1">&#39;not_in_range&#39;</span><span class="p">,</span>
-</span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a>            <span class="s1">&#39;empty&#39;</span><span class="p">,</span>
-</span><span id="L-20"><a href="#L-20"><span class="linenos">20</span></a>            <span class="s1">&#39;nempty&#39;</span><span class="p">,</span>
-</span><span id="L-21"><a href="#L-21"><span class="linenos">21</span></a>            <span class="s1">&#39;crosses&#39;</span><span class="p">,</span>
-</span><span id="L-22"><a href="#L-22"><span class="linenos">22</span></a>            <span class="s1">&#39;crosses_above&#39;</span><span class="p">,</span>
-</span><span id="L-23"><a href="#L-23"><span class="linenos">23</span></a>            <span class="s1">&#39;crosses_below&#39;</span><span class="p">,</span>
-</span><span id="L-24"><a href="#L-24"><span class="linenos">24</span></a>            <span class="s1">&#39;match&#39;</span><span class="p">,</span>  <span class="c1"># the same as: `LOWER(col) LIKE &#39;%pattern%&#39;`</span>
-</span><span id="L-25"><a href="#L-25"><span class="linenos">25</span></a>            <span class="s1">&#39;nmatch&#39;</span><span class="p">,</span>  <span class="c1"># not match</span>
-</span><span id="L-26"><a href="#L-26"><span class="linenos">26</span></a>            <span class="c1"># simple match, there is no method for this operation as of right now, because it does</span>
-</span><span id="L-27"><a href="#L-27"><span class="linenos">27</span></a>            <span class="c1"># the same thing as `match`</span>
-</span><span id="L-28"><a href="#L-28"><span class="linenos">28</span></a>            <span class="s1">&#39;smatch&#39;</span><span class="p">,</span>
-</span><span id="L-29"><a href="#L-29"><span class="linenos">29</span></a>            <span class="s1">&#39;has&#39;</span><span class="p">,</span>  <span class="c1"># set must contain one of the values</span>
-</span><span id="L-30"><a href="#L-30"><span class="linenos">30</span></a>            <span class="s1">&#39;has_none_of&#39;</span><span class="p">,</span>  <span class="c1"># set must NOT contain ANY of the values</span>
-</span><span id="L-31"><a href="#L-31"><span class="linenos">31</span></a>            <span class="s1">&#39;above%&#39;</span><span class="p">,</span>
-</span><span id="L-32"><a href="#L-32"><span class="linenos">32</span></a>            <span class="s1">&#39;below%&#39;</span><span class="p">,</span>
-</span><span id="L-33"><a href="#L-33"><span class="linenos">33</span></a>            <span class="s1">&#39;in_range%&#39;</span><span class="p">,</span>
-</span><span id="L-34"><a href="#L-34"><span class="linenos">34</span></a>            <span class="s1">&#39;not_in_range%&#39;</span><span class="p">,</span>
-</span><span id="L-35"><a href="#L-35"><span class="linenos">35</span></a>            <span class="s1">&#39;in_day_range&#39;</span><span class="p">,</span>
-</span><span id="L-36"><a href="#L-36"><span class="linenos">36</span></a>            <span class="s1">&#39;in_week_range&#39;</span><span class="p">,</span>
-</span><span id="L-37"><a href="#L-37"><span class="linenos">37</span></a>            <span class="s1">&#39;in_month_range&#39;</span><span class="p">,</span>
-</span><span id="L-38"><a href="#L-38"><span class="linenos">38</span></a>        <span class="p">]</span>
-</span><span id="L-39"><a href="#L-39"><span class="linenos">39</span></a>        <span class="n">right</span><span class="p">:</span> <span class="n">Any</span>  <span class="c1"># its optional when the operation is `empty` or `nempty`</span>
-</span><span id="L-40"><a href="#L-40"><span class="linenos">40</span></a>
-</span><span id="L-41"><a href="#L-41"><span class="linenos">41</span></a>    <span class="k">class</span> <span class="nc">SortByDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-42"><a href="#L-42"><span class="linenos">42</span></a>        <span class="n">sortBy</span><span class="p">:</span> <span class="nb">str</span>
-</span><span id="L-43"><a href="#L-43"><span class="linenos">43</span></a>        <span class="n">sortOrder</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;asc&#39;</span><span class="p">,</span> <span class="s1">&#39;desc&#39;</span><span class="p">]</span>
-</span><span id="L-44"><a href="#L-44"><span class="linenos">44</span></a>        <span class="n">nullsFirst</span><span class="p">:</span> <span class="n">NotRequired</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span>
-</span><span id="L-45"><a href="#L-45"><span class="linenos">45</span></a>
-</span><span id="L-46"><a href="#L-46"><span class="linenos">46</span></a>    <span class="k">class</span> <span class="nc">SymbolsDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">,</span> <span class="n">total</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-</span><span id="L-47"><a href="#L-47"><span class="linenos">47</span></a>        <span class="n">query</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;types&#39;</span><span class="p">],</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span>
-</span><span id="L-48"><a href="#L-48"><span class="linenos">48</span></a>        <span class="n">tickers</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-</span><span id="L-49"><a href="#L-49"><span class="linenos">49</span></a>        <span class="n">symbolset</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-</span><span id="L-50"><a href="#L-50"><span class="linenos">50</span></a>        <span class="n">watchlist</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="nb">int</span><span class="p">]</span>
-</span><span id="L-51"><a href="#L-51"><span class="linenos">51</span></a>        <span class="n">groups</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">,</span> <span class="s1">&#39;values&#39;</span><span class="p">],</span> <span class="nb">str</span><span class="p">]]</span>
-</span><span id="L-52"><a href="#L-52"><span class="linenos">52</span></a>        <span class="c1"># for example [{&#39;type&#39;: &#39;index&#39;, &#39;values&#39;: [&#39;DJ:DJU&#39;]}]</span>
-</span><span id="L-53"><a href="#L-53"><span class="linenos">53</span></a>
-</span><span id="L-54"><a href="#L-54"><span class="linenos">54</span></a>    <span class="k">class</span> <span class="nc">ExpressionDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-55"><a href="#L-55"><span class="linenos">55</span></a>        <span class="n">expression</span><span class="p">:</span> <span class="n">FilterOperationDict</span>
+</span><span id="L-8"><a href="#L-8"><span class="linenos"> 8</span></a>
+</span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a><span class="k">class</span> <span class="nc">FilterOperationDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a>    <span class="n">left</span><span class="p">:</span> <span class="nb">str</span>
+</span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a>    <span class="n">operation</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span>
+</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a>        <span class="s1">&#39;greater&#39;</span><span class="p">,</span>
+</span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a>        <span class="s1">&#39;egreater&#39;</span><span class="p">,</span>
+</span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a>        <span class="s1">&#39;less&#39;</span><span class="p">,</span>
+</span><span id="L-15"><a href="#L-15"><span class="linenos">15</span></a>        <span class="s1">&#39;eless&#39;</span><span class="p">,</span>
+</span><span id="L-16"><a href="#L-16"><span class="linenos">16</span></a>        <span class="s1">&#39;equal&#39;</span><span class="p">,</span>
+</span><span id="L-17"><a href="#L-17"><span class="linenos">17</span></a>        <span class="s1">&#39;nequal&#39;</span><span class="p">,</span>
+</span><span id="L-18"><a href="#L-18"><span class="linenos">18</span></a>        <span class="s1">&#39;in_range&#39;</span><span class="p">,</span>  <span class="c1"># equivalent to SQL `BETWEEN` or `IN (...)`</span>
+</span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a>        <span class="s1">&#39;not_in_range&#39;</span><span class="p">,</span>
+</span><span id="L-20"><a href="#L-20"><span class="linenos">20</span></a>        <span class="s1">&#39;empty&#39;</span><span class="p">,</span>
+</span><span id="L-21"><a href="#L-21"><span class="linenos">21</span></a>        <span class="s1">&#39;nempty&#39;</span><span class="p">,</span>
+</span><span id="L-22"><a href="#L-22"><span class="linenos">22</span></a>        <span class="s1">&#39;crosses&#39;</span><span class="p">,</span>
+</span><span id="L-23"><a href="#L-23"><span class="linenos">23</span></a>        <span class="s1">&#39;crosses_above&#39;</span><span class="p">,</span>
+</span><span id="L-24"><a href="#L-24"><span class="linenos">24</span></a>        <span class="s1">&#39;crosses_below&#39;</span><span class="p">,</span>
+</span><span id="L-25"><a href="#L-25"><span class="linenos">25</span></a>        <span class="s1">&#39;match&#39;</span><span class="p">,</span>  <span class="c1"># the same as: `LOWER(col) LIKE &#39;%pattern%&#39;`</span>
+</span><span id="L-26"><a href="#L-26"><span class="linenos">26</span></a>        <span class="s1">&#39;nmatch&#39;</span><span class="p">,</span>  <span class="c1"># not match</span>
+</span><span id="L-27"><a href="#L-27"><span class="linenos">27</span></a>        <span class="c1"># simple match, there is no method for this operation as of right now, because it does</span>
+</span><span id="L-28"><a href="#L-28"><span class="linenos">28</span></a>        <span class="c1"># the same thing as `match`</span>
+</span><span id="L-29"><a href="#L-29"><span class="linenos">29</span></a>        <span class="s1">&#39;smatch&#39;</span><span class="p">,</span>
+</span><span id="L-30"><a href="#L-30"><span class="linenos">30</span></a>        <span class="s1">&#39;has&#39;</span><span class="p">,</span>  <span class="c1"># set must contain one of the values</span>
+</span><span id="L-31"><a href="#L-31"><span class="linenos">31</span></a>        <span class="s1">&#39;has_none_of&#39;</span><span class="p">,</span>  <span class="c1"># set must NOT contain ANY of the values</span>
+</span><span id="L-32"><a href="#L-32"><span class="linenos">32</span></a>        <span class="s1">&#39;above%&#39;</span><span class="p">,</span>
+</span><span id="L-33"><a href="#L-33"><span class="linenos">33</span></a>        <span class="s1">&#39;below%&#39;</span><span class="p">,</span>
+</span><span id="L-34"><a href="#L-34"><span class="linenos">34</span></a>        <span class="s1">&#39;in_range%&#39;</span><span class="p">,</span>
+</span><span id="L-35"><a href="#L-35"><span class="linenos">35</span></a>        <span class="s1">&#39;not_in_range%&#39;</span><span class="p">,</span>
+</span><span id="L-36"><a href="#L-36"><span class="linenos">36</span></a>        <span class="s1">&#39;in_day_range&#39;</span><span class="p">,</span>
+</span><span id="L-37"><a href="#L-37"><span class="linenos">37</span></a>        <span class="s1">&#39;in_week_range&#39;</span><span class="p">,</span>
+</span><span id="L-38"><a href="#L-38"><span class="linenos">38</span></a>        <span class="s1">&#39;in_month_range&#39;</span><span class="p">,</span>
+</span><span id="L-39"><a href="#L-39"><span class="linenos">39</span></a>    <span class="p">]</span>
+</span><span id="L-40"><a href="#L-40"><span class="linenos">40</span></a>    <span class="n">right</span><span class="p">:</span> <span class="n">Any</span>  <span class="c1"># its optional when the operation is `empty` or `nempty`</span>
+</span><span id="L-41"><a href="#L-41"><span class="linenos">41</span></a>
+</span><span id="L-42"><a href="#L-42"><span class="linenos">42</span></a>
+</span><span id="L-43"><a href="#L-43"><span class="linenos">43</span></a><span class="k">class</span> <span class="nc">SortByDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-44"><a href="#L-44"><span class="linenos">44</span></a>    <span class="n">sortBy</span><span class="p">:</span> <span class="nb">str</span>
+</span><span id="L-45"><a href="#L-45"><span class="linenos">45</span></a>    <span class="n">sortOrder</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;asc&#39;</span><span class="p">,</span> <span class="s1">&#39;desc&#39;</span><span class="p">]</span>
+</span><span id="L-46"><a href="#L-46"><span class="linenos">46</span></a>    <span class="n">nullsFirst</span><span class="p">:</span> <span class="n">NotRequired</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span>
+</span><span id="L-47"><a href="#L-47"><span class="linenos">47</span></a>
+</span><span id="L-48"><a href="#L-48"><span class="linenos">48</span></a>
+</span><span id="L-49"><a href="#L-49"><span class="linenos">49</span></a><span class="k">class</span> <span class="nc">SymbolsDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">,</span> <span class="n">total</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+</span><span id="L-50"><a href="#L-50"><span class="linenos">50</span></a>    <span class="n">query</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;types&#39;</span><span class="p">],</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span>
+</span><span id="L-51"><a href="#L-51"><span class="linenos">51</span></a>    <span class="n">tickers</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="L-52"><a href="#L-52"><span class="linenos">52</span></a>    <span class="n">symbolset</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="L-53"><a href="#L-53"><span class="linenos">53</span></a>    <span class="n">watchlist</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="nb">int</span><span class="p">]</span>
+</span><span id="L-54"><a href="#L-54"><span class="linenos">54</span></a>    <span class="n">groups</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">,</span> <span class="s1">&#39;values&#39;</span><span class="p">],</span> <span class="nb">str</span><span class="p">]]</span>
+</span><span id="L-55"><a href="#L-55"><span class="linenos">55</span></a>    <span class="c1"># for example [{&#39;type&#39;: &#39;index&#39;, &#39;values&#39;: [&#39;DJ:DJU&#39;]}]</span>
 </span><span id="L-56"><a href="#L-56"><span class="linenos">56</span></a>
-</span><span id="L-57"><a href="#L-57"><span class="linenos">57</span></a>    <span class="k">class</span> <span class="nc">OperationComparisonDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-58"><a href="#L-58"><span class="linenos">58</span></a>        <span class="n">operator</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;and&#39;</span><span class="p">,</span> <span class="s1">&#39;or&#39;</span><span class="p">]</span>
-</span><span id="L-59"><a href="#L-59"><span class="linenos">59</span></a>        <span class="n">operands</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">OperationDict</span> <span class="o">|</span> <span class="n">ExpressionDict</span><span class="p">]</span>
+</span><span id="L-57"><a href="#L-57"><span class="linenos">57</span></a>
+</span><span id="L-58"><a href="#L-58"><span class="linenos">58</span></a><span class="k">class</span> <span class="nc">ExpressionDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-59"><a href="#L-59"><span class="linenos">59</span></a>    <span class="n">expression</span><span class="p">:</span> <span class="n">FilterOperationDict</span>
 </span><span id="L-60"><a href="#L-60"><span class="linenos">60</span></a>
-</span><span id="L-61"><a href="#L-61"><span class="linenos">61</span></a>    <span class="k">class</span> <span class="nc">OperationDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-62"><a href="#L-62"><span class="linenos">62</span></a>        <span class="n">operation</span><span class="p">:</span> <span class="n">OperationComparisonDict</span>
-</span><span id="L-63"><a href="#L-63"><span class="linenos">63</span></a>
-</span><span id="L-64"><a href="#L-64"><span class="linenos">64</span></a>    <span class="k">class</span> <span class="nc">QueryDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">,</span> <span class="n">total</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-</span><span id="L-65"><a href="#L-65"><span class="linenos">65</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-66"><a href="#L-66"><span class="linenos">66</span></a><span class="sd">        The fields that can be passed to the tradingview scan API</span>
-</span><span id="L-67"><a href="#L-67"><span class="linenos">67</span></a><span class="sd">        &quot;&quot;&quot;</span>
-</span><span id="L-68"><a href="#L-68"><span class="linenos">68</span></a>
-</span><span id="L-69"><a href="#L-69"><span class="linenos">69</span></a>        <span class="n">markets</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-</span><span id="L-70"><a href="#L-70"><span class="linenos">70</span></a>        <span class="n">symbols</span><span class="p">:</span> <span class="n">SymbolsDict</span>
-</span><span id="L-71"><a href="#L-71"><span class="linenos">71</span></a>        <span class="n">options</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span>  <span class="c1"># example: `{&quot;options&quot;: {&quot;lang&quot;: &quot;en&quot;}}`</span>
-</span><span id="L-72"><a href="#L-72"><span class="linenos">72</span></a>        <span class="n">columns</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-</span><span id="L-73"><a href="#L-73"><span class="linenos">73</span></a>        <span class="nb">filter</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">FilterOperationDict</span><span class="p">]</span>
-</span><span id="L-74"><a href="#L-74"><span class="linenos">74</span></a>        <span class="n">filter2</span><span class="p">:</span> <span class="n">OperationComparisonDict</span>
-</span><span id="L-75"><a href="#L-75"><span class="linenos">75</span></a>        <span class="n">sort</span><span class="p">:</span> <span class="n">SortByDict</span>
-</span><span id="L-76"><a href="#L-76"><span class="linenos">76</span></a>        <span class="nb">range</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>  <span class="c1"># list with two integers, i.e. `[0, 100]`</span>
-</span><span id="L-77"><a href="#L-77"><span class="linenos">77</span></a>        <span class="n">ignore_unknown_fields</span><span class="p">:</span> <span class="nb">bool</span>  <span class="c1"># default false</span>
-</span><span id="L-78"><a href="#L-78"><span class="linenos">78</span></a>        <span class="n">preset</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;index_components_market_pages&#39;</span><span class="p">,</span> <span class="s1">&#39;pre-market-gainers&#39;</span><span class="p">]</span>  <span class="c1"># there are many</span>
-</span><span id="L-79"><a href="#L-79"><span class="linenos">79</span></a>        <span class="c1"># other presets (these are just some a examples)</span>
-</span><span id="L-80"><a href="#L-80"><span class="linenos">80</span></a>        <span class="n">price_conversion</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_symbol&#39;</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span>
-</span><span id="L-81"><a href="#L-81"><span class="linenos">81</span></a>            <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_currency&#39;</span><span class="p">],</span> <span class="nb">str</span>  <span class="c1"># this string should be the currency in lower-case</span>
-</span><span id="L-82"><a href="#L-82"><span class="linenos">82</span></a>        <span class="p">]</span>
-</span><span id="L-83"><a href="#L-83"><span class="linenos">83</span></a>
-</span><span id="L-84"><a href="#L-84"><span class="linenos">84</span></a>    <span class="k">class</span> <span class="nc">ScreenerRowDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-85"><a href="#L-85"><span class="linenos">85</span></a>        <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># ticker (NASDAQ:AAPL)</span>
-</span><span id="L-86"><a href="#L-86"><span class="linenos">86</span></a>        <span class="n">d</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># list of values</span>
-</span><span id="L-87"><a href="#L-87"><span class="linenos">87</span></a>
-</span><span id="L-88"><a href="#L-88"><span class="linenos">88</span></a>    <span class="k">class</span> <span class="nc">ScreenerDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-89"><a href="#L-89"><span class="linenos">89</span></a>        <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
-</span><span id="L-90"><a href="#L-90"><span class="linenos">90</span></a>        <span class="n">data</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDict</span><span class="p">]</span>
+</span><span id="L-61"><a href="#L-61"><span class="linenos">61</span></a>
+</span><span id="L-62"><a href="#L-62"><span class="linenos">62</span></a><span class="k">class</span> <span class="nc">OperationComparisonDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-63"><a href="#L-63"><span class="linenos">63</span></a>    <span class="n">operator</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;and&#39;</span><span class="p">,</span> <span class="s1">&#39;or&#39;</span><span class="p">]</span>
+</span><span id="L-64"><a href="#L-64"><span class="linenos">64</span></a>    <span class="n">operands</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">OperationDict</span> <span class="o">|</span> <span class="n">ExpressionDict</span><span class="p">]</span>
+</span><span id="L-65"><a href="#L-65"><span class="linenos">65</span></a>
+</span><span id="L-66"><a href="#L-66"><span class="linenos">66</span></a>
+</span><span id="L-67"><a href="#L-67"><span class="linenos">67</span></a><span class="k">class</span> <span class="nc">OperationDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-68"><a href="#L-68"><span class="linenos">68</span></a>    <span class="n">operation</span><span class="p">:</span> <span class="n">OperationComparisonDict</span>
+</span><span id="L-69"><a href="#L-69"><span class="linenos">69</span></a>
+</span><span id="L-70"><a href="#L-70"><span class="linenos">70</span></a>
+</span><span id="L-71"><a href="#L-71"><span class="linenos">71</span></a><span class="k">class</span> <span class="nc">QueryDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">,</span> <span class="n">total</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+</span><span id="L-72"><a href="#L-72"><span class="linenos">72</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="L-73"><a href="#L-73"><span class="linenos">73</span></a><span class="sd">    The fields that can be passed to the tradingview scan API</span>
+</span><span id="L-74"><a href="#L-74"><span class="linenos">74</span></a><span class="sd">    &quot;&quot;&quot;</span>
+</span><span id="L-75"><a href="#L-75"><span class="linenos">75</span></a>
+</span><span id="L-76"><a href="#L-76"><span class="linenos">76</span></a>    <span class="n">markets</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="L-77"><a href="#L-77"><span class="linenos">77</span></a>    <span class="n">symbols</span><span class="p">:</span> <span class="n">SymbolsDict</span>
+</span><span id="L-78"><a href="#L-78"><span class="linenos">78</span></a>    <span class="n">options</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span>  <span class="c1"># example: `{&quot;options&quot;: {&quot;lang&quot;: &quot;en&quot;}}`</span>
+</span><span id="L-79"><a href="#L-79"><span class="linenos">79</span></a>    <span class="n">columns</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="L-80"><a href="#L-80"><span class="linenos">80</span></a>    <span class="nb">filter</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">FilterOperationDict</span><span class="p">]</span>
+</span><span id="L-81"><a href="#L-81"><span class="linenos">81</span></a>    <span class="n">filter2</span><span class="p">:</span> <span class="n">OperationComparisonDict</span>
+</span><span id="L-82"><a href="#L-82"><span class="linenos">82</span></a>    <span class="n">sort</span><span class="p">:</span> <span class="n">SortByDict</span>
+</span><span id="L-83"><a href="#L-83"><span class="linenos">83</span></a>    <span class="nb">range</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>  <span class="c1"># list with two integers, i.e. `[0, 100]`</span>
+</span><span id="L-84"><a href="#L-84"><span class="linenos">84</span></a>    <span class="n">ignore_unknown_fields</span><span class="p">:</span> <span class="nb">bool</span>  <span class="c1"># default false</span>
+</span><span id="L-85"><a href="#L-85"><span class="linenos">85</span></a>    <span class="n">preset</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;index_components_market_pages&#39;</span><span class="p">,</span> <span class="s1">&#39;pre-market-gainers&#39;</span><span class="p">]</span>  <span class="c1"># there are many</span>
+</span><span id="L-86"><a href="#L-86"><span class="linenos">86</span></a>    <span class="c1"># other presets (these are just some a examples)</span>
+</span><span id="L-87"><a href="#L-87"><span class="linenos">87</span></a>    <span class="n">price_conversion</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_symbol&#39;</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span>
+</span><span id="L-88"><a href="#L-88"><span class="linenos">88</span></a>        <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_currency&#39;</span><span class="p">],</span> <span class="nb">str</span>  <span class="c1"># this string should be the currency in lower-case</span>
+</span><span id="L-89"><a href="#L-89"><span class="linenos">89</span></a>    <span class="p">]</span>
+</span><span id="L-90"><a href="#L-90"><span class="linenos">90</span></a>
+</span><span id="L-91"><a href="#L-91"><span class="linenos">91</span></a>
+</span><span id="L-92"><a href="#L-92"><span class="linenos">92</span></a><span class="k">class</span> <span class="nc">ScreenerRowDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-93"><a href="#L-93"><span class="linenos">93</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># symbol (NASDAQ:AAPL)</span>
+</span><span id="L-94"><a href="#L-94"><span class="linenos">94</span></a>    <span class="n">d</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
+</span><span id="L-95"><a href="#L-95"><span class="linenos">95</span></a>
+</span><span id="L-96"><a href="#L-96"><span class="linenos">96</span></a>
+</span><span id="L-97"><a href="#L-97"><span class="linenos">97</span></a><span class="k">class</span> <span class="nc">ScreenerDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-98"><a href="#L-98"><span class="linenos">98</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
+</span><span id="L-99"><a href="#L-99"><span class="linenos">99</span></a>    <span class="n">data</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDict</span><span class="p">]</span>
 </span></pre></div>
 
 
             </section>
+                <section id="FilterOperationDict">
+                            <input id="FilterOperationDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">FilterOperationDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="FilterOperationDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#FilterOperationDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="FilterOperationDict-10"><a href="#FilterOperationDict-10"><span class="linenos">10</span></a><span class="k">class</span> <span class="nc">FilterOperationDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="FilterOperationDict-11"><a href="#FilterOperationDict-11"><span class="linenos">11</span></a>    <span class="n">left</span><span class="p">:</span> <span class="nb">str</span>
+</span><span id="FilterOperationDict-12"><a href="#FilterOperationDict-12"><span class="linenos">12</span></a>    <span class="n">operation</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span>
+</span><span id="FilterOperationDict-13"><a href="#FilterOperationDict-13"><span class="linenos">13</span></a>        <span class="s1">&#39;greater&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-14"><a href="#FilterOperationDict-14"><span class="linenos">14</span></a>        <span class="s1">&#39;egreater&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-15"><a href="#FilterOperationDict-15"><span class="linenos">15</span></a>        <span class="s1">&#39;less&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-16"><a href="#FilterOperationDict-16"><span class="linenos">16</span></a>        <span class="s1">&#39;eless&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-17"><a href="#FilterOperationDict-17"><span class="linenos">17</span></a>        <span class="s1">&#39;equal&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-18"><a href="#FilterOperationDict-18"><span class="linenos">18</span></a>        <span class="s1">&#39;nequal&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-19"><a href="#FilterOperationDict-19"><span class="linenos">19</span></a>        <span class="s1">&#39;in_range&#39;</span><span class="p">,</span>  <span class="c1"># equivalent to SQL `BETWEEN` or `IN (...)`</span>
+</span><span id="FilterOperationDict-20"><a href="#FilterOperationDict-20"><span class="linenos">20</span></a>        <span class="s1">&#39;not_in_range&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-21"><a href="#FilterOperationDict-21"><span class="linenos">21</span></a>        <span class="s1">&#39;empty&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-22"><a href="#FilterOperationDict-22"><span class="linenos">22</span></a>        <span class="s1">&#39;nempty&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-23"><a href="#FilterOperationDict-23"><span class="linenos">23</span></a>        <span class="s1">&#39;crosses&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-24"><a href="#FilterOperationDict-24"><span class="linenos">24</span></a>        <span class="s1">&#39;crosses_above&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-25"><a href="#FilterOperationDict-25"><span class="linenos">25</span></a>        <span class="s1">&#39;crosses_below&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-26"><a href="#FilterOperationDict-26"><span class="linenos">26</span></a>        <span class="s1">&#39;match&#39;</span><span class="p">,</span>  <span class="c1"># the same as: `LOWER(col) LIKE &#39;%pattern%&#39;`</span>
+</span><span id="FilterOperationDict-27"><a href="#FilterOperationDict-27"><span class="linenos">27</span></a>        <span class="s1">&#39;nmatch&#39;</span><span class="p">,</span>  <span class="c1"># not match</span>
+</span><span id="FilterOperationDict-28"><a href="#FilterOperationDict-28"><span class="linenos">28</span></a>        <span class="c1"># simple match, there is no method for this operation as of right now, because it does</span>
+</span><span id="FilterOperationDict-29"><a href="#FilterOperationDict-29"><span class="linenos">29</span></a>        <span class="c1"># the same thing as `match`</span>
+</span><span id="FilterOperationDict-30"><a href="#FilterOperationDict-30"><span class="linenos">30</span></a>        <span class="s1">&#39;smatch&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-31"><a href="#FilterOperationDict-31"><span class="linenos">31</span></a>        <span class="s1">&#39;has&#39;</span><span class="p">,</span>  <span class="c1"># set must contain one of the values</span>
+</span><span id="FilterOperationDict-32"><a href="#FilterOperationDict-32"><span class="linenos">32</span></a>        <span class="s1">&#39;has_none_of&#39;</span><span class="p">,</span>  <span class="c1"># set must NOT contain ANY of the values</span>
+</span><span id="FilterOperationDict-33"><a href="#FilterOperationDict-33"><span class="linenos">33</span></a>        <span class="s1">&#39;above%&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-34"><a href="#FilterOperationDict-34"><span class="linenos">34</span></a>        <span class="s1">&#39;below%&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-35"><a href="#FilterOperationDict-35"><span class="linenos">35</span></a>        <span class="s1">&#39;in_range%&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-36"><a href="#FilterOperationDict-36"><span class="linenos">36</span></a>        <span class="s1">&#39;not_in_range%&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-37"><a href="#FilterOperationDict-37"><span class="linenos">37</span></a>        <span class="s1">&#39;in_day_range&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-38"><a href="#FilterOperationDict-38"><span class="linenos">38</span></a>        <span class="s1">&#39;in_week_range&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-39"><a href="#FilterOperationDict-39"><span class="linenos">39</span></a>        <span class="s1">&#39;in_month_range&#39;</span><span class="p">,</span>
+</span><span id="FilterOperationDict-40"><a href="#FilterOperationDict-40"><span class="linenos">40</span></a>    <span class="p">]</span>
+</span><span id="FilterOperationDict-41"><a href="#FilterOperationDict-41"><span class="linenos">41</span></a>    <span class="n">right</span><span class="p">:</span> <span class="n">Any</span>  <span class="c1"># its optional when the operation is `empty` or `nempty`</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="FilterOperationDict.left" class="classattr">
+                                <div class="attr variable">
+            <span class="name">left</span><span class="annotation">: str</span>
+
+        
+    </div>
+    <a class="headerlink" href="#FilterOperationDict.left"></a>
+    
+    
+
+                            </div>
+                            <div id="FilterOperationDict.operation" class="classattr">
+                                <div class="attr variable">
+            <span class="name">operation</span><span class="annotation">: ForwardRef(&#34;Literal[&#39;greater&#39;, &#39;egreater&#39;, &#39;less&#39;, &#39;eless&#39;, &#39;equal&#39;, &#39;nequal&#39;, &#39;in_range&#39;, &#39;not_in_range&#39;, &#39;empty&#39;, &#39;nempty&#39;, &#39;crosses&#39;, &#39;crosses_above&#39;, &#39;crosses_below&#39;, &#39;match&#39;, &#39;nmatch&#39;, &#39;smatch&#39;, &#39;has&#39;, &#39;has_none_of&#39;, &#39;above%&#39;, &#39;below%&#39;, &#39;in_range%&#39;, &#39;not_in_range%&#39;, &#39;in_day_range&#39;, &#39;in_week_range&#39;, &#39;in_month_range&#39;]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#FilterOperationDict.operation"></a>
+    
+    
+
+                            </div>
+                            <div id="FilterOperationDict.right" class="classattr">
+                                <div class="attr variable">
+            <span class="name">right</span><span class="annotation">: ForwardRef(&#39;Any&#39;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#FilterOperationDict.right"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="FilterOperationDict.get" class="function">get</dd>
+                <dd id="FilterOperationDict.setdefault" class="function">setdefault</dd>
+                <dd id="FilterOperationDict.pop" class="function">pop</dd>
+                <dd id="FilterOperationDict.popitem" class="function">popitem</dd>
+                <dd id="FilterOperationDict.keys" class="function">keys</dd>
+                <dd id="FilterOperationDict.items" class="function">items</dd>
+                <dd id="FilterOperationDict.values" class="function">values</dd>
+                <dd id="FilterOperationDict.update" class="function">update</dd>
+                <dd id="FilterOperationDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="FilterOperationDict.clear" class="function">clear</dd>
+                <dd id="FilterOperationDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="SortByDict">
+                            <input id="SortByDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">SortByDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="SortByDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#SortByDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="SortByDict-44"><a href="#SortByDict-44"><span class="linenos">44</span></a><span class="k">class</span> <span class="nc">SortByDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="SortByDict-45"><a href="#SortByDict-45"><span class="linenos">45</span></a>    <span class="n">sortBy</span><span class="p">:</span> <span class="nb">str</span>
+</span><span id="SortByDict-46"><a href="#SortByDict-46"><span class="linenos">46</span></a>    <span class="n">sortOrder</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;asc&#39;</span><span class="p">,</span> <span class="s1">&#39;desc&#39;</span><span class="p">]</span>
+</span><span id="SortByDict-47"><a href="#SortByDict-47"><span class="linenos">47</span></a>    <span class="n">nullsFirst</span><span class="p">:</span> <span class="n">NotRequired</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="SortByDict.sortBy" class="classattr">
+                                <div class="attr variable">
+            <span class="name">sortBy</span><span class="annotation">: str</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SortByDict.sortBy"></a>
+    
+    
+
+                            </div>
+                            <div id="SortByDict.sortOrder" class="classattr">
+                                <div class="attr variable">
+            <span class="name">sortOrder</span><span class="annotation">: ForwardRef(&#34;Literal[&#39;asc&#39;, &#39;desc&#39;]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SortByDict.sortOrder"></a>
+    
+    
+
+                            </div>
+                            <div id="SortByDict.nullsFirst" class="classattr">
+                                <div class="attr variable">
+            <span class="name">nullsFirst</span><span class="annotation">: ForwardRef(&#39;NotRequired[bool]&#39;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SortByDict.nullsFirst"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="SortByDict.get" class="function">get</dd>
+                <dd id="SortByDict.setdefault" class="function">setdefault</dd>
+                <dd id="SortByDict.pop" class="function">pop</dd>
+                <dd id="SortByDict.popitem" class="function">popitem</dd>
+                <dd id="SortByDict.keys" class="function">keys</dd>
+                <dd id="SortByDict.items" class="function">items</dd>
+                <dd id="SortByDict.values" class="function">values</dd>
+                <dd id="SortByDict.update" class="function">update</dd>
+                <dd id="SortByDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="SortByDict.clear" class="function">clear</dd>
+                <dd id="SortByDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="SymbolsDict">
+                            <input id="SymbolsDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">SymbolsDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="SymbolsDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#SymbolsDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="SymbolsDict-50"><a href="#SymbolsDict-50"><span class="linenos">50</span></a><span class="k">class</span> <span class="nc">SymbolsDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">,</span> <span class="n">total</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+</span><span id="SymbolsDict-51"><a href="#SymbolsDict-51"><span class="linenos">51</span></a>    <span class="n">query</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;types&#39;</span><span class="p">],</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span>
+</span><span id="SymbolsDict-52"><a href="#SymbolsDict-52"><span class="linenos">52</span></a>    <span class="n">tickers</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="SymbolsDict-53"><a href="#SymbolsDict-53"><span class="linenos">53</span></a>    <span class="n">symbolset</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="SymbolsDict-54"><a href="#SymbolsDict-54"><span class="linenos">54</span></a>    <span class="n">watchlist</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="nb">int</span><span class="p">]</span>
+</span><span id="SymbolsDict-55"><a href="#SymbolsDict-55"><span class="linenos">55</span></a>    <span class="n">groups</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">,</span> <span class="s1">&#39;values&#39;</span><span class="p">],</span> <span class="nb">str</span><span class="p">]]</span>
+</span><span id="SymbolsDict-56"><a href="#SymbolsDict-56"><span class="linenos">56</span></a>    <span class="c1"># for example [{&#39;type&#39;: &#39;index&#39;, &#39;values&#39;: [&#39;DJ:DJU&#39;]}]</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="SymbolsDict.query" class="classattr">
+                                <div class="attr variable">
+            <span class="name">query</span><span class="annotation">: ForwardRef(&#34;dict[Literal[&#39;types&#39;], list[str]]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SymbolsDict.query"></a>
+    
+    
+
+                            </div>
+                            <div id="SymbolsDict.tickers" class="classattr">
+                                <div class="attr variable">
+            <span class="name">tickers</span><span class="annotation">: list[str]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SymbolsDict.tickers"></a>
+    
+    
+
+                            </div>
+                            <div id="SymbolsDict.symbolset" class="classattr">
+                                <div class="attr variable">
+            <span class="name">symbolset</span><span class="annotation">: list[str]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SymbolsDict.symbolset"></a>
+    
+    
+
+                            </div>
+                            <div id="SymbolsDict.watchlist" class="classattr">
+                                <div class="attr variable">
+            <span class="name">watchlist</span><span class="annotation">: ForwardRef(&#34;dict[Literal[&#39;id&#39;], int]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SymbolsDict.watchlist"></a>
+    
+    
+
+                            </div>
+                            <div id="SymbolsDict.groups" class="classattr">
+                                <div class="attr variable">
+            <span class="name">groups</span><span class="annotation">: ForwardRef(&#34;list[dict[Literal[&#39;type&#39;, &#39;values&#39;], str]]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#SymbolsDict.groups"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="SymbolsDict.get" class="function">get</dd>
+                <dd id="SymbolsDict.setdefault" class="function">setdefault</dd>
+                <dd id="SymbolsDict.pop" class="function">pop</dd>
+                <dd id="SymbolsDict.popitem" class="function">popitem</dd>
+                <dd id="SymbolsDict.keys" class="function">keys</dd>
+                <dd id="SymbolsDict.items" class="function">items</dd>
+                <dd id="SymbolsDict.values" class="function">values</dd>
+                <dd id="SymbolsDict.update" class="function">update</dd>
+                <dd id="SymbolsDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="SymbolsDict.clear" class="function">clear</dd>
+                <dd id="SymbolsDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="ExpressionDict">
+                            <input id="ExpressionDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">ExpressionDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="ExpressionDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#ExpressionDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="ExpressionDict-59"><a href="#ExpressionDict-59"><span class="linenos">59</span></a><span class="k">class</span> <span class="nc">ExpressionDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="ExpressionDict-60"><a href="#ExpressionDict-60"><span class="linenos">60</span></a>    <span class="n">expression</span><span class="p">:</span> <span class="n">FilterOperationDict</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="ExpressionDict.expression" class="classattr">
+                                <div class="attr variable">
+            <span class="name">expression</span><span class="annotation">: <a href="#FilterOperationDict">FilterOperationDict</a></span>
+
+        
+    </div>
+    <a class="headerlink" href="#ExpressionDict.expression"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="ExpressionDict.get" class="function">get</dd>
+                <dd id="ExpressionDict.setdefault" class="function">setdefault</dd>
+                <dd id="ExpressionDict.pop" class="function">pop</dd>
+                <dd id="ExpressionDict.popitem" class="function">popitem</dd>
+                <dd id="ExpressionDict.keys" class="function">keys</dd>
+                <dd id="ExpressionDict.items" class="function">items</dd>
+                <dd id="ExpressionDict.values" class="function">values</dd>
+                <dd id="ExpressionDict.update" class="function">update</dd>
+                <dd id="ExpressionDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="ExpressionDict.clear" class="function">clear</dd>
+                <dd id="ExpressionDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="OperationComparisonDict">
+                            <input id="OperationComparisonDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">OperationComparisonDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="OperationComparisonDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#OperationComparisonDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="OperationComparisonDict-63"><a href="#OperationComparisonDict-63"><span class="linenos">63</span></a><span class="k">class</span> <span class="nc">OperationComparisonDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="OperationComparisonDict-64"><a href="#OperationComparisonDict-64"><span class="linenos">64</span></a>    <span class="n">operator</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;and&#39;</span><span class="p">,</span> <span class="s1">&#39;or&#39;</span><span class="p">]</span>
+</span><span id="OperationComparisonDict-65"><a href="#OperationComparisonDict-65"><span class="linenos">65</span></a>    <span class="n">operands</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">OperationDict</span> <span class="o">|</span> <span class="n">ExpressionDict</span><span class="p">]</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="OperationComparisonDict.operator" class="classattr">
+                                <div class="attr variable">
+            <span class="name">operator</span><span class="annotation">: ForwardRef(&#34;Literal[&#39;and&#39;, &#39;or&#39;]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#OperationComparisonDict.operator"></a>
+    
+    
+
+                            </div>
+                            <div id="OperationComparisonDict.operands" class="classattr">
+                                <div class="attr variable">
+            <span class="name">operands</span><span class="annotation">: list[<a href="#OperationDict">OperationDict</a> | <a href="#ExpressionDict">ExpressionDict</a>]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#OperationComparisonDict.operands"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="OperationComparisonDict.get" class="function">get</dd>
+                <dd id="OperationComparisonDict.setdefault" class="function">setdefault</dd>
+                <dd id="OperationComparisonDict.pop" class="function">pop</dd>
+                <dd id="OperationComparisonDict.popitem" class="function">popitem</dd>
+                <dd id="OperationComparisonDict.keys" class="function">keys</dd>
+                <dd id="OperationComparisonDict.items" class="function">items</dd>
+                <dd id="OperationComparisonDict.values" class="function">values</dd>
+                <dd id="OperationComparisonDict.update" class="function">update</dd>
+                <dd id="OperationComparisonDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="OperationComparisonDict.clear" class="function">clear</dd>
+                <dd id="OperationComparisonDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="OperationDict">
+                            <input id="OperationDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">OperationDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="OperationDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#OperationDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="OperationDict-68"><a href="#OperationDict-68"><span class="linenos">68</span></a><span class="k">class</span> <span class="nc">OperationDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="OperationDict-69"><a href="#OperationDict-69"><span class="linenos">69</span></a>    <span class="n">operation</span><span class="p">:</span> <span class="n">OperationComparisonDict</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="OperationDict.operation" class="classattr">
+                                <div class="attr variable">
+            <span class="name">operation</span><span class="annotation">: <a href="#OperationComparisonDict">OperationComparisonDict</a></span>
+
+        
+    </div>
+    <a class="headerlink" href="#OperationDict.operation"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="OperationDict.get" class="function">get</dd>
+                <dd id="OperationDict.setdefault" class="function">setdefault</dd>
+                <dd id="OperationDict.pop" class="function">pop</dd>
+                <dd id="OperationDict.popitem" class="function">popitem</dd>
+                <dd id="OperationDict.keys" class="function">keys</dd>
+                <dd id="OperationDict.items" class="function">items</dd>
+                <dd id="OperationDict.values" class="function">values</dd>
+                <dd id="OperationDict.update" class="function">update</dd>
+                <dd id="OperationDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="OperationDict.clear" class="function">clear</dd>
+                <dd id="OperationDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="QueryDict">
+                            <input id="QueryDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">QueryDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="QueryDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#QueryDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="QueryDict-72"><a href="#QueryDict-72"><span class="linenos">72</span></a><span class="k">class</span> <span class="nc">QueryDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">,</span> <span class="n">total</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+</span><span id="QueryDict-73"><a href="#QueryDict-73"><span class="linenos">73</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="QueryDict-74"><a href="#QueryDict-74"><span class="linenos">74</span></a><span class="sd">    The fields that can be passed to the tradingview scan API</span>
+</span><span id="QueryDict-75"><a href="#QueryDict-75"><span class="linenos">75</span></a><span class="sd">    &quot;&quot;&quot;</span>
+</span><span id="QueryDict-76"><a href="#QueryDict-76"><span class="linenos">76</span></a>
+</span><span id="QueryDict-77"><a href="#QueryDict-77"><span class="linenos">77</span></a>    <span class="n">markets</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="QueryDict-78"><a href="#QueryDict-78"><span class="linenos">78</span></a>    <span class="n">symbols</span><span class="p">:</span> <span class="n">SymbolsDict</span>
+</span><span id="QueryDict-79"><a href="#QueryDict-79"><span class="linenos">79</span></a>    <span class="n">options</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span>  <span class="c1"># example: `{&quot;options&quot;: {&quot;lang&quot;: &quot;en&quot;}}`</span>
+</span><span id="QueryDict-80"><a href="#QueryDict-80"><span class="linenos">80</span></a>    <span class="n">columns</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="QueryDict-81"><a href="#QueryDict-81"><span class="linenos">81</span></a>    <span class="nb">filter</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">FilterOperationDict</span><span class="p">]</span>
+</span><span id="QueryDict-82"><a href="#QueryDict-82"><span class="linenos">82</span></a>    <span class="n">filter2</span><span class="p">:</span> <span class="n">OperationComparisonDict</span>
+</span><span id="QueryDict-83"><a href="#QueryDict-83"><span class="linenos">83</span></a>    <span class="n">sort</span><span class="p">:</span> <span class="n">SortByDict</span>
+</span><span id="QueryDict-84"><a href="#QueryDict-84"><span class="linenos">84</span></a>    <span class="nb">range</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>  <span class="c1"># list with two integers, i.e. `[0, 100]`</span>
+</span><span id="QueryDict-85"><a href="#QueryDict-85"><span class="linenos">85</span></a>    <span class="n">ignore_unknown_fields</span><span class="p">:</span> <span class="nb">bool</span>  <span class="c1"># default false</span>
+</span><span id="QueryDict-86"><a href="#QueryDict-86"><span class="linenos">86</span></a>    <span class="n">preset</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;index_components_market_pages&#39;</span><span class="p">,</span> <span class="s1">&#39;pre-market-gainers&#39;</span><span class="p">]</span>  <span class="c1"># there are many</span>
+</span><span id="QueryDict-87"><a href="#QueryDict-87"><span class="linenos">87</span></a>    <span class="c1"># other presets (these are just some a examples)</span>
+</span><span id="QueryDict-88"><a href="#QueryDict-88"><span class="linenos">88</span></a>    <span class="n">price_conversion</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_symbol&#39;</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span>
+</span><span id="QueryDict-89"><a href="#QueryDict-89"><span class="linenos">89</span></a>        <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_currency&#39;</span><span class="p">],</span> <span class="nb">str</span>  <span class="c1"># this string should be the currency in lower-case</span>
+</span><span id="QueryDict-90"><a href="#QueryDict-90"><span class="linenos">90</span></a>    <span class="p">]</span>
+</span></pre></div>
+
+
+            <div class="docstring"><p>The fields that can be passed to the tradingview scan API</p>
+</div>
+
+
+                            <div id="QueryDict.markets" class="classattr">
+                                <div class="attr variable">
+            <span class="name">markets</span><span class="annotation">: list[str]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.markets"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.symbols" class="classattr">
+                                <div class="attr variable">
+            <span class="name">symbols</span><span class="annotation">: <a href="#SymbolsDict">SymbolsDict</a></span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.symbols"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.options" class="classattr">
+                                <div class="attr variable">
+            <span class="name">options</span><span class="annotation">: ForwardRef(&#39;dict[str, Any]&#39;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.options"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.columns" class="classattr">
+                                <div class="attr variable">
+            <span class="name">columns</span><span class="annotation">: list[str]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.columns"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.filter" class="classattr">
+                                <div class="attr variable">
+            <span class="name">filter</span><span class="annotation">: list[<a href="#FilterOperationDict">FilterOperationDict</a>]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.filter"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.filter2" class="classattr">
+                                <div class="attr variable">
+            <span class="name">filter2</span><span class="annotation">: <a href="#OperationComparisonDict">OperationComparisonDict</a></span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.filter2"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.sort" class="classattr">
+                                <div class="attr variable">
+            <span class="name">sort</span><span class="annotation">: <a href="#SortByDict">SortByDict</a></span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.sort"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.range" class="classattr">
+                                <div class="attr variable">
+            <span class="name">range</span><span class="annotation">: list[int]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.range"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.ignore_unknown_fields" class="classattr">
+                                <div class="attr variable">
+            <span class="name">ignore_unknown_fields</span><span class="annotation">: bool</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.ignore_unknown_fields"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.preset" class="classattr">
+                                <div class="attr variable">
+            <span class="name">preset</span><span class="annotation">: ForwardRef(&#34;Literal[&#39;index_components_market_pages&#39;, &#39;pre-market-gainers&#39;]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.preset"></a>
+    
+    
+
+                            </div>
+                            <div id="QueryDict.price_conversion" class="classattr">
+                                <div class="attr variable">
+            <span class="name">price_conversion</span><span class="annotation">: ForwardRef(&#34;dict[Literal[&#39;to_symbol&#39;], bool] | dict[Literal[&#39;to_currency&#39;], str]&#34;, module=&#39;<a href="">tradingview_screener.models</a>&#39;)</span>
+
+        
+    </div>
+    <a class="headerlink" href="#QueryDict.price_conversion"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="QueryDict.get" class="function">get</dd>
+                <dd id="QueryDict.setdefault" class="function">setdefault</dd>
+                <dd id="QueryDict.pop" class="function">pop</dd>
+                <dd id="QueryDict.popitem" class="function">popitem</dd>
+                <dd id="QueryDict.keys" class="function">keys</dd>
+                <dd id="QueryDict.items" class="function">items</dd>
+                <dd id="QueryDict.values" class="function">values</dd>
+                <dd id="QueryDict.update" class="function">update</dd>
+                <dd id="QueryDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="QueryDict.clear" class="function">clear</dd>
+                <dd id="QueryDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="ScreenerRowDict">
+                            <input id="ScreenerRowDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">ScreenerRowDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="ScreenerRowDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#ScreenerRowDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerRowDict-93"><a href="#ScreenerRowDict-93"><span class="linenos">93</span></a><span class="k">class</span> <span class="nc">ScreenerRowDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="ScreenerRowDict-94"><a href="#ScreenerRowDict-94"><span class="linenos">94</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># symbol (NASDAQ:AAPL)</span>
+</span><span id="ScreenerRowDict-95"><a href="#ScreenerRowDict-95"><span class="linenos">95</span></a>    <span class="n">d</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="ScreenerRowDict.s" class="classattr">
+                                <div class="attr variable">
+            <span class="name">s</span><span class="annotation">: str</span>
+
+        
+    </div>
+    <a class="headerlink" href="#ScreenerRowDict.s"></a>
+    
+    
+
+                            </div>
+                            <div id="ScreenerRowDict.d" class="classattr">
+                                <div class="attr variable">
+            <span class="name">d</span><span class="annotation">: list</span>
+
+        
+    </div>
+    <a class="headerlink" href="#ScreenerRowDict.d"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="ScreenerRowDict.get" class="function">get</dd>
+                <dd id="ScreenerRowDict.setdefault" class="function">setdefault</dd>
+                <dd id="ScreenerRowDict.pop" class="function">pop</dd>
+                <dd id="ScreenerRowDict.popitem" class="function">popitem</dd>
+                <dd id="ScreenerRowDict.keys" class="function">keys</dd>
+                <dd id="ScreenerRowDict.items" class="function">items</dd>
+                <dd id="ScreenerRowDict.values" class="function">values</dd>
+                <dd id="ScreenerRowDict.update" class="function">update</dd>
+                <dd id="ScreenerRowDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="ScreenerRowDict.clear" class="function">clear</dd>
+                <dd id="ScreenerRowDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
+                <section id="ScreenerDict">
+                            <input id="ScreenerDict-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr class">
+            
+    <span class="def">class</span>
+    <span class="name">ScreenerDict</span><wbr>(<span class="base">typing.TypedDict</span>):
+
+                <label class="view-source-button" for="ScreenerDict-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#ScreenerDict"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerDict-98"><a href="#ScreenerDict-98"><span class="linenos"> 98</span></a><span class="k">class</span> <span class="nc">ScreenerDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="ScreenerDict-99"><a href="#ScreenerDict-99"><span class="linenos"> 99</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
+</span><span id="ScreenerDict-100"><a href="#ScreenerDict-100"><span class="linenos">100</span></a>    <span class="n">data</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDict</span><span class="p">]</span>
+</span></pre></div>
+
+
+    
+
+                            <div id="ScreenerDict.totalCount" class="classattr">
+                                <div class="attr variable">
+            <span class="name">totalCount</span><span class="annotation">: int</span>
+
+        
+    </div>
+    <a class="headerlink" href="#ScreenerDict.totalCount"></a>
+    
+    
+
+                            </div>
+                            <div id="ScreenerDict.data" class="classattr">
+                                <div class="attr variable">
+            <span class="name">data</span><span class="annotation">: list[<a href="#ScreenerRowDict">ScreenerRowDict</a>]</span>
+
+        
+    </div>
+    <a class="headerlink" href="#ScreenerDict.data"></a>
+    
+    
+
+                            </div>
+                            <div class="inherited">
+                                <h5>Inherited Members</h5>
+                                <dl>
+                                    <div><dt>builtins.dict</dt>
+                                <dd id="ScreenerDict.get" class="function">get</dd>
+                <dd id="ScreenerDict.setdefault" class="function">setdefault</dd>
+                <dd id="ScreenerDict.pop" class="function">pop</dd>
+                <dd id="ScreenerDict.popitem" class="function">popitem</dd>
+                <dd id="ScreenerDict.keys" class="function">keys</dd>
+                <dd id="ScreenerDict.items" class="function">items</dd>
+                <dd id="ScreenerDict.values" class="function">values</dd>
+                <dd id="ScreenerDict.update" class="function">update</dd>
+                <dd id="ScreenerDict.fromkeys" class="function">fromkeys</dd>
+                <dd id="ScreenerDict.clear" class="function">clear</dd>
+                <dd id="ScreenerDict.copy" class="function">copy</dd>
+
+            </div>
+                                </dl>
+                            </div>
+                </section>
     </main>
 <script>
     function escapeHTML(html) {
