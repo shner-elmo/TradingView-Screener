@@ -5219,7 +5219,6 @@
             "NSE:AAVAS",
             "NSE:ABFRL",
             "NSE:ADANIENSOL",
-            "NSE:ADANIGREEN",
             "NSE:ADANIPORTS",
             "NSE:ANZEN",
             "NSE:APTUS",
@@ -6977,6 +6976,7 @@
             "GEL",
             "GHS",
             "HKD",
+            "HNL",
             "HUF",
             "IDR",
             "INR",
@@ -6989,7 +6989,6 @@
             "KZT",
             "LAJ",
             "MAD",
-            "MNT",
             "MXN",
             "MXV",
             "NGN",
@@ -7013,6 +7012,7 @@
             "UVA",
             "UYU",
             "UZS",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7085,6 +7085,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
