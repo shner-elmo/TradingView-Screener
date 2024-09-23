@@ -723,7 +723,6 @@
             "BME:ENG",
             "BME:FCC",
             "BME:FER",
-            "BME:GCO",
             "BME:GEST",
             "BME:GRF",
             "BME:IBE",
@@ -1565,6 +1564,7 @@
             "NASDAQ:ADI",
             "NASDAQ:ADP",
             "NASDAQ:ADSK",
+            "NASDAQ:AEIS",
             "NASDAQ:AEP",
             "NASDAQ:AFCG",
             "NASDAQ:AFRM",
@@ -2120,6 +2120,7 @@
             "NSE:BIRLACORPN",
             "NSE:BPCL",
             "NSE:BRIGADE",
+            "NSE:CANBK",
             "NSE:CAPITALSFB",
             "NSE:CENTRALBK",
             "NSE:CENTURYTEX",
@@ -4587,6 +4588,7 @@
             "LSE:ABF",
             "LSE:ADM",
             "LSE:ANTO",
+            "LSE:ASC",
             "LSE:AV.",
             "LSE:AZN",
             "LSE:BA.",
@@ -4769,6 +4771,7 @@
             "NASDAQ:ADI",
             "NASDAQ:ADP",
             "NASDAQ:ADSK",
+            "NASDAQ:AEIS",
             "NASDAQ:AEP",
             "NASDAQ:AFCG",
             "NASDAQ:AFRM",
@@ -5233,6 +5236,7 @@
             "NSE:BHARTIARTL",
             "NSE:BIRLACORPN",
             "NSE:BPCL",
+            "NSE:CANBK",
             "NSE:CAPITALSFB",
             "NSE:CENTRALBK",
             "NSE:CENTURYTEX",
@@ -7086,7 +7090,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18932,6 +18932,7 @@
             "Bitcoin Cash",
             "Bittensor",
             "Cardano",
+            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18984,7 +18985,6 @@
             "Rocket Pool",
             "Shiba Inu",
             "Solana",
-            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19032,6 +19032,7 @@
             "XTVCBNB",
             "XTVCBTC",
             "XTVCCAKE",
+            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19091,7 +19092,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -19168,8 +19168,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
