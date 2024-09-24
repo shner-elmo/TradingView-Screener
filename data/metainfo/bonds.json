@@ -1127,7 +1127,7 @@
         "n": "subtype",
         "t": "text",
         "r": [
-            "continuous",
+            "cfd",
             "government"
         ]
     },
@@ -1197,9 +1197,7 @@
         "r": [
             "benchmark",
             "cfd",
-            "continuous",
             "government",
-            "synthetic",
             "yield"
         ]
     },
