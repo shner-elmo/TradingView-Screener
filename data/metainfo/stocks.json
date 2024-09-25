@@ -14591,14 +14591,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21322,7 +21322,6 @@
             "Cultivar",
             "DB",
             "DGA",
-            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -22553,7 +22552,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -22938,7 +22936,6 @@
             "KRW",
             "MXN",
             "MYR",
-            "NOK",
             "NZD",
             "PHP",
             "PLN",
@@ -24705,7 +24702,6 @@
             "Cultivar Capital, Inc.",
             "DB Financial Investment Co., Ltd.",
             "DMS Governance Ltd.",
-            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",
             "Daintree Capital Management Pty Ltd.",
@@ -24915,6 +24911,7 @@
             "Mirae Asset Global Investments Co., Ltd.",
             "Mirae Asset Securities Co., Ltd.",
             "Mitsubishi UFJ Financial Group, Inc.",
+            "Montagu Private Equity LLP",
             "Montaka Global Investments LLC",
             "Morgan Stanley",
             "Morningstar, Inc.",
