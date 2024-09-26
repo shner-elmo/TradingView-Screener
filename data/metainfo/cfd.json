@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12047,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18965,6 +18965,7 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
+            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -18993,9 +18994,7 @@
             "Synthetix",
             "THORChain",
             "TRON",
-            "Tellor",
             "Tether USDt",
-            "The Graph",
             "Threshold",
             "Toncoin",
             "Tribe",
@@ -19055,7 +19054,6 @@
             "XTVCFTM",
             "XTVCGMX",
             "XTVCGNO",
-            "XTVCGRT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
@@ -19069,6 +19067,7 @@
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
+            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19095,7 +19094,6 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
-            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
