@@ -490,6 +490,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]
@@ -1606,6 +1607,7 @@
             "NASDAQ:BAND",
             "NASDAQ:BANR",
             "NASDAQ:BBCP",
+            "NASDAQ:BBGI",
             "NASDAQ:BBIO",
             "NASDAQ:BCBP",
             "NASDAQ:BCML",
@@ -7075,6 +7077,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]

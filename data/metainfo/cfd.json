@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18960,7 +18960,6 @@
             "JITO",
             "JUST",
             "Jupiter",
-            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -18994,6 +18993,7 @@
             "Synthetix",
             "THORChain",
             "TRON",
+            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -19063,7 +19063,6 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19094,6 +19093,7 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
+            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
