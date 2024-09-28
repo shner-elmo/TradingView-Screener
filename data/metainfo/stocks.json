@@ -21254,7 +21254,6 @@
             "Bitcoin Capital",
             "Bitwise",
             "BlackRock",
-            "Blue Horizon",
             "BondBloxx",
             "Bosera",
             "Brandes",
@@ -21731,6 +21730,7 @@
             "Strategy Shares",
             "Strive",
             "Structured Invest",
+            "SuMi TRUST",
             "Subversive",
             "Summit Global Investments",
             "Swan",
@@ -22553,9 +22553,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24260,7 +24258,6 @@
             "BlackRock Index Services LLC",
             "Bloomberg Finance LP",
             "Bloomberg Index Services Ltd.",
-            "Blue Horizon Capital LLC",
             "BlueStar Global Investors LLC",
             "Bolsas y Mercados Espa\u00f1oles",
             "Bratislava Stock Exchange AS",
@@ -25801,6 +25798,7 @@
             "9530",
             "9535",
             "9537",
+            "9543",
             "97",
             "98"
         ]

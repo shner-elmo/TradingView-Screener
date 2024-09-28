@@ -575,7 +575,6 @@
             "ALOR:VTBR",
             "AMEX:BHB",
             "AMEX:CBOE",
-            "AMEX:EQX",
             "AMEX:EVBN",
             "AMEX:GTE",
             "AMEX:LEU",
@@ -1674,7 +1673,6 @@
             "NASDAQ:COLL",
             "NASDAQ:COMM",
             "NASDAQ:COOP",
-            "NASDAQ:CORZ",
             "NASDAQ:COST",
             "NASDAQ:CPB",
             "NASDAQ:CREV",
@@ -3490,6 +3488,7 @@
             "SGX:BN4",
             "SGX:C38U",
             "SGX:C6L",
+            "SGX:CY6U",
             "SGX:D05",
             "SGX:D5IU",
             "SGX:H78",
@@ -4017,7 +4016,6 @@
             "ALOR:VKCO",
             "AMEX:BHB",
             "AMEX:CBOE",
-            "AMEX:EQX",
             "AMEX:EVBN",
             "AMEX:GTE",
             "AMEX:LEU",
@@ -4863,7 +4861,6 @@
             "NASDAQ:COIN",
             "NASDAQ:COKE",
             "NASDAQ:COLL",
-            "NASDAQ:CORZ",
             "NASDAQ:COST",
             "NASDAQ:CPB",
             "NASDAQ:CRNC",
@@ -7098,9 +7095,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -7447,7 +7442,9 @@
     {
         "n": "region",
         "t": "text",
-        "r": []
+        "r": [
+            "MA"
+        ]
     },
     {
         "n": "rtc",
