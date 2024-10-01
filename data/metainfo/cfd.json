@@ -18931,8 +18931,8 @@
             "Bitcoin",
             "Bitcoin Cash",
             "Bittensor",
+            "Bonk",
             "Cardano",
-            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18950,6 +18950,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -18993,9 +18994,7 @@
             "Synthetix",
             "THORChain",
             "TRON",
-            "Tellor",
             "Tether USDt",
-            "The Graph",
             "Threshold",
             "Toncoin",
             "Tribe",
@@ -19011,7 +19010,8 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19030,9 +19030,9 @@
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
+            "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
-            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19053,9 +19053,9 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
+            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
-            "XTVCGRT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
@@ -19095,7 +19095,6 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
-            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -19112,6 +19111,7 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19168,6 +19168,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"

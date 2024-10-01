@@ -36,66 +36,6 @@
                 "name": "FTSE ADX 15"
             },
             {
-                "id": "ALOR:IMOEX",
-                "name": "Russia Market Index"
-            },
-            {
-                "id": "ALOR:MCXSM",
-                "name": "Russia SMID"
-            },
-            {
-                "id": "ALOR:MOEX10",
-                "name": "Russia 10"
-            },
-            {
-                "id": "ALOR:MOEXBMI",
-                "name": "Russia Broad Market"
-            },
-            {
-                "id": "ALOR:MOEXCH",
-                "name": "Russia Chemicals"
-            },
-            {
-                "id": "ALOR:MOEXCN",
-                "name": "Russia Consumer"
-            },
-            {
-                "id": "ALOR:MOEXEU",
-                "name": "Russia Electric Utilities"
-            },
-            {
-                "id": "ALOR:MOEXFN",
-                "name": "Russia Financials"
-            },
-            {
-                "id": "ALOR:MOEXINN",
-                "name": "Russia Innovation"
-            },
-            {
-                "id": "ALOR:MOEXMM",
-                "name": "Russia Metals and Mining"
-            },
-            {
-                "id": "ALOR:MOEXTL",
-                "name": "Russia Telecommunication"
-            },
-            {
-                "id": "ALOR:MOEXTN",
-                "name": "Russia Transportation"
-            },
-            {
-                "id": "ALOR:RTSCH",
-                "name": "RTS Chemicals"
-            },
-            {
-                "id": "ALOR:RTSI",
-                "name": "RTS"
-            },
-            {
-                "id": "ALOR:RUBMI",
-                "name": "RTS Broad Market"
-            },
-            {
                 "id": "ASX:XAO",
                 "name": "All Ordinaries"
             },
@@ -1460,6 +1400,66 @@
                 "name": "QE Index"
             },
             {
+                "id": "RUS:IRUS",
+                "name": "Russia Market Index"
+            },
+            {
+                "id": "RUS:MCXSM",
+                "name": "Russia SMID"
+            },
+            {
+                "id": "RUS:RTSCH",
+                "name": "RTS Chemicals"
+            },
+            {
+                "id": "RUS:RTSI",
+                "name": "RTS"
+            },
+            {
+                "id": "RUS:RUBMI",
+                "name": "RTS Broad Market"
+            },
+            {
+                "id": "RUS:RUS10",
+                "name": "Russia 10"
+            },
+            {
+                "id": "RUS:RUSBMI",
+                "name": "Russia Broad Market"
+            },
+            {
+                "id": "RUS:RUSCH",
+                "name": "Russia Chemicals"
+            },
+            {
+                "id": "RUS:RUSCN",
+                "name": "Russia Consumer"
+            },
+            {
+                "id": "RUS:RUSEU",
+                "name": "Russia Electric Utilities"
+            },
+            {
+                "id": "RUS:RUSFN",
+                "name": "Russia Financials"
+            },
+            {
+                "id": "RUS:RUSINN",
+                "name": "Russia Innovation"
+            },
+            {
+                "id": "RUS:RUSMM",
+                "name": "Russia Metals and Mining"
+            },
+            {
+                "id": "RUS:RUSTL",
+                "name": "Russia Telecommunication"
+            },
+            {
+                "id": "RUS:RUSTN",
+                "name": "Russia Transportation"
+            },
+            {
                 "id": "SET:SET100",
                 "name": "SET100"
             },
@@ -2299,7 +2299,6 @@
         "t": "text",
         "r": [
             "ADX",
-            "ALOR",
             "AMEX",
             "ASX",
             "ATHEX",
@@ -2375,6 +2374,7 @@
             "PSECZ",
             "PSX",
             "QSE",
+            "RUS",
             "SAPSE",
             "SET",
             "SGX",
@@ -3569,7 +3569,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14577,14 +14576,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21311,7 +21310,6 @@
             "Core Alternative",
             "CoreValues Alpha",
             "CornerCap",
-            "Coronation",
             "Corton",
             "Counterpoint",
             "Credit Suisse",
@@ -21734,7 +21732,6 @@
             "Summit Global Investments",
             "Swan",
             "Sygnia",
-            "Syntax",
             "T-Rex",
             "T. Rowe Price",
             "TCW",
@@ -22494,7 +22491,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22552,6 +22548,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24415,7 +24412,6 @@
             "Sustainalytics (Toronto)",
             "Svenska Handelsbanken AB",
             "Syntax Advisors LLC",
-            "TDAM USA, Inc.",
             "Taiwan Index Plus Corp.",
             "Taiwan Stock Exchange Corp.",
             "Teucrium Trading LLC",
@@ -25063,7 +25059,6 @@
             "Svenska Handelsbanken AB",
             "Swan Global Holdings (US) LLC",
             "Sygnia Ltd.",
-            "Syntax LLC",
             "T. Rowe Price Group, Inc.",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",

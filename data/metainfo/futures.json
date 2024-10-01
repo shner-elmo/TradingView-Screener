@@ -304,7 +304,6 @@
         "t": "text",
         "r": [
             "ADX",
-            "ALOR",
             "ASX24",
             "BET",
             "BIST",
@@ -341,6 +340,7 @@
             "NYMEX_MINI",
             "NZX",
             "OSE",
+            "RUS",
             "SGX",
             "SHFE",
             "TAIFEX",
@@ -2419,6 +2419,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
