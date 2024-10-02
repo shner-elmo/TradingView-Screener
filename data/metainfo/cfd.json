@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18933,6 +18933,7 @@
             "Bittensor",
             "Bonk",
             "Cardano",
+            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18961,11 +18962,11 @@
             "JITO",
             "JUST",
             "Jupiter",
+            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
-            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -18989,7 +18990,6 @@
             "Stacks",
             "Stellar",
             "Sui",
-            "Sun (New)",
             "SushiSwap",
             "Synthetix",
             "THORChain",
@@ -19033,6 +19033,7 @@
             "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
+            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19065,10 +19066,10 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
+            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
-            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19090,7 +19091,6 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
-            "XTVCSUN",
             "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",

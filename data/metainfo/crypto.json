@@ -337,6 +337,7 @@
             "PixelVerse",
             "Pluton",
             "Pocket Network",
+            "Polis",
             "Polkadot",
             "Polkastarter",
             "PolySwarm",
@@ -12725,13 +12726,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12739,7 +12733,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12753,7 +12747,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12761,6 +12755,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19944,6 +19945,7 @@
             "PNK",
             "POKT",
             "POL",
+            "POLIS",
             "POLS",
             "POLYX",
             "PORTAL",
@@ -20175,6 +20177,7 @@
             "XTVCAPOHM",
             "XTVCAPRETH",
             "XTVCAPU",
+            "XTVCAPUSD",
             "XTVCARB",
             "XTVCASDIC",
             "XTVCAXLUSDC",
