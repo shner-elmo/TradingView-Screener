@@ -490,6 +490,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]
@@ -1188,6 +1189,7 @@
             "HKEX:3377",
             "HKEX:3380",
             "HKEX:3383",
+            "HKEX:35",
             "HKEX:3690",
             "HKEX:3692",
             "HKEX:3877",
@@ -7062,6 +7064,7 @@
             "EGP",
             "EUR",
             "INR",
+            "NOK",
             "SEK",
             "USD"
         ]
@@ -7082,9 +7085,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -7451,6 +7452,7 @@
             "source/DSEBD",
             "source/DUS",
             "source/EURONEXT",
+            "source/EUROTLX",
             "source/FINRA",
             "source/FWB",
             "source/GETTEX",

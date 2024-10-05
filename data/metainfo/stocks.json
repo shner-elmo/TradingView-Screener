@@ -14548,14 +14548,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14576,13 +14576,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14590,7 +14583,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14598,6 +14591,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21319,6 +21319,7 @@
             "CrossingBridge Funds",
             "Cullen",
             "Cultivar",
+            "D-X Funds",
             "DB",
             "DGA",
             "DNB",
@@ -21708,8 +21709,8 @@
             "Simplify",
             "SinoPac",
             "Siren",
+            "Smart",
             "SmartETFs",
-            "Smartshares",
             "SoFi",
             "Societe Generale",
             "SolFonds",
@@ -22550,10 +22551,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24958,6 +24956,7 @@
             "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
             "PT Nusadana Investama Indonesia",
+            "PT Panin Sekuritas Tbk",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
@@ -25798,7 +25797,6 @@
             "9528",
             "9530",
             "9535",
-            "9537",
             "9543",
             "97",
             "98"
@@ -26670,7 +26668,6 @@
         "r": [
             "country/AE",
             "country/CA",
-            "country/IT",
             "country/JP",
             "country/NO",
             "country/PL",
@@ -26709,6 +26706,7 @@
             "source/DUS",
             "source/EGX",
             "source/EURONEXT",
+            "source/EUROTLX",
             "source/FWB",
             "source/GETTEX",
             "source/GPW",
