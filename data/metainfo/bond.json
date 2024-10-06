@@ -859,6 +859,7 @@
             "DFM:EIB",
             "DFM:EMAAR",
             "DFM:EMIRATESNBD",
+            "DFM:GULFNAV",
             "DFM:MASQ",
             "DFM:TABREED",
             "DUS:5NB",
@@ -1614,7 +1615,6 @@
             "NASDAQ:BMRN",
             "NASDAQ:BPOP",
             "NASDAQ:BRKL",
-            "NASDAQ:BROG",
             "NASDAQ:BRY",
             "NASDAQ:BSY",
             "NASDAQ:BTDR",
@@ -7012,7 +7012,7 @@
             "UVA",
             "UYU",
             "UZS",
-            "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7085,6 +7085,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },

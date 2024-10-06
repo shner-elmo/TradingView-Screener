@@ -145,6 +145,7 @@
             "Chiliz",
             "Chintai",
             "Chromia",
+            "Civic",
             "Clover Finance",
             "Coin98",
             "Compound",
@@ -335,7 +336,6 @@
             "Phoenix Global",
             "Pirate Chain",
             "PixelVerse",
-            "Pluton",
             "Pocket Network",
             "Polis",
             "Polkadot",
@@ -345,7 +345,6 @@
             "Polytrade",
             "Portal",
             "Power Ledger",
-            "PowerPool",
             "Prom",
             "Propy",
             "PumaPay",
@@ -12734,14 +12733,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12776,14 +12775,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19763,7 +19762,7 @@
             "CTSI",
             "CTXC",
             "CURE",
-            "CVP",
+            "CVC",
             "CYBER",
             "DAI",
             "DAR",
@@ -19948,7 +19947,6 @@
             "PHB",
             "PIVX",
             "PIXEL",
-            "PLU",
             "PMA",
             "PNK",
             "POKT",
