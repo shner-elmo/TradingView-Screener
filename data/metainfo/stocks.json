@@ -840,8 +840,16 @@
                 "name": "VNAllShare Utilities"
             },
             {
+                "id": "HSI:HSCEI",
+                "name": "Hang Seng China Enterprises Index"
+            },
+            {
                 "id": "HSI:HSI",
                 "name": "Hang Seng Index"
+            },
+            {
+                "id": "HSI:HSTECH",
+                "name": "Hang Seng TECH Index"
             },
             {
                 "id": "IDX:IDX30",
@@ -14548,14 +14556,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14576,14 +14584,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21435,7 +21443,6 @@
             "Harvest Funds",
             "Hashdex",
             "Hejaz",
-            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -21457,6 +21464,7 @@
             "ICICI",
             "IDFC",
             "IDX",
+            "IML",
             "IPAAM",
             "Impact Shares",
             "IndexIQ",
@@ -21590,7 +21598,6 @@
             "Nomura",
             "North Shore",
             "Numoro",
-            "Nusadana ETF",
             "Nuveen",
             "OTP",
             "Obermatt",
@@ -22553,7 +22560,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -24008,7 +24016,9 @@
             "SYML:HOSE;VNREAL",
             "SYML:HOSE;VNSMALLCAP",
             "SYML:HOSE;VNUTI",
+            "SYML:HSI;HSCEI",
             "SYML:HSI;HSI",
+            "SYML:HSI;HSTECH",
             "SYML:IDX;IDX30",
             "SYML:IDX;IDXMESBUMN",
             "SYML:IDX;IDXSHAGROW",
@@ -24752,7 +24762,6 @@
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -24809,7 +24818,6 @@
             "Harvest Portfolios Group, Inc.",
             "Hashdex AG",
             "Hejaz Capital Pty Ltd.",
-            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
@@ -24957,7 +24965,6 @@
             "PT Insight Investments Management",
             "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
-            "PT Nusadana Investama Indonesia",
             "PT Panin Sekuritas Tbk",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
