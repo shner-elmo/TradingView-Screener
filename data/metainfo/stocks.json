@@ -14570,14 +14570,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14598,14 +14598,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21199,6 +21199,7 @@
             "AdvisorShares",
             "Affinity",
             "Agiofunds",
+            "Ailis",
             "Akros",
             "Albilad",
             "Alerian",
@@ -21325,6 +21326,7 @@
             "Counterpoint",
             "Credit Suisse",
             "CrossingBridge Funds",
+            "Crypto Finance",
             "Cullen",
             "Cultivar",
             "D-X Funds",
@@ -22558,7 +22560,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24729,6 +24730,7 @@
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
+            "Deutsche Borse AG",
             "Deutsche B\u00f6rse Commodities GmbH",
             "Deutscher Sparkassen-und Giroverband eV",
             "Digital Currency Group, Inc.",
@@ -24990,6 +24992,7 @@
             "Portfoliometrix Holdings Ltd.",
             "Power Corp. of Canada",
             "Power Financial Corp.",
+            "Precidian Investments LLC",
             "Prescient Management Co. Rf Pty Ltd.",
             "Principal Asset Management (S) Pte Ltd.",
             "Principal Asset Management Bhd.",
@@ -26637,6 +26640,7 @@
             "46",
             "5",
             "6",
+            "7",
             "8",
             "9"
         ]
