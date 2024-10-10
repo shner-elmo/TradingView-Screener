@@ -1,1 +1,23 @@
-[]
+[
+    [
+        {
+            "country_code": "hu",
+            "screener_name": "hungary",
+            "url": "/markets/stocks-hungary/",
+            "country_page_url": "/markets/hungary/",
+            "title": "Hungary",
+            "locale": "hu_HU",
+            "group": "Europe",
+            "original_group_name": "Europe",
+            "stock_exchanges": [
+                "BET"
+            ]
+        },
+        {
+            "path": "high-beta",
+            "url": "/markets/stocks-hungary/market-movers-high-beta/",
+            "title_for_label": "High beta",
+            "role": "tab"
+        }
+    ]
+]

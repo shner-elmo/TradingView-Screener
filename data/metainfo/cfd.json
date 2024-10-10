@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18950,7 +18950,6 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
-            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -18965,6 +18964,7 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
+            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -18978,9 +18978,9 @@
             "PancakeSwap",
             "Pepe",
             "Polkadot",
-            "Radix",
             "Ravencoin",
             "Raydium",
+            "Reef",
             "Render",
             "Rocket Pool",
             "Shiba Inu",
@@ -19052,7 +19052,6 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19067,6 +19066,7 @@
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
+            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19078,6 +19078,7 @@
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
+            "XTVCREEF",
             "XTVCRENDER",
             "XTVCRPL",
             "XTVCRUNE",
@@ -19107,7 +19108,6 @@
             "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
-            "XTVCXRD",
             "XTVCXRP",
             "XTVCYFI",
             "XTVCZRX"
