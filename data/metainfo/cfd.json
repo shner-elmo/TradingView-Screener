@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12047,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18950,6 +18950,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -18980,7 +18981,6 @@
             "Polkadot",
             "Ravencoin",
             "Raydium",
-            "Reef",
             "Render",
             "Rocket Pool",
             "Shiba Inu",
@@ -19052,6 +19052,7 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
+            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19078,7 +19079,6 @@
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
-            "XTVCREEF",
             "XTVCRENDER",
             "XTVCRPL",
             "XTVCRUNE",
@@ -19166,6 +19166,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
