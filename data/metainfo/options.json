@@ -477,6 +477,7 @@
             "provider/ice",
             "source/BSE",
             "source/CME",
+            "source/CME_MINI",
             "source/NSE",
             "source/OPRA"
         ]

@@ -2419,8 +2419,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
             "out_of_session"
         ]
     },
@@ -2697,6 +2695,7 @@
             "source/CBOE",
             "source/CFFEX",
             "source/CME",
+            "source/CME_MINI",
             "source/DFM",
             "source/EUREX",
             "source/EURONEXT",

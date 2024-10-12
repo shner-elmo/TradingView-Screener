@@ -2094,7 +2094,6 @@
             "Finland",
             "France",
             "Gabon",
-            "Georgia",
             "Germany",
             "Gibraltar",
             "Greece",
@@ -14572,13 +14571,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14586,7 +14578,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14594,6 +14586,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21276,6 +21275,7 @@
             "Bristol Gate",
             "Brompton",
             "Brookstone",
+            "Buena",
             "Build",
             "Burney",
             "Bushido",
@@ -21603,6 +21603,7 @@
             "Numoro",
             "Nuveen",
             "OTP",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Octane",
@@ -21702,6 +21703,7 @@
             "SWP",
             "SWS",
             "Saba",
+            "Safra",
             "Samsung",
             "SanJac Alpha",
             "Satrix",
@@ -22374,7 +22376,6 @@
             "FR",
             "GA",
             "GB",
-            "GE",
             "GI",
             "GL",
             "GR",
@@ -22563,10 +22564,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24666,6 +24664,7 @@
             "Brandes Worldwide Holdings LP",
             "Bristol Gate Capital Partners, Inc.",
             "Brompton Corp.",
+            "Buena Vista Gestora de Recursos Ltda.",
             "Build Asset Management LLC",
             "CCB Principal Asset Management Co., Ltd.",
             "CGS International Securities Pte Ltd.",
@@ -24806,6 +24805,7 @@
             "Grasim Industries Ltd.",
             "Grayscale Investments LLC",
             "Greenbay Acquisitions Ltd.",
+            "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",
             "Guolianan Fund Management Co., Ltd.",
@@ -24910,6 +24910,7 @@
             "Manulife Financial Corp.",
             "Marathon Partners LLC",
             "Matthews International Capital Management LLC",
+            "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
             "Mega Financial Holding Co., Ltd.",
             "Meitav Investment House Ltd.",

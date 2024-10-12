@@ -58,7 +58,6 @@
             "Aave",
             "Aavegotchi",
             "AdEx",
-            "Aeternity",
             "Aethir",
             "Aevo",
             "Akash Network",
@@ -242,6 +241,7 @@
             "Jasmy",
             "Jupiter",
             "Kadena",
+            "Kamino Finance",
             "Karate Combat",
             "Kava",
             "KeeperDAO",
@@ -290,12 +290,12 @@
             "Moonriver",
             "Morpheus Labs",
             "MyNeighborAlice",
-            "Mysterium",
             "NEAR Protocol",
             "NEM",
             "NEO",
             "NFPrompt",
             "NKN",
+            "NYM",
             "Nano",
             "Nervos Network",
             "Nexo",
@@ -1510,6 +1510,7 @@
             "AXLUSDC",
             "BABYDOGE",
             "BAKE",
+            "BB",
             "BCH",
             "BCT",
             "BETH",
@@ -1715,7 +1716,6 @@
             "VOLT",
             "VOW",
             "VVS",
-            "WAR",
             "WAVAX",
             "WBNB",
             "WBTC",
@@ -12729,13 +12729,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12743,7 +12736,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12757,7 +12750,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12771,7 +12764,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12779,6 +12772,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19657,7 +19657,6 @@
             "ACS",
             "ADA",
             "ADX",
-            "AE",
             "AEVO",
             "AI",
             "AIOZ",
@@ -19863,6 +19862,7 @@
             "KLAY",
             "KLV",
             "KMD",
+            "KMNO",
             "KNC",
             "KSM",
             "LDO",
@@ -19903,7 +19903,6 @@
             "MPC",
             "MTL",
             "MXNT",
-            "MYST",
             "NEAR",
             "NEO",
             "NEXO",
@@ -19914,6 +19913,7 @@
             "NOT",
             "NULS",
             "NXRA",
+            "NYM",
             "OAS",
             "OAX",
             "OCC",
@@ -20180,6 +20180,7 @@
             "XTVCAXLUSDC",
             "XTVCBABYDOGE",
             "XTVCBAKE",
+            "XTVCBB",
             "XTVCBCH",
             "XTVCBCT",
             "XTVCBETH",
@@ -20401,7 +20402,6 @@
             "XTVCVOW",
             "XTVCVSDT",
             "XTVCVVS",
-            "XTVCWAR",
             "XTVCWAVAX",
             "XTVCWBNB",
             "XTVCWBTC",
