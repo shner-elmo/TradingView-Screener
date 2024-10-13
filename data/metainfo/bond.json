@@ -7020,9 +7020,9 @@
             "KWD",
             "KZT",
             "LAJ",
+            "MAD",
             "MXN",
             "MXV",
-            "MYR",
             "NGN",
             "NOK",
             "NZD",
@@ -7044,6 +7044,7 @@
             "UVA",
             "UYU",
             "UZS",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7116,6 +7117,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
+            "market",
             "out_of_session"
         ]
     },
