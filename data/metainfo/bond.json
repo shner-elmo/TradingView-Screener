@@ -2166,7 +2166,6 @@
             "NSE:INDINFR",
             "NSE:INDOSTAR",
             "NSE:INOXGREEN",
-            "NSE:INOXWIND",
             "NSE:IOB",
             "NSE:IOC",
             "NSE:IRB",
@@ -5292,7 +5291,6 @@
             "NSE:INDIGRID",
             "NSE:INDINFR",
             "NSE:INDOSTAR",
-            "NSE:INOXWIND",
             "NSE:IOB",
             "NSE:IOC",
             "NSE:IRB",
@@ -7117,9 +7115,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

@@ -14557,14 +14557,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14585,13 +14585,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14599,7 +14592,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14607,6 +14600,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21704,7 +21704,6 @@
             "SWP",
             "SWS",
             "Saba",
-            "Safra",
             "Samsung",
             "SanJac Alpha",
             "Satrix",
@@ -22567,7 +22566,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -24356,7 +24356,6 @@
             "LPX AG",
             "Lattice Strategies LLC",
             "Legal & General Investment Management Ltd.",
-            "Leonteq Securities AG",
             "Level ETF Ventures LLC",
             "Life + Liberty Indexes",
             "LifeSci Index Partners LLC",
@@ -24808,7 +24807,6 @@
             "Grasim Industries Ltd.",
             "Grayscale Investments LLC",
             "Greenbay Acquisitions Ltd.",
-            "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",
             "Guolianan Fund Management Co., Ltd.",
@@ -24825,6 +24823,7 @@
             "Harvest Fund Management Co., Ltd.",
             "Harvest Portfolios Group, Inc.",
             "Hashdex AG",
+            "Hashdex Gestora de Recursos Ltda.",
             "Hejaz Capital Pty Ltd.",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",

@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18961,11 +18961,11 @@
             "JITO",
             "JUST",
             "Jupiter",
+            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
-            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -18981,11 +18981,12 @@
             "Polkadot",
             "Ravencoin",
             "Raydium",
+            "Reef",
             "Render",
             "Rocket Pool",
+            "Sei",
             "Shiba Inu",
             "Solana",
-            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19064,10 +19065,10 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
+            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
-            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19079,10 +19080,12 @@
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
+            "XTVCREEF",
             "XTVCRENDER",
             "XTVCRPL",
             "XTVCRUNE",
             "XTVCRVN",
+            "XTVCSEI",
             "XTVCSHIB",
             "XTVCSNX",
             "XTVCSOL",
@@ -19091,7 +19094,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -19167,7 +19169,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
