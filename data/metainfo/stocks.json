@@ -14557,13 +14557,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14571,7 +14564,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14585,7 +14578,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14593,6 +14586,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21203,6 +21203,7 @@
             "Agiofunds",
             "Ailis",
             "Akros",
+            "Alawwal",
             "Albilad",
             "Alerian",
             "Alexis",
@@ -21238,6 +21239,8 @@
             "Axis",
             "Axxion",
             "Aztlan",
+            "BB",
+            "BB DTVM",
             "BCAP",
             "BMO",
             "BNI AM",
@@ -21704,6 +21707,7 @@
             "SWP",
             "SWS",
             "Saba",
+            "Safra",
             "Samsung",
             "SanJac Alpha",
             "Satrix",
@@ -22564,7 +22568,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24795,6 +24798,7 @@
             "Global Beta Advisors LLC",
             "Global X Japan Co., Ltd.",
             "Goose Hollow Capital Management LLC",
+            "Government of Brazil",
             "Government of Canada",
             "Government of China",
             "Government of Indonesia",
@@ -24807,6 +24811,7 @@
             "Grasim Industries Ltd.",
             "Grayscale Investments LLC",
             "Greenbay Acquisitions Ltd.",
+            "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",
             "Guolianan Fund Management Co., Ltd.",
@@ -25030,6 +25035,7 @@
             "Running Oak Capital LLC",
             "Russell Investment Management LLC",
             "Russell Investments Group Ltd.",
+            "SAB Invest",
             "SAS Rue la Bo\u00e9tie",
             "SBI Funds Management Ltd.",
             "SEI Investments Co.",

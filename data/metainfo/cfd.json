@@ -12018,14 +12018,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18937,7 +18937,6 @@
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18961,7 +18960,6 @@
             "JITO",
             "JUST",
             "Jupiter",
-            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -18995,6 +18993,7 @@
             "Synthetix",
             "THORChain",
             "TRON",
+            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -19026,7 +19025,6 @@
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
@@ -19065,7 +19063,6 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19097,6 +19094,7 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
+            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
