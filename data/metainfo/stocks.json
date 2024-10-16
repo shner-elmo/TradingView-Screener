@@ -2094,6 +2094,7 @@
             "Finland",
             "France",
             "Gabon",
+            "Georgia",
             "Germany",
             "Gibraltar",
             "Greece",
@@ -14557,13 +14558,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14571,7 +14565,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14579,6 +14573,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14599,14 +14600,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21604,6 +21605,7 @@
             "Nippon",
             "Nomura",
             "North Shore",
+            "Nu",
             "Numoro",
             "Nuveen",
             "OTP",
@@ -21654,6 +21656,7 @@
             "Purpose",
             "Putnam",
             "Q3",
+            "QR",
             "QRAFT",
             "Quadratic",
             "Quadravest",
@@ -21716,6 +21719,7 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -22380,6 +22384,7 @@
             "FR",
             "GA",
             "GB",
+            "GE",
             "GI",
             "GL",
             "GR",
@@ -22568,6 +22573,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24334,7 +24340,7 @@
             "Global X Investments Canada, Inc.",
             "Global X Management Co. LLC",
             "Goldman Sachs International",
-            "Hang Seng Indexes Co. Ltd.",
+            "Hang Seng Indexes Co., Ltd.",
             "Harvest Portfolios Group, Inc.",
             "Hedge Fund Research, Inc.",
             "Howard Capital Management Group LLC",
@@ -24355,10 +24361,11 @@
             "Janus Henderson Investors US LLC",
             "Kelly Indexes LLC",
             "Korea Asset Pricing Corp.",
-            "Korea Exchange, Inc.",
+            "Korea Exchange Co., Ltd.",
             "LPX AG",
             "Lattice Strategies LLC",
             "Legal & General Investment Management Ltd.",
+            "Leonteq Securities AG",
             "Level ETF Ventures LLC",
             "Life + Liberty Indexes",
             "LifeSci Index Partners LLC",
@@ -24864,6 +24871,7 @@
             "Investo Gest\u00e3o de Recursos Ltda.",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Jacob Asset Management of New York LLC",
@@ -24960,6 +24968,7 @@
             "Nomura Asset Management Taiwan Ltd",
             "Nomura Holdings, Inc.",
             "Northern Trust Corp.",
+            "Nu Holdings Ltd.",
             "ONEFUND LLC",
             "ORIX Corp.",
             "OTP Bank Nyrt",
@@ -25015,6 +25024,7 @@
             "Public Trust Advisors LLC",
             "Purpose Unlimited",
             "Q3 Asset Management Corp.",
+            "QR Capital Gestora De Recursos Ltda.",
             "Quadravest Capital Management, Inc.",
             "Quantum Advisors Pvt. Ltd.",
             "Qunyi Securities Investment Trust Co. Ltd.",
