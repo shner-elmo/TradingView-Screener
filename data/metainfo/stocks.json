@@ -2108,7 +2108,6 @@
             "Israel",
             "Italy",
             "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14558,13 +14557,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14572,7 +14564,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14580,6 +14572,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14600,14 +14599,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21660,6 +21659,7 @@
             "QRAFT",
             "Quadratic",
             "Quadravest",
+            "Quantified Funds",
             "Quantum",
             "RAFI Indices",
             "RAM",
@@ -22397,7 +22397,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -25135,7 +25134,7 @@
             "TortoiseEcofin Investments LLC",
             "Tralucent Asset Management, Inc.",
             "Tremblant Capital LP",
-            "Truemark Group",
+            "Truemark Group LLC",
             "Truston Asset Management Co., Ltd.",
             "Tuttle Capital Management LLC",
             "Twin Oak Holdings LP",
