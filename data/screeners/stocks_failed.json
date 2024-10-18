@@ -1,1 +1,22 @@
-[]
+[
+    [
+        {
+            "country_code": "lv",
+            "screener_name": "latvia",
+            "url": "/markets/stocks-latvia/",
+            "country_page_url": "/markets/latvia/",
+            "title": "Latvia",
+            "group": "Europe",
+            "original_group_name": "Europe",
+            "stock_exchanges": [
+                "OMXRSE"
+            ]
+        },
+        {
+            "path": "most-volatile",
+            "url": "/markets/stocks-latvia/market-movers-most-volatile/",
+            "title_for_label": "Most volatile",
+            "role": "tab"
+        }
+    ]
+]

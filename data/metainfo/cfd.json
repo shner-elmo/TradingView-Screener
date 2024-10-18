@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12047,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18933,7 +18933,6 @@
             "Bittensor",
             "Bonk",
             "Cardano",
-            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -19011,7 +19010,8 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19033,7 +19033,6 @@
             "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
-            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19112,6 +19111,7 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19168,7 +19168,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"

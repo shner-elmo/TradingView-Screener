@@ -14571,14 +14571,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14599,14 +14599,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21376,6 +21376,7 @@
             "Eastspring",
             "Eaton Vance",
             "Edelweiss",
+            "Empiricus",
             "Euclidean",
             "Eventide",
             "Evolve",
@@ -21791,6 +21792,7 @@
             "Tradr",
             "Trajan",
             "Tremblant",
+            "Trend ETF",
             "True",
             "TrueShares",
             "Tuttle",
@@ -22572,7 +22574,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23138,6 +23139,7 @@
             "2136",
             "2137",
             "2139",
+            "2145",
             "2146",
             "2147",
             "2148",
@@ -24270,6 +24272,7 @@
             "Athens Stock Exchange",
             "Auspice Capital Advisors Ltd.",
             "Aztlan Equity Management LLC (Mexico)",
+            "B3 SAS",
             "BITA GmbH",
             "BM&FBovespa",
             "BNP Paribas SA (Italia)",
@@ -24764,6 +24767,7 @@
             "Eagle Capital Management LLC",
             "Edelweiss Financial Services Ltd.",
             "Empirical Finance LLC",
+            "Empiricus Gestao De Recursos Ltda.",
             "Envestnet, Inc.",
             "Equitable Holdings, Inc.",
             "Estate Counselors LLC",
@@ -24817,6 +24821,7 @@
             "Grasim Industries Ltd.",
             "Grayscale Investments LLC",
             "Greenbay Acquisitions Ltd.",
+            "Grupo Alves Ribeiro",
             "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",

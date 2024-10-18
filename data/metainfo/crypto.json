@@ -131,6 +131,7 @@
             "Bytecoin",
             "CANTO",
             "COTI",
+            "CRDT",
             "Cardano",
             "Cartesi",
             "Casper",
@@ -1519,6 +1520,8 @@
             "BUSD",
             "CAD",
             "CAKE",
+            "CAW",
+            "CBBTC",
             "CBETH",
             "CHF",
             "CLEV",
@@ -12721,14 +12724,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12749,13 +12752,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12763,7 +12759,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12771,6 +12767,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19738,6 +19741,7 @@
             "COQ",
             "COS",
             "COTI",
+            "CRDT",
             "CREAM",
             "CRO",
             "CRV",
@@ -20137,7 +20141,6 @@
             "TRY",
             "UAH",
             "USD",
-            "XTVC0X71850B",
             "XTVC1ART",
             "XTVCABRA",
             "XTVCADA",
@@ -20180,6 +20183,8 @@
             "XTVCBTRB",
             "XTVCBUSD",
             "XTVCCAKE",
+            "XTVCCAW",
+            "XTVCCBBTC",
             "XTVCCBETH",
             "XTVCCLEV",
             "XTVCCNC",
@@ -20232,7 +20237,6 @@
             "XTVCFTXTOKEN",
             "XTVCFUL",
             "XTVCFXB20241231",
-            "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXUSD",
             "XTVCGHST",
