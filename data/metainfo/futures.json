@@ -2419,7 +2419,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
             "out_of_session"
         ]
     },
@@ -2685,7 +2684,6 @@
             "country/AU",
             "country/EU",
             "country/IN",
-            "country/RU",
             "country/SG",
             "country/US",
             "source/ADX",
@@ -2713,6 +2711,7 @@
             "source/NSE",
             "source/NZX",
             "source/OSE",
+            "source/RUS",
             "source/SGX",
             "source/SHFE",
             "source/TAIFEX",

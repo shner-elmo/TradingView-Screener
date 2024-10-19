@@ -2094,7 +2094,6 @@
             "Finland",
             "France",
             "Gabon",
-            "Georgia",
             "Germany",
             "Gibraltar",
             "Greece",
@@ -14557,13 +14556,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14571,7 +14563,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14585,7 +14577,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14593,6 +14585,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21296,6 +21295,7 @@
             "CSOP",
             "CTBC",
             "Cabana",
+            "Caixa",
             "Calamos",
             "Caldwell",
             "Calvert",
@@ -21594,6 +21594,7 @@
             "Nationwide",
             "Natixis",
             "Navi",
+            "Ned Davis Research",
             "Neos",
             "Neuberger Berman",
             "New York Life Investments",
@@ -22386,7 +22387,6 @@
             "FR",
             "GA",
             "GB",
-            "GE",
             "GI",
             "GL",
             "GR",
@@ -22574,9 +22574,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24301,7 +24299,7 @@
             "Calvert Research & Management",
             "Carroll Financial Associates, Inc.",
             "Cboe Exchange, Inc. (Illinois)",
-            "Center for Research in Security Prices, LLC",
+            "Center for Research in Security Prices LLC",
             "Change Finance PBC",
             "Charles Schwab Investment Management, Inc.",
             "China Securities Index Co., Ltd.",
@@ -24447,7 +24445,7 @@
             "Texas Capital Bank",
             "The Belgrade Stock Exchange",
             "The London Bullion Market Association",
-            "The London Metal Exchange Ltd.",
+            "The London Metal Exchange (United Kingdom)",
             "The Motley Fool, LLC",
             "The Northern Trust Co.",
             "The Stock Exchange of Thailand",
@@ -24769,6 +24767,7 @@
             "Empirical Finance LLC",
             "Empiricus Gestao De Recursos Ltda.",
             "Envestnet, Inc.",
+            "Epiris Managers LLP",
             "Equitable Holdings, Inc.",
             "Estate Counselors LLC",
             "Eurazeo SE",
@@ -26709,7 +26708,6 @@
             "country/JP",
             "country/NO",
             "country/PL",
-            "country/RU",
             "country/US",
             "country/VN",
             "country/ZA",
@@ -26783,6 +26781,7 @@
             "source/PSECZ",
             "source/PSX",
             "source/QSE",
+            "source/RUS",
             "source/SET",
             "source/SGX",
             "source/SIX",

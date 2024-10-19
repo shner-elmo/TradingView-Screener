@@ -20546,7 +20546,6 @@
             "provider/icmarkets",
             "provider/ig",
             "provider/jfx",
-            "provider/moex",
             "provider/oanda",
             "provider/pepperstone",
             "provider/phillipnova",
@@ -20557,7 +20556,8 @@
             "provider/tradenation",
             "provider/vantagefx",
             "provider/velocitytrade",
-            "provider/whselfinvest"
+            "provider/whselfinvest",
+            "source/RUS"
         ]
     },
     {

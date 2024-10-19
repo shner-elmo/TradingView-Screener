@@ -381,7 +381,6 @@
             "Siacoin",
             "Small Love Potion",
             "Solana",
-            "Solanium",
             "Solar",
             "Songbird",
             "Spectral",
@@ -447,7 +446,6 @@
             "VITE",
             "Vanar Chain",
             "VeChain",
-            "VeThor Token",
             "Velar",
             "Venus",
             "Verasity",
@@ -1527,7 +1525,6 @@
             "CLEV",
             "CNC",
             "CNHT",
-            "COCO",
             "COP",
             "COQ",
             "CORGIAI",
@@ -1550,6 +1547,7 @@
             "DOGE",
             "DOGE20",
             "DOT",
+            "DRAGONX",
             "EDU",
             "EOS",
             "ETH",
@@ -1643,6 +1641,7 @@
             "POO",
             "PRISMA",
             "PROS",
+            "PRZS",
             "PUFETH",
             "PXETH",
             "PYUSD",
@@ -12724,13 +12723,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12738,7 +12730,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12752,7 +12744,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12766,7 +12758,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12774,6 +12766,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19979,7 +19978,6 @@
             "SHIB",
             "SKL",
             "SLF",
-            "SLIM",
             "SLP",
             "SNC",
             "SNT",
@@ -20048,7 +20046,6 @@
             "VITE",
             "VRA",
             "VTC",
-            "VTHO",
             "W",
             "WAN",
             "WAVES",
@@ -20189,7 +20186,6 @@
             "XTVCCLEV",
             "XTVCCNC",
             "XTVCCNHT",
-            "XTVCCOCO",
             "XTVCCOQ",
             "XTVCCORGIAI",
             "XTVCCOTI",
@@ -20246,6 +20242,7 @@
             "XTVCGRND",
             "XTVCGUSD",
             "XTVCHAI",
+            "XTVCHETH",
             "XTVCHITB",
             "XTVCHM",
             "XTVCHNY",
@@ -20280,6 +20277,7 @@
             "XTVCMEXM",
             "XTVCMFC",
             "XTVCMFT",
+            "XTVCMFTM",
             "XTVCMGC",
             "XTVCMIM",
             "XTVCMIMATIC",
@@ -20319,9 +20317,11 @@
             "XTVCPOO",
             "XTVCPRISMA",
             "XTVCPROS",
+            "XTVCPRZS",
             "XTVCPUFETH",
             "XTVCPXETH",
             "XTVCPYUSD",
+            "XTVCPYUSDUSDC",
             "XTVCQUICK",
             "XTVCRCM",
             "XTVCRDNT",

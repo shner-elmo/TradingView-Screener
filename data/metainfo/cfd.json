@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18937,7 +18937,6 @@
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18994,6 +18993,7 @@
             "Synthetix",
             "THORChain",
             "TRON",
+            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -19010,8 +19010,7 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi",
-            "yearn.finance"
+            "ether.fi"
         ]
     },
     {
@@ -19026,7 +19025,6 @@
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
@@ -19095,6 +19093,7 @@
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
+            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -19111,7 +19110,6 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19169,8 +19167,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
