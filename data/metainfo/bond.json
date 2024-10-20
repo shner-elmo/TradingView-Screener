@@ -2312,6 +2312,7 @@
             "NYSE:AJG",
             "NYSE:AL",
             "NYSE:ALB",
+            "NYSE:ALK",
             "NYSE:ALL",
             "NYSE:ALLE",
             "NYSE:ALLY",
@@ -7029,12 +7030,12 @@
             "THB",
             "TND",
             "TRY",
-            "TTD",
             "TZS",
             "USD",
             "UVA",
             "UYU",
             "UZS",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7107,6 +7108,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
