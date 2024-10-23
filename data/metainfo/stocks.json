@@ -1056,6 +1056,10 @@
                 "name": "KBW NASDAQ Bank"
             },
             {
+                "id": "NASDAQ:CPQ",
+                "name": "ISE CTA Cloud Computing"
+            },
+            {
                 "id": "NASDAQ:HGX",
                 "name": "PHLX Housing Sector"
             },
@@ -1100,6 +1104,18 @@
                 "name": "NASDAQ US Benchmark Food Producers"
             },
             {
+                "id": "NASDAQ:NQUSLG",
+                "name": "Nasdaq US Large Cap Growth"
+            },
+            {
+                "id": "NASDAQ:NQUSMG",
+                "name": "Nasdaq US Mid Cap Growth"
+            },
+            {
+                "id": "NASDAQ:NQUSSG",
+                "name": "Nasdaq US Small Cap Growth"
+            },
+            {
                 "id": "NASDAQ:OFIN",
                 "name": "NASDAQ Real Estate and Other Financial Services"
             },
@@ -1128,6 +1144,10 @@
                 "name": "Nifty Bank"
             },
             {
+                "id": "NSE:CNX100",
+                "name": "Nifty 100"
+            },
+            {
                 "id": "NSE:CNX200",
                 "name": "Nifty 200"
             },
@@ -1138,6 +1158,18 @@
             {
                 "id": "NSE:CNXAUTO",
                 "name": "Nifty Auto"
+            },
+            {
+                "id": "NSE:CNXCOMMODITIES",
+                "name": "Nifty Commodities"
+            },
+            {
+                "id": "NSE:CNXCONSUMPTION",
+                "name": "Nifty India Consumption"
+            },
+            {
+                "id": "NSE:CNXENERGY",
+                "name": "Nifty Energy"
             },
             {
                 "id": "NSE:CNXFINANCE",
@@ -1164,8 +1196,20 @@
                 "name": "Nifty Metal"
             },
             {
+                "id": "NSE:CNXMIDCAP",
+                "name": "Nifty MidCap 100"
+            },
+            {
+                "id": "NSE:CNXMNC",
+                "name": "Nifty MNC"
+            },
+            {
                 "id": "NSE:CNXPHARMA",
                 "name": "Nifty Pharma"
+            },
+            {
+                "id": "NSE:CNXPSE",
+                "name": "Nifty PSE"
             },
             {
                 "id": "NSE:CNXPSUBANK",
@@ -1176,8 +1220,36 @@
                 "name": "Nifty Realty"
             },
             {
+                "id": "NSE:CNXSERVICE",
+                "name": "Nifty Services Sector"
+            },
+            {
+                "id": "NSE:CNXSMALLCAP",
+                "name": "Nifty SmallCap 100"
+            },
+            {
+                "id": "NSE:CPSE",
+                "name": "Nifty CPSE"
+            },
+            {
                 "id": "NSE:NIFTY",
                 "name": "Nifty 50"
+            },
+            {
+                "id": "NSE:NIFTY200MOMENTM30",
+                "name": "Nifty 200 Momentum 30"
+            },
+            {
+                "id": "NSE:NIFTY500_MULTICAP",
+                "name": "Nifty 500 MultiCap 50:25:25"
+            },
+            {
+                "id": "NSE:NIFTY50EQUALWEIGHT",
+                "name": "Nifty 50 Equal Weight"
+            },
+            {
+                "id": "NSE:NIFTYALPHA50",
+                "name": "Nifty Alpha 50"
             },
             {
                 "id": "NSE:NIFTYFINSRV25_50",
@@ -1188,8 +1260,28 @@
                 "name": "Nifty Next 50"
             },
             {
+                "id": "NSE:NIFTYMIDCAP150",
+                "name": "Nifty MidCap 150"
+            },
+            {
+                "id": "NSE:NIFTYMIDCAP50",
+                "name": "Nifty MidCap 50"
+            },
+            {
+                "id": "NSE:NIFTYMIDSML400",
+                "name": "Nifty MidSmallCap 400"
+            },
+            {
                 "id": "NSE:NIFTYPVTBANK",
                 "name": "Nifty Private Bank"
+            },
+            {
+                "id": "NSE:NIFTYSMLCAP250",
+                "name": "Nifty SmallCap 250"
+            },
+            {
+                "id": "NSE:NIFTYSMLCAP50",
+                "name": "Nifty SmallCap 50"
             },
             {
                 "id": "NSE:NIFTY_CONSR_DURBL",
@@ -1200,8 +1292,32 @@
                 "name": "Nifty Healthcare"
             },
             {
+                "id": "NSE:NIFTY_INDIA_MFG",
+                "name": "Nifty India Manufacturing"
+            },
+            {
+                "id": "NSE:NIFTY_IND_DIGITAL",
+                "name": "Nifty India Digital"
+            },
+            {
+                "id": "NSE:NIFTY_LARGEMID250",
+                "name": "Nifty LargeMidCap 250"
+            },
+            {
+                "id": "NSE:NIFTY_MICROCAP250",
+                "name": "Nifty MicroCap 250"
+            },
+            {
+                "id": "NSE:NIFTY_MID_SELECT",
+                "name": "Nifty MidCap Select"
+            },
+            {
                 "id": "NSE:NIFTY_OIL_AND_GAS",
                 "name": "Nifty Oil and Gas"
+            },
+            {
+                "id": "NSE:NIFTY_TOTAL_MKT",
+                "name": "Nifty Total Market"
             },
             {
                 "id": "NSENG:NGX30",
@@ -3400,7 +3516,6 @@
         "t": "text",
         "r": [
             "",
-            "EMQI",
             "MAIN",
             "OTCQB",
             "OTCQX",
@@ -14585,14 +14700,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21378,6 +21493,7 @@
             "Eaton Vance",
             "Edelweiss",
             "Empiricus",
+            "Essential 40",
             "Euclidean",
             "Eventide",
             "Evolve",
@@ -21665,7 +21781,6 @@
             "QRAFT",
             "Quadratic",
             "Quadravest",
-            "Quantified Funds",
             "Quantum",
             "RAFI Indices",
             "RAM",
@@ -21724,6 +21839,7 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Select",
             "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
@@ -21746,6 +21862,7 @@
             "Sparkline",
             "Spear",
             "Sprott",
+            "Stacked",
             "Starlight",
             "State Street",
             "Sterling Capital",
@@ -21850,7 +21967,6 @@
             "X-Square",
             "XACT",
             "XBT",
-            "XP",
             "Xetra",
             "Xingquan",
             "Xingyin",
@@ -22577,6 +22693,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -22947,8 +23064,10 @@
             "BRL",
             "CAD",
             "CHF",
+            "CLP",
             "CNH",
             "CNY",
+            "COP",
             "DKK",
             "EUR",
             "GBP",
@@ -22959,6 +23078,7 @@
             "INR",
             "JPY",
             "KRW",
+            "KWD",
             "MXN",
             "MYR",
             "NOK",
@@ -24104,6 +24224,7 @@
             "SYML:MOEX;RUBMI",
             "SYML:NASDAQ;BANK",
             "SYML:NASDAQ;BKX",
+            "SYML:NASDAQ;CPQ",
             "SYML:NASDAQ;HGX",
             "SYML:NASDAQ;HXC",
             "SYML:NASDAQ;INDS",
@@ -24115,6 +24236,9 @@
             "SYML:NASDAQ;NDX",
             "SYML:NASDAQ;NDXT",
             "SYML:NASDAQ;NQUSB451020",
+            "SYML:NASDAQ;NQUSLG",
+            "SYML:NASDAQ;NQUSMG",
+            "SYML:NASDAQ;NQUSSG",
             "SYML:NASDAQ;OFIN",
             "SYML:NASDAQ;OSX",
             "SYML:NASDAQ;SOX",
@@ -24122,25 +24246,50 @@
             "SYML:NASDAQ;UTY",
             "SYML:NASDAQ;XAU",
             "SYML:NSE;BANKNIFTY",
+            "SYML:NSE;CNX100",
             "SYML:NSE;CNX200",
             "SYML:NSE;CNX500",
             "SYML:NSE;CNXAUTO",
+            "SYML:NSE;CNXCOMMODITIES",
+            "SYML:NSE;CNXCONSUMPTION",
+            "SYML:NSE;CNXENERGY",
             "SYML:NSE;CNXFINANCE",
             "SYML:NSE;CNXFMCG",
             "SYML:NSE;CNXINFRA",
             "SYML:NSE;CNXIT",
             "SYML:NSE;CNXMEDIA",
             "SYML:NSE;CNXMETAL",
+            "SYML:NSE;CNXMIDCAP",
+            "SYML:NSE;CNXMNC",
             "SYML:NSE;CNXPHARMA",
+            "SYML:NSE;CNXPSE",
             "SYML:NSE;CNXPSUBANK",
             "SYML:NSE;CNXREALTY",
+            "SYML:NSE;CNXSERVICE",
+            "SYML:NSE;CNXSMALLCAP",
+            "SYML:NSE;CPSE",
             "SYML:NSE;NIFTY",
+            "SYML:NSE;NIFTY200MOMENTM30",
+            "SYML:NSE;NIFTY500_MULTICAP",
+            "SYML:NSE;NIFTY50EQUALWEIGHT",
+            "SYML:NSE;NIFTYALPHA50",
             "SYML:NSE;NIFTYFINSRV25_50",
             "SYML:NSE;NIFTYJR",
+            "SYML:NSE;NIFTYMIDCAP150",
+            "SYML:NSE;NIFTYMIDCAP50",
+            "SYML:NSE;NIFTYMIDSML400",
             "SYML:NSE;NIFTYPVTBANK",
+            "SYML:NSE;NIFTYSMLCAP250",
+            "SYML:NSE;NIFTYSMLCAP50",
             "SYML:NSE;NIFTY_CONSR_DURBL",
             "SYML:NSE;NIFTY_HEALTHCARE",
+            "SYML:NSE;NIFTY_INDIA_MFG",
+            "SYML:NSE;NIFTY_IND_DIGITAL",
+            "SYML:NSE;NIFTY_LARGEMID250",
+            "SYML:NSE;NIFTY_MICROCAP250",
+            "SYML:NSE;NIFTY_MID_SELECT",
             "SYML:NSE;NIFTY_OIL_AND_GAS",
+            "SYML:NSE;NIFTY_TOTAL_MKT",
             "SYML:NSENG;NGX30",
             "SYML:NYSE;XMI",
             "SYML:NZX;NZ50G",
@@ -24659,7 +24808,7 @@
             "Banco BTG Pactual SA",
             "Banco Bilbao Vizcaya Argentaria SA",
             "Banco Bradesco SA /Private Group/",
-            "Bandhan Asset Management Co. Ltd.",
+            "Bandhan AMC Ltd.",
             "Bangkok Bank PCL",
             "Bank Albilad",
             "Bank of China Investment Management Co., Ltd.",
@@ -24899,6 +25048,7 @@
             "KSM Mutual Funds Ltd.",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
+            "Killir Kapital Management LLC",
             "Kingsbarn Capital Management LLC",
             "Kingsview Partners LLC",
             "Korea Electric Power Corp.",
@@ -26648,6 +26798,7 @@
             "14",
             "16",
             "17",
+            "18",
             "2",
             "20",
             "23",
@@ -27594,6 +27745,7 @@
             "18",
             "19",
             "20",
+            "21",
             "22",
             "25",
             "28",
