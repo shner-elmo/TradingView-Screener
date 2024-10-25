@@ -14685,13 +14685,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14699,7 +14692,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14707,6 +14700,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21910,6 +21910,7 @@
             "Tortoise",
             "Touchstone",
             "Tracker",
+            "TradersAI",
             "Tradr",
             "Trajan",
             "Tremblant",
@@ -22693,7 +22694,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24494,7 +24494,7 @@
             "Global X Investments Canada, Inc.",
             "Global X Management Co. LLC",
             "Goldman Sachs International",
-            "Hang Seng Indexes Co., Ltd.",
+            "Hang Seng Indexes Co. Ltd.",
             "Harvest Portfolios Group, Inc.",
             "Hedge Fund Research, Inc.",
             "Howard Capital Management Group LLC",
