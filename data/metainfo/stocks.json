@@ -14699,13 +14699,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14713,7 +14706,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14721,6 +14714,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21681,7 +21681,6 @@
             "McElhenny Sheffield",
             "Meet Kevin",
             "Mega",
-            "Meitav",
             "Melanion",
             "Meridian",
             "Meritz",
@@ -21833,6 +21832,7 @@
             "Saba",
             "Safra",
             "Samsung",
+            "SanJac Alpha",
             "Satrix",
             "Sber",
             "Schroder",
@@ -21877,6 +21877,7 @@
             "Summit Global Investments",
             "Swan",
             "Sygnia",
+            "Syntax",
             "T-Rex",
             "T. Rowe Price",
             "TCW",
@@ -22694,9 +22695,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23279,6 +23278,7 @@
             "2162",
             "2165",
             "2167",
+            "2169",
             "22",
             "23",
             "24",
@@ -25220,6 +25220,7 @@
             "Samsung Life Insurance Co., Ltd.",
             "Samsung Securities Co., Ltd.",
             "Sanlam Ltd.",
+            "Saracen Energy Advisors LP",
             "Sausalito Partners LLC",
             "Sberbank Russia PJSC",
             "Schroders Plc",
@@ -25256,6 +25257,7 @@
             "Svenska Handelsbanken AB",
             "Swan Global Holdings (US) LLC",
             "Sygnia Ltd.",
+            "Syntax LLC",
             "T. Rowe Price Group, Inc.",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",

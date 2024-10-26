@@ -1083,6 +1083,7 @@
             "GETTEX:2MD",
             "GETTEX:3AI",
             "GETTEX:8LV",
+            "GETTEX:CGE",
             "GETTEX:DO10",
             "GETTEX:IJY",
             "GETTEX:PFS",
@@ -3383,7 +3384,6 @@
             "OSL:VAR",
             "OSL:VVL",
             "OSL:YAR",
-            "OTC:ABFOF",
             "OTC:ABGOF",
             "OTC:ALPIB",
             "OTC:ASFZ",
@@ -3443,6 +3443,7 @@
             "PSE:MEG",
             "PSE:MWC",
             "PSE:PCOR",
+            "PSE:PNB",
             "PSE:RCB",
             "PSE:SECB",
             "PSE:SM",
@@ -4448,6 +4449,7 @@
             "GETTEX:PFS",
             "GETTEX:S0U",
             "GETTEX:SOAN",
+            "GETTEX:VGR",
             "GPW:KER",
             "GPW:MBK",
             "GPW:MIL",
@@ -4584,7 +4586,6 @@
             "KRX:329180",
             "KRX:373220",
             "KSE:BURG",
-            "LS:874420",
             "LS:931553",
             "LS:A2N73H",
             "LSE:0DTT",
@@ -6300,7 +6301,6 @@
             "OSL:VAR",
             "OSL:VVL",
             "OSL:YAR",
-            "OTC:ABFOF",
             "OTC:AILLP",
             "OTC:ALPIB",
             "OTC:AVBH",
@@ -6356,6 +6356,7 @@
             "PSE:MEG",
             "PSE:MWC",
             "PSE:PCOR",
+            "PSE:PNB",
             "PSE:RCB",
             "PSE:SECB",
             "PSE:UBP",
@@ -7003,7 +7004,6 @@
             "JMD",
             "JPY",
             "KES",
-            "KGS",
             "KRW",
             "KWD",
             "KZT",
@@ -7012,6 +7012,7 @@
             "MNT",
             "MXN",
             "MXV",
+            "MYR",
             "NGN",
             "NOK",
             "NZD",
@@ -7034,6 +7035,7 @@
             "UVA",
             "UYU",
             "UZS",
+            "VND",
             "ZAR",
             "ZMW"
         ]
@@ -7105,9 +7107,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
