@@ -236,6 +236,7 @@
             "Immutable X",
             "Index Chain",
             "Injective Protocol",
+            "InsurAce",
             "Internet Computer",
             "IoTeX",
             "JOE",
@@ -1590,7 +1591,6 @@
             "GIV",
             "GNO",
             "GOGLZ",
-            "GRND",
             "GUSD",
             "HAI",
             "HIT",
@@ -1615,7 +1615,6 @@
             "LDO",
             "LINK",
             "LODE",
-            "MARSO",
             "MATIC",
             "MBTC",
             "MCAKE",
@@ -12745,13 +12744,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12759,7 +12751,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12773,7 +12765,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12781,6 +12773,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19858,6 +19857,7 @@
             "ILV",
             "IMX",
             "INJ",
+            "INSUR",
             "IO",
             "IOTX",
             "IPX",
@@ -20278,7 +20278,6 @@
             "XTVCGIV",
             "XTVCGNO",
             "XTVCGOGLZ",
-            "XTVCGRND",
             "XTVCGUSD",
             "XTVCHAI",
             "XTVCHETH",
@@ -20306,7 +20305,6 @@
             "XTVCLINK",
             "XTVCLMX",
             "XTVCLODE",
-            "XTVCMARSO",
             "XTVCMATIC",
             "XTVCMAUSDC",
             "XTVCMBTC",
@@ -20361,6 +20359,7 @@
             "XTVCPUFETH",
             "XTVCPXETH",
             "XTVCPYUSD",
+            "XTVCPYUSDUSDC",
             "XTVCQUICK",
             "XTVCRCM",
             "XTVCRDNT",
