@@ -268,27 +268,6 @@ class Query:
 
     def where2(self, operation: OperationDict) -> Self:
         """
-        Filter screener
-
-        This syntax was introduced in the screener 2.0, which allows you to filter the screener,
-        using both the AND/OR operators. Unlike `where()`, which the conditions are joined using
-        only the `AND` operator.
-
-        Exmamples:
-        # TODO: finish this
-
-        >>> from tradingview_screener import Query, col
-        ((col('type') == 'stock' and col('typespecs').has(['common']))
-         or (col('type') == 'stock' and col('typespecs').has(['common']))
-         or col('type') == 'dr'
-         or (col('type') == 'fund' and col('typespecs').has(['etf'])))
-
-        Or(
-            And(col('type') == 'stock', col('typespecs').has(['common'])),
-            And(col('type') == 'stock', col('typespecs').has(['preferred'])),
-            And(col('type') == 'dr'),
-            And(col('type') == 'fund', col('typespecs').has_none_of(['etf'])),
-        )
         """
         self.query['filter2'] = operation['operation']
         return self
@@ -297,12 +276,19 @@ class Query:
         self, column: Column | str, ascending: bool = True, nulls_first: bool = False
     ) -> Self:
         """
-        # TODO add docu
+        Applies sorting to the query results based on the specified column.
 
-        :param column:
-        :param ascending:
-        :param nulls_first:
-        :return:
+        Examples:
+
+        >>> Query().order_by('volume', ascending=False)  # sort descending
+        >>> Query().order_by('close', ascending=True)
+        >>> Query().order_by('dividends_yield_current', ascending=False, nulls_first=False)
+
+        :param column: Either a `Column` object or a string with the column name.
+        :param ascending: Set to True for ascending order (default), or False for descending.
+        :param nulls_first: If True, places `None` values at the beginning of the results. Defaults
+        to False.
+        :return: The updated query object.
         """
         dct: SortByDict = {
             'sortBy': column.name if isinstance(column, Column) else column,
@@ -442,7 +428,7 @@ class Query:
 
     def set_index(self, *indexes: str) -> Self:
         """
-        Filter data to include only the tickers/components of a specified index.
+        Scan only the equities that are in in the given index (or indexes).
 
         Examples:
 
@@ -560,6 +546,8 @@ class Query:
     def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
         """
         Perform a POST web-request and return the data from the API as a DataFrame.
+
+        This returns a Pandas DataFrame, so make sure you have `pandas` installed.
 
         Note that you can pass extra keyword-arguments that will be forwarded to `requests.post()`,
         this can be very useful if you want to pass your own headers/cookies.
