@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12047,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18959,7 +18959,6 @@
             "JITO",
             "JUST",
             "Jupiter",
-            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -18978,12 +18977,14 @@
             "PancakeSwap",
             "Pepe",
             "Polkadot",
+            "Radix",
             "Ravencoin",
             "Raydium",
             "Render",
             "Rocket Pool",
             "Shiba Inu",
             "Solana",
+            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -18992,7 +18993,6 @@
             "Synthetix",
             "THORChain",
             "TRON",
-            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -19062,7 +19062,6 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19090,10 +19089,10 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
+            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
-            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -19108,6 +19107,7 @@
             "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
+            "XTVCXRD",
             "XTVCXRP",
             "XTVCYFI",
             "XTVCZRX"
@@ -19167,7 +19167,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
