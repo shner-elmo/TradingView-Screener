@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18959,6 +18959,7 @@
             "JITO",
             "JUST",
             "Jupiter",
+            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -18984,7 +18985,6 @@
             "Rocket Pool",
             "Shiba Inu",
             "Solana",
-            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19062,6 +19062,7 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
+            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19089,7 +19090,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -19166,6 +19166,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
