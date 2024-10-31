@@ -14701,13 +14701,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14715,7 +14708,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14723,6 +14716,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21282,6 +21282,7 @@
             "10X",
             "1nvest",
             "21Shares",
+            "27Four Funds",
             "3Edge",
             "3iQ",
             "AAM",
@@ -21720,6 +21721,7 @@
             "Neuberger Berman",
             "New York Life Investments",
             "Newday",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22698,6 +22700,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24757,6 +24760,7 @@
             "1251 Capital Group, Inc.",
             "1nvest SA",
             "21Shares AG",
+            "27four Collective Investments (RF) (Pty) Ltd.",
             "3EDGE Asset Management LP",
             "3iQ Corp.",
             "483A Bay Street Holdings LP",
@@ -24939,6 +24943,7 @@
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
+            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -25126,6 +25131,7 @@
             "Neos Investments LLC",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -27145,6 +27151,7 @@
             "GL",
             "GR",
             "GT",
+            "GU",
             "GY",
             "HK",
             "HR",

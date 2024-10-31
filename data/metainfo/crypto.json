@@ -214,6 +214,7 @@
             "Gnosis",
             "GoalTime N",
             "Golem",
+            "Grin",
             "Grok",
             "HTX",
             "Hamster Kombat",
@@ -343,6 +344,7 @@
             "PowerPool",
             "Presearch",
             "Prom",
+            "Propy",
             "Proton Loan",
             "PumaPay",
             "Push Protocol",
@@ -781,7 +783,6 @@
             "DELTA",
             "DELTAIN",
             "DERIBIT",
-            "DYDX",
             "GATEIO",
             "GEMINI",
             "HITBTC",
@@ -1646,7 +1647,6 @@
             "PNG",
             "POHM",
             "POL",
-            "POO",
             "PRISMA",
             "PROS",
             "PRZS",
@@ -12729,13 +12729,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12743,7 +12736,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12757,7 +12750,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12771,7 +12764,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12779,6 +12772,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19820,6 +19820,7 @@
             "GMMT",
             "GMT",
             "GNO",
+            "GRIN",
             "GRT",
             "GTC",
             "GTX",
@@ -19950,6 +19951,7 @@
             "PORTAL",
             "POWR",
             "PRE",
+            "PRO",
             "PROM",
             "PTOY",
             "PUSH",
@@ -20279,6 +20281,7 @@
             "XTVCLMX",
             "XTVCLODE",
             "XTVCLPZ",
+            "XTVCLVLUSD",
             "XTVCMATIC",
             "XTVCMAUSDC",
             "XTVCMBTC",
@@ -20326,7 +20329,6 @@
             "XTVCPNPC",
             "XTVCPOHM",
             "XTVCPOLYG",
-            "XTVCPOO",
             "XTVCPRISMA",
             "XTVCPROS",
             "XTVCPRZS",
@@ -21789,7 +21791,6 @@
             "delta",
             "deltain",
             "deribit",
-            "dydx",
             "gateio",
             "gemini",
             "hitbtc",
@@ -22015,7 +22016,6 @@
             "provider/delta",
             "provider/deltain",
             "provider/deribit",
-            "provider/dydx",
             "provider/gateio",
             "provider/gemini",
             "provider/hitbtc",

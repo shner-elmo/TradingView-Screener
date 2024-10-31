@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18932,10 +18932,11 @@
             "Bitcoin Cash",
             "Bittensor",
             "Cardano",
+            "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
-            "Cosmos",
+            "Convex Finance",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18948,7 +18949,6 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
-            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -19025,7 +19025,6 @@
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
@@ -19035,6 +19034,7 @@
             "XTVCCOMP",
             "XTVCCRO",
             "XTVCCRV",
+            "XTVCCVX",
             "XTVCDAI",
             "XTVCDEXE",
             "XTVCDOGE",
@@ -19050,7 +19050,6 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19092,6 +19091,7 @@
             "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
+            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRIBE",
             "XTVCTRX",
@@ -19166,6 +19166,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
