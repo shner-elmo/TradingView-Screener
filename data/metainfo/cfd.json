@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18949,6 +18949,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -18959,7 +18960,6 @@
             "JITO",
             "JUST",
             "Jupiter",
-            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -19050,6 +19050,7 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
+            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19061,7 +19062,6 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",

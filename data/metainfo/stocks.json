@@ -2224,6 +2224,7 @@
             "Israel",
             "Italy",
             "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14673,14 +14674,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21359,6 +21360,7 @@
             "Aztlan",
             "BB",
             "BB DTVM",
+            "BBVA",
             "BCAP",
             "BMO",
             "BNI AM",
@@ -21495,6 +21497,7 @@
             "Eastspring",
             "Eaton Vance",
             "Edelweiss",
+            "Emerald",
             "Empiricus",
             "Essential 40",
             "Euclidean",
@@ -21977,6 +21980,7 @@
             "Xingquan",
             "Xingyin",
             "Xtrackers",
+            "Yaqeen",
             "YieldMax",
             "Yinhua",
             "Yuanta",
@@ -22525,6 +22529,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -26468,8 +26473,8 @@
         "n": "provider-id",
         "t": "text",
         "r": [
+            "alor",
             "ice",
-            "moex",
             "sixgroup",
             "tvc"
         ]
@@ -26813,6 +26818,7 @@
             "18",
             "2",
             "20",
+            "21",
             "23",
             "24",
             "25",

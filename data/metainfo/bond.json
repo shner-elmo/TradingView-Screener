@@ -502,8 +502,7 @@
             "INR",
             "NOK",
             "SEK",
-            "USD",
-            "ZAR"
+            "USD"
         ]
     },
     {
@@ -685,7 +684,6 @@
             "BIST:ISATR",
             "BIST:KCHOL",
             "BIST:PGSUS",
-            "BIST:QNBFB",
             "BIST:SISE",
             "BIST:TAVHL",
             "BIST:TCELL",
@@ -1104,7 +1102,6 @@
             "GPW:PKO",
             "GPW:TPE",
             "HAM:AR4",
-            "HAM:ARLN",
             "HAM:HBM",
             "HAM:LOU",
             "HAM:O2D",
@@ -1928,7 +1925,6 @@
             "NASDAQ:PGC",
             "NASDAQ:PI",
             "NASDAQ:PKOH",
-            "NASDAQ:PLAY",
             "NASDAQ:PLTK",
             "NASDAQ:PLUG",
             "NASDAQ:PMTS",
@@ -3383,6 +3379,7 @@
             "OSL:VAR",
             "OSL:VVL",
             "OSL:YAR",
+            "OTC:AABKF",
             "OTC:ABGOF",
             "OTC:ALPIB",
             "OTC:ASFZ",
@@ -3641,7 +3638,6 @@
             "SZSE:002352",
             "SZSE:002860",
             "SZSE:300014",
-            "SZSE:300349",
             "SZSE:300498",
             "SZSE:300750",
             "TADAWUL:1010",
@@ -3899,7 +3895,7 @@
             "VIE:WIE",
             "VIE:WOLF",
             "VIE:WPB",
-            "XETR:1COV",
+            "XETR:1CO",
             "XETR:8TRA",
             "XETR:A4Y",
             "XETR:AAQ1",
@@ -4106,7 +4102,6 @@
             "BIST:ISATR",
             "BIST:KCHOL",
             "BIST:PGSUS",
-            "BIST:QNBFB",
             "BIST:SISE",
             "BIST:TAVHL",
             "BIST:TCELL",
@@ -4460,7 +4455,6 @@
             "GPW:PKN",
             "GPW:PKO",
             "GPW:TPE",
-            "HAM:ARLN",
             "HAM:HBM",
             "HAM:LOU",
             "HAM:TC1",
@@ -6300,6 +6294,7 @@
             "OSL:VAR",
             "OSL:VVL",
             "OSL:YAR",
+            "OTC:AABKF",
             "OTC:AILLP",
             "OTC:ALPIB",
             "OTC:AVBH",
@@ -6656,7 +6651,7 @@
             "VIE:VOE",
             "VIE:WIE",
             "VIE:WOLF",
-            "XETR:1COV",
+            "XETR:1CO",
             "XETR:A4Y",
             "XETR:AAQ1",
             "XETR:AB9",
@@ -7006,7 +7001,6 @@
             "KRW",
             "KWD",
             "KZT",
-            "LAJ",
             "MAD",
             "MXN",
             "MXV",
@@ -7020,6 +7014,7 @@
             "PLN",
             "PYG",
             "RON",
+            "RSD",
             "RUB",
             "SAR",
             "SEK",
@@ -7036,6 +7031,11 @@
             "ZAR",
             "ZMW"
         ]
+    },
+    {
+        "n": "coupon_exdate_gap_sort",
+        "t": "number",
+        "r": null
     },
     {
         "n": "coupon_frequency",
@@ -7086,8 +7086,7 @@
             "INR",
             "NOK",
             "SEK",
-            "USD",
-            "ZAR"
+            "USD"
         ]
     },
     {
