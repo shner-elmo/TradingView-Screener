@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CFD Fields</title>
+  <title>Ireland Fields</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
   <style>
     body {
@@ -42,7 +42,7 @@
     >Coin
     </button>
     <button
-      class="primary"
+      class="secondary"
       data-placement="bottom"
       data-tooltip="set_markets('cfd')"
       onclick="window.location.href = 'cfd.html'"
@@ -84,7 +84,7 @@
     >Options
     </button>
     <button
-      class="secondary"
+      class="primary"
       data-placement="bottom"
       data-tooltip="set_markets('ireland')"
       onclick="window.location.href = 'ireland.html'"
@@ -122,6 +122,11 @@
       <td>active_symbol</td>
       <td>Current trading day</td>
       <td>bool</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_basic_ttm</td>
+      <td>Basic EPS (TTM)</td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>
@@ -166,6 +171,16 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>market_cap_basic</td>
+      <td>Market Capitalization</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>number_of_employees</td>
+      <td>Number of Employees</td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>close</summary>
@@ -185,6 +200,11 @@
       </td>
       <td>Price</td>
       <td>price</td>
+    </tr>
+    <tr>
+      <td>price_earnings_ttm</td>
+      <td>Price to Earnings Ratio (TTM)</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>sector</td>
@@ -262,6 +282,11 @@
     <tr>
       <td>Low.1M</td>
       <td>1-Month Low</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>beta_1_year</td>
+      <td>1-Year Beta</td>
       <td>number</td>
     </tr>
     <tr>
@@ -535,6 +560,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>basic_eps_net_income</td>
+      <td>Basic EPS (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>BB.lower</summary>
@@ -596,6 +626,26 @@
       </td>
       <td>Bull Bear Power</td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_fy</td>
+      <td>Cash and short term investments (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_fq</td>
+      <td>Cash and short term investments (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>cash_n_equivalents_fy</td>
+      <td>Cash & Equivalents (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>cash_n_equivalents_fq</td>
+      <td>Cash & Equivalents (MRQ)</td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>
@@ -687,6 +737,41 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>current_ratio</td>
+      <td>Current Ratio (MRQ)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>debt_to_equity</td>
+      <td>Debt to Equity Ratio (MRQ)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>dividends_paid</td>
+      <td>Dividends Paid (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>dps_common_stock_prim_issue_yoy_growth_fy</td>
+      <td>Dividends per share (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>dps_common_stock_prim_issue_fy</td>
+      <td>Dividends per Share (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>dividends_per_share_fq</td>
+      <td>Dividends per Share (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>dividend_yield_recent</td>
+      <td>Dividend Yield Forward</td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>DonchCh20.Lower</summary>
@@ -727,6 +812,81 @@
       </td>
       <td>Donchian Channels Upper Band (20)</td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>ebitda_yoy_growth_fy</td>
+      <td>EBITDA (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>ebitda_qoq_growth_fq</td>
+      <td>EBITDA (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>ebitda_yoy_growth_fq</td>
+      <td>EBITDA (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>ebitda</td>
+      <td>EBITDA (TTM)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>ebitda_yoy_growth_ttm</td>
+      <td>EBITDA (TTM YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_ebitda_ttm</td>
+      <td>Enterprise Value/EBITDA (TTM)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_fq</td>
+      <td>Enterprise Value (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_yoy_growth_fy</td>
+      <td>EPS Diluted (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>last_annual_eps</td>
+      <td>EPS Diluted (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_fq</td>
+      <td>EPS Diluted (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_qoq_growth_fq</td>
+      <td>EPS Diluted (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_yoy_growth_fq</td>
+      <td>EPS Diluted (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_ttm</td>
+      <td>EPS Diluted (TTM)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_yoy_growth_ttm</td>
+      <td>EPS Diluted (TTM YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_forecast_next_fq</td>
+      <td>EPS Forecast (MRQ)</td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>exchange</td>
@@ -881,6 +1041,36 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>free_cash_flow_yoy_growth_fy</td>
+      <td>Free Cash Flow (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_margin_fy</td>
+      <td>Free Cash Flow Margin (FY)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_margin_ttm</td>
+      <td>Free Cash Flow Margin (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_qoq_growth_fq</td>
+      <td>Free Cash Flow (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_yoy_growth_fq</td>
+      <td>Free Cash Flow (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_yoy_growth_ttm</td>
+      <td>Free Cash Flow (TTM YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>gap</summary>
@@ -899,6 +1089,51 @@
         </details>
       </td>
       <td>Gap %</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>goodwill</td>
+      <td>Goodwill</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>gross_profit_margin_fy</td>
+      <td>Gross Margin (FY)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_margin</td>
+      <td>Gross Margin (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_profit_yoy_growth_fy</td>
+      <td>Gross Profit (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_profit</td>
+      <td>Gross Profit (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>gross_profit_fq</td>
+      <td>Gross Profit (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>gross_profit_qoq_growth_fq</td>
+      <td>Gross Profit (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_profit_yoy_growth_fq</td>
+      <td>Gross Profit (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_profit_yoy_growth_ttm</td>
+      <td>Gross Profit (TTM YoY Growth)</td>
       <td>percent</td>
     </tr>
     <tr>
@@ -1028,6 +1263,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>industry</td>
+      <td>Industry</td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>KltChnl.lower</summary>
@@ -1068,6 +1308,11 @@
       </td>
       <td>Keltner Channels Upper Band (20)</td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>last_annual_revenue</td>
+      <td>Last Year Revenue (FY)</td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>
@@ -1222,6 +1467,51 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>net_debt</td>
+      <td>Net Debt (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_income_yoy_growth_fy</td>
+      <td>Net Income (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>net_income</td>
+      <td>Net Income (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_income_qoq_growth_fq</td>
+      <td>Net Income (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>net_income_yoy_growth_fq</td>
+      <td>Net Income (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>net_income_yoy_growth_ttm</td>
+      <td>Net Income (TTM YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>net_income_bef_disc_oper_margin_fy</td>
+      <td>Net Margin (FY)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>after_tax_margin</td>
+      <td>Net Margin (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>number_of_shareholders</td>
+      <td>Number of Shareholders</td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>open</summary>
@@ -1241,6 +1531,16 @@
       </td>
       <td>Open</td>
       <td>price</td>
+    </tr>
+    <tr>
+      <td>oper_income_margin_fy</td>
+      <td>Operating Margin (FY)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>operating_margin</td>
+      <td>Operating Margin (TTM)</td>
+      <td>percent</td>
     </tr>
     <tr>
       <td>
@@ -1967,6 +2267,31 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>postmarket_close</td>
+      <td>Post-market Close</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>postmarket_high</td>
+      <td>Post-market High</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>postmarket_low</td>
+      <td>Post-market Low</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>postmarket_open</td>
+      <td>Post-market Open</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>postmarket_volume</td>
+      <td>Post-market Volume</td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>premarket_change</td>
       <td>Pre-market Change %</td>
       <td>percent</td>
@@ -1987,9 +2312,69 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>premarket_close</td>
+      <td>Pre-market Close</td>
+      <td>price</td>
+    </tr>
+    <tr>
       <td>premarket_gap</td>
       <td>Pre-market Gap %</td>
       <td>percent</td>
+    </tr>
+    <tr>
+      <td>premarket_high</td>
+      <td>Pre-market High</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>premarket_low</td>
+      <td>Pre-market Low</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>premarket_open</td>
+      <td>Pre-market Open</td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>premarket_volume</td>
+      <td>Pre-market Volume</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>pre_tax_margin</td>
+      <td>Pretax Margin (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>price_book_ratio</td>
+      <td>Price to Book (FY)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_book_fq</td>
+      <td>Price to Book (MRQ)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_free_cash_flow_ttm</td>
+      <td>Price to Free Cash Flow (TTM)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_revenue_ttm</td>
+      <td>Price to Revenue Ratio (TTM)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_sales_ratio</td>
+      <td>Price to Sales (FY)</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>quick_ratio</td>
+      <td>Quick Ratio (MRQ)</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
@@ -2011,6 +2396,11 @@
       </td>
       <td>Rate Of Change (9)</td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>earnings_release_date</td>
+      <td>Recent Earnings Date</td>
+      <td>time</td>
     </tr>
     <tr>
       <td>
@@ -2073,6 +2463,71 @@
         </details>
       </td>
       <td>Relative Volume</td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>research_and_dev_ratio_fy</td>
+      <td>Research & development Ratio (FY)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>research_and_dev_ratio_ttm</td>
+      <td>Research & development Ratio (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_assets</td>
+      <td>Return on Assets (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_equity</td>
+      <td>Return on Equity (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_invested_capital</td>
+      <td>Return on Invested Capital (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_revenue_yoy_growth_fy</td>
+      <td>Revenue (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>revenue_per_employee</td>
+      <td>Revenue per Employee (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_revenue_qoq_growth_fq</td>
+      <td>Revenue (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_revenue_yoy_growth_fq</td>
+      <td>Revenue (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_revenue_yoy_growth_ttm</td>
+      <td>Revenue (TTM YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>sell_gen_admin_exp_other_ratio_fy</td>
+      <td>Selling General & Admin expenses Ratio (FY)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>sell_gen_admin_exp_other_ratio_ttm</td>
+      <td>Selling General & Admin expenses Ratio (TTM)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>float_shares_outstanding</td>
+      <td>Shares Float</td>
       <td>number</td>
     </tr>
     <tr>
@@ -2312,6 +2767,71 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>total_assets_yoy_growth_fy</td>
+      <td>Total Assets (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_assets</td>
+      <td>Total Assets (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_assets_qoq_growth_fq</td>
+      <td>Total Assets (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_assets_yoy_growth_fq</td>
+      <td>Total Assets (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_current_assets</td>
+      <td>Total Current Assets (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_debt_yoy_growth_fy</td>
+      <td>Total Debt (Annual YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_debt</td>
+      <td>Total Debt (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_debt_qoq_growth_fq</td>
+      <td>Total Debt (Quarterly QoQ Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_debt_yoy_growth_fq</td>
+      <td>Total Debt (Quarterly YoY Growth)</td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_liabilities_fy</td>
+      <td>Total Liabilities (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_liabilities_fq</td>
+      <td>Total Liabilities (MRQ)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_revenue</td>
+      <td>Total Revenue (FY)</td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_shares_outstanding_fundamental</td>
+      <td>Total Shares Outstanding</td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>UO</summary>
@@ -2331,6 +2851,11 @@
       </td>
       <td>Ultimate Oscillator (7, 14, 28)</td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>earnings_release_next_date</td>
+      <td>Upcoming Earnings Date</td>
+      <td>time</td>
     </tr>
     <tr>
       <td>Volatility.D</td>
@@ -2431,14 +2956,14 @@
       <td>text</td>
     </tr>
     <tr>
-      <td>ask</td>
-      <td>Ask</td>
-      <td>price</td>
+      <td>total_shares_outstanding</td>
+      <td>Available Coins</td>
+      <td>number</td>
     </tr>
     <tr>
-      <td>bid</td>
-      <td>Bid</td>
-      <td>price</td>
+      <td>market_cap_calc</td>
+      <td>Market Capitalization</td>
+      <td>number</td>
     </tr>
     <tr>
       <td>
@@ -5994,6 +6519,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>actively_managed</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>all_time_high</td>
       <td></td>
       <td>price</td>
@@ -6017,6 +6547,36 @@
       <td>all_time_open</td>
       <td></td>
       <td>price</td>
+    </tr>
+    <tr>
+      <td>amount_recent</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>amount_upcoming</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>asset_class</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>asset_turnover_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>asset_turnover_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>aum</td>
+      <td></td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>aum_perf.1M</td>
@@ -6049,6 +6609,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>average_volume</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>bars_count</summary>
@@ -6075,12 +6640,162 @@
       <td>text</td>
     </tr>
     <tr>
-      <td>country2</td>
+      <td>beta_3_year</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>beta_5_year</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>book_value_per_share_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>book_value_per_share_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>brand</td>
       <td></td>
       <td>text</td>
     </tr>
     <tr>
-      <td>country_code</td>
+      <td>buyback_yield</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>cagr_5_earnings_per_share_basic</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>cagr_5_free_cash_flow</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>cagr_5_net_income</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>cagr_5_revenue</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_qoq_growth_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_unchanged_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_unchanged_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_unchanged_ttm_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_yoy_growth_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_yoy_growth_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>capital_expenditures_yoy_growth_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>cash_dividend_coverage_ratio_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>cash_dividend_coverage_ratio_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>cash_f_financing_activities_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>cash_f_investing_activities_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>cash_f_operating_activities_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_to_total_current_liabilities_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_to_total_current_liabilities_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_to_total_debt_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_to_total_debt_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>cash_ratio</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>category</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>continuous_dividend_growth</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>continuous_dividend_payout</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>country_code_fund</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -6100,6 +6815,11 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>currency_hedged_flag</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>currency_id</td>
       <td></td>
       <td>text</td>
@@ -6108,6 +6828,16 @@
       <td>currency_kind</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>current_ratio_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>current_ratio_fq</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>current_session</td>
@@ -6120,9 +6850,369 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>debt_to_asset_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>debt_to_asset_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>debt_to_assets</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>debt_to_equity_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>description</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>diluted_shares_outstanding_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>dividend_amount_recent</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>dividend_amount_upcoming</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>dividend_ex_date_recent</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>dividend_ex_date_upcoming</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>dividend_frequency_recent</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>dividend_frequency_upcoming</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>dividend_payment_date_recent</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>dividend_payment_date_upcoming</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>dividend_payout_ratio_percent_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>dividend_payout_ratio_percent_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>dividend_payout_ratio_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>dividend_treatment</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>dividend_yield_upcoming</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>dividends_frequency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>dividends_yield</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>dividends_yield_current</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>dividends_yield_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>dividends_yield_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>dps_common_stock_prim_issue_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>dps_common_stock_prim_issue_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_basic_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_basic_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_5y_growth_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_diluted_ttm_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_forecast_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_forecast_next_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_per_share_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_publication_type_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>earnings_publication_type_next_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>earnings_release_calendar_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>earnings_release_next_calendar_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>earnings_release_next_time</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>earnings_release_next_trading_date_fq</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>earnings_release_next_trading_date_fy</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>earnings_release_time</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>earnings_release_trading_date_fq</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>earnings_release_trading_date_fy</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>ebit_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>ebitda_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>ebitda_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>ebitda_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>ebitda_interst_cover_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>ebitda_interst_cover_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>ebitda_less_capex_interst_cover_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>ebitda_less_capex_interst_cover_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>ebitda_per_employee_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>ebitda_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>ebitda_ttm_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_current</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_ebitda_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_to_ebit_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_to_free_cash_flow_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_to_gross_profit_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>enterprise_value_to_revenue_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>eps_diluted_growth_percent_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>eps_diluted_growth_percent_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>eps_surprise_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>eps_surprise_percent_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>etf_fund_currency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>ex_dividend_date_recent</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>ex_dividend_date_upcoming</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>expected_annual_dividends</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>expense_ratio</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>expiration</td>
@@ -6135,22 +7225,97 @@
       <td>time</td>
     </tr>
     <tr>
-      <td>forex_exotic_priority</td>
+      <td>fiscal_period_end_fh</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>fiscal_period_end_fq</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>fiscal_period_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>fixed_assets_turnover_fq</td>
       <td></td>
       <td>number</td>
     </tr>
     <tr>
-      <td>forex_minor_priority</td>
+      <td>fixed_assets_turnover_fy</td>
       <td></td>
       <td>number</td>
     </tr>
     <tr>
-      <td>forex_priority</td>
+      <td>float_shares_outstanding_current</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>float_shares_percent_current</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>focus</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>fractional</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_per_employee_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_ttm_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>frequency_recent</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>frequency_upcoming</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -6183,6 +7348,11 @@
       <td>fund_flows.YTD</td>
       <td></td>
       <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>fundamental_currency_code</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>
@@ -6269,14 +7439,79 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>goodwill_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>gross_margin_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_margin_percent_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_margin_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>gross_profit_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>gross_profit_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>gross_profit_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>gross_profit_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>gross_profit_ttm_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>holdings_region</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>holds_derivatives_flag</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>index_priority</td>
       <td></td>
       <td>number</td>
     </tr>
     <tr>
+      <td>index_provider</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>indexes</td>
       <td></td>
       <td>interface</td>
+    </tr>
+    <tr>
+      <td>indicated_annual_dividend</td>
+      <td></td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>
@@ -6300,6 +7535,31 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>interst_cover_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>interst_cover_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>invent_turnover_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>invent_turnover_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>inverse_flag</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>is_blacklisted</td>
       <td></td>
       <td>bool</td>
@@ -6308,6 +7568,21 @@
       <td>is_shariah_compliant</td>
       <td></td>
       <td>bool</td>
+    </tr>
+    <tr>
+      <td>issuance_of_stock_net_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>issuer</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>k1_form</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>
@@ -6331,9 +7606,54 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>last_report_frequency</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>launch_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>leverage</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>leverage_ratio</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>leveraged_flag</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>logoid</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>long_term_capital</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>long_term_debt_to_assets_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>long_term_debt_to_assets_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>long_term_debt_to_equity_fq</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>low_after_high_all_change</td>
@@ -6366,9 +7686,19 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>most_recent_quarter_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
       <td>name</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>nav</td>
+      <td></td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>nav_discount_premium</td>
@@ -6441,6 +7771,131 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>net_debt_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_debt_to_ebitda_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>net_debt_to_ebitda_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>net_income_bef_disc_oper_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_income_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>net_income_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_income_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>net_income_per_employee_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_income_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_income_ttm_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>net_margin</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>net_margin_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>net_margin_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>next_dividend_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>niche</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>non_gaap_price_to_earnings_per_share_forecast_next_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>number_of_employees_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>number_of_shareholders_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>oper_income_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>oper_income_per_employee_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>oper_income_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>operating_margin_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>operating_margin_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>payment_date_recent</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>payment_date_upcoming</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>post_change</summary>
@@ -6460,6 +7915,11 @@
       </td>
       <td></td>
       <td>percent</td>
+    </tr>
+    <tr>
+      <td>postmarket_time</td>
+      <td></td>
+      <td>time</td>
     </tr>
     <tr>
       <td>
@@ -6504,6 +7964,21 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>pre_tax_margin_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>preferred_dividends</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>premarket_time</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
       <td>price_52_week_high_date</td>
       <td></td>
       <td>time</td>
@@ -6514,6 +7989,101 @@
       <td>time</td>
     </tr>
     <tr>
+      <td>price_annual_book</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_annual_sales</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_book_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_cash_flow_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_earnings_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_earnings_forward_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_earnings_growth_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_free_cash_flow_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_sales</td>
+      <td></td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>price_sales_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_target_1y</td>
+      <td></td>
+      <td>price</td>
+    </tr>
+    <tr>
+      <td>price_target_1y_delta</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>price_target_average</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_target_high</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_target_low</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_target_median</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_to_cash_f_operating_activities_ttm</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_to_cash_ratio</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>price_to_working_capital_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>pricescale</td>
       <td></td>
       <td>number</td>
@@ -6522,6 +8092,16 @@
       <td>provider-id</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>quick_ratio_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>quick_ratio_fq</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>rates_cf</td>
@@ -6589,9 +8169,184 @@
       <td>map</td>
     </tr>
     <tr>
+      <td>receivables_turnover_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>receivables_turnover_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>recommendation_buy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>recommendation_hold</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>recommendation_mark</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>recommendation_over</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>recommendation_sell</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>recommendation_total</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>recommendation_under</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>relative_volume</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>relative_volume_intraday|5</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>research_and_dev_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>research_and_dev_per_employee_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>research_and_dev_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>return_of_invested_capital_percent_ttm</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_assets_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_assets_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_capital_employed_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_capital_employed_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_equity_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_equity_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_invested_capital_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_invested_capital_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_tang_assets_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_tang_assets_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_tang_equity_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_tang_equity_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_total_capital_fq</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>return_on_total_capital_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>revenue_forecast_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>revenue_forecast_next_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>revenue_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>revenue_per_share_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>revenue_per_share_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>revenue_surprise_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>revenue_surprise_percent_fq</td>
+      <td></td>
+      <td>percent</td>
     </tr>
     <tr>
       <td>rtc</td>
@@ -6599,7 +8354,47 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>selection_criteria</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>sell_gen_admin_exp_other_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>sell_gen_admin_exp_other_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>shrhldrs_equity_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>shrhldrs_equity_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>shrhldrs_equity_to_total_assets_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>shrhldrs_equity_to_total_assets_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>source-logoid</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>strategy</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -6635,9 +8430,174 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>top_revenue_country_code</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>total_assets_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_assets_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>total_assets_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_assets_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>total_assets_per_employee_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_assets_to_equity_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_assets_to_equity_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_capital</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_cash_dividends_paid_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_current_assets_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_current_liabilities_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_current_liabilities_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_debt_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_debt_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>total_debt_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_debt_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>total_debt_per_employee_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_debt_to_capital_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_debt_to_capital_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_debt_to_ebitda_fq</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_debt_to_ebitda_fy</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_equity_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_revenue_5y_growth_fy</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>total_revenue_fq_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>total_revenue_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_revenue_fy_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>total_revenue_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>total_revenue_ttm_h</td>
+      <td></td>
+      <td>num_slice</td>
+    </tr>
+    <tr>
+      <td>total_shares_outstanding_calculated</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>total_shares_outstanding_current</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>transparent_holding_flag</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
+    </tr>
+    <tr>
+      <td>ucits_compliant_flag</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>update-time</td>
@@ -6712,20 +8672,55 @@
       <td></td>
       <td>number</td>
     </tr>
+    <tr>
+      <td>weight_top_10</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>weight_top_25</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>weight_top_50</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>weighting_scheme</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>working_capital_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>yield_recent</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>yield_upcoming</td>
+      <td></td>
+      <td>number</td>
+    </tr>
     </tbody>
     <tfoot>
     <tr>
       <th scope="row">Fields</th>
-      <td>2939</td>
+      <td>3338</td>
     </tr>
     <tr>
       <th scope="row">Deduplicated fields</th>
-      <td>428</td>
+      <td>827</td>
     </tr>
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2024-11-02 07:04:55</mark>
+    <mark>Last updated: 2024-11-02 07:04:58</mark>
   </div>
 </main>
 <script>

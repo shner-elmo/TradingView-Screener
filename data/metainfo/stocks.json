@@ -14688,14 +14688,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21913,6 +21913,7 @@
             "TimePolio",
             "Timefolio",
             "Timothy",
+            "Tinkoff",
             "Toews",
             "Tortoise",
             "Touchstone",
@@ -22705,10 +22706,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25272,6 +25271,7 @@
             "Swan Global Holdings (US) LLC",
             "Sygnia Ltd.",
             "Syntax LLC",
+            "T-Bank",
             "T. Rowe Price Group, Inc.",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",

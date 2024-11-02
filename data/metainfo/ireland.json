@@ -3,7 +3,7 @@
         "n": "type",
         "t": "text",
         "r": [
-            "forex"
+            "stock"
         ]
     },
     {
@@ -14,6 +14,11 @@
     {
         "n": "active_symbol",
         "t": "bool",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_basic_ttm",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -31,6 +36,16 @@
         "rd": true
     },
     {
+        "n": "market_cap_basic",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "number_of_employees",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "close",
         "t": "price",
         "r": null,
@@ -38,12 +53,27 @@
         "rd": true
     },
     {
+        "n": "price_earnings_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "sector",
         "t": "text",
         "r": [
-            "Exotic",
-            "Major",
-            "Minor"
+            "Commercial Services",
+            "Consumer Durables",
+            "Consumer Non-Durables",
+            "Consumer Services",
+            "Distribution Services",
+            "Finance",
+            "Health Technology",
+            "Industrial Services",
+            "Non-Energy Minerals",
+            "Process Industries",
+            "Producer Manufacturing",
+            "Technology Services",
+            "Transportation"
         ]
     },
     {
@@ -80,6 +110,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "beta_1_year",
+        "t": "number",
+        "r": null
     },
     {
         "n": "High.3M",
@@ -234,6 +269,11 @@
         "rd": true
     },
     {
+        "n": "basic_eps_net_income",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "BB.lower",
         "t": "number",
         "r": null,
@@ -253,6 +293,26 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "cash_n_short_term_invest_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_n_equivalents_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_n_equivalents_fq",
+        "t": "fundamental_price",
+        "r": null
     },
     {
         "n": "ChaikinMoneyFlow",
@@ -286,13 +346,45 @@
         "n": "country",
         "t": "text",
         "r": [
-            "Africa",
-            "Americas",
-            "Asia",
-            "Europe",
-            "Middle East",
-            "Pacific"
+            "Ireland",
+            "Netherlands",
+            "United Kingdom"
         ]
+    },
+    {
+        "n": "current_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "debt_to_equity",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "dividends_paid",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dps_common_stock_prim_issue_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "dps_common_stock_prim_issue_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dividends_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dividend_yield_recent",
+        "t": "number",
+        "r": null
     },
     {
         "n": "DonchCh20.Lower",
@@ -309,41 +401,85 @@
         "rd": true
     },
     {
+        "n": "ebitda_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "ebitda_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "ebitda_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "ebitda",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_yoy_growth_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "last_annual_eps",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_yoy_growth_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_forecast_next_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "exchange",
         "t": "text",
         "r": [
-            "ACTIVTRADES",
-            "AFTERPRIME",
-            "BLACKBULL",
-            "CAPITALCOM",
-            "CITYINDEX",
-            "EASYMARKETS",
-            "EIGHTCAP",
-            "FOREXCOM",
-            "FPMARKETS",
-            "FUSIONMARKETS",
-            "FX",
-            "FXOPEN",
-            "FX_IDC",
-            "GBEBROKERS",
-            "IBKR",
-            "IBROKER",
-            "ICMARKETS",
-            "IG",
-            "JFX",
-            "OANDA",
-            "PEPPERSTONE",
-            "PHILLIPNOVA",
-            "RUS",
-            "SAXO",
-            "SKILLING",
-            "SPREADEX",
-            "THINKMARKETS",
-            "TRADENATION",
-            "TRADENATIONSB",
-            "VANTAGE",
-            "VELOCITY",
-            "WHSELFINVEST"
+            "EURONEXT"
         ]
     },
     {
@@ -396,11 +532,86 @@
         "rd": true
     },
     {
+        "n": "free_cash_flow_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_yoy_growth_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "gap",
         "t": "percent",
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "goodwill",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_margin",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_yoy_growth_ttm",
+        "t": "percent",
+        "r": null
     },
     {
         "n": "high",
@@ -445,6 +656,34 @@
         "rd": true
     },
     {
+        "n": "industry",
+        "t": "text",
+        "r": [
+            "Agricultural Commodities/Milling",
+            "Airlines",
+            "Biotechnology",
+            "Building Products",
+            "Engineering & Construction",
+            "Financial Conglomerates",
+            "Food: Meat/Fish/Dairy",
+            "Food: Specialty/Candy",
+            "Homebuilding",
+            "Hotels/Resorts/Cruise lines",
+            "Investment Banks/Brokers",
+            "Major Banks",
+            "Marine Shipping",
+            "Medical Distributors",
+            "Miscellaneous Commercial Services",
+            "Other Metals/Minerals",
+            "Packaged Software",
+            "Pharmaceuticals: Major",
+            "Precious Metals",
+            "Property/Casualty Insurance",
+            "Real Estate Investment Trusts",
+            "Trucks/Construction/Farm Machinery"
+        ]
+    },
+    {
         "n": "KltChnl.lower",
         "t": "number",
         "r": null,
@@ -457,6 +696,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "last_annual_revenue",
+        "t": "fundamental_price",
+        "r": null
     },
     {
         "n": "low",
@@ -515,11 +759,66 @@
         "rd": true
     },
     {
+        "n": "net_debt",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "net_income",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "net_income_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "net_income_yoy_growth_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "net_income_bef_disc_oper_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "after_tax_margin",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "number_of_shareholders",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "open",
         "t": "price",
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "oper_income_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "operating_margin",
+        "t": "percent",
+        "r": null
     },
     {
         "n": "Recommend.Other",
@@ -774,6 +1073,31 @@
         "rd": true
     },
     {
+        "n": "postmarket_close",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "postmarket_high",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "postmarket_low",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "postmarket_open",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "postmarket_volume",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "premarket_change",
         "t": "percent",
         "r": null,
@@ -802,6 +1126,11 @@
         "rd": true
     },
     {
+        "n": "premarket_close",
+        "t": "price",
+        "r": null
+    },
+    {
         "n": "premarket_gap",
         "t": "percent",
         "r": null,
@@ -809,11 +1138,71 @@
         "rd": true
     },
     {
+        "n": "premarket_high",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "premarket_low",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "premarket_open",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "premarket_volume",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "pre_tax_margin",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "price_book_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_book_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_free_cash_flow_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_revenue_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "quick_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "ROC",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "earnings_release_date",
+        "t": "time",
+        "r": null
     },
     {
         "n": "RSI7",
@@ -835,6 +1224,71 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "research_and_dev_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_ratio_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_assets",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_equity",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_invested_capital",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_revenue_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "revenue_per_employee",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_revenue_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_revenue_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_revenue_yoy_growth_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_other_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_other_ratio_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "float_shares_outstanding",
+        "t": "number",
+        "r": null
     },
     {
         "n": "SMA5",
@@ -921,11 +1375,81 @@
         ]
     },
     {
+        "n": "total_assets_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_assets",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_assets_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_assets_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_current_assets",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_debt",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_debt_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_liabilities_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_liabilities_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_revenue",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_shares_outstanding_fundamental",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "UO",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "earnings_release_next_date",
+        "t": "time",
+        "r": null
     },
     {
         "n": "Volatility.D",
@@ -994,191 +1518,17 @@
         "n": "currency",
         "t": "text",
         "r": [
-            "AED",
-            "AFN",
-            "ALL",
-            "AMD",
-            "ANG",
-            "AOA",
-            "ARS",
-            "ATS",
-            "AUD",
-            "AWG",
-            "AZN",
-            "BAM",
-            "BBD",
-            "BDT",
-            "BEF",
-            "BGN",
-            "BHD",
-            "BIF",
-            "BMD",
-            "BND",
-            "BOB",
-            "BRL",
-            "BSD",
-            "BTN",
-            "BWP",
-            "BYN",
-            "BZD",
-            "CAD",
-            "CDF",
-            "CHF",
-            "CLF",
-            "CLP",
-            "CNH",
-            "CNY",
-            "COP",
-            "COU",
-            "CRC",
-            "CUP",
-            "CVE",
-            "CZK",
-            "DEM",
-            "DJF",
-            "DKK",
-            "DOP",
-            "DZD",
-            "EGP",
-            "ERN",
-            "ESP",
-            "ETB",
-            "EUR",
-            "FIM",
-            "FJD",
-            "FKP",
-            "FRF",
-            "GBP",
-            "GBX",
-            "GEL",
-            "GHS",
-            "GIP",
-            "GMD",
-            "GNF",
-            "GRD",
-            "GTQ",
-            "GYD",
-            "HKD",
-            "HNL",
-            "HTG",
-            "HUF",
-            "IDR",
-            "ILA",
-            "ILS",
-            "INR",
-            "IQD",
-            "IRR",
-            "ISK",
-            "ITL",
-            "JMD",
-            "JOD",
-            "JPY",
-            "KES",
-            "KGS",
-            "KHR",
-            "KMF",
-            "KPW",
-            "KRW",
-            "KWD",
-            "KWF",
-            "KYD",
-            "KZT",
-            "LAK",
-            "LBP",
-            "LKR",
-            "LRD",
-            "LSL",
-            "LUF",
-            "LYD",
-            "MAD",
-            "MDL",
-            "MGA",
-            "MKD",
-            "MMK",
-            "MNT",
-            "MOP",
-            "MRU",
-            "MUR",
-            "MVR",
-            "MWK",
-            "MXN",
-            "MXV",
-            "MYR",
-            "MZN",
-            "NAD",
-            "NGN",
-            "NIO",
-            "NLG",
-            "NOK",
-            "NPR",
-            "NZD",
-            "OMR",
-            "PAB",
-            "PEN",
-            "PGK",
-            "PHP",
-            "PKR",
-            "PLN",
-            "PTE",
-            "PYG",
-            "QAR",
-            "RON",
-            "RSD",
-            "RUB",
-            "RWF",
-            "SAR",
-            "SBD",
-            "SCR",
-            "SDG",
-            "SEK",
-            "SGD",
-            "SHP",
-            "SIT",
-            "SLL",
-            "SOS",
-            "SRD",
-            "STN",
-            "SVC",
-            "SYP",
-            "SZL",
-            "THB",
-            "TJS",
-            "TMT",
-            "TND",
-            "TOP",
-            "TRY",
-            "TTD",
-            "TWD",
-            "TZS",
-            "UAH",
-            "UGX",
-            "USD",
-            "UYU",
-            "UZS",
-            "VES",
-            "VND",
-            "VUV",
-            "WCU",
-            "WST",
-            "XAF",
-            "XCD",
-            "XDR",
-            "XOF",
-            "XPF",
-            "YER",
-            "ZAC",
-            "ZAR",
-            "ZMW"
+            "EUR"
         ]
     },
     {
-        "n": "ask",
-        "t": "price",
+        "n": "total_shares_outstanding",
+        "t": "number",
         "r": null
     },
     {
-        "n": "bid",
-        "t": "price",
+        "n": "market_cap_calc",
+        "t": "number",
         "r": null
     },
     {
@@ -12130,14 +12480,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18255,6 +18605,11 @@
         "rd": true
     },
     {
+        "n": "actively_managed",
+        "t": "text",
+        "r": []
+    },
+    {
         "n": "all_time_high",
         "t": "price",
         "r": null
@@ -18277,6 +18632,36 @@
     {
         "n": "all_time_open",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "amount_recent",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "amount_upcoming",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "asset_class",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "asset_turnover_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "asset_turnover_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "aum",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -18320,6 +18705,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "average_volume",
+        "t": "number",
+        "r": null
     },
     {
         "n": "average_volume_10d_calc|1",
@@ -18646,11 +19036,152 @@
     {
         "n": "base_currency_kind",
         "t": "text",
-        "r": [
-            "fiat",
-            "forex",
-            "metal"
-        ]
+        "r": []
+    },
+    {
+        "n": "beta_3_year",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "beta_5_year",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "book_value_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_value_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "brand",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "buyback_yield",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cagr_5_earnings_per_share_basic",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "cagr_5_free_cash_flow",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "cagr_5_net_income",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "cagr_5_revenue",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_qoq_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_unchanged_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_unchanged_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_unchanged_ttm_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_yoy_growth_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_yoy_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_yoy_growth_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "cash_dividend_coverage_ratio_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_dividend_coverage_ratio_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_f_financing_activities_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_investing_activities_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_operating_activities_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_current_liabilities_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_current_liabilities_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_debt_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_debt_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "category",
+        "t": "text",
+        "r": []
     },
     {
         "n": "change|1",
@@ -18968,22 +19499,22 @@
         "rd": true
     },
     {
-        "n": "country2",
-        "t": "text",
-        "r": [
-            "Africa",
-            "Americas",
-            "Asia",
-            "Europe",
-            "Middle East",
-            "Pacific"
-        ]
+        "n": "continuous_dividend_growth",
+        "t": "number",
+        "r": null
     },
     {
-        "n": "country_code",
+        "n": "continuous_dividend_payout",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "country_code_fund",
         "t": "text",
         "r": [
-            "RU"
+            "GB",
+            "IE",
+            "NL"
         ]
     },
     {
@@ -19002,199 +19533,38 @@
         "r": []
     },
     {
+        "n": "currency_hedged_flag",
+        "t": "text",
+        "r": []
+    },
+    {
         "n": "currency_id",
         "t": "text",
         "r": [
-            "AED",
-            "AFN",
-            "ALL",
-            "AMD",
-            "ANG",
-            "AOA",
-            "ARS",
-            "AUD",
-            "AWG",
-            "AZN",
-            "BAM",
-            "BBD",
-            "BDT",
-            "BGN",
-            "BHD",
-            "BIF",
-            "BMD",
-            "BND",
-            "BOB",
-            "BRL",
-            "BSD",
-            "BTN",
-            "BWP",
-            "BYN",
-            "BZD",
-            "CAD",
-            "CDF",
-            "CHF",
-            "CLF",
-            "CLP",
-            "CNY",
-            "COP",
-            "CRC",
-            "CUP",
-            "CVE",
-            "CZK",
-            "DJF",
-            "DKK",
-            "DOP",
-            "DZD",
-            "EGP",
-            "ERN",
-            "ETB",
-            "EUR",
-            "FJD",
-            "FKP",
-            "GBP",
-            "GEL",
-            "GHS",
-            "GIP",
-            "GMD",
-            "GNF",
-            "GTQ",
-            "GYD",
-            "HKD",
-            "HNL",
-            "HTG",
-            "HUF",
-            "IDR",
-            "ILS",
-            "INR",
-            "IQD",
-            "IRR",
-            "ISK",
-            "JMD",
-            "JOD",
-            "JPY",
-            "KES",
-            "KGS",
-            "KHR",
-            "KMF",
-            "KPW",
-            "KRW",
-            "KWD",
-            "KYD",
-            "KZT",
-            "LAK",
-            "LBP",
-            "LKR",
-            "LRD",
-            "LSL",
-            "LYD",
-            "MAD",
-            "MDL",
-            "MGA",
-            "MKD",
-            "MMK",
-            "MNT",
-            "MOP",
-            "MRU",
-            "MUR",
-            "MVR",
-            "MWK",
-            "MXN",
-            "MXV",
-            "MYR",
-            "MZN",
-            "NAD",
-            "NGN",
-            "NIO",
-            "NOK",
-            "NPR",
-            "NZD",
-            "OMR",
-            "PAB",
-            "PEN",
-            "PGK",
-            "PHP",
-            "PKR",
-            "PLN",
-            "PYG",
-            "QAR",
-            "RON",
-            "RSD",
-            "RUB",
-            "RWF",
-            "SAR",
-            "SBD",
-            "SCR",
-            "SDG",
-            "SEK",
-            "SGD",
-            "SHP",
-            "SLL",
-            "SOS",
-            "SRD",
-            "STN",
-            "SVC",
-            "SYP",
-            "SZL",
-            "THB",
-            "TJS",
-            "TMT",
-            "TND",
-            "TOP",
-            "TRY",
-            "TTD",
-            "TWD",
-            "TZS",
-            "UAH",
-            "UGX",
-            "USD",
-            "UYU",
-            "UZS",
-            "VES",
-            "VND",
-            "VUV",
-            "WST",
-            "XAF",
-            "XCD",
-            "XDR",
-            "XOF",
-            "XPF",
-            "XTVATS",
-            "XTVBEF",
-            "XTVCNH",
-            "XTVCOU",
-            "XTVDEM",
-            "XTVESP",
-            "XTVFIM",
-            "XTVFRF",
-            "XTVGBX",
-            "XTVGRD",
-            "XTVILA",
-            "XTVITL",
-            "XTVKWF",
-            "XTVLUF",
-            "XTVNLG",
-            "XTVPTE",
-            "XTVSIT",
-            "XTVWCU",
-            "XTVZAC",
-            "YER",
-            "ZAR",
-            "ZMW"
+            "EUR"
         ]
     },
     {
         "n": "currency_kind",
         "t": "text",
         "r": [
-            "fiat",
-            "forex"
+            "fiat"
         ]
+    },
+    {
+        "n": "current_ratio_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "current_ratio_fq",
+        "t": "number",
+        "r": null
     },
     {
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
             "out_of_session"
         ]
     },
@@ -19204,8 +19574,368 @@
         "r": null
     },
     {
+        "n": "debt_to_asset_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "debt_to_asset_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "debt_to_assets",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "debt_to_equity_fq",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "description",
         "t": "text",
+        "r": null
+    },
+    {
+        "n": "diluted_shares_outstanding_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dividend_amount_recent",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dividend_amount_upcoming",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dividend_ex_date_recent",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "dividend_ex_date_upcoming",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "dividend_frequency_recent",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "dividend_frequency_upcoming",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "dividend_payment_date_recent",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "dividend_payment_date_upcoming",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "dividend_payout_ratio_percent_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "dividend_payout_ratio_percent_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "dividend_payout_ratio_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "dividend_treatment",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "dividend_yield_upcoming",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "dividends_frequency",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "dividends_yield",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "dividends_yield_current",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "dividends_yield_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "dividends_yield_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "dps_common_stock_prim_issue_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dps_common_stock_prim_issue_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_basic_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_basic_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_5y_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_ttm_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_forecast_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_forecast_next_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_publication_type_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "earnings_publication_type_next_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "earnings_release_calendar_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "earnings_release_next_calendar_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "earnings_release_next_time",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "earnings_release_next_trading_date_fq",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "earnings_release_next_trading_date_fy",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "earnings_release_time",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "earnings_release_trading_date_fq",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "earnings_release_trading_date_fy",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "ebit_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "ebitda_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "ebitda_interst_cover_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ebitda_interst_cover_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ebitda_less_capex_interst_cover_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ebitda_less_capex_interst_cover_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ebitda_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_ttm_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_to_ebit_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_to_free_cash_flow_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_to_gross_profit_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_to_revenue_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "eps_diluted_growth_percent_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "eps_diluted_growth_percent_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "eps_surprise_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "eps_surprise_percent_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "etf_fund_currency",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "ex_dividend_date_recent",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "ex_dividend_date_upcoming",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "expected_annual_dividends",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "expense_ratio",
+        "t": "number",
         "r": null
     },
     {
@@ -19221,19 +19951,44 @@
         "rd": true
     },
     {
-        "n": "forex_exotic_priority",
+        "n": "fiscal_period_end_fh",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "fiscal_period_end_fq",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "fiscal_period_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "fixed_assets_turnover_fq",
         "t": "number",
         "r": null
     },
     {
-        "n": "forex_minor_priority",
+        "n": "fixed_assets_turnover_fy",
         "t": "number",
         "r": null
     },
     {
-        "n": "forex_priority",
+        "n": "float_shares_outstanding_current",
         "t": "number",
         "r": null
+    },
+    {
+        "n": "float_shares_percent_current",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "focus",
+        "t": "text",
+        "r": []
     },
     {
         "n": "fractional",
@@ -19241,6 +19996,56 @@
         "r": [
             "false"
         ]
+    },
+    {
+        "n": "free_cash_flow",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_ttm_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "frequency_recent",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "frequency_upcoming",
+        "t": "text",
+        "r": []
     },
     {
         "n": "fund_flows.1M",
@@ -19283,6 +20088,13 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "fundamental_currency_code",
+        "t": "text",
+        "r": [
+            "EUR"
+        ]
     },
     {
         "n": "gap|1",
@@ -19628,6 +20440,51 @@
         "rd": true
     },
     {
+        "n": "goodwill_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_margin_percent_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "gross_profit_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "gross_profit_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_ttm_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
         "n": "high|1",
         "t": "price",
         "r": null,
@@ -19691,13 +20548,33 @@
         "rd": true
     },
     {
+        "n": "holdings_region",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "holds_derivatives_flag",
+        "t": "text",
+        "r": []
+    },
+    {
         "n": "index_priority",
         "t": "number",
         "r": null
     },
     {
+        "n": "index_provider",
+        "t": "text",
+        "r": []
+    },
+    {
         "n": "indexes",
         "t": "interface",
+        "r": null
+    },
+    {
+        "n": "indicated_annual_dividend",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -19771,6 +20648,31 @@
         "rd": true
     },
     {
+        "n": "interst_cover_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "interst_cover_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "invent_turnover_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "invent_turnover_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "inverse_flag",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "is_blacklisted",
         "t": "bool",
         "r": null
@@ -19779,6 +20681,21 @@
         "n": "is_shariah_compliant",
         "t": "bool",
         "r": null
+    },
+    {
+        "n": "issuance_of_stock_net_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "issuer",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "k1_form",
+        "t": "text",
+        "r": []
     },
     {
         "n": "last_bar_update_time",
@@ -19851,8 +20768,53 @@
         "rd": true
     },
     {
+        "n": "last_report_frequency",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "launch_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "leverage",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "leverage_ratio",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "leveraged_flag",
+        "t": "text",
+        "r": []
+    },
+    {
         "n": "logoid",
         "t": "text",
+        "r": null
+    },
+    {
+        "n": "long_term_capital",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "long_term_debt_to_assets_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "long_term_debt_to_assets_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "long_term_debt_to_equity_fq",
+        "t": "number",
         "r": null
     },
     {
@@ -19932,7 +20894,7 @@
         "n": "market",
         "t": "text",
         "r": [
-            "forex"
+            "ireland"
         ]
     },
     {
@@ -19951,8 +20913,18 @@
         "r": null
     },
     {
+        "n": "most_recent_quarter_date",
+        "t": "time",
+        "r": null
+    },
+    {
         "n": "name",
         "t": "text",
+        "r": null
+    },
+    {
+        "n": "nav",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -20054,6 +21026,96 @@
         "rd": true
     },
     {
+        "n": "net_debt_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_debt_to_ebitda_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "net_debt_to_ebitda_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "net_income_bef_disc_oper_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "net_income_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "net_income_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_ttm_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "net_margin",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "net_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "net_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "next_dividend_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "niche",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "non_gaap_price_to_earnings_per_share_forecast_next_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "number_of_employees_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "number_of_shareholders_fy",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "open|1",
         "t": "price",
         "r": null,
@@ -20115,6 +21177,41 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "oper_income_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "oper_income_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "oper_income_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "operating_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "operating_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "payment_date_recent",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "payment_date_upcoming",
+        "t": "time",
+        "r": null
     },
     {
         "n": "post_change",
@@ -20185,6 +21282,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "postmarket_time",
+        "t": "time",
+        "r": null
     },
     {
         "n": "pre_change",
@@ -20327,6 +21429,21 @@
         "rd": true
     },
     {
+        "n": "pre_tax_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "preferred_dividends",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "premarket_time",
+        "t": "time",
+        "r": null
+    },
+    {
         "n": "price_52_week_high_date",
         "t": "time",
         "r": null,
@@ -20341,6 +21458,101 @@
         "rd": true
     },
     {
+        "n": "price_annual_book",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_annual_sales",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_book_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_cash_flow_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_forward_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_growth_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_free_cash_flow_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "price_sales_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_target_1y",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "price_target_1y_delta",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "price_target_average",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_target_high",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_target_low",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_target_median",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_to_cash_f_operating_activities_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_to_cash_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_to_working_capital_fq",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "pricescale",
         "t": "number",
         "r": null
@@ -20349,39 +21561,18 @@
         "n": "provider-id",
         "t": "text",
         "r": [
-            "activtrades",
-            "afterprime",
-            "alor",
-            "blackbullmarkets",
-            "capitalcom",
-            "cityindex",
-            "easymarkets",
-            "eightcap",
-            "fpmarkets",
-            "fusionmarkets",
-            "fxcm",
-            "fxopen",
-            "gain",
-            "gbebrokers",
-            "ibkr",
-            "ibroker",
-            "ice",
-            "icmarkets",
-            "ig",
-            "jfx",
-            "oanda",
-            "pepperstone",
-            "phillipnova",
-            "saxobank",
-            "skilling",
-            "spreadex",
-            "thinkmarkets",
-            "tradenation",
-            "tvc",
-            "vantagefx",
-            "velocitytrade",
-            "whselfinvest"
+            "ice"
         ]
+    },
+    {
+        "n": "quick_ratio_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "quick_ratio_fq",
+        "t": "number",
+        "r": null
     },
     {
         "n": "rates_cf",
@@ -20446,6 +21637,56 @@
     {
         "n": "rates_ttm",
         "t": "map",
+        "r": null
+    },
+    {
+        "n": "receivables_turnover_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "receivables_turnover_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "recommendation_buy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "recommendation_hold",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "recommendation_mark",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "recommendation_over",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "recommendation_sell",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "recommendation_total",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "recommendation_under",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "relative_volume",
+        "t": "number",
         "r": null
     },
     {
@@ -20519,55 +21760,185 @@
         "rd": true
     },
     {
+        "n": "research_and_dev_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "return_of_invested_capital_percent_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_assets_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_assets_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_capital_employed_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_capital_employed_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_equity_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_equity_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_invested_capital_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_invested_capital_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_tang_assets_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_tang_assets_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_tang_equity_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_tang_equity_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_total_capital_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_total_capital_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "revenue_forecast_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_forecast_next_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_per_share_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_surprise_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_surprise_percent_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "rtc",
         "t": "price",
         "r": null
     },
     {
+        "n": "selection_criteria",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "sell_gen_admin_exp_other_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_other_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_to_total_assets_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_to_total_assets_fy",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "source-logoid",
         "t": "text",
-        "r": [
-            "provider/activtrades",
-            "provider/afterprime",
-            "provider/blackbullmarkets",
-            "provider/capitalcom",
-            "provider/cityindex",
-            "provider/easymarkets",
-            "provider/eightcap",
-            "provider/fpmarkets",
-            "provider/fusionmarkets",
-            "provider/fxcm",
-            "provider/fxopen",
-            "provider/gain",
-            "provider/gbebrokers",
-            "provider/ibkr",
-            "provider/ibroker",
-            "provider/ice",
-            "provider/icmarkets",
-            "provider/ig",
-            "provider/jfx",
-            "provider/oanda",
-            "provider/pepperstone",
-            "provider/phillipnova",
-            "provider/saxobank",
-            "provider/skilling",
-            "provider/spreadex",
-            "provider/thinkmarkets",
-            "provider/tradenation",
-            "provider/vantagefx",
-            "provider/velocitytrade",
-            "provider/whselfinvest",
-            "source/RUS"
-        ]
+        "r": []
+    },
+    {
+        "n": "strategy",
+        "t": "text",
+        "r": []
     },
     {
         "n": "subtype",
         "t": "text",
         "r": [
-            "",
-            "cfd",
-            "spreadbet",
-            "synthetic"
+            "common"
         ]
     },
     {
@@ -20648,14 +22019,182 @@
         "rd": true
     },
     {
+        "n": "top_revenue_country_code",
+        "t": "text",
+        "r": [
+            "CN",
+            "GB",
+            "IE",
+            "IT",
+            "US"
+        ]
+    },
+    {
+        "n": "total_assets_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_assets_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "total_assets_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_assets_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "total_assets_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_assets_to_equity_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_assets_to_equity_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_capital",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_cash_dividends_paid_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_current_assets_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_current_liabilities_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_current_liabilities_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "total_debt_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "total_debt_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_to_capital_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_debt_to_capital_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_debt_to_ebitda_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_debt_to_ebitda_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_equity_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_revenue_5y_growth_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_revenue_fq_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "total_revenue_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_revenue_fy_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "total_revenue_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_revenue_ttm_h",
+        "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "total_shares_outstanding_calculated",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_shares_outstanding_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "transparent_holding_flag",
+        "t": "text",
+        "r": []
+    },
+    {
         "n": "typespecs",
         "t": "set",
         "r": [
-            "",
-            "cfd",
-            "spreadbet",
-            "synthetic"
+            "common"
         ]
+    },
+    {
+        "n": "ucits_compliant_flag",
+        "t": "text",
+        "r": []
     },
     {
         "n": "update-time",
@@ -20939,5 +22478,40 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "weight_top_10",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "weight_top_25",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "weight_top_50",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "weighting_scheme",
+        "t": "text",
+        "r": []
+    },
+    {
+        "n": "working_capital_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "yield_recent",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "yield_upcoming",
+        "t": "number",
+        "r": null
     }
 ]
