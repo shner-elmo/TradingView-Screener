@@ -2469,8 +2469,10 @@
             "JSE",
             "KRX",
             "KSE",
+            "LS",
             "LSE",
             "LSIN",
+            "LSX",
             "LUXSE",
             "MIL",
             "MUN",
@@ -14674,13 +14676,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14688,7 +14683,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14696,6 +14691,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14716,14 +14718,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -25629,6 +25631,7 @@
             "iceland",
             "india",
             "indonesia",
+            "ireland",
             "israel",
             "italy",
             "japan",
@@ -26930,8 +26933,10 @@
             "source/IDX",
             "source/KRX",
             "source/KSE",
+            "source/LS",
             "source/LSE",
             "source/LSIN",
+            "source/LSX",
             "source/LUXSE",
             "source/MIL",
             "source/MUN",

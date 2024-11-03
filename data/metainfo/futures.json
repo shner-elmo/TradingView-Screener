@@ -323,6 +323,7 @@
             "GPW",
             "HKEX",
             "HNX",
+            "ICEAD",
             "ICEEUR",
             "ICESG",
             "ICEUS",
@@ -2419,7 +2420,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
             "out_of_session"
         ]
     },
