@@ -12018,14 +12018,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18949,7 +18949,6 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
-            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -18985,6 +18984,7 @@
             "Rocket Pool",
             "Shiba Inu",
             "Solana",
+            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19050,7 +19050,6 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19089,6 +19088,7 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
+            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",
@@ -19167,7 +19167,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
