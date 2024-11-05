@@ -14689,14 +14689,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14717,14 +14717,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22706,7 +22706,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24486,7 +24485,6 @@
             "EF Hutton LLC",
             "EMQQ Global LLC",
             "ETF Action, Inc.",
-            "EntrepreneurShares LLC",
             "Equbot, Inc.",
             "Etho Capital LLC",
             "EuroMTS Ltd.",
@@ -24510,7 +24508,6 @@
             "Goldman Sachs International",
             "Hang Seng Indexes Co. Ltd.",
             "Harvest Portfolios Group, Inc.",
-            "Hedge Fund Research, Inc.",
             "Howard Capital Management Group LLC",
             "Hoya Capital Real Estate LLC",
             "Humankind Investments LLC",
@@ -24948,6 +24945,7 @@
             "FMR LLC",
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
+            "Falcom Holding Co.",
             "Federated Hermes, Inc.",
             "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
