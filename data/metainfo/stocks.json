@@ -14689,14 +14689,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14717,14 +14717,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22628,7 +22628,6 @@
         "n": "currency_id",
         "t": "text",
         "r": [
-            "",
             "AED",
             "ARS",
             "AUD",
@@ -23478,7 +23477,6 @@
             "TND",
             "TRY",
             "TWD",
-            "UNK",
             "USD",
             "VES",
             "VND",
@@ -24945,7 +24943,6 @@
             "FMR LLC",
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
-            "Falcom Holding Co.",
             "Federated Hermes, Inc.",
             "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
@@ -25355,6 +25352,7 @@
             "XP, Inc.",
             "Xinghua Fund Management Co. Ltd.",
             "Y.D. More Investments Ltd.",
+            "Yaqeen Capital Co.",
             "Yingda Asset Management Co., Ltd.",
             "Yinhua Fund Management Co., Ltd.",
             "Yuanta Financial Holding Co. Ltd.",
@@ -26814,6 +26812,7 @@
             "12",
             "13",
             "14",
+            "15",
             "16",
             "17",
             "18",
