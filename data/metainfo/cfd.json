@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18934,9 +18934,10 @@
             "Cardano",
             "Celestia",
             "Chainlink",
-            "Clearpool",
             "Compound",
             "Conflux",
+            "Convex Finance",
+            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -19002,7 +19003,6 @@
             "USDC",
             "USDD",
             "Uniswap",
-            "VeChain",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
@@ -19025,6 +19025,7 @@
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
+            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
             "XTVCBNB",
@@ -19032,9 +19033,9 @@
             "XTVCCAKE",
             "XTVCCFX",
             "XTVCCOMP",
-            "XTVCCPOOL",
             "XTVCCRO",
             "XTVCCRV",
+            "XTVCCVX",
             "XTVCDAI",
             "XTVCDEXE",
             "XTVCDOGE",
@@ -19100,7 +19101,6 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDT",
-            "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
             "XTVCWIF",
@@ -19167,8 +19167,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

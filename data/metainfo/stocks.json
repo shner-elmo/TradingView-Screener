@@ -592,6 +592,14 @@
                 "name": "BEL 20"
             },
             {
+                "id": "EURONEXT:ISE20",
+                "name": "ISEQ 20 Index"
+            },
+            {
+                "id": "EURONEXT:ISEQ",
+                "name": "ISEQ All Share Index"
+            },
+            {
                 "id": "EURONEXT:OBX",
                 "name": "OBX Total Return Index"
             },
@@ -1056,6 +1064,10 @@
                 "name": "KBW NASDAQ Bank"
             },
             {
+                "id": "NASDAQ:CELS",
+                "name": "NASDAQ Clean Edge Green Energy"
+            },
+            {
                 "id": "NASDAQ:CPQ",
                 "name": "ISE CTA Cloud Computing"
             },
@@ -1088,6 +1100,10 @@
                 "name": "NASDAQ Telecommunications"
             },
             {
+                "id": "NASDAQ:KFTX",
+                "name": "KBW NASDAQ Financial Technology Index"
+            },
+            {
                 "id": "NASDAQ:NBI",
                 "name": "NASDAQ Biotechnology"
             },
@@ -1114,6 +1130,10 @@
             {
                 "id": "NASDAQ:NQUSSG",
                 "name": "Nasdaq US Small Cap Growth"
+            },
+            {
+                "id": "NASDAQ:NYMETA",
+                "name": "NASDAQ CB Insights Metaverse US Index"
             },
             {
                 "id": "NASDAQ:OFIN",
@@ -21788,6 +21808,7 @@
             "QRAFT",
             "Quadratic",
             "Quadravest",
+            "QuantaShares",
             "Quantum",
             "RAFI Indices",
             "RAM",
@@ -24104,6 +24125,8 @@
             "SYML:EGX;EGX30",
             "SYML:EURONEXT;AEX",
             "SYML:EURONEXT;BEL20",
+            "SYML:EURONEXT;ISE20",
+            "SYML:EURONEXT;ISEQ",
             "SYML:EURONEXT;OBX",
             "SYML:EURONEXT;OSEBX",
             "SYML:EURONEXT;PSI20",
@@ -24235,6 +24258,7 @@
             "SYML:MOEX;RUBMI",
             "SYML:NASDAQ;BANK",
             "SYML:NASDAQ;BKX",
+            "SYML:NASDAQ;CELS",
             "SYML:NASDAQ;CPQ",
             "SYML:NASDAQ;HGX",
             "SYML:NASDAQ;HXC",
@@ -24243,6 +24267,7 @@
             "SYML:NASDAQ;IXCO",
             "SYML:NASDAQ;IXIC",
             "SYML:NASDAQ;IXTC",
+            "SYML:NASDAQ;KFTX",
             "SYML:NASDAQ;NBI",
             "SYML:NASDAQ;NDX",
             "SYML:NASDAQ;NDXT",
@@ -24250,6 +24275,7 @@
             "SYML:NASDAQ;NQUSLG",
             "SYML:NASDAQ;NQUSMG",
             "SYML:NASDAQ;NQUSSG",
+            "SYML:NASDAQ;NYMETA",
             "SYML:NASDAQ;OFIN",
             "SYML:NASDAQ;OSX",
             "SYML:NASDAQ;SOX",
@@ -24625,6 +24651,7 @@
             "Water Island Capital LLC",
             "Wiener B\u00f6rse AG",
             "WilderShares LLC",
+            "Wilshire Advisors LLC",
             "WisdomTree Asset Management, Inc.",
             "Zacks Investment Management, Inc.",
             "Zagreb Stock Exchange, Inc.",
@@ -24806,6 +24833,7 @@
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
             "Astoria Portfolio Advisors LLC",
+            "Aviva Plc",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BNK Financial Group, Inc.",
@@ -24928,6 +24956,7 @@
             "ETP Holding Co. LLC",
             "Eagle Capital Management LLC",
             "Edelweiss Financial Services Ltd.",
+            "El Dorado Asset Management Sociedad Administradora de Fondos",
             "Empirical Finance LLC",
             "Empiricus Gestao De Recursos Ltda.",
             "Envestnet, Inc.",
@@ -25032,6 +25061,7 @@
             "Inspire Impact Group LLC",
             "Intelligent Investor Holdings Pty Ltd.",
             "Inter & Co., Inc.",
+            "Intercam Grupo Financiero SA de CV",
             "Intesa Sanpaolo SpA",
             "Inverdale Capital Management LLC",
             "Invesco Great Wall Fund Management Co. Ltd.",
@@ -27154,6 +27184,7 @@
             "GA",
             "GB",
             "GE",
+            "GG",
             "GH",
             "GI",
             "GL",
@@ -27213,6 +27244,7 @@
             "OM",
             "PA",
             "PE",
+            "PF",
             "PG",
             "PH",
             "PK",
