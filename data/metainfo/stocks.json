@@ -14737,14 +14737,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23312,6 +23312,7 @@
             "2162",
             "2165",
             "2167",
+            "2169",
             "22",
             "23",
             "24",
@@ -25249,6 +25250,7 @@
             "SAB Invest",
             "SAS Rue la Bo\u00e9tie",
             "SBI Funds Management Ltd.",
+            "SBI Holdings, Inc.",
             "SEI Investments Co.",
             "SG Hiscock & Co. Ltd.",
             "SR Partners LLC",
