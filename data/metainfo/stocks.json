@@ -2807,6 +2807,7 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
+            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -14709,14 +14710,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14737,14 +14738,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21479,7 +21480,6 @@
             "D-X Funds",
             "DB",
             "DGA",
-            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -22726,9 +22726,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23113,7 +23111,6 @@
             "KWD",
             "MXN",
             "MYR",
-            "NOK",
             "NZD",
             "PHP",
             "PLN",
@@ -24921,7 +24918,6 @@
             "Cullen Capital Management LLC",
             "Cultivar Capital, Inc.",
             "DB Financial Investment Co., Ltd.",
-            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",
             "Daintree Capital Management Pty Ltd.",
@@ -25270,6 +25266,7 @@
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
+            "Sherpa Capital SAPI de CV",
             "Shin Kong Financial Holding Co. Ltd.",
             "Shinhan Financial Group Co., Ltd.",
             "Shinhan Investment & Securities Co.",
