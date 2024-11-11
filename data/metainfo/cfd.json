@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18934,7 +18934,6 @@
             "Cardano",
             "Celestia",
             "Chainlink",
-            "Clearpool",
             "Compound",
             "Conflux",
             "Convex Finance",
@@ -18943,6 +18942,7 @@
             "Curve DAO Token",
             "Dai",
             "DeXe",
+            "DeepBook Protocol",
             "Dogecoin",
             "Ethena",
             "Ethereum",
@@ -18951,7 +18951,6 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
-            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -18976,7 +18975,6 @@
             "NEAR Protocol",
             "OKB",
             "Optimism",
-            "Orca",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
@@ -18995,6 +18993,7 @@
             "Synthetix",
             "THORChain",
             "TRON",
+            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -19004,13 +19003,15 @@
             "USDC",
             "USDD",
             "Uniswap",
+            "VeChain",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19033,11 +19034,11 @@
             "XTVCCAKE",
             "XTVCCFX",
             "XTVCCOMP",
-            "XTVCCPOOL",
             "XTVCCRO",
             "XTVCCRV",
             "XTVCCVX",
             "XTVCDAI",
+            "XTVCDEEPB",
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
@@ -19052,7 +19053,6 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19076,7 +19076,6 @@
             "XTVCOKB",
             "XTVCOM",
             "XTVCOP",
-            "XTVCORCA",
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
@@ -19096,6 +19095,7 @@
             "XTVCTAOB",
             "XTVCTIA2",
             "XTVCTON",
+            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -19103,6 +19103,7 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDT",
+            "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
             "XTVCWIF",
@@ -19110,6 +19111,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },

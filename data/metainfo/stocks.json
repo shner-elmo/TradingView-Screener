@@ -14696,13 +14696,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14710,7 +14703,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14724,7 +14717,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14738,7 +14731,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14746,6 +14739,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21559,6 +21559,7 @@
             "Fuh Hwa",
             "Fullgoal",
             "FundX",
+            "Fundstrat",
             "GF",
             "GF Fund",
             "GGM",
@@ -21905,7 +21906,6 @@
             "Summit Global Investments",
             "Swan",
             "Sygnia",
-            "Syntax",
             "T-Rex",
             "T. Rowe Price",
             "TCW",
@@ -22727,7 +22727,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25297,7 +25298,6 @@
             "Svenska Handelsbanken AB",
             "Swan Global Holdings (US) LLC",
             "Sygnia Ltd.",
-            "Syntax LLC",
             "T-Bank",
             "T. Rowe Price Group, Inc.",
             "TIAA Board of Governors",
