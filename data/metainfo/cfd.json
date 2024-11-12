@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18993,7 +18993,6 @@
             "Synthetix",
             "THORChain",
             "TRON",
-            "Tellor",
             "Tether USDt",
             "Threshold",
             "Toncoin",
@@ -19003,6 +19002,7 @@
             "USDC",
             "USDD",
             "Uniswap",
+            "VVS Finance",
             "VeChain",
             "WOO",
             "Wormhole",
@@ -19095,7 +19095,6 @@
             "XTVCTAOB",
             "XTVCTIA2",
             "XTVCTON",
-            "XTVCTRB",
             "XTVCTRIBE",
             "XTVCTRX",
             "XTVCUMA",
@@ -19104,6 +19103,7 @@
             "XTVCUSDD",
             "XTVCUSDT",
             "XTVCVET",
+            "XTVCVVS",
             "XTVCW",
             "XTVCWEETH",
             "XTVCWIF",
