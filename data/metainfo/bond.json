@@ -503,7 +503,6 @@
             "GBP",
             "INR",
             "NOK",
-            "RUB",
             "SEK",
             "USD"
         ]
@@ -549,6 +548,16 @@
         "r": null
     },
     {
+        "n": "ask_net",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ask_pct",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "bars_count",
         "t": "number",
         "r": null,
@@ -559,6 +568,21 @@
         "n": "base_currency_kind",
         "t": "text",
         "r": []
+    },
+    {
+        "n": "bid_ask_spread_pct",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "bid_net",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "bid_pct",
+        "t": "percent",
+        "r": null
     },
     {
         "n": "bond_issuer_cr_parent_stock_symbol",
@@ -3597,6 +3621,7 @@
             "SIX:ZUGN",
             "SIX:ZURN",
             "SSE:600000",
+            "SSE:600011",
             "SSE:600018",
             "SSE:600028",
             "SSE:600030",
@@ -3825,7 +3850,6 @@
             "TSX:PKI",
             "TSX:POW",
             "TSX:PPL",
-            "TSX:PRMW",
             "TSX:PRV.UN",
             "TSX:QBR.A",
             "TSX:QTRH",
@@ -3854,7 +3878,6 @@
             "TSX:TWM",
             "TSX:VBNK",
             "TSX:VET",
-            "TSX:VPH",
             "TSX:WCN",
             "TSX:WELL",
             "TSX:WJX",
@@ -3867,6 +3890,7 @@
             "TURQUOISE:JET2L",
             "TURQUOISE:VCPL",
             "TWSE:1101",
+            "TWSE:2303",
             "TWSE:2317",
             "TWSE:2330",
             "TWSE:2376",
@@ -4457,7 +4481,6 @@
             "GETTEX:S0U",
             "GETTEX:SOAN",
             "GETTEX:SY9",
-            "GETTEX:VGR",
             "GPW:KER",
             "GPW:MBK",
             "GPW:MIL",
@@ -6617,7 +6640,6 @@
             "TSX:TWM",
             "TSX:VBNK",
             "TSX:VET",
-            "TSX:VPH",
             "TSX:WCN",
             "TSX:WELL",
             "TSX:WJX",
@@ -6630,6 +6652,7 @@
             "TURQUOISE:JET2L",
             "TURQUOISE:VCPL",
             "TWSE:1101",
+            "TWSE:2303",
             "TWSE:2317",
             "TWSE:2376",
             "TWSE:2382",
@@ -7021,7 +7044,6 @@
             "PHP",
             "PKR",
             "PLN",
-            "PYG",
             "RON",
             "RUB",
             "SAR",
@@ -7035,7 +7057,6 @@
             "UVA",
             "UYU",
             "UZS",
-            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7093,7 +7114,6 @@
             "GBP",
             "INR",
             "NOK",
-            "RUB",
             "SEK",
             "USD"
         ]
@@ -7549,6 +7569,13 @@
         "n": "update_time",
         "t": "time",
         "r": null
+    },
+    {
+        "n": "value-unit-id",
+        "t": "text",
+        "r": [
+            "PCTPAR"
+        ]
     },
     {
         "n": "volume_change",

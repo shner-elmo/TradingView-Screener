@@ -219,6 +219,11 @@
         "r": []
     },
     {
+        "n": "bid_ask_spread_pct",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "country_code_fund",
         "t": "text",
         "r": []

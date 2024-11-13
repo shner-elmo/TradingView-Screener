@@ -549,6 +549,11 @@
         "r": []
     },
     {
+        "n": "bid_ask_spread_pct",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "change|1",
         "t": "percent",
         "r": null,

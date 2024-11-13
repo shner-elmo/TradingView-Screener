@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18537,6 +18537,11 @@
         "r": []
     },
     {
+        "n": "bid_ask_spread_pct",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "change|1",
         "t": "percent",
         "r": null,
@@ -18930,19 +18935,19 @@
             "BNB",
             "Bitcoin",
             "Bitcoin Cash",
+            "Bitget Token",
             "Bittensor",
+            "Bonk",
             "Cardano",
             "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
             "DeXe",
-            "DeepBook Protocol",
             "Dogecoin",
             "Ethena",
             "Ethereum",
@@ -18974,7 +18979,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Optimism",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
@@ -18989,6 +18993,7 @@
             "Stacks",
             "Stellar",
             "Sui",
+            "Sun (New)",
             "SushiSwap",
             "Synthetix",
             "THORChain",
@@ -19026,10 +19031,11 @@
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
+            "XTVCBGB",
             "XTVCBNB",
+            "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
             "XTVCCFX",
@@ -19038,7 +19044,6 @@
             "XTVCCRV",
             "XTVCCVX",
             "XTVCDAI",
-            "XTVCDEEPB",
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
@@ -19075,7 +19080,6 @@
             "XTVCNEAR",
             "XTVCOKB",
             "XTVCOM",
-            "XTVCOP",
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
@@ -19089,6 +19093,7 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
+            "XTVCSUN",
             "XTVCSUSHI",
             "XTVCSXP",
             "XTVCT",
@@ -19169,7 +19174,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

@@ -2285,6 +2285,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14696,13 +14697,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14710,7 +14704,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14724,7 +14718,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14732,6 +14726,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21529,6 +21530,7 @@
             "Expat",
             "F/m",
             "FCF Advisors",
+            "FM",
             "FMQQ",
             "FNB",
             "FPA",
@@ -21537,7 +21539,6 @@
             "FTSE",
             "Fairlead",
             "Faith Investor Services",
-            "Fat Prophets",
             "Federated Hermes",
             "Fidelity",
             "Figment",
@@ -22605,6 +22606,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "TG",
             "TH",
             "TN",
@@ -22650,6 +22652,7 @@
         "n": "currency_id",
         "t": "text",
         "r": [
+            "",
             "AED",
             "ARS",
             "AUD",
@@ -23313,6 +23316,7 @@
             "2165",
             "2167",
             "2169",
+            "2171",
             "22",
             "23",
             "24",
@@ -23499,6 +23503,7 @@
             "TND",
             "TRY",
             "TWD",
+            "UNK",
             "USD",
             "VES",
             "VND",
@@ -24458,6 +24463,7 @@
             "Acquirers Funds LLC",
             "Akros S.R.L.",
             "American Century Investment Management, Inc.",
+            "Arch Indices Investment Advisors LLC",
             "Arch Indices Services Corp.",
             "Athens Stock Exchange",
             "Auspice Capital Advisors Ltd.",
@@ -24950,7 +24956,6 @@
             "Dragon Capital Vietfund Management JSC",
             "Dynamic Shares LLC",
             "E Fund Management Co., Ltd.",
-            "EQT Holdings Ltd.",
             "ETC Holdings Ltd. (Guernsey)",
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
@@ -24969,6 +24974,7 @@
             "Exchange Traded Managers Group LLC",
             "Expat Capital AD",
             "FIL Ltd.",
+            "FMC Group Holdings LP",
             "FMR LLC",
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
@@ -25223,6 +25229,7 @@
             "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
+            "Psagot Investment House Ltd.",
             "Public Trust Advisors LLC",
             "Purpose Unlimited",
             "Q3 Asset Management Corp.",
