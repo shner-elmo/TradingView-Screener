@@ -1656,7 +1656,6 @@
             "NASDAQ:BMRN",
             "NASDAQ:BPOP",
             "NASDAQ:BRKL",
-            "NASDAQ:BRKR",
             "NASDAQ:BRY",
             "NASDAQ:BSY",
             "NASDAQ:BTDR",
@@ -1675,6 +1674,7 @@
             "NASDAQ:CCSI",
             "NASDAQ:CDLX",
             "NASDAQ:CDNS",
+            "NASDAQ:CDW",
             "NASDAQ:CEG",
             "NASDAQ:CENT",
             "NASDAQ:CENX",
@@ -3398,6 +3398,7 @@
             "OSL:ROMSB",
             "OSL:SB1NO",
             "OSL:SB68",
+            "OSL:SDNS",
             "OSL:SEAPT",
             "OSL:SHLF",
             "OSL:SKUE",
@@ -6480,7 +6481,6 @@
             "SSE:601328",
             "SSE:601398",
             "SSE:601939",
-            "SSE:601988",
             "SWB:PAG",
             "SWB:PBY",
             "SZSE:002860",
@@ -7045,6 +7045,7 @@
             "PHP",
             "PKR",
             "PLN",
+            "PYG",
             "RON",
             "RUB",
             "SAR",
@@ -7135,6 +7136,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]

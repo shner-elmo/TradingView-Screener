@@ -636,6 +636,14 @@
                 "name": "FTSE AIM All-Share"
             },
             {
+                "id": "FTSE:F4GBIVA",
+                "name": "FTSE4Good BIVA Index"
+            },
+            {
+                "id": "FTSE:FTBIVA",
+                "name": "FTSE BIVA Index"
+            },
+            {
                 "id": "FTSE:MCX",
                 "name": "FTSE 250"
             },
@@ -2198,6 +2206,7 @@
         "r": [
             "Aland Islands",
             "Americas Unallocated",
+            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -2244,7 +2253,6 @@
             "Israel",
             "Italy",
             "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -21710,6 +21718,7 @@
             "McElhenny Sheffield",
             "Meet Kevin",
             "Mega",
+            "Meitav",
             "Melanion",
             "Meridian",
             "Meritz",
@@ -22510,6 +22519,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AI",
             "AR",
             "AT",
             "AU",
@@ -22557,7 +22567,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -22733,6 +22742,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24145,6 +24155,8 @@
             "SYML:FTSE;AIM5",
             "SYML:FTSE;ASX",
             "SYML:FTSE;AXX",
+            "SYML:FTSE;F4GBIVA",
+            "SYML:FTSE;FTBIVA",
             "SYML:FTSE;MCX",
             "SYML:FTSE;NMX",
             "SYML:FTSE;TW50",
@@ -25145,6 +25157,7 @@
             "Midas Investment Management Ltd.",
             "Middlefield Group",
             "Migdal Insurance & Financial Holdings Ltd.",
+            "Migdal Mutual Funds Ltd.",
             "Miller Value Partners LLC",
             "Milliman, Inc.",
             "Minsheng Royal Fund Management Co., Ltd.",
@@ -25154,6 +25167,7 @@
             "Mitsubishi UFJ Financial Group, Inc.",
             "Montagu Private Equity LLP",
             "Montaka Global Investments LLC",
+            "More Mutual Funds Management (2013) Ltd.",
             "Morgan Stanley",
             "Morningstar, Inc.",
             "Motilal Oswal Financial Services Ltd.",
@@ -25234,6 +25248,7 @@
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Psagot Investment House Ltd.",
+            "Psagot Mutual Funds Ltd.",
             "Public Trust Advisors LLC",
             "Purpose Unlimited",
             "Q3 Asset Management Corp.",
@@ -25316,6 +25331,7 @@
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
             "Tabula Investment Management Ltd.",
+            "Tachlit Investment House Ltd.",
             "Taikang Life Insurance Co., Ltd.",
             "Taishin Financial Holdings Co., Ltd.",
             "Tapp Finance, Inc.",
@@ -25931,6 +25947,7 @@
             "1019",
             "102",
             "1020",
+            "1021",
             "1028",
             "1033",
             "1034",
