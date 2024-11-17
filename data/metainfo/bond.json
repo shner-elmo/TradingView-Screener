@@ -4484,6 +4484,7 @@
             "GETTEX:S0U",
             "GETTEX:SOAN",
             "GETTEX:SY9",
+            "GETTEX:VGR",
             "GPW:KER",
             "GPW:MBK",
             "GPW:MIL",
@@ -7013,7 +7014,6 @@
             "CNH",
             "CNY",
             "COP",
-            "CRC",
             "CZK",
             "DKK",
             "DOP",
@@ -7037,10 +7037,8 @@
             "KZT",
             "LAJ",
             "MAD",
-            "MNT",
             "MXN",
             "MXV",
-            "MYR",
             "NGN",
             "NOK",
             "NZD",
@@ -7062,6 +7060,7 @@
             "UVA",
             "UYU",
             "UZS",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7139,6 +7138,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },

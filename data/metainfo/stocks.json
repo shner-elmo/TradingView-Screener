@@ -14735,13 +14735,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14749,7 +14742,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14757,6 +14750,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22020,6 +22020,7 @@
             "Xingquan",
             "Xingyin",
             "Xtrackers",
+            "YLETF",
             "Yaqeen",
             "YieldMax",
             "Yinhua",
@@ -22746,6 +22747,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
@@ -25073,6 +25075,7 @@
             "Hwabao WP Fund Management Co., Ltd.",
             "Hypatia Capital Group LLC",
             "Hyperion Holdings Ltd.  (Australia)",
+            "I.B.I. Investment House Ltd.",
             "ICBC Credit Suisse Asset Management Co., Ltd.",
             "ICICI Prudential Asset Management Co. Ltd.",
             "IDX Advisors LLC",
@@ -25415,6 +25418,7 @@
             "Xinghua Fund Management Co. Ltd.",
             "Y.D. More Investments Ltd.",
             "Yaqeen Capital Co.",
+            "Yelin Lapidot Investment Portfolio Management Ltd.",
             "Yingda Asset Management Co., Ltd.",
             "Yinhua Fund Management Co., Ltd.",
             "Yuanta Financial Holding Co. Ltd.",
