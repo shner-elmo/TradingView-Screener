@@ -12018,14 +12018,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18938,10 +18938,10 @@
             "Bittensor",
             "Bonk",
             "Cardano",
-            "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
+            "Convex Finance",
             "Cosmos",
             "Cronos",
             "Curve DAO Token",
@@ -18965,7 +18965,6 @@
             "JITO",
             "JUST",
             "Jupiter",
-            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -19042,6 +19041,7 @@
             "XTVCCOMP",
             "XTVCCRO",
             "XTVCCRV",
+            "XTVCCVX",
             "XTVCDAI",
             "XTVCDEXE",
             "XTVCDOGE",
@@ -19068,7 +19068,6 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19098,7 +19097,6 @@
             "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
-            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRIBE",
             "XTVCTRX",
@@ -19173,8 +19171,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

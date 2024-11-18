@@ -449,7 +449,6 @@
             "Unibright",
             "Unification",
             "Uniswap",
-            "United Traders Token",
             "VIBE",
             "VIDT Datalink",
             "VITE",
@@ -1649,7 +1648,6 @@
             "PETH",
             "PGC",
             "PIN",
-            "PINGU",
             "PLN",
             "PNG",
             "POHM",
@@ -12757,13 +12755,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12771,7 +12762,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12779,6 +12770,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20066,7 +20064,6 @@
             "USDC",
             "USDT",
             "UST",
-            "UTT",
             "UXLINK",
             "VANRY",
             "VELAR",
@@ -20186,7 +20183,6 @@
             "XTVCAPOHM",
             "XTVCAPRETH",
             "XTVCAPU",
-            "XTVCAPUSD",
             "XTVCARB",
             "XTVCARENA",
             "XTVCASDIC",
@@ -20276,7 +20272,6 @@
             "XTVCGIV",
             "XTVCGNO",
             "XTVCGOGLZ",
-            "XTVCGOJ",
             "XTVCGRAIL",
             "XTVCGUSD",
             "XTVCHAI",
@@ -20355,7 +20350,6 @@
             "XTVCPGC",
             "XTVCPIAO",
             "XTVCPIN",
-            "XTVCPINGU",
             "XTVCPNG",
             "XTVCPNPC",
             "XTVCPOHM",
@@ -20442,6 +20436,7 @@
             "XTVCWBNB",
             "XTVCWBTC",
             "XTVCWCRO",
+            "XTVCWDASH",
             "XTVCWDOGE",
             "XTVCWEETH",
             "XTVCWEGLD",
