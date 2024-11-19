@@ -252,6 +252,7 @@
             "Kusama",
             "Kyber Network",
             "LTO Network",
+            "Lambda",
             "LayerZero",
             "League of Kingdoms Arena",
             "Lido DAO",
@@ -339,6 +340,7 @@
             "Portal",
             "Power Ledger",
             "PowerPool",
+            "Presearch",
             "Prom",
             "Propy",
             "Proton",
@@ -1572,6 +1574,7 @@
             "FEG",
             "FEI",
             "FET",
+            "FIS",
             "FOX",
             "FRAX",
             "FRXETH",
@@ -1700,6 +1703,7 @@
             "TSUKA",
             "TUSD",
             "TYB",
+            "TYBG",
             "UAH",
             "UAHG",
             "UNI",
@@ -12741,13 +12745,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12755,7 +12752,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12769,7 +12766,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12783,7 +12780,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12791,6 +12788,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19876,6 +19880,7 @@
             "KMNO",
             "KNC",
             "KSM",
+            "LAMB",
             "LDO",
             "LEO",
             "LINK",
@@ -19962,6 +19967,7 @@
             "POLYX",
             "PORTAL",
             "POWR",
+            "PRE",
             "PRO",
             "PROM",
             "PUSH",
@@ -20257,6 +20263,7 @@
             "XTVCFEG",
             "XTVCFEI",
             "XTVCFET",
+            "XTVCFIS",
             "XTVCFLD",
             "XTVCFOX",
             "XTVCFRAX",
@@ -20405,6 +20412,7 @@
             "XTVCTSUKA",
             "XTVCTUSD",
             "XTVCTYB",
+            "XTVCTYBG",
             "XTVCUAHG",
             "XTVCUNI",
             "XTVCUQC",
