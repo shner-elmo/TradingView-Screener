@@ -14706,14 +14706,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14748,14 +14748,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21430,6 +21430,7 @@
             "Bristol Gate",
             "Brompton",
             "Brookstone",
+            "Brown Advisory",
             "Buena",
             "Build",
             "Burney",
@@ -21999,6 +22000,7 @@
             "Virtus",
             "Vita",
             "Volatility Shares",
+            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -22746,6 +22748,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24527,11 +24530,11 @@
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
             "Credit Suisse Asset Management LLC",
+            "D. Boral Capital LLC",
             "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "ECPI SRL",
-            "EF Hutton LLC",
             "EMQQ Global LLC",
             "ETF Action, Inc.",
             "Equbot, Inc.",
@@ -24578,7 +24581,6 @@
             "Korea Exchange Co., Ltd.",
             "LPX AG",
             "Lattice Strategies LLC",
-            "Legal & General Investment Management Ltd.",
             "Leonteq Securities AG",
             "Level ETF Ventures LLC",
             "Life + Liberty Indexes",
@@ -24894,6 +24896,7 @@
             "Brandes Worldwide Holdings LP",
             "Bristol Gate Capital Partners, Inc.",
             "Brompton Corp.",
+            "Brown Advisory Management LLC",
             "Buena Vista Gestora de Recursos Ltda.",
             "Build Asset Management LLC",
             "CCB Principal Asset Management Co., Ltd.",

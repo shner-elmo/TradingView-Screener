@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18938,7 +18938,6 @@
             "Bittensor",
             "Bonk",
             "Cardano",
-            "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18960,6 +18959,7 @@
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
+            "Immutable",
             "Injective",
             "Internet Computer",
             "JITO",
@@ -19062,6 +19062,7 @@
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
+            "XTVCIMX",
             "XTVCINJ",
             "XTVCJST",
             "XTVCJTO",
@@ -19096,7 +19097,6 @@
             "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
-            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRIBE",
             "XTVCTRX",
@@ -19171,6 +19171,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
