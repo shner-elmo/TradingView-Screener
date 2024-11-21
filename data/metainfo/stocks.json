@@ -14734,13 +14734,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14748,7 +14741,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14756,6 +14749,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21385,6 +21385,7 @@
             "Asset Management One",
             "AssetPlus",
             "Astoria",
+            "Atlas",
             "Avantis",
             "Axis",
             "Axxion",
@@ -21532,6 +21533,7 @@
             "Empiricus",
             "Essential 40",
             "Euclidean",
+            "Even Herd",
             "Eventide",
             "Evolve",
             "Evovest",
@@ -21555,6 +21557,7 @@
             "FinEx ETF",
             "Finans Asset Management",
             "Fineco",
+            "Fire Funds",
             "Firetraill",
             "First Manhattan",
             "First Metro",
@@ -21623,6 +21626,7 @@
             "Hwabao",
             "Hypatia Capital",
             "Hyperion",
+            "I.B.I.",
             "ICBC",
             "ICE BofAML",
             "ICICI",
@@ -21751,7 +21755,6 @@
             "NZAM",
             "Nanhua",
             "Nanuk",
-            "Nationwide",
             "Natixis",
             "Navi",
             "Ned Davis Research",
@@ -22748,7 +22751,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24678,7 +24680,6 @@
             "Water Island Capital LLC",
             "Wiener B\u00f6rse AG",
             "WilderShares LLC",
-            "Wilshire Advisors LLC",
             "WisdomTree Asset Management, Inc.",
             "Zacks Investment Management, Inc.",
             "Zagreb Stock Exchange, Inc.",
@@ -24860,7 +24861,6 @@
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
             "Astoria Portfolio Advisors LLC",
-            "Aviva Plc",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BNK Financial Group, Inc.",
@@ -25001,7 +25001,6 @@
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -25189,7 +25188,6 @@
             "NZX Ltd.",
             "Nanuk Asset Management Pty Ltd.",
             "National Bank of Canada",
-            "Nationwide Mutual Insurance Co.",
             "Navi AMC Ltd.",
             "Neil Azous Revocable Trust",
             "Neos Investments LLC",
@@ -25255,7 +25253,6 @@
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Psagot Investment House Ltd.",
-            "Psagot Mutual Funds Ltd.",
             "Public Trust Advisors LLC",
             "Purpose Unlimited",
             "Q3 Asset Management Corp.",
@@ -27284,7 +27281,6 @@
             "OM",
             "PA",
             "PE",
-            "PF",
             "PG",
             "PH",
             "PK",
