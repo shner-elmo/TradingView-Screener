@@ -14748,14 +14748,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23317,7 +23317,6 @@
             "2135",
             "2136",
             "2137",
-            "2139",
             "2145",
             "2146",
             "2147",
@@ -24861,6 +24860,7 @@
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
             "Astoria Portfolio Advisors LLC",
+            "Atlas Capital Team, Inc.",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BNK Financial Group, Inc.",
@@ -24924,7 +24924,6 @@
             "Cboe Global Markets, Inc.",
             "Challenger Ltd.",
             "Chimera Investments LLC",
-            "China Capital-COFCO Purchase Final No. 1 Asset-backed Special",
             "China Industrial Securities Co. Ltd.",
             "China International Capital Corp. Ltd.",
             "China Merchants Bank Co., Ltd.",
@@ -24993,6 +24992,7 @@
             "Eurazeo SE",
             "Eventide Asset Management LLC",
             "Evolve Funds Group, Inc.",
+            "Excel Funds Management, Inc.",
             "Exchange Traded Managers Group LLC",
             "Expat Capital AD",
             "FIL Ltd.",

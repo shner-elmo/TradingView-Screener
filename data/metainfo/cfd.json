@@ -12018,13 +12018,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18938,6 +18938,8 @@
             "Bittensor",
             "Bonk",
             "Cardano",
+            "Celestia",
+            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18953,7 +18955,6 @@
             "Ethereum Classic",
             "FLOKI",
             "Filecoin",
-            "First Digital USD",
             "Frax",
             "GMX",
             "Gemini Dollar",
@@ -18993,7 +18994,6 @@
             "Stacks",
             "Stellar",
             "Sui",
-            "Sun (New)",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19037,6 +19037,7 @@
             "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
+            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19052,7 +19053,6 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFDUSD",
             "XTVCFET",
             "XTVCFIL",
             "XTVCFLOKI",
@@ -19093,10 +19093,10 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
-            "XTVCSUN",
             "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
+            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRIBE",
             "XTVCTRX",
