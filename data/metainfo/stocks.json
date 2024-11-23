@@ -2817,7 +2817,6 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
-            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -14720,14 +14719,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14748,14 +14747,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21377,7 +21376,6 @@
             "Anydrus",
             "Applied Finance",
             "Aptus",
-            "Arch Indices",
             "Argent",
             "Armada ETF Advisors",
             "Arrow Funds",
@@ -21535,6 +21533,7 @@
             "Euclidean",
             "Even Herd",
             "Eventide",
+            "Evermore",
             "Evolve",
             "Evovest",
             "Exemplar",
@@ -22751,9 +22750,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24486,7 +24483,6 @@
             "Akros S.R.L.",
             "American Century Investment Management, Inc.",
             "Arch Indices Investment Advisors LLC",
-            "Arch Indices Services Corp.",
             "Athens Stock Exchange",
             "Auspice Capital Advisors Ltd.",
             "Aztlan Equity Management LLC (Mexico)",
@@ -24853,7 +24849,6 @@
             "Antipodes Partners Ltd.",
             "Aoris Investment Management (Pty) Ltd.",
             "Aptus Holdings LLC",
-            "Arch Indices Investment Advisors LLC",
             "Ardea Investment Management Pty Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
@@ -24992,7 +24987,6 @@
             "Eurazeo SE",
             "Eventide Asset Management LLC",
             "Evolve Funds Group, Inc.",
-            "Excel Funds Management, Inc.",
             "Exchange Traded Managers Group LLC",
             "Expat Capital AD",
             "FIL Ltd.",
@@ -25024,9 +25018,9 @@
             "Future Fund Advisors LLC",
             "GAMCO Investors, Inc.",
             "GF Securities Co., Ltd.",
-            "GLOBAL X MANAGEMENT COMPANY (EUROPE) LIMITED",
             "Global Beta Advisors LLC",
             "Global X Japan Co., Ltd.",
+            "Global X Management Co. (Europe) Ltd.",
             "Goose Hollow Capital Management LLC",
             "Government of Brazil",
             "Government of Canada",
