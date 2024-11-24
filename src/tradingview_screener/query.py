@@ -424,6 +424,7 @@ class Query:
         :return: Self
         """
         self.query.setdefault('symbols', {})['tickers'] = list(tickers)
+        self.set_markets()
         return self
 
     def set_index(self, *indexes: str) -> Self:
@@ -471,7 +472,8 @@ class Query:
         """
         self.query.setdefault('preset', 'index_components_market_pages')
         self.query.setdefault('symbols', {})['symbolset'] = list(indexes)
-        self.url = URL.format(market='global')
+        # reset markets list and URL to `/global`
+        self.set_markets()
         return self
 
     # def set_currency(self, currency: Literal['symbol', 'market'] | str) -> Self:
@@ -585,7 +587,6 @@ class Query:
         return isinstance(other, Query) and self.query == other.query and self.url == other.url
 
 
-# TODO: should get_scanner_data() return the raw data instead of DF?
 # TODO: Query should have no defaults (except limit), and a separate module should have all the
 #  default screeners
 # TODO: add all presets
