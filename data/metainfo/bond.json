@@ -7022,6 +7022,7 @@
             "GEL",
             "GHS",
             "HKD",
+            "HNL",
             "HUF",
             "IDR",
             "INR",
@@ -7036,7 +7037,6 @@
             "MAD",
             "MXN",
             "MXV",
-            "MYR",
             "NGN",
             "NOK",
             "NZD",
@@ -7047,7 +7047,6 @@
             "PYG",
             "RON",
             "RUB",
-            "RWF",
             "SAR",
             "SEK",
             "SGD",
@@ -7059,6 +7058,7 @@
             "UVA",
             "UYU",
             "UZS",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7136,6 +7136,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
