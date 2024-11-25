@@ -14705,13 +14705,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14719,7 +14712,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14733,7 +14726,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14747,7 +14740,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14755,6 +14748,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22751,7 +22751,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25213,6 +25214,7 @@
             "PT Insight Investments Management",
             "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
+            "PT Panin Sekuritas Tbk",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
@@ -25244,7 +25246,6 @@
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Psagot Investment House Ltd.",
