@@ -38,8 +38,8 @@ pdoc = "^14.1.0"
 pytest = "^7.4.3"
 pyright = "^1.1.364"
 
-[tool.poetry.extras]
-df = ["pandas"]
+#[tool.poetry.extras]
+#df = ["pandas"]
 
 [build-system]
 requires = ["poetry-core"]
