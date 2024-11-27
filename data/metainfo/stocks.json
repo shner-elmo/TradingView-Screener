@@ -2216,6 +2216,7 @@
             "Bangladesh",
             "Barbados",
             "Belgium",
+            "Belize",
             "Bermuda",
             "Botswana",
             "Brazil",
@@ -2239,7 +2240,6 @@
             "Finland",
             "France",
             "Gabon",
-            "Georgia",
             "Germany",
             "Gibraltar",
             "Greece",
@@ -14705,13 +14705,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14719,7 +14712,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14727,6 +14720,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21783,7 +21783,6 @@
             "Opus Capital Management",
             "Ossiam",
             "Otter Creek",
-            "Overlay Shares",
             "PAM",
             "PGIM",
             "PIMCO",
@@ -22541,6 +22540,7 @@
             "BR",
             "BS",
             "BW",
+            "BZ",
             "CA",
             "CH",
             "CL",
@@ -22560,7 +22560,6 @@
             "FR",
             "GA",
             "GB",
-            "GE",
             "GI",
             "GL",
             "GR",
@@ -22749,6 +22748,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24510,7 +24510,6 @@
             "C-tracks Exchange-traded Notes",
             "CF Benchmarks Ltd.",
             "CIBC World Markets, Inc.",
-            "CME Group Index Services LLC",
             "CME Group, Inc.",
             "CSat Investment Advisory LP",
             "Calvert Research & Management",
@@ -25084,7 +25083,6 @@
             "Insignia Financial Ltd.",
             "Inspire Impact Group LLC",
             "Intelligent Investor Holdings Pty Ltd.",
-            "Inter & Co., Inc.",
             "Intercam Grupo Financiero SA de CV",
             "Intesa Sanpaolo SpA",
             "Inverdale Capital Management LLC",
@@ -25133,11 +25131,11 @@
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
             "Liberty Holdings Ltd.",
-            "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
             "Logan Capital Management, Inc.",
             "L\u00e4hiTapiola Keskin\u00e4inen Vakuutusyhti\u00f6",
+            "MERITZ Financial Group, Inc.",
             "MERITZ SECURITIES Co., Ltd.",
             "MM VAM LLC",
             "MS&AD Insurance Group Holdings, Inc.",
@@ -27068,6 +27066,7 @@
             "4",
             "41",
             "48",
+            "49",
             "5"
         ]
     },

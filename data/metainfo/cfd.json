@@ -12018,13 +12018,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12047,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18952,6 +18952,7 @@
             "Ethena",
             "Ethereum",
             "Ethereum Classic",
+            "Fantom",
             "Filecoin",
             "Frax",
             "Frax Share",
@@ -18991,7 +18992,6 @@
             "Rocket Pool",
             "Shiba Inu",
             "Solana",
-            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19015,7 +19015,8 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19055,6 +19056,7 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
+            "XTVCFTM",
             "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
@@ -19094,7 +19096,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
-            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",
@@ -19115,6 +19116,7 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19171,6 +19173,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
