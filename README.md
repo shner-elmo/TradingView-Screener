@@ -22,6 +22,10 @@
 
 ## Overview
 
+```bash
+pip install tradingview-screener
+```
+
 `tradingview-screener` is a Python package that allows you to create custom stock screeners using TradingView's official
 API. This package retrieves data directly from TradingView without the need for web scraping or HTML parsing.
 
@@ -32,15 +36,6 @@ API. This package retrieves data directly from TradingView without the need for 
 - **Multiple Markets**: Stocks, crypto, forex, CFD, futures, bonds, and more.
 - **Customizable Timeframes**: Choose timeframes like 1 minute, 5 minutes, 1 hour, or 1 day for each field.
 - **Filter and sort** the results using a **SQL-like syntax**, with support for **And/Or operators** for advanced filtering.
-
-
-### Installation
-
-Install the package via pip:
-
-```bash
-pip install tradingview-screener
-```
 
 
 ### Links
