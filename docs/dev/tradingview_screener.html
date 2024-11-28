@@ -43,7 +43,7 @@
   <li><a href="#comparison-to-similar-packages">Comparison to Similar Packages</a></li>
   <li><a href="#robustness-longevity">Robustness &amp; Longevity</a></li>
   <li><a href="#how-it-works">How It Works</a></li>
-  <li><a href="#open-to-new-opportunities">Open to New Opportunities</a></li>
+  <li><a href="#feedback-and-improvement">Feedback and Improvement</a></li>
 </ul>
 
 
@@ -99,7 +99,7 @@ API. This package retrieves data directly from TradingView without the need for 
 
 <ul>
 <li><strong>Access Over 3000 Fields</strong>: Retrieve data, including OHLC, indicators, and fundamental metrics.</li>
-<li><strong>Multiple Markets</strong>: Screen equities, crypto, forex, futures, and bonds.</li>
+<li><strong>Multiple Markets</strong>: Stocks, crypto, forex, CFD, futures, bonds, and more.</li>
 <li><strong>Customizable Timeframes</strong>: Choose timeframes like 1 minute, 5 minutes, 1 hour, or 1 day for each field.</li>
 <li><strong>Filter and sort</strong> the results using a <strong>SQL-like syntax</strong>, with support for <strong>And/Or operators</strong> for advanced filtering.</li>
 </ul>
@@ -113,11 +113,13 @@ API. This package retrieves data directly from TradingView without the need for 
 </code></pre>
 </div>
 
-<h3 id="documentation-source-code">Documentation &amp; Source Code</h3>
+<h3 id="links">Links</h3>
 
 <ul>
-<li><a href="https://shner-elmo.github.io/TradingView-Screener/2.5.0/tradingview_screener.html">Documentation</a></li>
 <li><a href="https://github.com/shner-elmo/TradingView-Screener">GitHub Repository</a></li>
+<li><a href="https://shner-elmo.github.io/TradingView-Screener/2.5.0/tradingview_screener.html">Documentation</a></li>
+<li><a href="https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html">Fields</a></li>
+<li><a href="https://shner-elmo.github.io/TradingView-Screener/screeners/stocks/america.html">Screeners</a></li>
 </ul>
 
 <h2 id="quickstart">Quickstart</h2>
@@ -180,7 +182,7 @@ bans.</p>
 
 <p>To access real-time data, you need to pass your session cookies, as even free real-time data requires authentication.</p>
 
-<h3 id="checking-update-modes">Checking Update Modes</h3>
+<h3 id="verify-update-mode">Verify Update Mode</h3>
 
 <p>You can run this query to get an overview on the <code>update_mode</code> you get for each exchange:</p>
 
@@ -199,9 +201,10 @@ NYSE      delayed_streaming_900    2863
 OTC       delayed_streaming_900    7129
 </code></pre>
 
-<h3 id="example">Example</h3>
+<h3 id="using-rookiepy">Using rookiepy</h3>
 
-<p>You can load the cookies from your local browser using <code>rookiepy</code>:</p>
+<p><code>rookiepy</code> is a library that loads the cookies from your local browser.
+So if you are logged in on Chrome (or whatever browser you use), it will use the same session.</p>
 
 <ol>
 <li><p>Install <code>rookiepy</code>:</p>
@@ -242,14 +245,12 @@ NYSE      streaming                2860
 OTC       delayed_streaming_900    7175
 </code></pre>
 
-<p>We now get live-data for all exchanges except <code>OTC</code>.</p>
+<p>We now get live-data for all exchanges except <code>OTC</code> (because my subscription dosent include live-data for OTC tickers).</p>
 
-<h3 id="alternative-methods-for-loading-cookies">Alternative Methods for Loading Cookies</h3>
-
-<h4 id="extract-cookies-manually">Extract Cookies Manually</h4>
+<h3 id="other-ways-for-loading-cookies">Other Ways For Loading Cookies</h3>
 
 <p><details>
-<summary>Click to unfold example</summary></p>
+<summary>Extract Cookies Manually</summary></p>
 
 <ol>
 <li>Go to <a href="https://www.tradingview.com">TradingView</a></li>
@@ -268,10 +269,8 @@ OTC       delayed_streaming_900    7175
 
 <p></details></p>
 
-<h4 id="authenticate-via-api">Authenticate via API</h4>
-
 <p><details>
-<summary>Click to unfold example</summary></p>
+<summary>Authenticate via API</summary></p>
 
 <p>While it's possible to authenticate directly via API, TradingView has restrictions on login frequency, which may result
 in CAPTCHA requests and account flagging (meaning this method won't work again until the cooldown expires and the CAPTCHA
@@ -308,12 +307,18 @@ If you wish to proceed, here’s how:</p>
 
 <h2 id="comparison-to-similar-packages">Comparison to Similar Packages</h2>
 
-<p>...</p>
+<p>Unlike other Python libraries that have specific features like extracting the sentiment, or what not.
+This package is but a (low-level) wrapper around TradingView's <code>/screener</code> API endpoint.</p>
+
+<p>It merely documents the endpoint, by listing all the functions and operations available, the different fields you can 
+use, the markets, instruments (even some that you wont find on TradingView's website), and so on.</p>
+
+<p>This library is also a wrapper that makes it easier to generate those verbose JSON payloads.</p>
 
 <h2 id="robustness-longevity">Robustness &amp; Longevity</h2>
 
-<p>This package is designed to be future-proof. All columns and markets are documented on the website, which is updated
-daily via a GitHub Actions script, reducing dependency on hardcoded values.</p>
+<p>This package is designed to be future-proof. There are no hard-coded values in the package, all fields/columns and markets are documented on the website, which is updated
+daily via a GitHub Actions script.</p>
 
 <h2 id="how-it-works">How It Works</h2>
 
@@ -340,9 +345,9 @@ request. Here’s an example of the dictionary generated:</p>
 <p>The <code>get_scanner_data()</code> method sends this dictionary as a JSON payload to the TradingView API,
 allowing you to query data using SQL-like syntax without knowing the specifics of the API.</p>
 
-<h2 id="open-to-new-opportunities">Open to New Opportunities</h2>
+<h2 id="feedback-and-improvement">Feedback and Improvement</h2>
 
-<p>I’m actively looking for Data Engineering or Backend Development roles, preferably in NYC—but I’m flexible with remote or freelance work too. If you’ve got something awesome in mind, let’s <a href="mailto:770elmo@gmail.com">talk</a>!</p>
+<p>If this package has bought value to your projects, please consider starring it.</p>
 </div>
 
                         <input id="mod-tradingview_screener-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
