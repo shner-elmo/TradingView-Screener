@@ -14705,14 +14705,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14733,13 +14733,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14747,7 +14740,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14755,6 +14748,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21761,7 +21761,6 @@
             "Neuberger Berman",
             "New York Life Investments",
             "Newday",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22748,7 +22747,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24610,7 +24608,6 @@
             "Newfound Research LLC",
             "Nikkei, Inc.",
             "North Shore Indices, Inc.",
-            "O'Shares Investment Advisers LLC (US)",
             "Oak City Consulting LLC",
             "Osaka Exchange, Inc.",
             "Pacific Investment Management Co. LLC",
@@ -24634,7 +24631,6 @@
             "S&P Dow Jones Indices LLC",
             "S&P Global Ltd.",
             "S&P OpCo LLC",
-            "S-Network Global Indexes, Inc.",
             "SIX Group AG",
             "SIX Swiss Exchange AG",
             "SL Advisors LLC",
@@ -25184,7 +25180,6 @@
             "Neos Investments LLC",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
