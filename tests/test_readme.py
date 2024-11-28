@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 
 
-def test_readme_examples():
+def _test_readme_examples():
     readme = Path(tradingview_screener.__file__).parents[2] / 'README.md'
     source = readme.read_text(encoding='utf-8')
 
@@ -16,7 +16,7 @@ def test_readme_examples():
     lines = []
     for match in matches:
         for line in match.splitlines():
-            line = line.strip().lstrip('>>> ')
+            line = line.lstrip('>>> ')
             lines.append(line)
 
     pd.options.display.max_rows = 10  # hard limit, even on small DFs
@@ -31,6 +31,6 @@ def test_readme_examples():
 
 
 if __name__ == '__main__':
-    test_readme_examples()
+    _test_readme_examples()
 
 # TODO: add this to CI/CD (with GH actions)
