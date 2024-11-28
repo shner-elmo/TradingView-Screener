@@ -29,7 +29,7 @@ API. This package retrieves data directly from TradingView without the need for 
 ### Key Features
 
 - **Access Over 3000 Fields**: Retrieve data, including OHLC, indicators, and fundamental metrics.
-- **Multiple Markets**: Screen equities, crypto, forex, futures, and bonds.
+- **Multiple Markets**: Stocks, crypto, forex, CFD, futures, bonds, and more.
 - **Customizable Timeframes**: Choose timeframes like 1 minute, 5 minutes, 1 hour, or 1 day for each field.
 - **Filter and sort** the results using a **SQL-like syntax**, with support for **And/Or operators** for advanced filtering.
 
@@ -43,11 +43,12 @@ pip install tradingview-screener
 ```
 
 
-### Documentation & Source Code
+### Links
 
-- [Documentation](https://shner-elmo.github.io/TradingView-Screener/2.5.0/tradingview_screener.html)
 - [GitHub Repository](https://github.com/shner-elmo/TradingView-Screener)
-
+- [Documentation](https://shner-elmo.github.io/TradingView-Screener/2.5.0/tradingview_screener.html)
+- [Fields](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html)
+- [Screeners](https://shner-elmo.github.io/TradingView-Screener/screeners/stocks/america.html)
 
 ## Quickstart
 
@@ -108,7 +109,7 @@ from tradingview_screener import Query, col
 
 To access real-time data, you need to pass your session cookies, as even free real-time data requires authentication.
 
-### Checking Update Modes
+### Verify Update Mode
 
 You can run this query to get an overview on the `update_mode` you get for each exchange:
 ```python
@@ -125,9 +126,10 @@ NYSE      delayed_streaming_900    2863
 OTC       delayed_streaming_900    7129
 ```
 
-### Example
+### Using rookiepy
 
-You can load the cookies from your local browser using `rookiepy`:
+`rookiepy` is a library that loads the cookies from your local browser.
+So if you are logged in on Chrome (or whatever browser you use), it will use the same session.
 
 1. Install `rookiepy`:
 
@@ -161,15 +163,13 @@ NASDAQ    streaming                4286
 NYSE      streaming                2860
 OTC       delayed_streaming_900    7175
 ```
-We now get live-data for all exchanges except `OTC`.
+We now get live-data for all exchanges except `OTC` (because my subscription dosent include live-data for OTC tickers).
 
 
-### Alternative Methods for Loading Cookies
-
-#### Extract Cookies Manually
+### Other Ways For Loading Cookies
 
 <details>
-<summary>Click to unfold example</summary>
+<summary>Extract Cookies Manually</summary>
 
 1. Go to [TradingView](https://www.tradingview.com)
 2. Open the developer tools (`Ctrl + Shift + I`)
@@ -185,10 +185,9 @@ We now get live-data for all exchanges except `OTC`.
 
 </details>
 
-#### Authenticate via API
 
 <details>
-<summary>Click to unfold example</summary>
+<summary>Authenticate via API</summary>
 
 While it's possible to authenticate directly via API, TradingView has restrictions on login frequency, which may result
 in CAPTCHA requests and account flagging (meaning this method won't work again until the cooldown expires and the CAPTCHA
@@ -224,12 +223,19 @@ Query().get_scanner_data(cookies=cookies)
 
 ## Comparison to Similar Packages
 
-...
+Unlike other Python libraries that have specific features like extracting the sentiment, or what not.
+This package is but a (low-level) wrapper around TradingView's `/screener` API endpoint.
+
+It merely documents the endpoint, by listing all the functions and operations available, the different fields you can 
+use, the markets, instruments (even some that you wont find on TradingView's website), and so on.
+
+This library is also a wrapper that makes it easier to generate those verbose JSON payloads.
+
 
 ## Robustness & Longevity
 
-This package is designed to be future-proof. All columns and markets are documented on the website, which is updated
-daily via a GitHub Actions script, reducing dependency on hardcoded values.
+This package is designed to be future-proof. There are no hard-coded values in the package, all fields/columns and markets are documented on the website, which is updated
+daily via a GitHub Actions script.
 
 ## How It Works
 
@@ -255,8 +261,6 @@ request. Here’s an example of the dictionary generated:
 The `get_scanner_data()` method sends this dictionary as a JSON payload to the TradingView API,
 allowing you to query data using SQL-like syntax without knowing the specifics of the API.
 
-## Open to New Opportunities
+## Feedback and Improvement
 
-I’m actively looking for Data Engineering or Backend Development roles, preferably in NYC—but I’m flexible with remote or freelance work too. If you’ve got something awesome in mind, let’s [talk](mailto:770elmo@gmail.com)!
-
-
+If this package has bought value to your projects, please consider starring it.
