@@ -400,6 +400,8 @@ class Query:
         """
         Set the tickers you wish to receive information on.
 
+        Note that this resets the markets and sets the URL market to `global`.
+
         Examples:
 
         >>> q = Query().select('name', 'market', 'close', 'volume', 'VWAP', 'MACD.macd')
@@ -430,6 +432,8 @@ class Query:
     def set_index(self, *indexes: str) -> Self:
         """
         Scan only the equities that are in in the given index (or indexes).
+
+        Note that this resets the markets and sets the URL market to `global`.
 
         Examples:
 
@@ -505,10 +509,6 @@ class Query:
     #         self.query['price_conversion'] = {'to_currency': currency}
     #     return self
 
-    # TODO: add tests for set_ticker() and set_index() and make sure if its necessary to reset the
-    #  URL or markets property
-    #  and review the docs again
-
     def set_property(self, key: str, value: Any) -> Self:
         self.query[key] = value
         return self
@@ -547,18 +547,16 @@ class Query:
 
     def get_scanner_data(self, **kwargs) -> tuple[int, pd.DataFrame]:
         """
-        Perform a POST web-request and return the data from the API as a DataFrame.
-
-        This returns a Pandas DataFrame, so make sure you have `pandas` installed.
+        Perform a POST web-request and return the data from the API as a DataFrame (along with
+        the number of rows/tickers that matched your query).
 
         Note that you can pass extra keyword-arguments that will be forwarded to `requests.post()`,
         this can be very useful if you want to pass your own headers/cookies.
 
         ### Live/Delayed data
 
-        If you have paid for a live data add-on with TradingView, you want to pass your own
-        headers and cookies to access that real-time data, otherwise you
-        # TODO finish this and add to the README too
+        Note that to get live-data you have to authenticate, which is done by passing your cookies.
+        Have a look in the README at the "Real-Time Data Access" sections.
 
         :param kwargs: kwargs to pass to `requests.post()`
         :return: a tuple consisting of: (total_count, dataframe)
