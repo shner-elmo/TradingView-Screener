@@ -46,9 +46,12 @@ pip install tradingview-screener
 ### Links
 
 - [GitHub Repository](https://github.com/shner-elmo/TradingView-Screener)
-- [Documentation](https://shner-elmo.github.io/TradingView-Screener/2.5.0/tradingview_screener.html)
+- [Documentation](https://shner-elmo.github.io/TradingView-Screener/3.0.0-rc.1/tradingview_screener.html)
 - [Fields](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html)
 - [Screeners](https://shner-elmo.github.io/TradingView-Screener/screeners/stocks/america.html)
+
+Note that throughout the documentation, "field" and "column" are used interchangeably.
+Same with "Scanner" and "Screener".
 
 ## Quickstart
 
