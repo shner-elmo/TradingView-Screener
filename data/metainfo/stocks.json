@@ -2206,7 +2206,6 @@
         "r": [
             "Aland Islands",
             "Americas Unallocated",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -2294,7 +2293,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14719,13 +14717,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14733,7 +14724,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14741,6 +14732,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22524,7 +22522,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -22623,7 +22620,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "TG",
             "TH",
             "TN",
@@ -23309,7 +23305,6 @@
             "2130",
             "2131",
             "2132",
-            "2134",
             "2135",
             "2136",
             "2137",
@@ -24624,7 +24619,6 @@
             "Rennaissance Capital Mgt Invt",
             "Research Affiliates LLC",
             "Richard Bernstein Advisors LLC",
-            "Robo Global LLC",
             "Rocky Mountain Financial Advisors LLC",
             "Rogers International Raw Materials Fund LP",
             "Roundhill Financial, Inc.",
@@ -24991,6 +24985,7 @@
             "FNB CIS Management Company (RF) Pty Ltd.",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
+            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
