@@ -268,6 +268,61 @@ class Query:
 
     def where2(self, operation: OperationDict) -> Self:
         """
+        Filter screener using AND/OR operators (nested expressions also allowed)
+
+        Rules:
+        1. The argument passed to `where2()` **must** be wrapped in `And()` or `Or()`.
+        2. `And()` and `Or()` can accept one or more conditions as arguments.
+        3. Conditions can be simple (e.g., `Column('field') == 'value'`) or complex, allowing nesting of `And()` and `Or()` to create intricate logical filters.
+        4. Unlike the `where()` method, which only supports chaining conditions with the `AND` operator, `where2()` allows mixing and nesting of `AND` and `OR` operators.
+
+        Examples:
+
+        1. **Combining conditions with `OR` and nested `AND`:**
+           ```python
+           Query()
+           .select('type', 'typespecs')
+           .where2(
+               Or(
+                   And(Column('type') == 'stock', Column('typespecs').has(['common', 'preferred'])),
+                   And(Column('type') == 'fund', Column('typespecs').has_none_of(['etf'])),
+                   Column('type') == 'dr',
+               )
+           )
+           ```
+
+           This query filters entities where:
+           - The `type` is `'stock'` and `typespecs` contains `'common'` or `'preferred'`, **OR**
+           - The `type` is `'fund'` and `typespecs` does not contain `'etf'`, **OR**
+           - The `type` is `'dr'`.
+
+        2. **Mixing conditions with `OR`:**
+           ```python
+           Query().where2(
+               Or(
+                   And(col('type') == 'stock', col('typespecs').has(['common'])),
+                   col('type') == 'fund',
+               )
+           )
+           ```
+           This query filters entities where:
+           - The `type` is `'stock'` and `typespecs` contains `'common'`, **OR**
+           - The `type` is `'fund'`.
+
+        3. **Combining conditions with `AND`:**
+           ```python
+           Query()
+           .set_markets('crypto')
+           .where2(
+               And(
+                   col('exchange').isin(['UNISWAP3POLYGON', 'VERSEETH', 'a', 'fffffffff']),
+                   col('currency_id') == 'USD',
+               )
+           )
+           ```
+           This query filters entities in the `'crypto'` market where:
+           - The `exchange` is one of `'UNISWAP3POLYGON', 'VERSEETH', 'a', 'fffffffff'`, **AND**
+           - The `currency_id` is `'USD'`.
         """
         self.query['filter2'] = operation['operation']
         return self
