@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18927,6 +18927,7 @@
             "Aave",
             "Aerodrome Finance",
             "Aevo",
+            "Algorand",
             "Amp",
             "Aptos",
             "Arbitrum",
@@ -18952,7 +18953,6 @@
             "Ethena",
             "Ethereum",
             "Ethereum Classic",
-            "Fantom",
             "Filecoin",
             "Frax",
             "Frax Share",
@@ -18976,6 +18976,7 @@
             "Maker",
             "Mantle",
             "Marinade Staked SOL",
+            "Monero",
             "MultiversX",
             "NEAR Protocol",
             "OKB",
@@ -19027,6 +19028,7 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
+            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
@@ -19055,7 +19057,6 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
-            "XTVCFTM",
             "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
@@ -19113,6 +19114,7 @@
             "XTVCWIF",
             "XTVCWOO",
             "XTVCXLM",
+            "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
             "XTVCZRX"
@@ -19172,8 +19174,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

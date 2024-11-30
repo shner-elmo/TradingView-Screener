@@ -2239,6 +2239,7 @@
             "Finland",
             "France",
             "Gabon",
+            "Georgia",
             "Germany",
             "Gibraltar",
             "Greece",
@@ -14703,13 +14704,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14717,7 +14711,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14725,6 +14719,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21882,7 +21883,6 @@
             "Scotia",
             "Segall Bryant & Hamill",
             "Select",
-            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -22556,6 +22556,7 @@
             "FR",
             "GA",
             "GB",
+            "GE",
             "GI",
             "GL",
             "GR",
@@ -22743,9 +22744,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23305,6 +23304,7 @@
             "2130",
             "2131",
             "2132",
+            "2134",
             "2135",
             "2136",
             "2137",
@@ -25084,7 +25084,6 @@
             "Investo Gest\u00e3o de Recursos Ltda.",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Jacob Asset Management of New York LLC",
