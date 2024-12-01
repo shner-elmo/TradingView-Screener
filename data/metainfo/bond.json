@@ -1274,6 +1274,7 @@
             "HKEX:9961",
             "HOSE:NVL",
             "HOSE:VIC",
+            "IDX:ABMM",
             "IDX:BBKP",
             "IDX:BBNI",
             "IDX:BBTN",
@@ -4572,6 +4573,7 @@
             "HKEX:9961",
             "HOSE:NVL",
             "HOSE:VIC",
+            "IDX:ABMM",
             "IDX:BBKP",
             "IDX:BBNI",
             "IDX:BBTN",
@@ -7036,7 +7038,6 @@
             "KZT",
             "LAJ",
             "MAD",
-            "MNT",
             "MXN",
             "MXV",
             "NGN",
@@ -7060,7 +7061,7 @@
             "UVA",
             "UYU",
             "UZS",
-            "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7138,6 +7139,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
