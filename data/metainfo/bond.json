@@ -846,6 +846,7 @@
             "BSE:TALWALKARS",
             "BSE:TALWGYM",
             "BSE:VASUPRADA",
+            "BSSE:1GVR001E",
             "BSSE:1TAT002E",
             "BSSE:1VUB02AE",
             "BVB:DIGI",
@@ -3522,7 +3523,6 @@
             "SET:RATCH",
             "SET:STEG19",
             "SET:TOP",
-            "SET:TTB",
             "SGX:5VJ",
             "SGX:B0Z",
             "SGX:BN4",
@@ -4225,6 +4225,7 @@
             "BSE:TALWALKARS",
             "BSE:TALWGYM",
             "BSE:VASUPRADA",
+            "BSSE:1GVR001E",
             "BSSE:1TAT002E",
             "BSSE:1VUB02AE",
             "BVB:SNG",
@@ -6403,7 +6404,6 @@
             "SET:MTC",
             "SET:PTT",
             "SET:TOP",
-            "SET:TTB",
             "SGX:5VJ",
             "SGX:BN4",
             "SGX:C6L",
@@ -7139,6 +7139,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
