@@ -1,1 +1,26 @@
-[]
+[
+    [
+        {
+            "country_code": "us",
+            "screener_name": "america",
+            "url": "/markets/stocks-usa/",
+            "country_page_url": "/markets/usa/",
+            "title": "USA",
+            "locale": "en",
+            "group": "North America",
+            "original_group_name": "North America",
+            "stock_exchanges": [
+                "NASDAQ",
+                "NYSE",
+                "NYSE ARCA",
+                "OTC"
+            ]
+        },
+        {
+            "path": "losers",
+            "url": "/markets/stocks-usa/market-movers-losers/",
+            "title_for_label": "Biggest losers",
+            "role": "tab"
+        }
+    ]
+]

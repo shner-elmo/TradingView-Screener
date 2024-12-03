@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18953,6 +18953,7 @@
             "Ethena",
             "Ethereum",
             "Ethereum Classic",
+            "Fantom",
             "Filecoin",
             "Frax",
             "Frax Share",
@@ -18976,6 +18977,7 @@
             "Maker",
             "Mantle",
             "Marinade Staked SOL",
+            "Monero",
             "MultiversX",
             "NEAR Protocol",
             "OKB",
@@ -18991,7 +18993,6 @@
             "Rocket Pool",
             "Shiba Inu",
             "Solana",
-            "Solar",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19014,8 +19015,8 @@
             "Wrapped eETH",
             "XRP",
             "dYdX (ethDYDX)",
-            "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19056,6 +19057,7 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
+            "XTVCFTM",
             "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
@@ -19095,7 +19097,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
-            "XTVCSXP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",
@@ -19110,11 +19111,12 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
-            "XTVCWIF",
             "XTVCWOO",
             "XTVCXLM",
+            "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
