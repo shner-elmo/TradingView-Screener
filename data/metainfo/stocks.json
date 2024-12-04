@@ -2252,6 +2252,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -14732,13 +14733,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14746,7 +14740,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14754,6 +14748,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22538,6 +22539,7 @@
             "BZ",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -22743,7 +22745,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24539,7 +24540,6 @@
             "FTSE TMX Global Debt Capital Markets Ltd.",
             "FactSet Research Systems, Inc.",
             "Fidelity Management & Research Co. LLC",
-            "Fidelity Product Services LLC",
             "FnGuide, Inc.",
             "Frank Russell Co.",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
