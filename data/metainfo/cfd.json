@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18950,6 +18950,7 @@
             "DeXe",
             "Dogecoin",
             "Ethena",
+            "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
             "Fantom",
@@ -18980,7 +18981,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Optimism",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
@@ -18995,7 +18995,6 @@
             "Stacks",
             "Stellar",
             "Sui",
-            "Sun (New)",
             "SushiSwap",
             "Synthetix",
             "THORChain",
@@ -19016,7 +19015,8 @@
             "XRP",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19081,7 +19081,6 @@
             "XTVCNEAR",
             "XTVCOKB",
             "XTVCOM",
-            "XTVCOP",
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
@@ -19095,7 +19094,6 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
-            "XTVCSUN",
             "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
@@ -19107,6 +19105,7 @@
             "XTVCUNI",
             "XTVCUSDC",
             "XTVCUSDD",
+            "XTVCUSDEE",
             "XTVCUSDT",
             "XTVCVET",
             "XTVCW",
@@ -19117,6 +19116,7 @@
             "XTVCXMR",
             "XTVCXRD",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
