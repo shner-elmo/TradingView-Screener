@@ -3725,7 +3725,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14719,13 +14718,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14733,7 +14725,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14741,6 +14733,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21442,6 +21441,7 @@
             "CIBC",
             "CICC",
             "CIFM",
+            "CMB",
             "CPIC",
             "CRIT",
             "CSOP",
@@ -22687,7 +22687,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22745,7 +22744,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24607,6 +24605,7 @@
             "Nikkei, Inc.",
             "North Shore Indices, Inc.",
             "Oak City Consulting LLC",
+            "Optimize Financial, Inc.",
             "Osaka Exchange, Inc.",
             "Pacific Investment Management Co. LLC",
             "Point Bridge Capital LLC",
@@ -24668,6 +24667,7 @@
             "Water Island Capital LLC",
             "Wiener B\u00f6rse AG",
             "WilderShares LLC",
+            "Wilshire Advisors LLC",
             "WisdomTree Asset Management, Inc.",
             "Zacks Investment Management, Inc.",
             "Zagreb Stock Exchange, Inc.",
@@ -24849,6 +24849,7 @@
             "AssetPlus Investment Management Co., Ltd.",
             "Astoria Portfolio Advisors LLC",
             "Atlas Capital Team, Inc.",
+            "Aviva Plc",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BNK Financial Group, Inc.",
@@ -27266,6 +27267,7 @@
             "OM",
             "PA",
             "PE",
+            "PF",
             "PG",
             "PH",
             "PK",
