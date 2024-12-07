@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19003,7 +19003,6 @@
             "Threshold",
             "Toncoin",
             "Tribe",
-            "UMA",
             "UNUS SED LEO",
             "USDC",
             "USDD",
@@ -19101,7 +19100,6 @@
             "XTVCTON",
             "XTVCTRIBE",
             "XTVCTRX",
-            "XTVCUMA",
             "XTVCUNI",
             "XTVCUSDC",
             "XTVCUSDD",
@@ -19174,8 +19172,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

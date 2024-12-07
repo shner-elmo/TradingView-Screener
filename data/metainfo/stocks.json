@@ -14732,14 +14732,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21772,6 +21772,7 @@
             "Numoro",
             "Nuveen",
             "OTP",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Octane",
@@ -22744,9 +22745,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24541,6 +24540,7 @@
             "Fidelity Management & Research Co. LLC",
             "FnGuide, Inc.",
             "Frank Russell Co.",
+            "Franklin Advisers, Inc.",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
             "Fundamental Income Strategies LLC",
             "Fuzzy Logix LLC",
@@ -25141,6 +25141,7 @@
             "Manulife Financial Corp.",
             "Marathon Partners LLC",
             "Matthews International Capital Management LLC",
+            "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
             "Mega Financial Holding Co., Ltd.",
             "Meitav Investment House Ltd.",

@@ -774,7 +774,6 @@
             "BMFBOVESPA:BRFS3",
             "BMFBOVESPA:BRKM3",
             "BMFBOVESPA:BRSR3",
-            "BMFBOVESPA:CMIG3",
             "BMFBOVESPA:CSAN3",
             "BMFBOVESPA:CSNA3",
             "BMFBOVESPA:ELET3",
@@ -1140,7 +1139,6 @@
             "GPW:PKN",
             "GPW:PKO",
             "GPW:TPE",
-            "HAM:AR40",
             "HAM:HBM",
             "HAM:LOU",
             "HAM:O2D",
@@ -6491,6 +6489,7 @@
             "SZSE:300498",
             "TADAWUL:1050",
             "TADAWUL:2222",
+            "TADAWUL:5110",
             "TASE:ICL",
             "TASE:LUMI",
             "TASE:MZTF",
@@ -7140,7 +7139,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
             "out_of_session"
         ]
     },
