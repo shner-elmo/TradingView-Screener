@@ -58,6 +58,7 @@
             "Aave",
             "AdEx",
             "Aeron",
+            "Aeternity",
             "Aethir",
             "Aevo",
             "Akash Network",
@@ -1504,9 +1505,9 @@
         "t": "text",
         "r": [
             "1ART",
-            "ABR",
             "ADA",
             "AED",
+            "AERO",
             "AEUR",
             "AGEUR",
             "AI",
@@ -1784,7 +1785,6 @@
             "WEGLD",
             "WETH",
             "WFTM",
-            "WHITE",
             "WIF",
             "WMATIC",
             "WORLD",
@@ -12807,13 +12807,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12821,7 +12814,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12835,7 +12828,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12843,6 +12836,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19727,6 +19727,7 @@
             "ACS",
             "ADA",
             "ADX",
+            "AE",
             "AEVO",
             "AI",
             "AIOZ",
@@ -20239,8 +20240,8 @@
             "UAH",
             "USD",
             "XTVC1ART",
-            "XTVCABRA",
             "XTVCADA",
+            "XTVCAERO",
             "XTVCAETHC",
             "XTVCAEUR",
             "XTVCAGEUR",
@@ -20486,7 +20487,6 @@
             "XTVCSFUND",
             "XTVCSHIB",
             "XTVCSHRAP",
-            "XTVCSO4T",
             "XTVCSOL",
             "XTVCSOLVBTC",
             "XTVCSOLVBTCBBN",
@@ -20556,7 +20556,6 @@
             "XTVCWETH",
             "XTVCWETHE",
             "XTVCWFTM",
-            "XTVCWHITE",
             "XTVCWIF",
             "XTVCWM",
             "XTVCWMATIC",

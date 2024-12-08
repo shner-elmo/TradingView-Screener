@@ -14732,13 +14732,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14746,7 +14739,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14754,6 +14747,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21783,6 +21783,7 @@
             "Opus Capital Management",
             "Ossiam",
             "Otter Creek",
+            "Overlay Shares",
             "PAM",
             "PGIM",
             "PIMCO",
@@ -22745,6 +22746,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
@@ -25125,6 +25127,7 @@
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
             "Liberty Holdings Ltd.",
+            "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
             "Logan Capital Management, Inc.",

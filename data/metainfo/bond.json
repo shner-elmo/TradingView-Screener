@@ -502,6 +502,7 @@
             "EUR",
             "GBP",
             "INR",
+            "NOK",
             "SEK",
             "TRY",
             "USD"
@@ -2658,7 +2659,6 @@
             "NYSE:FDX",
             "NYSE:FE",
             "NYSE:FERG",
-            "NYSE:FET",
             "NYSE:FFWM",
             "NYSE:FG",
             "NYSE:FHN",
@@ -5693,7 +5693,6 @@
             "NYSE:FDX",
             "NYSE:FE",
             "NYSE:FERG",
-            "NYSE:FET",
             "NYSE:FFWM",
             "NYSE:FG",
             "NYSE:FHN",
@@ -7015,7 +7014,6 @@
             "CNH",
             "CNY",
             "COP",
-            "CRC",
             "CZK",
             "DKK",
             "DOP",
@@ -7062,6 +7060,7 @@
             "UVA",
             "UYU",
             "UZS",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7118,6 +7117,7 @@
             "EUR",
             "GBP",
             "INR",
+            "NOK",
             "SEK",
             "TRY",
             "USD"
@@ -7139,6 +7139,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
