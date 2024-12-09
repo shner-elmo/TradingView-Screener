@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18936,6 +18936,7 @@
             "BNB",
             "Bitcoin",
             "Bitcoin Cash",
+            "Bitget Token",
             "Bittensor",
             "Cardano",
             "Celestia",
@@ -18961,7 +18962,6 @@
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
-            "Immutable",
             "Injective",
             "Internet Computer",
             "JUST",
@@ -19034,6 +19034,7 @@
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCBCH",
+            "XTVCBGB",
             "XTVCBNB",
             "XTVCBTC",
             "XTVCCAKE",
@@ -19062,7 +19063,6 @@
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
-            "XTVCIMX",
             "XTVCINJ",
             "XTVCJST",
             "XTVCJTO",
@@ -19172,7 +19172,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
