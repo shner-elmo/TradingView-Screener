@@ -1,1 +1,22 @@
-[]
+[
+    [
+        {
+            "country_code": "cz",
+            "screener_name": "czech",
+            "url": "/markets/stocks-czech/",
+            "country_page_url": "/markets/czech/",
+            "title": "Czech Republic",
+            "group": "Europe",
+            "original_group_name": "Europe",
+            "stock_exchanges": [
+                "PSECZ"
+            ]
+        },
+        {
+            "path": "highest-cash",
+            "url": "/markets/stocks-czech/market-movers-highest-cash/",
+            "title_for_label": "Highest cash",
+            "role": "tab"
+        }
+    ]
+]

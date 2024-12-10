@@ -14732,13 +14732,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14746,7 +14739,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14754,6 +14747,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21492,6 +21492,7 @@
             "D-X Funds",
             "DB",
             "DGA",
+            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -21499,7 +21500,6 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
-            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -21738,6 +21738,7 @@
             "Montgomery",
             "More",
             "Morgan Dempsey",
+            "Morgan Stanley",
             "Morningstar",
             "Motilal Oswal",
             "Motley Fool",
@@ -21760,6 +21761,7 @@
             "Neuberger Berman",
             "New York Life Investments",
             "Newday",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -21783,6 +21785,7 @@
             "Opus Capital Management",
             "Ossiam",
             "Otter Creek",
+            "Overlay Shares",
             "PAM",
             "PGIM",
             "PIMCO",
@@ -22742,6 +22745,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23127,6 +23131,7 @@
             "KRW",
             "MXN",
             "MYR",
+            "NOK",
             "NZD",
             "PHP",
             "PKR",
@@ -23179,6 +23184,11 @@
     {
         "n": "fiscal_period_end_fh",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "fiscal_period_end_fh_h",
+        "t": "num_slice",
         "r": null
     },
     {
@@ -24939,6 +24949,7 @@
             "Cullen Capital Management LLC",
             "Cultivar Capital, Inc.",
             "DB Financial Investment Co., Ltd.",
+            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",
             "Daintree Capital Management Pty Ltd.",
@@ -25124,6 +25135,7 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
+            "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
             "Logan Capital Management, Inc.",
@@ -25176,6 +25188,7 @@
             "Neos Investments LLC",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -26826,6 +26839,11 @@
     },
     {
         "n": "revenue_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_per_employee_fy",
         "t": "fundamental_price",
         "r": null
     },
