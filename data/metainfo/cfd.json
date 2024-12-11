@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18963,6 +18963,7 @@
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
+            "Immutable",
             "Injective",
             "Internet Computer",
             "JUST",
@@ -19013,7 +19014,6 @@
             "Wrapped eETH",
             "XRP",
             "dYdX (ethDYDX)",
-            "dogwifhat",
             "ether.fi",
             "yearn.finance"
         ]
@@ -19064,6 +19064,7 @@
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
+            "XTVCIMX",
             "XTVCINJ",
             "XTVCJST",
             "XTVCJTO",
@@ -19108,7 +19109,6 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
-            "XTVCWIF",
             "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",

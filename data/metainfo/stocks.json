@@ -2215,7 +2215,6 @@
             "Bangladesh",
             "Barbados",
             "Belgium",
-            "Belize",
             "Bermuda",
             "Botswana",
             "Brazil",
@@ -3725,6 +3724,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14704,14 +14704,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14732,13 +14732,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14746,7 +14739,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14754,6 +14747,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21631,6 +21631,7 @@
             "ICICI",
             "IDFC",
             "IDX",
+            "IML",
             "IPAAM",
             "Impact Shares",
             "IndexIQ",
@@ -22537,7 +22538,6 @@
             "BR",
             "BS",
             "BW",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -22688,6 +22688,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22745,7 +22746,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23117,8 +23117,8 @@
             "CAD",
             "CHF",
             "CLP",
-            "CNH",
             "CNY",
+            "COP",
             "DKK",
             "EUR",
             "GBP",
@@ -23129,6 +23129,7 @@
             "INR",
             "JPY",
             "KRW",
+            "KWD",
             "MXN",
             "MYR",
             "NOK",
@@ -24484,6 +24485,7 @@
         "n": "index_provider",
         "t": "text",
         "r": [
+            "AJN Corp.",
             "ARK Investment Management LP",
             "Acquirers Funds LLC",
             "Akros S.R.L.",
@@ -24532,13 +24534,13 @@
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
             "Credit Suisse Asset Management LLC",
-            "D. Boral Capital LLC",
             "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "ECPI SRL",
             "EMQQ Global LLC",
             "ETF Action, Inc.",
+            "Eisfeldt Consulting LLC",
             "Equbot, Inc.",
             "Etho Capital LLC",
             "EuroMTS Ltd.",
@@ -24549,6 +24551,7 @@
             "FTSE TMX Global Debt Capital Markets Ltd.",
             "FactSet Research Systems, Inc.",
             "Fidelity Management & Research Co. LLC",
+            "Fidelity Product Services LLC",
             "FnGuide, Inc.",
             "Frank Russell Co.",
             "Franklin Advisers, Inc.",
@@ -24561,6 +24564,7 @@
             "Global X Management Co. LLC",
             "Goldman Sachs International",
             "Hang Seng Indexes Co. Ltd.",
+            "Harbor Capital Advisors, Inc.",
             "Harvest Portfolios Group, Inc.",
             "Howard Capital Management Group LLC",
             "Hoya Capital Real Estate LLC",
@@ -24943,6 +24947,7 @@
             "Core Alternative Capital LLC",
             "CornerCap Investment Counsel, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
+            "Corpus Partners LLC",
             "Corton Capital, Inc.",
             "Cottonwood ETF Holdings LLC",
             "Counterpoint Mutual Funds LLC",
