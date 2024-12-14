@@ -21335,6 +21335,7 @@
             "ATAC",
             "AXA",
             "AXS Investments",
+            "Abacus",
             "Aberdeen",
             "Absolute",
             "Academy",
@@ -21513,7 +21514,6 @@
             "Discipline Funds",
             "Distillate",
             "Dongcai",
-            "Donoghue Forlines",
             "DoubleLine",
             "Draco",
             "Dragon Capital",
@@ -21890,6 +21890,7 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -21901,6 +21902,7 @@
             "Siren",
             "Smart",
             "SmartETFs",
+            "Smartshares",
             "SoFi",
             "Societe Generale",
             "SonicShares",
@@ -22750,9 +22752,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25115,6 +25115,7 @@
             "Investo Gest\u00e3o de Recursos Ltda.",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Jacob Asset Management of New York LLC",
@@ -25410,6 +25411,7 @@
             "Vident Investors' Oversight Trust",
             "VinaWealth Fund Management JSC",
             "Virtus Investment Partners, Inc.",
+            "Volatility Shares LLC",
             "Vontobel Holding AG",
             "WBI Trading Co., Inc.",
             "Wahed Invest LLC",
