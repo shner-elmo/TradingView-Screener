@@ -14705,13 +14705,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14719,7 +14712,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14727,6 +14720,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14747,14 +14747,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21490,7 +21490,6 @@
             "Crypto Finance",
             "Cullen",
             "Cultivar",
-            "Curran",
             "D-X Funds",
             "DB",
             "DGA",
@@ -21584,6 +21583,7 @@
             "GammaRoad",
             "Genter Capital",
             "Global X",
+            "God Bless",
             "Goldman Sachs",
             "Goose Hollow",
             "Gotham",
@@ -22752,6 +22752,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
@@ -24609,6 +24610,7 @@
             "Merqube, Inc.",
             "Merrill Lynch International",
             "Metaurus Advisors LLC",
+            "Mirae Asset Global Index Pvt Ltd.",
             "Morgan Stanley",
             "Morningstar, Inc.",
             "Moscow Stock Exchange OJSC",
@@ -25113,6 +25115,7 @@
             "InvestSMART Funds Management Ltd.",
             "Investlinx Investment Management Ltd.",
             "Investo Gest\u00e3o de Recursos Ltda.",
+            "Ionic Capital Management Holdings LP",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
             "J Lamarck SpA",
@@ -25181,7 +25184,6 @@
             "Middlefield Group",
             "Migdal Insurance & Financial Holdings Ltd.",
             "Miller Value Partners LLC",
-            "Milliman, Inc.",
             "Minsheng Royal Fund Management Co., Ltd.",
             "Mirae Asset Global Investments Co., Ltd.",
             "Mitsubishi UFJ Financial Group, Inc.",
@@ -25218,7 +25220,6 @@
             "Obra Capital, Inc.",
             "Ocean Park Asset Management LLC",
             "Oneascent Holdings LLC",
-            "Operadora Actinver SA de CV",
             "Optimize Financial, Inc.",
             "Otter Creek Advisors LLC",
             "Oversea-Chinese Banking Corp. Ltd.",
