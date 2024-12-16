@@ -18961,7 +18961,6 @@
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
-            "Immutable",
             "Injective",
             "Internet Computer",
             "JUST",
@@ -18991,7 +18990,6 @@
             "Ravencoin",
             "Raydium",
             "Render",
-            "Rocket Pool",
             "Shiba Inu",
             "Solana",
             "Stacks",
@@ -19002,6 +19000,7 @@
             "THORChain",
             "TRON",
             "Tether USDt",
+            "Threshold",
             "Toncoin",
             "Tribe",
             "UNUS SED LEO",
@@ -19063,7 +19062,6 @@
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCICP",
-            "XTVCIMX",
             "XTVCINJ",
             "XTVCJST",
             "XTVCJTO",
@@ -19087,7 +19085,6 @@
             "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRENDER",
-            "XTVCRPL",
             "XTVCRUNE",
             "XTVCRVN",
             "XTVCSHIB",
@@ -19097,6 +19094,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
+            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRIBE",
@@ -19171,8 +19169,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
