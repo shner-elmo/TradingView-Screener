@@ -14705,13 +14705,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14719,7 +14712,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14727,6 +14720,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21414,6 +21414,7 @@
             "Barrow Hanley",
             "Batavia",
             "Beacon",
+            "BeeHive",
             "Beta",
             "BetaPro",
             "BetaShares",
@@ -21877,7 +21878,6 @@
             "SPDR",
             "SRH",
             "SSI",
-            "SSIF",
             "STF",
             "SWP",
             "SWS",
@@ -24541,7 +24541,6 @@
             "Comdaq Metals Ltd.",
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
-            "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "ECPI SRL",
@@ -24640,7 +24639,6 @@
             "ProShare Advisors LLC",
             "QNB Finans Portf\u00f6y Y\u00f6netimi AS",
             "Quant Insight Ltd.",
-            "Quantix Commodities Indices LLC",
             "Quantix Commodities LP",
             "Reality Shares Advisors LLC",
             "Red Rocks Capital LLC",
@@ -25313,7 +25311,6 @@
             "Sausalito Partners LLC",
             "Sberbank Russia PJSC",
             "Schroders Plc",
-            "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
