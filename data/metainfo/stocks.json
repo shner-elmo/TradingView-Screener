@@ -36,6 +36,10 @@
                 "name": "FTSE ADX 15"
             },
             {
+                "id": "ADX:FADXI15",
+                "name": "FTSE ADX 15 Islamic"
+            },
+            {
                 "id": "ASX:XAO",
                 "name": "All Ordinaries"
             },
@@ -3549,7 +3553,6 @@
         "t": "text",
         "r": [
             "",
-            "EMQI",
             "MAIN",
             "OTCQB",
             "OTCQX",
@@ -14734,13 +14737,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14748,7 +14744,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14756,6 +14752,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21476,6 +21479,7 @@
             "ClearShares",
             "Clockwise Capital",
             "Clough",
+            "Coastal",
             "CoinShares",
             "Columbia",
             "Conductor Fund",
@@ -21528,6 +21532,7 @@
             "ETC",
             "ETFB",
             "ETFS",
+            "ETFSA",
             "ETRACS",
             "Eagle",
             "Eastspring",
@@ -21631,6 +21636,7 @@
             "Hwabao",
             "Hypatia Capital",
             "Hyperion",
+            "Hyundai",
             "I.B.I.",
             "ICBC",
             "ICICI",
@@ -21831,6 +21837,7 @@
             "Q3",
             "QR",
             "QRAFT",
+            "QVGMEX",
             "Quadratic",
             "Quadravest",
             "QuantaShares",
@@ -21879,6 +21886,7 @@
             "SPDR",
             "SRH",
             "SSI",
+            "SSIF",
             "STF",
             "SWP",
             "SWS",
@@ -22754,7 +22762,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24025,6 +24032,7 @@
             "SYML:ADX;FADGI",
             "SYML:ADX;FADGMI",
             "SYML:ADX;FADX15",
+            "SYML:ADX;FADXI15",
             "SYML:ASX;XAO",
             "SYML:ASX;XFL",
             "SYML:ASX;XJO",
@@ -24542,6 +24550,7 @@
             "Comdaq Metals Ltd.",
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
+            "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -25312,6 +25321,7 @@
             "Sausalito Partners LLC",
             "Sberbank Russia PJSC",
             "Schroders Plc",
+            "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
