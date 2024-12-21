@@ -2311,6 +2311,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14723,14 +14724,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14751,14 +14752,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21367,7 +21368,6 @@
             "Allspring",
             "Alpha Architect",
             "Alpha Blue Capital",
-            "AlphaMark",
             "Alphinity",
             "Alternative Access",
             "Altrius",
@@ -21566,6 +21566,7 @@
             "Fineco",
             "Fire Funds",
             "Firetraill",
+            "First Eagle",
             "First Manhattan",
             "First Metro",
             "First Seafront",
@@ -21577,6 +21578,7 @@
             "Foundations",
             "Franklin",
             "Freedom Day",
+            "Frontier",
             "Fubon",
             "Fuh Hwa",
             "Fullgoal",
@@ -22643,6 +22645,7 @@
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "UG",
             "US",
@@ -22761,9 +22764,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24866,7 +24867,6 @@
             "Allianz SE",
             "Allspring Group Holdings LLC",
             "Alpha Services & Holdings SA",
-            "AlphaMark Advisors LLC",
             "Alternative Access Funds LLC",
             "AmeriLife Group LLC",
             "American Century Cos., Inc.",
@@ -24888,6 +24888,7 @@
             "Atlas Capital Team, Inc.",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
+            "BCP CC Holdings LP",
             "BNK Financial Group, Inc.",
             "BNP Paribas SA",
             "BOCI-Prudential Asset Management Ltd.",
@@ -25023,7 +25024,6 @@
             "Evolve Funds Group, Inc.",
             "Exchange Traded Managers Group LLC",
             "Expat Capital AD",
-            "F41 Investments LLC",
             "FIL Ltd.",
             "FMC Group Holdings LP",
             "FMR LLC",
@@ -25046,6 +25046,7 @@
             "Founder Fubon Fund Management Co., Ltd.",
             "Franklin Resources, Inc.",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
+            "Frontier Asset Management LLC",
             "Fubon Financial Holding Co., Ltd.",
             "Fuh Hwa Securities Investment Trust Co., Ltd.",
             "Fullgoal Fund Management Co., Ltd.",

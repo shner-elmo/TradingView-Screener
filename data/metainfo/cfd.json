@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18949,6 +18949,7 @@
             "Curve DAO Token",
             "Dai",
             "DeXe",
+            "DeepBook Protocol",
             "Dogecoin",
             "Ethena",
             "Ethena USDe",
@@ -18981,12 +18982,10 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Optimism",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
             "Polkadot",
-            "Radix",
             "Ravencoin",
             "Raydium",
             "Render",
@@ -19008,6 +19007,7 @@
             "USDD",
             "Uniswap",
             "VeChain",
+            "Virtuals Protocol",
             "WOO",
             "Wormhole",
             "Wrapped eETH",
@@ -19044,6 +19044,7 @@
             "XTVCCRV",
             "XTVCCVX",
             "XTVCDAI",
+            "XTVCDEEPB",
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
@@ -19080,7 +19081,6 @@
             "XTVCNEAR",
             "XTVCOKB",
             "XTVCOM",
-            "XTVCOP",
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
@@ -19105,12 +19105,12 @@
             "XTVCUSDEE",
             "XTVCUSDT",
             "XTVCVET",
+            "XTVCVIRTUAL",
             "XTVCW",
             "XTVCWEETH",
             "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
-            "XTVCXRD",
             "XTVCXRP",
             "XTVCYFI",
             "XTVCZRX"
@@ -19170,8 +19170,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
