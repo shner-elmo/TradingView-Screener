@@ -7067,8 +7067,8 @@
             "KRW",
             "KWD",
             "KZT",
+            "LAJ",
             "MAD",
-            "MNT",
             "MXN",
             "MXV",
             "NGN",
@@ -7081,7 +7081,6 @@
             "PYG",
             "RON",
             "RUB",
-            "RWF",
             "SAR",
             "SEK",
             "SGD",
@@ -7089,12 +7088,12 @@
             "TND",
             "TRY",
             "TZS",
-            "UAH",
             "USD",
             "UVA",
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7175,6 +7174,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
