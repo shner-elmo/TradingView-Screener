@@ -14710,14 +14710,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14738,14 +14738,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21696,6 +21696,7 @@
             "L1 Capital",
             "LGIM",
             "LIC Mutual Fund",
+            "LSV",
             "Langar",
             "LeaderShares",
             "Leatherback",
@@ -21782,6 +21783,7 @@
             "Nippon",
             "Nomura",
             "North Shore",
+            "North Square",
             "Nu",
             "Numoro",
             "Nuveen",
@@ -22765,7 +22767,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25069,6 +25072,7 @@
             "Grantham, Mayo, Van Otterloo & Co. LLC",
             "Grasim Industries Ltd.",
             "Grayscale Investments LLC",
+            "Great Eastern Holdings Ltd.",
             "Greenbay Acquisitions Ltd.",
             "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
@@ -25206,6 +25210,7 @@
             "NBSH Acquisition LLC",
             "NH Investment & Securities Co., Ltd.",
             "NH-Amundi Asset Management Co., Ltd.",
+            "NSI Holdings, Inc.",
             "NZC Capital LLC",
             "NZX Ltd.",
             "Nanuk Asset Management Pty Ltd.",
@@ -25225,7 +25230,6 @@
             "ONEFUND LLC",
             "ORIX Corp.",
             "OTP Bank Nyrt",
-            "Obra Capital, Inc.",
             "Ocean Park Asset Management LLC",
             "Oneascent Holdings LLC",
             "Optimize Financial, Inc.",

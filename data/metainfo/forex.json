@@ -1143,7 +1143,6 @@
             "SZL",
             "THB",
             "TJS",
-            "TMT",
             "TND",
             "TOP",
             "TRY",
@@ -12130,13 +12129,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12144,7 +12136,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12158,7 +12150,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12166,6 +12158,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19142,7 +19141,6 @@
             "SZL",
             "THB",
             "TJS",
-            "TMT",
             "TND",
             "TOP",
             "TRY",
