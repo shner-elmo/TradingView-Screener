@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18958,7 +18958,6 @@
             "Fantom",
             "Filecoin",
             "Frax",
-            "Frax Share",
             "GMX",
             "Gemini Dollar",
             "Gnosis",
@@ -18973,6 +18972,7 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
+            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -18982,6 +18982,7 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
+            "Optimism",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
@@ -19058,7 +19059,6 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19073,6 +19073,7 @@
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
+            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19081,6 +19082,7 @@
             "XTVCNEAR",
             "XTVCOKB",
             "XTVCOM",
+            "XTVCOP",
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",

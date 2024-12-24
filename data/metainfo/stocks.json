@@ -2242,7 +2242,6 @@
             "Finland",
             "France",
             "Gabon",
-            "Georgia",
             "Germany",
             "Gibraltar",
             "Greece",
@@ -14710,13 +14709,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14724,7 +14716,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14732,6 +14724,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14752,14 +14751,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21366,6 +21365,7 @@
             "Alinma",
             "Allianz",
             "Allspring",
+            "Alpha",
             "Alpha Architect",
             "Alpha Blue Capital",
             "Alphinity",
@@ -21662,7 +21662,6 @@
             "Itau",
             "JKO",
             "JPMorgan",
-            "Jacob",
             "Janus Henderson",
             "Jensen",
             "John Hancock",
@@ -21775,7 +21774,6 @@
             "Neuberger Berman",
             "New York Life Investments",
             "Newday",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22576,7 +22574,6 @@
             "FR",
             "GA",
             "GB",
-            "GE",
             "GI",
             "GL",
             "GR",
@@ -22766,9 +22763,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25133,7 +25130,6 @@
             "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
-            "Jacob Asset Management of New York LLC",
             "Janus Henderson Group Plc",
             "Japan Agricultural Cooperatives Group",
             "Jensen Investment Management, Inc.",
@@ -25208,6 +25204,7 @@
             "Mulvihill Capital Management, Inc.",
             "Munro Investment Holdings Pty Ltd.",
             "NBSH Acquisition LLC",
+            "NEOS Investments LLC",
             "NH Investment & Securities Co., Ltd.",
             "NH-Amundi Asset Management Co., Ltd.",
             "NSI Holdings, Inc.",
@@ -25216,10 +25213,8 @@
             "Nanuk Asset Management Pty Ltd.",
             "National Bank of Canada",
             "Neil Azous Revocable Trust",
-            "Neos Investments LLC",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
