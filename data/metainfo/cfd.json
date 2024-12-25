@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18958,10 +18958,11 @@
             "Fantom",
             "Filecoin",
             "Frax",
-            "GMX",
+            "Frax Share",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
+            "Hyperliquid",
             "Injective",
             "Internet Computer",
             "JUST",
@@ -18982,7 +18983,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Optimism",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
@@ -19059,10 +19059,11 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFTM",
-            "XTVCGMX",
+            "XTVCFXS",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
+            "XTVCHYPEH",
             "XTVCICP",
             "XTVCINJ",
             "XTVCJST",
@@ -19082,7 +19083,6 @@
             "XTVCNEAR",
             "XTVCOKB",
             "XTVCOM",
-            "XTVCOP",
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
@@ -19171,6 +19171,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]

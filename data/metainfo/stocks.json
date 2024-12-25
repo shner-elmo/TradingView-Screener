@@ -14737,13 +14737,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14751,7 +14744,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14759,6 +14752,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21536,6 +21536,7 @@
             "ETRACS",
             "Eagle",
             "Eastspring",
+            "EasyETFs",
             "Eaton Vance",
             "Edelweiss",
             "Empiricus",
@@ -21773,7 +21774,6 @@
             "Neos",
             "Neuberger Berman",
             "New York Life Investments",
-            "Newday",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -24961,7 +24961,6 @@
             "China Southern Asset Management Co., Ltd.",
             "China Universal Asset Management Co., Ltd.",
             "China Universal Fund Management Co. Ltd.",
-            "Client First Investment Management LLC",
             "Clockwise Capital LLC",
             "Clough Capital Partners LLC",
             "Cohanzick Management LLC",
@@ -25012,6 +25011,7 @@
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
             "Eagle Capital Management LLC",
+            "EasyETFs (RF) Pty Ltd",
             "Edelweiss Financial Services Ltd.",
             "El Dorado Asset Management Sociedad Administradora de Fondos",
             "Empirical Finance LLC",
@@ -25238,7 +25238,6 @@
             "PT Insight Investments Management",
             "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
-            "PT Panin Sekuritas Tbk",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
@@ -25270,7 +25269,6 @@
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Public Trust Advisors LLC",
@@ -25291,6 +25289,7 @@
             "Resolute Investment Managers, Inc.",
             "Retireful LLC",
             "Ridgeline Research LLC",
+            "Rock Point Partners LLC",
             "Roundhill Financial, Inc.",
             "Royal Bank of Canada",
             "Running Oak Capital LLC",
