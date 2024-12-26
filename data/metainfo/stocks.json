@@ -14737,13 +14737,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14751,7 +14744,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14759,6 +14752,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21694,7 +21694,6 @@
             "Kyobo",
             "L&G",
             "L1 Capital",
-            "LGIM",
             "LIC Mutual Fund",
             "LSV",
             "Langar",
@@ -25139,7 +25138,7 @@
             "KBA Consulting Management Ltd.",
             "KCGI Asset Management Co., Ltd.",
             "KGI Financial Holding Co., Ltd.",
-            "KGI Securities (Thailand) Public Co., Ltd.",
+            "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
             "Kasikornbank Public Co. Ltd.",
