@@ -604,6 +604,10 @@
                 "name": "ISEQ All Share Index"
             },
             {
+                "id": "EURONEXT:N100",
+                "name": "Euronext 100 Index"
+            },
+            {
                 "id": "EURONEXT:OBX",
                 "name": "OBX Total Return Index"
             },
@@ -2283,7 +2287,6 @@
             "New Zealand",
             "Nigeria",
             "Norway",
-            "Oman",
             "Pakistan",
             "Panama",
             "Papua New Guinea",
@@ -14709,14 +14712,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14737,14 +14740,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22050,7 +22053,6 @@
             "Zhongrong",
             "Ziraat",
             "abrdn",
-            "iA",
             "iA Clarington",
             "iFreeETF",
             "iM",
@@ -22616,7 +22618,6 @@
             "NL",
             "NO",
             "NZ",
-            "OM",
             "PA",
             "PE",
             "PG",
@@ -22762,9 +22763,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -24174,6 +24175,7 @@
             "SYML:EURONEXT;BEL20",
             "SYML:EURONEXT;ISE20",
             "SYML:EURONEXT;ISEQ",
+            "SYML:EURONEXT;N100",
             "SYML:EURONEXT;OBX",
             "SYML:EURONEXT;OSEBX",
             "SYML:EURONEXT;PSI20",
@@ -24918,6 +24920,7 @@
             "Bitwise Asset Management, Inc.",
             "Bitwise Europe GmbH",
             "Blackrock Finance, Inc.",
+            "Blackrock, Inc.",
             "Bondbloxx Investment Management Corp.",
             "Bosera Asset Management Co., Ltd.",
             "Brandes Worldwide Holdings LP",
@@ -27307,7 +27310,6 @@
             "OM",
             "PA",
             "PE",
-            "PF",
             "PG",
             "PH",
             "PK",

@@ -12018,13 +12018,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18949,7 +18949,6 @@
             "Curve DAO Token",
             "Dai",
             "DeXe",
-            "DeepBook Protocol",
             "Dogecoin",
             "Ethena",
             "Ethena USDe",
@@ -19001,6 +19000,7 @@
             "THORChain",
             "TRON",
             "Tether USDt",
+            "Threshold",
             "Toncoin",
             "Tribe",
             "UNUS SED LEO",
@@ -19045,7 +19045,6 @@
             "XTVCCRV",
             "XTVCCVX",
             "XTVCDAI",
-            "XTVCDEEPB",
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
@@ -19097,6 +19096,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
+            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRIBE",
@@ -19171,9 +19171,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

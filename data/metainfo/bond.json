@@ -2317,6 +2317,7 @@
             "NSE:TATAPOWER",
             "NSE:TATASTEEL",
             "NSE:TFCILTD",
+            "NSE:TIMETECHNO",
             "NSE:TRU",
             "NSE:UGROCAP",
             "NSE:ULTRACEMCO",
@@ -5445,6 +5446,7 @@
             "NSE:TATAPOWER",
             "NSE:TATASTEEL",
             "NSE:TFCILTD",
+            "NSE:TIMETECHNO",
             "NSE:TRU",
             "NSE:UGROCAP",
             "NSE:ULTRACEMCO",
@@ -6148,6 +6150,7 @@
             "NYSE:TWLO",
             "NYSE:TWO",
             "NYSE:TWTR",
+            "NYSE:TXNM",
             "NYSE:TXT",
             "NYSE:TYL",
             "NYSE:U",
@@ -7182,7 +7185,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
@@ -7532,7 +7534,9 @@
     {
         "n": "region",
         "t": "text",
-        "r": []
+        "r": [
+            "MA"
+        ]
     },
     {
         "n": "rtc",
