@@ -2287,6 +2287,7 @@
             "New Zealand",
             "Nigeria",
             "Norway",
+            "Oman",
             "Pakistan",
             "Panama",
             "Papua New Guinea",
@@ -14726,14 +14727,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14754,14 +14755,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21633,7 +21634,6 @@
             "Honeytree",
             "Hony Horizon",
             "Horizon",
-            "Horizon Kinetics",
             "Hoya",
             "HuaAn",
             "Huatai",
@@ -21774,6 +21774,7 @@
             "Natixis",
             "Ned Davis Research",
             "Neos",
+            "NestYield",
             "Neuberger Berman",
             "New York Life Investments",
             "Nicholas",
@@ -21787,6 +21788,7 @@
             "Nu",
             "Numoro",
             "Nuveen",
+            "OPAL",
             "OTP",
             "Oakmark",
             "Obermatt",
@@ -21903,7 +21905,6 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -21983,6 +21984,7 @@
             "True",
             "TrueShares",
             "Tuttle Capital",
+            "Tweedy, Browne Co.",
             "Twin Oak",
             "UBS",
             "UOB",
@@ -22053,6 +22055,7 @@
             "Zhongrong",
             "Ziraat",
             "abrdn",
+            "iA",
             "iA Clarington",
             "iFreeETF",
             "iM",
@@ -22618,6 +22621,7 @@
             "NL",
             "NO",
             "NZ",
+            "OM",
             "PA",
             "PE",
             "PG",
@@ -22764,8 +22768,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23338,13 +23341,11 @@
             "2145",
             "2146",
             "2147",
-            "2148",
             "2149",
             "2150",
             "2152",
             "2153",
             "2154",
-            "2156",
             "2157",
             "2158",
             "2159",
@@ -25073,6 +25074,7 @@
             "Grayscale Investments LLC",
             "Great Eastern Holdings Ltd.",
             "Greenbay Acquisitions Ltd.",
+            "Grupo Aval Acciones y Valores SA",
             "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",
@@ -25129,7 +25131,6 @@
             "Ionic Capital Management Holdings LP",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",

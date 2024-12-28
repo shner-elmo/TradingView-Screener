@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18934,6 +18934,7 @@
             "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
+            "Baby Doge Coin",
             "Bitcoin",
             "Bitcoin Cash",
             "Bitget Token",
@@ -18954,7 +18955,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Fantom",
             "Filecoin",
             "Frax",
             "Frax Share",
@@ -18980,6 +18980,7 @@
             "Marinade Staked SOL",
             "Monero",
             "Morpho",
+            "Movement",
             "MultiversX",
             "NEAR Protocol",
             "OKB",
@@ -19000,7 +19001,6 @@
             "THORChain",
             "TRON",
             "Tether USDt",
-            "Threshold",
             "Toncoin",
             "Tribe",
             "UNUS SED LEO",
@@ -19033,6 +19033,7 @@
             "XTVCARBI",
             "XTVCATOM",
             "XTVCAVAX",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBGB",
             "XTVCBNB",
@@ -19057,7 +19058,6 @@
             "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
-            "XTVCFTM",
             "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
@@ -19079,6 +19079,7 @@
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
+            "XTVCMOVEM",
             "XTVCMSOL",
             "XTVCNEAR",
             "XTVCOKB",
@@ -19096,7 +19097,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
-            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRIBE",
@@ -19172,8 +19172,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
