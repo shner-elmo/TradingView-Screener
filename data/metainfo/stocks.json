@@ -14713,14 +14713,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22024,6 +22024,7 @@
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
+            "WEBs",
             "WHITEWOLF",
             "Wahed",
             "Wanjia",
@@ -24920,7 +24921,6 @@
             "Bitcoin Capital AG",
             "Bitwise Asset Management, Inc.",
             "Bitwise Europe GmbH",
-            "Blackrock Finance, Inc.",
             "Blackrock, Inc.",
             "Bondbloxx Investment Management Corp.",
             "Bosera Asset Management Co., Ltd.",
@@ -25094,6 +25094,7 @@
             "Harvest Portfolios Group, Inc.",
             "Hashdex AG",
             "Hashdex Gestora de Recursos Ltda.",
+            "Hashdex Ltd.",
             "Hejaz Capital Pty Ltd.",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
@@ -25291,6 +25292,7 @@
             "Renaissance Capital LLC",
             "Resolute Investment Managers, Inc.",
             "Retireful LLC",
+            "Reverence Capital Partners LLC",
             "Ridgeline Research LLC",
             "Rock Point Partners LLC",
             "Roundhill Financial, Inc.",

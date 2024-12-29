@@ -208,7 +208,6 @@
             "South Africa",
             "South Korea",
             "Spain",
-            "Sri Lanka",
             "Suriname",
             "Sweden",
             "Switzerland",
@@ -6969,7 +6968,6 @@
             "KZ",
             "LB",
             "LI",
-            "LK",
             "LT",
             "LU",
             "LV",
@@ -7108,6 +7106,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7186,6 +7185,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
