@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18973,17 +18973,16 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
-            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
             "Marinade Staked SOL",
             "Monero",
             "Morpho",
-            "Movement",
             "MultiversX",
             "NEAR Protocol",
             "OKB",
+            "Optimism",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pepe",
@@ -19001,6 +19000,7 @@
             "THORChain",
             "TRON",
             "Tether USDt",
+            "Threshold",
             "Toncoin",
             "Tribe",
             "UNUS SED LEO",
@@ -19074,16 +19074,15 @@
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
-            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
-            "XTVCMOVEM",
             "XTVCMSOL",
             "XTVCNEAR",
             "XTVCOKB",
             "XTVCOM",
+            "XTVCOP",
             "XTVCPEPE",
             "XTVCPOLYG",
             "XTVCRAY",
@@ -19097,6 +19096,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
+            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRIBE",
@@ -19172,7 +19172,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

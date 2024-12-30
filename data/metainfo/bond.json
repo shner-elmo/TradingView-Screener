@@ -2195,6 +2195,7 @@
             "NSE:FEL",
             "NSE:FIVESTAR",
             "NSE:FLUOROCHEM",
+            "NSE:FORTIS",
             "NSE:FRETAIL",
             "NSE:GAIL",
             "NSE:GICHSGFIN",
@@ -2315,7 +2316,6 @@
             "NSE:TATAPOWER",
             "NSE:TATASTEEL",
             "NSE:TFCILTD",
-            "NSE:TIMETECHNO",
             "NSE:TRU",
             "NSE:UGROCAP",
             "NSE:ULTRACEMCO",
@@ -5337,6 +5337,7 @@
             "NSE:FEL",
             "NSE:FIVESTAR",
             "NSE:FLUOROCHEM",
+            "NSE:FORTIS",
             "NSE:FRETAIL",
             "NSE:GAIL",
             "NSE:GICHSGFIN",
@@ -5445,7 +5446,6 @@
             "NSE:TATAPOWER",
             "NSE:TATASTEEL",
             "NSE:TFCILTD",
-            "NSE:TIMETECHNO",
             "NSE:TRU",
             "NSE:UGROCAP",
             "NSE:ULTRACEMCO",
@@ -7534,9 +7534,7 @@
     {
         "n": "region",
         "t": "text",
-        "r": [
-            "MA"
-        ]
+        "r": []
     },
     {
         "n": "rtc",
