@@ -22768,9 +22768,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25007,7 +25007,6 @@
             "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
-            "Dynamic Shares LLC",
             "E Fund Management Co., Ltd.",
             "EPWA Holding Co. LLC",
             "EQT Holdings Ltd.",
@@ -25156,7 +25155,7 @@
             "Korea Electric Power Corp.",
             "Korea Investment Holdings Co., Ltd.",
             "Kotak Mahindra Bank Ltd.",
-            "Kurv Investment Management LLC",
+            "Kurv Investment, Inc.",
             "Kyobo AXA Investment Managers Co., Ltd.",
             "L1 Capital International (Pty) Ltd.",
             "LIC Mutual Fund Asset Management Ltd.",
@@ -26095,6 +26094,7 @@
             "9524",
             "9527",
             "9528",
+            "9529",
             "9530",
             "9532",
             "9535",
@@ -27255,7 +27255,6 @@
             "GE",
             "GG",
             "GH",
-            "GI",
             "GL",
             "GR",
             "GT",
