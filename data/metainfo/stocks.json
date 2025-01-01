@@ -14713,13 +14713,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14727,7 +14720,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14735,6 +14728,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14755,14 +14755,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21502,8 +21502,8 @@
             "Cultivar",
             "D-X Funds",
             "DB",
+            "DB Platinum",
             "DGA",
-            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -23154,7 +23154,6 @@
             "KWD",
             "MXN",
             "MYR",
-            "NOK",
             "NZD",
             "PHP",
             "PKR",
@@ -24979,7 +24978,6 @@
             "Cullen Capital Management LLC",
             "Cultivar Capital, Inc.",
             "DB Financial Investment Co., Ltd.",
-            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",
             "Daintree Capital Management Pty Ltd.",
@@ -27258,7 +27256,6 @@
             "GL",
             "GR",
             "GT",
-            "GU",
             "GY",
             "HK",
             "HR",

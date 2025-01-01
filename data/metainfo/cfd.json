@@ -12004,14 +12004,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18950,6 +18950,7 @@
             "Curve DAO Token",
             "Dai",
             "DeXe",
+            "DeepBook Protocol",
             "Dogecoin",
             "Ethena",
             "Ethena USDe",
@@ -19000,7 +19001,6 @@
             "THORChain",
             "TRON",
             "Tether USDt",
-            "Threshold",
             "Toncoin",
             "Tribe",
             "UNUS SED LEO",
@@ -19046,6 +19046,7 @@
             "XTVCCRV",
             "XTVCCVX",
             "XTVCDAI",
+            "XTVCDEEPB",
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
@@ -19096,7 +19097,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
-            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRIBE",
