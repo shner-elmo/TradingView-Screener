@@ -18959,7 +18959,6 @@
             "Filecoin",
             "Frax",
             "Frax Share",
-            "GMX",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -18974,6 +18973,7 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
+            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -19060,7 +19060,6 @@
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFXS",
-            "XTVCGMX",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
@@ -19075,6 +19074,7 @@
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
+            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19171,9 +19171,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

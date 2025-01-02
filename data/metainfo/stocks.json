@@ -14713,14 +14713,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14755,14 +14755,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21565,6 +21565,7 @@
             "Fat Prophets",
             "Federated Hermes",
             "Fidelity",
+            "Fideuram",
             "Figment",
             "FinEx ETF",
             "Finans Asset Management",
@@ -21891,7 +21892,6 @@
             "SPDR",
             "SRH",
             "SSI",
-            "SSIF",
             "STF",
             "SWP",
             "SWS",
@@ -22770,7 +22770,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -23349,7 +23350,6 @@
             "2154",
             "2157",
             "2158",
-            "2159",
             "2160",
             "2161",
             "2162",
@@ -24554,7 +24554,6 @@
             "Comdaq Metals Ltd.",
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
-            "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -25144,7 +25143,6 @@
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
-            "Kasikornbank Public Co. Ltd.",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
             "Killir Kapital Management LLC",
@@ -25238,7 +25236,6 @@
             "PT Capital Financial Indonesia Tbk",
             "PT Indo Premier Securities",
             "PT Insight Investments Management",
-            "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
@@ -25271,6 +25268,7 @@
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
             "ProcureAM LLC",
+            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Public Trust Advisors LLC",
@@ -25317,7 +25315,6 @@
             "Sausalito Partners LLC",
             "Sberbank Russia PJSC",
             "Schroders Plc",
-            "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
