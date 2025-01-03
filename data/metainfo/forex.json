@@ -12114,13 +12114,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12128,7 +12121,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12142,7 +12135,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12156,7 +12149,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12164,6 +12157,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19195,7 +19195,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
