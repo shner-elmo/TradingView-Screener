@@ -32,10 +32,10 @@ API. This package retrieves data directly from TradingView without the need for 
 
 ### Key Features
 
-- **Access Over 3000 Fields**: Retrieve data, including OHLC, indicators, and fundamental metrics.
+- **Over 3000 Fields**: OHLC, indicators, fundamental metrics, and much more.
 - **Multiple Markets**: Stocks, crypto, forex, CFD, futures, bonds, and more.
 - **Customizable Timeframes**: Choose timeframes like 1 minute, 5 minutes, 1 hour, or 1 day for each field.
-- **Filter and sort** the results using a **SQL-like syntax**, with support for **And/Or operators** for advanced filtering.
+- **Filter and sort** the results using a SQL-like syntax, with support for And/Or operators for advanced filtering.
 
 
 ### Links
