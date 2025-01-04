@@ -2,7 +2,7 @@
     
   <a href="https://pypi.org/project/tradingview-screener">
     <img alt="PyPi Version"
-         src="https://badge.fury.io/py/tradingview-screener.svg">
+         src="https://badge.fury.io/py/tradingview-screener.svg?icon=si%3Apython">
   </a>
   <a href="https://pypi.org/project/tradingview-screener">
     <img alt="Supported Python versions"
