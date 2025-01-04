@@ -2301,7 +2301,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -2314,7 +2313,6 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
-            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14741,13 +14739,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14755,7 +14746,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14763,6 +14754,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21502,7 +21500,6 @@
             "Cultivar",
             "D-X Funds",
             "DB",
-            "DB Platinum",
             "DGA",
             "DOO",
             "DSP",
@@ -21636,6 +21633,7 @@
             "Honeytree",
             "Hony Horizon",
             "Horizon",
+            "Horizon Kinetics",
             "Hoya",
             "HuaAn",
             "Huatai",
@@ -22644,13 +22642,11 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "TG",
             "TH",
             "TN",
             "TR",
             "TW",
-            "TZ",
             "UA",
             "UG",
             "US",
@@ -22769,9 +22765,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25031,7 +25025,6 @@
             "Fair Oaks Capital Ltd.",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -25127,6 +25120,7 @@
             "InvestSMART Funds Management Ltd.",
             "Investlinx Investment Management Ltd.",
             "Investo Gest\u00e3o de Recursos Ltda.",
+            "Investor Asset Management BV",
             "Ionic Capital Management Holdings LP",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
@@ -25237,6 +25231,7 @@
             "PT Capital Financial Indonesia Tbk",
             "PT Indo Premier Securities",
             "PT Insight Investments Management",
+            "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
