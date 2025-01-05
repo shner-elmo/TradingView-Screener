@@ -3834,6 +3834,7 @@
             "TSX:GWO",
             "TSX:H",
             "TSX:HBM",
+            "TSX:HOM.U",
             "TSX:HOT.U",
             "TSX:IAU",
             "TSX:IFC",
@@ -6624,6 +6625,7 @@
             "TSX:GSY",
             "TSX:GWO",
             "TSX:HBM",
+            "TSX:HOM.U",
             "TSX:HOT.U",
             "TSX:IAU",
             "TSX:IFC",
@@ -7092,6 +7094,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7170,6 +7173,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
