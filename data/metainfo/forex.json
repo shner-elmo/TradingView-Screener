@@ -313,7 +313,6 @@
         "t": "text",
         "r": [
             "ACTIVTRADES",
-            "AFTERPRIME",
             "BLACKBULL",
             "CAPITALCOM",
             "CITYINDEX",
@@ -1127,6 +1126,7 @@
             "RUB",
             "RWF",
             "SAR",
+            "SBD",
             "SCR",
             "SDG",
             "SEK",
@@ -1142,6 +1142,7 @@
             "SZL",
             "THB",
             "TJS",
+            "TMT",
             "TND",
             "TOP",
             "TRY",
@@ -12128,13 +12129,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12142,7 +12136,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12156,7 +12150,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12164,6 +12158,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19125,6 +19126,7 @@
             "RUB",
             "RWF",
             "SAR",
+            "SBD",
             "SCR",
             "SDG",
             "SEK",
@@ -19139,6 +19141,7 @@
             "SZL",
             "THB",
             "TJS",
+            "TMT",
             "TND",
             "TOP",
             "TRY",
@@ -20351,7 +20354,6 @@
         "t": "text",
         "r": [
             "activtrades",
-            "afterprime",
             "alor",
             "blackbullmarkets",
             "capitalcom",
@@ -20529,7 +20531,6 @@
         "t": "text",
         "r": [
             "provider/activtrades",
-            "provider/afterprime",
             "provider/blackbullmarkets",
             "provider/capitalcom",
             "provider/cityindex",

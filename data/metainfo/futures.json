@@ -328,6 +328,7 @@
             "ICEEUR",
             "ICESG",
             "ICEUS",
+            "KRX",
             "LME",
             "MATBAROFEX",
             "MCX",
@@ -348,6 +349,7 @@
             "TAIFEX",
             "TFEX",
             "TFX",
+            "TMX",
             "TOCOM"
         ]
     },
@@ -2705,6 +2707,7 @@
             "source/HNX",
             "source/ICEENDEX",
             "source/ICEUS",
+            "source/KRX",
             "source/LME",
             "source/MATBAROFEX",
             "source/MCX",
@@ -2720,6 +2723,7 @@
             "source/TAIFEX",
             "source/TFEX",
             "source/TFX",
+            "source/TMX",
             "source/TOCOM"
         ]
     },
