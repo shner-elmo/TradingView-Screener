@@ -7111,6 +7111,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7191,6 +7192,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
