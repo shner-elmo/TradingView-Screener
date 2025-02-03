@@ -12018,13 +12018,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12032,7 +12025,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12040,6 +12033,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18926,12 +18926,10 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
-            "Aevo",
             "Algorand",
             "Amp",
             "Aptos",
             "Arbitrum",
-            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18945,7 +18943,6 @@
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18957,6 +18954,7 @@
             "Ethereum",
             "Ethereum Classic",
             "Filecoin",
+            "First Digital USD",
             "Frax",
             "Gemini Dollar",
             "Gnosis",
@@ -18971,6 +18969,7 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
+            "Loopring",
             "MANTRA",
             "Maker",
             "Mantle",
@@ -18996,6 +18995,7 @@
             "Stacks",
             "Stellar",
             "Sui",
+            "Sun (New)",
             "SushiSwap",
             "Synthetix",
             "THORChain",
@@ -19013,7 +19013,6 @@
             "Wormhole",
             "Wrapped eETH",
             "XRP",
-            "dYdX (ethDYDX)",
             "ether.fi",
             "yearn.finance"
         ]
@@ -19026,12 +19025,10 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
-            "XTVCAEVO",
             "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19050,13 +19047,12 @@
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
-            "XTVCDYDX",
             "XTVCEGLD",
             "XTVCENA",
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFET",
+            "XTVCFDUSD",
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCGNO",
@@ -19072,6 +19068,7 @@
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
+            "XTVCLRC",
             "XTVCLTC",
             "XTVCMKR",
             "XTVCMNT",
@@ -19095,6 +19092,7 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
+            "XTVCSUN",
             "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
@@ -19171,8 +19169,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

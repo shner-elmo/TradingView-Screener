@@ -14816,13 +14816,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14830,7 +14823,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14838,6 +14831,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22009,7 +22009,6 @@
             "SPDR",
             "SRH",
             "SSI",
-            "SSIF",
             "STF",
             "SWP",
             "SWS",
@@ -22961,8 +22960,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -24775,7 +24776,6 @@
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
             "Corporate Knights, Inc.",
-            "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -25550,7 +25550,6 @@
             "Saracen Energy Advisors LP",
             "Sberbank Russia PJSC",
             "Schroders Plc",
-            "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
