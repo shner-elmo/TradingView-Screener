@@ -2405,7 +2405,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14844,13 +14843,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14858,7 +14850,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14866,6 +14858,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21667,7 +21666,6 @@
             "FTSE",
             "Fairlead",
             "Faith Investor Services",
-            "Fat Prophets",
             "Federated Hermes",
             "Fidelity",
             "Fideuram",
@@ -21890,6 +21888,7 @@
             "NestYield",
             "Neuberger Berman",
             "New York Life Investments",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22838,7 +22837,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "TG",
             "TH",
             "TN",
@@ -25233,7 +25231,6 @@
             "Dragon Capital Vietfund Management JSC",
             "E Fund Management Co., Ltd.",
             "EPWA Holding Co. LLC",
-            "EQT Holdings Ltd.",
             "ETC Holdings Ltd. (Guernsey)",
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
@@ -25388,6 +25385,7 @@
             "LIC Mutual Fund Asset Management Ltd.",
             "Lagan Holding Co. Trust",
             "Langar Holdings, Inc.",
+            "Lanyon Asset Management Pty Ltd.",
             "Le Mouvement des caisses Desjardins",
             "Legal & General Group Plc",
             "Legend Holdings Corp.",
@@ -25447,6 +25445,7 @@
             "Neil Azous Revocable Trust",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
