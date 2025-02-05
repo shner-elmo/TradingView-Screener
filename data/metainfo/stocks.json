@@ -14815,13 +14815,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14829,7 +14822,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14843,7 +14836,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14851,6 +14844,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21733,6 +21733,7 @@
             "Harvest Funds",
             "Hashdex",
             "Hejaz",
+            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -25317,6 +25318,7 @@
             "Hashdex AG",
             "Hashdex Gestora de Recursos Ltda.",
             "Hejaz Capital Pty Ltd.",
+            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
@@ -25505,6 +25507,7 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
+            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",
