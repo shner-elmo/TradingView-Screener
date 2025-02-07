@@ -1012,7 +1012,6 @@
             "CNY",
             "CZK",
             "DKK",
-            "EGP",
             "EUR",
             "GBP",
             "GBX",
@@ -2384,7 +2383,6 @@
             "CNY",
             "CZK",
             "DKK",
-            "EGP",
             "EUR",
             "GBP",
             "HKD",
@@ -2425,7 +2423,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]

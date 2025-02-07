@@ -12004,13 +12004,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12018,7 +12011,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12026,6 +12019,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18930,7 +18930,6 @@
             "Amp",
             "Aptos",
             "Arbitrum",
-            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18957,6 +18956,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "GateToken",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -18992,10 +18992,10 @@
             "Render",
             "Shiba Inu",
             "Solana",
-            "Spell Token",
             "Stacks",
             "Stellar",
             "Sui",
+            "Sun (New)",
             "SushiSwap",
             "SwftCoin",
             "Synthetix",
@@ -19054,10 +19054,10 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCFDUSD",
-            "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCGNO",
+            "XTVCGT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCHYPEH",
@@ -19090,10 +19090,10 @@
             "XTVCSHIB",
             "XTVCSNX",
             "XTVCSOL",
-            "XTVCSPELL",
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
+            "XTVCSUN",
             "XTVCSUSHI",
             "XTVCSWFTC",
             "XTVCT",

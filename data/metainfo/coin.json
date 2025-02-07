@@ -11945,14 +11945,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11987,14 +11987,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18858,6 +18858,7 @@
             "ethereum-ecosystem",
             "everscale-ecosystem",
             "fantom-ecosystem",
+            "gnosis-chain-ecosystem",
             "harmony-ecosystem",
             "heco-ecosystem",
             "iotex-ecosystem",
@@ -18870,6 +18871,7 @@
             "polkadot-ecosystem",
             "polygon-ecosystem",
             "pulsechain-ecosystem",
+            "pump-fun-ecosystem",
             "solana-ecosystem",
             "sui-ecosystem",
             "terra-ecosystem",
@@ -18877,6 +18879,7 @@
             "theta-network-ecosystem",
             "toncoin-ecosystem",
             "tron-ecosystem",
+            "virtuals-protocol-ecosystem",
             "zilliqa-ecosystem"
         ]
     },
@@ -19026,6 +19029,7 @@
             "lending-borrowing",
             "logistics",
             "loyalty-rewards",
+            "made-in-america",
             "marketing",
             "marketplace",
             "memecoins",
@@ -19042,6 +19046,7 @@
             "social-media-content",
             "sports",
             "stablecoins",
+            "tap-to-earn",
             "tourism",
             "transport",
             "web3",
