@@ -1489,6 +1489,7 @@
             "ARS",
             "ATLAS",
             "AUD",
+            "AUSD",
             "AXLUSDC",
             "BAKE",
             "BB",
@@ -1668,7 +1669,6 @@
             "PYUSD",
             "QUICK",
             "RAY",
-            "RENBTC",
             "RENDER",
             "RETH",
             "RLUSD",
@@ -1766,7 +1766,6 @@
             "WTAO",
             "WUSD",
             "WXDAI",
-            "X",
             "XAUT",
             "XDC",
             "XEGLD",
@@ -12764,13 +12763,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12778,7 +12770,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12792,7 +12784,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12800,6 +12792,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20180,6 +20179,7 @@
             "XTVC1ART",
             "XTVCADA",
             "XTVCAETHC",
+            "XTVCAFCVX",
             "XTVCAGENTFUN",
             "XTVCAGEUR",
             "XTVCAIDOG",
@@ -20195,6 +20195,7 @@
             "XTVCARENA",
             "XTVCASDIC",
             "XTVCATLAS",
+            "XTVCAUSD",
             "XTVCAXLUSDC",
             "XTVCBAKE",
             "XTVCBB",
@@ -20298,7 +20299,6 @@
             "XTVCGOUT",
             "XTVCGRAIL",
             "XTVCGRND",
-            "XTVCGTAT",
             "XTVCGUSD",
             "XTVCHETH",
             "XTVCHITB",
@@ -20393,7 +20393,6 @@
             "XTVCQUICK",
             "XTVCRAY",
             "XTVCREDX",
-            "XTVCRENBTC",
             "XTVCRENDER",
             "XTVCRETH",
             "XTVCRLUSD",
@@ -20502,6 +20501,7 @@
             "XTVCWMATIC",
             "XTVCWORLD",
             "XTVCWPE",
+            "XTVCWPOL",
             "XTVCWRON",
             "XTVCWRUB",
             "XTVCWSHIB",
@@ -20510,7 +20510,6 @@
             "XTVCWTBC",
             "XTVCWUSD2",
             "XTVCWXDAI",
-            "XTVCX",
             "XTVCX28",
             "XTVCXAUT",
             "XTVCXDC",
