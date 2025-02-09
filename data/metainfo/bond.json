@@ -120,6 +120,7 @@
             "Burundi",
             "Cameroon",
             "Canada",
+            "Cape Verde",
             "Cayman Islands",
             "Chile",
             "China",
@@ -1053,6 +1054,7 @@
             "EURONEXT:OPM",
             "EURONEXT:OR",
             "EURONEXT:ORA",
+            "EURONEXT:OVH",
             "EURONEXT:PEUG",
             "EURONEXT:PHARM",
             "EURONEXT:PLX",
@@ -4413,6 +4415,7 @@
             "EURONEXT:OPM",
             "EURONEXT:OR",
             "EURONEXT:ORA",
+            "EURONEXT:OVH",
             "EURONEXT:PEUG",
             "EURONEXT:PHARM",
             "EURONEXT:PLX",
@@ -4625,7 +4628,6 @@
             "KRX:329180",
             "KRX:373220",
             "KSE:BURG",
-            "LS:812814",
             "LS:931553",
             "LS:A1T8G1",
             "LS:A2AFQV",
@@ -6917,6 +6919,7 @@
             "CN",
             "CO",
             "CR",
+            "CV",
             "CY",
             "CZ",
             "DE",
@@ -7050,7 +7053,6 @@
             "CNH",
             "CNY",
             "COP",
-            "CRC",
             "CZK",
             "DKK",
             "DOP",
@@ -7073,6 +7075,7 @@
             "KWD",
             "KZT",
             "LAJ",
+            "MAD",
             "MXN",
             "MXV",
             "NGN",
@@ -7098,6 +7101,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7178,6 +7182,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
