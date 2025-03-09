@@ -1537,7 +1537,6 @@
             "FLD",
             "FLOKI",
             "FOMO",
-            "FOX",
             "FPI",
             "FRAX",
             "FRXETH",
@@ -1556,7 +1555,6 @@
             "HELP",
             "HIT",
             "HNT",
-            "HNY",
             "HTX",
             "IOTX",
             "IQ",
@@ -12725,13 +12723,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12739,7 +12730,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12747,6 +12738,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12767,14 +12765,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20460,7 +20458,6 @@
             "XTVCFLD",
             "XTVCFLOKI",
             "XTVCFOMO",
-            "XTVCFOX",
             "XTVCFPI",
             "XTVCFRAX",
             "XTVCFRAXPYUSD",
@@ -20484,7 +20481,6 @@
             "XTVCHETH",
             "XTVCHITB",
             "XTVCHNT",
-            "XTVCHNY",
             "XTVCHOWDY",
             "XTVCHTX",
             "XTVCIOTX",
