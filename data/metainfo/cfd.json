@@ -3394,6 +3394,34 @@
         "rd": true
     },
     {
+        "n": "AvgValue.Traded_10d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AvgValue.Traded_30d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AvgValue.Traded_60d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AvgValue.Traded_90d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "BB.basis",
         "t": "number",
         "r": null,
@@ -12018,13 +12046,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12032,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12046,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18939,7 +18967,6 @@
             "Bittensor",
             "Cardano",
             "Chainlink",
-            "Clearpool",
             "Compound",
             "Conflux",
             "Convex Finance",
@@ -18956,6 +18983,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "GMX",
             "GateToken",
             "Gemini Dollar",
             "Gnosis",
@@ -18966,6 +18994,7 @@
             "JUST",
             "Jito",
             "Jupiter",
+            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -18982,6 +19011,7 @@
             "OFFICIAL TRUMP",
             "OKB",
             "Ondo",
+            "PI",
             "POL (ex-MATIC)",
             "PancakeSwap",
             "Pendle",
@@ -18997,7 +19027,6 @@
             "Sui",
             "Sun (New)",
             "SushiSwap",
-            "SwftCoin",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19039,7 +19068,6 @@
             "XTVCCAKE",
             "XTVCCFX",
             "XTVCCOMP",
-            "XTVCCPOOL",
             "XTVCCRO",
             "XTVCCRV",
             "XTVCCVX",
@@ -19056,6 +19084,7 @@
             "XTVCFDUSD",
             "XTVCFIL",
             "XTVCFRAX",
+            "XTVCGMX",
             "XTVCGNO",
             "XTVCGT",
             "XTVCGUSD",
@@ -19067,6 +19096,7 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
+            "XTVCKDA",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19082,6 +19112,7 @@
             "XTVCONDO",
             "XTVCPENDLE",
             "XTVCPEPE",
+            "XTVCPI3",
             "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRENDER",
@@ -19095,7 +19126,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCSWFTC",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -20092,6 +20122,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "popularity_rank",
+        "t": "number",
+        "r": null
     },
     {
         "n": "post_change",

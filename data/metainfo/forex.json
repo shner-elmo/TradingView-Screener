@@ -3505,6 +3505,34 @@
         "rd": true
     },
     {
+        "n": "AvgValue.Traded_10d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AvgValue.Traded_30d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AvgValue.Traded_60d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "AvgValue.Traded_90d",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "BB.basis",
         "t": "number",
         "r": null,
@@ -12129,14 +12157,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12157,14 +12185,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20119,6 +20147,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "popularity_rank",
+        "t": "number",
+        "r": null
     },
     {
         "n": "post_change",
