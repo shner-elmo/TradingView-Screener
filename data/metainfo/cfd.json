@@ -12060,14 +12060,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18957,7 +18957,6 @@
             "Algorand",
             "Amp",
             "Aptos",
-            "Arbitrum",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18966,6 +18965,7 @@
             "Bitget Token",
             "Bittensor",
             "Cardano",
+            "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -19058,7 +19058,6 @@
             "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCARBI",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19128,6 +19127,7 @@
             "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
+            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRIBE",
             "XTVCTRUMPOF",
@@ -19202,7 +19202,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
