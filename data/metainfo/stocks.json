@@ -14891,14 +14891,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22185,7 +22185,6 @@
             "VistaShares",
             "Vita",
             "Volatility Shares",
-            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -22934,6 +22933,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24746,7 +24746,6 @@
             "Charles Schwab Investment Management, Inc.",
             "China Securities Index Co., Ltd.",
             "ChinaBond Pricing Center Co Ltd",
-            "Cohen & Steers Capital Management, Inc.",
             "CoinDesk Indices, Inc.",
             "Columbia Management Investment Advisers LLC",
             "Comdaq Metals Ltd.",
@@ -25236,7 +25235,6 @@
             "Fair Oaks Capital Ltd.",
             "Faith Investor Services LLC",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -25556,7 +25554,6 @@
             "Sovereign's Capital Management LLC",
             "Sparkline Capital LP",
             "Spear Advisors LLC",
-            "Spic Industrial Fund Management Co. Ltd.",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
             "Standard Bank Group Ltd.",
