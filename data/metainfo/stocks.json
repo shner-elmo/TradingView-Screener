@@ -14849,13 +14849,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14863,7 +14856,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14871,6 +14864,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,14 +14891,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21776,6 +21776,7 @@
             "Honeytree",
             "Hony Horizon",
             "Horizon",
+            "Horizon Kinetics",
             "Horizons",
             "Hoya",
             "HuaAn",
@@ -21983,6 +21984,7 @@
             "Perth Mint",
             "Phillip",
             "Picton Mahoney",
+            "PineBridge Investments",
             "Ping An",
             "Pinnacle",
             "PlanRock",
@@ -22935,6 +22937,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25054,7 +25057,7 @@
             "ARK Investment Management LP",
             "AXA SA",
             "AXA-SPDB Investment Managers Co., Ltd.",
-            "Abacus Life, Inc.",
+            "Abacus Global Management, Inc.",
             "Absa Group Ltd.",
             "Absolute Investment Advisers LLC",
             "Accelerate Financial Technologies, Inc.",
@@ -25213,6 +25216,7 @@
             "Dvx Ventures LLC",
             "E Fund Management Co., Ltd.",
             "EPWA Holding Co. LLC",
+            "EQT Holdings Ltd.",
             "ETC Holdings Ltd. (Guernsey)",
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
@@ -25384,7 +25388,6 @@
             "MERITZ Financial Group, Inc.",
             "MERITZ SECURITIES Co., Ltd.",
             "MM VAM LLC",
-            "MRBL Management LLC",
             "MS&AD Insurance Group Holdings, Inc.",
             "Macquarie Group Ltd.",
             "Madison Investment Holdings, Inc.",
@@ -25403,6 +25406,7 @@
             "Midas Investment Management Ltd.",
             "Middlefield Group",
             "Migdal Insurance & Financial Holdings Ltd.",
+            "Migdal Mutual Funds Ltd.",
             "Miller Value Partners LLC",
             "Minsheng Royal Fund Management Co., Ltd.",
             "Mirae Asset Global Investments Co., Ltd.",
@@ -27535,6 +27539,7 @@
             "OM",
             "PA",
             "PE",
+            "PF",
             "PG",
             "PH",
             "PK",
