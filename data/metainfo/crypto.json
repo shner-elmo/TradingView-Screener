@@ -231,6 +231,7 @@
             "Kusama",
             "Kyber Network",
             "LTO Network",
+            "Lambda",
             "LayerZero",
             "League of Kingdoms Arena",
             "Lido DAO",
@@ -311,6 +312,7 @@
             "Polymesh",
             "Portal",
             "Power Ledger",
+            "PowerPool",
             "Presearch",
             "Prom",
             "Proton",
@@ -427,11 +429,13 @@
             "Usual",
             "VIBE",
             "VIDT Datalink",
+            "Value Liquidity",
             "Vanar Chain",
             "VeChain",
             "VeThor Token",
             "Velar",
             "Velas",
+            "Venom",
             "Venus",
             "Verasity",
             "Vertcoin",
@@ -12753,13 +12757,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12767,7 +12764,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12781,7 +12778,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12789,6 +12786,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20037,6 +20041,7 @@
             "CTXC",
             "CURE",
             "CVC",
+            "CVP",
             "CYBER",
             "DAI",
             "DASH",
@@ -20129,6 +20134,7 @@
             "KMNO",
             "KNC",
             "KSM",
+            "LAMB",
             "LAYER",
             "LDO",
             "LEO",
@@ -20310,8 +20316,10 @@
             "USUAL",
             "UTT",
             "UXLINK",
+            "VALUE",
             "VANRY",
             "VELAR",
+            "VENOM",
             "VET",
             "VIBE",
             "VIDT",
@@ -20481,6 +20489,7 @@
             "XTVCDEUSD",
             "XTVCDEXE",
             "XTVCDF",
+            "XTVCDIMEI",
             "XTVCDMT",
             "XTVCDOGBEE",
             "XTVCDOGE",
