@@ -14875,14 +14875,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21987,6 +21987,7 @@
             "Pinnacle",
             "PlanRock",
             "Platinum",
+            "Plato",
             "Point Bridge Capital",
             "Polen",
             "PortfolioMetrix",
@@ -25480,6 +25481,7 @@
             "PhillipCapital",
             "Picton Mahoney Asset Management",
             "Ping An Insurance (Group) Co. of China Ltd.",
+            "Pinnacle Investment Management Group Ltd.",
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
