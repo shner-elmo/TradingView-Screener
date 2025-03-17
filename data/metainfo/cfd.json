@@ -12046,13 +12046,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18954,7 +18954,6 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
-            "Algorand",
             "Amp",
             "Aptos",
             "Avalanche",
@@ -18972,6 +18971,7 @@
             "Compound",
             "Conflux",
             "Convex Finance",
+            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18985,6 +18985,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "Frax Share",
             "GateToken",
             "Gemini Dollar",
             "Gnosis",
@@ -19039,7 +19040,6 @@
             "USDD",
             "Uniswap",
             "VeChain",
-            "WOO",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
@@ -19055,9 +19055,9 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
-            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCATOM",
             "XTVCAUCTION",
             "XTVCAVAX",
             "XTVCBABYDOGE",
@@ -19085,6 +19085,7 @@
             "XTVCFDUSD",
             "XTVCFIL",
             "XTVCFRAX",
+            "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
             "XTVCGUSD",
@@ -19140,7 +19141,6 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
-            "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
@@ -19202,7 +19202,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
