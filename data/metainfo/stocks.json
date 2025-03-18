@@ -2347,6 +2347,7 @@
             "Cyprus",
             "Czech Republic",
             "Denmark",
+            "Dominican Republic",
             "Egypt",
             "Estonia",
             "Faroe Islands",
@@ -14847,13 +14848,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14861,7 +14855,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14875,7 +14869,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14883,6 +14877,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21682,6 +21683,7 @@
             "Eaton Vance",
             "Edelweiss",
             "Eldridge",
+            "Ellerston",
             "Elm",
             "Empiricus",
             "Euclidean",
@@ -21729,6 +21731,7 @@
             "Fullgoal",
             "FundX",
             "Fundstrat",
+            "GCQ",
             "GF",
             "GF Fund",
             "GGM",
@@ -22742,6 +22745,7 @@
             "CZ",
             "DE",
             "DK",
+            "DO",
             "EE",
             "EG",
             "ES",
@@ -22936,6 +22940,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23511,7 +23516,6 @@
             "2147",
             "2148",
             "2149",
-            "2150",
             "2152",
             "2153",
             "2154",
@@ -25125,7 +25129,7 @@
             "Billionbrains Garage Ventures Pvt Ltd.",
             "Bitcoin Capital AG",
             "Bitwise Asset Management, Inc.",
-            "Bitwise Europe GmbH",
+            "Bitwise Core Bitcoin ETP",
             "BlackRock, Inc.",
             "Bondbloxx Investment Management Corp.",
             "Bosera Asset Management Co., Ltd.",
@@ -25170,7 +25174,6 @@
             "China Universal Fund Management Co. Ltd.",
             "City of Wuxi",
             "Clough CGI LLC",
-            "Clough Capital Partners LLC",
             "Cohanzick Management LLC",
             "Cohen & Steers, Inc. (New York)",
             "CoinShares Digital Securities Ltd.",
@@ -25224,6 +25227,7 @@
             "EasyETFs (RF) Pty Ltd",
             "Edelweiss Financial Services Ltd.",
             "El Dorado Asset Management Sociedad Administradora de Fondos",
+            "Ellerston Capital Ltd.",
             "Empirical Finance LLC",
             "Empiricus Gestao De Recursos Ltda.",
             "Envestnet, Inc.",
@@ -25247,6 +25251,7 @@
             "First Metro Asset Management, Inc.",
             "First Pacific Advisors LP",
             "First Seafront Fund Management Co., Ltd.",
+            "First Trust Advisors LP",
             "First Trust Global Portfolios Management Ltd.",
             "FirstRand Ltd.",
             "Focus Financial Partners, Inc.",
