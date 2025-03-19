@@ -2330,6 +2330,7 @@
             "Bangladesh",
             "Barbados",
             "Belgium",
+            "Belize",
             "Bermuda",
             "Botswana",
             "Brazil",
@@ -2368,7 +2369,6 @@
             "Israel",
             "Italy",
             "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2932,6 +2932,7 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
+            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -14876,13 +14877,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14890,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14898,6 +14892,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22733,6 +22734,7 @@
             "BR",
             "BS",
             "BW",
+            "BZ",
             "CA",
             "CH",
             "CI",
@@ -22767,7 +22769,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -22940,7 +22941,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25272,6 +25272,7 @@
             "Galaxy Fund Management Co., Ltd.",
             "Global X Japan Co., Ltd.",
             "Goose Hollow Capital Management LLC",
+            "Gotham Asset Management Holdings LP",
             "Government of Brazil",
             "Government of Canada",
             "Government of China",
