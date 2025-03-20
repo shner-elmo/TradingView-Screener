@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19028,7 +19028,6 @@
             "Stacks",
             "Stellar",
             "Sui",
-            "Sun (New)",
             "SushiSwap",
             "Synthetix",
             "THORChain",
@@ -19041,6 +19040,7 @@
             "USDD",
             "Uniswap",
             "VeChain",
+            "WOO",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
@@ -19125,7 +19125,6 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
-            "XTVCSUN",
             "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
@@ -19141,6 +19140,7 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
+            "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
