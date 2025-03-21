@@ -3842,6 +3842,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14863,13 +14864,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14877,7 +14871,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,7 +14885,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,6 +14893,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22058,7 +22059,6 @@
             "SPDR",
             "SRH",
             "SSI",
-            "SSIF",
             "STF",
             "SWP",
             "SWS",
@@ -22883,6 +22883,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22940,6 +22941,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24757,7 +24759,6 @@
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
             "Corporate Knights, Inc.",
-            "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -25046,6 +25047,7 @@
             "1251 Capital Group, Inc.",
             "21Shares AG",
             "27four Collective Investments (RF) (Pty) Ltd.",
+            "360 One Wam Ltd.",
             "3EDGE Asset Management LP",
             "3Fourteen & SMI Advisory Services LLC",
             "3iQ Corp.",
@@ -25550,7 +25552,6 @@
             "Saracen Energy Advisors LP",
             "Sberbank Russia PJSC",
             "Schroders Plc",
-            "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
@@ -27214,9 +27215,9 @@
             "country/JP",
             "country/NO",
             "country/PL",
-            "country/US",
             "country/VN",
             "source/ADX",
+            "source/AMEX",
             "source/ASX",
             "source/ATHEX",
             "source/BAHRAIN",
