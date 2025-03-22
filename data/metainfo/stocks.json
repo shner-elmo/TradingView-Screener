@@ -2368,7 +2368,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Ivory Coast",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14878,13 +14877,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14892,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14900,6 +14892,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21460,6 +21459,7 @@
             "1nvest",
             "21Shares",
             "27Four Funds",
+            "360 ONE",
             "3Edge",
             "3iQ",
             "AAM",
@@ -21521,6 +21521,7 @@
             "Amundi",
             "Anfield",
             "Angel Oak",
+            "AngelOne",
             "Antipodes",
             "Anydrus",
             "Applied Finance",
@@ -22736,7 +22737,6 @@
             "BZ",
             "CA",
             "CH",
-            "CI",
             "CL",
             "CM",
             "CN",
@@ -22941,10 +22941,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25087,6 +25085,7 @@
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
             "Angel Oak Cos. LP",
+            "Angel One Ltd.",
             "Ant Group Co., Ltd.",
             "Antipodes Partners Ltd.",
             "Aoris Investment Management (Pty) Ltd.",
@@ -26277,8 +26276,6 @@
             "192",
             "193",
             "20",
-            "2183",
-            "2184",
             "30",
             "33",
             "34",
