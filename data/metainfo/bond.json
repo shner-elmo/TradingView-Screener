@@ -120,7 +120,6 @@
             "Burundi",
             "Cameroon",
             "Canada",
-            "Cape Verde",
             "Cayman Islands",
             "Chile",
             "China",
@@ -3928,6 +3927,7 @@
             "VIE:BTS",
             "VIE:CAI",
             "VIE:CPI",
+            "VIE:DOC",
             "VIE:EBS",
             "VIE:ETS",
             "VIE:EVN",
@@ -6728,6 +6728,7 @@
             "VIE:BTS",
             "VIE:CAI",
             "VIE:CPI",
+            "VIE:DOC",
             "VIE:EBS",
             "VIE:EVN",
             "VIE:LNZ",
@@ -6941,7 +6942,6 @@
             "CN",
             "CO",
             "CR",
-            "CV",
             "CY",
             "CZ",
             "DE",
@@ -7075,7 +7075,6 @@
             "CNH",
             "CNY",
             "COP",
-            "CRC",
             "CZK",
             "DKK",
             "DOP",
@@ -7112,7 +7111,6 @@
             "PYG",
             "RON",
             "RUB",
-            "RWF",
             "SAR",
             "SEK",
             "SGD",
@@ -7126,6 +7124,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7208,6 +7207,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
