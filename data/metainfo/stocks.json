@@ -2394,7 +2394,6 @@
             "New Zealand",
             "Nigeria",
             "Norway",
-            "Oman",
             "Pakistan",
             "Panama",
             "Papua New Guinea",
@@ -14863,14 +14862,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21570,7 +21569,6 @@
             "Bitwise",
             "BlackRock",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -21724,6 +21722,7 @@
             "FolioBeyond",
             "Formidable",
             "Forstrong",
+            "Fortuna",
             "Foundations",
             "Franklin",
             "Freedom Day",
@@ -22797,7 +22796,6 @@
             "NL",
             "NO",
             "NZ",
-            "OM",
             "PA",
             "PE",
             "PG",
@@ -22942,7 +22940,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25257,6 +25256,7 @@
             "Focus Financial Partners, Inc.",
             "Foray Enterprises Pty Ltd.",
             "Formidable Asset Management LLC",
+            "Fortuna Funds LLC",
             "Founder Fubon Fund Management Co., Ltd.",
             "Franklin Resources, Inc.",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",

@@ -12046,13 +12046,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18956,7 +18956,6 @@
             "Aerodrome Finance",
             "Amp",
             "Aptos",
-            "Arbitrum",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18965,7 +18964,6 @@
             "Bitcoin Cash",
             "Bitget Token",
             "Bittensor",
-            "Bounce Token",
             "Cardano",
             "Celestia",
             "Chainlink",
@@ -18999,6 +18997,7 @@
             "Jito",
             "Jupiter",
             "Kaspa",
+            "LCX",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19034,13 +19033,13 @@
             "THORChain",
             "TRON",
             "Tether USDt",
-            "Threshold",
             "Toncoin",
             "UNUS SED LEO",
             "USDC",
             "USDD",
             "Uniswap",
             "VeChain",
+            "WOO",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
@@ -19057,9 +19056,7 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCARBI",
             "XTVCATOM",
-            "XTVCAUCTION",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19098,6 +19095,7 @@
             "XTVCJUPI",
             "XTVCKAS",
             "XTVCLAYERS",
+            "XTVCLCX",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19127,7 +19125,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUSHI",
-            "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",
             "XTVCTON",
@@ -19141,6 +19138,7 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
+            "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
@@ -19202,7 +19200,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
