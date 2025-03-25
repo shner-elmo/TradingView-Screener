@@ -2321,6 +2321,7 @@
         "t": "text",
         "r": [
             "Aland Islands",
+            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -2368,6 +2369,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2394,6 +2396,7 @@
             "New Zealand",
             "Nigeria",
             "Norway",
+            "Oman",
             "Pakistan",
             "Panama",
             "Papua New Guinea",
@@ -14876,13 +14879,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14890,7 +14886,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14898,6 +14894,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22719,6 +22722,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AI",
             "AR",
             "AT",
             "AU",
@@ -22767,6 +22771,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -22796,6 +22801,7 @@
             "NL",
             "NO",
             "NZ",
+            "OM",
             "PA",
             "PE",
             "PG",
@@ -25492,6 +25498,7 @@
             "PlanRock Wealth Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
+            "Polen Capital Management LLC",
             "Portfoliometrix Holdings Ltd.",
             "Power Corp. of Canada",
             "Power Financial Corp.",
