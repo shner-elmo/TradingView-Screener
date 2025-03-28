@@ -404,26 +404,6 @@
                 "name": "BIST 100-30"
             },
             {
-                "id": "BME:IBC",
-                "name": "IBEX 35"
-            },
-            {
-                "id": "BME:ICC",
-                "name": "IBEX Medium Cap"
-            },
-            {
-                "id": "BME:INDGRO15",
-                "name": "IBEX GROWTH MARKET 15"
-            },
-            {
-                "id": "BME:INDGROAS",
-                "name": "IBEX Growth Market All Share"
-            },
-            {
-                "id": "BME:IS",
-                "name": "IBEX Small Cap"
-            },
-            {
                 "id": "BMFBOVESPA:IBOV",
                 "name": "Ibovespa"
             },
@@ -628,36 +608,12 @@
                 "name": "SBF 120"
             },
             {
-                "id": "FTSE:AIM1",
-                "name": "FTSE AIM 100"
-            },
-            {
-                "id": "FTSE:AIM5",
-                "name": "FTSE AIM UK 50"
-            },
-            {
-                "id": "FTSE:ASX",
-                "name": "FTSE All-Share"
-            },
-            {
-                "id": "FTSE:AXX",
-                "name": "FTSE AIM All-Share"
-            },
-            {
                 "id": "FTSE:F4GBIVA",
                 "name": "FTSE4Good BIVA Index"
             },
             {
                 "id": "FTSE:FTBIVA",
                 "name": "FTSE BIVA Index"
-            },
-            {
-                "id": "FTSE:MCX",
-                "name": "FTSE 250"
-            },
-            {
-                "id": "FTSE:NMX",
-                "name": "FTSE 350"
             },
             {
                 "id": "FTSE:TW50",
@@ -920,148 +876,28 @@
                 "name": "KOSDAQ 150"
             },
             {
-                "id": "KRX:KOSDAQ3",
-                "name": "KOSDAQ MidCap"
-            },
-            {
-                "id": "KRX:KOSDAQ4",
-                "name": "KOSDAQ SmallCap"
-            },
-            {
                 "id": "KRX:KOSPI",
                 "name": "KOSPI Composite"
-            },
-            {
-                "id": "KRX:KOSPI100",
-                "name": "KOSPI 100"
-            },
-            {
-                "id": "KRX:KOSPI2",
-                "name": "KOSPI LargeCap"
             },
             {
                 "id": "KRX:KOSPI200",
                 "name": "KOSPI 200"
             },
             {
-                "id": "KRX:KOSPI21",
-                "name": "KOSPI Financial Companies"
-            },
-            {
-                "id": "KRX:KOSPI5",
-                "name": "KOSPI Foods & Beverages"
-            },
-            {
                 "id": "KRX:KOSPI50",
                 "name": "KOSPI 50"
-            },
-            {
-                "id": "KRX:KOSPI8",
-                "name": "KOSPI Chemicals"
-            },
-            {
-                "id": "KRX:KRX100",
-                "name": "KRX 100 Consolidated"
-            },
-            {
-                "id": "KRX:KRX300R",
-                "name": "KRX 300 Regular"
-            },
-            {
-                "id": "KRX:KRXSECTOR1",
-                "name": "KRX Automobile Sector"
-            },
-            {
-                "id": "KRX:KRXSECTOR10",
-                "name": "KRX Constructions"
-            },
-            {
-                "id": "KRX:KRXSECTOR12",
-                "name": "KRX Securities"
-            },
-            {
-                "id": "KRX:KRXSECTOR13",
-                "name": "KRX Machinery and Equipment"
-            },
-            {
-                "id": "KRX:KRXSECTOR14",
-                "name": "KRX Insurance Sector"
-            },
-            {
-                "id": "KRX:KRXSECTOR15",
-                "name": "KRX Transportation"
-            },
-            {
-                "id": "KRX:KRXSECTOR19",
-                "name": "KRX Automobile"
-            },
-            {
-                "id": "KRX:KRXSECTOR2",
-                "name": "KRX Semiconductor"
-            },
-            {
-                "id": "KRX:KRXSECTOR20",
-                "name": "KRX Media&Entertainment"
-            },
-            {
-                "id": "KRX:KRXSECTOR21",
-                "name": "KRX IT"
-            },
-            {
-                "id": "KRX:KRXSECTOR22",
-                "name": "KRX Utilities"
-            },
-            {
-                "id": "KRX:KRXSECTOR3",
-                "name": "KRX Health Care"
-            },
-            {
-                "id": "KRX:KRXSECTOR4",
-                "name": "KRX Banks"
-            },
-            {
-                "id": "KRX:KRXSECTOR6",
-                "name": "KRX Energy and Chemical"
-            },
-            {
-                "id": "KRX:KRXSECTOR7",
-                "name": "KRX Steels"
-            },
-            {
-                "id": "KRX:KRXSECTOR9",
-                "name": "KRX Media and Telecom"
-            },
-            {
-                "id": "KRX:KTOP30",
-                "name": "KTOP 30"
             },
             {
                 "id": "KSE:BKA",
                 "name": "Boursa Kuwait All Share"
             },
             {
-                "id": "KSE:BKAT",
-                "name": "Boursa Kuwait All Share TR"
-            },
-            {
                 "id": "KSE:BKM",
                 "name": "Boursa Kuwait Main Market"
             },
             {
-                "id": "KSE:BKM50",
-                "name": "Boursa Kuwait Main Market 50"
-            },
-            {
-                "id": "KSE:BKMT",
-                "name": "Boursa Kuwait Main Market TR"
-            },
-            {
                 "id": "KSE:BKP",
                 "name": "Boursa Kuwait Premier Market"
-            },
-            {
-                "id": "KSE:BKPT",
-                "name": "Boursa Kuwait Premier Market TR"
             },
             {
                 "id": "LUXSE:LUXG",
@@ -1372,10 +1208,6 @@
                 "name": "OMX Copenhagen 25"
             },
             {
-                "id": "OMXHEX:OMXH25",
-                "name": "OMX Helsinki 25"
-            },
-            {
                 "id": "OMXICE:OMXI15",
                 "name": "OMX Iceland 15"
             },
@@ -1564,28 +1396,8 @@
                 "name": "Russia Market Index"
             },
             {
-                "id": "RUS:MCXSM",
-                "name": "Russia SMID"
-            },
-            {
-                "id": "RUS:RTSCH",
-                "name": "RTS Chemicals"
-            },
-            {
                 "id": "RUS:RTSI",
                 "name": "RTS"
-            },
-            {
-                "id": "RUS:RUBMI",
-                "name": "RTS Broad Market"
-            },
-            {
-                "id": "RUS:RUS10",
-                "name": "Russia 10"
-            },
-            {
-                "id": "RUS:RUSBMI",
-                "name": "Russia Broad Market"
             },
             {
                 "id": "RUS:RUSCH",
@@ -1604,24 +1416,8 @@
                 "name": "Russia Financials"
             },
             {
-                "id": "RUS:RUSINN",
-                "name": "Russia Innovation"
-            },
-            {
                 "id": "RUS:RUSMM",
                 "name": "Russia Metals and Mining"
-            },
-            {
-                "id": "RUS:RUSTL",
-                "name": "Russia Telecommunication"
-            },
-            {
-                "id": "RUS:RUSTN",
-                "name": "Russia Transportation"
-            },
-            {
-                "id": "SET:SET100",
-                "name": "SET100"
             },
             {
                 "id": "SET:SET50",
@@ -2426,7 +2222,6 @@
             "Togo",
             "Tunisia",
             "Turkey",
-            "U.S. Virgin Islands",
             "Uganda",
             "Ukraine",
             "United Arab Emirates",
@@ -14850,14 +14645,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21571,6 +21366,7 @@
             "Bitwise",
             "BlackRock",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -21653,7 +21449,6 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
-            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -22833,7 +22628,6 @@
             "UY",
             "VE",
             "VG",
-            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -22944,6 +22738,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24308,11 +24103,6 @@
             "SYML:BIST;XYLDZ",
             "SYML:BIST;XYORT",
             "SYML:BIST;XYUZO",
-            "SYML:BME;IBC",
-            "SYML:BME;ICC",
-            "SYML:BME;INDGRO15",
-            "SYML:BME;INDGROAS",
-            "SYML:BME;IS",
             "SYML:BMFBOVESPA;IBOV",
             "SYML:BMFBOVESPA;IBXL",
             "SYML:BMFBOVESPA;IFIX",
@@ -24364,14 +24154,8 @@
             "SYML:EURONEXT;PSI20",
             "SYML:EURONEXT;PX1",
             "SYML:EURONEXT;PX4",
-            "SYML:FTSE;AIM1",
-            "SYML:FTSE;AIM5",
-            "SYML:FTSE;ASX",
-            "SYML:FTSE;AXX",
             "SYML:FTSE;F4GBIVA",
             "SYML:FTSE;FTBIVA",
-            "SYML:FTSE;MCX",
-            "SYML:FTSE;NMX",
             "SYML:FTSE;TW50",
             "SYML:FTSEMYX;FBM70",
             "SYML:FTSEMYX;FBMKLCI",
@@ -24437,59 +24221,21 @@
             "SYML:INDEX;FTSEMIB",
             "SYML:KRX;KOSDAQ",
             "SYML:KRX;KOSDAQ150",
-            "SYML:KRX;KOSDAQ3",
-            "SYML:KRX;KOSDAQ4",
             "SYML:KRX;KOSPI",
-            "SYML:KRX;KOSPI100",
-            "SYML:KRX;KOSPI2",
             "SYML:KRX;KOSPI200",
-            "SYML:KRX;KOSPI21",
-            "SYML:KRX;KOSPI5",
             "SYML:KRX;KOSPI50",
-            "SYML:KRX;KOSPI8",
-            "SYML:KRX;KRX100",
-            "SYML:KRX;KRX300R",
-            "SYML:KRX;KRXSECTOR1",
-            "SYML:KRX;KRXSECTOR10",
-            "SYML:KRX;KRXSECTOR12",
-            "SYML:KRX;KRXSECTOR13",
-            "SYML:KRX;KRXSECTOR14",
-            "SYML:KRX;KRXSECTOR15",
-            "SYML:KRX;KRXSECTOR19",
-            "SYML:KRX;KRXSECTOR2",
-            "SYML:KRX;KRXSECTOR20",
-            "SYML:KRX;KRXSECTOR21",
-            "SYML:KRX;KRXSECTOR22",
-            "SYML:KRX;KRXSECTOR3",
-            "SYML:KRX;KRXSECTOR4",
-            "SYML:KRX;KRXSECTOR6",
-            "SYML:KRX;KRXSECTOR7",
-            "SYML:KRX;KRXSECTOR9",
-            "SYML:KRX;KTOP30",
             "SYML:KSE;BKA",
-            "SYML:KSE;BKAT",
             "SYML:KSE;BKM",
-            "SYML:KSE;BKM50",
-            "SYML:KSE;BKMT",
             "SYML:KSE;BKP",
-            "SYML:KSE;BKPT",
             "SYML:LUXSE;LUXG",
             "SYML:LUXSE;LUXX",
             "SYML:MOEX;IMOEX",
-            "SYML:MOEX;MCXSM",
-            "SYML:MOEX;MOEX10",
-            "SYML:MOEX;MOEXBMI",
             "SYML:MOEX;MOEXCH",
             "SYML:MOEX;MOEXCN",
             "SYML:MOEX;MOEXEU",
             "SYML:MOEX;MOEXFN",
-            "SYML:MOEX;MOEXINN",
             "SYML:MOEX;MOEXMM",
-            "SYML:MOEX;MOEXTL",
-            "SYML:MOEX;MOEXTN",
-            "SYML:MOEX;RTSCH",
             "SYML:MOEX;RTSI",
-            "SYML:MOEX;RUBMI",
             "SYML:NASDAQ;BANK",
             "SYML:NASDAQ;BKX",
             "SYML:NASDAQ;CELS",
@@ -24565,7 +24311,6 @@
             "SYML:NYSE;XMI",
             "SYML:NZX;NZ50G",
             "SYML:OMXCOP;OMXC25",
-            "SYML:OMXHEX;OMXH25",
             "SYML:OMXICE;OMXI10",
             "SYML:OMXRSE;OMXRGI",
             "SYML:OMXSTO;OMXS30",
@@ -24612,7 +24357,6 @@
             "SYML:PSX;OGTI",
             "SYML:PSX;UPP9",
             "SYML:QSE;GNRI",
-            "SYML:SET;SET100",
             "SYML:SET;SET50",
             "SYML:SIX;SMI",
             "SYML:SP;MID",
@@ -25324,6 +25068,7 @@
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
+            "Hilltop Holdings, Inc.",
             "Horizon Kinetics Holding Corp.",
             "Howard Capital Management, Inc. (Georgia)",
             "Huabao Fund Management Co. Ltd.",
@@ -27221,7 +26966,6 @@
             "country/JP",
             "country/NO",
             "country/PL",
-            "country/US",
             "country/VN",
             "source/ADX",
             "source/AMEX",
