@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18976,7 +18976,6 @@
             "DeXe",
             "DeepBook Protocol",
             "Dogecoin",
-            "Entangle",
             "Ethena",
             "Ethena USDe",
             "Ethereum",
@@ -19028,18 +19027,19 @@
             "Stacks",
             "Stellar",
             "Sui",
+            "Sun (New)",
             "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
             "Tether USDt",
+            "Threshold",
             "Toncoin",
             "UNUS SED LEO",
             "USDC",
             "USDD",
             "Uniswap",
             "VeChain",
-            "WOO",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
@@ -19104,7 +19104,6 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
-            "XTVCNGLE",
             "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
@@ -19124,7 +19123,9 @@
             "XTVCSTETH",
             "XTVCSTXS",
             "XTVCSUI",
+            "XTVCSUN",
             "XTVCSUSHI",
+            "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",
             "XTVCTON",
@@ -19138,7 +19139,6 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
-            "XTVCWOO",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
@@ -19199,7 +19199,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
