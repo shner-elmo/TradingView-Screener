@@ -57,6 +57,7 @@
             "Aave",
             "Aavegotchi",
             "AdEx",
+            "Aeternity",
             "Aethir",
             "Aevo",
             "Akash Network",
@@ -376,6 +377,7 @@
             "SushiSwap",
             "Sweat Economy",
             "Swerve",
+            "SwftCoin",
             "SwissBorg",
             "Synthetix Network Token",
             "Syscoin",
@@ -397,7 +399,6 @@
             "Theta Fuel",
             "Theta Token",
             "Threshold",
-            "Thunder Token",
             "TokenFi",
             "Tokenize Xchange",
             "Toncoin",
@@ -1481,7 +1482,6 @@
             "BAKE",
             "BCT",
             "BETH",
-            "BFIC",
             "BGN",
             "BITCOIN",
             "BKOK",
@@ -1567,7 +1567,6 @@
             "GNO",
             "GOUT",
             "GRAIL",
-            "GRAM",
             "GUSD",
             "HC",
             "HELP",
@@ -12749,13 +12748,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12763,7 +12755,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12777,7 +12769,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12785,6 +12777,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19923,6 +19922,7 @@
             "ACS",
             "ADA",
             "ADX",
+            "AE",
             "AEVO",
             "AI",
             "AIOZ",
@@ -20249,6 +20249,7 @@
             "SUPER",
             "SUSHI",
             "SWEAT",
+            "SWFTC",
             "SWRV",
             "SXP",
             "SYS",
@@ -20268,7 +20269,6 @@
             "TRU",
             "TRUMP",
             "TRX",
-            "TT",
             "TURBO",
             "UBT",
             "UMA",
@@ -20398,7 +20398,6 @@
             "XTVCBARIO",
             "XTVCBCT",
             "XTVCBETH",
-            "XTVCBFIC",
             "XTVCBHNY",
             "XTVCBITCOIN",
             "XTVCBKOK",
@@ -20492,7 +20491,6 @@
             "XTVCGNO",
             "XTVCGOUT",
             "XTVCGRAIL",
-            "XTVCGRAM",
             "XTVCGUSD",
             "XTVCHC",
             "XTVCHELP",
@@ -20526,7 +20524,6 @@
             "XTVCLUA",
             "XTVCLUSD",
             "XTVCLVLUSD",
-            "XTVCM1",
             "XTVCMAUSDC",
             "XTVCMBTC",
             "XTVCMCAKE",

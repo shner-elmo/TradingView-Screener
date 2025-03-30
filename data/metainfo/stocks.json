@@ -14863,14 +14863,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21809,6 +21809,7 @@
             "Insight",
             "Inspire",
             "Intelligent Investor",
+            "InterCapital",
             "Invesco",
             "Invesco Great Wall",
             "Investlinx",
@@ -22941,6 +22942,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
@@ -25345,6 +25347,7 @@
             "Inspire Impact Group LLC",
             "Intelligent Investor Holdings Pty Ltd.",
             "Intercam Grupo Financiero SA de CV",
+            "Interkapital dd",
             "Intesa Sanpaolo SpA",
             "Inverdale Capital Management LLC",
             "Invesco Great Wall Fund Management Co. Ltd.",

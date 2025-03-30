@@ -120,7 +120,6 @@
             "Burundi",
             "Cameroon",
             "Canada",
-            "Cape Verde",
             "Cayman Islands",
             "Chile",
             "China",
@@ -668,6 +667,7 @@
             "ASX:WOW",
             "ASX:XRO",
             "ATHEX:ALPHA",
+            "ATHEX:ELPE",
             "ATHEX:ETE",
             "ATHEX:EUROB",
             "ATHEX:HTO",
@@ -1849,7 +1849,6 @@
             "NASDAQ:KHC",
             "NASDAQ:KIDS",
             "NASDAQ:KLAC",
-            "NASDAQ:KLXE",
             "NASDAQ:KPTI",
             "NASDAQ:LAB",
             "NASDAQ:LAMR",
@@ -5058,7 +5057,6 @@
             "NASDAQ:KDP",
             "NASDAQ:KIDS",
             "NASDAQ:KLAC",
-            "NASDAQ:KLXE",
             "NASDAQ:KPTI",
             "NASDAQ:LAB",
             "NASDAQ:LAZR",
@@ -6940,7 +6938,6 @@
             "CN",
             "CO",
             "CR",
-            "CV",
             "CY",
             "CZ",
             "DE",
@@ -7074,7 +7071,6 @@
             "CNH",
             "CNY",
             "COP",
-            "CRC",
             "CZK",
             "DKK",
             "DOP",
@@ -7110,7 +7106,6 @@
             "PLN",
             "PYG",
             "RON",
-            "RSD",
             "RUB",
             "SAR",
             "SEK",
@@ -7125,6 +7120,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7207,6 +7203,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "out_of_session"
         ]
     },
