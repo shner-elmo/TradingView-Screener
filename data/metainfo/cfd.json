@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18970,6 +18970,7 @@
             "Compound",
             "Conflux",
             "Convex Finance",
+            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18995,7 +18996,6 @@
             "JUST",
             "Jito",
             "Jupiter",
-            "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19033,8 +19033,8 @@
             "THORChain",
             "TRON",
             "Tether USDt",
-            "Threshold",
             "Toncoin",
+            "Tribe",
             "UNUS SED LEO",
             "USDC",
             "USDD",
@@ -19056,6 +19056,7 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19093,7 +19094,6 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
-            "XTVCKAS",
             "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
@@ -19125,10 +19125,10 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",
             "XTVCTON",
+            "XTVCTRIBE",
             "XTVCTRUMPOF",
             "XTVCTRX",
             "XTVCUNI",
@@ -19201,7 +19201,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

@@ -105,7 +105,6 @@
             "Binance Coin",
             "Bit2Me",
             "BitKan",
-            "BitShares",
             "Bitcoin",
             "Bitcoin Cash",
             "Bitcoin Gold",
@@ -127,7 +126,6 @@
             "CEEK VR",
             "COTI",
             "COW",
-            "CRDT",
             "Cardano",
             "Cartesi",
             "Casper",
@@ -330,6 +328,8 @@
             "Ravencoin",
             "Raydium",
             "Real USD",
+            "Recovery Right Token",
+            "Refereum",
             "Render",
             "Request Network",
             "Revain",
@@ -1511,7 +1511,6 @@
             "CHF",
             "CL",
             "CLEV",
-            "CNC",
             "CNHT",
             "COCO",
             "COOKIE",
@@ -12734,14 +12733,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12762,13 +12761,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12776,7 +12768,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12784,6 +12776,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19986,7 +19985,6 @@
             "BTCV",
             "BTG",
             "BTRST",
-            "BTS",
             "CAKE",
             "CANTO",
             "CCD",
@@ -20003,7 +20001,6 @@
             "CORE",
             "COTI",
             "COW",
-            "CRDT",
             "CRO",
             "CRV",
             "CSOV",
@@ -20201,11 +20198,13 @@
             "REQ",
             "REV",
             "REVV",
+            "RFR",
             "RLC",
             "RON",
             "ROOBEE",
             "ROSE",
             "RPZX",
+            "RRT",
             "RUNE",
             "RVN",
             "S",
@@ -20428,7 +20427,6 @@
             "XTVCCL",
             "XTVCCLEV",
             "XTVCCLEVCVX",
-            "XTVCCNC",
             "XTVCCNHT",
             "XTVCCOCO",
             "XTVCCOOKIE",

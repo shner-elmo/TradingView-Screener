@@ -14863,13 +14863,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14877,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,6 +14892,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21809,7 +21809,6 @@
             "Insight",
             "Inspire",
             "Intelligent Investor",
-            "InterCapital",
             "Invesco",
             "Invesco Great Wall",
             "Investlinx",
@@ -22944,7 +22943,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25347,7 +25347,6 @@
             "Inspire Impact Group LLC",
             "Intelligent Investor Holdings Pty Ltd.",
             "Intercam Grupo Financiero SA de CV",
-            "Interkapital dd",
             "Intesa Sanpaolo SpA",
             "Inverdale Capital Management LLC",
             "Invesco Great Wall Fund Management Co. Ltd.",
@@ -27495,7 +27494,6 @@
             "GA",
             "GB",
             "GE",
-            "GG",
             "GH",
             "GL",
             "GQ",
