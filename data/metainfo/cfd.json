@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18970,7 +18970,6 @@
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18996,6 +18995,7 @@
             "JUST",
             "Jito",
             "Jupiter",
+            "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19056,7 +19056,6 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19094,6 +19093,7 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
+            "XTVCKAS",
             "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",

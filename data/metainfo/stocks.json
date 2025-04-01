@@ -2368,6 +2368,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -2409,7 +2410,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -2422,6 +2422,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14849,13 +14850,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14863,7 +14857,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14871,6 +14865,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,14 +14892,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21783,6 +21784,7 @@
             "Horizon",
             "Horizon Kinetics",
             "Horizons",
+            "Hotchkis & Wiley",
             "Hoya",
             "HuaAn",
             "Huatai",
@@ -22738,6 +22740,7 @@
             "BZ",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -22819,12 +22822,12 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "TG",
             "TH",
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "UG",
             "US",
@@ -25308,6 +25311,7 @@
             "HDFC Bank Ltd.",
             "HFT Investment Management Co., Ltd.",
             "HSBC Holdings Plc",
+            "HWCap Holdings LLC",
             "Hamilton Capital Partners, Inc.",
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
@@ -25475,7 +25479,6 @@
             "PT Insight Investments Management",
             "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
-            "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
             "Pacer Advisors, Inc.",
