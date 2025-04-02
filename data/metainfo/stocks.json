@@ -2331,7 +2331,6 @@
             "Bangladesh",
             "Barbados",
             "Belgium",
-            "Belize",
             "Bermuda",
             "Botswana",
             "Brazil",
@@ -14878,13 +14877,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14892,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14900,6 +14892,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21784,7 +21783,6 @@
             "Horizon",
             "Horizon Kinetics",
             "Horizons",
-            "Hotchkis & Wiley",
             "Hoya",
             "HuaAn",
             "Huatai",
@@ -22737,7 +22735,6 @@
             "BR",
             "BS",
             "BW",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -23332,6 +23329,7 @@
             "MYR",
             "NOK",
             "NZD",
+            "PEN",
             "PHP",
             "PKR",
             "PLN",
@@ -25144,6 +25142,7 @@
             "Brandes Worldwide Holdings LP",
             "Bristol Gate Capital Partners, Inc.",
             "Brompton Corp.",
+            "Brookmont Capital Management LLC",
             "Brown Advisory Management LLC",
             "Buena Vista Gestora de Recursos Ltda.",
             "Build Asset Management LLC",
@@ -25311,7 +25310,6 @@
             "HDFC Bank Ltd.",
             "HFT Investment Management Co., Ltd.",
             "HSBC Holdings Plc",
-            "HWCap Holdings LLC",
             "Hamilton Capital Partners, Inc.",
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
@@ -25513,7 +25511,6 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",
