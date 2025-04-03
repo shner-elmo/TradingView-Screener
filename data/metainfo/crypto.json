@@ -297,7 +297,6 @@
             "Partisia Blockchain",
             "Patientory",
             "Peanut the Squirrel",
-            "Pearl",
             "Pendle",
             "Phala.Network",
             "Phoenix Global",
@@ -1523,7 +1522,6 @@
             "CL",
             "CLEV",
             "CNHT",
-            "COCO",
             "COOKIE",
             "COP",
             "CORGIAI",
@@ -12767,13 +12765,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12781,7 +12772,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12795,7 +12786,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12803,6 +12794,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20190,7 +20188,6 @@
             "PAN",
             "PASS",
             "PAXG",
-            "PEARL",
             "PENDLE",
             "PEOPLE",
             "PEPE",
@@ -20459,7 +20456,6 @@
             "XTVCCLEV",
             "XTVCCLEVCVX",
             "XTVCCNHT",
-            "XTVCCOCO",
             "XTVCCOOKIE",
             "XTVCCORGIAI",
             "XTVCCOSA",
@@ -20570,7 +20566,6 @@
             "XTVCMIMATIC",
             "XTVCMIN",
             "XTVCMMF",
-            "XTVCMMUSD",
             "XTVCMOBILE",
             "XTVCMORNINGSTAR",
             "XTVCMRKT",
