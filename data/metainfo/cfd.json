@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18965,7 +18965,6 @@
             "Bitget Token",
             "Bittensor",
             "Cardano",
-            "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18996,6 +18995,7 @@
             "JUST",
             "Jito",
             "Jupiter",
+            "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19020,6 +19020,7 @@
             "Ravencoin",
             "Raydium",
             "Render",
+            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19028,7 +19029,6 @@
             "Stellar",
             "Sui",
             "Sun (New)",
-            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19094,6 +19094,7 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
+            "XTVCKAS",
             "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
@@ -19116,6 +19117,7 @@
             "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
+            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19124,9 +19126,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
-            "XTVCSUSHI",
             "XTVCTAOB",
-            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRIBE",
             "XTVCTRUMPOF",
