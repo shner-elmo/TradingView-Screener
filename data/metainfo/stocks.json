@@ -14863,13 +14863,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14877,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14885,6 +14878,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22943,10 +22943,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25091,6 +25089,7 @@
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
             "Angel Oak Cos. LP",
+            "Angel One Asset Management Co. Ltd.",
             "Angel One Ltd.",
             "Ant Group Co., Ltd.",
             "Antipodes Partners Ltd.",
@@ -25405,6 +25404,7 @@
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
             "Logan Capital Management, Inc.",
+            "Long Pond Capital LP",
             "LongPoint Asset Management, Inc.",
             "L\u00e4hiTapiola Keskin\u00e4inen Vakuutusyhti\u00f6",
             "MERITZ Financial Group, Inc.",
