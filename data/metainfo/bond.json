@@ -506,7 +506,6 @@
             "HUF",
             "INR",
             "MXN",
-            "NOK",
             "PLN",
             "SEK",
             "TRY",
@@ -2186,6 +2185,7 @@
             "NSE:EMAMILTD",
             "NSE:EMBASSY.RR",
             "NSE:EMBDL",
+            "NSE:EMKAY",
             "NSE:EQUITASBNK",
             "NSE:ERIS",
             "NSE:ESAFSFB",
@@ -2207,6 +2207,7 @@
             "NSE:HDFCBANK",
             "NSE:HINDALCO",
             "NSE:HINDPETRO",
+            "NSE:HINDZINC",
             "NSE:HUDCO",
             "NSE:ICICIBANK",
             "NSE:IDBI",
@@ -5335,6 +5336,7 @@
             "NSE:DCBBANK",
             "NSE:EDELWEISS",
             "NSE:EMBASSY.RR",
+            "NSE:EMKAY",
             "NSE:EQUITASBNK",
             "NSE:ERIS",
             "NSE:ESAFSFB",
@@ -5354,6 +5356,7 @@
             "NSE:HDFCBANK",
             "NSE:HIGHWAYS",
             "NSE:HINDPETRO",
+            "NSE:HINDZINC",
             "NSE:HUDCO",
             "NSE:ICICIBANK",
             "NSE:IDBI",
@@ -6541,7 +6544,6 @@
             "SSE:601398",
             "SSE:601939",
             "SWB:PBY",
-            "SWB:RU000A0ZZVE6",
             "SWB:VROS",
             "SZSE:002860",
             "SZSE:160418",
@@ -7183,7 +7185,6 @@
             "HUF",
             "INR",
             "MXN",
-            "NOK",
             "PLN",
             "SEK",
             "TRY",
@@ -7208,7 +7209,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

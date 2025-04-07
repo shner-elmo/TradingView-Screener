@@ -14863,14 +14863,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22115,6 +22115,7 @@
             "Subversive",
             "Summit Global Investments",
             "Swan",
+            "Swisscanto",
             "Sygnia",
             "T-Rex",
             "T. Rowe Price",
@@ -22943,8 +22944,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25478,7 +25481,6 @@
             "PT Capital Financial Indonesia Tbk",
             "PT Indo Premier Securities",
             "PT Insight Investments Management",
-            "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
