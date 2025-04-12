@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18994,6 +18994,7 @@
             "JUST",
             "Jito",
             "Jupiter",
+            "Jupiter Perps LP",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -19020,15 +19021,14 @@
             "Ravencoin",
             "Raydium",
             "Render",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
-            "Solayer",
             "Stacks",
             "Stellar",
             "Sui",
             "Sun (New)",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19090,11 +19090,11 @@
             "XTVCHYPEH",
             "XTVCICP",
             "XTVCINJ",
+            "XTVCJLP",
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19117,7 +19117,6 @@
             "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19126,6 +19125,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
+            "XTVCSUSHI",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRIBE",
@@ -19200,8 +19200,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
