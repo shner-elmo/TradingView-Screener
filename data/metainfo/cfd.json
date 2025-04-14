@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12061,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18954,6 +18954,7 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
+            "Algorand",
             "Amp",
             "Aptos",
             "Avalanche",
@@ -19028,7 +19029,7 @@
             "Stellar",
             "Sui",
             "Sun (New)",
-            "SushiSwap",
+            "SwftCoin",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19054,6 +19055,7 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
+            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCATOM",
@@ -19125,7 +19127,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
-            "XTVCSUSHI",
+            "XTVCSWFTC",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRIBE",
@@ -19201,7 +19203,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

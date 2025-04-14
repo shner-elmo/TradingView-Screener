@@ -2367,7 +2367,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -22745,7 +22744,6 @@
             "BW",
             "CA",
             "CH",
-            "CI",
             "CL",
             "CM",
             "CN",
@@ -22951,7 +22949,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25491,6 +25490,7 @@
             "PT Indo Premier Securities",
             "PT Insight Investments Management",
             "PT Majoris Asset Management",
+            "PT Panin Sekuritas Tbk",
             "PT Pinnacle Persada Investama",
             "PT Sinarindo Gerbangmas",
             "PTAM Holdings LLC",
