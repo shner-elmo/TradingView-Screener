@@ -1610,7 +1610,6 @@
             "SUSDA",
             "SUSDE",
             "SUSDS",
-            "SUSDX",
             "SUSHI",
             "SYK",
             "T",
@@ -12703,14 +12702,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20457,7 +20456,6 @@
             "XTVCPNPC",
             "XTVCPNTO",
             "XTVCPOHM",
-            "XTVCPOL",
             "XTVCPOLYG",
             "XTVCPPEAS",
             "XTVCPRISMA",
@@ -20504,7 +20502,6 @@
             "XTVCSUSDA",
             "XTVCSUSDE",
             "XTVCSUSDS",
-            "XTVCSUSDX",
             "XTVCSUSHI",
             "XTVCSYK",
             "XTVCT",

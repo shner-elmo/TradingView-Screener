@@ -2421,7 +2421,6 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
-            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14847,14 +14846,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14875,13 +14874,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14889,7 +14881,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14897,6 +14889,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21517,6 +21516,7 @@
             "American Century",
             "Amplify",
             "Amundi",
+            "Analyst",
             "Anfield",
             "Angel Oak",
             "AngelOne",
@@ -21755,6 +21755,7 @@
             "Grizzle",
             "Groww",
             "Guardian",
+            "Guolian",
             "Guolianan",
             "Guotai",
             "Guru",
@@ -21818,7 +21819,6 @@
             "Invesco Great Wall",
             "Investlinx",
             "Investo",
-            "Ionic",
             "Itau",
             "JKO",
             "JLens",
@@ -22831,7 +22831,6 @@
             "TN",
             "TR",
             "TW",
-            "TZ",
             "UA",
             "US",
             "UY",
@@ -25094,6 +25093,7 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
+            "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
             "Angel One Ltd.",
@@ -25168,7 +25168,7 @@
             "Capital Impact Advisors LLC",
             "Capital Investment Trust Corp.",
             "Carne Global Financial Services Ltd.",
-            "Cary Street Partners Financial LLC /VA/",
+            "Cary Street Partners Financial LLC",
             "CastleArk Management LLC",
             "Cathay Financial Holdings Co., Ltd.",
             "Cathay Fund Management Co. Ltd.",
@@ -25202,7 +25202,6 @@
             "Cultivar Capital, Inc.",
             "Cygnet Capital LLC",
             "DB Financial Investment Co., Ltd.",
-            "DGB Financial Group Co., Ltd.",
             "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",
@@ -25367,7 +25366,6 @@
             "Investlinx Investment Management Ltd.",
             "Investo Gest\u00e3o de Recursos Ltda.",
             "Investor Asset Management BV",
-            "Ionic Capital Management Holdings LP",
             "IronHorse Holdings LLC",
             "Ita\u00fa Unibanco Holding SA",
             "J Lamarck SpA",
@@ -25705,6 +25703,7 @@
             "Zheshang Fund Management Co., Ltd.",
             "Zhongrong International Trust Co., Ltd.",
             "iA Financial Corp., Inc.",
+            "iM Financial Group",
             "issuance.swiss AG"
         ]
     },
@@ -27243,7 +27242,6 @@
         "r": [
             "country/AE",
             "country/CA",
-            "country/JP",
             "country/NO",
             "country/PL",
             "country/VN",
@@ -27281,6 +27279,7 @@
             "source/EGX",
             "source/EURONEXT",
             "source/EUROTLX",
+            "source/FSE",
             "source/FWB",
             "source/GETTEX",
             "source/GPW",
@@ -27323,6 +27322,7 @@
             "source/PSX",
             "source/QSE",
             "source/RUS",
+            "source/SAPSE",
             "source/SET",
             "source/SGX",
             "source/SIX",
