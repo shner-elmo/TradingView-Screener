@@ -12046,13 +12046,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18984,6 +18984,7 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
+            "Frax Share",
             "GMX",
             "GateToken",
             "Gemini Dollar",
@@ -18991,7 +18992,6 @@
             "Hedera",
             "Hyperliquid",
             "Injective",
-            "Instadapp",
             "Internet Computer",
             "JUST",
             "Jito",
@@ -19084,6 +19084,7 @@
             "XTVCFDUSD",
             "XTVCFIL",
             "XTVCFRAX",
+            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGT",
@@ -19092,7 +19093,6 @@
             "XTVCHYPEH",
             "XTVCICP",
             "XTVCINJ",
-            "XTVCINST",
             "XTVCJLP",
             "XTVCJST",
             "XTVCJTO",
