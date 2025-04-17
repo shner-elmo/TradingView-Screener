@@ -18984,7 +18984,6 @@
             "Filecoin",
             "First Digital USD",
             "Frax",
-            "Frax Share",
             "GMX",
             "GateToken",
             "Gemini Dollar",
@@ -18992,6 +18991,7 @@
             "Hedera",
             "Hyperliquid",
             "Injective",
+            "Instadapp",
             "Internet Computer",
             "JUST",
             "Jito",
@@ -19023,6 +19023,7 @@
             "Ravencoin",
             "Raydium",
             "Render",
+            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19043,8 +19044,7 @@
             "VeChain",
             "Wormhole",
             "Wrapped eETH",
-            "XRP",
-            "yearn.finance"
+            "XRP"
         ]
     },
     {
@@ -19084,7 +19084,6 @@
             "XTVCFDUSD",
             "XTVCFIL",
             "XTVCFRAX",
-            "XTVCFXS",
             "XTVCGMX",
             "XTVCGNO",
             "XTVCGT",
@@ -19093,6 +19092,7 @@
             "XTVCHYPEH",
             "XTVCICP",
             "XTVCINJ",
+            "XTVCINST",
             "XTVCJLP",
             "XTVCJST",
             "XTVCJTO",
@@ -19120,6 +19120,7 @@
             "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
+            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19144,7 +19145,6 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19201,6 +19201,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"

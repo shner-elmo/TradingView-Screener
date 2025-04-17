@@ -14846,14 +14846,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14888,14 +14888,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21478,7 +21478,6 @@
             "AXA",
             "AXS Investments",
             "Abacus",
-            "Aberdeen",
             "Absolute",
             "Academy",
             "Accelerate",
@@ -22238,6 +22237,7 @@
             "Zheshang",
             "Zhongrong",
             "Ziraat",
+            "aberdeen",
             "abrdn",
             "iA",
             "iA Clarington",
@@ -22947,6 +22947,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25487,6 +25488,7 @@
             "PT Capital Financial Indonesia Tbk",
             "PT Indo Premier Securities",
             "PT Insight Investments Management",
+            "PT Lenox Pasifik Investama Tbk",
             "PT Majoris Asset Management",
             "PT Panin Sekuritas Tbk",
             "PT Pinnacle Persada Investama",
