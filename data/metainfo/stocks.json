@@ -2367,7 +2367,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14860,14 +14859,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14888,14 +14887,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22238,7 +22237,6 @@
             "Zhongrong",
             "Ziraat",
             "aberdeen",
-            "abrdn",
             "iA",
             "iA Clarington",
             "iFreeETF",
@@ -22775,7 +22773,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -22947,8 +22944,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
             "out_of_session"
         ]
     },
@@ -25201,7 +25196,7 @@
             "Cullen Capital Management LLC",
             "Cultivar Capital, Inc.",
             "Cygnet Capital LLC",
-            "DB Financial Investment Co., Ltd.",
+            "DB Securities Co., Ltd.",
             "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",

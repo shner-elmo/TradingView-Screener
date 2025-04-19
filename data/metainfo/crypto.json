@@ -142,6 +142,7 @@
             "Dash",
             "Datamine FLUX",
             "Decentraland",
+            "Deep AI",
             "Degen",
             "Dent",
             "Dogecoin",
@@ -368,6 +369,7 @@
             "Vulcan Forged PYR",
             "WAX",
             "WINkLink",
+            "WalletConnect Token",
             "Walrus",
             "Wanchain",
             "WhiteBIT Coin",
@@ -1604,6 +1606,7 @@
             "SUSDE",
             "SUSDS",
             "SUSHI",
+            "SWCH",
             "SYK",
             "T",
             "TBTC",
@@ -12666,13 +12669,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12680,7 +12676,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12694,7 +12690,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12708,7 +12704,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12716,6 +12712,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19939,6 +19942,7 @@
             "CYBER",
             "DAI",
             "DASH",
+            "DEEP",
             "DEGEN",
             "DENT",
             "DIA",
@@ -20175,6 +20179,7 @@
             "WAXP",
             "WBT",
             "WBTC",
+            "WCT",
             "WIF",
             "WIN",
             "WLD",
@@ -20376,7 +20381,6 @@
             "XTVCGUSD",
             "XTVCHC",
             "XTVCHELP",
-            "XTVCHETH",
             "XTVCHOWDY",
             "XTVCHTX",
             "XTVCIBTC",
@@ -20487,6 +20491,7 @@
             "XTVCSUSDE",
             "XTVCSUSDS",
             "XTVCSUSHI",
+            "XTVCSWCH",
             "XTVCSYK",
             "XTVCT",
             "XTVCTBTC",
