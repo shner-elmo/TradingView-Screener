@@ -14845,14 +14845,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14887,14 +14887,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22867,7 +22867,6 @@
         "n": "currency_id",
         "t": "text",
         "r": [
-            "",
             "AED",
             "ARS",
             "AUD",
@@ -22944,6 +22943,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
@@ -25137,7 +25137,6 @@
             "Billionbrains Garage Ventures Pvt Ltd.",
             "Bitcoin Capital AG",
             "Bitwise Asset Management, Inc.",
-            "Bitwise Core Bitcoin ETP",
             "BlackRock, Inc.",
             "Bondbloxx Investment Management Corp.",
             "Bosera Asset Management Co., Ltd.",
