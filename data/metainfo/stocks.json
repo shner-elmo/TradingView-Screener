@@ -14845,14 +14845,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22197,6 +22197,7 @@
             "VictoryShares",
             "Vident",
             "VinaCapital",
+            "Virtune",
             "Virtus",
             "VistaShares",
             "Vita",
@@ -22867,6 +22868,7 @@
         "n": "currency_id",
         "t": "text",
         "r": [
+            "",
             "AED",
             "ARS",
             "AUD",
@@ -22943,9 +22945,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25171,7 +25173,7 @@
             "Cavalier16, Inc.",
             "Cboe Global Markets, Inc.",
             "Challenger Ltd.",
-            "Chimera Investments LLC",
+            "Chimera Investment LLC",
             "China Industrial Securities Co. Ltd.",
             "China International Capital Corp. Ltd.",
             "China Merchants Bank Co., Ltd.",
@@ -25395,7 +25397,6 @@
             "LIC Mutual Fund Asset Management Ltd.",
             "Lagan Holding Co. Trust",
             "Langar Holdings, Inc.",
-            "Lanyon Asset Management Pty Ltd.",
             "Lazard, Inc.",
             "Le Mouvement des caisses Desjardins",
             "Legal & General Group Plc",
@@ -25671,6 +25672,7 @@
             "Victory Capital Holdings, Inc.",
             "Vident Investors' Oversight Trust",
             "VinaWealth Fund Management JSC",
+            "Virtune AB",
             "Virtus Investment Partners, Inc.",
             "Vontobel Holding AG",
             "WBI Trading Co., Inc.",
@@ -27352,6 +27354,7 @@
             "19",
             "2",
             "20",
+            "21",
             "22",
             "23",
             "24",

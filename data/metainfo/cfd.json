@@ -12060,14 +12060,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18991,6 +18991,7 @@
             "Hedera",
             "Hyperliquid",
             "Injective",
+            "Instadapp",
             "Internet Computer",
             "JUST",
             "Jito",
@@ -19003,7 +19004,6 @@
             "MANTRA",
             "Maker",
             "Mantle",
-            "Maple Finance",
             "Marinade Staked SOL",
             "Monero",
             "Morpho",
@@ -19092,6 +19092,7 @@
             "XTVCHYPEH",
             "XTVCICP",
             "XTVCINJ",
+            "XTVCINST",
             "XTVCJLP",
             "XTVCJST",
             "XTVCJTO",
@@ -19127,7 +19128,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCSYRUP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
@@ -19201,9 +19201,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
