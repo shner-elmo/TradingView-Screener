@@ -210,6 +210,7 @@
             "MAGIC",
             "MANEKI",
             "MANTRA DAO",
+            "Magic Internet Money",
             "Maker",
             "Manta Network",
             "Marlin",
@@ -1621,7 +1622,6 @@
             "UAH",
             "UAHG",
             "UNI",
-            "UQC",
             "USC",
             "USD",
             "USD0",
@@ -1639,7 +1639,6 @@
             "USDTB",
             "USDTE",
             "USDX",
-            "USDZ",
             "USH",
             "USR",
             "VC",
@@ -12665,13 +12664,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12679,7 +12671,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12693,7 +12685,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12701,6 +12693,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20032,6 +20031,7 @@
             "ME",
             "METIS",
             "MEW",
+            "MIM",
             "MINA",
             "MIOTA",
             "MKR",
@@ -20311,6 +20311,7 @@
             "XTVCCRO",
             "XTVCCROID",
             "XTVCCRV2POOL",
+            "XTVCCRVRENWSBTC",
             "XTVCCRVUSD",
             "XTVCCTR",
             "XTVCCVGSDT",
@@ -20399,7 +20400,6 @@
             "XTVCLUA",
             "XTVCLUSD",
             "XTVCLVLUSD",
-            "XTVCM1",
             "XTVCMAUSDC",
             "XTVCMBTC",
             "XTVCMCAKE",
@@ -20463,7 +20463,6 @@
             "XTVCSFRAX",
             "XTVCSFUND",
             "XTVCSHIB",
-            "XTVCSLINK",
             "XTVCSOL",
             "XTVCSOLVBTC",
             "XTVCSOLVBTCBBN",
@@ -20499,7 +20498,6 @@
             "XTVCUAHG",
             "XTVCUNI",
             "XTVCUPYFI",
-            "XTVCUQC",
             "XTVCURWAAI",
             "XTVCUSC",
             "XTVCUSD0",
@@ -20519,7 +20517,6 @@
             "XTVCUSDTB",
             "XTVCUSDTE",
             "XTVCUSDX",
-            "XTVCUSDZ",
             "XTVCUSHHA",
             "XTVCUSR",
             "XTVCVC",

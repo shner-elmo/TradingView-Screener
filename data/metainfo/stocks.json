@@ -2367,6 +2367,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2424,7 +2425,6 @@
             "Togo",
             "Tunisia",
             "Turkey",
-            "U.S. Virgin Islands",
             "Ukraine",
             "United Arab Emirates",
             "United Kingdom",
@@ -14859,14 +14859,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14887,14 +14887,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22744,6 +22744,7 @@
             "BW",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -22835,7 +22836,6 @@
             "UY",
             "VE",
             "VG",
-            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -22945,6 +22945,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25074,7 +25075,7 @@
             "Aditya Birla Sun Life AMC Ltd.",
             "Affiliated Managers Group, Inc.",
             "Affin Bank Bhd.",
-            "African Bank Holdings Ltd",
+            "African Bank Holdings Ltd.",
             "AgioFunds TFI SA",
             "Akbank TAS",
             "Albert D. Mason, Inc.",
@@ -25521,7 +25522,6 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",

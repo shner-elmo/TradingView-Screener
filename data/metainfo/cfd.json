@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18966,6 +18966,7 @@
             "Bitget Token",
             "Bittensor",
             "Cardano",
+            "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18982,7 +18983,6 @@
             "Ethereum",
             "Ethereum Classic",
             "Filecoin",
-            "First Digital USD",
             "Frax",
             "Frax Share",
             "GateToken",
@@ -19025,6 +19025,7 @@
             "Shiba Inu",
             "Sky",
             "Solana",
+            "Solayer",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19043,8 +19044,7 @@
             "VeChain",
             "Wormhole",
             "Wrapped eETH",
-            "XRP",
-            "yearn.finance"
+            "XRP"
         ]
     },
     {
@@ -19081,7 +19081,6 @@
             "XTVCENA",
             "XTVCETC",
             "XTVCETH",
-            "XTVCFDUSD",
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFXS",
@@ -19098,6 +19097,7 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
+            "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19130,6 +19130,7 @@
             "XTVCSUSHI",
             "XTVCT",
             "XTVCTAOB",
+            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRUMPOF",
             "XTVCTRX",
@@ -19144,7 +19145,6 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19201,6 +19201,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
