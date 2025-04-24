@@ -14845,14 +14845,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14873,14 +14873,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21494,7 +21494,6 @@
             "Agiofunds",
             "Ailis",
             "Airlie",
-            "Akros",
             "Albilad",
             "Alerian",
             "Alexis",
@@ -21566,7 +21565,6 @@
             "Bitwise",
             "BlackRock",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -22945,7 +22943,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24721,7 +24718,6 @@
             "ARK Investment Management LP",
             "Abacus FCF Advisors LLC",
             "Acquirers Funds LLC",
-            "Akros S.R.L.",
             "American Century Investment Management, Inc.",
             "Arch Indices Investment Advisors LLC",
             "Athens Stock Exchange",
@@ -25398,6 +25394,7 @@
             "LIC Mutual Fund Asset Management Ltd.",
             "Lagan Holding Co. Trust",
             "Langar Holdings, Inc.",
+            "Lanyon Asset Management Pty Ltd.",
             "Lazard, Inc.",
             "Le Mouvement des caisses Desjardins",
             "Legal & General Group Plc",
@@ -27599,7 +27596,6 @@
             "SG",
             "SI",
             "SK",
-            "SY",
             "TH",
             "TJ",
             "TN",
