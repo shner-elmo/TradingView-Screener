@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12061,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18988,6 +18988,7 @@
             "GateToken",
             "Gemini Dollar",
             "Gnosis",
+            "Haedal Staked SUI",
             "Hedera",
             "Hyperliquid",
             "Injective",
@@ -19003,7 +19004,6 @@
             "MANTRA",
             "Maker",
             "Mantle",
-            "Maple Finance",
             "Marinade Staked SOL",
             "Monero",
             "Morpho",
@@ -19087,6 +19087,7 @@
             "XTVCGNO",
             "XTVCGT",
             "XTVCGUSD",
+            "XTVCHASUI",
             "XTVCHBAR",
             "XTVCHYPEH",
             "XTVCICP",
@@ -19127,7 +19128,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCSYRUP",
             "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",

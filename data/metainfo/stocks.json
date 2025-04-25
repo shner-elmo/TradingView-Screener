@@ -14845,13 +14845,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14859,7 +14852,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14873,7 +14866,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14887,7 +14880,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,6 +14888,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -25136,6 +25136,7 @@
             "Billionbrains Garage Ventures Pvt Ltd.",
             "Bitcoin Capital AG",
             "Bitwise Asset Management, Inc.",
+            "Bitwise Core Bitcoin ETP",
             "BlackRock, Inc.",
             "Bondbloxx Investment Management Corp.",
             "Bosera Asset Management Co., Ltd.",
