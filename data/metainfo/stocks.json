@@ -2359,6 +2359,7 @@
             "Gibraltar",
             "Greece",
             "Greenland",
+            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -2421,6 +2422,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14859,14 +14861,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14887,14 +14889,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22764,6 +22766,7 @@
             "GI",
             "GL",
             "GR",
+            "GU",
             "HK",
             "HR",
             "HU",
@@ -22829,6 +22832,7 @@
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "US",
             "UY",
@@ -22944,8 +22948,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25154,6 +25157,7 @@
             "CITIC Securities Co., Ltd.",
             "CSOP Asset Management Ltd.",
             "CTBC Financial Holding Co., Ltd.",
+            "CYBER HORNET ETFs LLC",
             "Calamos Family Partners, Inc.",
             "Caldwell Financial Ltd.",
             "Cambiar Holdings LLLP",
@@ -25466,7 +25470,6 @@
             "Nomura Holdings, Inc.",
             "Northern Trust Corp.",
             "Nu Holdings Ltd.",
-            "ONEFUND LLC",
             "ORIX Corp.",
             "OTP Bank Nyrt",
             "Ocean Park Asset Management LLC",
