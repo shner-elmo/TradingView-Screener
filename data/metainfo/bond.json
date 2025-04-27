@@ -170,7 +170,6 @@
             "Luxembourg",
             "Macau",
             "Macedonia",
-            "Madagascar",
             "Malaysia",
             "Maldives",
             "Malta",
@@ -6734,7 +6733,7 @@
             "VIE:OBS",
             "VIE:OMV",
             "VIE:POS",
-            "VIE:RC80",
+            "VIE:RBI",
             "VIE:UBS",
             "VIE:UQA",
             "VIE:VER",
@@ -6990,7 +6989,6 @@
             "MC",
             "MD",
             "ME",
-            "MG",
             "MK",
             "MN",
             "MO",
@@ -7214,6 +7212,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
