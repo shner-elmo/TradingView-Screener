@@ -14847,14 +14847,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21594,7 +21594,6 @@
             "CIFM",
             "CMB",
             "CPIC",
-            "CRM",
             "CSOP",
             "CTBC",
             "Cabana",
@@ -21942,6 +21941,7 @@
             "Neos",
             "NestYield",
             "Neuberger Berman",
+            "New China Fund",
             "New York Life Investments",
             "Nicholas",
             "Nifty",
@@ -21956,7 +21956,6 @@
             "Nuveen",
             "OPAL",
             "OTP",
-            "Oak Funds",
             "Oakmark",
             "Obermatt",
             "Obra",
@@ -22179,6 +22178,7 @@
             "UWP",
             "Ultramarin",
             "Unicorn",
+            "Union Investment",
             "Union Mutual Fund",
             "United",
             "Unlimited",
@@ -22947,8 +22947,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -23544,6 +23546,7 @@
             "2182",
             "2183",
             "2184",
+            "2186",
             "22",
             "23",
             "24",
@@ -25460,6 +25463,7 @@
             "National Agricultural Cooperative Federation",
             "National Bank of Canada",
             "Neil Azous Revocable Trust",
+            "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
             "Nightview Capital LLC",
@@ -25656,6 +25660,7 @@
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
+            "Union Bank of Taiwan",
             "United Overseas Bank Ltd. (Singapore)",
             "Unlimited Funds, Inc.",
             "VI Asset Management Co., Ltd.",
@@ -26364,6 +26369,8 @@
             "9556",
             "9557",
             "9558",
+            "9559",
+            "9561",
             "97",
             "98"
         ]

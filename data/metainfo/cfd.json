@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,14 +12060,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18957,6 +18957,7 @@
             "Algorand",
             "Amp",
             "Aptos",
+            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18971,7 +18972,6 @@
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18997,6 +18997,7 @@
             "Jito",
             "Jupiter",
             "Jupiter Perps LP",
+            "Kadena",
             "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
@@ -19019,7 +19020,6 @@
             "Pendle",
             "Pepe",
             "Polkadot",
-            "Ravencoin",
             "Raydium",
             "Render",
             "Shiba Inu",
@@ -19035,7 +19035,6 @@
             "THORChain",
             "TRON",
             "Tether USDt",
-            "Threshold",
             "Toncoin",
             "UNUS SED LEO",
             "USDC",
@@ -19044,7 +19043,8 @@
             "VeChain",
             "Wormhole",
             "Wrapped eETH",
-            "XRP"
+            "XRP",
+            "yearn.finance"
         ]
     },
     {
@@ -19058,7 +19058,6 @@
             "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19081,6 +19080,7 @@
             "XTVCENA",
             "XTVCETC",
             "XTVCETH",
+            "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFXS",
@@ -19097,6 +19097,7 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
+            "XTVCKDA",
             "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
@@ -19118,7 +19119,6 @@
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRUNE",
-            "XTVCRVN",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19128,7 +19128,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUSHI",
-            "XTVCT",
             "XTVCTAOB",
             "XTVCTIA2",
             "XTVCTON",
@@ -19145,6 +19144,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
@@ -19201,8 +19201,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
