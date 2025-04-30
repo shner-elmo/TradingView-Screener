@@ -2707,6 +2707,7 @@
             "Commodity/Energy/NatGas",
             "Commodity/Energy/Oil",
             "Commodity/Energy/Oil/CrudeOil",
+            "Commodity/Energy/Oil/CrudeOil/BAKKEN",
             "Commodity/Energy/Oil/CrudeOil/Brent",
             "Commodity/Energy/Oil/CrudeOil/Dubai",
             "Commodity/Energy/Oil/CrudeOil/Murban",

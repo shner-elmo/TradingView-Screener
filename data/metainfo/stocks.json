@@ -2409,7 +2409,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14847,13 +14846,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14861,7 +14853,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14869,6 +14861,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,14 +14888,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21462,6 +21461,7 @@
             "3iQ",
             "AAM",
             "AB Funds",
+            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -21650,7 +21650,6 @@
             "Daintree Funds",
             "Daishin",
             "Daiwa",
-            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -22826,7 +22825,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "TG",
             "TH",
             "TN",
@@ -22947,6 +22945,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25093,6 +25092,7 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
+            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
@@ -25203,6 +25203,7 @@
             "Cultivar Capital, Inc.",
             "Cygnet Capital LLC",
             "DB Securities Co., Ltd.",
+            "DDA ETP AG",
             "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "Da Cheng Fund Management Co., Ltd.",
@@ -25414,6 +25415,7 @@
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
             "Logan Capital Management, Inc.",
+            "Long Pond Capital LP",
             "LongPoint Asset Management, Inc.",
             "L\u00e4hiTapiola Keskin\u00e4inen Vakuutusyhti\u00f6",
             "MERITZ Financial Group, Inc.",
@@ -25526,6 +25528,7 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
+            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",
@@ -26370,6 +26373,7 @@
             "9558",
             "9559",
             "9561",
+            "9562",
             "97",
             "98"
         ]

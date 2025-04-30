@@ -12046,13 +12046,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12061,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18957,6 +18957,7 @@
             "Algorand",
             "Amp",
             "Aptos",
+            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18966,7 +18967,6 @@
             "Bitget Token",
             "Bittensor",
             "Cardano",
-            "Celestia",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -19020,6 +19020,7 @@
             "Pendle",
             "Pepe",
             "Polkadot",
+            "Ravencoin",
             "Raydium",
             "Render",
             "Shiba Inu",
@@ -19030,7 +19031,6 @@
             "Stellar",
             "Sui",
             "Sun (New)",
-            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19081,6 +19081,7 @@
             "XTVCENA",
             "XTVCETC",
             "XTVCETH",
+            "XTVCFET",
             "XTVCFIL",
             "XTVCFRAX",
             "XTVCFXS",
@@ -19119,6 +19120,7 @@
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRUNE",
+            "XTVCRVN",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19127,9 +19129,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
-            "XTVCSUSHI",
             "XTVCTAOB",
-            "XTVCTIA2",
             "XTVCTON",
             "XTVCTRUMPOF",
             "XTVCTRX",
@@ -19201,8 +19201,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
