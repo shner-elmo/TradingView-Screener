@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12061,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19020,7 +19020,6 @@
             "Pendle",
             "Pepe",
             "Polkadot",
-            "Ravencoin",
             "Raydium",
             "Render",
             "Shiba Inu",
@@ -19031,6 +19030,7 @@
             "Stellar",
             "Sui",
             "Sun (New)",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19120,7 +19120,6 @@
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRUNE",
-            "XTVCRVN",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19129,6 +19128,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
+            "XTVCSUSHI",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRUMPOF",

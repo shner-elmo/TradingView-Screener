@@ -98,7 +98,6 @@
             "Binance Coin",
             "Bit2Me",
             "BitKan",
-            "BitShares",
             "Bitcoin",
             "Bitcoin Cash",
             "Bitcoin SV",
@@ -329,7 +328,6 @@
             "Sweat Economy",
             "SwftCoin",
             "Symbol",
-            "Synthetix Network Token",
             "Syscoin",
             "THENA",
             "THORChain",
@@ -1512,7 +1510,6 @@
             "HTX",
             "HYDRA",
             "HYPER",
-            "IBTC",
             "INF",
             "IOTX",
             "IQ",
@@ -12669,13 +12666,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12683,7 +12673,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12691,6 +12681,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19917,7 +19914,6 @@
             "BORA",
             "BSV",
             "BTC",
-            "BTS",
             "CAKE",
             "CANTO",
             "CCD",
@@ -20123,7 +20119,6 @@
             "SHIB",
             "SKL",
             "SLF",
-            "SNX",
             "SOL",
             "SONIC",
             "SPEC",
@@ -20378,7 +20373,6 @@
             "XTVCHTX",
             "XTVCHYDRA",
             "XTVCHYPER",
-            "XTVCIBTC",
             "XTVCINF",
             "XTVCIOTX",
             "XTVCIQ",
@@ -20500,7 +20494,6 @@
             "XTVCTPT",
             "XTVCTRUMP",
             "XTVCTRX",
-            "XTVCTSB",
             "XTVCTUSD",
             "XTVCUAHG",
             "XTVCUNI",

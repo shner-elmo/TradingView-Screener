@@ -2426,6 +2426,7 @@
             "Togo",
             "Tunisia",
             "Turkey",
+            "U.S. Virgin Islands",
             "Ukraine",
             "United Arab Emirates",
             "United Kingdom",
@@ -14846,13 +14847,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14860,7 +14854,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14868,6 +14862,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14888,14 +14889,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22073,6 +22074,7 @@
             "Safra",
             "Samsung",
             "SanJac Alpha",
+            "Sarmaya Partners",
             "Satrix",
             "Sber",
             "Sberbank",
@@ -22836,6 +22838,7 @@
             "UY",
             "VE",
             "VG",
+            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -25073,6 +25076,7 @@
             "Accelerate Financial Technologies, Inc.",
             "Acquirers Funds LLC",
             "Aditya Birla Sun Life AMC Ltd.",
+            "Advent Capital Management LLC",
             "Affiliated Managers Group, Inc.",
             "Affin Bank Bhd.",
             "African Bank Holdings Ltd.",
@@ -25386,7 +25390,6 @@
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
-            "Kasikornbank Public Co. Ltd.",
             "Kelly Intelligence LLC",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
