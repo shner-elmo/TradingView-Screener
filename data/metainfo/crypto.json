@@ -1494,7 +1494,6 @@
             "FUSD",
             "FXN",
             "GBP",
-            "GENZ",
             "GIV",
             "GMI",
             "GMRT",
@@ -12678,13 +12677,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12692,7 +12684,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12706,7 +12698,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12714,6 +12706,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20353,7 +20352,6 @@
             "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXUSD",
-            "XTVCGENZ",
             "XTVCGIV",
             "XTVCGMI",
             "XTVCGMRT",
@@ -20490,6 +20488,7 @@
             "XTVCTPT",
             "XTVCTRUMP",
             "XTVCTRX",
+            "XTVCTSB",
             "XTVCTUSD",
             "XTVCUAHG",
             "XTVCUNI",

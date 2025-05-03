@@ -12074,14 +12074,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19030,11 +19030,11 @@
             "Stellar",
             "Sui",
             "Sun (New)",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
             "Tether USDt",
-            "Threshold",
             "Toncoin",
             "UNUS SED LEO",
             "USDC",
@@ -19128,7 +19128,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
-            "XTVCT",
+            "XTVCSUSHI",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRUMPOF",
@@ -19201,10 +19201,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

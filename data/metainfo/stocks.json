@@ -2409,6 +2409,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14861,14 +14862,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,14 +14890,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21934,6 +21935,7 @@
             "NEXT NOTES",
             "NH",
             "NH-Amundi",
+            "NN investment partners",
             "NZAM",
             "Nanhua",
             "Nanuk",
@@ -22828,6 +22830,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "TG",
             "TH",
             "TN",
@@ -22949,10 +22952,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23333,6 +23334,7 @@
             "INR",
             "JPY",
             "KRW",
+            "KZT",
             "MXN",
             "MYR",
             "NOK",
@@ -24819,6 +24821,7 @@
             "JPX Market Innovation & Research, Inc.",
             "JUST Capital Foundation, Inc.",
             "Janus Henderson Investors US LLC",
+            "Kazakhstan Stock Exchange",
             "Kelly Indexes LLC",
             "Korea Asset Pricing Corp.",
             "Korea Exchange Co., Ltd.",
@@ -25626,6 +25629,7 @@
             "Taishin Financial Holdings Co., Ltd.",
             "Tapp Finance, Inc.",
             "Tata Sons Pvt Ltd.",
+            "Techcom Capital Management Ltd.",
             "Teucrium Trading LLC",
             "Texas Capital Bancshares, Inc.",
             "Thalia Street Partners LLC",
