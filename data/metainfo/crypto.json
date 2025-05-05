@@ -284,7 +284,6 @@
             "Ravencoin",
             "Raydium",
             "Real USD",
-            "Recovery Right Token",
             "Render",
             "Request Network",
             "Ronin",
@@ -1508,6 +1507,7 @@
             "HTX",
             "HYDRA",
             "HYPER",
+            "IBTC",
             "INF",
             "IOTX",
             "IQ",
@@ -12663,13 +12663,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12677,7 +12670,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12691,7 +12684,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12705,7 +12698,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12713,6 +12706,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20095,7 +20095,6 @@
             "RLC",
             "RON",
             "ROSE",
-            "RRT",
             "RUNE",
             "RVN",
             "S",
@@ -20302,7 +20301,6 @@
             "XTVCCRO",
             "XTVCCROID",
             "XTVCCRV2POOL",
-            "XTVCCRVRENWSBTC",
             "XTVCCRVUSD",
             "XTVCCTR",
             "XTVCCVGSDT",
@@ -20368,6 +20366,7 @@
             "XTVCHTX",
             "XTVCHYDRA",
             "XTVCHYPER",
+            "XTVCIBTC",
             "XTVCINF",
             "XTVCIOTX",
             "XTVCIQ",

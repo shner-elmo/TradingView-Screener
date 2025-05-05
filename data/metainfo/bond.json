@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -743,6 +742,7 @@
             "BIST:ARCLK",
             "BIST:AYDEM",
             "BIST:CCOLA",
+            "BIST:DOHOL",
             "BIST:DSTKF",
             "BIST:EREGL",
             "BIST:FROTO",
@@ -6922,7 +6922,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7201,8 +7200,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
