@@ -19023,6 +19023,7 @@
             "Polkadot",
             "Raydium",
             "Render",
+            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19043,8 +19044,7 @@
             "VeChain",
             "Wormhole",
             "Wrapped eETH",
-            "XRP",
-            "yearn.finance"
+            "XRP"
         ]
     },
     {
@@ -19120,6 +19120,7 @@
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRUNE",
+            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19144,7 +19145,6 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZRX"
         ]
     },
