@@ -14849,14 +14849,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14877,13 +14877,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14891,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,6 +14892,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21531,6 +21531,7 @@
             "Armada ETF Advisors",
             "Arrow Funds",
             "ArrowShares",
+            "Arysteq",
             "Asset Management One",
             "AssetPlus",
             "Astoria",
@@ -21571,6 +21572,7 @@
             "Bitwise",
             "BlackRock",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -21747,6 +21749,7 @@
             "GammaRoad",
             "Genter Capital",
             "Global X",
+            "Globinvest",
             "God Bless",
             "Goldman Sachs",
             "Goose Hollow",
@@ -22192,7 +22195,6 @@
             "VanEck",
             "Vanguard",
             "Vaughan",
-            "VegTech",
             "Vert",
             "Vest",
             "VictoryShares",
@@ -22950,6 +22952,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24905,7 +24908,7 @@
             "Texas Capital Bank",
             "The Belgrade Stock Exchange",
             "The London Bullion Market Association",
-            "The London Metal Exchange (United Kingdom)",
+            "The London Metal Exchange",
             "The Motley Fool, LLC",
             "The Northern Trust Co.",
             "The Stock Exchange of Thailand",
@@ -25296,6 +25299,7 @@
             "Gadsden Group Holdings LLC",
             "Galaxy Fund Management Co., Ltd.",
             "Global X Japan Co., Ltd.",
+            "Globinvest SAI SA",
             "Goose Hollow Capital Management LLC",
             "Gotham Asset Management Holdings LP",
             "Government of Brazil",
@@ -25416,6 +25420,7 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
+            "Lexus Securities Pty Ltd.",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
@@ -25678,7 +25683,6 @@
             "Value Partners Group Ltd.",
             "Van Eck Associates Corp.",
             "VanEck ETP AG",
-            "VegTech LLC",
             "Veritas Liberabit Vos LLC",
             "Vert Asset Management LLC",
             "Vertium Asset Management Pty Ltd.",
@@ -26376,8 +26380,6 @@
             "9556",
             "9557",
             "9558",
-            "9559",
-            "9561",
             "9562",
             "97",
             "98"
@@ -27514,7 +27516,6 @@
             "CH",
             "CI",
             "CL",
-            "CM",
             "CN",
             "CO",
             "CR",

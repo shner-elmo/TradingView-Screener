@@ -284,6 +284,7 @@
             "Ravencoin",
             "Raydium",
             "Real USD",
+            "Recovery Right Token",
             "Render",
             "Request Network",
             "Ronin",
@@ -1540,6 +1541,7 @@
             "MIM",
             "MIMATIC",
             "MOBILE",
+            "MOON",
             "MSOL",
             "MXN",
             "MXNT",
@@ -1552,7 +1554,6 @@
             "OP",
             "ORA",
             "PAXG",
-            "PBULL",
             "PEAS",
             "PENDLE",
             "PEPE",
@@ -12677,13 +12678,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12691,7 +12685,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12699,6 +12693,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20095,6 +20096,7 @@
             "RLC",
             "RON",
             "ROSE",
+            "RRT",
             "RUNE",
             "RVN",
             "S",
@@ -20255,7 +20257,6 @@
             "XTVCAGENTFUN",
             "XTVCAGEUR",
             "XTVCALD",
-            "XTVCAPNUMAPEAS",
             "XTVCAPOHM",
             "XTVCAPY",
             "XTVCARB",
@@ -20403,7 +20404,9 @@
             "XTVCMGC",
             "XTVCMIM",
             "XTVCMIMATIC",
+            "XTVCMMUSD",
             "XTVCMOBILE",
+            "XTVCMOON",
             "XTVCMORNINGSTAR",
             "XTVCMSOL",
             "XTVCMXNT",
@@ -20416,7 +20419,6 @@
             "XTVCOP",
             "XTVCORA",
             "XTVCPAXG",
-            "XTVCPBULL",
             "XTVCPEAS",
             "XTVCPENDLE",
             "XTVCPEPE",

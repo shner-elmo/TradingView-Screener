@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19023,7 +19023,6 @@
             "Polkadot",
             "Raydium",
             "Render",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19044,7 +19043,8 @@
             "VeChain",
             "Wormhole",
             "Wrapped eETH",
-            "XRP"
+            "XRP",
+            "yearn.finance"
         ]
     },
     {
@@ -19120,7 +19120,6 @@
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRUNE",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19145,6 +19144,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZRX"
         ]
     },
