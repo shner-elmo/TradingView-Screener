@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18971,7 +18971,6 @@
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -19031,6 +19030,7 @@
             "Stellar",
             "Sui",
             "Sun (New)",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19041,10 +19041,10 @@
             "USDD",
             "Uniswap",
             "VeChain",
+            "World Liberty Financial USD",
             "Wormhole",
             "Wrapped eETH",
-            "XRP",
-            "yearn.finance"
+            "XRP"
         ]
     },
     {
@@ -19058,7 +19058,6 @@
             "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19128,12 +19127,14 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
+            "XTVCSUSHI",
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRUMPOF",
             "XTVCTRX",
             "XTVCUNI",
+            "XTVCUSD1W",
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDEE",
@@ -19144,7 +19145,6 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZRX"
         ]
     },
