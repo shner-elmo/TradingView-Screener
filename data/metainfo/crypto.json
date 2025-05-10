@@ -1501,6 +1501,7 @@
             "GRAIL",
             "GUSD",
             "HELP",
+            "HOLO",
             "HPAY",
             "HTX",
             "HYDRA",
@@ -1572,7 +1573,6 @@
             "PYUSD",
             "QUICK",
             "RAY",
-            "RENDER",
             "RETH",
             "RLUSD",
             "RON",
@@ -1639,6 +1639,7 @@
             "USDT",
             "USDTB",
             "USDTE",
+            "USDX",
             "USDZ",
             "USH",
             "USR",
@@ -12666,14 +12667,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12694,13 +12695,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12708,7 +12702,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12716,6 +12710,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20313,7 +20314,6 @@
             "XTVCCVXCRV",
             "XTVCCVXFXS",
             "XTVCCZUSD",
-            "XTVCD2",
             "XTVCDAI",
             "XTVCDAIE",
             "XTVCDB",
@@ -20363,6 +20363,7 @@
             "XTVCGRAIL",
             "XTVCGUSD",
             "XTVCHELP",
+            "XTVCHOLO",
             "XTVCHOWDY",
             "XTVCHPAY",
             "XTVCHTX",
@@ -20442,7 +20443,6 @@
             "XTVCPYUSD",
             "XTVCQUICK",
             "XTVCRAY",
-            "XTVCRENDER",
             "XTVCRETH",
             "XTVCRLUSD",
             "XTVCROUTINE",
@@ -20515,6 +20515,7 @@
             "XTVCUSDT",
             "XTVCUSDTB",
             "XTVCUSDTE",
+            "XTVCUSDX",
             "XTVCUSDZ",
             "XTVCUSHHA",
             "XTVCUSR",
@@ -20557,7 +20558,6 @@
             "XTVCXSGD",
             "XTVCXVS",
             "XTVCYCRV",
-            "XTVCYETH",
             "XTVCYFIE",
             "XTVCYFSX",
             "XTVCYOSTEP",

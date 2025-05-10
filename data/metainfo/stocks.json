@@ -2360,7 +2360,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -2370,6 +2369,7 @@
             "Israel",
             "Italy",
             "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2423,7 +2423,6 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
-            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14863,13 +14862,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14877,7 +14869,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,7 +14883,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,6 +14891,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22128,6 +22127,7 @@
             "Sygnia",
             "T-Rex",
             "T. Rowe Price",
+            "TBI",
             "TCW",
             "TD",
             "THOR",
@@ -22206,6 +22206,7 @@
             "VistaShares",
             "Vita",
             "Volatility Shares",
+            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -22771,7 +22772,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -22781,6 +22781,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -22837,7 +22838,6 @@
             "TN",
             "TR",
             "TW",
-            "TZ",
             "UA",
             "US",
             "UY",
@@ -22953,10 +22953,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
