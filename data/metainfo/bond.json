@@ -120,7 +120,6 @@
             "Burundi",
             "Cameroon",
             "Canada",
-            "Cape Verde",
             "Cayman Islands",
             "Chile",
             "China",
@@ -6927,7 +6926,6 @@
             "CN",
             "CO",
             "CR",
-            "CV",
             "CY",
             "CZ",
             "DE",
@@ -7112,6 +7110,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7198,6 +7197,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
