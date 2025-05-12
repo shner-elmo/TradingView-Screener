@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -120,6 +119,7 @@
             "Burundi",
             "Cameroon",
             "Canada",
+            "Cape Verde",
             "Cayman Islands",
             "Chile",
             "China",
@@ -5282,6 +5282,7 @@
             "NEO:CBST",
             "NSE:AADHARHFC",
             "NSE:AAVAS",
+            "NSE:ABCAPITAL",
             "NSE:ABFRL",
             "NSE:ABREL",
             "NSE:ADANIENSOL",
@@ -6917,7 +6918,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -6926,6 +6926,7 @@
             "CN",
             "CO",
             "CR",
+            "CV",
             "CY",
             "CZ",
             "DE",
@@ -7198,7 +7199,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

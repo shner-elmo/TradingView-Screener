@@ -2568,6 +2568,7 @@
         "r": [
             "ADX",
             "AMEX",
+            "AQUIS",
             "ASX",
             "ATHEX",
             "BAHRAIN",
@@ -22953,8 +22954,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -27263,6 +27266,7 @@
             "country/VN",
             "source/ADX",
             "source/AMEX",
+            "source/AQUIS",
             "source/ASX",
             "source/ATHEX",
             "source/BAHRAIN",
