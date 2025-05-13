@@ -1570,6 +1570,7 @@
             "PNP",
             "POHM",
             "POL",
+            "PONKE",
             "PRISMA",
             "PUFETH",
             "PXETH",
@@ -12672,13 +12673,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12686,7 +12680,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12694,6 +12688,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20317,6 +20318,7 @@
             "XTVCCROID",
             "XTVCCROSS",
             "XTVCCRV2POOL",
+            "XTVCCRVRENWSBTC",
             "XTVCCRVUSD",
             "XTVCCTR",
             "XTVCCVGSDT",
@@ -20395,7 +20397,6 @@
             "XTVCKMNO",
             "XTVCKOL",
             "XTVCKP3R",
-            "XTVCKRIS",
             "XTVCKUDAI",
             "XTVCLDO",
             "XTVCLINK",
@@ -20440,12 +20441,12 @@
             "XTVCPHAR",
             "XTVCPIAO",
             "XTVCPIPPIN",
-            "XTVCPKIN",
             "XTVCPNG",
             "XTVCPNP",
             "XTVCPNTO",
             "XTVCPOHM",
             "XTVCPOLYG",
+            "XTVCPONKE",
             "XTVCPPEAS",
             "XTVCPRISMA",
             "XTVCPUFETH",
@@ -20460,7 +20461,6 @@
             "XTVCROUTINE",
             "XTVCRSETH",
             "XTVCRSWETH",
-            "XTVCRTBL",
             "XTVCRZUSD",
             "XTVCSAND",
             "XTVCSATOSHIK",
@@ -20511,7 +20511,6 @@
             "XTVCTUSD",
             "XTVCUAHG",
             "XTVCUNI",
-            "XTVCUPYFI",
             "XTVCURWAAI",
             "XTVCUSC",
             "XTVCUSD0",
