@@ -2321,7 +2321,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -3841,6 +3840,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14848,14 +14848,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22732,7 +22732,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -22895,6 +22894,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22952,7 +22952,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24820,7 +24819,6 @@
             "Investor's Business Daily, Inc.",
             "JPX Market Innovation & Research, Inc.",
             "JUST Capital Foundation, Inc.",
-            "Janus Henderson Investors US LLC",
             "Kazakhstan Stock Exchange",
             "Kelly Indexes LLC",
             "Korea Asset Pricing Corp.",
@@ -24856,7 +24854,6 @@
             "Nasdaq ISE LLC",
             "Ned Davis Research, Inc.",
             "New York Life Investment Management LLC",
-            "New York Stock Exchange",
             "Newfound Research LLC",
             "Nikkei, Inc.",
             "North Shore Indices, Inc.",
@@ -24899,6 +24896,7 @@
             "State Street Global Advisors, Inc.",
             "SummerHaven Investment Management LLC",
             "Sustainalytics (Toronto)",
+            "Svenska Handelsbanken AB",
             "Syntax Advisors LLC",
             "Taiwan Index Plus Corp.",
             "Taiwan Stock Exchange Corp.",
@@ -25264,6 +25262,7 @@
             "FIL Ltd.",
             "FMC Group Holdings LP",
             "FMR LLC",
+            "FP Management Holding GmbH",
             "Fair Oaks Capital Ltd.",
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
