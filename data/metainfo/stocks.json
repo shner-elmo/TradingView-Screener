@@ -14848,13 +14848,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14862,7 +14855,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14870,6 +14863,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14890,14 +14890,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21701,6 +21701,7 @@
             "FM",
             "FNB",
             "FPA",
+            "FPT Capital",
             "FSITC",
             "FT Vest",
             "FTSE",
@@ -21901,7 +21902,6 @@
             "Mason Capital",
             "Matrix",
             "Matthews",
-            "Maverix",
             "Max",
             "Maxwealth",
             "McElhenny Sheffield",
@@ -22058,6 +22058,7 @@
             "Roundhill",
             "Royal Canadian Mint",
             "Russell",
+            "Russell Investments",
             "SAB Invest",
             "SAM",
             "SBI",
@@ -22122,6 +22123,7 @@
             "SuMi TRUST",
             "Subversive",
             "Summit Global Investments",
+            "Suncoast",
             "Swan",
             "Swisscanto",
             "Sygnia",
@@ -22140,6 +22142,7 @@
             "Taishin",
             "TappAlpha",
             "Tata",
+            "Techcom Capital",
             "Tema",
             "Teucrium",
             "Texas Capital",
@@ -23461,6 +23464,7 @@
             "2029",
             "2032",
             "2034",
+            "2035",
             "2036",
             "2037",
             "2040",
@@ -27187,7 +27191,6 @@
             "12",
             "13",
             "14",
-            "15",
             "16",
             "17",
             "18",
