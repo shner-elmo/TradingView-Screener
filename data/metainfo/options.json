@@ -479,11 +479,14 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
-            "provider/ice",
             "source/BSE",
+            "source/CBOT",
+            "source/CBOT_MINI",
             "source/CME",
             "source/CME_MINI",
+            "source/COMEX",
             "source/NSE",
+            "source/NYMEX",
             "source/OPRA"
         ]
     },
