@@ -1,1 +1,22 @@
-[]
+[
+    [
+        {
+            "country_code": "ma",
+            "screener_name": "morocco",
+            "url": "/markets/stocks-morocco/",
+            "country_page_url": "/markets/morocco/",
+            "title": "Morocco",
+            "group": "Middle East / Africa",
+            "original_group_name": "Middle East / Africa",
+            "stock_exchanges": [
+                "CSEMA"
+            ]
+        },
+        {
+            "path": "52wk-low",
+            "url": "/markets/stocks-morocco/market-movers-52wk-low/",
+            "title_for_label": "52-week low",
+            "role": "tab"
+        }
+    ]
+]
