@@ -4273,7 +4273,6 @@
             "BVMT:HL",
             "BVMT:TJL",
             "BVMT:TLS",
-            "BX:BECN",
             "CBOE:CBOE",
             "CSE:AAWH.U",
             "CSE:AYR.A",
@@ -7065,11 +7064,13 @@
             "GEL",
             "GHS",
             "HKD",
+            "HNL",
             "HUF",
             "IDR",
             "INR",
             "JMD",
             "JPY",
+            "KGS",
             "KRW",
             "KWD",
             "KZT",
@@ -7078,7 +7079,6 @@
             "MNT",
             "MXN",
             "MXV",
-            "MYR",
             "NAD",
             "NGN",
             "NOK",
@@ -7087,6 +7087,7 @@
             "PHP",
             "PKR",
             "PLN",
+            "PYG",
             "RON",
             "RUB",
             "SAR",
@@ -7102,7 +7103,7 @@
             "UYU",
             "UZS",
             "VND",
-            "XOF",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7189,6 +7190,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },

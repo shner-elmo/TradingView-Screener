@@ -14876,14 +14876,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -25305,7 +25305,6 @@
             "Global X Management Co. (Europe) Ltd.",
             "Globinvest SAI SA",
             "Goose Hollow Capital Management LLC",
-            "Gotham Asset Management Holdings LP",
             "Government of Brazil",
             "Government of Canada",
             "Government of China",
@@ -27199,7 +27198,6 @@
             "14",
             "16",
             "17",
-            "18",
             "2",
             "20",
             "21",
@@ -27393,6 +27391,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"
