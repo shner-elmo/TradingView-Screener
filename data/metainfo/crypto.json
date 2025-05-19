@@ -293,7 +293,6 @@
             "SKALE Network",
             "SPACE ID",
             "SSV Network",
-            "STP",
             "SafePal",
             "Saga",
             "Salmonation",
@@ -1505,7 +1504,6 @@
             "IQ",
             "JITOSOL",
             "JLP",
-            "JOCKEY",
             "JOE",
             "JPY",
             "JUSDT",
@@ -1572,7 +1570,6 @@
             "RETH",
             "RLUSD",
             "RON",
-            "ROUTINE",
             "RSETH",
             "RSWETH",
             "RZUSD",
@@ -12664,13 +12661,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12678,7 +12668,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12686,6 +12676,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20123,7 +20120,6 @@
             "STEEM",
             "STG",
             "STORJ",
-            "STPT",
             "STRAX",
             "STX",
             "SUI",
@@ -20307,7 +20303,6 @@
             "XTVCCRV2POOL",
             "XTVCCRVUSD",
             "XTVCCTR",
-            "XTVCCVGSDT",
             "XTVCCVX",
             "XTVCCVXCRV",
             "XTVCCVXFXS",
@@ -20370,7 +20365,6 @@
             "XTVCIQ",
             "XTVCJITOSOL",
             "XTVCJLP",
-            "XTVCJOCKEY",
             "XTVCJOE",
             "XTVCJUSDT",
             "XTVCKAT",
@@ -20442,7 +20436,6 @@
             "XTVCRENDER",
             "XTVCRETH",
             "XTVCRLUSD",
-            "XTVCROUTINE",
             "XTVCRSETH",
             "XTVCRSWETH",
             "XTVCRZUSD",
