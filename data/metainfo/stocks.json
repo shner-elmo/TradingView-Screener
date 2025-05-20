@@ -14848,14 +14848,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22960,7 +22960,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25193,6 +25192,7 @@
             "Cboe Global Markets, Inc.",
             "Challenger Ltd.",
             "Chimera Investment LLC",
+            "China Capital-COFCO Purchase Final No. 1 Asset-backed Special",
             "China Industrial Securities Co. Ltd.",
             "China International Capital Corp. Ltd.",
             "China Merchants Bank Co., Ltd.",
@@ -25403,6 +25403,7 @@
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
+            "Kasikornbank Public Co. Ltd.",
             "Kelly Intelligence LLC",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",

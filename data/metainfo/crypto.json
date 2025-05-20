@@ -225,6 +225,7 @@
             "NEAR Protocol",
             "NEM",
             "NEO",
+            "NEXPACE",
             "NFPrompt",
             "NKN",
             "NYM",
@@ -1453,6 +1454,7 @@
             "CVXCRV",
             "CVXFXS",
             "CZK",
+            "CZUSD",
             "DAI",
             "DAIE",
             "DEFAI",
@@ -1557,7 +1559,6 @@
             "PNG",
             "PNP",
             "POHM",
-            "POL",
             "PONKE",
             "PRISMA",
             "PUFETH",
@@ -12661,13 +12662,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12675,7 +12669,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12683,6 +12677,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12703,14 +12704,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20040,6 +20041,7 @@
             "NFP",
             "NKN",
             "NMR",
+            "NXPC",
             "NYM",
             "OAS",
             "OCEAN",
@@ -20306,6 +20308,7 @@
             "XTVCCVX",
             "XTVCCVXCRV",
             "XTVCCVXFXS",
+            "XTVCCZUSD",
             "XTVCDAI",
             "XTVCDAIE",
             "XTVCDEFAI",
@@ -20423,7 +20426,6 @@
             "XTVCPNP",
             "XTVCPNTO",
             "XTVCPOHM",
-            "XTVCPOLYG",
             "XTVCPONKE",
             "XTVCPPEAS",
             "XTVCPRISMA",
@@ -20446,7 +20448,6 @@
             "XTVCSCRVUSD",
             "XTVCSDAI",
             "XTVCSDCRV",
-            "XTVCSDOLA",
             "XTVCSDPENDLE",
             "XTVCSDYFI",
             "XTVCSEUR",
@@ -20471,6 +20472,7 @@
             "XTVCSWCH",
             "XTVCSYK",
             "XTVCT",
+            "XTVCTACUSD",
             "XTVCTBTC",
             "XTVCTGAME",
             "XTVCTHOREUM",
