@@ -1434,6 +1434,7 @@
             "BUSD",
             "CAD",
             "CAKE",
+            "CANDY",
             "CAW",
             "CBBTC",
             "CBETH",
@@ -1490,7 +1491,6 @@
             "FUSD",
             "FXN",
             "GBP",
-            "GIV",
             "GMI",
             "GMRT",
             "GNO",
@@ -1595,7 +1595,6 @@
             "SUSDA",
             "SUSDE",
             "SUSDS",
-            "SUSDX",
             "SUSHI",
             "SWCH",
             "SYK",
@@ -12676,13 +12675,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12690,7 +12682,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12704,7 +12696,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12712,6 +12704,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20285,6 +20284,7 @@
             "XTVCBTZ",
             "XTVCBUSD",
             "XTVCCAKE",
+            "XTVCCANDY",
             "XTVCCAW",
             "XTVCCBBTC",
             "XTVCCBETH",
@@ -20324,7 +20324,6 @@
             "XTVCETH",
             "XTVCETHX",
             "XTVCEURI",
-            "XTVCEURO",
             "XTVCEUROC",
             "XTVCEURQ",
             "XTVCEURR",
@@ -20351,7 +20350,6 @@
             "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXUSD",
-            "XTVCGIV",
             "XTVCGMI",
             "XTVCGMRT",
             "XTVCGNO",
@@ -20406,6 +20404,7 @@
             "XTVCMORNINGSTAR",
             "XTVCMRKT",
             "XTVCMSOL",
+            "XTVCMUG",
             "XTVCMXNT",
             "XTVCNMT",
             "XTVCNUT",
@@ -20467,7 +20466,6 @@
             "XTVCSUSDA",
             "XTVCSUSDE",
             "XTVCSUSDS",
-            "XTVCSUSDX",
             "XTVCSUSHI",
             "XTVCSWCH",
             "XTVCSYK",

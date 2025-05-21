@@ -2321,6 +2321,7 @@
         "t": "text",
         "r": [
             "Aland Islands",
+            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -2355,7 +2356,6 @@
             "France",
             "Gabon",
             "Germany",
-            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -2367,6 +2367,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -14848,13 +14849,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14862,7 +14856,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14870,6 +14864,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22740,6 +22741,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AI",
             "AR",
             "AT",
             "AU",
@@ -22756,6 +22758,7 @@
             "BW",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -22774,7 +22777,6 @@
             "FR",
             "GA",
             "GB",
-            "GH",
             "GI",
             "GL",
             "GR",
@@ -25301,7 +25303,6 @@
             "Future Fund Advisors LLC",
             "GAMCO Investors, Inc.",
             "GF Securities Co., Ltd.",
-            "Gadsden Group Holdings LLC",
             "Galaxy Fund Management Co., Ltd.",
             "Global X Japan Co., Ltd.",
             "Global X Management Co. (Europe) Ltd.",
@@ -25545,7 +25546,6 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",
@@ -25609,7 +25609,6 @@
             "Sound Capital Solutions LLC",
             "Soundwatch Capital LLC",
             "Sovereign's Capital Management LLC",
-            "Sparkline Capital LP",
             "Spear Advisors LLC",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
