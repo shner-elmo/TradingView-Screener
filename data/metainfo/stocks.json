@@ -2359,6 +2359,7 @@
             "Gibraltar",
             "Greece",
             "Greenland",
+            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -2426,7 +2427,6 @@
             "Togo",
             "Tunisia",
             "Turkey",
-            "U.S. Virgin Islands",
             "Ukraine",
             "United Arab Emirates",
             "United Kingdom",
@@ -14863,13 +14863,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14877,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,6 +14892,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21525,6 +21525,7 @@
             "AngelOne",
             "Antipodes",
             "Anydrus",
+            "Apostle",
             "Applied Finance",
             "Aptus",
             "Argent",
@@ -21598,6 +21599,7 @@
             "CICC",
             "CIFM",
             "CMB",
+            "CORE16",
             "CPIC",
             "CSOP",
             "CTBC",
@@ -22217,7 +22219,6 @@
             "Vita",
             "Volatility Shares",
             "Vontobel",
-            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -22782,6 +22783,7 @@
             "GI",
             "GL",
             "GR",
+            "GU",
             "HK",
             "HR",
             "HU",
@@ -22853,7 +22855,6 @@
             "UY",
             "VE",
             "VG",
-            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -23564,6 +23565,7 @@
             "2183",
             "2184",
             "2186",
+            "2189",
             "22",
             "23",
             "24",
@@ -25250,6 +25252,7 @@
             "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
+            "Dundas Partners LLP",
             "Dvx Ventures LLC",
             "E Fund Management Co., Ltd.",
             "EPWA Holding Co. LLC",

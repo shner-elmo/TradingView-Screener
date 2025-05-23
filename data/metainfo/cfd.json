@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18954,10 +18954,10 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
-            "Algorand",
             "Amp",
             "Aptos",
             "Arbitrum",
+            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18981,7 +18981,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Filecoin",
             "Frax",
             "Frax Share",
             "GateToken",
@@ -19041,6 +19040,7 @@
             "Uniswap",
             "VeChain",
             "World Liberty Financial USD",
+            "Worldcoin",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
@@ -19055,7 +19055,6 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
-            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
@@ -19082,7 +19081,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFIL",
+            "XTVCFET",
             "XTVCFRAX",
             "XTVCFXS",
             "XTVCGNO",
@@ -19142,6 +19141,7 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
+            "XTVCWLDW",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
