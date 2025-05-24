@@ -2369,7 +2369,6 @@
             "Israel",
             "Italy",
             "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2423,6 +2422,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14863,14 +14863,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,14 +14891,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22793,7 +22793,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -22850,6 +22849,7 @@
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "US",
             "UY",
@@ -22966,8 +22966,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24847,6 +24846,7 @@
             "Life + Liberty Indexes",
             "LifeSci Index Partners LLC",
             "Ljubljanska Borza dd",
+            "London Platinum & Palladium Market",
             "Loup Ventures GP I LLC",
             "Lukka, Inc.",
             "Lunt Capital Management, Inc.",
@@ -25209,6 +25209,7 @@
             "China Universal Asset Management Co., Ltd.",
             "China Universal Fund Management Co. Ltd.",
             "City of Wuxi",
+            "Claremont Funds Management Pty Ltd.",
             "Clough CGI LLC",
             "Cohanzick Management LLC",
             "Cohen & Steers, Inc. (New York)",
@@ -25631,7 +25632,6 @@
             "Sumitomo Mitsui Trust Group, Inc.",
             "Summit Global LLC",
             "Sun Life Financial, Inc.",
-            "Suncoast Equity Management LLC",
             "Svenska Handelsbanken AB",
             "Swan Global Holdings (US) LLC",
             "Sygnia Ltd.",

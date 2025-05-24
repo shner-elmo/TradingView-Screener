@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18954,9 +18954,9 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
+            "Algorand",
             "Amp",
             "Aptos",
-            "Arbitrum",
             "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
@@ -19028,7 +19028,6 @@
             "Stellar",
             "Sui",
             "Sun (New)",
-            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19044,6 +19043,7 @@
             "Wormhole",
             "Wrapped eETH",
             "XRP",
+            "Zebec Network",
             "ether.fi"
         ]
     },
@@ -19055,9 +19055,9 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
+            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
-            "XTVCARBI",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19126,7 +19126,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
-            "XTVCSUSHI",
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
@@ -19145,6 +19144,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
+            "XTVCZBCN",
             "XTVCZRX"
         ]
     },
@@ -19202,8 +19202,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
