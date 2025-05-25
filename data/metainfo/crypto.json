@@ -112,7 +112,6 @@
             "CANTO",
             "COTI",
             "COW",
-            "CV TOKEN",
             "Cardano",
             "Cartesi",
             "Casper",
@@ -1413,7 +1412,6 @@
             "BARA",
             "BCT",
             "BETH",
-            "BFIC",
             "BGN",
             "BITCOIN",
             "BMX",
@@ -1445,7 +1443,6 @@
             "CLEV",
             "CNHT",
             "COP",
-            "CORE",
             "CORGIAI",
             "CRO",
             "CROID",
@@ -1493,7 +1490,6 @@
             "FUSD",
             "FXN",
             "GBP",
-            "GMI",
             "GMRT",
             "GNO",
             "GOHM",
@@ -1599,7 +1595,6 @@
             "SUSDE",
             "SUSDS",
             "SUSHI",
-            "SWCH",
             "SYK",
             "T",
             "TBTC",
@@ -12677,13 +12672,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12691,7 +12679,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12705,7 +12693,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12713,6 +12701,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19928,7 +19923,6 @@
             "CTK",
             "CTSI",
             "CVC",
-            "CVT",
             "CYBER",
             "DAI",
             "DASH",
@@ -20264,7 +20258,6 @@
             "XTVCBCT",
             "XTVCBENTCVX",
             "XTVCBETH",
-            "XTVCBFIC",
             "XTVCBITCOIN",
             "XTVCBMX",
             "XTVCBNB",
@@ -20296,7 +20289,6 @@
             "XTVCCLEV",
             "XTVCCLEVCVX",
             "XTVCCNHT",
-            "XTVCCORE",
             "XTVCCORGIAI",
             "XTVCCOSA",
             "XTVCCRO",
@@ -20353,7 +20345,6 @@
             "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXUSD",
-            "XTVCGMI",
             "XTVCGMRT",
             "XTVCGNO",
             "XTVCGOHM",
@@ -20472,7 +20463,6 @@
             "XTVCSUSDE",
             "XTVCSUSDS",
             "XTVCSUSHI",
-            "XTVCSWCH",
             "XTVCSYK",
             "XTVCT",
             "XTVCTACETH",
