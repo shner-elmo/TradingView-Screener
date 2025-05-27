@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18954,9 +18954,9 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
-            "Algorand",
             "Amp",
             "Aptos",
+            "Arbitrum",
             "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
@@ -19020,10 +19020,10 @@
             "Polkadot",
             "Raydium",
             "Render",
+            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
-            "Solayer",
             "Stacks",
             "Stellar",
             "Sui",
@@ -19055,9 +19055,9 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
-            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCARBI",
             "XTVCAVAX",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19097,7 +19097,6 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19118,6 +19117,7 @@
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRUNE",
+            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19202,7 +19202,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

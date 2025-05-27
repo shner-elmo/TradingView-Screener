@@ -14863,13 +14863,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14877,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14885,6 +14878,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21784,6 +21784,7 @@
             "Harvest Funds",
             "Hashdex",
             "Hejaz",
+            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -22086,7 +22087,6 @@
             "Saba",
             "Safra",
             "Samsung",
-            "SanJac Alpha",
             "Sarmaya Partners",
             "Satrix",
             "Sber",
@@ -22966,7 +22966,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25355,6 +25356,7 @@
             "Hashdex Gestora de Recursos Ltda.",
             "Hashdex Ltd.",
             "Hejaz Capital Pty Ltd.",
+            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
@@ -25404,7 +25406,7 @@
             "Jensen Investment Management, Inc.",
             "K2 Asset Management Holdings Ltd.",
             "KB Financial Group, Inc.",
-            "KB Securities Co., Ltd.",
+            "KB Securities Co., Ltd. /Private Equity/",
             "KBA Consulting Management Ltd.",
             "KCGI Asset Management Co., Ltd.",
             "KGI Financial Holding Co., Ltd.",
@@ -25598,7 +25600,6 @@
             "Samsung Life Insurance Co., Ltd.",
             "Samsung Securities Co., Ltd.",
             "Sanlam Ltd.",
-            "Saracen Energy Advisors LP",
             "Sberbank Russia PJSC",
             "Schroders Plc",
             "Shanxi Securities International Financial Holdings Ltd. (Stg)",
