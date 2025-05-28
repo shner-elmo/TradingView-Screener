@@ -428,6 +428,10 @@
                 "name": "Ibovespa"
             },
             {
+                "id": "BMFBOVESPA:IBRA",
+                "name": "Brazil Broad-Based"
+            },
+            {
                 "id": "BMFBOVESPA:IBXL",
                 "name": "Brazil 50"
             },
@@ -3841,7 +3845,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14863,14 +14866,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,14 +14894,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21464,7 +21467,6 @@
             "3iQ",
             "AAM",
             "AB Funds",
-            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -21622,6 +21624,7 @@
             "China Universal",
             "China life",
             "ChinaAMC",
+            "Claremont Global",
             "ClearBridge",
             "ClearShares",
             "Clockwise Capital",
@@ -21725,6 +21728,7 @@
             "First Manhattan",
             "First Metro",
             "First Seafront",
+            "First Sentier",
             "First Trust",
             "FlexShares",
             "FolioBeyond",
@@ -21921,6 +21925,7 @@
             "Midas Funds",
             "Middlefield",
             "Migdal",
+            "Milford",
             "Militia",
             "Miller",
             "Minsheng Royal",
@@ -22087,6 +22092,7 @@
             "Saba",
             "Safra",
             "Samsung",
+            "SanJac Alpha",
             "Sarmaya Partners",
             "Satrix",
             "Sber",
@@ -22907,7 +22913,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22965,6 +22970,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24339,6 +24345,7 @@
             "SYML:BME;INDGROAS",
             "SYML:BME;IS",
             "SYML:BMFBOVESPA;IBOV",
+            "SYML:BMFBOVESPA;IBRA",
             "SYML:BMFBOVESPA;IBXL",
             "SYML:BMFBOVESPA;IFIX",
             "SYML:BMV;ME",
@@ -25115,7 +25122,6 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
-            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
@@ -25241,7 +25247,6 @@
             "Deka Investment GmbH",
             "Delaware Management Company Inc",
             "Democracy Investment Management LLC",
-            "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
             "Deutsche B\u00f6rse Commodities GmbH",
             "Deutscher Sparkassen-und Giroverband eV",
@@ -25254,7 +25259,6 @@
             "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
-            "Dundas Partners LLP",
             "Dvx Ventures LLC",
             "E Fund Management Co., Ltd.",
             "EPWA Holding Co. LLC",
@@ -25467,6 +25471,7 @@
             "Middlefield Group",
             "Migdal Insurance & Financial Holdings Ltd.",
             "Migdal Mutual Funds Ltd.",
+            "Milford Asset Management Ltd.",
             "Miller Value Partners LLC",
             "Minsheng Royal Fund Management Co., Ltd.",
             "Mirae Asset Global Investments Co., Ltd.",
@@ -25490,6 +25495,7 @@
             "Nanuk Asset Management Pty Ltd.",
             "National Agricultural Cooperative Federation",
             "National Bank of Canada",
+            "Natixis Investment Managers LP",
             "Neil Azous Revocable Trust",
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
@@ -25600,6 +25606,7 @@
             "Samsung Life Insurance Co., Ltd.",
             "Samsung Securities Co., Ltd.",
             "Sanlam Ltd.",
+            "Saracen Energy Advisors LP",
             "Sberbank Russia PJSC",
             "Schroders Plc",
             "Shanxi Securities International Financial Holdings Ltd. (Stg)",
