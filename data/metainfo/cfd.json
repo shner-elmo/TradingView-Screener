@@ -12074,14 +12074,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19027,7 +19027,6 @@
             "Stellar",
             "Sui",
             "Sun (New)",
-            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19037,6 +19036,7 @@
             "USDC",
             "USDD",
             "Uniswap",
+            "Vaulta",
             "VeChain",
             "World Liberty Financial USD",
             "Worldcoin",
@@ -19059,6 +19059,7 @@
             "XTVCAPTO",
             "XTVCARBI",
             "XTVCAVAX",
+            "XTVCAVU",
             "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
@@ -19125,7 +19126,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
-            "XTVCSUSHI",
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
