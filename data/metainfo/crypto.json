@@ -1496,7 +1496,6 @@
             "GNO",
             "GOHM",
             "GOLDGR",
-            "GRAIL",
             "GUSD",
             "HANU",
             "HPAY",
@@ -1659,6 +1658,7 @@
             "WIF",
             "WLD",
             "WMATIC",
+            "WORK",
             "WPE",
             "WRON",
             "WSHIB",
@@ -12677,13 +12677,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12691,7 +12684,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12705,7 +12698,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12713,6 +12706,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20289,7 +20289,6 @@
             "XTVCCBBTC",
             "XTVCCBETH",
             "XTVCCDXUSD",
-            "XTVCCGM",
             "XTVCCHOCO",
             "XTVCCIRCLE",
             "XTVCCL",
@@ -20356,7 +20355,6 @@
             "XTVCGNO",
             "XTVCGOHM",
             "XTVCGOLDGR",
-            "XTVCGRAIL",
             "XTVCGUSD",
             "XTVCHANU",
             "XTVCHOWDY",
@@ -20403,7 +20401,6 @@
             "XTVCMGC",
             "XTVCMIM",
             "XTVCMIMATIC",
-            "XTVCMMUSD",
             "XTVCMOBILE",
             "XTVCMOG",
             "XTVCMOON",
@@ -20540,6 +20537,7 @@
             "XTVCWIF",
             "XTVCWLD",
             "XTVCWMATIC",
+            "XTVCWORK",
             "XTVCWPE",
             "XTVCWRON",
             "XTVCWRUB",

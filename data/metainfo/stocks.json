@@ -2395,6 +2395,7 @@
             "Montenegro",
             "Morocco",
             "Mozambique",
+            "Namibia",
             "Netherlands",
             "New Zealand",
             "Nigeria",
@@ -14866,13 +14867,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14880,7 +14874,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14894,7 +14888,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14902,6 +14896,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22101,7 +22102,6 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -22824,6 +22824,7 @@
             "MX",
             "MY",
             "MZ",
+            "NA",
             "NG",
             "NL",
             "NO",
@@ -22970,10 +22971,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25234,6 +25233,7 @@
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
             "DSP Asset Managers Pvt. Ltd.",
+            "DWS Investment SA",
             "Da Cheng Fund Management Co., Ltd.",
             "Daintree Capital Management Pty Ltd.",
             "Daishin Securities Co., Ltd.",
@@ -25402,7 +25402,6 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
