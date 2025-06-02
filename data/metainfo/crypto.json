@@ -691,7 +691,6 @@
             "MMFINANCE",
             "NILE",
             "NILE1",
-            "OKCOIN",
             "OKX",
             "ORCA",
             "PANCAKESWAP",
@@ -12677,13 +12676,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12691,7 +12683,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12699,6 +12691,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20365,7 +20364,6 @@
             "XTVCINF",
             "XTVCIOTX",
             "XTVCIQ",
-            "XTVCJENG",
             "XTVCJITOSOL",
             "XTVCJLP",
             "XTVCJOE",
@@ -21942,7 +21940,6 @@
             "mexc",
             "mmfinance",
             "nile",
-            "okcoin",
             "okx",
             "orca",
             "pancakeswap",
@@ -22254,7 +22251,6 @@
             "provider/mexc",
             "provider/mmfinance",
             "provider/nile",
-            "provider/okcoin",
             "provider/okx",
             "provider/orca",
             "provider/pancakeswap",

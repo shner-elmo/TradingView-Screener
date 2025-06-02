@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -2147,6 +2146,7 @@
             "NSE:BAJAJHFL",
             "NSE:BAJFINANCE",
             "NSE:BANKBARODA",
+            "NSE:BHEL",
             "NSE:BIRLACORPN",
             "NSE:BPCL",
             "NSE:CANBK",
@@ -2261,6 +2261,7 @@
             "NSE:PEL",
             "NSE:PFC",
             "NSE:PFS",
+            "NSE:PILANIINVS",
             "NSE:PNB",
             "NSE:PNCINFRA",
             "NSE:POONAWALLA",
@@ -3670,7 +3671,6 @@
             "SSE:601998",
             "SSE:603259",
             "SWB:AOX",
-            "SWB:DE000A352QF0",
             "SWB:PBY",
             "SWB:VROS",
             "SZSE:000002",
@@ -5292,6 +5292,7 @@
             "NSE:BAJAJHFL",
             "NSE:BAJFINANCE",
             "NSE:BANKBARODA",
+            "NSE:BHEL",
             "NSE:BIRLACORPN",
             "NSE:BPCL",
             "NSE:CANBK",
@@ -5396,6 +5397,7 @@
             "NSE:PEL",
             "NSE:PFC",
             "NSE:PFS",
+            "NSE:PILANIINVS",
             "NSE:PNB",
             "NSE:POONAWALLA",
             "NSE:POWERGRID",
@@ -6520,7 +6522,6 @@
             "SSE:601398",
             "SSE:601939",
             "SWB:AOX",
-            "SWB:DE000A352QF0",
             "SWB:PBY",
             "SWB:VROS",
             "SZSE:002860",
@@ -6910,7 +6911,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7191,7 +7191,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
