@@ -407,7 +407,7 @@
                 "coin"
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     'base_currency',\n     'base_currency_desc',\n     'base_currency_logoid',\n     'update_mode',\n     'type',\n     'typespecs',\n     'exchange',\n     'crypto_total_rank',\n     'close',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol_cmc',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'Recommend.All',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'base_currency',\n     'base_currency_desc',\n     'base_currency_logoid',\n     'update_mode',\n     'type',\n     'typespecs',\n     'exchange',\n     'crypto_total_rank',\n     'close',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol_cmc',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'Recommend.All',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('symbols', {})\n .set_property('ignore_unknown_fields', False))"
     },
     {
         "name": "ETFs",
