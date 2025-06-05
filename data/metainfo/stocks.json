@@ -3846,6 +3846,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14853,14 +14854,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14881,14 +14882,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21575,7 +21576,6 @@
             "Bitwise",
             "BlackRock",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -22085,7 +22085,6 @@
             "SPDR",
             "SRH",
             "SSI",
-            "SSIF",
             "STF",
             "SWM",
             "SWP",
@@ -22914,6 +22913,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22971,6 +22971,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24793,7 +24794,6 @@
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
             "Corporate Knights, Inc.",
-            "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -25610,7 +25610,6 @@
             "Saracen Energy Advisors LP",
             "Sberbank Russia PJSC",
             "Schroders Plc",
-            "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
@@ -25722,6 +25721,7 @@
             "Wanjia Fund Management Co Ltd.",
             "Water Island Capital Partners LP",
             "WealthTrust Asset Management LLC",
+            "Wedbush Fund Advisers LLC",
             "Western & Southern Mutual Holding Co.",
             "Western Leadbank Fund Management Co., Ltd",
             "Westwood Holdings Group, Inc.",
