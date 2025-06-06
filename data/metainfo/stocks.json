@@ -2363,7 +2363,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -14854,13 +14853,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14868,7 +14860,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14876,6 +14868,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14896,14 +14895,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21514,6 +21513,7 @@
             "Alpha",
             "Alpha Architect",
             "Alpha Blue Capital",
+            "Alpha Brands",
             "Alphinity",
             "Alternative Access",
             "Altrius",
@@ -21565,6 +21565,7 @@
             "Barclays",
             "Baroda",
             "Barrow Hanley",
+            "Bastion",
             "Batavia",
             "Battleshares",
             "Beacon",
@@ -21576,6 +21577,7 @@
             "Bitwise",
             "BlackRock",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -21652,6 +21654,7 @@
             "DB",
             "DDA",
             "DGA",
+            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -22233,6 +22236,7 @@
             "Wanjia",
             "WaveFront",
             "WealthTrust",
+            "Wedbush",
             "Wells Fargo",
             "Western Asset",
             "Western LeadBank",
@@ -22788,7 +22792,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -22974,6 +22977,7 @@
             "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -23358,6 +23362,7 @@
             "KZT",
             "MXN",
             "MYR",
+            "NOK",
             "NZD",
             "PEN",
             "PHP",
@@ -25233,6 +25238,7 @@
             "Cygnet Capital LLC",
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
+            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "DWS Investment SA",
             "Da Cheng Fund Management Co., Ltd.",
@@ -25721,7 +25727,7 @@
             "Wanjia Fund Management Co Ltd.",
             "Water Island Capital Partners LP",
             "WealthTrust Asset Management LLC",
-            "Wedbush Fund Advisers LLC",
+            "Wedbush Capital",
             "Western & Southern Mutual Holding Co.",
             "Western Leadbank Fund Management Co., Ltd",
             "Westwood Holdings Group, Inc.",
@@ -27566,7 +27572,6 @@
             "GN",
             "GR",
             "GT",
-            "GU",
             "GY",
             "HK",
             "HR",
@@ -27620,6 +27625,7 @@
             "OM",
             "PA",
             "PE",
+            "PF",
             "PG",
             "PH",
             "PK",
