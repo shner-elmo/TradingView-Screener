@@ -1402,6 +1402,7 @@
             "AGENTFUN",
             "AGEUR",
             "ALD",
+            "ALETH",
             "ARB",
             "ARENA",
             "ARS",
@@ -1462,7 +1463,6 @@
             "ECOR",
             "EMP",
             "ETH",
-            "ETHW",
             "ETHX",
             "EUR",
             "EURI",
@@ -1475,7 +1475,6 @@
             "FBX",
             "FDUSD",
             "FEI",
-            "FIS",
             "FIST",
             "FLD",
             "FLOKI",
@@ -12661,13 +12660,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12675,7 +12667,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12683,6 +12675,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12703,14 +12702,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20251,6 +20250,7 @@
             "XTVCAGEUR",
             "XTVCAGK",
             "XTVCALD",
+            "XTVCALETH",
             "XTVCAPOHM",
             "XTVCARB",
             "XTVCARENA",
@@ -20319,7 +20319,6 @@
             "XTVCEMP",
             "XTVCETCS20",
             "XTVCETH",
-            "XTVCETHW",
             "XTVCETHX",
             "XTVCEURI",
             "XTVCEUROC",
@@ -20332,7 +20331,6 @@
             "XTVCFBX",
             "XTVCFDUSD",
             "XTVCFEI",
-            "XTVCFIS",
             "XTVCFIST",
             "XTVCFLD",
             "XTVCFLOKI",
@@ -20387,7 +20385,6 @@
             "XTVCLUA",
             "XTVCLUSD",
             "XTVCLVLUSD",
-            "XTVCM1",
             "XTVCMAUSDC",
             "XTVCMBTC",
             "XTVCMCOIN",

@@ -12060,14 +12060,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18970,6 +18970,7 @@
             "Compound",
             "Conflux",
             "Convex Finance",
+            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18980,7 +18981,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Filecoin",
             "Frax Share",
             "GateToken",
             "Gemini Dollar",
@@ -19057,6 +19057,7 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCATOM",
             "XTVCAVAX",
             "XTVCAVU",
             "XTVCBABYDOGE",
@@ -19082,7 +19083,6 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCFET",
-            "XTVCFIL",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
@@ -19201,11 +19201,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
