@@ -667,6 +667,7 @@
             "BYBIT",
             "CAMELOT",
             "CAMELOT3ARBITRUM",
+            "CETUS",
             "CLEOPATRA2",
             "COINBASE",
             "COINEX",
@@ -1458,6 +1459,7 @@
             "DEFAI",
             "DEGEN",
             "DEUSD",
+            "DEXE",
             "DF",
             "DOGE",
             "ECOR",
@@ -1494,7 +1496,6 @@
             "GOLDGR",
             "GRAIL",
             "GUSD",
-            "HANU",
             "HELP",
             "HPAY",
             "HTX",
@@ -1559,6 +1560,7 @@
             "PNG",
             "PNP",
             "POHM",
+            "POPCAT",
             "PUFETH",
             "PXETH",
             "PYTH",
@@ -12674,13 +12676,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12688,7 +12683,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12696,6 +12691,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20310,6 +20312,7 @@
             "XTVCDEFAI",
             "XTVCDEGEN",
             "XTVCDEUSD",
+            "XTVCDEXE",
             "XTVCDF",
             "XTVCDKBZB",
             "XTVCDOGBEE",
@@ -20352,7 +20355,6 @@
             "XTVCGOLDGR",
             "XTVCGRAIL",
             "XTVCGUSD",
-            "XTVCHANU",
             "XTVCHELP",
             "XTVCHOWDY",
             "XTVCHPAY",
@@ -20422,6 +20424,7 @@
             "XTVCPNP",
             "XTVCPNTO",
             "XTVCPOHM",
+            "XTVCPOPCAT",
             "XTVCPPEAS",
             "XTVCPUFETH",
             "XTVCPXETH",
@@ -21914,6 +21917,7 @@
             "bybit",
             "camelot2",
             "camelot3",
+            "cetus",
             "cleopatra",
             "coinbase",
             "coinex",
@@ -22224,6 +22228,7 @@
             "provider/bybit",
             "provider/camelot2",
             "provider/camelot3",
+            "provider/cetus",
             "provider/cleopatra",
             "provider/coinbase",
             "provider/coinex",
