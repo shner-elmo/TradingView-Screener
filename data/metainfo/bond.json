@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -2192,7 +2191,6 @@
             "NSE:HINDALCO",
             "NSE:HINDPETRO",
             "NSE:HINDZINC",
-            "NSE:HSCL",
             "NSE:HUDCO",
             "NSE:ICICIBANK",
             "NSE:IDBI",
@@ -5330,7 +5328,6 @@
             "NSE:HIGHWAYS",
             "NSE:HINDPETRO",
             "NSE:HINDZINC",
-            "NSE:HSCL",
             "NSE:HUDCO",
             "NSE:ICICIBANK",
             "NSE:IDBI",
@@ -6906,7 +6903,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7189,7 +7185,9 @@
         "t": "text",
         "r": [
             "holiday",
-            "out_of_session"
+            "market",
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
