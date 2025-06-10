@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18956,6 +18956,7 @@
             "Aerodrome Finance",
             "Amp",
             "Aptos",
+            "Arbitrum",
             "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
@@ -18980,7 +18981,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Filecoin",
             "Frax Share",
             "GateToken",
             "Gemini Dollar",
@@ -19057,6 +19057,7 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCARBI",
             "XTVCAVAX",
             "XTVCAVU",
             "XTVCBABYDOGE",
@@ -19082,7 +19083,6 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCFET",
-            "XTVCFIL",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
