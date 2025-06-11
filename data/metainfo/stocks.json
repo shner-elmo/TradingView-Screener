@@ -2604,6 +2604,7 @@
             "EGX",
             "EURONEXT",
             "EUROTLX",
+            "FSE",
             "FWB",
             "GETTEX",
             "GPW",
@@ -14879,14 +14880,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21616,6 +21617,7 @@
             "Capital",
             "Capital Group",
             "Carbon Collective",
+            "Cardano",
             "CastleArk",
             "Cathay",
             "Chimera",
@@ -21740,6 +21742,7 @@
             "Fortuna",
             "Foundations",
             "Franklin",
+            "Free Market",
             "Freedom",
             "Freedom Day",
             "Frontier",
@@ -23357,6 +23360,7 @@
             "INR",
             "JPY",
             "KRW",
+            "KWD",
             "KZT",
             "MXN",
             "MYR",
@@ -24798,6 +24802,7 @@
             "Compass Financial Technologies SA",
             "Concinnity Advisors LP",
             "Corporate Knights, Inc.",
+            "DBX ETF Trust",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -24952,8 +24957,7 @@
             "WilderShares LLC",
             "WisdomTree Asset Management, Inc.",
             "Zacks Investment Management, Inc.",
-            "Zagreb Stock Exchange, Inc.",
-            "db-X ETF Trust"
+            "Zagreb Stock Exchange, Inc."
         ]
     },
     {
@@ -25719,6 +25723,7 @@
             "Vident Investors' Oversight Trust",
             "VinaCapital Fund Management JSC",
             "Virtune AB",
+            "Virtune AB (Publ)",
             "Virtus Investment Partners, Inc.",
             "Vontobel Holding AG",
             "WBI Trading Co., Inc.",
@@ -27321,6 +27326,7 @@
             "source/EGX",
             "source/EURONEXT",
             "source/EUROTLX",
+            "source/FSE",
             "source/FWB",
             "source/GETTEX",
             "source/GPW",
@@ -27572,6 +27578,7 @@
             "GN",
             "GR",
             "GT",
+            "GU",
             "GY",
             "HK",
             "HR",
