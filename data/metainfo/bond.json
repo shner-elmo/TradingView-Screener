@@ -2131,7 +2131,6 @@
             "NASDAQ:ZS",
             "NASDAQ:ZYXI",
             "NASDAQDUBAI:REIT",
-            "NEO:CBST",
             "NSE:360ONE",
             "NSE:AADHARHFC",
             "NSE:AAVAS",
@@ -3311,7 +3310,6 @@
             "OMXHEX:SAMPO",
             "OMXHEX:SANOMA",
             "OMXHEX:STEAV",
-            "OMXHEX:TIETO",
             "OMXHEX:TTALO",
             "OMXHEX:TYRES",
             "OMXHEX:UPM",
@@ -3652,7 +3650,6 @@
             "SSE:600803",
             "SSE:600848",
             "SSE:600887",
-            "SSE:600918",
             "SSE:600938",
             "SSE:600958",
             "SSE:601066",
@@ -3692,6 +3689,7 @@
             "SZSE:300750",
             "TADAWUL:1010",
             "TADAWUL:1020",
+            "TADAWUL:1030",
             "TADAWUL:1050",
             "TADAWUL:1080",
             "TADAWUL:1120",
@@ -4730,7 +4728,6 @@
             "LSE:SDR",
             "LSE:SEPL",
             "LSE:SFT",
-            "LSE:SG30",
             "LSE:SGE",
             "LSE:SGRO",
             "LSE:SHC",
@@ -5290,7 +5287,6 @@
             "NASDAQ:ZION",
             "NASDAQ:ZS",
             "NASDAQ:ZYXI",
-            "NEO:CBST",
             "NSE:AADHARHFC",
             "NSE:AAVAS",
             "NSE:ABCAPITAL",
@@ -6278,7 +6274,6 @@
             "OMXHEX:SAMPO",
             "OMXHEX:SANOMA",
             "OMXHEX:STEAV",
-            "OMXHEX:TIETO",
             "OMXHEX:TTALO",
             "OMXHEX:TYRES",
             "OMXHEX:UPM",
@@ -6825,7 +6820,6 @@
             "XETR:UBK",
             "XETR:VNA",
             "XETR:VOS",
-            "XETR:VOW",
             "XETR:WUW",
             "XETR:ZAL",
             "XETR:ZN2"
@@ -7205,9 +7199,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

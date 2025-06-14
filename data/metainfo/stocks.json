@@ -2354,6 +2354,7 @@
             "Denmark",
             "Dominican Republic",
             "Egypt",
+            "El Salvador",
             "Estonia",
             "Faroe Islands",
             "Finland",
@@ -2372,6 +2373,7 @@
             "Israel",
             "Italy",
             "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2394,7 +2396,6 @@
             "Montenegro",
             "Morocco",
             "Mozambique",
-            "Namibia",
             "Netherlands",
             "New Zealand",
             "Nigeria",
@@ -2431,6 +2432,7 @@
             "Togo",
             "Tunisia",
             "Turkey",
+            "Uganda",
             "Ukraine",
             "United Arab Emirates",
             "United Kingdom",
@@ -3876,8 +3878,7 @@
             "USD",
             "VES",
             "VND",
-            "ZAC",
-            "ZAR"
+            "ZAC"
         ]
     },
     {
@@ -14853,14 +14854,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,14 +14896,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21637,6 +21638,7 @@
             "Cohen & Steers",
             "CoinShares",
             "Columbia",
+            "Concourse",
             "Conductor Fund",
             "Congress",
             "Convergence",
@@ -21795,6 +21797,7 @@
             "Harvest ETFs",
             "Harvest Funds",
             "Hashdex",
+            "Hedgeye",
             "Hejaz",
             "Hennessy",
             "Heungkuk",
@@ -21804,7 +21807,6 @@
             "Horizon",
             "Horizon Kinetics",
             "Horizons",
-            "Hotchkis & Wiley",
             "Hoya",
             "HuaAn",
             "Huatai",
@@ -22108,6 +22110,7 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -22804,6 +22807,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -22829,7 +22833,6 @@
             "MX",
             "MY",
             "MZ",
-            "NA",
             "NG",
             "NL",
             "NO",
@@ -22856,6 +22859,7 @@
             "SI",
             "SK",
             "SN",
+            "SV",
             "TG",
             "TH",
             "TN",
@@ -22863,6 +22867,7 @@
             "TW",
             "TZ",
             "UA",
+            "UG",
             "US",
             "UY",
             "VE",
@@ -22953,8 +22958,7 @@
             "XTVGBX",
             "XTVILA",
             "XTVKWF",
-            "XTVZAC",
-            "ZAR"
+            "XTVZAC"
         ]
     },
     {
@@ -22979,8 +22983,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25360,7 +25363,6 @@
             "HDFC Bank Ltd.",
             "HFT Investment Management Co., Ltd.",
             "HSBC Holdings Plc",
-            "HWCap Holdings LLC",
             "Hamilton Capital Partners, Inc.",
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
@@ -25371,6 +25373,7 @@
             "Hashdex AG",
             "Hashdex Gestora de Recursos Ltda.",
             "Hashdex Ltd.",
+            "Hedgeye Risk Management LLC",
             "Hejaz Capital Pty Ltd.",
             "Hengdian Group Holdings Co., Ltd.",
             "Hengtai Securities Co., Ltd.",
@@ -25414,6 +25417,7 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -26399,7 +26403,6 @@
             "9528",
             "9529",
             "9530",
-            "9531",
             "9532",
             "9534",
             "9535",
@@ -27597,6 +27600,7 @@
             "IS",
             "IT",
             "JE",
+            "JM",
             "JP",
             "KE",
             "KG",
@@ -27664,6 +27668,7 @@
             "TW",
             "TZ",
             "UA",
+            "UG",
             "US",
             "UY",
             "UZ",

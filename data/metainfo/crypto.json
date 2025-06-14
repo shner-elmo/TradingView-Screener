@@ -1549,7 +1549,6 @@
             "NMT",
             "NUT",
             "OETH",
-            "OGPU",
             "OHM",
             "OMG",
             "OP",
@@ -1559,7 +1558,6 @@
             "PEAS",
             "PENDLE",
             "PEPE",
-            "PETH",
             "PLN",
             "PNG",
             "PNP",
@@ -1672,7 +1670,6 @@
             "XSGD",
             "XVS",
             "ZAR",
-            "ZBU",
             "ZIK",
             "ZORA"
         ]
@@ -12676,14 +12673,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20401,7 +20398,6 @@
             "XTVCMGC",
             "XTVCMIM",
             "XTVCMIMATIC",
-            "XTVCMMUSD",
             "XTVCMOBILE",
             "XTVCMOG",
             "XTVCMOON",
@@ -20411,7 +20407,6 @@
             "XTVCNMT",
             "XTVCNUT",
             "XTVCOETH",
-            "XTVCOGPU",
             "XTVCOHM",
             "XTVCOMG",
             "XTVCOP",
@@ -20421,7 +20416,6 @@
             "XTVCPEAS",
             "XTVCPENDLE",
             "XTVCPEPE",
-            "XTVCPETH",
             "XTVCPIAO",
             "XTVCPNG",
             "XTVCPNP",
@@ -20561,7 +20555,6 @@
             "XTVCYTRYB",
             "XTVCYYLM",
             "XTVCZALP",
-            "XTVCZBU",
             "XTVCZIK",
             "XTVCZORA",
             "ZAR"

@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18980,6 +18980,7 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
+            "Filecoin",
             "Frax Share",
             "GateToken",
             "Gemini Dollar",
@@ -19018,6 +19019,7 @@
             "Ravencoin",
             "Raydium",
             "Render",
+            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19025,7 +19027,6 @@
             "Stellar",
             "Sui",
             "Sun (New)",
-            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19080,6 +19081,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCFIL",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
@@ -19114,6 +19116,7 @@
             "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
+            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19122,7 +19125,6 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
-            "XTVCSUSHI",
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
@@ -19198,8 +19200,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
