@@ -14854,13 +14854,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14868,7 +14861,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14876,6 +14869,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21469,6 +21469,7 @@
             "3iQ",
             "AAM",
             "AB Funds",
+            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -21658,7 +21659,6 @@
             "DDA",
             "DGA",
             "DNB",
-            "DOO",
             "DSP",
             "DWS",
             "Da Cheng",
@@ -21743,7 +21743,6 @@
             "Formidable",
             "Forstrong",
             "Fortuna",
-            "Foundations",
             "Franklin",
             "Free Market",
             "Freedom",
@@ -22206,7 +22205,6 @@
             "USCF Advisers",
             "UTI",
             "UVA",
-            "UWP",
             "Ultramarin",
             "Unicorn",
             "Union Investment",
@@ -23365,7 +23363,6 @@
             "INR",
             "JPY",
             "KRW",
-            "KWD",
             "KZT",
             "MXN",
             "MYR",
@@ -25134,6 +25131,7 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
+            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
@@ -25272,7 +25270,6 @@
             "Distribution Cognizant LLC",
             "Donald L. Hagan LLC",
             "Dongxu Optoelectronic Investment Co., Ltd.",
-            "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
             "Dvx Ventures LLC",

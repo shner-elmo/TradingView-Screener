@@ -751,6 +751,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
@@ -776,6 +777,11 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "first_bar_time_1d",
+        "t": "number",
+        "r": null
     },
     {
         "n": "forex_priority",
