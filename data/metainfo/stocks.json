@@ -2372,7 +2372,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -14854,14 +14853,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14882,14 +14881,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22774,7 +22773,6 @@
             "BW",
             "CA",
             "CH",
-            "CI",
             "CL",
             "CM",
             "CN",
@@ -25227,6 +25225,7 @@
             "China Universal Fund Management Co. Ltd.",
             "City of Wuxi",
             "Claremont Funds Management Pty Ltd.",
+            "Clipper Holding LP",
             "Clough CGI LLC",
             "Cohanzick Management LLC",
             "Cohen & Steers, Inc. (New York)",
@@ -25235,6 +25234,7 @@
             "Concourse Capital Advisors LLC",
             "Convergence Investment Partners LLC",
             "Core Alternative Capital LLC",
+            "Corient Holdings, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
             "Corpus Partners LLC",
             "Corton Capital, Inc.",
@@ -25586,6 +25586,7 @@
             "Qunyi Securities Investment Trust Co. Ltd.",
             "REX Shares LLC",
             "Rafferty Asset Management LLC",
+            "Rafferty Holdings LLC",
             "Rakuten Group, Inc.",
             "Rational Advisors, Inc.",
             "Redwood Investment Holdco LLC",
