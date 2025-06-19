@@ -1512,6 +1512,7 @@
             "JLP",
             "JOE",
             "JPY",
+            "JTO",
             "JUSD",
             "JUSDT",
             "KAT",
@@ -1525,6 +1526,7 @@
             "KUDAI",
             "KZT",
             "LDO",
+            "LEGIT",
             "LINK",
             "LION",
             "LODE",
@@ -1632,6 +1634,7 @@
             "USDD",
             "USDE",
             "USDF",
+            "USDG",
             "USDN",
             "USDQ",
             "USDR",
@@ -1675,6 +1678,7 @@
             "XSGD",
             "XVS",
             "ZAR",
+            "ZBTC",
             "ZIK",
             "ZORA"
         ]
@@ -12664,13 +12668,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12678,7 +12675,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12692,7 +12689,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12700,6 +12697,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20373,6 +20377,7 @@
             "XTVCJITOSOL",
             "XTVCJLP",
             "XTVCJOE",
+            "XTVCJTO",
             "XTVCJUSD",
             "XTVCJUSDT",
             "XTVCKAT",
@@ -20386,6 +20391,7 @@
             "XTVCKUDAI",
             "XTVCLAY",
             "XTVCLDO",
+            "XTVCLEGIT",
             "XTVCLINK",
             "XTVCLION",
             "XTVCLMX",
@@ -20515,6 +20521,7 @@
             "XTVCUSDE",
             "XTVCUSDEE",
             "XTVCUSDF",
+            "XTVCUSDG",
             "XTVCUSDHHUBBLESTABLECOIN",
             "XTVCUSDN",
             "XTVCUSDQ",
@@ -20570,6 +20577,7 @@
             "XTVCYOSTEP",
             "XTVCYYLM",
             "XTVCZALP",
+            "XTVCZBTC",
             "XTVCZIK",
             "XTVCZORA",
             "ZAR"

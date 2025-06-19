@@ -14853,14 +14853,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,14 +14895,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21598,6 +21598,7 @@
             "Bushido",
             "CCB",
             "CCM",
+            "CH",
             "CI",
             "CI First Asset",
             "CIB",
@@ -22055,6 +22056,7 @@
             "ROBO Global",
             "ROC",
             "Raiffeisen",
+            "Rainwater",
             "Rakuten",
             "Range",
             "Rareview Funds",
@@ -22978,6 +22980,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25120,6 +25123,7 @@
             "Alger Associates, Inc. (United States)",
             "Alinma Bank",
             "Alkhabeer Capital",
+            "AllianceBernstein LP",
             "Allianz SE",
             "Allspring Group Holdings LLC",
             "Alpha Services & Holdings SA",
