@@ -2325,7 +2325,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -3845,7 +3844,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14853,13 +14851,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14867,7 +14858,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14881,7 +14872,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,7 +14886,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14903,6 +14894,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21598,7 +21596,6 @@
             "Bushido",
             "CCB",
             "CCM",
-            "CH",
             "CI",
             "CI First Asset",
             "CIB",
@@ -21621,6 +21618,7 @@
             "Capital Group",
             "Carbon Collective",
             "Cardano",
+            "Castellan",
             "CastleArk",
             "Cathay",
             "Chimera",
@@ -21659,6 +21657,7 @@
             "DDA",
             "DGA",
             "DNB",
+            "DOO",
             "DSP",
             "DWS",
             "Da Cheng",
@@ -22758,7 +22757,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -22922,7 +22920,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -25274,6 +25271,7 @@
             "Distribution Cognizant LLC",
             "Donald L. Hagan LLC",
             "Dongxu Optoelectronic Investment Co., Ltd.",
+            "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
             "Dvx Ventures LLC",
@@ -27643,7 +27641,6 @@
             "OM",
             "PA",
             "PE",
-            "PF",
             "PG",
             "PH",
             "PK",

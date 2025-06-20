@@ -38,11 +38,6 @@
         "rd": true
     },
     {
-        "n": "sector",
-        "t": "text",
-        "r": []
-    },
-    {
         "n": "volume",
         "t": "number",
         "r": null,
@@ -67,11 +62,6 @@
         "r": null,
         "hh": true,
         "rd": true
-    },
-    {
-        "n": "country",
-        "t": "text",
-        "r": []
     },
     {
         "n": "exchange",
@@ -101,11 +91,6 @@
         "r": null,
         "hh": true,
         "rd": true
-    },
-    {
-        "n": "industry",
-        "t": "text",
-        "r": []
     },
     {
         "n": "low",
@@ -202,11 +187,6 @@
         "r": null
     },
     {
-        "n": "all_time_open",
-        "t": "price",
-        "r": null
-    },
-    {
         "n": "bars_count",
         "t": "number",
         "r": null,
@@ -222,11 +202,6 @@
         "n": "bid_ask_spread_pct",
         "t": "percent",
         "r": null
-    },
-    {
-        "n": "country_code_fund",
-        "t": "text",
-        "r": []
     },
     {
         "n": "coupon",
