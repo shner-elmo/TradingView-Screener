@@ -635,6 +635,7 @@
             "HU",
             "ID",
             "IE",
+            "IN",
             "IS",
             "IT",
             "JP",
@@ -688,6 +689,7 @@
             "HU",
             "ID",
             "IE",
+            "IN",
             "IS",
             "IT",
             "JP",
@@ -751,8 +753,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
             "out_of_session"
         ]
     },
@@ -1146,13 +1146,17 @@
         "t": "text",
         "r": [
             "P10Y",
+            "P11Y",
             "P12Y",
             "P13Y",
+            "P14Y",
             "P15Y",
             "P18Y",
+            "P19Y",
             "P1M",
             "P1Y",
             "P20Y",
+            "P24Y",
             "P25Y",
             "P2M",
             "P2Y",

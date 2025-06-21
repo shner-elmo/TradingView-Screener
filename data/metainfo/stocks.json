@@ -14865,14 +14865,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21604,6 +21604,7 @@
             "CIFM",
             "CMB",
             "CORE16",
+            "COtwo",
             "CPIC",
             "CSOP",
             "CTBC",
@@ -21968,7 +21969,6 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22977,10 +22977,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23581,6 +23578,7 @@
             "2184",
             "2186",
             "2189",
+            "2191",
             "22",
             "23",
             "24",
@@ -25194,6 +25192,7 @@
             "CGS International Securities Pte Ltd.",
             "CI Financial Corp.",
             "CITIC Securities Co., Ltd.",
+            "COtwo Advisors LLC",
             "CSOP Asset Management Ltd.",
             "CTBC Financial Holding Co., Ltd.",
             "CYBER HORNET ETFs LLC",
@@ -25261,6 +25260,7 @@
             "Deka Investment GmbH",
             "Delaware Management Company Inc",
             "Democracy Investment Management LLC",
+            "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
             "Deutsche B\u00f6rse Commodities GmbH",
             "Deutscher Sparkassen-und Giroverband eV",
@@ -25515,7 +25515,6 @@
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -26355,6 +26354,7 @@
             "192",
             "193",
             "20",
+            "2029",
             "30",
             "33",
             "34",
@@ -26425,7 +26425,8 @@
             "9562",
             "97",
             "98",
-            "9861"
+            "9861",
+            "9862"
         ]
     },
     {

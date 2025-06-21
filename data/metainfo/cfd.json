@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18970,6 +18970,7 @@
             "Compound",
             "Conflux",
             "Convex Finance",
+            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -18980,7 +18981,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Filecoin",
             "Frax (prev. FXS)",
             "GateToken",
             "Gemini Dollar",
@@ -19019,7 +19019,6 @@
             "Ravencoin",
             "Raydium",
             "Render",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19031,6 +19030,7 @@
             "THORChain",
             "TRON",
             "Tether USDt",
+            "Threshold",
             "Toncoin",
             "UNUS SED LEO",
             "USDC",
@@ -19056,6 +19056,7 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCATOM",
             "XTVCAVAX",
             "XTVCAVU",
             "XTVCBABYDOGE",
@@ -19081,7 +19082,6 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCFET",
-            "XTVCFIL",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
@@ -19116,7 +19116,6 @@
             "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19126,6 +19125,7 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSYRUP",
+            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRUMPOF",
@@ -19199,10 +19199,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
