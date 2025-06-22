@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -170,7 +171,6 @@
             "Luxembourg",
             "Macau",
             "Macedonia",
-            "Madagascar",
             "Malaysia",
             "Maldives",
             "Malta",
@@ -3141,6 +3141,7 @@
             "NYSE:TEX",
             "NYSE:TFC",
             "NYSE:TFX",
+            "NYSE:TGI",
             "NYSE:TGNA",
             "NYSE:TGT",
             "NYSE:THC",
@@ -6123,6 +6124,7 @@
             "NYSE:TEX",
             "NYSE:TFC",
             "NYSE:TFX",
+            "NYSE:TGI",
             "NYSE:TGNA",
             "NYSE:TGT",
             "NYSE:THC",
@@ -6914,6 +6916,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CH",
             "CI",
@@ -6972,7 +6975,6 @@
             "MA",
             "MC",
             "ME",
-            "MG",
             "MK",
             "MN",
             "MO",
@@ -7095,6 +7097,7 @@
             "PYG",
             "RON",
             "RUB",
+            "SAR",
             "SEK",
             "SGD",
             "THB",
@@ -7107,6 +7110,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7193,6 +7197,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
