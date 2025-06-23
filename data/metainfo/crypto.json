@@ -1492,7 +1492,6 @@
             "GBP",
             "GENZ",
             "GIGA",
-            "GMRT",
             "GNO",
             "GOLDGR",
             "GOUT",
@@ -1582,7 +1581,6 @@
             "RLUSD",
             "RON",
             "ROOT",
-            "RSETH",
             "RSWETH",
             "RZUSD",
             "SAND",
@@ -12696,13 +12694,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12710,7 +12701,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12718,6 +12709,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20354,7 +20352,6 @@
             "XTVCFXUSD",
             "XTVCGENZ",
             "XTVCGIGA",
-            "XTVCGMRT",
             "XTVCGNO",
             "XTVCGOLDGR",
             "XTVCGOUT",
@@ -20451,7 +20448,6 @@
             "XTVCRIO",
             "XTVCRLUSD",
             "XTVCROOT",
-            "XTVCRSETH",
             "XTVCRSWETH",
             "XTVCRUBT",
             "XTVCRZUSD",
@@ -20576,7 +20572,6 @@
             "XTVCYOSTEP",
             "XTVCYUK",
             "XTVCYYLM",
-            "XTVCZALP",
             "XTVCZBTC",
             "XTVCZIK",
             "XTVCZORA",

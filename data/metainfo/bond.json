@@ -1321,7 +1321,6 @@
             "IDX:PWON",
             "IDX:TBIG",
             "JSE:ABG",
-            "JSE:ABSP",
             "JSE:BVT",
             "JSE:GFI",
             "JSE:MSP",
@@ -4605,7 +4604,6 @@
             "IDX:PWON",
             "IDX:TBIG",
             "JSE:ABG",
-            "JSE:ABSP",
             "JSE:SBOIL",
             "KRX:000270",
             "KRX:000660",
@@ -7198,7 +7196,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

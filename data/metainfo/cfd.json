@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12054,6 +12047,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12074,14 +12074,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18956,7 +18956,6 @@
             "Aerodrome Finance",
             "Amp",
             "Aptos",
-            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18981,6 +18980,8 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
+            "Filecoin",
+            "First Digital USD",
             "Frax (prev. FXS)",
             "GateToken",
             "Gemini Dollar",
@@ -19008,7 +19009,6 @@
             "NEAR Protocol",
             "OFFICIAL TRUMP",
             "OKB",
-            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19018,7 +19018,6 @@
             "Polkadot",
             "Ravencoin",
             "Raydium",
-            "Render",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19043,7 +19042,8 @@
             "Wrapped eETH",
             "XRP",
             "Zebec Network",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19081,7 +19081,8 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFET",
+            "XTVCFDUSD",
+            "XTVCFIL",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
@@ -19104,7 +19105,6 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
-            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19113,7 +19113,6 @@
             "XTVCPI3",
             "XTVCPOLYG",
             "XTVCRAY",
-            "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
             "XTVCSHIB",
@@ -19142,6 +19141,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZBCN",
             "XTVCZRX"
         ]
@@ -19199,8 +19199,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
