@@ -635,6 +635,7 @@
             "HU",
             "ID",
             "IE",
+            "IL",
             "IN",
             "IS",
             "IT",
@@ -689,6 +690,7 @@
             "HU",
             "ID",
             "IE",
+            "IL",
             "IN",
             "IS",
             "IT",
@@ -753,6 +755,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]

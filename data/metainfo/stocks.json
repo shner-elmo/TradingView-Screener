@@ -14851,13 +14851,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14865,7 +14858,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14873,6 +14866,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21575,6 +21575,7 @@
             "Bitcoin Capital",
             "Bitwise",
             "BlackRock",
+            "Bluemonte",
             "Blueprint",
             "Bochk",
             "BondBloxx",
@@ -21806,6 +21807,7 @@
             "Horizon",
             "Horizon Kinetics",
             "Horizons",
+            "Hotchkis & Wiley",
             "Hoya",
             "HuaAn",
             "Huatai",
@@ -22900,7 +22902,6 @@
         "n": "currency_id",
         "t": "text",
         "r": [
-            "",
             "AED",
             "ARS",
             "AUD",
@@ -23768,7 +23769,6 @@
             "TND",
             "TRY",
             "TWD",
-            "UNK",
             "USD",
             "VES",
             "VND",
@@ -25366,6 +25366,7 @@
             "HDFC Bank Ltd.",
             "HFT Investment Management Co., Ltd.",
             "HSBC Holdings Plc",
+            "HWCap Holdings LLC",
             "Hamilton Capital Partners, Inc.",
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
