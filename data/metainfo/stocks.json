@@ -14865,13 +14865,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14879,7 +14872,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14893,7 +14886,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14901,6 +14894,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21745,6 +21745,7 @@
             "Forstrong",
             "Fortuna",
             "Franklin",
+            "Franklin Templeton",
             "Free Market",
             "Freedom",
             "Freedom Day",
@@ -21977,6 +21978,7 @@
             "Ninepoint",
             "Nippon",
             "Nomura",
+            "Nordea",
             "North Shore",
             "North Square",
             "Nu",
@@ -22978,7 +22980,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24956,6 +24957,7 @@
             "Water Island Capital LLC",
             "Wiener B\u00f6rse AG",
             "WilderShares LLC",
+            "Wilshire Advisors LLC",
             "WisdomTree Asset Management, Inc.",
             "Zacks Investment Management, Inc.",
             "Zagreb Stock Exchange, Inc."
@@ -25147,12 +25149,12 @@
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
             "Astorg Group SARL",
+            "Aviva Plc",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BCP CC Holdings LP",
             "BNK Financial Group, Inc.",
             "BNP Paribas SA",
-            "BOC Fund Management Co Ltd",
             "BOCI-Prudential Asset Management Ltd.",
             "BOOKOOK SECURITIES Co., Ltd.",
             "BPCE SA",
@@ -25324,6 +25326,7 @@
             "Fortuna Funds LLC",
             "Founder Fubon Fund Management Co., Ltd.",
             "Franklin Resources, Inc.",
+            "Franklin Templeton Fund Adviser LLC",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
             "Frontier Asset Management LLC",
             "Fubon Financial Holding Co., Ltd.",
@@ -25524,6 +25527,7 @@
             "Noa LLC",
             "Nomura Asset Management Taiwan Ltd",
             "Nomura Holdings, Inc.",
+            "Nordea Bank Abp",
             "Northern Trust Corp.",
             "Nu Holdings Ltd.",
             "ORIX Corp.",
@@ -25550,6 +25554,7 @@
             "Pacer Advisors, Inc.",
             "Pacific Investments Ltd.",
             "Palmer Square Holdings LLC",
+            "Pando Asset AG",
             "Pando Finance Ltd.",
             "Paralel Technologies LLC",
             "Passionate Investment Management Pvt Ltd.",
@@ -25588,6 +25593,7 @@
             "Quantify Chaos Advisors LLC",
             "Quantum Advisors Pvt. Ltd.",
             "Qunyi Securities Investment Trust Co. Ltd.",
+            "REX Advisers LLC",
             "REX Shares LLC",
             "Rafferty Asset Management LLC",
             "Rafferty Holdings LLC",
@@ -25600,7 +25606,6 @@
             "Resolute Investment Managers, Inc.",
             "Retireful LLC",
             "Reverence Capital Partners LLC",
-            "Rex Advisers LLC",
             "Rex Financial LLC",
             "Ridgeline Research LLC",
             "Rock Point Partners LLC",
