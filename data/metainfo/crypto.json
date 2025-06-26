@@ -209,6 +209,7 @@
             "MAGIC",
             "MANEKI",
             "MANTRA DAO",
+            "Magic Internet Money",
             "Maker",
             "Manta Network",
             "Marlin",
@@ -1533,6 +1534,7 @@
             "MANA",
             "MBTC",
             "MCOIN",
+            "MEMHASH",
             "MERY",
             "METFI",
             "MEX",
@@ -1546,7 +1548,6 @@
             "MSOL",
             "MXN",
             "MXNT",
-            "MYRO",
             "NMT",
             "NOCHILL",
             "NUT",
@@ -1585,7 +1586,6 @@
             "SAVAX",
             "SBTC",
             "SCRVUSD",
-            "SDAI",
             "SDCRV",
             "SEUR",
             "SFUND",
@@ -12692,13 +12692,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12706,7 +12699,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12714,6 +12707,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20030,6 +20030,7 @@
             "ME",
             "METIS",
             "MEW",
+            "MIM",
             "MINA",
             "MIOTA",
             "MKR",
@@ -20342,6 +20343,7 @@
             "XTVCFTB",
             "XTVCFUL",
             "XTVCFUSD",
+            "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXS",
             "XTVCFXUSD",
@@ -20392,6 +20394,7 @@
             "XTVCMAUSDC",
             "XTVCMBTC",
             "XTVCMCOIN",
+            "XTVCMEMHASH",
             "XTVCMERY",
             "XTVCMETFI",
             "XTVCMEXM",
@@ -20405,7 +20408,6 @@
             "XTVCMORNINGSTAR",
             "XTVCMSOL",
             "XTVCMXNT",
-            "XTVCMYRO",
             "XTVCNMT",
             "XTVCNOCHILL",
             "XTVCNUT",
@@ -20450,7 +20452,6 @@
             "XTVCSBNB",
             "XTVCSBTC",
             "XTVCSCRVUSD",
-            "XTVCSDAI",
             "XTVCSDCRV",
             "XTVCSDPENDLE",
             "XTVCSDYFI",
