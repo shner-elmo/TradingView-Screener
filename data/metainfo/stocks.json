@@ -14866,14 +14866,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14894,14 +14894,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22096,6 +22096,7 @@
             "SPDR",
             "SRH",
             "SSI",
+            "SSIF",
             "STF",
             "SWM",
             "SWP",
@@ -24806,6 +24807,7 @@
             "Concinnity Advisors LP",
             "Corporate Knights, Inc.",
             "DBX ETF Trust",
+            "Dalian Commodity Exchange",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -25440,6 +25442,7 @@
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
+            "Kasikornbank Public Co. Ltd.",
             "Kelly Intelligence LLC",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
@@ -25585,6 +25588,7 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
+            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",
@@ -25635,6 +25639,7 @@
             "Saracen Energy Advisors LP",
             "Sberbank Russia PJSC",
             "Schroders Plc",
+            "Shanxi Securities International Financial Holdings Ltd. (Stg)",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
@@ -27623,7 +27628,6 @@
             "LA",
             "LI",
             "LK",
-            "LR",
             "LT",
             "LU",
             "LV",

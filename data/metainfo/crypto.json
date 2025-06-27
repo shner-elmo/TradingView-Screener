@@ -1496,6 +1496,7 @@
             "GOLDGR",
             "GOUT",
             "GUSD",
+            "H",
             "HELP",
             "HPAY",
             "HTX",
@@ -12664,14 +12665,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20352,6 +20353,7 @@
             "XTVCGOLDGR",
             "XTVCGOUT",
             "XTVCGUSD",
+            "XTVCH",
             "XTVCHELP",
             "XTVCHOWDY",
             "XTVCHPAY",
@@ -20518,6 +20520,7 @@
             "XTVCUSDT",
             "XTVCUSDTB",
             "XTVCUSDTE",
+            "XTVCUSDTETHER",
             "XTVCUSDX",
             "XTVCUSDZ",
             "XTVCUSHHA",
