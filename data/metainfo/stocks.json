@@ -14852,14 +14852,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21504,6 +21504,7 @@
             "Agiofunds",
             "Ailis",
             "Airlie",
+            "Alaska",
             "Albilad",
             "Alerian",
             "Alexis",
@@ -25727,6 +25728,7 @@
             "VI Asset Management Co., Ltd.",
             "VNDirect Securities Corp.",
             "VTB Bank PJSC",
+            "VTB Capital Asset Management JSC",
             "Valour Digital Securities Ltd.",
             "Valour, Inc. (Switzerland)",
             "Value Partners Group Ltd.",

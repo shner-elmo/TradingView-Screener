@@ -1532,7 +1532,6 @@
             "LUA",
             "LUSD",
             "LVLUSD",
-            "LWC",
             "MANA",
             "MBTC",
             "MCOIN",
@@ -1568,7 +1567,6 @@
             "POPCAT",
             "PUFETH",
             "PXETH",
-            "PYTH",
             "PYUSD",
             "QUICK",
             "RAY",
@@ -1578,7 +1576,6 @@
             "RIO",
             "RLUSD",
             "RON",
-            "ROOT",
             "RSWETH",
             "RZUSD",
             "SAAS",
@@ -12689,13 +12686,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12703,7 +12693,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12711,6 +12701,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20387,7 +20384,6 @@
             "XTVCLUA",
             "XTVCLUSD",
             "XTVCLVLUSD",
-            "XTVCLWC",
             "XTVCMANA",
             "XTVCMAUSDC",
             "XTVCMBTC",
@@ -20427,7 +20423,6 @@
             "XTVCPTCUSDO1763596806",
             "XTVCPUFETH",
             "XTVCPXETH",
-            "XTVCPYTH",
             "XTVCPYUSD",
             "XTVCQUICK",
             "XTVCQYTB",
@@ -20435,11 +20430,10 @@
             "XTVCRENBTC",
             "XTVCRESOLV",
             "XTVCRETH",
+            "XTVCREUSDE",
             "XTVCRIO",
             "XTVCRLUSD",
-            "XTVCROOT",
             "XTVCRSWETH",
-            "XTVCRUBT",
             "XTVCRZUSD",
             "XTVCSAAS",
             "XTVCSAND",
