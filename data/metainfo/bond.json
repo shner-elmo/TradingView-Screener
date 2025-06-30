@@ -1654,7 +1654,6 @@
             "NASDAQ:AVT",
             "NASDAQ:AXON",
             "NASDAQ:BAND",
-            "NASDAQ:BANR",
             "NASDAQ:BBCP",
             "NASDAQ:BBGI",
             "NASDAQ:BBIO",
@@ -2640,7 +2639,6 @@
             "NYSE:EPD",
             "NYSE:EPR",
             "NYSE:EPRT",
-            "NYSE:EQBK",
             "NYSE:EQH",
             "NYSE:EQR",
             "NYSE:EQT",
@@ -3137,7 +3135,6 @@
             "NYSE:TEX",
             "NYSE:TFC",
             "NYSE:TFX",
-            "NYSE:TGI",
             "NYSE:TGNA",
             "NYSE:TGT",
             "NYSE:THC",
@@ -4859,7 +4856,6 @@
             "NASDAQ:AVT",
             "NASDAQ:AXON",
             "NASDAQ:BAND",
-            "NASDAQ:BANR",
             "NASDAQ:BBIO",
             "NASDAQ:BCBP",
             "NASDAQ:BCML",
@@ -5703,7 +5699,6 @@
             "NYSE:EOG",
             "NYSE:EPC",
             "NYSE:EPR",
-            "NYSE:EQBK",
             "NYSE:EQH",
             "NYSE:EQT",
             "NYSE:ES",
@@ -6111,7 +6106,6 @@
             "NYSE:TEX",
             "NYSE:TFC",
             "NYSE:TFX",
-            "NYSE:TGI",
             "NYSE:TGNA",
             "NYSE:TGT",
             "NYSE:THC",
@@ -7185,7 +7179,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

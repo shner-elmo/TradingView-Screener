@@ -2457,7 +2457,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "out_of_session"
+            "market",
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

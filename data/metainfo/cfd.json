@@ -348,6 +348,7 @@
             "GPW",
             "HSI",
             "IDX",
+            "MARKETSCOM",
             "NSE",
             "NZX",
             "OANDA",
@@ -12032,14 +12033,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,14 +12061,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18956,6 +18957,7 @@
             "Aerodrome Finance",
             "Amp",
             "Aptos",
+            "Arbitrum",
             "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
@@ -19000,7 +19002,6 @@
             "Maker",
             "Mantle",
             "Maple Finance",
-            "Marinade Staked SOL",
             "Monero",
             "Morpho",
             "MultiversX",
@@ -19025,6 +19026,7 @@
             "Stellar",
             "Sui",
             "Sun (New)",
+            "SushiSwap",
             "Synthetix",
             "THORChain",
             "TRON",
@@ -19056,6 +19058,7 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCARBI",
             "XTVCAVAX",
             "XTVCAVU",
             "XTVCBABYDOGE",
@@ -19101,7 +19104,6 @@
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
-            "XTVCMSOL",
             "XTVCNEAR",
             "XTVCOKB",
             "XTVCOM",
@@ -19123,6 +19125,7 @@
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUN",
+            "XTVCSUSHI",
             "XTVCSYRUP",
             "XTVCT",
             "XTVCTAOB",
@@ -19200,7 +19203,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -20367,6 +20371,7 @@
             "fxopen",
             "gain",
             "ice",
+            "marketscom",
             "oanda",
             "pepperstone",
             "phillipnova",
@@ -20528,6 +20533,7 @@
             "provider/fxopen",
             "provider/gain",
             "provider/ice",
+            "provider/marketscom",
             "provider/oanda",
             "provider/pepperstone",
             "provider/phillipnova",
