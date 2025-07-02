@@ -12033,13 +12033,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12047,7 +12040,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12055,6 +12048,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18959,6 +18959,7 @@
             "Amp",
             "Aptos",
             "Arbitrum",
+            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -19009,7 +19010,6 @@
             "NEAR Protocol",
             "OFFICIAL TRUMP",
             "OKB",
-            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19031,6 +19031,7 @@
             "THORChain",
             "TRON",
             "Tether USDt",
+            "Threshold",
             "Toncoin",
             "UNUS SED LEO",
             "USDC",
@@ -19083,6 +19084,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCFET",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
@@ -19105,7 +19107,6 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
-            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19126,6 +19127,7 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSYRUP",
+            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRUMPOF",
@@ -19200,10 +19202,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
