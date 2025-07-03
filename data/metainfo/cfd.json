@@ -12047,13 +12047,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12061,7 +12054,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12075,7 +12068,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12083,6 +12076,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18955,7 +18955,6 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
-            "Algorand",
             "Amp",
             "Aptos",
             "Arbitrum",
@@ -19010,6 +19009,7 @@
             "NEAR Protocol",
             "OFFICIAL TRUMP",
             "OKB",
+            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19031,7 +19031,6 @@
             "THORChain",
             "TRON",
             "Tether USDt",
-            "Threshold",
             "Toncoin",
             "UNUS SED LEO",
             "USDC",
@@ -19056,7 +19055,6 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
-            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
@@ -19107,6 +19105,7 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
+            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19127,7 +19126,6 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSYRUP",
-            "XTVCT",
             "XTVCTAOB",
             "XTVCTON",
             "XTVCTRUMPOF",
@@ -19203,7 +19201,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

@@ -2373,6 +2373,7 @@
             "Israel",
             "Italy",
             "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14865,13 +14866,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14879,7 +14873,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14893,7 +14887,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14901,6 +14895,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21579,6 +21580,7 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -21880,6 +21882,7 @@
             "Kyobo",
             "L&G",
             "L1 Capital",
+            "LFG",
             "LIC Mutual Fund",
             "LSV",
             "Langar",
@@ -22057,6 +22060,7 @@
             "RBC",
             "REX Microsectors",
             "REX Shares",
+            "REX-Osprey",
             "RMB Funds",
             "ROBO Global",
             "ROC",
@@ -22811,6 +22815,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -22982,9 +22987,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -25630,6 +25635,7 @@
             "SRN Advisors LLC",
             "SS&C Technologies Holdings, Inc.",
             "SSI Securities Corp.",
+            "SSIF BRK Financial Group SA",
             "SWP Investment Management LLC",
             "Sa1 Issuer SPC Ltd.",
             "Sammons Enterprises, Inc.",
@@ -25727,9 +25733,9 @@
             "United Overseas Bank Ltd. (Singapore)",
             "Unlimited Funds, Inc.",
             "VI Asset Management Co., Ltd.",
+            "VIM Investments",
             "VNDirect Securities Corp.",
             "VTB Bank PJSC",
-            "VTB Capital Asset Management JSC",
             "Valour Digital Securities Ltd.",
             "Valour, Inc. (Switzerland)",
             "Value Partners Group Ltd.",
@@ -27597,6 +27603,7 @@
             "GB",
             "GE",
             "GH",
+            "GI",
             "GL",
             "GN",
             "GR",
