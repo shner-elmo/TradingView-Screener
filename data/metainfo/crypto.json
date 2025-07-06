@@ -217,7 +217,6 @@
             "Meta Apes",
             "Metal DAO",
             "MetisDAO",
-            "Mexican Peso Tether",
             "MiL.k",
             "Mina",
             "Monero",
@@ -1495,9 +1494,7 @@
             "GOLDGR",
             "GOUT",
             "GUSD",
-            "H",
             "HELP",
-            "HPAY",
             "HTX",
             "HYDRA",
             "HYPE",
@@ -1617,6 +1614,7 @@
             "UAHG",
             "UNI",
             "UNIBTC",
+            "UQC",
             "USC",
             "USD",
             "USD0",
@@ -12688,13 +12686,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12702,7 +12693,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12710,6 +12701,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20034,7 +20032,6 @@
             "MOVR",
             "MPC",
             "MTL",
-            "MXNT",
             "NCT",
             "NEAR",
             "NEO",
@@ -20258,7 +20255,6 @@
             "XTVCAVUSD",
             "XTVCAXLUSDC",
             "XTVCB",
-            "XTVCBABYLIBERTY",
             "XTVCBAKE",
             "XTVCBARA",
             "XTVCBARIO",
@@ -20345,10 +20341,8 @@
             "XTVCGOLDGR",
             "XTVCGOUT",
             "XTVCGUSD",
-            "XTVCH",
             "XTVCHELP",
             "XTVCHOWDY",
-            "XTVCHPAY",
             "XTVCHTX",
             "XTVCHYDRA",
             "XTVCHYPEH",
@@ -20487,6 +20481,7 @@
             "XTVCUNI",
             "XTVCUNIBTC",
             "XTVCUPYFI",
+            "XTVCUQC",
             "XTVCURWAAI",
             "XTVCUSC",
             "XTVCUSD0",
