@@ -12047,14 +12047,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18958,7 +18958,6 @@
             "Amp",
             "Aptos",
             "Arbitrum",
-            "Artificial Superintelligence Alliance",
             "Avalanche",
             "BNB",
             "Baby Doge Coin",
@@ -18967,12 +18966,12 @@
             "Bitcoin Cash",
             "Bitget Token",
             "Bittensor",
+            "Bonk",
             "Cardano",
             "Chainlink",
             "Compound",
             "Conflux",
             "Convex Finance",
-            "Cosmos",
             "Cronos",
             "Curve DAO Token",
             "Dai",
@@ -19059,7 +19058,6 @@
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
-            "XTVCATOM",
             "XTVCAVAX",
             "XTVCAVU",
             "XTVCBABYDOGE",
@@ -19067,6 +19065,7 @@
             "XTVCBERA",
             "XTVCBGB",
             "XTVCBNB",
+            "XTVCBONK",
             "XTVCBTC",
             "XTVCCAKE",
             "XTVCCFX",
@@ -19084,7 +19083,6 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFET",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGT",
@@ -19204,7 +19202,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
