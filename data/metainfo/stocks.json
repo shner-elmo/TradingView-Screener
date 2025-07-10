@@ -14853,14 +14853,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14881,14 +14881,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21025,6 +21025,16 @@
         "r": null
     },
     {
+        "n": "altman_z_score_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "altman_z_score_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "amount_recent",
         "t": "fundamental_price",
         "r": null
@@ -21446,6 +21456,36 @@
         "r": null
     },
     {
+        "n": "book_tangible_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_tangible_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_tangible_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_tangible_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_value_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_value_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "book_value_per_share_fq",
         "t": "fundamental_price",
         "r": null
@@ -21735,6 +21775,7 @@
             "FinEx ETF",
             "Finans Asset Management",
             "Fineco",
+            "Fineqia",
             "Fire Funds",
             "Firetraill",
             "First Eagle",
@@ -22250,6 +22291,7 @@
             "Wahed",
             "Wanjia",
             "WaveFront",
+            "Waystone",
             "WealthTrust",
             "Wedbush",
             "Wells Fargo",
@@ -22316,6 +22358,46 @@
         "r": null
     },
     {
+        "n": "capex_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capex_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capex_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capex_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capex_per_share_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "capital_expenditures_qoq_growth_fq",
         "t": "percent",
         "r": null
@@ -22366,12 +22448,57 @@
         "r": null
     },
     {
+        "n": "cash_f_financing_activities_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_financing_activities_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_financing_activities_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "cash_f_financing_activities_ttm",
         "t": "fundamental_price",
         "r": null
     },
     {
+        "n": "cash_f_investing_activities_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_investing_activities_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_investing_activities_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "cash_f_investing_activities_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_operating_activities_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_operating_activities_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_operating_activities_fy",
         "t": "fundamental_price",
         "r": null
     },
@@ -22398,6 +22525,26 @@
     {
         "n": "cash_n_short_term_invest_to_total_debt_fy",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_per_share_fy",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -22987,9 +23134,15 @@
         "r": null
     },
     {
+        "n": "current_ratio_fy",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23017,6 +23170,21 @@
     },
     {
         "n": "debt_to_equity_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "debt_to_equity_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "debt_to_revenue_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "debt_to_revenue_ttm",
         "t": "number",
         "r": null
     },
@@ -23068,6 +23236,11 @@
     {
         "n": "dividend_payment_date_upcoming",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "dividend_payout_ratio_fy",
+        "t": "percent",
         "r": null
     },
     {
@@ -23131,6 +23304,11 @@
         "r": null
     },
     {
+        "n": "dps_common_stock_prim_issue_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "dps_common_stock_prim_issue_fq",
         "t": "fundamental_price",
         "r": null
@@ -23138,6 +23316,21 @@
     {
         "n": "dps_common_stock_prim_issue_fy_h",
         "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "dps_common_stock_prim_issue_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_basic_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_basic_fq",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -23153,6 +23346,11 @@
     {
         "n": "earnings_per_share_diluted_5y_growth_fy",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_diluted_fh",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -23181,7 +23379,17 @@
         "r": null
     },
     {
+        "n": "earnings_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "earnings_per_share_forecast_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_per_share_forecast_next_fh",
         "t": "fundamental_price",
         "r": null
     },
@@ -23246,7 +23454,42 @@
         "r": null
     },
     {
+        "n": "ebit_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebit_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebit_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebit_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebit_per_share_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "ebit_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_fq",
         "t": "fundamental_price",
         "r": null
     },
@@ -23286,7 +23529,42 @@
         "r": null
     },
     {
+        "n": "ebitda_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "ebitda_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "ebitda_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_per_share_ttm",
         "t": "fundamental_price",
         "r": null
     },
@@ -23298,6 +23576,16 @@
     {
         "n": "ebitda_ttm_h",
         "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "effective_interest_rate_on_debt_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "effective_interest_rate_on_debt_ttm",
+        "t": "percent",
         "r": null
     },
     {
@@ -23428,6 +23716,26 @@
         "rd": true
     },
     {
+        "n": "fiscal_period_current",
+        "t": "text",
+        "r": [
+            "2024-H1",
+            "2024-H2",
+            "2024-Q2",
+            "2024-Q3",
+            "2024-Q4",
+            "2025-H1",
+            "2025-Q1",
+            "2025-Q2",
+            "2025-Q3"
+        ]
+    },
+    {
+        "n": "fiscal_period_end_current",
+        "t": "time",
+        "r": null
+    },
+    {
         "n": "fiscal_period_end_fh",
         "t": "time",
         "r": null
@@ -23441,6 +23749,19 @@
         "n": "fiscal_period_end_fq",
         "t": "time",
         "r": null
+    },
+    {
+        "n": "fiscal_period_end_fy",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "fiscal_period_fy",
+        "t": "text",
+        "r": [
+            "2023",
+            "2024"
+        ]
     },
     {
         "n": "fiscal_period_fy_h",
@@ -23591,6 +23912,7 @@
             "2182",
             "2183",
             "2184",
+            "2185",
             "2186",
             "2189",
             "2191",
@@ -23642,6 +23964,11 @@
         "r": null
     },
     {
+        "n": "free_cash_flow_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "free_cash_flow_fq",
         "t": "fundamental_price",
         "r": null
@@ -23663,6 +23990,21 @@
     },
     {
         "n": "free_cash_flow_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_per_share_ttm",
         "t": "fundamental_price",
         "r": null
     },
@@ -24135,6 +24477,21 @@
         "r": null
     },
     {
+        "n": "goodwill_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "graham_numbers_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "graham_numbers_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "gross_margin_fy",
         "t": "percent",
         "r": null
@@ -24147,6 +24504,11 @@
     {
         "n": "gross_margin_ttm",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_fh",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -24869,7 +25231,6 @@
             "Korea Exchange Co., Ltd.",
             "LPX AG",
             "Lattice Strategies LLC",
-            "Leonteq Securities AG",
             "Level ETF Ventures LLC",
             "Life + Liberty Indexes",
             "LifeSci Index Partners LLC",
@@ -25321,8 +25682,10 @@
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
             "Federated Hermes, Inc.",
+            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
+            "Fineqia AG",
             "Firetrail Investments Pty Ltd.",
             "First Financial Holding Co., Ltd.",
             "First Metro Asset Management, Inc.",
@@ -25448,7 +25811,6 @@
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
-            "Kasikornbank Public Co. Ltd.",
             "Kelly Intelligence LLC",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
@@ -25928,6 +26290,16 @@
         "r": null
     },
     {
+        "n": "long_term_debt_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "long_term_debt_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "long_term_debt_to_assets_fq",
         "t": "number",
         "r": null
@@ -26218,7 +26590,32 @@
         "rd": true
     },
     {
+        "n": "ncavps_ratio_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ncavps_ratio_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ncavps_ratio_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ncavps_ratio_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "net_debt_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_debt_fy",
         "t": "fundamental_price",
         "r": null
     },
@@ -26234,6 +26631,16 @@
     },
     {
         "n": "net_income_bef_disc_oper_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_fq",
         "t": "fundamental_price",
         "r": null
     },
@@ -26528,6 +26935,16 @@
         "rd": true
     },
     {
+        "n": "oper_income_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "oper_income_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "oper_income_fy",
         "t": "fundamental_price",
         "r": null
@@ -26539,6 +26956,31 @@
     },
     {
         "n": "oper_income_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "operating_cash_flow_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "operating_cash_flow_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "operating_cash_flow_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "operating_cash_flow_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "operating_cash_flow_per_share_ttm",
         "t": "fundamental_price",
         "r": null
     },
@@ -26560,6 +27002,16 @@
     {
         "n": "payment_date_upcoming",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "piotroski_f_score_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "piotroski_f_score_ttm",
+        "t": "number",
         "r": null
     },
     {
@@ -26927,6 +27379,11 @@
         "r": null
     },
     {
+        "n": "quick_ratio_fy",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "rates_cf",
         "t": "map",
         "r": null
@@ -27112,6 +27569,16 @@
         "rd": true
     },
     {
+        "n": "research_and_dev_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "research_and_dev_fy",
         "t": "fundamental_price",
         "r": null
@@ -27148,6 +27615,26 @@
     },
     {
         "n": "return_on_capital_employed_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_common_equity_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_common_equity_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_equity_adjust_to_book_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "return_on_equity_adjust_to_book_ttm",
         "t": "percent",
         "r": null
     },
@@ -27207,7 +27694,17 @@
         "r": null
     },
     {
+        "n": "revenue_forecast_next_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "revenue_forecast_next_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_forecast_next_fy",
         "t": "fundamental_price",
         "r": null
     },
@@ -27218,6 +27715,21 @@
     },
     {
         "n": "revenue_per_employee_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "revenue_per_share_fq",
         "t": "fundamental_price",
         "r": null
     },
@@ -27296,6 +27808,26 @@
         "r": null
     },
     {
+        "n": "share_buyback_ratio_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "share_buyback_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "short_term_debt_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "short_term_debt_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "shrhldrs_equity_fq",
         "t": "fundamental_price",
         "r": null
@@ -27313,6 +27845,16 @@
     {
         "n": "shrhldrs_equity_to_total_assets_fy",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "sloan_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "sloan_ratio_ttm",
+        "t": "percent",
         "r": null
     },
     {
@@ -27477,6 +28019,16 @@
         "r": null
     },
     {
+        "n": "sustainable_growth_rate_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "sustainable_growth_rate_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "time",
         "t": "time",
         "r": null,
@@ -27552,6 +28104,16 @@
         "r": null,
         "hh": true,
         "rd": true
+    },
+    {
+        "n": "tobin_q_ratio_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "tobin_q_ratio_fy",
+        "t": "number",
+        "r": null
     },
     {
         "n": "top_revenue_country_code",
@@ -27741,12 +28303,32 @@
         "r": null
     },
     {
+        "n": "total_cash_dividends_paid_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_cash_dividends_paid_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "total_cash_dividends_paid_fy",
         "t": "fundamental_price",
         "r": null
     },
     {
+        "n": "total_cash_dividends_paid_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "total_current_assets_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_current_assets_fy",
         "t": "fundamental_price",
         "r": null
     },
@@ -27786,6 +28368,26 @@
         "r": null
     },
     {
+        "n": "total_debt_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "total_debt_to_capital_fq",
         "t": "number",
         "r": null
@@ -27811,8 +28413,23 @@
         "r": null
     },
     {
+        "n": "total_equity_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "total_revenue_5y_growth_fy",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "total_revenue_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_revenue_fq",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -28230,12 +28847,42 @@
         "r": null
     },
     {
+        "n": "working_capital_per_share_current",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "working_capital_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "working_capital_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "working_capital_per_share_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "yield_recent",
         "t": "number",
         "r": null
     },
     {
         "n": "yield_upcoming",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "zmijewski_score_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "zmijewski_score_ttm",
         "t": "number",
         "r": null
     }
