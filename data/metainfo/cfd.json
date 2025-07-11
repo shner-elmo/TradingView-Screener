@@ -12033,14 +12033,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12075,14 +12075,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18955,6 +18955,7 @@
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
+            "Algorand",
             "Amp",
             "Aptos",
             "Arbitrum",
@@ -19009,6 +19010,7 @@
             "NEAR Protocol",
             "OFFICIAL TRUMP",
             "OKB",
+            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19043,8 +19045,7 @@
             "Wrapped eETH",
             "XRP",
             "Zebec Network",
-            "ether.fi",
-            "yearn.finance"
+            "ether.fi"
         ]
     },
     {
@@ -19055,6 +19056,7 @@
             "XTVCAAVE",
             "XTVCADA",
             "XTVCAEROD",
+            "XTVCALGO",
             "XTVCAMP2",
             "XTVCAPTO",
             "XTVCARBI",
@@ -19105,6 +19107,7 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
+            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19142,7 +19145,6 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZBCN",
             "XTVCZRX"
         ]

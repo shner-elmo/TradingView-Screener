@@ -14867,14 +14867,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22112,6 +22112,7 @@
             "Range",
             "Rareview Funds",
             "Rayliant",
+            "Reckoner",
             "Regan",
             "Regents Park",
             "Reitway",
@@ -22313,6 +22314,7 @@
             "YieldMax",
             "Yinhua",
             "Yoke",
+            "Yongying",
             "Yuanta",
             "Yurie",
             "ZEGA",
@@ -23142,7 +23144,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23661,6 +23662,7 @@
             "INR",
             "JPY",
             "KRW",
+            "KWD",
             "KZT",
             "MXN",
             "MYR",
@@ -25738,6 +25740,7 @@
             "Guolianan Fund Management Co., Ltd.",
             "Guotai Asset Management Co., Ltd.",
             "Guotai Junan Securities Co., Ltd.",
+            "Gutmann KAG",
             "HANWHA LIFE INSURANCE Co., Ltd.",
             "HANetf Holdings Ltd.",
             "HDFC Bank Ltd.",
@@ -25972,6 +25975,7 @@
             "Rafferty Holdings LLC",
             "Rakuten Group, Inc.",
             "Rational Advisors, Inc.",
+            "Reckoner Capital Management LLC",
             "Redwood Investment Holdco LLC",
             "Reflection Asset Management LLC",
             "Regan Capital LLC",
