@@ -14853,14 +14853,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14881,13 +14881,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14895,7 +14888,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14903,6 +14896,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21579,6 +21579,7 @@
             "Armada ETF Advisors",
             "Arrow Funds",
             "ArrowShares",
+            "Arysteq",
             "Asset Management One",
             "AssetPlus",
             "Astoria",
@@ -21586,6 +21587,7 @@
             "Avantis",
             "Axis",
             "Axxion",
+            "Azoria",
             "Aztlan",
             "BB",
             "BB DTVM",
@@ -21852,6 +21854,7 @@
             "Horizon",
             "Horizon Kinetics",
             "Horizons",
+            "Hotchkis & Wiley",
             "Hoya",
             "HuaAn",
             "Huatai",
@@ -22162,6 +22165,7 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -23145,8 +23149,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25746,6 +25749,7 @@
             "HDFC Bank Ltd.",
             "HFT Investment Management Co., Ltd.",
             "HSBC Holdings Plc",
+            "HWCap Holdings LLC",
             "Hamilton Capital Partners, Inc.",
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
@@ -25800,6 +25804,7 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -25838,6 +25843,7 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
+            "Lexus Securities Pty Ltd.",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
@@ -28255,6 +28261,7 @@
             "TW",
             "TZ",
             "UA",
+            "UG",
             "US",
             "UY",
             "UZ",
