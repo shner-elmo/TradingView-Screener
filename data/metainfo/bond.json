@@ -7021,6 +7021,7 @@
             "PYG",
             "RON",
             "RUB",
+            "SAR",
             "SEK",
             "SGD",
             "THB",
@@ -7028,13 +7029,12 @@
             "TND",
             "TRY",
             "TZS",
-            "UGX",
             "USD",
             "UVA",
             "UYU",
             "UZS",
             "VND",
-            "XOF",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7121,6 +7121,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },

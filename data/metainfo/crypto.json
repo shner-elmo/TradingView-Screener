@@ -1577,6 +1577,7 @@
             "SAVAX",
             "SBTC",
             "SCRVUSD",
+            "SDAI",
             "SDCRV",
             "SEUR",
             "SFUND",
@@ -12684,13 +12685,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12698,7 +12692,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12706,6 +12700,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20375,6 +20376,7 @@
             "XTVCLUA",
             "XTVCLUSD",
             "XTVCLVLUSD",
+            "XTVCLYN",
             "XTVCMANA",
             "XTVCMAUSDC",
             "XTVCMBTC",
@@ -20423,7 +20425,6 @@
             "XTVCRENBTC",
             "XTVCRESOLV",
             "XTVCRETH",
-            "XTVCREUSDE",
             "XTVCRIO",
             "XTVCRLUSD",
             "XTVCROOSTER",
@@ -20431,11 +20432,11 @@
             "XTVCRZUSD",
             "XTVCSAAS",
             "XTVCSAND",
-            "XTVCSATOSHIK",
             "XTVCSAVAX",
             "XTVCSBNB",
             "XTVCSBTC",
             "XTVCSCRVUSD",
+            "XTVCSDAI",
             "XTVCSDCRV",
             "XTVCSDPENDLE",
             "XTVCSDYFI",
@@ -20450,7 +20451,6 @@
             "XTVCSRM",
             "XTVCSSTB",
             "XTVCSSTL",
-            "XTVCSTBTC",
             "XTVCSTETH",
             "XTVCSTLINK",
             "XTVCSTON",
