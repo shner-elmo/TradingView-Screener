@@ -3846,6 +3846,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -22071,7 +22072,6 @@
             "Perpetual",
             "Perth Mint",
             "Phillip",
-            "Picton Mahoney",
             "PineBridge Investments",
             "Ping An",
             "Pinnacle",
@@ -23086,6 +23086,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -23149,7 +23150,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25236,6 +25238,7 @@
             "Korea Exchange Co., Ltd.",
             "LPX AG",
             "Lattice Strategies LLC",
+            "Leonteq Securities AG",
             "Level ETF Ventures LLC",
             "Life + Liberty Indexes",
             "LifeSci Index Partners LLC",

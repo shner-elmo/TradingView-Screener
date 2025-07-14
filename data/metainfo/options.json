@@ -166,12 +166,15 @@
         "n": "currency",
         "t": "text",
         "r": [
+            "AUD",
+            "CAD",
             "CHF",
             "CNH",
             "EUR",
             "GBP",
             "INR",
             "JPY",
+            "NZD",
             "USD",
             "USX"
         ]
@@ -222,11 +225,14 @@
         "n": "currency_id",
         "t": "text",
         "r": [
+            "AUD",
+            "CAD",
             "CHF",
             "EUR",
             "GBP",
             "INR",
             "JPY",
+            "NZD",
             "USD",
             "XTVCNH",
             "XTVUSX"

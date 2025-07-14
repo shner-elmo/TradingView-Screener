@@ -1520,7 +1520,6 @@
             "LEMX",
             "LINK",
             "LION",
-            "LODE",
             "LUA",
             "LUSD",
             "LVLUSD",
@@ -12657,14 +12656,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20347,6 +20346,7 @@
             "XTVCHTX",
             "XTVCHYDRA",
             "XTVCHYPEH",
+            "XTVCIGC",
             "XTVCINF",
             "XTVCIOTX",
             "XTVCIQ",
@@ -20370,7 +20370,6 @@
             "XTVCLINK",
             "XTVCLION",
             "XTVCLMX",
-            "XTVCLODE",
             "XTVCLPXCVX",
             "XTVCLPZ",
             "XTVCLUA",
