@@ -14868,14 +14868,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22041,6 +22041,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "OneETF",
@@ -22056,6 +22057,7 @@
             "PAM",
             "PEO",
             "PGIM",
+            "PICTON",
             "PIMCO",
             "PLUS",
             "PMV",
@@ -23152,9 +23154,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -23738,7 +23740,8 @@
             "2025-H1",
             "2025-Q1",
             "2025-Q2",
-            "2025-Q3"
+            "2025-Q3",
+            "2025-Q4"
         ]
     },
     {
@@ -23771,7 +23774,8 @@
         "t": "text",
         "r": [
             "2023",
-            "2024"
+            "2024",
+            "2025"
         ]
     },
     {
@@ -23928,6 +23932,7 @@
             "2187",
             "2189",
             "2191",
+            "2193",
             "22",
             "23",
             "24",
