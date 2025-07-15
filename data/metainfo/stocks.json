@@ -14868,13 +14868,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14882,7 +14875,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14890,6 +14883,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21520,6 +21520,7 @@
             "AGP",
             "AK",
             "ALPS",
+            "AMINA",
             "AORIS",
             "AOT",
             "ARK",
@@ -21726,6 +21727,7 @@
             "Direxion",
             "Discipline Funds",
             "Distillate",
+            "Dokhod",
             "Dongcai",
             "DoubleLine",
             "Draco",
@@ -21807,6 +21809,7 @@
             "GF Fund",
             "GGM",
             "GMO",
+            "GQG Partners",
             "Gabelli",
             "Gadsden",
             "Galaxy",
@@ -22035,9 +22038,9 @@
             "Numoro",
             "Nuveen",
             "OPAL",
+            "OTG",
             "OTP",
             "Oakmark",
-            "Obermatt",
             "Obra",
             "Ocean Park",
             "OneETF",
@@ -23149,6 +23152,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23921,6 +23925,7 @@
             "2184",
             "2185",
             "2186",
+            "2187",
             "2189",
             "2191",
             "22",
@@ -25654,6 +25659,7 @@
             "Dimensional Holdings, Inc.",
             "Distillate Capital Partners LLC",
             "Distribution Cognizant LLC",
+            "Dokhod Asset Management Co. OOO",
             "Donald L. Hagan LLC",
             "Dongxu Optoelectronic Investment Co., Ltd.",
             "Doo Group",
@@ -25718,6 +25724,7 @@
             "Future Fund Advisors LLC",
             "GAMCO Investors, Inc.",
             "GF Securities Co., Ltd.",
+            "GQG Partners, Inc.",
             "Galaxy Fund Management Co., Ltd.",
             "Global X Japan Co., Ltd.",
             "Global X Management Co. (Europe) Ltd.",
@@ -25887,6 +25894,7 @@
             "Morgan Stanley",
             "Morningstar, Inc.",
             "Motilal Oswal Financial Services Ltd.",
+            "Msc Group SA",
             "Mugunghwa Trust Co., Ltd.",
             "Mulvihill Capital Management, Inc.",
             "Munro Investment Holdings Pty Ltd.",
@@ -25968,7 +25976,6 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",
