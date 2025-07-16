@@ -21625,7 +21625,6 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -21706,7 +21705,6 @@
             "DB",
             "DDA",
             "DGA",
-            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -23156,7 +23154,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -23677,7 +23674,6 @@
             "KZT",
             "MXN",
             "MYR",
-            "NOK",
             "NZD",
             "PEN",
             "PHP",
@@ -25640,7 +25636,6 @@
             "Cygnet Capital LLC",
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
-            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "DWS Investment SA",
             "Da Cheng Fund Management Co., Ltd.",
@@ -25796,7 +25791,7 @@
             "Hyperion Holdings Ltd.  (Australia)",
             "I.B.I. Investment House Ltd.",
             "ICBC Credit Suisse Asset Management Co., Ltd.",
-            "ICICI Prudential Asset Management Co. Ltd.",
+            "ICICI Prudential Asset Management Co. Ltd. (Invt Mgmt)",
             "IDX Advisors LLC",
             "Indexperts LLC",
             "Industrial Bank Co., Ltd.",

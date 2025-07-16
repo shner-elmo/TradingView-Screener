@@ -753,7 +753,6 @@
             "BIST:VESTL",
             "BIST:YKBNK",
             "BIST:ZOREN",
-            "BIVA:JNPR",
             "BME:ACS",
             "BME:ADX",
             "BME:AEDAS",
@@ -1768,6 +1767,7 @@
             "NASDAQ:GH",
             "NASDAQ:GILD",
             "NASDAQ:GLDD",
+            "NASDAQ:GLIBA",
             "NASDAQ:GLNG",
             "NASDAQ:GLPI",
             "NASDAQ:GOOG",
@@ -1828,7 +1828,6 @@
             "NASDAQ:LAB",
             "NASDAQ:LAMR",
             "NASDAQ:LAZR",
-            "NASDAQ:LBRDA",
             "NASDAQ:LCID",
             "NASDAQ:LGIH",
             "NASDAQ:LILA",
@@ -2026,7 +2025,6 @@
             "NASDAQ:TNDM",
             "NASDAQ:TOWN",
             "NASDAQ:TPIC",
-            "NASDAQ:TREE",
             "NASDAQ:TRIB",
             "NASDAQ:TRIN",
             "NASDAQ:TRIP",
@@ -2552,7 +2550,6 @@
             "NYSE:DAR",
             "NYSE:DAY",
             "NYSE:DBD",
-            "NYSE:DBRG",
             "NYSE:DD",
             "NYSE:DDD",
             "NYSE:DDS",
@@ -5144,7 +5141,6 @@
             "NASDAQ:TOWN",
             "NASDAQ:TPGXL",
             "NASDAQ:TPIC",
-            "NASDAQ:TREE",
             "NASDAQ:TRIN",
             "NASDAQ:TRIP",
             "NASDAQ:TRMB",
@@ -7110,8 +7106,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session",
-            "post_market"
+            "pre_market"
         ]
     },
     {
