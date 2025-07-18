@@ -3845,7 +3845,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14853,14 +14852,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23089,7 +23088,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -23463,6 +23461,11 @@
         "r": null
     },
     {
+        "n": "earnings_yield",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "ebit_per_share_current",
         "t": "fundamental_price",
         "r": null
@@ -23691,6 +23694,11 @@
             "VND",
             "ZAR"
         ]
+    },
+    {
+        "n": "etf_holdings_count",
+        "t": "number",
+        "r": null
     },
     {
         "n": "ex_dividend_date_recent",
@@ -24013,6 +24021,16 @@
     },
     {
         "n": "free_cash_flow_per_share_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_per_share_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_per_share_fy",
         "t": "fundamental_price",
         "r": null
     },
@@ -25976,6 +25994,7 @@
             "ProShare Advisors LLC",
             "ProShare Capital Management LLC",
             "ProcureAM LLC",
+            "Proprius Partners Oy",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",
@@ -26626,6 +26645,66 @@
     },
     {
         "n": "ncavps_ratio_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_capital_expenditures_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_capital_expenditures_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_capital_expenditures_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_capital_expenditures_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_research_and_dev_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_research_and_dev_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_research_and_dev_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_research_and_dev_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_total_cash_dividends_paid_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_total_cash_dividends_paid_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_total_cash_dividends_paid_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "neg_total_cash_dividends_paid_ttm",
         "t": "fundamental_price",
         "r": null
     },

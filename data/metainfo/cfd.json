@@ -12061,14 +12061,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18986,7 +18986,6 @@
             "Ethereum Classic",
             "FUNToken",
             "Frax (prev. FXS)",
-            "GateToken",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -19010,6 +19009,7 @@
             "Morpho",
             "MultiversX",
             "NEAR Protocol",
+            "OFFICIAL TRUMP",
             "OKB",
             "Ondo",
             "PI",
@@ -19089,7 +19089,6 @@
             "XTVCFUN",
             "XTVCFXS",
             "XTVCGNO",
-            "XTVCGT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCHYPEH",
@@ -19132,6 +19131,7 @@
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
+            "XTVCTRUMPOF",
             "XTVCTRX",
             "XTVCUNI",
             "XTVCUSD1W",
