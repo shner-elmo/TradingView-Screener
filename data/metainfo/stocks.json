@@ -14852,14 +14852,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14880,13 +14880,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14894,7 +14887,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14902,6 +14895,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22212,7 +22212,6 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
-            "TBI",
             "TCW",
             "TD",
             "THOR",
@@ -23151,8 +23150,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23923,6 +23921,7 @@
             "2172",
             "2173",
             "2174",
+            "2175",
             "2176",
             "2177",
             "2178",
@@ -25331,7 +25330,7 @@
             "Singapore Exchange Ltd.",
             "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale SA",
             "Solactive AG",
-            "State Street Global Advisors, Inc.",
+            "State Street Investment Management",
             "SummerHaven Investment Management LLC",
             "Sustainalytics (Toronto)",
             "Svenska Handelsbanken AB",
@@ -25947,6 +25946,7 @@
             "Oneascent Holdings LLC",
             "Optimize Financial, Inc.",
             "Oryx Capital Gest\u00e3o de Recursos Ltda.",
+            "Osmanli Yatirim Menkul Degerler AS",
             "Otter Creek Advisors LLC",
             "Oversea-Chinese Banking Corp. Ltd.",
             "PBT Group Ltd.",

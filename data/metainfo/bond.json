@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -3290,7 +3291,6 @@
             "OMXSTO:ESSITY_A",
             "OMXSTO:HEIM_PREF",
             "OMXSTO:HM_B",
-            "OMXSTO:INDU_A",
             "OMXSTO:INTRUM",
             "OMXSTO:INVE_A",
             "OMXSTO:IPCO",
@@ -6350,6 +6350,7 @@
             "QSE:CBQK",
             "RUS:OZON",
             "RUS:VKCO",
+            "SET:BBL",
             "SET:MINT",
             "SET:MTC",
             "SET:PTT",
@@ -6826,6 +6827,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7104,9 +7106,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
