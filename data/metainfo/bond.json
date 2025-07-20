@@ -3101,6 +3101,7 @@
             "NYSE:TEX",
             "NYSE:TFC",
             "NYSE:TFX",
+            "NYSE:TGI",
             "NYSE:TGNA",
             "NYSE:TGT",
             "NYSE:THC",
@@ -6032,6 +6033,7 @@
             "NYSE:TEX",
             "NYSE:TFC",
             "NYSE:TFX",
+            "NYSE:TGI",
             "NYSE:TGNA",
             "NYSE:TGT",
             "NYSE:THC",
@@ -7007,6 +7009,7 @@
             "PYG",
             "RON",
             "RUB",
+            "SAR",
             "SEK",
             "SGD",
             "THB",
@@ -7019,7 +7022,7 @@
             "UYU",
             "UZS",
             "VND",
-            "XOF",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7106,6 +7109,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
