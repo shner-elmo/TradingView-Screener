@@ -1420,6 +1420,7 @@
             "BNB",
             "BNX",
             "BONK",
+            "BOOK",
             "BRL",
             "BRZ",
             "BSW",
@@ -1496,7 +1497,6 @@
             "GMRT",
             "GNO",
             "GOLDGR",
-            "GOUT",
             "GUSD",
             "HNY",
             "HPAY",
@@ -12670,13 +12670,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12684,7 +12677,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12692,6 +12685,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12712,14 +12712,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20275,6 +20275,7 @@
             "XTVCBNO",
             "XTVCBNX",
             "XTVCBONK",
+            "XTVCBOOK",
             "XTVCBRBTC",
             "XTVCBRSK",
             "XTVCBRZ",
@@ -20290,7 +20291,6 @@
             "XTVCCAW",
             "XTVCCBBTC",
             "XTVCCBETH",
-            "XTVCCGM",
             "XTVCCHOCO",
             "XTVCCL",
             "XTVCCLEV",
@@ -20360,7 +20360,6 @@
             "XTVCGMRT",
             "XTVCGNO",
             "XTVCGOLDGR",
-            "XTVCGOUT",
             "XTVCGUSD",
             "XTVCHNY",
             "XTVCHOWDY",
@@ -20574,7 +20573,6 @@
             "XTVCXETH",
             "XTVCXRP",
             "XTVCXSGD",
-            "XTVCXSTEP",
             "XTVCXVS",
             "XTVCYCRV",
             "XTVCYETH",
