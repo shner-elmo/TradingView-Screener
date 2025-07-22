@@ -2364,7 +2364,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -14852,13 +14851,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14866,7 +14858,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14880,7 +14872,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14894,7 +14886,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14902,6 +14894,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22963,7 +22962,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -23741,6 +23739,7 @@
             "2024-Q3",
             "2024-Q4",
             "2025-H1",
+            "2025-H2",
             "2025-Q1",
             "2025-Q2",
             "2025-Q3",
@@ -27886,6 +27885,7 @@
             "34",
             "35",
             "36",
+            "37",
             "38",
             "39",
             "40",
