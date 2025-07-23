@@ -14851,14 +14851,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14893,14 +14893,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21624,6 +21624,7 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -22021,7 +22022,6 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -25930,7 +25930,6 @@
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -26005,9 +26004,7 @@
             "Quantum Advisors Pvt. Ltd.",
             "Qunyi Securities Investment Trust Co. Ltd.",
             "REX Advisers LLC",
-            "REX Shares LLC",
             "Rafferty Asset Management LLC",
-            "Rafferty Holdings LLC",
             "Rakuten Group, Inc.",
             "Rational Advisors, Inc.",
             "Reckoner Capital Management LLC",
