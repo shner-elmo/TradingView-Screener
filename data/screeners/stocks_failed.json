@@ -1,1 +1,22 @@
-[]
+[
+    [
+        {
+            "country_code": "be",
+            "screener_name": "belgium",
+            "url": "/markets/stocks-belgium/",
+            "country_page_url": "/markets/belgium/",
+            "title": "Belgium",
+            "group": "Europe",
+            "original_group_name": "Europe",
+            "stock_exchanges": [
+                "EURONEXTBRU"
+            ]
+        },
+        {
+            "path": "all-stocks",
+            "url": "/markets/stocks-belgium/market-movers-all-stocks/",
+            "title_for_label": "All stocks",
+            "role": "tab"
+        }
+    ]
+]
