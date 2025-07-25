@@ -14852,13 +14852,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14866,7 +14859,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14880,7 +14873,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14888,6 +14881,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21581,7 +21581,6 @@
             "Armada ETF Advisors",
             "Arrow Funds",
             "ArrowShares",
-            "Arysteq",
             "Asset Management One",
             "AssetPlus",
             "Astoria",
@@ -21699,6 +21698,7 @@
             "Counterpoint",
             "Credit Suisse",
             "CrossingBridge Funds",
+            "Crossmark",
             "Crypto Finance",
             "Cullen",
             "Cultivar",
@@ -21981,6 +21981,7 @@
             "McElhenny Sheffield",
             "Measured Risk Portfolios",
             "Mega",
+            "Meitav",
             "Melanion",
             "Meridian",
             "Meritz",
@@ -22023,6 +22024,7 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -23150,7 +23152,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25875,7 +25876,6 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
-            "Lexus Securities Pty Ltd.",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
@@ -25935,6 +25935,7 @@
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
