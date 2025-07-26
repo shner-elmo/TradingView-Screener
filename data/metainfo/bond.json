@@ -727,6 +727,7 @@
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
             "BER:0SR",
+            "BER:GI11",
             "BER:M8H0",
             "BET:MKBBANK",
             "BET:MOL",
@@ -3328,7 +3329,6 @@
             "OSL:DNO",
             "OSL:EQNR",
             "OSL:FFSB",
-            "OSL:G2MNO",
             "OSL:GJF",
             "OSL:GRONG",
             "OSL:HBC",
@@ -4153,6 +4153,7 @@
             "BMFBOVESPA:ELET3",
             "BMFBOVESPA:ITUB3",
             "BMFBOVESPA:KLBN3",
+            "BMFBOVESPA:NATU3",
             "BMFBOVESPA:OIBR3",
             "BMFBOVESPA:SANB3",
             "BMFBOVESPA:VALE3",
@@ -7000,6 +7001,7 @@
             "PLN",
             "PYG",
             "RON",
+            "RSD",
             "RUB",
             "SEK",
             "SGD",
@@ -7099,9 +7101,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

@@ -2426,6 +2426,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -14852,13 +14853,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14866,7 +14860,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14874,6 +14868,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14894,14 +14895,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21747,6 +21748,7 @@
             "EasyETFs",
             "Eaton Vance",
             "Edelweiss",
+            "Edmond de Rothschild",
             "Eldridge",
             "Ellerston",
             "Elm",
@@ -22170,7 +22172,6 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -23032,6 +23033,7 @@
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "UG",
             "US",
@@ -23153,8 +23155,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25698,6 +25699,7 @@
             "Eagle Capital Management LLC",
             "EasyETFs (RF) Pty Ltd",
             "Edelweiss Financial Services Ltd.",
+            "Edmond de Rothschild Holding SA",
             "El Dorado Asset Management Sociedad Administradora de Fondos",
             "Ellerston Capital Ltd.",
             "Empirical Finance LLC",
@@ -25837,7 +25839,6 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
