@@ -1699,6 +1699,7 @@
             "XVS",
             "ZAR",
             "ZBTC",
+            "ZBU",
             "ZIK",
             "ZORA"
         ]
@@ -20398,7 +20399,6 @@
             "XTVCINF",
             "XTVCIOTX",
             "XTVCIQ",
-            "XTVCJENG",
             "XTVCJITOSOL",
             "XTVCJLP",
             "XTVCJOE",
@@ -20535,6 +20535,7 @@
             "XTVCTPT",
             "XTVCTRUSTK",
             "XTVCTRX",
+            "XTVCTSB",
             "XTVCTSUSDE",
             "XTVCTUSD",
             "XTVCTWT",
@@ -20612,9 +20613,9 @@
             "XTVCYFIE",
             "XTVCYFSX",
             "XTVCYOSTEP",
-            "XTVCYUK",
             "XTVCYYLM",
             "XTVCZBTC",
+            "XTVCZBU",
             "XTVCZIK",
             "XTVCZORA",
             "ZAR"

@@ -6990,7 +6990,6 @@
             "MNT",
             "MXN",
             "MXV",
-            "MYR",
             "NAD",
             "NGN",
             "NOK",
@@ -7001,8 +7000,8 @@
             "PLN",
             "PYG",
             "RON",
-            "RSD",
             "RUB",
+            "SAR",
             "SEK",
             "SGD",
             "THB",
@@ -7015,6 +7014,7 @@
             "UYU",
             "UZS",
             "VND",
+            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7101,6 +7101,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
