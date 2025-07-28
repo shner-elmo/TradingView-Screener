@@ -868,6 +868,7 @@
             "BSE:LANCER",
             "BSE:MCCHRLS_B",
             "BSE:MONEYBOXX",
+            "BSE:NIYOGIN",
             "BSE:RAMASIGNS",
             "BSE:SAKTHIFIN",
             "BSE:SGFIN",
@@ -3428,7 +3429,6 @@
             "PSE:AEV",
             "PSE:BDO",
             "PSE:BPI",
-            "PSE:DD",
             "PSE:DTEL",
             "PSE:FDC",
             "PSE:GLO",
@@ -3523,7 +3523,6 @@
             "SIX:BSKP",
             "SIX:BVZN",
             "SIX:CFR",
-            "SIX:CFT",
             "SIX:CLN",
             "SIX:CMBN",
             "SIX:DAE",
@@ -4190,6 +4189,7 @@
             "BSE:LANCER",
             "BSE:MCCHRLS_B",
             "BSE:MONEYBOXX",
+            "BSE:NIYOGIN",
             "BSE:RAMASIGNS",
             "BSE:SAKTHIFIN",
             "BSE:SGFIN",
@@ -6370,7 +6370,6 @@
             "SIX:BKW",
             "SIX:BLKB",
             "SIX:BSKP",
-            "SIX:CFT",
             "SIX:CLN",
             "SIX:CMBN",
             "SIX:DAE",
@@ -7102,7 +7101,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -7203,7 +7203,6 @@
             "RSD",
             "RUB",
             "RWF",
-            "SAR",
             "SEK",
             "SGD",
             "THB",

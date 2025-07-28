@@ -12047,14 +12047,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12075,14 +12075,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19040,7 +19040,7 @@
             "Uniswap",
             "Vaulta",
             "VeChain",
-            "World Liberty Financial USD",
+            "Worldcoin",
             "Wormhole",
             "Wrapped eETH",
             "XRP",
@@ -19134,7 +19134,6 @@
             "XTVCTON",
             "XTVCTRX",
             "XTVCUNI",
-            "XTVCUSD1W",
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDEE",
@@ -19142,6 +19141,7 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
+            "XTVCWLDW",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
@@ -19203,7 +19203,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
