@@ -14853,13 +14853,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14867,7 +14860,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14881,7 +14874,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,6 +14882,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21781,7 +21781,6 @@
             "FinEx ETF",
             "Finans Asset Management",
             "Fineco",
-            "Fineqia",
             "Fire Funds",
             "Firetraill",
             "First Eagle",
@@ -22215,6 +22214,7 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
+            "TBI",
             "TCW",
             "TD",
             "THOR",
@@ -23154,7 +23154,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23938,7 +23937,6 @@
             "2182",
             "2183",
             "2184",
-            "2185",
             "2186",
             "2187",
             "2189",
@@ -25592,7 +25590,7 @@
             "Billionbrains Garage Ventures Pvt Ltd.",
             "Bitcoin Capital AG",
             "Bitwise Asset Management, Inc.",
-            "Bitwise Core Bitcoin ETP",
+            "Bitwise Europe GmbH",
             "BlackRock Brasil Gestora de Investimentos Ltda.",
             "BlackRock, Inc.",
             "Bondbloxx Investment Management Corp.",
@@ -25726,7 +25724,6 @@
             "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
-            "Fineqia AG",
             "Firetrail Investments Pty Ltd.",
             "First Financial Holding Co., Ltd.",
             "First Metro Asset Management, Inc.",
@@ -26089,10 +26086,10 @@
             "T. Rowe Price Group, Inc.",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
+            "TS Financial Holding Co., Ltd.",
             "Tabula Investment Management Ltd.",
             "Tachlit Investment House Ltd.",
             "Taikang Life Insurance Co., Ltd.",
-            "Taishin Financial Holdings Co., Ltd.",
             "Tapp Finance, Inc.",
             "Tata Sons Pvt Ltd.",
             "Techcom Capital Management Ltd.",
@@ -28132,12 +28129,12 @@
     },
     {
         "n": "sustainable_growth_rate_fy",
-        "t": "number",
+        "t": "percent",
         "r": null
     },
     {
         "n": "sustainable_growth_rate_ttm",
-        "t": "number",
+        "t": "percent",
         "r": null
     },
     {
