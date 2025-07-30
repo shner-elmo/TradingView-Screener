@@ -14867,13 +14867,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14881,7 +14874,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,7 +14888,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14903,6 +14896,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21566,6 +21566,7 @@
             "AmInvest",
             "American Beacon",
             "American Century",
+            "Amova",
             "Amplify",
             "Amplius",
             "Amundi",
@@ -25852,6 +25853,7 @@
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
+            "Kasikornbank Public Co. Ltd.",
             "Kelly Intelligence LLC",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
