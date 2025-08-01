@@ -1505,6 +1505,7 @@
             "GOLDGR",
             "GRAIL",
             "GUSD",
+            "HNY",
             "HPAY",
             "HTX",
             "HYDRA",
@@ -1566,6 +1567,7 @@
             "OP",
             "ORA",
             "OREO",
+            "OX",
             "PAXG",
             "PEAS",
             "PENDLE",
@@ -1677,6 +1679,7 @@
             "WBNB",
             "WBTC",
             "WCRO",
+            "WDOGE",
             "WEETH",
             "WEGLD",
             "WETH",
@@ -1699,6 +1702,7 @@
             "XVS",
             "ZAR",
             "ZBTC",
+            "ZBU",
             "ZIK",
             "ZORA"
         ]
@@ -12688,13 +12692,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12702,7 +12699,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12710,6 +12707,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12730,14 +12734,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20290,6 +20294,7 @@
             "XTVCBENTCVX",
             "XTVCBETH",
             "XTVCBFG",
+            "XTVCBHNY",
             "XTVCBITCOIN",
             "XTVCBLZ",
             "XTVCBMX",
@@ -20386,6 +20391,7 @@
             "XTVCGRAIL",
             "XTVCGUARDIAN",
             "XTVCGUSD",
+            "XTVCHNY",
             "XTVCHOWDY",
             "XTVCHPAY",
             "XTVCHTX",
@@ -20455,6 +20461,7 @@
             "XTVCOP",
             "XTVCORA",
             "XTVCOREO",
+            "XTVCOX",
             "XTVCPAXG",
             "XTVCPEAS",
             "XTVCPENDLE",
@@ -20489,6 +20496,7 @@
             "XTVCSAND",
             "XTVCSATOSHIK",
             "XTVCSAVAX",
+            "XTVCSBNB",
             "XTVCSBTC",
             "XTVCSCRVUSD",
             "XTVCSDCRV",
@@ -20588,6 +20596,7 @@
             "XTVCWCRO",
             "XTVCWDASH",
             "XTVCWDKB",
+            "XTVCWDOGE",
             "XTVCWEETH",
             "XTVCWEETHS",
             "XTVCWEGLD",
@@ -20615,9 +20624,11 @@
             "XTVCYCRV",
             "XTVCYETH",
             "XTVCYFIE",
+            "XTVCYFSX",
             "XTVCYOSTEP",
             "XTVCYYLM",
             "XTVCZBTC",
+            "XTVCZBU",
             "XTVCZIK",
             "XTVCZORA",
             "ZAR"
