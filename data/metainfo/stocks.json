@@ -2364,6 +2364,7 @@
             "Gibraltar",
             "Greece",
             "Greenland",
+            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -14867,14 +14868,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22970,6 +22971,7 @@
             "GI",
             "GL",
             "GR",
+            "GU",
             "HK",
             "HR",
             "HU",
@@ -23157,10 +23159,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -28274,7 +28273,6 @@
             "ET",
             "FI",
             "FJ",
-            "FK",
             "FO",
             "FR",
             "GA",

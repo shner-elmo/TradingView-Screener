@@ -1418,6 +1418,7 @@
             "BETH",
             "BFG",
             "BGN",
+            "BIO",
             "BITCOIN",
             "BLZ",
             "BMX",
@@ -1578,6 +1579,7 @@
             "PNG",
             "POHM",
             "PONKE",
+            "POO",
             "POPCAT",
             "PUFETH",
             "PX",
@@ -1596,7 +1598,6 @@
             "RSWETH",
             "RZ",
             "RZUSD",
-            "SAAS",
             "SAND",
             "SAVAX",
             "SBTC",
@@ -12692,13 +12693,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12706,7 +12700,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12720,7 +12714,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12728,6 +12722,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20295,6 +20296,7 @@
             "XTVCBETH",
             "XTVCBFG",
             "XTVCBHNY",
+            "XTVCBIO",
             "XTVCBITCOIN",
             "XTVCBLZ",
             "XTVCBMX",
@@ -20324,6 +20326,7 @@
             "XTVCCL",
             "XTVCCLEV",
             "XTVCCLEVCVX",
+            "XTVCCLG",
             "XTVCCNHT",
             "XTVCCOQ",
             "XTVCCORGIAI",
@@ -20414,6 +20417,7 @@
             "XTVCKLIMA",
             "XTVCKMNO",
             "XTVCKOL",
+            "XTVCKONCK",
             "XTVCKP3R",
             "XTVCKRIS",
             "XTVCLDO",
@@ -20472,6 +20476,7 @@
             "XTVCPNG",
             "XTVCPOHM",
             "XTVCPONKE",
+            "XTVCPOO",
             "XTVCPOPCAT",
             "XTVCPTCUSDO1763596806",
             "XTVCPUFETH",
@@ -20492,7 +20497,6 @@
             "XTVCRSWETH",
             "XTVCRZ",
             "XTVCRZUSD",
-            "XTVCSAAS",
             "XTVCSAND",
             "XTVCSATOSHIK",
             "XTVCSAVAX",
