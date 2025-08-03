@@ -3293,7 +3293,6 @@
             "OMXSTO:HEIM_PREF",
             "OMXSTO:HM_B",
             "OMXSTO:INDU_A",
-            "OMXSTO:INTRUM",
             "OMXSTO:INVE_A",
             "OMXSTO:IPCO",
             "OMXSTO:LEA",
@@ -6197,7 +6196,6 @@
             "OMXSTO:ERIC_A",
             "OMXSTO:ESSITY_A",
             "OMXSTO:HEIM_PREF",
-            "OMXSTO:INTRUM",
             "OMXSTO:INVE_A",
             "OMXSTO:IPCO",
             "OMXSTO:LEA",
@@ -7103,6 +7101,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
