@@ -2374,6 +2374,7 @@
             "Israel",
             "Italy",
             "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2432,6 +2433,7 @@
             "Togo",
             "Tunisia",
             "Turkey",
+            "U.S. Virgin Islands",
             "Uganda",
             "Ukraine",
             "United Arab Emirates",
@@ -14868,13 +14870,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14882,7 +14877,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14896,7 +14891,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14904,6 +14899,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21709,6 +21711,7 @@
             "DB",
             "DDA",
             "DGA",
+            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -21827,6 +21830,7 @@
             "Gotham",
             "GraniteShares",
             "Grayscale",
+            "Great Wall",
             "Grizzle",
             "Groww",
             "Guardian",
@@ -21879,6 +21883,7 @@
             "IDFC",
             "IDX",
             "IML",
+            "INDEKS",
             "IPAAM",
             "Impact Shares",
             "IncomeShares",
@@ -22045,6 +22050,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Oasis",
             "Obermatt",
             "Obra",
             "Ocean Park",
@@ -22981,6 +22987,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -23045,6 +23052,7 @@
             "UY",
             "VE",
             "VG",
+            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -23159,9 +23167,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -23686,6 +23694,7 @@
             "KZT",
             "MXN",
             "MYR",
+            "NOK",
             "NZD",
             "PEN",
             "PHP",
@@ -25595,7 +25604,7 @@
             "Billionbrains Garage Ventures Pvt Ltd.",
             "Bitcoin Capital AG",
             "Bitwise Asset Management, Inc.",
-            "Bitwise Europe GmbH",
+            "Bitwise Core Bitcoin ETP",
             "BlackRock Brasil Gestora de Investimentos Ltda.",
             "BlackRock, Inc.",
             "Bondbloxx Investment Management Corp.",
@@ -25665,6 +25674,7 @@
             "Cygnet Capital LLC",
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
+            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "DWS Investment SA",
             "Da Cheng Fund Management Co., Ltd.",
@@ -25774,6 +25784,7 @@
             "Grantham, Mayo, Van Otterloo & Co. LLC",
             "Grasim Industries Ltd.",
             "Great Eastern Holdings Ltd.",
+            "Great Wall Fund Management Co., Ltd.",
             "Greenbay Acquisitions Ltd.",
             "Grupo Aval Acciones y Valores SA",
             "Grupo Safra SA",
@@ -26029,6 +26040,7 @@
             "Reverence Capital Partners LLC",
             "Rex Financial LLC",
             "Ridgeline Research LLC",
+            "RiverNorth Holding Co.",
             "Rock Point Partners LLC",
             "Roundhill Financial, Inc.",
             "Royal Bank of Canada",
