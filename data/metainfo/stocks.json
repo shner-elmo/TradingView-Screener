@@ -14898,14 +14898,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21590,6 +21590,7 @@
             "AssetPlus",
             "Astoria",
             "Atlas",
+            "Aton",
             "Avantis",
             "Axis",
             "Axxion",
@@ -22033,7 +22034,6 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -25953,7 +25953,6 @@
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -26152,6 +26151,7 @@
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
+            "UniCredit SpA",
             "Union Bank of Taiwan",
             "United Overseas Bank Ltd. (Singapore)",
             "Unlimited Funds, Inc.",
