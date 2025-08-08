@@ -224,7 +224,6 @@
             "NEO",
             "NEXPACE",
             "NFPrompt",
-            "NKN",
             "NYM",
             "Nano",
             "Nervos Network",
@@ -1502,6 +1501,7 @@
             "FXS",
             "GBP",
             "GIGA",
+            "GLG",
             "GMRT",
             "GNO",
             "GOLDGR",
@@ -1652,6 +1652,7 @@
             "USD",
             "USD0",
             "USD1",
+            "USDA",
             "USDBC",
             "USDC",
             "USDCE",
@@ -12696,13 +12697,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12710,7 +12704,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12724,7 +12718,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12738,7 +12732,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12746,6 +12740,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20071,7 +20072,6 @@
             "NEWT",
             "NEXO",
             "NFP",
-            "NKN",
             "NMR",
             "NXPC",
             "NYM",
@@ -20391,6 +20391,7 @@
             "XTVCFXS",
             "XTVCFXUSD",
             "XTVCGIGA",
+            "XTVCGLG",
             "XTVCGMRT",
             "XTVCGNO",
             "XTVCGOLDGR",
@@ -20568,6 +20569,7 @@
             "XTVCUSD0",
             "XTVCUSD1",
             "XTVCUSD1W",
+            "XTVCUSDA",
             "XTVCUSDAI",
             "XTVCUSDBC",
             "XTVCUSDC",

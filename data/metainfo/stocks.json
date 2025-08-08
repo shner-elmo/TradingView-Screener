@@ -2361,6 +2361,7 @@
             "France",
             "Gabon",
             "Germany",
+            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -14870,13 +14871,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14884,7 +14878,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14892,6 +14886,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21555,6 +21556,7 @@
             "Alexis",
             "Alger",
             "Alinma",
+            "AllianceBernstein",
             "Allianz",
             "AllianzGI",
             "Allspring",
@@ -22181,6 +22183,7 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shin Kong",
             "Shinhan",
@@ -22974,6 +22977,7 @@
             "FR",
             "GA",
             "GB",
+            "GH",
             "GI",
             "GL",
             "GR",
@@ -23167,6 +23171,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25854,6 +25859,7 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
