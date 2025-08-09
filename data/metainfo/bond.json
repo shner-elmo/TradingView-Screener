@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -3385,7 +3384,6 @@
             "OTC:ALSRF",
             "OTC:ASFZ",
             "OTC:ATTOF",
-            "OTC:AVBH",
             "OTC:AZREF",
             "OTC:AZULQ",
             "OTC:BIORQ",
@@ -5105,6 +5103,7 @@
             "NASDAQ:SNPS",
             "NASDAQ:SOFI",
             "NASDAQ:SRPT",
+            "NASDAQ:SSP",
             "NASDAQ:SSRM",
             "NASDAQ:STLD",
             "NASDAQ:SVC",
@@ -6271,7 +6270,6 @@
             "OTC:AILLP",
             "OTC:ALPIB",
             "OTC:ALSRF",
-            "OTC:AVBH",
             "OTC:BIORQ",
             "OTC:BKGM",
             "OTC:CDVIQ",
@@ -6806,7 +6804,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7086,7 +7083,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
             "out_of_session"
         ]
     },

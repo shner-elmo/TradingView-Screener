@@ -1511,6 +1511,7 @@
             "HTX",
             "HYDRA",
             "HYPE",
+            "IBTC",
             "ID",
             "INF",
             "IOTX",
@@ -1529,6 +1530,7 @@
             "KOL",
             "KP3R",
             "KRW",
+            "KUDAI",
             "KZT",
             "LAMBO",
             "LDO",
@@ -1572,6 +1574,7 @@
             "OREO",
             "OX",
             "PAXG",
+            "PBTC",
             "PEAS",
             "PENDLE",
             "PEPE",
@@ -1705,6 +1708,7 @@
             "XRP",
             "XSGD",
             "XVS",
+            "YOURMOM",
             "ZAR",
             "ZBTC",
             "ZBU",
@@ -12711,13 +12715,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12725,7 +12722,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12739,7 +12736,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12747,6 +12744,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20403,6 +20407,7 @@
             "XTVCHTX",
             "XTVCHYDRA",
             "XTVCHYPEH",
+            "XTVCIBTC",
             "XTVCID",
             "XTVCINF",
             "XTVCIOTX",
@@ -20423,6 +20428,7 @@
             "XTVCKONCK",
             "XTVCKP3R",
             "XTVCKRIS",
+            "XTVCKUDAI",
             "XTVCLAMBO",
             "XTVCLDO",
             "XTVCLEGIT",
@@ -20471,6 +20477,7 @@
             "XTVCOREO",
             "XTVCOX",
             "XTVCPAXG",
+            "XTVCPBTC",
             "XTVCPEAS",
             "XTVCPENDLE",
             "XTVCPEPE",
@@ -20553,7 +20560,6 @@
             "XTVCTPT",
             "XTVCTRUSTK",
             "XTVCTRX",
-            "XTVCTSB",
             "XTVCTSUKA",
             "XTVCTSUSDE",
             "XTVCTUR",
@@ -20638,6 +20644,7 @@
             "XTVCYFIE",
             "XTVCYFSX",
             "XTVCYOSTEP",
+            "XTVCYOURMOM",
             "XTVCYUK",
             "XTVCYYLM",
             "XTVCZBTC",
