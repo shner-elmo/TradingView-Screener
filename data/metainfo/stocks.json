@@ -14857,14 +14857,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,14 +14899,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -25685,6 +25685,7 @@
             "Daishin Securities Co., Ltd.",
             "Daiwa Securities Group, Inc.",
             "Dakota Wealth Management LLC (Florida)",
+            "Danofe Trading Ltd.",
             "David Young & Sandra G. Glain Family Trust",
             "Davis Selected Advisers LP",
             "Dawn Global Topco Ltd.",
@@ -25795,6 +25796,7 @@
             "Guinness Atkinson Asset Management, Inc.",
             "Guolianan Fund Management Co., Ltd.",
             "Guotai Asset Management Co., Ltd.",
+            "Guotai Haitong Securities Co., Ltd.",
             "Guotai Junan Securities Co., Ltd.",
             "Gutmann KAG",
             "HANWHA LIFE INSURANCE Co., Ltd.",

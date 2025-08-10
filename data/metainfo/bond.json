@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -2124,7 +2125,6 @@
             "NSE:CREDITACC",
             "NSE:CREST",
             "NSE:CUBEINVIT",
-            "NSE:DALBHARAT",
             "NSE:DBL",
             "NSE:DCAL",
             "NSE:DCBBANK",
@@ -2181,7 +2181,6 @@
             "NSE:JSWENERGY",
             "NSE:JSWINFRA",
             "NSE:JSWSTEEL",
-            "NSE:KEC",
             "NSE:KIRLOSENG",
             "NSE:KOLTEPATIL",
             "NSE:KOTAKBANK",
@@ -5260,7 +5259,6 @@
             "NSE:JSWENERGY",
             "NSE:JSWINFRA",
             "NSE:JSWSTEEL",
-            "NSE:KEC",
             "NSE:KOLTEPATIL",
             "NSE:KOTAKBANK",
             "NSE:KPIL",
@@ -6804,6 +6802,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7083,6 +7082,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
