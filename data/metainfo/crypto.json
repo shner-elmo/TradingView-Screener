@@ -1477,6 +1477,7 @@
             "ETHX",
             "EUR",
             "EURC",
+            "EURCV",
             "EURI",
             "EUROC",
             "EURQ",
@@ -1492,6 +1493,7 @@
             "FIST",
             "FLD",
             "FLOKI",
+            "FM",
             "FOMO",
             "FOX",
             "FPI",
@@ -1508,6 +1510,7 @@
             "GMRT",
             "GNO",
             "GOLDGR",
+            "GRAIL",
             "GUSD",
             "HNY",
             "HPAY",
@@ -12707,13 +12710,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12721,7 +12717,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12735,7 +12731,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12743,6 +12739,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20373,6 +20376,7 @@
             "XTVCETH",
             "XTVCETHX",
             "XTVCEURC",
+            "XTVCEURCV",
             "XTVCEURI",
             "XTVCEUROC",
             "XTVCEURQ",
@@ -20391,6 +20395,7 @@
             "XTVCFIST",
             "XTVCFLD",
             "XTVCFLOKI",
+            "XTVCFM",
             "XTVCFOMO",
             "XTVCFOX",
             "XTVCFPI",
@@ -20408,6 +20413,7 @@
             "XTVCGMRT",
             "XTVCGNO",
             "XTVCGOLDGR",
+            "XTVCGRAIL",
             "XTVCGUARDIAN",
             "XTVCGUSD",
             "XTVCHNY",
@@ -20542,8 +20548,6 @@
             "XTVCSPX6",
             "XTVCSQUID",
             "XTVCSRM",
-            "XTVCSSTB",
-            "XTVCSSTL",
             "XTVCSTBTC",
             "XTVCSTETH",
             "XTVCSTLINK",
@@ -20623,7 +20627,6 @@
             "XTVCWBTC",
             "XTVCWCRO",
             "XTVCWDASH",
-            "XTVCWDKB",
             "XTVCWDOGE",
             "XTVCWEETH",
             "XTVCWEETHS",

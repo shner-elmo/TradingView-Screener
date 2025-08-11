@@ -14885,14 +14885,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21632,7 +21632,6 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -22054,7 +22053,6 @@
             "OTP",
             "Oakmark",
             "Oasis",
-            "Obermatt",
             "Obra",
             "Ocean Park",
             "OneETF",
@@ -23171,8 +23169,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -28126,7 +28126,6 @@
             "35",
             "4",
             "41",
-            "42",
             "48",
             "49",
             "5"
