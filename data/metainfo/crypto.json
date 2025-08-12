@@ -316,7 +316,9 @@
             "Steem",
             "Stellar",
             "Storj",
+            "Story",
             "Stratis",
+            "Succinct",
             "SuperFarm",
             "SushiSwap",
             "Sweat Economy",
@@ -1571,7 +1573,6 @@
             "NEAR",
             "NFX",
             "NMT",
-            "NOCHILL",
             "NUT",
             "OETH",
             "OHM",
@@ -1610,6 +1611,7 @@
             "RG",
             "RLUSD",
             "RON",
+            "RSETH",
             "RSR",
             "RSWETH",
             "RZ",
@@ -12738,13 +12740,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12752,7 +12747,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12760,6 +12755,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20034,6 +20036,7 @@
             "INJ",
             "IO",
             "IOTX",
+            "IP",
             "JASMY",
             "JOE",
             "JTO",
@@ -20121,6 +20124,7 @@
             "PORTAL",
             "POWR",
             "PROM",
+            "PROVE",
             "PUNDIX",
             "PUSH",
             "PYR",
@@ -20483,7 +20487,6 @@
             "XTVCNEAR",
             "XTVCNFX",
             "XTVCNMT",
-            "XTVCNOCHILL",
             "XTVCNUT",
             "XTVCOETH",
             "XTVCOHM",
@@ -20523,6 +20526,7 @@
             "XTVCREVV",
             "XTVCRG",
             "XTVCRLUSD",
+            "XTVCRSETH",
             "XTVCRSR",
             "XTVCRSWETH",
             "XTVCRZ",
