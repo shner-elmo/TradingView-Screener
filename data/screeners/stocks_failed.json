@@ -1,1 +1,22 @@
-[]
+[
+    [
+        {
+            "country_code": "sk",
+            "screener_name": "slovakia",
+            "url": "/markets/stocks-slovakia/",
+            "country_page_url": "/markets/slovakia/",
+            "title": "Slovakia",
+            "group": "Europe",
+            "original_group_name": "Europe",
+            "stock_exchanges": [
+                "BSSE"
+            ]
+        },
+        {
+            "path": "small-cap",
+            "url": "/markets/stocks-slovakia/market-movers-small-cap/",
+            "title_for_label": "Small-cap",
+            "role": "tab"
+        }
+    ]
+]

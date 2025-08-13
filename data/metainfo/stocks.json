@@ -14857,13 +14857,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14871,7 +14864,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14885,7 +14878,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,7 +14892,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14907,6 +14900,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21564,6 +21564,7 @@
             "Alpha Architect",
             "Alpha Blue Capital",
             "Alpha Brands",
+            "Alphabit",
             "Alphinity",
             "Alternative Access",
             "Altrius",
@@ -22052,7 +22053,6 @@
             "OTG",
             "OTP",
             "Oakmark",
-            "Oasis",
             "Obra",
             "Ocean Park",
             "OneETF",
@@ -23169,7 +23169,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25741,6 +25740,7 @@
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
             "Federated Hermes, Inc.",
+            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -28126,6 +28126,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"
@@ -28136,6 +28137,7 @@
         "t": "text",
         "r": [
             "",
+            "cfd",
             "closedend",
             "common",
             "etf",

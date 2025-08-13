@@ -12061,14 +12061,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18985,7 +18985,6 @@
             "Ethereum",
             "Ethereum Classic",
             "Frax (prev. FXS)",
-            "GateToken",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -19021,6 +19020,7 @@
             "Pudgy Penguins",
             "Ravencoin",
             "Raydium",
+            "Render",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19088,7 +19088,6 @@
             "XTVCETHFI",
             "XTVCFXS",
             "XTVCGNO",
-            "XTVCGT",
             "XTVCGUSD",
             "XTVCHBAR",
             "XTVCHYPEH",
@@ -19118,6 +19117,7 @@
             "XTVCPI3",
             "XTVCPOLYG",
             "XTVCRAY",
+            "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
             "XTVCSHIB",
