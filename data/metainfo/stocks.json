@@ -14884,14 +14884,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23169,10 +23169,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25679,6 +25677,7 @@
             "Cygnet Capital LLC",
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
+            "DDA ETP GmbH",
             "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "DWS Investment SA",

@@ -1598,7 +1598,6 @@
             "POPCAT",
             "POT",
             "PUFETH",
-            "PUMP",
             "PUNDIAI",
             "PX",
             "PXETH",
@@ -12727,14 +12726,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12755,14 +12754,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20320,7 +20319,6 @@
             "XTVCBETH",
             "XTVCBFG",
             "XTVCBFIC",
-            "XTVCBHNY",
             "XTVCBIO",
             "XTVCBITCOIN",
             "XTVCBLZ",
@@ -20515,7 +20513,6 @@
             "XTVCPOT",
             "XTVCPTCUSDO1763596806",
             "XTVCPUFETH",
-            "XTVCPUMP",
             "XTVCPUNDIAI",
             "XTVCPX",
             "XTVCPXETH",
