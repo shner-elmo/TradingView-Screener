@@ -2680,6 +2680,7 @@
             "NYSE:GLW",
             "NYSE:GM",
             "NYSE:GME",
+            "NYSE:GMS",
             "NYSE:GNL",
             "NYSE:GNW",
             "NYSE:GOLF",
@@ -6950,7 +6951,6 @@
             "BRL",
             "CAD",
             "CHF",
-            "CLF",
             "CLP",
             "CNH",
             "CNY",
@@ -7004,7 +7004,6 @@
             "UYU",
             "UZS",
             "VND",
-            "XOF",
             "ZAR",
             "ZMW"
         ]
@@ -7092,6 +7091,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
