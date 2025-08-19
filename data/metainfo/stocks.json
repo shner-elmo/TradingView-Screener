@@ -2375,7 +2375,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14856,14 +14855,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14884,14 +14883,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22069,6 +22068,7 @@
             "Otter Creek",
             "Overlay Shares",
             "PAM",
+            "PEO",
             "PGIM",
             "PICTON",
             "PIMCO",
@@ -22317,6 +22317,7 @@
             "Waystone",
             "WealthTrust",
             "Wedbush",
+            "Weitz",
             "Wells Fargo",
             "Western Asset",
             "Western LeadBank",
@@ -22990,7 +22991,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -23169,7 +23169,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -26195,6 +26194,7 @@
             "Water Island Capital Partners LP",
             "WealthTrust Asset Management LLC",
             "Wedbush Capital",
+            "Weitz Investment Management, Inc.",
             "Western & Southern Mutual Holding Co.",
             "Western Leadbank Fund Management Co., Ltd",
             "Westwood Holdings Group, Inc.",
