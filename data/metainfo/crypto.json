@@ -1418,16 +1418,15 @@
             "BABYDOGE",
             "BAKE",
             "BARA",
+            "BBSOL",
             "BCT",
             "BETH",
             "BFG",
-            "BFIC",
             "BGN",
             "BIO",
             "BITCOIN",
             "BKC",
             "BLZ",
-            "BMX",
             "BNB",
             "BNX",
             "BOLD",
@@ -1454,7 +1453,6 @@
             "CHF",
             "CL",
             "CLEV",
-            "CNHT",
             "COP",
             "COQ",
             "CORE",
@@ -12710,13 +12708,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12724,7 +12715,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12732,6 +12723,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12752,14 +12750,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20312,16 +20310,15 @@
             "XTVCBAKE",
             "XTVCBARA",
             "XTVCBARIO",
+            "XTVCBBSOL",
             "XTVCBCT",
             "XTVCBENTCVX",
             "XTVCBETH",
             "XTVCBFG",
-            "XTVCBFIC",
             "XTVCBIO",
             "XTVCBITCOIN",
             "XTVCBKC",
             "XTVCBLZ",
-            "XTVCBMX",
             "XTVCBNB",
             "XTVCBNX",
             "XTVCBOLD",
@@ -20351,7 +20348,6 @@
             "XTVCCLEV",
             "XTVCCLEVCVX",
             "XTVCCLG",
-            "XTVCCNHT",
             "XTVCCOQ",
             "XTVCCORE",
             "XTVCCORGIAI",

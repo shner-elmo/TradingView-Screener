@@ -2415,7 +2415,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14869,14 +14868,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14897,14 +14896,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22046,6 +22045,8 @@
             "Nordea",
             "North Shore",
             "North Square",
+            "Northern Funds",
+            "Northern Trust",
             "Nu",
             "Numoro",
             "Nuveen",
@@ -23041,7 +23042,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "SV",
             "TG",
             "TH",
@@ -23169,6 +23169,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
