@@ -1516,6 +1516,7 @@
             "GRAIL",
             "GUSD",
             "HATCHY",
+            "HELP",
             "HPAY",
             "HTX",
             "HYDRA",
@@ -1547,7 +1548,6 @@
             "LEMX",
             "LINK",
             "LION",
-            "LODE",
             "LUA",
             "LUSD",
             "LVLUSD",
@@ -1683,7 +1683,6 @@
             "USH",
             "USR",
             "V",
-            "VC",
             "VELO",
             "VIRTUAL",
             "VNO",
@@ -12708,13 +12707,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12722,7 +12714,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12736,7 +12728,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12744,6 +12736,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20296,7 +20295,6 @@
             "XTVCALETH",
             "XTVCAMI",
             "XTVCAPE",
-            "XTVCAPOHM",
             "XTVCAPPLE",
             "XTVCARB",
             "XTVCARENA",
@@ -20422,6 +20420,7 @@
             "XTVCGUARDIAN",
             "XTVCGUSD",
             "XTVCHATCHY",
+            "XTVCHELP",
             "XTVCHOWDY",
             "XTVCHPAY",
             "XTVCHTX",
@@ -20432,7 +20431,6 @@
             "XTVCINF",
             "XTVCIOTX",
             "XTVCIQ",
-            "XTVCJENG",
             "XTVCJITOSOL",
             "XTVCJLP",
             "XTVCJOE",
@@ -20456,7 +20454,6 @@
             "XTVCLINK",
             "XTVCLION",
             "XTVCLIUSD1W",
-            "XTVCLODE",
             "XTVCLPXCVX",
             "XTVCLPZ",
             "XTVCLUA",
@@ -20613,7 +20610,6 @@
             "XTVCUSHHA",
             "XTVCUSR",
             "XTVCV",
-            "XTVCVC",
             "XTVCVELO",
             "XTVCVIRTUAL",
             "XTVCVNO",
@@ -20657,7 +20653,6 @@
             "XTVCYFIE",
             "XTVCYFSX",
             "XTVCYOSTEP",
-            "XTVCYUK",
             "XTVCYYLM",
             "XTVCZBTC",
             "XTVCZBU",

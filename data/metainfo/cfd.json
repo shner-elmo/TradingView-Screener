@@ -12033,14 +12033,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18951,6 +18951,7 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
+            "0x Protocol",
             "1inch Network",
             "Aave",
             "Aerodrome Finance",
@@ -18959,7 +18960,6 @@
             "Aptos",
             "Arbitrum",
             "Avalanche",
-            "BFUSD",
             "BNB",
             "Baby Doge Coin",
             "Berachain",
@@ -19009,7 +19009,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19019,8 +19018,8 @@
             "Polkadot",
             "Pudgy Penguins",
             "Raydium",
+            "Render",
             "Saros",
-            "Sei",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19040,6 +19039,7 @@
             "Uniswap",
             "Vaulta",
             "VeChain",
+            "WhiteRock",
             "World Liberty Financial USD",
             "Wormhole",
             "Wrapped eETH",
@@ -19066,7 +19066,6 @@
             "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
-            "XTVCBFUSD",
             "XTVCBGB",
             "XTVCBNB",
             "XTVCBTC",
@@ -19108,7 +19107,6 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
-            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19118,9 +19116,9 @@
             "XTVCPI3",
             "XTVCPOLYG",
             "XTVCRAY",
+            "XTVCRENDER",
             "XTVCRUNE",
             "XTVCSAROS",
-            "XTVCSEI",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19143,10 +19141,12 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
+            "XTVCWHITER",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCZBCN"
+            "XTVCZBCN",
+            "XTVCZRX"
         ]
     },
     {
@@ -19202,7 +19202,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
