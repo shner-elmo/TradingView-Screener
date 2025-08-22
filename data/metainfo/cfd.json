@@ -12047,14 +12047,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18961,7 +18961,6 @@
             "Arbitrum",
             "Avalanche",
             "BNB",
-            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -19009,6 +19008,7 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
+            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19063,7 +19063,6 @@
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCAVU",
-            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19107,6 +19106,7 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
+            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",

@@ -2362,7 +2362,6 @@
             "France",
             "Gabon",
             "Germany",
-            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -2415,6 +2414,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14855,13 +14855,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14869,7 +14862,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14883,7 +14876,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14897,7 +14890,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14905,6 +14898,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22980,7 +22980,6 @@
             "FR",
             "GA",
             "GB",
-            "GH",
             "GI",
             "GL",
             "GR",
@@ -23044,6 +23043,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "SV",
             "TG",
             "TH",
