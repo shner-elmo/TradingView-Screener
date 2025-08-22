@@ -44,6 +44,7 @@
   <li><a href="#robustness-longevity">Robustness &amp; Longevity</a></li>
   <li><a href="#how-it-works">How It Works</a></li>
   <li><a href="#feedback-and-improvement">Feedback and Improvement</a></li>
+  <li><a href="#stargazers-over-time">Stargazers over time</a></li>
 </ul>
 
 
@@ -103,10 +104,10 @@ API. This package retrieves data directly from TradingView without the need for 
 <h3 id="key-features">Key Features</h3>
 
 <ul>
-<li><strong>Over 3000 Fields</strong>: OHLC, indicators, fundamental metrics, and much more.</li>
-<li><strong>Multiple Markets</strong>: Stocks, crypto, forex, CFD, futures, bonds, and more.</li>
-<li><strong>Customizable Timeframes</strong>: Choose timeframes like 1 minute, 5 minutes, 1 hour, or 1 day for each field.</li>
-<li><strong>Filter and sort</strong> the results using a SQL-like syntax, with support for And/Or operators for advanced filtering.</li>
+<li><strong>Markets</strong>: Stocks, crypto, forex, CFDs, futures, bonds, and more.</li>
+<li><strong>3000+ Data Fields</strong>: OHLC data, technical indicators, fundamental metrics (e.g. P/E, EPS), and even internal TradingView-only fields.</li>
+<li><strong>Timeframes</strong>: Use 1m, 5m, 15m, 30m, 1h, 2h, 4h, 1d, 1w, and 1mo — freely mix timeframes per field, no subscription required.</li>
+<li><strong>Filtering</strong>: SQL-like syntax with full support for <code>AND</code>/<code>OR</code> logic.</li>
 </ul>
 
 <h3 id="links">Links</h3>
@@ -162,11 +163,11 @@ bans.</p>
 <pre><span></span><code><span class="kn">from</span> <span class="nn">tradingview_screener</span> <span class="kn">import</span> <span class="n">Query</span><span class="p">,</span> <span class="n">col</span>
 
 <span class="p">(</span><span class="n">Query</span><span class="p">()</span>
- <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">,</span> <span class="s1">&#39;relative_volume_10d_calc&#39;</span><span class="p">)</span>
+ <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;close|1&#39;</span><span class="p">,</span> <span class="s1">&#39;close|5&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">,</span> <span class="s1">&#39;relative_volume_10d_calc&#39;</span><span class="p">)</span>
  <span class="o">.</span><span class="n">where</span><span class="p">(</span>
      <span class="n">col</span><span class="p">(</span><span class="s1">&#39;market_cap_basic&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">between</span><span class="p">(</span><span class="mi">1_000_000</span><span class="p">,</span> <span class="mi">50_000_000</span><span class="p">),</span>
      <span class="n">col</span><span class="p">(</span><span class="s1">&#39;relative_volume_10d_calc&#39;</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mf">1.2</span><span class="p">,</span>
-     <span class="n">col</span><span class="p">(</span><span class="s1">&#39;MACD.macd&#39;</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">col</span><span class="p">(</span><span class="s1">&#39;MACD.signal&#39;</span><span class="p">)</span>
+     <span class="n">col</span><span class="p">(</span><span class="s1">&#39;MACD.macd|1&#39;</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">col</span><span class="p">(</span><span class="s1">&#39;MACD.signal|1&#39;</span><span class="p">)</span>  <span class="c1"># 1 minute MACD</span>
  <span class="p">)</span>
  <span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="s1">&#39;volume&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
  <span class="o">.</span><span class="n">offset</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -175,7 +176,59 @@ bans.</p>
 </code></pre>
 </div>
 
-<p><br></p>
+<p><br>
+Note that some fields (usually prices and indicators) have multiple timeframes that you can choose from, for example:</p>
+
+<table>
+<thead>
+<tr>
+  <th>Timeframe</th>
+  <th>Column</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1 Minute</td>
+  <td><code>close|1</code></td>
+</tr>
+<tr>
+  <td>5 Minutes</td>
+  <td><code>close|5</code></td>
+</tr>
+<tr>
+  <td>15 Minutes</td>
+  <td><code>close|15</code></td>
+</tr>
+<tr>
+  <td>30 Minutes</td>
+  <td><code>close|30</code></td>
+</tr>
+<tr>
+  <td>1 Hour</td>
+  <td><code>close|60</code></td>
+</tr>
+<tr>
+  <td>2 Hours</td>
+  <td><code>close|120</code></td>
+</tr>
+<tr>
+  <td>4 Hours</td>
+  <td><code>close|240</code></td>
+</tr>
+<tr>
+  <td>1 Day</td>
+  <td><code>close</code></td>
+</tr>
+<tr>
+  <td>1 Week</td>
+  <td><code>close|1W</code></td>
+</tr>
+<tr>
+  <td>1 Month</td>
+  <td><code>close|1M</code></td>
+</tr>
+</tbody>
+</table>
 
 <h2 id="real-time-data-access">Real-Time Data Access</h2>
 
@@ -347,6 +400,10 @@ allowing you to query data using SQL-like syntax without knowing the specifics o
 <h2 id="feedback-and-improvement">Feedback and Improvement</h2>
 
 <p>If this package has bought value to your projects, please consider starring it.</p>
+
+<h2 id="stargazers-over-time">Stargazers over time</h2>
+
+<p><a href="https://starchart.cc/shner-elmo/TradingView-Screener"><img src="https://starchart.cc/shner-elmo/TradingView-Screener.svg?variant=adaptive" alt="Stargazers over time" /></a></p>
 </div>
 
                         <input id="mod-tradingview_screener-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
