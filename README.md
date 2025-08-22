@@ -32,10 +32,10 @@ API. This package retrieves data directly from TradingView without the need for 
 
 ### Key Features
 
-- **Over 3000 Fields**: OHLC, indicators, fundamental metrics, and much more.
-- **Multiple Markets**: Stocks, crypto, forex, CFD, futures, bonds, and more.
-- **Customizable Timeframes**: Choose timeframes like 1 minute, 5 minutes, 1 hour, or 1 day for each field.
-- **Filter and sort** the results using a SQL-like syntax, with support for And/Or operators for advanced filtering.
+- **Markets**: Stocks, crypto, forex, CFDs, futures, bonds, and more.
+- **3000+ Data Fields**: OHLC data, technical indicators, fundamental metrics (e.g. P/E, EPS), and even internal TradingView-only fields.
+- **Timeframes**: Use 1m, 5m, 15m, 30m, 1h, 2h, 4h, 1d, 1w, and 1mo — freely mix timeframes per field, no subscription required.
+- **Filtering**: SQL-like syntax with full support for `AND`/`OR` logic.
 
 
 ### Links
@@ -89,11 +89,11 @@ A more advanced query:
 from tradingview_screener import Query, col
 
 (Query()
- .select('name', 'close', 'volume', 'relative_volume_10d_calc')
+ .select('name', 'close', 'close|1', 'close|5', 'volume', 'relative_volume_10d_calc')
  .where(
      col('market_cap_basic').between(1_000_000, 50_000_000),
      col('relative_volume_10d_calc') > 1.2,
-     col('MACD.macd') >= col('MACD.signal')
+     col('MACD.macd|1') >= col('MACD.signal|1')  # 1 minute MACD
  )
  .order_by('volume', ascending=False)
  .offset(5)
@@ -102,6 +102,20 @@ from tradingview_screener import Query, col
 ```
 
 <br>
+Note that some fields (usually prices and indicators) have multiple timeframes that you can choose from, for example:
+
+| Timeframe | Column |
+|---|---|
+| 1 Minute | `close\|1` |
+| 5 Minutes | `close\|5` |
+| 15 Minutes | `close\|15` |
+| 30 Minutes | `close\|30` |
+| 1 Hour | `close\|60` |
+| 2 Hours | `close\|120` |
+| 4 Hours | `close\|240` |
+| 1 Day | `close` |
+| 1 Week | `close\|1W` |
+| 1 Month | `close\|1M` |
 
 ## Real-Time Data Access
 
@@ -262,3 +276,7 @@ allowing you to query data using SQL-like syntax without knowing the specifics o
 ## Feedback and Improvement
 
 If this package has bought value to your projects, please consider starring it.
+
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/shner-elmo/TradingView-Screener.svg?variant=adaptive)](https://starchart.cc/shner-elmo/TradingView-Screener)
