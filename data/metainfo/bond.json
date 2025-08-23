@@ -1374,6 +1374,7 @@
             "LSE:BRBY",
             "LSE:BT.A",
             "LSE:BUR",
+            "LSE:BWRA",
             "LSE:CBG",
             "LSE:CCH",
             "LSE:CCL",
@@ -3379,7 +3380,6 @@
             "OTC:ALSRF",
             "OTC:ASFZ",
             "OTC:ATTOF",
-            "OTC:AXDXQ",
             "OTC:AZREF",
             "OTC:AZULQ",
             "OTC:BIORQ",
@@ -6264,7 +6264,6 @@
             "OTC:AILLP",
             "OTC:ALPIB",
             "OTC:ALSRF",
-            "OTC:AXDXQ",
             "OTC:BIORQ",
             "OTC:BKGM",
             "OTC:CDVIQ",
@@ -7084,9 +7083,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

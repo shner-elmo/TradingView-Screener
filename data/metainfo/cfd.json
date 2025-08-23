@@ -12047,13 +12047,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12061,7 +12054,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12069,6 +12062,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18961,6 +18961,7 @@
             "Arbitrum",
             "Avalanche",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -19008,7 +19009,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19063,6 +19063,7 @@
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCAVU",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19106,7 +19107,6 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
-            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19203,8 +19203,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

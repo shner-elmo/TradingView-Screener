@@ -21713,7 +21713,6 @@
             "DB",
             "DDA",
             "DGA",
-            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -23173,8 +23172,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23699,7 +23697,6 @@
             "KZT",
             "MXN",
             "MYR",
-            "NOK",
             "NZD",
             "PEN",
             "PHP",
@@ -25673,7 +25670,6 @@
             "Core Alternative Capital LLC",
             "Corient Holdings, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
-            "Corpus Partners LLC",
             "Corton Capital, Inc.",
             "Cottonwood ETF Holdings LLC",
             "Counterpoint Mutual Funds LLC",
@@ -25683,7 +25679,6 @@
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
             "DDA ETP GmbH",
-            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "DWS Investment SA",
             "Da Cheng Fund Management Co., Ltd.",
@@ -26890,6 +26885,7 @@
             "1094",
             "1095",
             "1096",
+            "1097",
             "1098",
             "11",
             "110",
@@ -26920,7 +26916,6 @@
             "192",
             "193",
             "20",
-            "2029",
             "30",
             "33",
             "34",
@@ -26991,6 +26986,7 @@
             "9563",
             "9564",
             "9566",
+            "9568",
             "9569",
             "9570",
             "9571",
