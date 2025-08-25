@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -2201,6 +2200,7 @@
             "NSE:MUTHOOTFIN",
             "NSE:MUTHOOTMF",
             "NSE:NDLVENTURE",
+            "NSE:NETWORK18",
             "NSE:NH",
             "NSE:NHPC",
             "NSE:NILKAMAL",
@@ -2218,7 +2218,6 @@
             "NSE:PEL",
             "NSE:PFC",
             "NSE:PFS",
-            "NSE:PILANIINVS",
             "NSE:PNB",
             "NSE:POONAWALLA",
             "NSE:POWERGRID",
@@ -2671,7 +2670,6 @@
             "NYSE:GLW",
             "NYSE:GM",
             "NYSE:GME",
-            "NYSE:GMS",
             "NYSE:GNL",
             "NYSE:GNW",
             "NYSE:GOLF",
@@ -5275,6 +5273,7 @@
             "NSE:MUTHOOTCAP",
             "NSE:MUTHOOTFIN",
             "NSE:MUTHOOTMF",
+            "NSE:NETWORK18",
             "NSE:NH",
             "NSE:NHIT",
             "NSE:NHPC",
@@ -5291,7 +5290,6 @@
             "NSE:PEL",
             "NSE:PFC",
             "NSE:PFS",
-            "NSE:PILANIINVS",
             "NSE:PNB",
             "NSE:POONAWALLA",
             "NSE:POWERGRID",
@@ -6802,7 +6800,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7084,8 +7081,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

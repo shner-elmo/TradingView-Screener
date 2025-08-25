@@ -12047,14 +12047,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19009,6 +19009,7 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
+            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19039,7 +19040,6 @@
             "Uniswap",
             "Vaulta",
             "VeChain",
-            "WhiteRock",
             "World Liberty Financial USD",
             "Wormhole",
             "Wrapped eETH",
@@ -19107,6 +19107,7 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
+            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19141,7 +19142,6 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
-            "XTVCWHITER",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
@@ -19202,8 +19202,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
