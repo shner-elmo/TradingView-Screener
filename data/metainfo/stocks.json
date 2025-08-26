@@ -14855,13 +14855,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14869,7 +14862,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14877,6 +14870,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14897,14 +14897,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22181,6 +22181,7 @@
             "Satrix",
             "Sber",
             "Sberbank",
+            "Scharf",
             "Schroder",
             "Schwab",
             "Scotia",
@@ -23171,9 +23172,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25744,7 +25745,6 @@
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -26077,6 +26077,7 @@
             "Sanlam Ltd.",
             "Saracen Energy Advisors LP",
             "Sberbank Russia PJSC",
+            "Scharf Investments LLC",
             "Schroders Plc",
             "ShariaPortfolio, Inc.",
             "Sheaff Brock Capital Management LLC",

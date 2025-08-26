@@ -12047,13 +12047,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12061,7 +12054,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12075,7 +12068,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12083,6 +12076,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19009,7 +19009,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Olympus v2",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19018,6 +19017,7 @@
             "Pepe",
             "Polkadot",
             "Pudgy Penguins",
+            "Ravencoin",
             "Raydium",
             "Render",
             "Saros",
@@ -19107,7 +19107,6 @@
             "XTVCMORPHO",
             "XTVCMSOL",
             "XTVCNEAR",
-            "XTVCOHM",
             "XTVCOKB",
             "XTVCOM",
             "XTVCONDO",
@@ -19119,6 +19118,7 @@
             "XTVCRAY",
             "XTVCRENDER",
             "XTVCRUNE",
+            "XTVCRVN",
             "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
@@ -19202,7 +19202,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
