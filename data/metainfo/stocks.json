@@ -2374,6 +2374,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -14897,14 +14898,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21751,7 +21752,6 @@
             "ETFSA",
             "ETRACS",
             "Eagle",
-            "Eastspring",
             "EasyETFs",
             "Eaton Vance",
             "Edelweiss",
@@ -21894,7 +21894,6 @@
             "IndexIQ",
             "Indexperts",
             "InfraCap",
-            "Innovative Portfolios",
             "Innovator",
             "Insight",
             "Inspire",
@@ -22037,6 +22036,7 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22962,6 +22962,7 @@
             "BZ",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -23172,6 +23173,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25964,6 +25966,7 @@
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -26080,7 +26083,6 @@
             "Scharf Investments LLC",
             "Schroders Plc",
             "ShariaPortfolio, Inc.",
-            "Sheaff Brock Capital Management LLC",
             "Shenwan Hongyuan Group Co., Ltd.",
             "Sherpa Capital SAPI de CV",
             "Shin Kong Financial Holding Co. Ltd.",
@@ -28134,6 +28136,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"

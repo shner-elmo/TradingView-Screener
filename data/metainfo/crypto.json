@@ -1396,6 +1396,7 @@
         "t": "text",
         "r": [
             "ADA",
+            "ADS",
             "AED",
             "AERO",
             "AGENTFUN",
@@ -1470,7 +1471,6 @@
             "DOGE",
             "DOGS",
             "DONKEY",
-            "ECOR",
             "EMP",
             "ETH",
             "ETHX",
@@ -12695,13 +12695,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12709,7 +12702,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12723,7 +12716,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12737,7 +12730,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12745,6 +12738,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20273,6 +20273,7 @@
             "UAH",
             "USD",
             "XTVCADA",
+            "XTVCADS",
             "XTVCAERO",
             "XTVCAETHC",
             "XTVCAFCVX",
@@ -20355,7 +20356,6 @@
             "XTVCDOGS",
             "XTVCDONKEY",
             "XTVCDPG",
-            "XTVCECOR",
             "XTVCEMP",
             "XTVCENERGY",
             "XTVCETCS20",
@@ -20524,6 +20524,7 @@
             "XTVCSPX6",
             "XTVCSQUID",
             "XTVCSRM",
+            "XTVCSTBTC",
             "XTVCSTETH",
             "XTVCSTLINK",
             "XTVCSTON",
