@@ -12047,13 +12047,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12061,7 +12054,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12069,6 +12062,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18961,7 +18961,6 @@
             "Arbitrum",
             "Avalanche",
             "BNB",
-            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -18979,6 +18978,7 @@
             "DeXe",
             "DeepBook Protocol",
             "Dogecoin",
+            "Drift",
             "Ethena",
             "Ethena USDe",
             "Ethereum",
@@ -19019,13 +19019,13 @@
             "Pudgy Penguins",
             "Ravencoin",
             "Raydium",
+            "Render",
             "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
             "Stacks",
             "Stellar",
-            "Story",
             "Sui",
             "Sun (New)",
             "SushiSwap",
@@ -19063,7 +19063,6 @@
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCAVU",
-            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19080,6 +19079,7 @@
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
+            "XTVCDRIFT",
             "XTVCEGLD",
             "XTVCENA",
             "XTVCETC",
@@ -19093,7 +19093,6 @@
             "XTVCHYPEH",
             "XTVCICP",
             "XTVCINJ",
-            "XTVCIP",
             "XTVCJLP",
             "XTVCJST",
             "XTVCJTO",
@@ -19117,6 +19116,7 @@
             "XTVCPI3",
             "XTVCPOLYG",
             "XTVCRAY",
+            "XTVCRENDER",
             "XTVCRUNE",
             "XTVCRVN",
             "XTVCSAROS",
@@ -19202,7 +19202,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"

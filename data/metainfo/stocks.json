@@ -2335,7 +2335,6 @@
             "Bangladesh",
             "Barbados",
             "Belgium",
-            "Belize",
             "Bermuda",
             "Botswana",
             "Brazil",
@@ -22959,7 +22958,6 @@
             "BR",
             "BS",
             "BW",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -23173,7 +23171,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -28624,7 +28621,6 @@
         "t": "set",
         "r": [
             "",
-            "cdi",
             "cfd",
             "closedend",
             "common",
