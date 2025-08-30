@@ -73,6 +73,7 @@
             "CME",
             "CME_MINI",
             "COMEX",
+            "MCX",
             "NSE",
             "NYMEX",
             "OPRA"
@@ -401,6 +402,7 @@
             "source/CME",
             "source/CME_MINI",
             "source/COMEX",
+            "source/MCX",
             "source/NSE",
             "source/NYMEX",
             "source/OPRA"
@@ -415,7 +417,8 @@
         "n": "subtype",
         "t": "text",
         "r": [
-            ""
+            "",
+            "euoption"
         ]
     },
     {
@@ -429,7 +432,8 @@
         "n": "typespecs",
         "t": "set",
         "r": [
-            ""
+            "",
+            "euoption"
         ]
     },
     {

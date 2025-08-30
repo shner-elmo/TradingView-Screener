@@ -1422,7 +1422,6 @@
             "BBSOL",
             "BCT",
             "BETH",
-            "BFIC",
             "BGN",
             "BIO",
             "BITCOIN",
@@ -12693,14 +12692,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20284,6 +20283,7 @@
             "XTVCAMI",
             "XTVCAOSK",
             "XTVCAPE",
+            "XTVCAPOHM",
             "XTVCAPPLE",
             "XTVCARB",
             "XTVCARENA",
@@ -20300,7 +20300,6 @@
             "XTVCBCT",
             "XTVCBENTCVX",
             "XTVCBETH",
-            "XTVCBFIC",
             "XTVCBIO",
             "XTVCBITCOIN",
             "XTVCBKC",
@@ -20485,6 +20484,7 @@
             "XTVCPXETH",
             "XTVCPYTH",
             "XTVCPYUSD",
+            "XTVCQEB",
             "XTVCQUICK",
             "XTVCQYTB",
             "XTVCRAY",
