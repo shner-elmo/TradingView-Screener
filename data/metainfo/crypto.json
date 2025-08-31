@@ -1547,6 +1547,7 @@
             "MCOIN",
             "MERY",
             "METFI",
+            "METH",
             "MEX",
             "MGC",
             "MIM",
@@ -1567,6 +1568,7 @@
             "OMG",
             "OP",
             "OREO",
+            "ORNG",
             "OX",
             "PAXG",
             "PBTC",
@@ -12706,13 +12708,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12720,7 +12715,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12734,7 +12729,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12742,6 +12737,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20274,7 +20276,6 @@
             "XTVCADS",
             "XTVCAERO",
             "XTVCAETHC",
-            "XTVCAFCVX",
             "XTVCAGENTFUN",
             "XTVCAGEUR",
             "XTVCAGI",
@@ -20441,6 +20442,7 @@
             "XTVCMCOIN",
             "XTVCMERY",
             "XTVCMETFI",
+            "XTVCMETH",
             "XTVCMEXM",
             "XTVCMGC",
             "XTVCMIM",
@@ -20462,6 +20464,7 @@
             "XTVCOMG",
             "XTVCOP",
             "XTVCOREO",
+            "XTVCORNG",
             "XTVCOX",
             "XTVCPAXG",
             "XTVCPBTC",
