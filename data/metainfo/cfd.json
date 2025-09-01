@@ -12047,13 +12047,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12061,7 +12054,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12069,6 +12062,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18967,6 +18967,7 @@
             "Bitget Token",
             "Bittensor",
             "Cardano",
+            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18996,6 +18997,7 @@
             "Jupiter",
             "Jupiter Perps LP",
             "Kaspa",
+            "KuCoin Token",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19016,10 +19018,8 @@
             "Pendle",
             "Pepe",
             "Polkadot",
-            "Pudgy Penguins",
             "Ravencoin",
             "Raydium",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19069,6 +19069,7 @@
             "XTVCBNB",
             "XTVCBTC",
             "XTVCCAKE",
+            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19099,6 +19100,7 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
+            "XTVCKCS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19112,14 +19114,12 @@
             "XTVCOM",
             "XTVCONDO",
             "XTVCPENDLE",
-            "XTVCPENGUPUD",
             "XTVCPEPE",
             "XTVCPI3",
             "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRUNE",
             "XTVCRVN",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19202,8 +19202,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
