@@ -129,9 +129,10 @@ Same with "Scanner" and "Screener".</p>
 <div class="pdoc-code codehilite">
 <pre><span></span><code><span class="kn">from</span> <span class="nn">tradingview_screener</span> <span class="kn">import</span> <span class="n">Query</span>
 
-<span class="p">(</span><span class="n">Query</span><span class="p">()</span>
+<span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">Query</span><span class="p">()</span>
  <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">,</span> <span class="s1">&#39;market_cap_basic&#39;</span><span class="p">)</span>
  <span class="o">.</span><span class="n">get_scanner_data</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </code></pre>
 </div>
 
@@ -242,7 +243,8 @@ Note that some fields (usually prices and indicators) have multiple timeframes t
 <pre><span></span><code><span class="kn">from</span> <span class="nn">tradingview_screener</span> <span class="kn">import</span> <span class="n">Query</span>
 
 <span class="n">_</span><span class="p">,</span> <span class="n">df</span> <span class="o">=</span> <span class="n">Query</span><span class="p">()</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;exchange&#39;</span><span class="p">,</span> <span class="s1">&#39;update_mode&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">1_000_000</span><span class="p">)</span><span class="o">.</span><span class="n">get_scanner_data</span><span class="p">()</span>
-<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;exchange&#39;</span><span class="p">)[</span><span class="s1">&#39;update_mode&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;exchange&#39;</span><span class="p">)[</span><span class="s1">&#39;update_mode&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </code></pre>
 </div>
 
@@ -286,7 +288,8 @@ So if you are logged in on Chrome (or whatever browser you use), it will use the
 
 <div class="pdoc-code codehilite">
 <pre><span></span><code><span class="n">_</span><span class="p">,</span> <span class="n">df</span> <span class="o">=</span> <span class="n">Query</span><span class="p">()</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;exchange&#39;</span><span class="p">,</span> <span class="s1">&#39;update_mode&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">1_000_000</span><span class="p">)</span><span class="o">.</span><span class="n">get_scanner_data</span><span class="p">(</span><span class="n">cookies</span><span class="o">=</span><span class="n">cookies</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;exchange&#39;</span><span class="p">)[</span><span class="s1">&#39;update_mode&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;exchange&#39;</span><span class="p">)[</span><span class="s1">&#39;update_mode&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </code></pre>
 </div>
 
