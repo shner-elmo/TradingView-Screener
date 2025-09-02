@@ -55,9 +55,10 @@ Here’s a simple example to get you started:
 ```python
 from tradingview_screener import Query
 
-(Query()
+x = (Query()
  .select('name', 'close', 'volume', 'market_cap_basic')
  .get_scanner_data())
+print(x)
 ```
 
 **Output:**
@@ -128,7 +129,8 @@ You can run this query to get an overview on the `update_mode` you get for each 
 from tradingview_screener import Query
 
 _, df = Query().select('exchange', 'update_mode').limit(1_000_000).get_scanner_data()
-df.groupby('exchange')['update_mode'].value_counts()
+df = df.groupby('exchange')['update_mode'].value_counts()
+print(df)
 ```
 ```
 exchange  update_mode          
@@ -166,7 +168,8 @@ Now, if you re-run the update mode check:
 
 ```python
 _, df = Query().select('exchange', 'update_mode').limit(1_000_000).get_scanner_data(cookies=cookies)
-df.groupby('exchange')['update_mode'].value_counts()
+df = df.groupby('exchange')['update_mode'].value_counts()
+print(df)
 ```
 ```
 exchange  update_mode          
