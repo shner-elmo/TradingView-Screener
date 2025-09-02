@@ -781,6 +781,11 @@
         "r": null
     },
     {
+        "n": "is_symbol_primary_listing",
+        "t": "bool",
+        "r": null
+    },
+    {
         "n": "last_bar_update_time",
         "t": "number",
         "r": null,

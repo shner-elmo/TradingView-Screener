@@ -2364,7 +2364,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -14855,14 +14854,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14883,13 +14882,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14897,7 +14889,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14905,6 +14897,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21666,7 +21665,6 @@
             "Cabana",
             "Caixa",
             "Calamos",
-            "Caldwell",
             "Calvert",
             "Cambiar Funds",
             "Cambria",
@@ -21713,6 +21711,7 @@
             "DB",
             "DDA",
             "DGA",
+            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -21766,7 +21765,6 @@
             "Evoke",
             "Evolve",
             "Evovest",
-            "Exemplar",
             "Expat",
             "F/m",
             "FM",
@@ -22228,7 +22226,6 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
-            "TBI",
             "TCW",
             "TD",
             "THOR",
@@ -22349,7 +22346,6 @@
             "Zhongrong",
             "Ziraat",
             "aberdeen",
-            "iA",
             "iA Clarington",
             "iFreeETF",
             "iM",
@@ -22982,7 +22978,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -23699,6 +23694,7 @@
             "KZT",
             "MXN",
             "MYR",
+            "NOK",
             "NZD",
             "PEN",
             "PHP",
@@ -23758,7 +23754,6 @@
         "n": "fiscal_period_current",
         "t": "text",
         "r": [
-            "2024-H1",
             "2024-H2",
             "2024-Q3",
             "2024-Q4",
@@ -25506,6 +25501,11 @@
         "r": null
     },
     {
+        "n": "is_symbol_primary_listing",
+        "t": "bool",
+        "r": null
+    },
+    {
         "n": "issuance_of_stock_net_ttm",
         "t": "fundamental_price",
         "r": null
@@ -25631,7 +25631,6 @@
             "CTBC Financial Holding Co., Ltd.",
             "CYBER HORNET ETFs LLC",
             "Calamos Family Partners, Inc.",
-            "Caldwell Financial Ltd.",
             "Cambiar Holdings LLLP",
             "Cambria Investment Management LP",
             "Canadian Imperial Bank of Commerce",
@@ -25680,6 +25679,7 @@
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
             "DDA ETP GmbH",
+            "DNB ASA",
             "DSP Asset Managers Pvt. Ltd.",
             "DWS Investment SA",
             "Da Cheng Fund Management Co., Ltd.",
@@ -25761,7 +25761,6 @@
             "Fortuna Funds LLC",
             "Founder Fubon Fund Management Co., Ltd.",
             "Franklin Resources, Inc.",
-            "Franklin Templeton Fund Adviser LLC",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
             "Frontier Asset Management LLC",
             "Fubon Financial Holding Co., Ltd.",
