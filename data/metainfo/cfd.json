@@ -12033,14 +12033,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12061,14 +12061,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18996,7 +18996,6 @@
             "Jupiter",
             "Jupiter Perps LP",
             "Kaspa",
-            "KuCoin Token",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19010,6 +19009,7 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
+            "Official World Liberty Financial",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19017,7 +19017,6 @@
             "Pendle",
             "Pepe",
             "Polkadot",
-            "Ravencoin",
             "Raydium",
             "Saros",
             "Shiba Inu",
@@ -19099,7 +19098,6 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCKCS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19118,7 +19116,6 @@
             "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRUNE",
-            "XTVCRVN",
             "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
@@ -19142,6 +19139,7 @@
             "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
+            "XTVCWLFIO",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
