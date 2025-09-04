@@ -2431,6 +2431,7 @@
             "Togo",
             "Tunisia",
             "Turkey",
+            "U.S. Virgin Islands",
             "Uganda",
             "Ukraine",
             "United Arab Emirates",
@@ -14881,13 +14882,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14895,7 +14889,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14903,6 +14897,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21508,7 +21509,6 @@
             "3iQ",
             "AAM",
             "AB Funds",
-            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -23055,6 +23055,7 @@
             "UY",
             "VE",
             "VG",
+            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -23169,6 +23170,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23932,7 +23934,6 @@
             "2153",
             "2154",
             "2157",
-            "2158",
             "2160",
             "2161",
             "2162",
@@ -25563,7 +25564,6 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
-            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
@@ -26998,6 +26998,7 @@
             "9573",
             "9574",
             "9575",
+            "9576",
             "97",
             "98",
             "9861"

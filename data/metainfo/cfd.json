@@ -12075,14 +12075,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18967,6 +18967,7 @@
             "Bitget Token",
             "Bittensor",
             "Cardano",
+            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18978,7 +18979,6 @@
             "DeXe",
             "DeepBook Protocol",
             "Dogecoin",
-            "Drift",
             "Ethena",
             "Ethena USDe",
             "Ethereum",
@@ -19068,6 +19068,7 @@
             "XTVCBNB",
             "XTVCBTC",
             "XTVCCAKE",
+            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19078,7 +19079,6 @@
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
-            "XTVCDRIFT",
             "XTVCEGLD",
             "XTVCENA",
             "XTVCETC",
@@ -19200,6 +19200,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"

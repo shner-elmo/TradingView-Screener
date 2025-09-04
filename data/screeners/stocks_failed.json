@@ -1,1 +1,22 @@
-[]
+[
+    [
+        {
+            "country_code": "bh",
+            "screener_name": "bahrain",
+            "url": "/markets/stocks-bahrain/",
+            "country_page_url": "/markets/bahrain/",
+            "title": "Bahrain",
+            "group": "Middle East / Africa",
+            "original_group_name": "Middle East / Africa",
+            "stock_exchanges": [
+                "BAHRAIN"
+            ]
+        },
+        {
+            "path": "ath",
+            "url": "/markets/stocks-bahrain/market-movers-ath/",
+            "title_for_label": "All-time high",
+            "role": "tab"
+        }
+    ]
+]
