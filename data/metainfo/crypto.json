@@ -205,7 +205,6 @@
             "MANTRA DAO",
             "MOO DENG (moodeng.vip)",
             "Magic Internet Money",
-            "Maker",
             "Manta Network",
             "Mantle",
             "Maple Finance",
@@ -1573,6 +1572,7 @@
             "MSOL",
             "MXN",
             "MXNT",
+            "NEIRO",
             "NFX",
             "NMT",
             "NUT",
@@ -1716,7 +1716,6 @@
             "XVS",
             "ZAR",
             "ZBTC",
-            "ZBU",
             "ZIK",
             "ZORA"
         ]
@@ -12748,14 +12747,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20070,7 +20069,6 @@
             "MIM",
             "MINA",
             "MIOTA",
-            "MKR",
             "MLK",
             "MLN",
             "MNT",
@@ -20291,7 +20289,6 @@
             "XTVCADS",
             "XTVCAERO",
             "XTVCAETHC",
-            "XTVCAFCVX",
             "XTVCAGENTFUN",
             "XTVCAGEUR",
             "XTVCAIDAUSDC",
@@ -20483,6 +20480,7 @@
             "XTVCMSOL",
             "XTVCMXNT",
             "XTVCNATIVE",
+            "XTVCNEIRO",
             "XTVCNFX",
             "XTVCNMT",
             "XTVCNUT",
@@ -20500,6 +20498,7 @@
             "XTVCPEPE",
             "XTVCPETH",
             "XTVCPIAO",
+            "XTVCPINFR",
             "XTVCPIZZA",
             "XTVCPNG",
             "XTVCPOHM",
@@ -20658,7 +20657,6 @@
             "XTVCYOSTEP",
             "XTVCYYLM",
             "XTVCZBTC",
-            "XTVCZBU",
             "XTVCZIK",
             "XTVCZORA",
             "ZAR"

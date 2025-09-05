@@ -2354,6 +2354,7 @@
             "Denmark",
             "Dominican Republic",
             "Egypt",
+            "El Salvador",
             "Estonia",
             "Faroe Islands",
             "Finland",
@@ -14868,14 +14869,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14896,14 +14897,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21906,6 +21907,7 @@
             "JKO",
             "JLens",
             "JPMorgan",
+            "Janus",
             "Janus Henderson",
             "Janus Henderson Tabula",
             "Jensen",
@@ -22228,6 +22230,7 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
+            "TBI",
             "TCW",
             "TD",
             "THOR",
@@ -23043,6 +23046,7 @@
             "SI",
             "SK",
             "SN",
+            "SV",
             "TG",
             "TH",
             "TN",
@@ -25906,6 +25910,7 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
+            "LionShares LLC",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
@@ -26999,6 +27004,7 @@
             "9574",
             "9575",
             "9576",
+            "9590",
             "97",
             "98",
             "9861"
