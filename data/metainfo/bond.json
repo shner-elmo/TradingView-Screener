@@ -1158,7 +1158,6 @@
             "HKEX:144",
             "HKEX:16",
             "HKEX:1606",
-            "HKEX:1628",
             "HKEX:1638",
             "HKEX:1668",
             "HKEX:1698",
@@ -4425,7 +4424,6 @@
             "HKEX:1299",
             "HKEX:1378",
             "HKEX:1606",
-            "HKEX:1628",
             "HKEX:1638",
             "HKEX:1668",
             "HKEX:1698",
@@ -6687,7 +6685,6 @@
             "XETR:UBK",
             "XETR:VNA",
             "XETR:VOS",
-            "XETR:VOW",
             "XETR:WUW",
             "XETR:ZAL",
             "XETR:ZN2"
@@ -7053,10 +7050,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
