@@ -1047,7 +1047,6 @@
             "MXN",
             "MYR",
             "NZD",
-            "PEN",
             "PLN",
             "QAR",
             "RON",
@@ -12033,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12047,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12055,6 +12047,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18960,6 +18959,7 @@
             "Arbitrum",
             "Avalanche",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -19017,7 +19017,6 @@
             "Polkadot",
             "Pudgy Penguins",
             "Raydium",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19060,6 +19059,7 @@
             "XTVCATOM",
             "XTVCAVAX",
             "XTVCAVU",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19114,7 +19114,6 @@
             "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRUNE",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19174,7 +19173,6 @@
             "MXN",
             "MYR",
             "NZD",
-            "PEN",
             "PLN",
             "QAR",
             "RON",

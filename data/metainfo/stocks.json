@@ -2325,7 +2325,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -14884,13 +14883,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14898,7 +14890,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14906,6 +14898,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22095,6 +22094,7 @@
             "Perpetual",
             "Perth Mint",
             "Phillip",
+            "Picton Mahoney",
             "PineBridge Investments",
             "Ping An",
             "Pinnacle",
@@ -22948,7 +22948,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -25388,6 +25387,7 @@
             "Water Island Capital LLC",
             "Wiener B\u00f6rse AG",
             "WilderShares LLC",
+            "Wilshire Advisors LLC",
             "WisdomTree Asset Management, Inc.",
             "Zacks Investment Management, Inc.",
             "Zagreb Stock Exchange, Inc."
@@ -25584,6 +25584,7 @@
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
             "Astorg Group SARL",
+            "Aviva Plc",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BCP CC Holdings LP",
