@@ -14855,13 +14855,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14869,7 +14862,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14877,6 +14870,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23966,6 +23966,7 @@
             "22",
             "23",
             "24",
+            "2430",
             "25",
             "26",
             "27",
@@ -26179,9 +26180,9 @@
             "United Overseas Bank Ltd. (Singapore)",
             "Unlimited Funds, Inc.",
             "VI Asset Management Co., Ltd.",
-            "VIM Investments",
             "VNDirect Securities Corp.",
             "VTB Bank PJSC",
+            "VTB Capital Asset Management JSC",
             "Valour Digital Securities Ltd.",
             "Valour, Inc. (Switzerland)",
             "Value Partners Group Ltd.",
