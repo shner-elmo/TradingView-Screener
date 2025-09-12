@@ -2414,7 +2414,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -3847,7 +3846,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14855,14 +14853,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14883,13 +14881,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14897,7 +14888,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14905,6 +14896,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21591,6 +21589,7 @@
             "Astoria",
             "Atlas",
             "Aton",
+            "Ausbil",
             "Avantis",
             "Axis",
             "Axxion",
@@ -22230,6 +22229,7 @@
             "Swan",
             "Swisscanto",
             "Sygnia",
+            "Symmetry Panoramic",
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
@@ -22320,6 +22320,7 @@
             "WHITEWOLF",
             "Wahed",
             "Wanjia",
+            "WarCap",
             "WaveFront",
             "Waystone",
             "WealthTrust",
@@ -23047,7 +23048,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "SV",
             "TG",
             "TH",
@@ -23113,7 +23113,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -25327,6 +25326,7 @@
             "Oak City Consulting LLC",
             "Optimize Financial, Inc.",
             "Osaka Exchange, Inc.",
+            "Oslo Stock Exchange",
             "Pacific Investment Management Co. LLC",
             "Palmer Square Capital Management LLC",
             "Point Bridge Capital LLC",
@@ -25754,7 +25754,6 @@
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
@@ -26123,6 +26122,7 @@
             "Svenska Handelsbanken AB",
             "Swan Global Holdings (US) LLC",
             "Sygnia Ltd.",
+            "Symmetry Partners LLC",
             "T-Bank",
             "T. Rowe Price Group, Inc.",
             "TIAA Board of Governors",
@@ -26204,6 +26204,7 @@
             "Wahed Invest LLC",
             "Wanjia Asset Management Co., Ltd.",
             "Wanjia Fund Management Co Ltd.",
+            "Warren Capital Management, Inc.",
             "Water Island Capital Partners LP",
             "WealthTrust Asset Management LLC",
             "Wedbush Capital",
