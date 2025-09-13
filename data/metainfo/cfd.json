@@ -330,7 +330,6 @@
             "BSE",
             "BVB",
             "BVC",
-            "BVL",
             "CBOE",
             "CITYINDEX",
             "CRYPTOCAP",
@@ -12032,13 +12031,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12046,7 +12038,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,7 +12052,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12060,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18928,7 +18927,6 @@
             "MY",
             "NL",
             "NZ",
-            "PE",
             "PL",
             "QA",
             "RO",
@@ -18976,6 +18974,7 @@
             "DeXe",
             "DeepBook Protocol",
             "Dogecoin",
+            "Drift",
             "Ethena",
             "Ethena USDe",
             "Ethereum",
@@ -19000,7 +18999,7 @@
             "Maker",
             "Mantle",
             "Maple Finance",
-            "Marinade Staked SOL",
+            "MemeCore",
             "Monero",
             "Morpho",
             "MultiversX",
@@ -19015,7 +19014,6 @@
             "Pepe",
             "Polkadot",
             "Pudgy Penguins",
-            "Pump.fun",
             "Raydium",
             "Shiba Inu",
             "Sky",
@@ -19075,6 +19073,7 @@
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
+            "XTVCDRIFT",
             "XTVCEGLD",
             "XTVCENA",
             "XTVCETC",
@@ -19097,10 +19096,10 @@
             "XTVCLEO",
             "XTVCLINK",
             "XTVCLTC",
+            "XTVCMEMECORE",
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
-            "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
             "XTVCOKB",
@@ -19111,7 +19110,6 @@
             "XTVCPEPE",
             "XTVCPI3",
             "XTVCPOLYG",
-            "XTVCPUMPF",
             "XTVCRAY",
             "XTVCRUNE",
             "XTVCSHIB",
@@ -19197,8 +19195,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -20553,7 +20550,6 @@
             "source/BSE",
             "source/BVB",
             "source/BVC",
-            "source/BVL",
             "source/CBOE",
             "source/DFM",
             "source/EGX",

@@ -14853,14 +14853,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,14 +14895,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21584,6 +21584,7 @@
             "Armada ETF Advisors",
             "Arrow Funds",
             "ArrowShares",
+            "Arysteq",
             "Asset Management One",
             "AssetPlus",
             "Astoria",
@@ -22188,6 +22189,7 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -22268,6 +22270,7 @@
             "Tortoise",
             "Touchstone",
             "Towle",
+            "TradersAI",
             "Tradr",
             "Tremblant",
             "Trend ETF",
@@ -22313,6 +22316,7 @@
             "Vita",
             "Volatility Shares",
             "Vontobel",
+            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -23176,8 +23180,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25873,6 +25876,7 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -25912,6 +25916,7 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
+            "Lexus Securities Pty Ltd.",
             "LionShares LLC",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
