@@ -2363,7 +2363,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -21721,6 +21720,7 @@
             "Daishin",
             "Daiwa",
             "Dakota",
+            "Dana",
             "Danareksa",
             "Davis",
             "Day Hagan",
@@ -22989,7 +22989,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -23177,7 +23176,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -28022,6 +28020,7 @@
         "t": "text",
         "r": [
             "country/AE",
+            "country/US",
             "source/ADX",
             "source/AMEX",
             "source/AQUIS",
