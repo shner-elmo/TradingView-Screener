@@ -325,6 +325,18 @@
         "r": null
     },
     {
+        "n": "kind",
+        "t": "text",
+        "r": [
+            "rt"
+        ]
+    },
+    {
+        "n": "kind-delay",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "last_bar_update_time",
         "t": "number",
         "r": null,

@@ -737,6 +737,7 @@
             "BIST:VESTL",
             "BIST:YKBNK",
             "BIST:ZOREN",
+            "BIVA:FIEMEX/25D",
             "BME:ACS",
             "BME:ADX",
             "BME:AEDAS",
@@ -825,7 +826,6 @@
             "BMV:CYDSASA/A",
             "BMV:FCFE/18",
             "BMV:FEMSA/UB",
-            "BMV:FIEMEX/25-2D",
             "BMV:FINDEP",
             "BMV:GCC",
             "BMV:GFINBUR/O",
@@ -3408,7 +3408,6 @@
             "PSE:BDO",
             "PSE:BPI",
             "PSE:DTEL",
-            "PSE:FDC",
             "PSE:GLO",
             "PSE:ICT",
             "PSE:JFC",
@@ -3560,6 +3559,7 @@
             "SIX:VATN",
             "SIX:VPBN",
             "SIX:WKBN",
+            "SIX:XLS",
             "SIX:ZUGER",
             "SIX:ZUGN",
             "SIX:ZURN",
@@ -6388,6 +6388,7 @@
             "SIX:VAHN",
             "SIX:VPBN",
             "SIX:WKBN",
+            "SIX:XLS",
             "SIX:ZUGER",
             "SIX:ZUGN",
             "SSE:600000",
@@ -7248,6 +7249,18 @@
         "r": null
     },
     {
+        "n": "kind",
+        "t": "text",
+        "r": [
+            "rt"
+        ]
+    },
+    {
+        "n": "kind-delay",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "last_bar_update_time",
         "t": "number",
         "r": null,
@@ -7853,6 +7866,8 @@
     {
         "n": "yield_to_maturity",
         "t": "percent",
-        "r": null
+        "r": null,
+        "hh": true,
+        "rd": true
     }
 ]

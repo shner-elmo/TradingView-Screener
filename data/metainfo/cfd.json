@@ -18948,8 +18948,7 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
-            "0x Protocol",
-            "1inch Network",
+            "1inch",
             "Aave",
             "Aerodrome Finance",
             "Amp",
@@ -18958,6 +18957,7 @@
             "Avalanche",
             "Avantis",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -18990,7 +18990,7 @@
             "Jito",
             "Jupiter",
             "Jupiter Perps LP",
-            "Kaspa",
+            "Kamino Finance",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19005,7 +19005,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Official World Liberty Financial",
             "Ondo",
             "PI",
             "POL (prev. MATIC)",
@@ -19013,9 +19012,9 @@
             "Pendle",
             "Pepe",
             "Polkadot",
+            "Pudgy Penguins",
             "Pump.fun",
             "Raydium",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19034,6 +19033,7 @@
             "USDD",
             "Uniswap",
             "Vaulta",
+            "World Liberty Financial",
             "World Liberty Financial USD",
             "Worldcoin",
             "Wormhole",
@@ -19057,6 +19057,7 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19091,7 +19092,7 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
-            "XTVCKAS",
+            "XTVCKMNO",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19106,13 +19107,13 @@
             "XTVCOKB",
             "XTVCONDO",
             "XTVCPENDLE",
+            "XTVCPENGUPUD",
             "XTVCPEPE",
             "XTVCPI3",
             "XTVCPOLYG",
             "XTVCPUMPF",
             "XTVCRAY",
             "XTVCRUNE",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19138,8 +19139,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCZBCN",
-            "XTVCZRX"
+            "XTVCZBCN"
         ]
     },
     {
@@ -19784,6 +19784,19 @@
     {
         "n": "is_symbol_primary_listing",
         "t": "bool",
+        "r": null
+    },
+    {
+        "n": "kind",
+        "t": "text",
+        "r": [
+            "delay",
+            "rt"
+        ]
+    },
+    {
+        "n": "kind-delay",
+        "t": "number",
         "r": null
     },
     {
