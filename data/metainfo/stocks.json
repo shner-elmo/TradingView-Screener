@@ -14878,14 +14878,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21620,6 +21620,7 @@
             "Battleshares",
             "Beacon",
             "BeeHive",
+            "Bellevue",
             "Beta",
             "BetaPro",
             "BetaShares",
@@ -23157,9 +23158,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25790,6 +25789,7 @@
             "Grant/GrossMendelsohn LLC",
             "Grantham, Mayo, Van Otterloo & Co. LLC",
             "Grasim Industries Ltd.",
+            "Grayscale Investments Sponsors LLC",
             "Great Eastern Holdings Ltd.",
             "Great Wall Fund Management Co., Ltd.",
             "Greenbay Acquisitions Ltd.",
