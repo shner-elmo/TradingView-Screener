@@ -1418,6 +1418,7 @@
             "ALUSD",
             "AMI",
             "APPLE",
+            "APX",
             "ARB",
             "ARENA",
             "ARS",
@@ -1538,6 +1539,7 @@
             "INF",
             "IOTX",
             "IQ",
+            "JET",
             "JITOSOL",
             "JLP",
             "JOE",
@@ -1568,6 +1570,7 @@
             "LVLUSD",
             "M2",
             "MAGIC",
+            "MB",
             "MCOIN",
             "MERY",
             "METFI",
@@ -1594,6 +1597,7 @@
             "OP",
             "OREO",
             "ORNG",
+            "OX",
             "PAXG",
             "PEAS",
             "PENDLE",
@@ -12716,13 +12720,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12730,7 +12727,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12744,7 +12741,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12752,6 +12749,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20319,6 +20323,7 @@
             "XTVCAOSK",
             "XTVCAPOHM",
             "XTVCAPPLE",
+            "XTVCAPX",
             "XTVCARB",
             "XTVCARENA",
             "XTVCASDIC",
@@ -20453,6 +20458,7 @@
             "XTVCINF",
             "XTVCIOTX",
             "XTVCIQ",
+            "XTVCJET",
             "XTVCJITOSOL",
             "XTVCJLP",
             "XTVCJOE",
@@ -20486,6 +20492,7 @@
             "XTVCM2",
             "XTVCMAGIC",
             "XTVCMAUSDC",
+            "XTVCMB",
             "XTVCMBHS",
             "XTVCMCOIN",
             "XTVCMERY",
@@ -20514,6 +20521,7 @@
             "XTVCOP",
             "XTVCOREO",
             "XTVCORNG",
+            "XTVCOX",
             "XTVCPAXG",
             "XTVCPEAS",
             "XTVCPENDLE",
@@ -21494,6 +21502,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
