@@ -2183,6 +2183,7 @@
             "NSE:MOTILALOFS",
             "NSE:MRPL",
             "NSE:MTNL",
+            "NSE:MUFIN",
             "NSE:MUTHOOTCAP",
             "NSE:MUTHOOTFIN",
             "NSE:MUTHOOTMF",
@@ -5258,6 +5259,7 @@
             "NSE:MOTILALOFS",
             "NSE:MRPL",
             "NSE:MTNL",
+            "NSE:MUFIN",
             "NSE:MUTHOOTCAP",
             "NSE:MUTHOOTFIN",
             "NSE:MUTHOOTMF",
@@ -7056,7 +7058,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

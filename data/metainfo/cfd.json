@@ -12045,14 +12045,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12073,14 +12073,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18994,7 +18994,6 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
-            "MANTRA",
             "MYX Finance",
             "Maker",
             "Mantle",
@@ -19015,6 +19014,7 @@
             "Polkadot",
             "Pump.fun",
             "Raydium",
+            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19033,6 +19033,7 @@
             "USDD",
             "Uniswap",
             "Vaulta",
+            "VeChain",
             "World Liberty Financial",
             "World Liberty Financial USD",
             "Worldcoin",
@@ -19105,7 +19106,6 @@
             "XTVCMYX",
             "XTVCNEAR",
             "XTVCOKB",
-            "XTVCOM",
             "XTVCONDO",
             "XTVCPENDLE",
             "XTVCPEPE",
@@ -19114,6 +19114,7 @@
             "XTVCPUMPF",
             "XTVCRAY",
             "XTVCRUNE",
+            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19132,6 +19133,7 @@
             "XTVCUSDD",
             "XTVCUSDEE",
             "XTVCUSDT",
+            "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
             "XTVCWLDW",
@@ -19194,8 +19196,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
