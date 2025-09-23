@@ -12031,13 +12031,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12045,7 +12038,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12053,6 +12046,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12073,14 +12073,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18978,6 +18978,7 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
+            "Fluid",
             "Frax (prev. FXS)",
             "Gemini Dollar",
             "Gnosis",
@@ -18989,8 +18990,8 @@
             "Jito",
             "Jupiter",
             "Jupiter Perps LP",
-            "Kamino Finance",
             "Kaspa",
+            "KuCoin Token",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19033,7 +19034,6 @@
             "USDD",
             "Uniswap",
             "Vaulta",
-            "VeChain",
             "World Liberty Financial",
             "World Liberty Financial USD",
             "Worldcoin",
@@ -19080,6 +19080,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCFLUID3",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19093,7 +19094,7 @@
             "XTVCJTO",
             "XTVCJUPI",
             "XTVCKAS",
-            "XTVCKMNO",
+            "XTVCKCS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19133,7 +19134,6 @@
             "XTVCUSDD",
             "XTVCUSDEE",
             "XTVCUSDT",
-            "XTVCVET",
             "XTVCW",
             "XTVCWEETH",
             "XTVCWLDW",

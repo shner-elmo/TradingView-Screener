@@ -2410,6 +2410,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14878,14 +14879,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22225,6 +22226,7 @@
             "SuMi TRUST",
             "Subversive",
             "Summit Global Investments",
+            "Sun Life",
             "Suncoast",
             "Swan",
             "Swisscanto",
@@ -23030,6 +23032,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "SV",
             "TG",
             "TH",
