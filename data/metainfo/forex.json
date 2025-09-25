@@ -330,7 +330,6 @@
             "ICMARKETS",
             "IG",
             "JFX",
-            "MARKETSCOM",
             "OANDA",
             "PEPPERSTONE",
             "PHILLIPNOVA",
@@ -12142,13 +12141,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12156,7 +12148,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12164,6 +12156,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19224,8 +19223,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -20420,7 +20418,6 @@
             "icmarkets",
             "ig",
             "jfx",
-            "marketscom",
             "oanda",
             "pepperstone",
             "phillipnova",
@@ -20597,7 +20594,6 @@
             "provider/icmarkets",
             "provider/ig",
             "provider/jfx",
-            "provider/marketscom",
             "provider/oanda",
             "provider/pepperstone",
             "provider/phillipnova",

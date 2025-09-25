@@ -1438,7 +1438,6 @@
             "BIO",
             "BITCOIN",
             "BKC",
-            "BMX",
             "BNB",
             "BNX",
             "BOLD",
@@ -1673,6 +1672,7 @@
             "USD0",
             "USD1",
             "USDA",
+            "USDAI",
             "USDBC",
             "USDC",
             "USDCE",
@@ -12714,13 +12714,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12728,7 +12721,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12736,6 +12729,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20338,7 +20338,6 @@
             "XTVCBIO",
             "XTVCBITCOIN",
             "XTVCBKC",
-            "XTVCBMX",
             "XTVCBNB",
             "XTVCBNX",
             "XTVCBOLD",
@@ -20369,7 +20368,6 @@
             "XTVCCNHT",
             "XTVCCOQ",
             "XTVCCORGIAI",
-            "XTVCCOSA",
             "XTVCCRO",
             "XTVCCROID",
             "XTVCCRONUS",
@@ -20645,7 +20643,6 @@
             "XTVCWBNB",
             "XTVCWBTC",
             "XTVCWCRO",
-            "XTVCWDASH",
             "XTVCWDOGE",
             "XTVCWEETH",
             "XTVCWEETHS",
@@ -21493,7 +21490,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },

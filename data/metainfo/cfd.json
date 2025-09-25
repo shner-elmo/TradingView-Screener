@@ -347,7 +347,6 @@
             "GPW",
             "HSI",
             "IDX",
-            "MARKETSCOM",
             "NSE",
             "NZX",
             "OANDA",
@@ -12031,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12045,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12059,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12067,6 +12059,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18949,6 +18948,7 @@
         "t": "text",
         "r": [
             "1inch",
+            "AWE",
             "Aave",
             "Aerodrome Finance",
             "Amp",
@@ -18979,6 +18979,7 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
+            "FLARE",
             "Frax (prev. FXS)",
             "Gemini Dollar",
             "Gnosis",
@@ -19012,9 +19013,7 @@
             "Pendle",
             "Pepe",
             "Polkadot",
-            "Pump.fun",
             "Raydium",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19058,6 +19057,7 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
+            "XTVCAWE",
             "XTVCBARDL",
             "XTVCBCH",
             "XTVCBERA",
@@ -19081,6 +19081,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCFLR",
             "XTVCFXS",
             "XTVCGNO",
             "XTVCGUSD",
@@ -19110,10 +19111,8 @@
             "XTVCPEPE",
             "XTVCPI3",
             "XTVCPOLYG",
-            "XTVCPUMPF",
             "XTVCRAY",
             "XTVCRUNE",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19194,7 +19193,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -20382,7 +20380,6 @@
             "fxopen",
             "gain",
             "ice",
-            "marketscom",
             "oanda",
             "pepperstone",
             "phillipnova",
@@ -20544,7 +20541,6 @@
             "provider/fxopen",
             "provider/gain",
             "provider/ice",
-            "provider/marketscom",
             "provider/oanda",
             "provider/pepperstone",
             "provider/phillipnova",

@@ -714,6 +714,7 @@
         "r": [
             "bsnss",
             "cnsm",
+            "enrg",
             "gdp",
             "gov",
             "hlth",
@@ -991,6 +992,7 @@
             "RATIO",
             "TIV",
             "TNE",
+            "TWH",
             "UNIT",
             "YEAR"
         ]
