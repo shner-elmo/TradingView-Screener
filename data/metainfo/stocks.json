@@ -25239,7 +25239,6 @@
             "Equbot, Inc.",
             "Etho Capital LLC",
             "EuroMTS Ltd.",
-            "FSH Trading LLC",
             "FTSE Fixed Income LLC",
             "FTSE Group",
             "FTSE International Ltd.",
@@ -27998,6 +27997,11 @@
         "r": null
     },
     {
+        "n": "shares_outstanding",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "short_term_debt_fq",
         "t": "fundamental_price",
         "r": null
@@ -28346,6 +28350,7 @@
             "GH",
             "GI",
             "GL",
+            "GN",
             "GR",
             "GT",
             "GU",

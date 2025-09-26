@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12052,6 +12045,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18947,8 +18947,8 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
+            "0x Protocol",
             "1inch",
-            "AWE",
             "Aave",
             "Aerodrome Finance",
             "Amp",
@@ -18979,8 +18979,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "FLARE",
-            "Frax (prev. FXS)",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -19012,8 +19010,10 @@
             "PancakeSwap",
             "Pendle",
             "Pepe",
+            "Plasma",
             "Polkadot",
             "Raydium",
+            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19057,7 +19057,6 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
-            "XTVCAWE",
             "XTVCBARDL",
             "XTVCBCH",
             "XTVCBERA",
@@ -19081,8 +19080,6 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFLR",
-            "XTVCFXS",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
@@ -19113,6 +19110,7 @@
             "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRUNE",
+            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19137,8 +19135,10 @@
             "XTVCWLFIO",
             "XTVCXLM",
             "XTVCXMR",
+            "XTVCXPL",
             "XTVCXRP",
-            "XTVCZBCN"
+            "XTVCZBCN",
+            "XTVCZRX"
         ]
     },
     {
@@ -19194,8 +19194,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
