@@ -1,1 +1,22 @@
-[]
+[
+    [
+        {
+            "country_code": "cy",
+            "screener_name": "cyprus",
+            "url": "/markets/stocks-cyprus/",
+            "country_page_url": "/markets/cyprus/",
+            "title": "Cyprus",
+            "group": "Europe",
+            "original_group_name": "Europe",
+            "stock_exchanges": [
+                "CSECY"
+            ]
+        },
+        {
+            "path": "52wk-low",
+            "url": "/markets/stocks-cyprus/market-movers-52wk-low/",
+            "title_for_label": "52-week low",
+            "role": "tab"
+        }
+    ]
+]

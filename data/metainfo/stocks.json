@@ -2935,6 +2935,7 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
+            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -14879,14 +14880,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21583,7 +21584,6 @@
             "Armada ETF Advisors",
             "Arrow Funds",
             "ArrowShares",
-            "Arysteq",
             "Asset Management One",
             "AssetPlus",
             "Astoria",
@@ -21614,6 +21614,7 @@
             "Bajaj Finserv",
             "Ballast",
             "Bancreek",
+            "Bangkok Bank",
             "Barclays",
             "Baroda",
             "Barrow Hanley",
@@ -21683,6 +21684,7 @@
             "China Universal",
             "China life",
             "ChinaAMC",
+            "City Different",
             "Claremont Global",
             "ClearBridge",
             "ClearShares",
@@ -22189,7 +22191,6 @@
             "Schwab",
             "Scotia",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -22317,7 +22318,6 @@
             "Vita",
             "Volatility Shares",
             "Vontobel",
-            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -23163,8 +23163,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25596,6 +25595,7 @@
             "Banco Bradesco SA /Private Group/",
             "Bandhan AMC Ltd.",
             "Bangkok Bank PCL",
+            "Bangkok Capital Asset Management Co. Ltd.",
             "Bank Albilad",
             "Bank of China Investment Management Co., Ltd.",
             "Bank of Communications Schroder Fund Management Co., Ltd.",
@@ -25870,7 +25870,6 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -25909,7 +25908,6 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
-            "Lexus Securities Pty Ltd.",
             "LionShares LLC",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
@@ -27994,11 +27992,6 @@
     {
         "n": "share_buyback_ratio_fy",
         "t": "percent",
-        "r": null
-    },
-    {
-        "n": "shares_outstanding",
-        "t": "number",
         "r": null
     },
     {
