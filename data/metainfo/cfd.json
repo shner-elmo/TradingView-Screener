@@ -12044,13 +12044,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12058,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12066,6 +12059,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18948,6 +18948,7 @@
         "t": "text",
         "r": [
             "1inch",
+            "AWE",
             "Aave",
             "Aerodrome Finance",
             "Amp",
@@ -18963,6 +18964,7 @@
             "Bitget Token",
             "Bittensor",
             "Cardano",
+            "Centrifuge",
             "Chainlink",
             "Compound",
             "Conflux",
@@ -18988,7 +18990,6 @@
             "Jito",
             "Jupiter",
             "Jupiter Perps LP",
-            "Kaspa",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -18997,7 +18998,6 @@
             "Maker",
             "Mantle",
             "Maple Finance",
-            "Marinade Staked SOL",
             "MemeCore",
             "Monero",
             "Morpho",
@@ -19013,7 +19013,6 @@
             "Plasma",
             "Polkadot",
             "Raydium",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19057,6 +19056,7 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
+            "XTVCAWE",
             "XTVCBARDL",
             "XTVCBCH",
             "XTVCBERA",
@@ -19064,6 +19064,7 @@
             "XTVCBNB",
             "XTVCBTC",
             "XTVCCAKE",
+            "XTVCCFG",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19091,7 +19092,6 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
-            "XTVCKAS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
@@ -19100,7 +19100,6 @@
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
-            "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
             "XTVCOKB",
@@ -19111,7 +19110,6 @@
             "XTVCPOLYG",
             "XTVCRAY",
             "XTVCRUNE",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19194,7 +19192,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
