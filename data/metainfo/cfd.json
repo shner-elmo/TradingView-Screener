@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12066,6 +12059,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18958,6 +18958,7 @@
             "Avalanche",
             "Avantis",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -18993,7 +18994,6 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
-            "Lombard",
             "MYX Finance",
             "Maker",
             "Mantle",
@@ -19008,9 +19008,9 @@
             "PI",
             "POL (prev. MATIC)",
             "PancakeSwap",
+            "PayPal USD",
             "Pendle",
             "Pepe",
-            "Plasma",
             "Polkadot",
             "Raydium",
             "Shiba Inu",
@@ -19057,7 +19057,7 @@
             "XTVCAVNT",
             "XTVCAVU",
             "XTVCAWE",
-            "XTVCBARDL",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19108,6 +19108,7 @@
             "XTVCPEPE",
             "XTVCPI3",
             "XTVCPOLYG",
+            "XTVCPYUSD",
             "XTVCRAY",
             "XTVCRUNE",
             "XTVCSHIB",
@@ -19134,7 +19135,6 @@
             "XTVCWLFIO",
             "XTVCXLM",
             "XTVCXMR",
-            "XTVCXPL",
             "XTVCXRP",
             "XTVCZBCN"
         ]
@@ -19192,8 +19192,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
