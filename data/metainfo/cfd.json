@@ -12044,14 +12044,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12072,14 +12072,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18948,7 +18948,6 @@
         "t": "text",
         "r": [
             "1inch",
-            "AWE",
             "Aave",
             "Aerodrome Finance",
             "Amp",
@@ -18958,6 +18957,7 @@
             "Avalanche",
             "Avantis",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -19004,6 +19004,7 @@
             "NEAR Protocol",
             "OKB",
             "Ondo",
+            "PI",
             "POL (prev. MATIC)",
             "PancakeSwap",
             "PayPal USD",
@@ -19056,7 +19057,7 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
-            "XTVCAWE",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19105,6 +19106,7 @@
             "XTVCONDO",
             "XTVCPENDLE",
             "XTVCPEPE",
+            "XTVCPI3",
             "XTVCPOLYG",
             "XTVCPUMPF",
             "XTVCPYUSD",

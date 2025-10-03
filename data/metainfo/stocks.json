@@ -14852,14 +14852,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14880,13 +14880,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -14894,7 +14887,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14902,6 +14895,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21601,7 +21601,6 @@
             "BCAP",
             "BCS",
             "BMO",
-            "BNI AM",
             "BNK",
             "BNP Paribas",
             "BNP Paribas RICI",
@@ -21632,6 +21631,7 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Bosera",
             "Bradesco",
@@ -21764,6 +21764,7 @@
             "Empiricus",
             "Euclidean",
             "Eurizon",
+            "Euwax",
             "Even Herd",
             "Eventide",
             "Evoke",
@@ -22142,6 +22143,7 @@
             "Range",
             "Rareview Funds",
             "Rayliant",
+            "Raymond James",
             "Reckoner",
             "Regan",
             "Regents Park",
@@ -26061,6 +26063,7 @@
             "Rafferty Asset Management LLC",
             "Rakuten Group, Inc.",
             "Rational Advisors, Inc.",
+            "Raymond James Financial, Inc.",
             "Reckoner Capital Management LLC",
             "Redwood Investment Holdco LLC",
             "Reflection Asset Management LLC",
@@ -26198,6 +26201,7 @@
             "Value Partners Group Ltd.",
             "Van Eck Associates Corp.",
             "VanEck ETP AG",
+            "Vereinigung Baden-W\u00fcrttembergische Wertpapierb\u00f6rse eV",
             "Veritas Liberabit Vos LLC",
             "Vert Asset Management LLC",
             "Vertium Asset Management Pty Ltd.",
