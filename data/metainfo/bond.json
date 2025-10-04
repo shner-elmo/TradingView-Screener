@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -722,7 +723,6 @@
             "BCS:LTM",
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
-            "BER:07WA",
             "BER:1OZ",
             "BER:M8H0",
             "BET:MKBBANK",
@@ -753,6 +753,7 @@
             "BIST:YKBNK",
             "BIST:ZOREN",
             "BIVA:AMBAC",
+            "BIVA:COOP",
             "BIVA:FIEMEX/25D",
             "BIVA:FLY/N",
             "BME:ACS",
@@ -2640,7 +2641,6 @@
             "NYSE:EPD",
             "NYSE:EPR",
             "NYSE:EPRT",
-            "NYSE:EQBK",
             "NYSE:EQH",
             "NYSE:EQR",
             "NYSE:EQT",
@@ -5700,7 +5700,6 @@
             "NYSE:EOG",
             "NYSE:EPC",
             "NYSE:EPR",
-            "NYSE:EQBK",
             "NYSE:EQH",
             "NYSE:EQT",
             "NYSE:ES",
@@ -6908,6 +6907,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7100,6 +7100,7 @@
             "UYU",
             "UZS",
             "VND",
+            "XOF",
             "ZAR",
             "ZMW"
         ]
@@ -7180,9 +7181,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

@@ -12030,14 +12030,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18957,7 +18957,6 @@
             "Avalanche",
             "Avantis",
             "BNB",
-            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -18989,6 +18988,7 @@
             "Jito",
             "Jupiter",
             "Jupiter Perps LP",
+            "Kamino Finance",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -18997,7 +18997,6 @@
             "Mantle",
             "Maple Finance",
             "Marinade Staked SOL",
-            "MemeCore",
             "Monero",
             "Morpho",
             "MultiversX",
@@ -19038,6 +19037,7 @@
             "Wormhole",
             "Wrapped eETH",
             "XRP",
+            "Zcash",
             "Zebec Network",
             "ether.fi"
         ]
@@ -19057,7 +19057,6 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
-            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19091,11 +19090,11 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
+            "XTVCKMNO",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINK",
             "XTVCLTC",
-            "XTVCMEMECORE",
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
@@ -19138,7 +19137,8 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCZBCN"
+            "XTVCZBCN",
+            "XTVCZEC"
         ]
     },
     {
@@ -19193,10 +19193,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
