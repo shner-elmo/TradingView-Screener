@@ -22333,7 +22333,6 @@
             "Wanjia",
             "WarCap",
             "WaveFront",
-            "Waystone",
             "WealthTrust",
             "Wedbush",
             "Weitz",
@@ -23169,8 +23168,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25860,7 +25861,7 @@
             "Hypatia Capital Group LLC",
             "Hyperion Holdings Ltd.  (Australia)",
             "I.B.I. Investment House Ltd.",
-            "ICBC Credit Suisse Asset Management Co., Ltd.",
+            "ICBC UBS Asset Management Co. Ltd.",
             "ICICI Prudential Asset Management Co. Ltd. (Invt Mgmt)",
             "IDX Advisors LLC",
             "Indexperts LLC",
