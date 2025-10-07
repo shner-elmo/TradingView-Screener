@@ -14880,13 +14880,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14894,7 +14887,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14902,6 +14895,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21761,6 +21761,7 @@
             "Eldridge",
             "Ellerston",
             "Elm",
+            "Emerald",
             "Empiricus",
             "Euclidean",
             "Eurizon",
@@ -21863,6 +21864,7 @@
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
+            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -22050,6 +22052,7 @@
             "Nikko",
             "Ninepoint",
             "Nippon",
+            "Nissay",
             "Nomura",
             "Nordea",
             "North Shore",
@@ -22118,6 +22121,7 @@
             "Principal",
             "ProShares",
             "Procure",
+            "Prospera Funds",
             "Purpose",
             "Putnam",
             "Q3",
@@ -25843,6 +25847,7 @@
             "Hedge Investments Real Estate Gest\u00e3o de Recursos Ltda.",
             "Hedgeye Risk Management LLC",
             "Hejaz Capital Pty Ltd.",
+            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hengtai Securities Co., Ltd.",
             "Hennessy Advisors, Inc.",
@@ -25992,6 +25997,7 @@
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
+            "Nissay Asset Management Corp.",
             "Noa LLC",
             "Nomura Asset Management Taiwan Ltd",
             "Nomura Holdings, Inc.",
@@ -26052,6 +26058,7 @@
             "ProShare Advisors LLC",
             "ProcureAM LLC",
             "Proprius Partners Oy",
+            "Prospera Funds, Inc.",
             "Prudential Financial, Inc.",
             "Prudential Plc",
             "Purpose Unlimited",

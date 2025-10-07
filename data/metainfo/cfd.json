@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12072,7 +12065,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12080,6 +12073,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18957,6 +18957,7 @@
             "Avalanche",
             "Avantis",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -19004,15 +19005,14 @@
             "OKB",
             "Ondo",
             "PI",
-            "POL (prev. MATIC)",
             "PancakeSwap",
             "PayPal USD",
             "Pendle",
             "Pepe",
             "Polkadot",
+            "Polygon (prev. MATIC)",
             "Pump.fun",
             "Raydium",
-            "Saros",
             "Shiba Inu",
             "Sky",
             "Solana",
@@ -19057,6 +19057,7 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19111,7 +19112,6 @@
             "XTVCPYUSD",
             "XTVCRAY",
             "XTVCRUNE",
-            "XTVCSAROS",
             "XTVCSHIB",
             "XTVCSKY2",
             "XTVCSNX",
@@ -19195,8 +19195,7 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
