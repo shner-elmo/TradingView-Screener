@@ -534,6 +534,13 @@
         "r": []
     },
     {
+        "n": "_pine_close_",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "all_time_high",
         "t": "price",
         "r": null
@@ -723,6 +730,8 @@
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
             "BER:1OZ",
+            "BER:75A",
+            "BER:GOKA",
             "BER:M8H0",
             "BET:MKBBANK",
             "BET:MOL",
@@ -1234,6 +1243,7 @@
             "HKEX:35",
             "HKEX:3690",
             "HKEX:3692",
+            "HKEX:3738",
             "HKEX:3877",
             "HKEX:3883",
             "HKEX:3900",
@@ -1927,7 +1937,6 @@
             "NASDAQ:ON",
             "NASDAQ:ONB",
             "NASDAQ:OPCH",
-            "NASDAQ:OPI",
             "NASDAQ:OPK",
             "NASDAQ:ORLY",
             "NASDAQ:OSIS",
@@ -2228,7 +2237,6 @@
             "NSE:MANBA",
             "NSE:MANCREDIT",
             "NSE:MANKIND",
-            "NSE:MARATHON",
             "NSE:MASFIN",
             "NSE:MINDSPACE.RR",
             "NSE:MOTHERSON",
@@ -2253,7 +2261,6 @@
             "NSE:NXST.RR",
             "NSE:OBEROIRLTY",
             "NSE:OIL",
-            "NSE:ONESOURCE",
             "NSE:ONGC",
             "NSE:PAISALO",
             "NSE:PARSVNATH",
@@ -3902,7 +3909,6 @@
             "TSXV:CWV",
             "TSXV:EU",
             "TSXV:GASX",
-            "TURQUOISE:AGRL",
             "TWSE:1101",
             "TWSE:2303",
             "TWSE:2317",
@@ -4138,6 +4144,7 @@
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
             "BER:1OZ",
+            "BER:GOKA",
             "BER:M8H0",
             "BET:MKBBANK",
             "BET:MOL",
@@ -4543,6 +4550,7 @@
             "HKEX:3383",
             "HKEX:3690",
             "HKEX:3692",
+            "HKEX:3738",
             "HKEX:3883",
             "HKEX:3900",
             "HKEX:576",
@@ -5110,7 +5118,6 @@
             "NASDAQ:ON",
             "NASDAQ:ONB",
             "NASDAQ:OPCH",
-            "NASDAQ:OPI",
             "NASDAQ:OPK",
             "NASDAQ:ORLY",
             "NASDAQ:OSIS",
@@ -5365,7 +5372,6 @@
             "NSE:MANBA",
             "NSE:MANCREDIT",
             "NSE:MANKIND",
-            "NSE:MARATHON",
             "NSE:MASFIN",
             "NSE:MINDSPACE.RR",
             "NSE:MOTHERSON",
@@ -5389,7 +5395,6 @@
             "NSE:NXST.RR",
             "NSE:OBEROIRLTY",
             "NSE:OIL",
-            "NSE:ONESOURCE",
             "NSE:ONGC",
             "NSE:PAISALO",
             "NSE:PATELENG",
@@ -7098,7 +7103,6 @@
             "PYG",
             "RON",
             "RUB",
-            "SAR",
             "SEK",
             "SGD",
             "THB",
@@ -7111,7 +7115,6 @@
             "UYU",
             "UZS",
             "VND",
-            "YDD",
             "ZAR",
             "ZMW"
         ]
@@ -7192,7 +7195,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -7443,6 +7445,11 @@
     {
         "n": "nominal_value",
         "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "original_maturity",
+        "t": "number",
         "r": null
     },
     {
