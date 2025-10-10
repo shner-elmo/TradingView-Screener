@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12072,7 +12065,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12080,6 +12073,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18990,6 +18990,7 @@
             "Jupiter",
             "Jupiter Perps LP",
             "Kamino Finance",
+            "KuCoin Token",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
@@ -19011,7 +19012,6 @@
             "Pepe",
             "Polkadot",
             "Polygon (prev. MATIC)",
-            "Pump.fun",
             "Raydium",
             "Shiba Inu",
             "Sky",
@@ -19091,6 +19091,7 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
+            "XTVCKCS",
             "XTVCKMNO",
             "XTVCLDO",
             "XTVCLEO",
@@ -19108,7 +19109,6 @@
             "XTVCPENDLE",
             "XTVCPEPE",
             "XTVCPOLYG",
-            "XTVCPUMPF",
             "XTVCPYUSD",
             "XTVCRAY",
             "XTVCRUNE",
