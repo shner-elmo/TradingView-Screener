@@ -11959,13 +11959,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -11973,7 +11966,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11981,6 +11974,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18898,7 +18898,7 @@
         "n": "crypto_categories",
         "t": "set",
         "r": [
-            "",
+            "abstract-chain-ecosystem",
             "algorand-ecosystem",
             "algorithmic-stablecoins",
             "analytics",
@@ -18908,6 +18908,7 @@
             "asset-backed-tokens",
             "asset-management",
             "avalanche-ecosystem",
+            "bera-chain-ecosystem",
             "bitcoin-ecosystem",
             "blast-ecosystem",
             "bnb-chain-ecosystem",
@@ -18951,6 +18952,7 @@
             "heco-ecosystem",
             "hospitality",
             "hybrid-algorithm",
+            "hyperevm-ecosystem",
             "identity",
             "insurance",
             "internet-of-things",
@@ -18972,6 +18974,7 @@
             "near-protocol-ecosystem",
             "okexchain-ecosystem",
             "olympus-pro-ecosystem",
+            "ondo-global-markets-ecosystem",
             "ontology-ecosystem",
             "optimism-ecosystem",
             "oracles",
@@ -19003,6 +19006,7 @@
             "tourism",
             "transport",
             "tron-ecosystem",
+            "unichain-ecosystem",
             "virtuals-protocol-ecosystem",
             "web3",
             "world-liberty-financial-portfolio",

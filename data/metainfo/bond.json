@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -1369,7 +1368,6 @@
             "LS:A14RM2",
             "LS:A14V4E",
             "LS:A1CX36",
-            "LS:A1JZZA",
             "LS:A2AFQV",
             "LS:A2DU22",
             "LS:A2DYQD",
@@ -4123,7 +4121,6 @@
             "BCBA:VALO",
             "BCS:AGUAS_A",
             "BCS:AKOA_CL",
-            "BCS:AVP",
             "BCS:BCI",
             "BCS:BSANTANDER",
             "BCS:CAP",
@@ -6920,7 +6917,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7195,9 +7191,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -7387,7 +7381,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
