@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -170,7 +171,6 @@
             "Macau",
             "Macedonia",
             "Malaysia",
-            "Maldives",
             "Malta",
             "Mauritius",
             "Mexico",
@@ -6917,6 +6917,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CH",
             "CI",
@@ -6979,7 +6980,6 @@
             "MO",
             "MT",
             "MU",
-            "MV",
             "MX",
             "MY",
             "NA",
@@ -7191,6 +7191,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
