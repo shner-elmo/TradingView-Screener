@@ -12030,14 +12030,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,14 +12058,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18947,6 +18947,7 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
+            "0x Protocol",
             "1inch",
             "Aave",
             "Aerodrome Finance",
@@ -19004,7 +19005,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Olympus v2",
             "Ondo",
             "PancakeSwap",
             "PayPal USD",
@@ -19103,7 +19103,6 @@
             "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
-            "XTVCOHM",
             "XTVCOKB",
             "XTVCONDO",
             "XTVCPENDLE",
@@ -19138,7 +19137,8 @@
             "XTVCXMR",
             "XTVCXRP",
             "XTVCZBCN",
-            "XTVCZEC"
+            "XTVCZEC",
+            "XTVCZRX"
         ]
     },
     {
@@ -19193,7 +19193,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
