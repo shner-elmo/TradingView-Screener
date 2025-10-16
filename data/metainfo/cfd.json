@@ -330,6 +330,7 @@
             "BSE",
             "BVB",
             "BVC",
+            "BVL",
             "CBOE",
             "CITYINDEX",
             "CRYPTOCAP",
@@ -1045,6 +1046,7 @@
             "MXN",
             "MYR",
             "NZD",
+            "PEN",
             "PLN",
             "QAR",
             "RON",
@@ -12058,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12072,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12080,6 +12075,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18926,6 +18928,7 @@
             "MY",
             "NL",
             "NZ",
+            "PE",
             "PL",
             "QA",
             "RO",
@@ -18947,7 +18950,6 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
-            "0x Protocol",
             "1inch",
             "Aave",
             "Aerodrome Finance",
@@ -19005,6 +19007,7 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
+            "Olympus v2",
             "Ondo",
             "PancakeSwap",
             "PayPal USD",
@@ -19103,6 +19106,7 @@
             "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
+            "XTVCOHM",
             "XTVCOKB",
             "XTVCONDO",
             "XTVCPENDLE",
@@ -19137,8 +19141,7 @@
             "XTVCXMR",
             "XTVCXRP",
             "XTVCZBCN",
-            "XTVCZEC",
-            "XTVCZRX"
+            "XTVCZEC"
         ]
     },
     {
@@ -19170,6 +19173,7 @@
             "MXN",
             "MYR",
             "NZD",
+            "PEN",
             "PLN",
             "QAR",
             "RON",
@@ -20561,6 +20565,7 @@
             "source/BSE",
             "source/BVB",
             "source/BVC",
+            "source/BVL",
             "source/CBOE",
             "source/DFM",
             "source/EGX",
