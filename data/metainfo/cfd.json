@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12061,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18950,6 +18950,7 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
+            "0x Protocol",
             "1inch",
             "Aave",
             "Aerodrome Finance",
@@ -18959,6 +18960,7 @@
             "Aster",
             "Avalanche",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -18980,7 +18982,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Fluid",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -19007,7 +19008,6 @@
             "MultiversX",
             "NEAR Protocol",
             "OKB",
-            "Olympus v2",
             "Ondo",
             "PancakeSwap",
             "PayPal USD",
@@ -19059,6 +19059,7 @@
             "XTVCASTER2",
             "XTVCAVAX",
             "XTVCAVU",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19081,7 +19082,6 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFLUID3",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
@@ -19106,7 +19106,6 @@
             "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
-            "XTVCOHM",
             "XTVCOKB",
             "XTVCONDO",
             "XTVCPENDLE",
@@ -19141,7 +19140,8 @@
             "XTVCXMR",
             "XTVCXRP",
             "XTVCZBCN",
-            "XTVCZEC"
+            "XTVCZEC",
+            "XTVCZRX"
         ]
     },
     {
