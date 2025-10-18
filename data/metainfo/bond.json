@@ -3329,6 +3329,7 @@
             "OMXSTO:HEIM_PREF",
             "OMXSTO:HM_B",
             "OMXSTO:INDU_A",
+            "OMXSTO:INTRUM",
             "OMXSTO:INVE_A",
             "OMXSTO:IPCO",
             "OMXSTO:LEA",
@@ -3775,6 +3776,7 @@
             "TSX:AG",
             "TSX:AI",
             "TSX:ALA",
+            "TSX:APPS",
             "TSX:AQN",
             "TSX:ARIS",
             "TSX:ATD",
@@ -3798,7 +3800,6 @@
             "TSX:CHE.UN",
             "TSX:CHR",
             "TSX:CJ",
-            "TSX:CM",
             "TSX:CNE",
             "TSX:CNQ",
             "TSX:CNR",
@@ -6586,6 +6587,7 @@
             "TSX:AG",
             "TSX:AI",
             "TSX:ALA",
+            "TSX:APPS",
             "TSX:AQN",
             "TSX:ARIS",
             "TSX:ATD",
@@ -6603,7 +6605,6 @@
             "TSX:CHE.UN",
             "TSX:CHR",
             "TSX:CJ",
-            "TSX:CM",
             "TSX:CNE",
             "TSX:CNQ",
             "TSX:CNR",
@@ -7199,9 +7200,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -7391,7 +7390,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
