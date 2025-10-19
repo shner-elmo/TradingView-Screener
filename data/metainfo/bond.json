@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -6925,7 +6924,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7200,6 +7198,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
