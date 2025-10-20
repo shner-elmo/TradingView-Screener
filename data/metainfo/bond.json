@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -4070,9 +4071,13 @@
             "ASX:ANZ",
             "ASX:BEN",
             "ASX:BOQ",
+            "ASX:CAM",
             "ASX:CBA",
             "ASX:CIA",
             "ASX:DNL",
+            "ASX:ECP",
+            "ASX:FSI",
+            "ASX:GFL",
             "ASX:IAG",
             "ASX:LLC",
             "ASX:MGR",
@@ -6924,6 +6929,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CH",
             "CI",
@@ -7198,8 +7204,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
