@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18950,6 +18950,7 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
+            "0x Protocol",
             "1inch",
             "Aave",
             "Aerodrome Finance",
@@ -18958,7 +18959,6 @@
             "Arbitrum",
             "Aster",
             "Avalanche",
-            "Avantis",
             "BNB",
             "Baby Doge Coin",
             "Berachain",
@@ -18982,7 +18982,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Euler",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -19002,6 +19001,7 @@
             "Maker",
             "Mantle",
             "Maple Finance",
+            "Marinade Staked SOL",
             "MemeCore",
             "Monero",
             "Morpho",
@@ -19059,7 +19059,6 @@
             "XTVCARBI",
             "XTVCASTER2",
             "XTVCAVAX",
-            "XTVCAVNT",
             "XTVCAVU",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19084,7 +19083,6 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCEUL",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
@@ -19106,6 +19104,7 @@
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
+            "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
             "XTVCOKB",
@@ -19143,7 +19142,8 @@
             "XTVCXMR",
             "XTVCXRP",
             "XTVCZBCN",
-            "XTVCZEC"
+            "XTVCZEC",
+            "XTVCZRX"
         ]
     },
     {

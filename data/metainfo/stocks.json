@@ -2427,6 +2427,7 @@
             "Togo",
             "Tunisia",
             "Turkey",
+            "U.S. Virgin Islands",
             "Uganda",
             "Ukraine",
             "United Arab Emirates",
@@ -14848,13 +14849,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14862,7 +14856,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14870,6 +14864,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21723,6 +21724,7 @@
             "Daiwa",
             "Dakota",
             "Dana",
+            "Danareksa",
             "Davis",
             "Day Hagan",
             "Defiance",
@@ -22149,6 +22151,7 @@
             "Rareview Funds",
             "Rayliant",
             "Raymond James",
+            "RealFin",
             "Reckoner",
             "Regan",
             "Regents Park",
@@ -23057,6 +23060,7 @@
             "UY",
             "VE",
             "VG",
+            "VI",
             "VN",
             "ZA",
             "ZM"
@@ -25815,7 +25819,6 @@
             "Government of Thailand",
             "Government of Turkey",
             "GraniteShares, Inc.",
-            "Grant/GrossMendelsohn LLC",
             "Grantham, Mayo, Van Otterloo & Co. LLC",
             "Grasim Industries Ltd.",
             "Grayscale Investments Sponsors LLC",
@@ -26080,6 +26083,7 @@
             "Rakuten Group, Inc.",
             "Rational Advisors, Inc.",
             "Raymond James Financial, Inc.",
+            "Realfin Collective Investment Schemes (RF) Pty Ltd.",
             "Reckoner Capital Management LLC",
             "Redwood Investment Holdco LLC",
             "Reflection Asset Management LLC",
@@ -26239,6 +26243,7 @@
             "Wanjia Fund Management Co Ltd.",
             "Warren Capital Management, Inc.",
             "Water Island Capital Partners LP",
+            "Waverly Advisors LLC",
             "WealthTrust Asset Management LLC",
             "Wedbush Capital",
             "Weitz Investment Management, Inc.",
@@ -28215,6 +28220,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"
