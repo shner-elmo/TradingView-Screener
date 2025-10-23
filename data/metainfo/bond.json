@@ -171,6 +171,7 @@
             "Macau",
             "Macedonia",
             "Malaysia",
+            "Maldives",
             "Malta",
             "Mauritius",
             "Mexico",
@@ -601,6 +602,11 @@
         "r": null
     },
     {
+        "n": "bond_investment_grade",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "bond_issuer_cr_parent_stock_symbol",
         "t": "text",
         "r": [
@@ -728,7 +734,6 @@
             "BCS:LTM",
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
-            "BER:1OZ",
             "BET:MKBBANK",
             "BET:MOL",
             "BET:OTP",
@@ -759,7 +764,7 @@
             "BIVA:AMBAC",
             "BIVA:BRFS/N",
             "BIVA:COOP",
-            "BIVA:FIEMEX/25D",
+            "BIVA:FIEMEX/25-2D",
             "BIVA:SOMA/21",
             "BME:ACS",
             "BME:ADX",
@@ -919,6 +924,7 @@
             "DFM:EMIRATESNBD",
             "DFM:MASQ",
             "DFM:TABREED",
+            "DUS:1OZ",
             "DUS:9HF",
             "EURONEXT:A5G",
             "EURONEXT:ABI",
@@ -2281,7 +2287,6 @@
             "NSE:RPOWER",
             "NSE:RUSTOMJEE",
             "NSE:SADBHAV",
-            "NSE:SAIL",
             "NSE:SAMMAANCAP",
             "NSE:SANDUMA",
             "NSE:SATIN",
@@ -3485,7 +3490,6 @@
             "PSE:SECB",
             "PSE:SM",
             "PSE:SMC",
-            "PSE:UBP",
             "PSE:VLL",
             "PSECZ:CEZ",
             "PSECZ:CZG",
@@ -4143,7 +4147,6 @@
             "BCS:LTM",
             "BCS:SCOTIABKCL",
             "BCS:SQM_A",
-            "BER:1OZ",
             "BET:MKBBANK",
             "BET:MOL",
             "BET:OTP",
@@ -4287,6 +4290,7 @@
             "DFM:EMIRATESNBD",
             "DFM:MASQ",
             "DFM:TABREED",
+            "DUS:1OZ",
             "DUS:9HF",
             "EURONEXT:A5G",
             "EURONEXT:AABCH",
@@ -5416,7 +5420,6 @@
             "NSE:RENUKA",
             "NSE:RPOWER",
             "NSE:RUSTOMJEE",
-            "NSE:SAIL",
             "NSE:SAMMAANCAP",
             "NSE:SANDUMA",
             "NSE:SATIN",
@@ -6433,7 +6436,6 @@
             "PSE:PNB",
             "PSE:RCB",
             "PSE:SECB",
-            "PSE:UBP",
             "PSECZ:CEZ",
             "PSECZ:CZG",
             "PSECZ:GEV",
@@ -6989,6 +6991,7 @@
             "MO",
             "MT",
             "MU",
+            "MV",
             "MX",
             "MY",
             "NA",
@@ -7200,7 +7203,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -7393,6 +7395,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },

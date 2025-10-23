@@ -2370,6 +2370,7 @@
             "Israel",
             "Italy",
             "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2656,7 +2657,6 @@
             "SWB",
             "SZSE",
             "TADAWUL",
-            "TASE",
             "TPEX",
             "TRADEGATE",
             "TSE",
@@ -3841,7 +3841,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILA",
             "INR",
             "ISK",
             "JPY",
@@ -21568,7 +21567,6 @@
             "Amplify",
             "Amplius",
             "Amundi",
-            "Analyst",
             "Anfield",
             "Angel Oak",
             "AngelOne",
@@ -21855,7 +21853,6 @@
             "Hang Seng",
             "Hanwha",
             "Harbor",
-            "Harel Sal",
             "Harfor",
             "Hartford",
             "Harvest",
@@ -21886,7 +21883,6 @@
             "Hypatia Capital",
             "Hyperion",
             "Hyundai",
-            "I.B.I.",
             "IBK",
             "ICBC",
             "ICICI",
@@ -21932,7 +21928,6 @@
             "KKM Financial",
             "KODEX",
             "KOSEF",
-            "KSM",
             "KTAM",
             "Keating",
             "Kenanga Investors",
@@ -21976,7 +21971,6 @@
             "MFS",
             "MKAM",
             "MRBL",
-            "MTF",
             "MUFG",
             "MUSQ",
             "Mackenzie",
@@ -22003,14 +21997,12 @@
             "McElhenny Sheffield",
             "Measured Risk Portfolios",
             "Mega",
-            "Meitav",
             "Melanion",
             "Meridian",
             "Meritz",
             "MicroBit",
             "Midas Funds",
             "Middlefield",
-            "Migdal",
             "Milford",
             "Militia",
             "Miller",
@@ -22020,7 +22012,6 @@
             "Monarch",
             "Montaka",
             "Montgomery",
-            "More",
             "Morgan Dempsey",
             "Morgan Stanley",
             "Morningstar",
@@ -22066,7 +22057,6 @@
             "Nuveen",
             "OPAL",
             "OTG",
-            "OTP",
             "Oakmark",
             "Obra",
             "Ocean Park",
@@ -22258,7 +22248,6 @@
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
-            "Tachlit",
             "Tactical Funds",
             "Taikang",
             "Taishin",
@@ -22358,7 +22347,6 @@
             "Xingyin",
             "Xtrackers",
             "YIS",
-            "YLETF",
             "Yaqeen",
             "YieldMax",
             "Yinhua",
@@ -22997,6 +22985,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -23144,7 +23133,6 @@
             "VES",
             "VND",
             "XTVGBX",
-            "XTVILA",
             "XTVKWF",
             "XTVZAC"
         ]
@@ -23698,9 +23686,7 @@
             "EUR",
             "GBP",
             "HKD",
-            "HUF",
             "IDR",
-            "ILS",
             "INR",
             "JPY",
             "KRW",
@@ -24163,7 +24149,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -24605,6 +24590,16 @@
     {
         "n": "gross_profit_ttm_h",
         "t": "num_slice",
+        "r": null
+    },
+    {
+        "n": "has_ipo_data",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "has_ipo_details_visible",
+        "t": "bool",
         "r": null
     },
     {
@@ -25203,7 +25198,6 @@
             "Abacus FCF Advisors LLC",
             "Acquirers Funds LLC",
             "American Century Investment Management, Inc.",
-            "Arch Indices Investment Advisors LLC",
             "Athens Stock Exchange",
             "Auspice Capital Advisors Ltd.",
             "Aztlan Equity Management LLC (Mexico)",
@@ -25386,7 +25380,6 @@
             "The Motley Fool, LLC",
             "The Northern Trust Co.",
             "The Stock Exchange of Thailand",
-            "The Tel Aviv Stock Exchange Ltd.",
             "Thomson Reuters Corp.",
             "Thor Analytics LLC",
             "Tokyo Stock Exchange, Inc.",
@@ -25512,6 +25505,71 @@
         "r": null
     },
     {
+        "n": "ipo_announcement_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "ipo_blank_check_flag",
+        "t": "bool",
+        "r": null
+    },
+    {
+        "n": "ipo_deal_amount_usd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_market_cap_usd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_offer_date",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "ipo_offer_price_usd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_offer_time",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "ipo_offered_shares",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_offered_shares_primary",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_offered_shares_secondary",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_price_range_usd_max",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_price_range_usd_min",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "ipo_shares_outstanding",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "is_blacklisted",
         "t": "bool",
         "r": null
@@ -25584,7 +25642,6 @@
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
             "An Binh Fund Management JSC",
-            "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
             "Angel One Ltd.",
@@ -25843,7 +25900,6 @@
             "Hamilton Capital Partners, Inc.",
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
-            "Harel Insurance Investments & Financial Services Ltd.",
             "Harfor Fund Management Co., Ltd.",
             "Harvest Fund Management Co., Ltd.",
             "Harvest Portfolios Group, Inc.",
@@ -25871,7 +25927,6 @@
             "Hwabao WP Fund Management Co., Ltd.",
             "Hypatia Capital Group LLC",
             "Hyperion Holdings Ltd.  (Australia)",
-            "I.B.I. Investment House Ltd.",
             "ICBC UBS Asset Management Co. Ltd.",
             "ICICI Prudential Asset Management Co. Ltd. (Invt Mgmt)",
             "IDX Advisors LLC",
@@ -25911,7 +25966,6 @@
             "KGI Financial Holding Co., Ltd.",
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
-            "KSM Mutual Funds Ltd.",
             "Kasikornbank Public Co. Ltd.",
             "Kelly Intelligence LLC",
             "Kenanga Investment Bank Bhd.",
@@ -25961,14 +26015,11 @@
             "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
             "Mega Financial Holding Co., Ltd.",
-            "Meitav Investment House Ltd.",
             "Melanion Capital SAS",
             "Microbit Capital Management Ltd.",
             "Midas International Asset Management Ltd.",
             "Midas Investment Management Ltd.",
             "Middlefield Group",
-            "Migdal Insurance & Financial Holdings Ltd.",
-            "Migdal Mutual Funds Ltd.",
             "Milford Asset Management Ltd.",
             "Miller Value Partners LLC",
             "Minsheng Royal Fund Management Co., Ltd.",
@@ -26013,7 +26064,6 @@
             "Nu Holdings Ltd.",
             "Nxtassets GmbH",
             "ORIX Corp.",
-            "OTP Bank Nyrt",
             "Ocean Park Asset Management LLC",
             "Oneascent Holdings LLC",
             "Optimize Financial, Inc.",
@@ -26085,6 +26135,7 @@
             "Raymond James Financial, Inc.",
             "Realfin Collective Investment Schemes (RF) Pty Ltd.",
             "Reckoner Capital Management LLC",
+            "Redbird Capital Partners LP",
             "Redwood Investment Holdco LLC",
             "Reflection Asset Management LLC",
             "Regan Capital LLC",
@@ -26163,7 +26214,6 @@
             "TIMEFOLIO Asset Management Co., Ltd.",
             "TS Financial Holding Co., Ltd.",
             "Tabula Investment Management Ltd.",
-            "Tachlit Investment House Ltd.",
             "Taikang Life Insurance Co., Ltd.",
             "Tapp Finance, Inc.",
             "Tata Sons Pvt Ltd.",
@@ -26256,8 +26306,6 @@
             "X Square Capital LLC",
             "XP, Inc.",
             "Xinghua Fund Management Co. Ltd.",
-            "Y.D. More Investments Ltd.",
-            "Yelin Lapidot Investment Portfolio Management Ltd.",
             "Yingda Asset Management Co., Ltd.",
             "Yinhua Fund Management Co., Ltd.",
             "Yuanta Financial Holding Co. Ltd.",
@@ -26555,7 +26603,6 @@
             "india",
             "indonesia",
             "ireland",
-            "israel",
             "italy",
             "japan",
             "kenya",
@@ -27993,7 +28040,6 @@
             "17",
             "2",
             "20",
-            "21",
             "23",
             "24",
             "25",
@@ -28178,7 +28224,6 @@
             "source/SWB",
             "source/SZSE",
             "source/TADAWUL",
-            "source/TASE",
             "source/TPEX",
             "source/TRADEGATE",
             "source/TSE",
@@ -28220,7 +28265,6 @@
             "35",
             "4",
             "41",
-            "42",
             "48",
             "49",
             "5"
