@@ -2118,6 +2118,7 @@
             "NSE:ADANIENT",
             "NSE:ADANIGREEN",
             "NSE:ADANIPORTS",
+            "NSE:AFCONS",
             "NSE:AFIL",
             "NSE:AIIL",
             "NSE:ANZEN",
@@ -3964,6 +3965,7 @@
             "XETR:CBK",
             "XETR:CCAP",
             "XETR:CEC",
+            "XETR:CHG",
             "XETR:CON",
             "XETR:D77",
             "XETR:DB1",
@@ -5268,6 +5270,7 @@
             "NSE:ADANIENSOL",
             "NSE:ADANIENT",
             "NSE:ADANIPORTS",
+            "NSE:AFCONS",
             "NSE:AFIL",
             "NSE:ANZEN",
             "NSE:APTUS",
@@ -6749,6 +6752,7 @@
             "XETR:CBK",
             "XETR:CCAP",
             "XETR:CEC",
+            "XETR:CHG",
             "XETR:CON",
             "XETR:D77",
             "XETR:DB1",
@@ -7204,7 +7208,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -7394,6 +7399,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },

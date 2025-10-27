@@ -14850,14 +14850,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14878,14 +14878,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21866,7 +21866,6 @@
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
-            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -23179,7 +23178,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25850,7 +25850,6 @@
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "Fidelity Investments Canada ULC",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "FinecoBank SpA",
@@ -25930,7 +25929,6 @@
             "Hedge Investments Real Estate Gest\u00e3o de Recursos Ltda.",
             "Hedgeye Risk Management LLC",
             "Hejaz Capital Pty Ltd.",
-            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hengtai Securities Co., Ltd.",
             "Hennessy Advisors, Inc.",

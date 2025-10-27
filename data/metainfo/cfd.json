@@ -12046,13 +12046,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12061,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18960,7 +18960,6 @@
             "Avalanche",
             "Avantis",
             "BNB",
-            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -18982,6 +18981,7 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
+            "Fluid",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -19061,7 +19061,6 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
-            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19084,6 +19083,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCFLUID3",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
@@ -19200,7 +19200,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
