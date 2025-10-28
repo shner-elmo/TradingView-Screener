@@ -14878,14 +14878,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21543,6 +21543,7 @@
             "Agiofunds",
             "Ailis",
             "Airlie",
+            "Akre",
             "Alaska",
             "Albilad",
             "Alerian",
@@ -21794,7 +21795,6 @@
             "FinEx ETF",
             "Finans Asset Management",
             "Fineco",
-            "Fire Funds",
             "Firetraill",
             "First Eagle",
             "First Manhattan",
@@ -22333,6 +22333,7 @@
             "Vita",
             "Volatility Shares",
             "Vontobel",
+            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -25645,6 +25646,7 @@
             "African Bank Holdings Ltd.",
             "AgioFunds TFI SA",
             "Akbank TAS",
+            "Akre Capital Management LLC",
             "Albert D. Mason, Inc.",
             "Alexis Investment Partners LLC",
             "Alger Associates, Inc. (United States)",

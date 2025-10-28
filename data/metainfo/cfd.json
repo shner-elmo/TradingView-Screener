@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18960,6 +18960,7 @@
             "Avalanche",
             "Avantis",
             "BNB",
+            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -18976,7 +18977,6 @@
             "DeXe",
             "DeepBook Protocol",
             "Dogecoin",
-            "Drift",
             "Ethena",
             "Ethena USDe",
             "Ethereum",
@@ -19022,7 +19022,6 @@
             "Solana",
             "Stacks",
             "Stellar",
-            "Story",
             "Sui",
             "Sun (New)",
             "Synthetix",
@@ -19061,6 +19060,7 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAVU",
+            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19077,7 +19077,6 @@
             "XTVCDEXE",
             "XTVCDOGE",
             "XTVCDOT",
-            "XTVCDRIFT",
             "XTVCEGLD",
             "XTVCENA",
             "XTVCETC",
@@ -19090,7 +19089,6 @@
             "XTVCHYPEH",
             "XTVCICP",
             "XTVCINJ",
-            "XTVCIP",
             "XTVCJLP",
             "XTVCJST",
             "XTVCJTO",
@@ -19200,8 +19198,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
