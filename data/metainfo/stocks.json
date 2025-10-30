@@ -14849,13 +14849,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14863,7 +14856,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14877,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,6 +14892,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21671,6 +21671,7 @@
             "Calvert",
             "Cambiar Funds",
             "Cambria",
+            "Canary",
             "Capital",
             "Capital Group",
             "Carbon Collective",
@@ -23181,7 +23182,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25689,6 +25689,7 @@
             "BCP CC Holdings LP",
             "BNK Financial Group, Inc.",
             "BNP Paribas SA",
+            "BOC International (China) Co., Ltd.",
             "BOCI-Prudential Asset Management Ltd.",
             "BOOKOOK SECURITIES Co., Ltd.",
             "BPCE SA",
@@ -25744,6 +25745,7 @@
             "Cambiar Holdings LLLP",
             "Cambria Investment Management LP",
             "Canadian Imperial Bank of Commerce",
+            "Canary Capital Group, Inc.",
             "Canso Investment Counsel Ltd.",
             "Capital Impact Advisors LLC",
             "Capital Investment Trust Corp.",
