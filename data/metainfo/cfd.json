@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12074,14 +12074,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18958,7 +18958,6 @@
             "Arbitrum",
             "Aster",
             "Avalanche",
-            "Avantis",
             "BNB",
             "Baby Doge Coin",
             "Berachain",
@@ -19007,6 +19006,7 @@
             "Morpho",
             "MultiversX",
             "NEAR Protocol",
+            "OFFICIAL TRUMP",
             "OKB",
             "Ondo",
             "PI",
@@ -19016,7 +19016,6 @@
             "Pepe",
             "Polkadot",
             "Polygon (prev. MATIC)",
-            "Pump.fun",
             "Raydium",
             "Shiba Inu",
             "Sky",
@@ -19043,7 +19042,8 @@
             "XRP",
             "Zcash",
             "Zebec Network",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19059,7 +19059,6 @@
             "XTVCARBI",
             "XTVCASTER2",
             "XTVCAVAX",
-            "XTVCAVNT",
             "XTVCAVU",
             "XTVCBABYDOGE",
             "XTVCBCH",
@@ -19113,7 +19112,6 @@
             "XTVCPEPE",
             "XTVCPI3",
             "XTVCPOLYG",
-            "XTVCPUMPF",
             "XTVCPYUSD",
             "XTVCRAY",
             "XTVCRUNE",
@@ -19128,6 +19126,7 @@
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
+            "XTVCTRUMPOF",
             "XTVCTRX",
             "XTVCUNI",
             "XTVCUSD1W",
@@ -19142,6 +19141,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZBCN",
             "XTVCZEC"
         ]
