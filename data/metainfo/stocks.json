@@ -14849,13 +14849,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14863,7 +14856,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14871,6 +14864,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21613,7 +21613,6 @@
             "Bajaj Finserv",
             "Ballast",
             "Bancreek",
-            "Bangkok Bank",
             "Barclays",
             "Baroda",
             "Barrow Hanley",
@@ -21668,7 +21667,6 @@
             "Cabana",
             "Caixa",
             "Calamos",
-            "Caldwell",
             "Calvert",
             "Cambiar Funds",
             "Cambria",
@@ -22382,7 +22380,6 @@
             "Zhongrong",
             "Ziraat",
             "aberdeen",
-            "iA",
             "iA Clarington",
             "iFreeETF",
             "iM",
@@ -25743,7 +25740,6 @@
             "CTBC Financial Holding Co., Ltd.",
             "CYBER HORNET ETFs LLC",
             "Calamos Family Partners, Inc.",
-            "Caldwell Financial Ltd.",
             "Cambiar Holdings LLLP",
             "Cambria Investment Management LP",
             "Canadian Imperial Bank of Commerce",
@@ -25879,7 +25875,6 @@
             "Fortuna Funds LLC",
             "Founder Fubon Fund Management Co., Ltd.",
             "Franklin Resources, Inc.",
-            "Franklin Templeton Fund Adviser LLC",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
             "Frontier Asset Management LLC",
             "Fubon Financial Holding Co., Ltd.",
