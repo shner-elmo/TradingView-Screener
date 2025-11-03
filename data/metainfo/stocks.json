@@ -14891,14 +14891,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21504,7 +21504,6 @@
             "3iQ",
             "AAM",
             "AB Funds",
-            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -22208,7 +22207,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -23182,7 +23180,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25665,7 +25664,6 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amun Holdings Ltd.",
-            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
@@ -25978,7 +25976,6 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",

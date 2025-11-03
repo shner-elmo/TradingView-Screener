@@ -12046,13 +12046,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12068,6 +12061,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18950,6 +18950,7 @@
         "n": "cryptoasset-info.description",
         "t": "text",
         "r": [
+            "0x Protocol",
             "1inch",
             "Aave",
             "Aerodrome Finance",
@@ -18958,9 +18959,7 @@
             "Arbitrum",
             "Aster",
             "Avalanche",
-            "Avantis",
             "BNB",
-            "Baby Doge Coin",
             "Berachain",
             "Bitcoin",
             "Bitcoin Cash",
@@ -19001,6 +19000,7 @@
             "Maker",
             "Mantle",
             "Maple Finance",
+            "Marinade Staked SOL",
             "MemeCore",
             "Meteora",
             "Monero",
@@ -19016,7 +19016,6 @@
             "Pepe",
             "Polkadot",
             "Polygon (prev. MATIC)",
-            "Pump.fun",
             "Raydium",
             "Shiba Inu",
             "Sky",
@@ -19059,9 +19058,7 @@
             "XTVCARBI",
             "XTVCASTER2",
             "XTVCAVAX",
-            "XTVCAVNT",
             "XTVCAVU",
-            "XTVCBABYDOGE",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19105,6 +19102,7 @@
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
+            "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
             "XTVCOKB",
@@ -19113,7 +19111,6 @@
             "XTVCPEPE",
             "XTVCPI3",
             "XTVCPOLYG",
-            "XTVCPUMPF",
             "XTVCPYUSD",
             "XTVCRAY",
             "XTVCRUNE",
@@ -19143,7 +19140,8 @@
             "XTVCXMR",
             "XTVCXRP",
             "XTVCZBCN",
-            "XTVCZEC"
+            "XTVCZEC",
+            "XTVCZRX"
         ]
     },
     {
@@ -19200,7 +19198,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
