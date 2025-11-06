@@ -12032,13 +12032,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12046,7 +12039,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,7 +12053,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18996,6 +18996,7 @@
             "Litecoin",
             "Lombard",
             "MYX Finance",
+            "Maker",
             "Mantle",
             "Maple Finance",
             "MemeCore",
@@ -19004,6 +19005,7 @@
             "Morpho",
             "MultiversX",
             "NEAR Protocol",
+            "OFFICIAL TRUMP",
             "OKB",
             "Ondo",
             "PI",
@@ -19025,7 +19027,6 @@
             "Synthetix",
             "THORChain",
             "TRON",
-            "Tether Gold",
             "Tether USDt",
             "Toncoin",
             "UNUS SED LEO",
@@ -19041,8 +19042,7 @@
             "XRP",
             "Zcash",
             "Zebec Network",
-            "ether.fi",
-            "yearn.finance"
+            "ether.fi"
         ]
     },
     {
@@ -19098,6 +19098,7 @@
             "XTVCLTC",
             "XTVCMEMECORE",
             "XTVCMETE",
+            "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
             "XTVCMYX",
@@ -19123,6 +19124,7 @@
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
+            "XTVCTRUMPOF",
             "XTVCTRX",
             "XTVCUNI",
             "XTVCUSD1W",
@@ -19134,11 +19136,9 @@
             "XTVCWEETH",
             "XTVCWLDW",
             "XTVCWLFIO",
-            "XTVCXAUT",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZBCN",
             "XTVCZEC",
             "XTVCZRX"
@@ -19197,7 +19197,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
