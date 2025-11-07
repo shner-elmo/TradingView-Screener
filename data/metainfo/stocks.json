@@ -2370,7 +2370,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -14865,14 +14864,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14893,14 +14892,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22359,6 +22358,7 @@
             "Western Asset",
             "Western LeadBank",
             "Westwood",
+            "Wisdom",
             "WisdomTree",
             "Woori",
             "X-Square",
@@ -22976,7 +22976,6 @@
             "BW",
             "CA",
             "CH",
-            "CI",
             "CL",
             "CM",
             "CN",
@@ -25715,6 +25714,7 @@
             "Bank of China Investment Management Co., Ltd.",
             "Bank of Communications Schroder Fund Management Co., Ltd.",
             "Bank of Montreal",
+            "Bank of Nanjing Co., Ltd.",
             "Bank of Ningbo Co., Ltd.",
             "Barclays PLC",
             "Beacon Peak Capital Pte Ltd.",
@@ -26235,6 +26235,7 @@
             "Soundwatch Capital LLC",
             "Sovereign's Capital Management LLC",
             "Spear Advisors LLC",
+            "Spend Life Wisely Co., Inc.",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
             "Standard Bank Group Ltd.",

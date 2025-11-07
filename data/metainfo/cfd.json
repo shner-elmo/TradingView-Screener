@@ -12032,14 +12032,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18979,6 +18979,7 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
+            "Filecoin",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -18996,7 +18997,6 @@
             "Litecoin",
             "Lombard",
             "MYX Finance",
-            "Maker",
             "Mantle",
             "Maple Finance",
             "MemeCore",
@@ -19005,7 +19005,6 @@
             "Morpho",
             "MultiversX",
             "NEAR Protocol",
-            "OFFICIAL TRUMP",
             "OKB",
             "Ondo",
             "PI",
@@ -19042,7 +19041,8 @@
             "XRP",
             "Zcash",
             "Zebec Network",
-            "ether.fi"
+            "ether.fi",
+            "yearn.finance"
         ]
     },
     {
@@ -19080,6 +19080,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCFIL",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
@@ -19098,7 +19099,6 @@
             "XTVCLTC",
             "XTVCMEMECORE",
             "XTVCMETE",
-            "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
             "XTVCMYX",
@@ -19124,7 +19124,6 @@
             "XTVCSYRUP",
             "XTVCTAOB",
             "XTVCTON",
-            "XTVCTRUMPOF",
             "XTVCTRX",
             "XTVCUNI",
             "XTVCUSD1W",
@@ -19139,6 +19138,7 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
+            "XTVCYFI",
             "XTVCZBCN",
             "XTVCZEC",
             "XTVCZRX"
