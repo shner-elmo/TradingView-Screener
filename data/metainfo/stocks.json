@@ -1124,6 +1124,10 @@
                 "name": "NASDAQ Biotechnology"
             },
             {
+                "id": "NASDAQ:NCX",
+                "name": "Nasdaq Innovators Completion Cap"
+            },
+            {
                 "id": "NASDAQ:NDX",
                 "name": "NASDAQ 100"
             },
@@ -14850,14 +14854,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22351,6 +22355,7 @@
             "Wanjia",
             "WarCap",
             "WaveFront",
+            "Wayfinder",
             "WealthTrust",
             "Wedbush",
             "Weitz",
@@ -23188,8 +23193,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25013,6 +25017,7 @@
             "SYML:NASDAQ;IXTC",
             "SYML:NASDAQ;KFTX",
             "SYML:NASDAQ;NBI",
+            "SYML:NASDAQ;NCX",
             "SYML:NASDAQ;NDX",
             "SYML:NASDAQ;NDXT",
             "SYML:NASDAQ;NQUSB451020",

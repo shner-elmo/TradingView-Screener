@@ -12060,13 +12060,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12074,7 +12067,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12082,6 +12075,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18956,6 +18956,7 @@
             "Aerodrome Finance",
             "Amp",
             "Aptos",
+            "Arbitrum",
             "Aster",
             "Avalanche",
             "BNB",
@@ -18991,12 +18992,11 @@
             "Jupiter",
             "Jupiter Perps LP",
             "Kamino Finance",
-            "KuCoin Token",
             "Lido DAO",
             "Lido Staked ETH",
             "Litecoin",
-            "Lombard",
             "MYX Finance",
+            "Maker",
             "Mantle",
             "Maple Finance",
             "MemeCore",
@@ -19055,10 +19055,10 @@
             "XTVCAEROD",
             "XTVCAMP2",
             "XTVCAPTO",
+            "XTVCARBI",
             "XTVCASTER2",
             "XTVCAVAX",
             "XTVCAVU",
-            "XTVCBARDL",
             "XTVCBCH",
             "XTVCBERA",
             "XTVCBGB",
@@ -19091,7 +19091,6 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
-            "XTVCKCS",
             "XTVCKMNO",
             "XTVCLDO",
             "XTVCLEO",
@@ -19099,6 +19098,7 @@
             "XTVCLTC",
             "XTVCMEMECORE",
             "XTVCMETE",
+            "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
             "XTVCMYX",
