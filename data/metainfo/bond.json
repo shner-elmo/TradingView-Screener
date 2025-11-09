@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -1144,6 +1145,7 @@
             "GPW:MBK",
             "GPW:MIL",
             "GPW:MLG",
+            "GPW:PCO",
             "GPW:PEN",
             "GPW:PEO",
             "GPW:PGE",
@@ -7265,6 +7267,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CG",
             "CH",
@@ -7542,8 +7545,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "out_of_session",
-            "pre_market"
+            "market",
+            "out_of_session"
         ]
     },
     {
