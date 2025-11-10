@@ -12141,13 +12141,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12155,7 +12148,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12163,6 +12156,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,

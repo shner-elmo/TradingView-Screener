@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -743,6 +742,7 @@
             "BET:MKBBANK",
             "BET:MOL",
             "BET:OTP",
+            "BET:TAKAREKJZB",
             "BIST:AEFES",
             "BIST:AKBNK",
             "BIST:ARCLK",
@@ -4319,6 +4319,7 @@
             "BET:MKBBANK",
             "BET:MOL",
             "BET:OTP",
+            "BET:TAKAREKJZB",
             "BIST:AEFES",
             "BIST:AKBNK",
             "BIST:ARCLK",
@@ -5575,6 +5576,7 @@
             "NSE:PAISALO",
             "NSE:PATELENG",
             "NSE:PCBL",
+            "NSE:PEL",
             "NSE:PFC",
             "NSE:PFS",
             "NSE:PNB",
@@ -7267,7 +7269,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CG",
             "CH",
@@ -7546,7 +7547,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
