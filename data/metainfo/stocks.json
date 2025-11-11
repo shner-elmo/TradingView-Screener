@@ -14854,13 +14854,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14868,7 +14861,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14876,6 +14869,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14896,14 +14896,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -25780,7 +25780,6 @@
             "China International Capital Corp. Ltd.",
             "China Merchants Bank Co., Ltd.",
             "China Pacific Insurance (Group) Co., Ltd.",
-            "China Post Global (UK) Ltd.",
             "China Southern Asset Management Co., Ltd.",
             "China Universal Asset Management Co., Ltd.",
             "China Universal Fund Management Co. Ltd.",
@@ -26057,6 +26056,7 @@
             "Man Group Plc (Jersey)",
             "Manulife Financial Corp.",
             "Marathon Partners LLC",
+            "Market Access Asset Management Ltd.",
             "Matthews International Capital Management LLC",
             "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
