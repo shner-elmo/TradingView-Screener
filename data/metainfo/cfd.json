@@ -12046,14 +12046,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18964,6 +18964,7 @@
             "Bitcoin Cash",
             "Bitget Token",
             "Bittensor",
+            "Canton Network",
             "Cardano",
             "Chainlink",
             "Compound",
@@ -18979,7 +18980,6 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Filecoin",
             "Gemini Dollar",
             "Gnosis",
             "Hedera",
@@ -19000,6 +19000,7 @@
             "Maker",
             "Mantle",
             "Maple Finance",
+            "Marinade Staked SOL",
             "MemeCore",
             "Meteora",
             "Monero",
@@ -19041,8 +19042,7 @@
             "XRP",
             "Zcash",
             "Zebec Network",
-            "ether.fi",
-            "yearn.finance"
+            "ether.fi"
         ]
     },
     {
@@ -19065,6 +19065,7 @@
             "XTVCBNB",
             "XTVCBTC",
             "XTVCCAKE",
+            "XTVCCCCA",
             "XTVCCFX",
             "XTVCCOMP",
             "XTVCCRO",
@@ -19080,7 +19081,6 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCFIL",
             "XTVCGNO",
             "XTVCGUSD",
             "XTVCHBAR",
@@ -19102,6 +19102,7 @@
             "XTVCMKR",
             "XTVCMNT",
             "XTVCMORPHO",
+            "XTVCMSOL",
             "XTVCMYX",
             "XTVCNEAR",
             "XTVCOKB",
@@ -19138,7 +19139,6 @@
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXRP",
-            "XTVCYFI",
             "XTVCZBCN",
             "XTVCZEC",
             "XTVCZRX"
