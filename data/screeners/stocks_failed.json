@@ -1,1 +1,439 @@
-[]
+[
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-companies",
+            "url": "/markets/world-stocks/worlds-largest-companies/",
+            "title_for_label": "Large-cap",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "non-us-companies",
+            "url": "/markets/world-stocks/worlds-non-us-companies/",
+            "title_for_label": "Largest non-U.S.",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-employers",
+            "url": "/markets/world-stocks/worlds-largest-employers/",
+            "title_for_label": "Largest employers",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "highest-revenue",
+            "url": "/markets/world-stocks/worlds-highest-revenue/",
+            "title_for_label": "Highest revenue",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "highest-revenue-per-employee",
+            "url": "/markets/world-stocks/worlds-highest-revenue-per-employee/",
+            "title_for_label": "Highest revenue per employee",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "highest-profit-per-employee",
+            "url": "/markets/world-stocks/worlds-highest-profit-per-employee/",
+            "title_for_label": "Highest profit per employee",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "highest-earnings",
+            "url": "/markets/world-stocks/worlds-highest-earnings/",
+            "title_for_label": "Highest earnings",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "highest-dividends",
+            "url": "/markets/world-stocks/worlds-highest-dividends/",
+            "title_for_label": "High-dividend",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-oil-and-gas-companies",
+            "url": "/markets/world-stocks/worlds-largest-oil-and-gas-companies/",
+            "title_for_label": "Oil and gas",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-semiconductors-producers",
+            "url": "/markets/world-stocks/worlds-largest-semiconductors-producers/",
+            "title_for_label": "Semiconductors",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-telecommunication-companies",
+            "url": "/markets/world-stocks/worlds-largest-telecommunication-companies/",
+            "title_for_label": "Telecom",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-tech-companies",
+            "url": "/markets/world-stocks/worlds-largest-tech-companies/",
+            "title_for_label": "Tech",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-biotech-companies",
+            "url": "/markets/world-stocks/worlds-largest-biotech-companies/",
+            "title_for_label": "Biotech",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-finance-companies",
+            "url": "/markets/world-stocks/worlds-largest-finance-companies/",
+            "title_for_label": "Finance",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-banks",
+            "url": "/markets/world-stocks/worlds-largest-banks/",
+            "title_for_label": "Banks",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-e-commerce-companies",
+            "url": "/markets/world-stocks/worlds-largest-e-commerce-companies/",
+            "title_for_label": "E-Commerce",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-software-companies",
+            "url": "/markets/world-stocks/worlds-largest-software-companies/",
+            "title_for_label": "Software",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-automakers",
+            "url": "/markets/world-stocks/worlds-largest-automakers/",
+            "title_for_label": "Automakers",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-hotels-and-resorts",
+            "url": "/markets/world-stocks/worlds-largest-hotels-and-resorts/",
+            "title_for_label": "Hotels and resorts",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-restaurant-chains",
+            "url": "/markets/world-stocks/worlds-largest-restaurant-chains/",
+            "title_for_label": "Restaurants",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-stores",
+            "url": "/markets/world-stocks/worlds-largest-stores/",
+            "title_for_label": "Stores",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-beverage-companies",
+            "url": "/markets/world-stocks/worlds-largest-beverage-companies/",
+            "title_for_label": "Beverage",
+            "role": "tab"
+        }
+    ],
+    [
+        {
+            "country_code": "ww",
+            "screener_name": "global",
+            "url": "/markets/world-stocks/",
+            "country_page_url": "/markets/",
+            "title": "World Stocks",
+            "locale": "",
+            "group": "",
+            "original_group_name": "",
+            "stock_exchanges": []
+        },
+        {
+            "path": "largest-food-companies",
+            "url": "/markets/world-stocks/worlds-largest-food-companies/",
+            "title_for_label": "Food",
+            "role": "tab"
+        }
+    ]
+]

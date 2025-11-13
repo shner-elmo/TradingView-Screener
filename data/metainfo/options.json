@@ -420,6 +420,7 @@
             "source/CME",
             "source/CME_MINI",
             "source/COMEX",
+            "source/EUREX",
             "source/MCX",
             "source/NSE",
             "source/NYMEX",
