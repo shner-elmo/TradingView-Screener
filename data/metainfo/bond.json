@@ -729,7 +729,7 @@
             "BCS:AGUAS_A",
             "BCS:AKOA_CL",
             "BCS:BCI",
-            "BCS:BICECORP",
+            "BCS:BICE",
             "BCS:BINT",
             "BCS:BSANTANDER",
             "BCS:CAP",
@@ -2765,7 +2765,6 @@
             "NYSE:FOA",
             "NYSE:FOR",
             "NYSE:FOUR",
-            "NYSE:FPH",
             "NYSE:FR",
             "NYSE:FRT",
             "NYSE:FSK",
@@ -7989,9 +7988,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -8547,6 +8544,7 @@
             "LV",
             "MA",
             "MB",
+            "MC",
             "MD",
             "ME",
             "MG",

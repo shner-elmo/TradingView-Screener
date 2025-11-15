@@ -14853,14 +14853,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22074,6 +22074,7 @@
             "Nu",
             "Numoro",
             "Nuveen",
+            "OFI",
             "OPAL",
             "OTG",
             "OTP",
@@ -22216,6 +22217,7 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -23192,8 +23194,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23990,6 +23991,8 @@
             "2200",
             "2201",
             "2202",
+            "2205",
+            "2208",
             "23",
             "24",
             "2430",
@@ -25996,6 +25999,7 @@
             "IronHorse Holdings LLC",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -26086,6 +26090,7 @@
             "Mugunghwa Trust Co., Ltd.",
             "Mulvihill Capital Management, Inc.",
             "Munro Investment Holdings Pty Ltd.",
+            "Mutuelle Assurance Commer\u00e7ants et Industriels France SAM",
             "Myriad Asset Management Advisors LLC",
             "NBSH Acquisition LLC",
             "NEOS Investments LLC",
@@ -26120,7 +26125,7 @@
             "Optimize Financial, Inc.",
             "Osmanli Yatirim Menkul Degerler AS",
             "Oversea-Chinese Banking Corp. Ltd.",
-            "PBT Group Ltd.",
+            "PBT Holdings Ltd.",
             "PEH Wertpapier AG",
             "PMV Capital LLC",
             "PT Bahana TCW Investment Management",
@@ -27172,6 +27177,8 @@
             "9574",
             "9575",
             "9576",
+            "9585",
+            "9587",
             "9590",
             "9592",
             "9594",
