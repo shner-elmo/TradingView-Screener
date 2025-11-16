@@ -3373,6 +3373,7 @@
             "OMXHEX:KEMIRA",
             "OMXHEX:KESKOA",
             "OMXHEX:KOJAMO",
+            "OMXHEX:MANTA",
             "OMXHEX:METSA",
             "OMXHEX:METSO",
             "OMXHEX:NDA_FI",
@@ -7988,6 +7989,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
