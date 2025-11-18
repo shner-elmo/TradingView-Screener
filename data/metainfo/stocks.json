@@ -14867,13 +14867,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14881,7 +14874,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,6 +14882,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21601,6 +21601,7 @@
             "Aztlan",
             "BB",
             "BB DTVM",
+            "BBH",
             "BBVA",
             "BCAP",
             "BCS",
@@ -25747,6 +25748,7 @@
             "Brookfield Asset Management Ltd.",
             "Brookmont Capital Management LLC",
             "Brown Advisory Management LLC",
+            "Brown Brothers Harriman & Co.",
             "Buena Vista Gestora de Recursos Ltda.",
             "Build Asset Management LLC",
             "CCB Principal Asset Management Co., Ltd.",
@@ -26017,7 +26019,6 @@
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
-            "Kasikornbank Public Co. Ltd.",
             "Kelly Intelligence LLC",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
