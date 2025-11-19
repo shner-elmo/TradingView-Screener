@@ -2361,7 +2361,6 @@
             "France",
             "Gabon",
             "Germany",
-            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -14853,13 +14852,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14867,7 +14859,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14875,6 +14867,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21584,6 +21583,7 @@
             "Aptus",
             "Argent",
             "Arin",
+            "Arlington",
             "Armada ETF Advisors",
             "Arrow Funds",
             "ArrowShares",
@@ -21876,6 +21876,7 @@
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
+            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -23002,7 +23003,6 @@
             "FR",
             "GA",
             "GB",
-            "GH",
             "GI",
             "GL",
             "GR",
@@ -23194,7 +23194,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25695,6 +25694,7 @@
             "Aoris Investment Management (Pty) Ltd.",
             "Aptus Holdings LLC",
             "Ardea Investment Management Pty Ltd.",
+            "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
             "Ashton Thomas Private Wealth LLC",
@@ -25852,6 +25852,7 @@
             "EPWA Holding Co. LLC",
             "EQT Holdings Ltd.",
             "ETC Holdings Ltd. (Guernsey)",
+            "ETF Shares Management Ltd.",
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
             "Eagle Capital Management LLC",
@@ -25961,6 +25962,7 @@
             "Hedge Investments Real Estate Gest\u00e3o de Recursos Ltda.",
             "Hedgeye Risk Management LLC",
             "Hejaz Capital Pty Ltd.",
+            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
@@ -26191,7 +26193,6 @@
             "Rational Advisors, Inc.",
             "Raymond James Financial, Inc.",
             "Realfin Collective Investment Schemes (RF) Pty Ltd.",
-            "Reckoner Capital Management LLC",
             "Redbird Capital Partners LP",
             "Redwood Investment Holdco LLC",
             "Reflection Asset Management LLC",
@@ -26360,6 +26361,7 @@
             "WealthTrust Asset Management LLC",
             "Wedbush Capital",
             "Weitz Investment Management, Inc.",
+            "Wellington Management Group LLP",
             "Western & Southern Mutual Holding Co.",
             "Western Leadbank Fund Management Co., Ltd",
             "Westwood Holdings Group, Inc.",
@@ -27181,6 +27183,7 @@
             "9574",
             "9575",
             "9576",
+            "9585",
             "9587",
             "9590",
             "9592",
@@ -28336,6 +28339,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"
