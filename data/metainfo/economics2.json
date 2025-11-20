@@ -711,7 +711,6 @@
         "t": "text",
         "r": [
             "bsnss",
-            "clmt",
             "cnsm",
             "enrg",
             "gdp",
@@ -948,9 +947,7 @@
         "r": [
             "DAY",
             "HOUR",
-            "KGM",
             "LTR",
-            "MMTR",
             "MONTH",
             "MTK",
             "WEEK",
@@ -977,7 +974,6 @@
             "BUA",
             "CAP",
             "CMPNY",
-            "DEGC",
             "FTQ",
             "GWH",
             "HOUR",
