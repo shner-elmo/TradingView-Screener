@@ -14867,13 +14867,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14881,7 +14874,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,7 +14888,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14903,6 +14896,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21886,6 +21886,7 @@
             "Hony Horizon",
             "Horizon",
             "Horizon Kinetics",
+            "Horizons",
             "Hotchkis & Wiley",
             "Hoya",
             "HuaAn",
@@ -22371,7 +22372,6 @@
             "Western Asset",
             "Western LeadBank",
             "Westwood",
-            "Wisdom",
             "WisdomTree",
             "Woori",
             "X-Square",
@@ -23200,8 +23200,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25702,6 +25701,7 @@
             "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
+            "Artemis Corp.",
             "Ashton Thomas Private Wealth LLC",
             "Asia Plus Group Holdings Public Co. Ltd.",
             "Asset Management One Co., Ltd.",
@@ -26257,7 +26257,6 @@
             "Soundwatch Capital LLC",
             "Sovereign's Capital Management LLC",
             "Spear Advisors LLC",
-            "Spend Life Wisely Co., Inc.",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
             "Standard Bank Group Ltd.",

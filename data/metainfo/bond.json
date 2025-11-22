@@ -777,7 +777,6 @@
             "BIST:VESTL",
             "BIST:YKBNK",
             "BIST:ZOREN",
-            "BIVA:AMBAC",
             "BIVA:COOP",
             "BIVA:FIEMEX/25-2D",
             "BIVA:SNRE/N",
@@ -881,6 +880,7 @@
             "BMV:LIVEPOL/1",
             "BMV:NEMAK/A",
             "BMV:ORBIA",
+            "BMV:OSG",
             "BMV:PE_OLES",
             "BMV:POSADAS/A",
             "BMV:TLEVISA/A",
@@ -2523,6 +2523,7 @@
             "NYSE:BDC",
             "NYSE:BDN",
             "NYSE:BDX",
+            "NYSE:BE",
             "NYSE:BEN",
             "NYSE:BF.A",
             "NYSE:BFH",
@@ -5251,6 +5252,7 @@
             "MYX:AFFIN",
             "MYX:BJCORP",
             "MYX:CAPITALA",
+            "MYX:MAYBANK",
             "MYX:RHBBANK",
             "MYX:TENAGA",
             "NASDAQ:AAOI",
@@ -6000,6 +6002,7 @@
             "NYSE:BCSF",
             "NYSE:BDC",
             "NYSE:BDX",
+            "NYSE:BE",
             "NYSE:BEN",
             "NYSE:BF.A",
             "NYSE:BFH",
@@ -8017,9 +8020,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -8217,7 +8218,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
@@ -8626,7 +8626,6 @@
             "OX",
             "PA",
             "PC",
-            "PD",
             "PE",
             "PG",
             "PI",
@@ -8843,8 +8842,7 @@
         "n": "value-unit-id",
         "t": "text",
         "r": [
-            "PCTPAR",
-            "PCTYTM"
+            "PCTPAR"
         ]
     },
     {
