@@ -14867,13 +14867,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14881,7 +14874,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14895,7 +14888,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14903,6 +14896,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22372,6 +22372,7 @@
             "Western Asset",
             "Western LeadBank",
             "Westwood",
+            "Wisdom",
             "WisdomTree",
             "Woori",
             "X-Square",
@@ -26257,6 +26258,7 @@
             "Soundwatch Capital LLC",
             "Sovereign's Capital Management LLC",
             "Spear Advisors LLC",
+            "Spend Life Wisely Co., Inc.",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
             "Standard Bank Group Ltd.",
