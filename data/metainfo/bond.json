@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -1620,7 +1621,6 @@
             "MIL:PRY",
             "MIL:PST",
             "MIL:RACE",
-            "MIL:SGF",
             "MIL:SPM",
             "MIL:SRG",
             "MIL:TIP",
@@ -2350,6 +2350,7 @@
             "NSE:RELIANCE",
             "NSE:RENUKA",
             "NSE:RPOWER",
+            "NSE:RSYSTEMS",
             "NSE:RUSTOMJEE",
             "NSE:SADBHAV",
             "NSE:SAMMAANCAP",
@@ -2784,7 +2785,6 @@
             "NYSE:GEO",
             "NYSE:GES",
             "NYSE:GFF",
-            "NYSE:GHC",
             "NYSE:GIS",
             "NYSE:GL",
             "NYSE:GLP",
@@ -2793,7 +2793,6 @@
             "NYSE:GME",
             "NYSE:GNL",
             "NYSE:GNW",
-            "NYSE:GOLF",
             "NYSE:GPC",
             "NYSE:GPI",
             "NYSE:GPN",
@@ -5060,7 +5059,6 @@
             "LS:934398",
             "LS:A0JLZ7",
             "LS:A0JMQL",
-            "LS:A0N9BM",
             "LS:A0RENJ",
             "LS:A14V4E",
             "LS:A1J0SG",
@@ -5235,7 +5233,6 @@
             "MIL:PRY",
             "MIL:PST",
             "MIL:RACE",
-            "MIL:SGF",
             "MIL:SPM",
             "MIL:SRG",
             "MIL:TIP",
@@ -5866,6 +5863,7 @@
             "NSE:RELIANCE",
             "NSE:RENUKA",
             "NSE:RPOWER",
+            "NSE:RSYSTEMS",
             "NSE:RUSTOMJEE",
             "NSE:SAMMAANCAP",
             "NSE:SANDUMA",
@@ -5897,6 +5895,7 @@
             "NSE:TATACOMM",
             "NSE:TATAPOWER",
             "NSE:TATASTEEL",
+            "NSE:TMCV",
             "NSE:TMPV",
             "NSE:TORNTPOWER",
             "NSE:TRU",
@@ -6223,7 +6222,6 @@
             "NYSE:GEO",
             "NYSE:GES",
             "NYSE:GFF",
-            "NYSE:GHC",
             "NYSE:GIS",
             "NYSE:GL",
             "NYSE:GLP",
@@ -7737,6 +7735,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CG",
             "CH",
@@ -8021,7 +8020,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -8219,6 +8219,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
