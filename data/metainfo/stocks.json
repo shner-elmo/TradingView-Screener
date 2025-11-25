@@ -14867,13 +14867,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14881,7 +14874,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,6 +14882,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -26010,6 +26010,7 @@
             "Investo Gest\u00e3o de Recursos Ltda.",
             "Investor Asset Management BV",
             "IronHorse Holdings LLC",
+            "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
             "J Lamarck SpA",
