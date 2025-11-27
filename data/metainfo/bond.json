@@ -1195,7 +1195,6 @@
             "HAM:B4B",
             "HAM:HBM",
             "HAM:LOU",
-            "HAM:NIIN",
             "HAM:SWVK",
             "HAM:TC1",
             "HAM:VG1",
@@ -1847,7 +1846,6 @@
             "NASDAQ:GILD",
             "NASDAQ:GLAD",
             "NASDAQ:GLDD",
-            "NASDAQ:GLIBA",
             "NASDAQ:GLNG",
             "NASDAQ:GLPI",
             "NASDAQ:GOOG",
@@ -1905,6 +1903,7 @@
             "NASDAQ:LAB",
             "NASDAQ:LAMR",
             "NASDAQ:LAZR",
+            "NASDAQ:LBRDA",
             "NASDAQ:LCID",
             "NASDAQ:LGIH",
             "NASDAQ:LILA",
@@ -2143,7 +2142,6 @@
             "NASDAQ:WFRD",
             "NASDAQ:WHF",
             "NASDAQ:WIX",
-            "NASDAQ:WMG",
             "NASDAQ:WSBC",
             "NASDAQ:WSC",
             "NASDAQ:WSFS",
@@ -4918,7 +4916,6 @@
             "HAM:B4B",
             "HAM:HBM",
             "HAM:LOU",
-            "HAM:NIIN",
             "HAM:SWVK",
             "HAM:TC1",
             "HAM:VG1",
@@ -8219,7 +8216,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
