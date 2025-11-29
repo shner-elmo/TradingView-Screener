@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12052,6 +12045,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19008,12 +19008,10 @@
             "Buff Doge Coin",
             "COTI",
             "CROSS",
-            "CUDIS",
             "Camelot Token",
             "Cardano",
             "Cartesi",
             "Celestia",
-            "ChainOpera AI",
             "Chainlink",
             "Chia",
             "Chiliz",
@@ -19058,6 +19056,7 @@
             "FLARE",
             "FLOKI",
             "FTX Token",
+            "FWOG (SOL)",
             "Falcon Finance",
             "Fartcoin",
             "Fear",
@@ -19090,6 +19089,7 @@
             "IOTA",
             "Illuvium",
             "Immutable",
+            "Impossible Cloud Network",
             "Index Cooperative",
             "Injective",
             "Internet Computer",
@@ -19108,6 +19108,7 @@
             "Keeta",
             "Kite",
             "KuCoin Token",
+            "Kusama",
             "Lido DAO",
             "Lido Staked ETH",
             "Linea",
@@ -19201,6 +19202,7 @@
             "SP500 tokenized ETF (xStock)",
             "STO CHAIN",
             "SUPRA",
+            "Santos FC Fan Token",
             "Sapien",
             "Saros",
             "Secret",
@@ -19218,7 +19220,6 @@
             "Story",
             "Subsquid",
             "Sui",
-            "Sun (New)",
             "SuperRare",
             "SuperVerse",
             "SushiSwap",
@@ -19376,7 +19377,6 @@
             "XTVCCLANKER",
             "XTVCCMC20",
             "XTVCCMETH",
-            "XTVCCOAICH",
             "XTVCCOMP",
             "XTVCCOT",
             "XTVCCOTI",
@@ -19385,7 +19385,6 @@
             "XTVCCRV",
             "XTVCCTC",
             "XTVCCTSI",
-            "XTVCCUDIS",
             "XTVCCVX",
             "XTVCDA",
             "XTVCDAI",
@@ -19431,6 +19430,7 @@
             "XTVCFOLKS",
             "XTVCFOREX",
             "XTVCFTT",
+            "XTVCFWOG2",
             "XTVCGAIB",
             "XTVCGALA",
             "XTVCGAS",
@@ -19454,6 +19454,7 @@
             "XTVCHNT",
             "XTVCHYPEH",
             "XTVCHYPERL",
+            "XTVCICNT",
             "XTVCICP",
             "XTVCILV",
             "XTVCIMX",
@@ -19474,6 +19475,7 @@
             "XTVCKCS",
             "XTVCKITE",
             "XTVCKMNO",
+            "XTVCKSM",
             "XTVCKTA",
             "XTVCLAYERS",
             "XTVCLDO",
@@ -19560,6 +19562,7 @@
             "XTVCRUNE",
             "XTVCRVN",
             "XTVCSAND",
+            "XTVCSANTOS",
             "XTVCSAPIEN",
             "XTVCSAROS",
             "XTVCSCRT",
@@ -19579,7 +19582,6 @@
             "XTVCSTRKS",
             "XTVCSTXS",
             "XTVCSUI",
-            "XTVCSUN",
             "XTVCSUPER",
             "XTVCSUPRA",
             "XTVCSUSHI",
@@ -19714,8 +19716,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {

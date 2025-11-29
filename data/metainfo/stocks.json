@@ -14864,13 +14864,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14878,7 +14871,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14892,7 +14885,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14900,6 +14893,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22085,6 +22085,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -22152,6 +22153,7 @@
             "QuantaShares",
             "Quantify Funds",
             "Quantum",
+            "Quay",
             "RAFI Indices",
             "RAM",
             "RBC",
@@ -22211,6 +22213,7 @@
             "SWP",
             "SWS",
             "Saba",
+            "Safello",
             "Safra",
             "Samsung",
             "SanJac Alpha",
@@ -22224,7 +22227,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -22366,7 +22368,6 @@
             "Wanjia",
             "WarCap",
             "WaveFront",
-            "Wayfinder",
             "WealthTrust",
             "Wedbush",
             "Weitz",
@@ -22643,6 +22644,7 @@
             "7",
             "70",
             "71",
+            "75",
             "8"
         ]
     },
@@ -23201,8 +23203,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23993,12 +23994,15 @@
             "2191",
             "2193",
             "2194",
+            "2195",
             "2196",
             "2198",
             "22",
             "2200",
             "2201",
             "2202",
+            "2203",
+            "2204",
             "2205",
             "2208",
             "23",
@@ -25923,7 +25927,6 @@
             "GQG Partners, Inc.",
             "Galapagos Capital Investimentos e Participa\u00e7\u00f5es Ltda.",
             "Galaxy Fund Management Co., Ltd.",
-            "Gladius Capital Management LP",
             "Global X Japan Co., Ltd.",
             "Global X Management Co. (Europe) Ltd.",
             "Globinvest SAI SA",
@@ -26020,7 +26023,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -27203,12 +27205,20 @@
             "9574",
             "9575",
             "9576",
+            "9578",
+            "9580",
+            "9581",
+            "9582",
+            "9583",
+            "9584",
             "9585",
             "9587",
             "9590",
+            "9591",
             "9592",
             "9594",
             "9595",
+            "9596",
             "9597",
             "9598",
             "9600",
