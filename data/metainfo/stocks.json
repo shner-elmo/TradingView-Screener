@@ -14864,14 +14864,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23204,7 +23204,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -23795,7 +23796,6 @@
         "t": "text",
         "r": [
             "2024-H2",
-            "2024-Q3",
             "2024-Q4",
             "2025-H1",
             "2025-H2",
@@ -23835,7 +23835,6 @@
         "n": "fiscal_period_fy",
         "t": "text",
         "r": [
-            "2023",
             "2024",
             "2025"
         ]

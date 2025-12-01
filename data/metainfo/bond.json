@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -2406,7 +2407,6 @@
             "NSENG:UBA",
             "NYSE:A",
             "NYSE:AA",
-            "NYSE:AAMI",
             "NYSE:AAP",
             "NYSE:AAT",
             "NYSE:ABBV",
@@ -4245,7 +4245,6 @@
             "TSX:MRG.UN",
             "TSX:MRT.UN",
             "TSX:MRU",
-            "TSX:MTL",
             "TSX:MX",
             "TSX:NA",
             "TSX:NFI",
@@ -4468,7 +4467,6 @@
             "ASX:APZ",
             "ASX:BEN",
             "ASX:BOQ",
-            "ASX:CAM",
             "ASX:CBA",
             "ASX:CIA",
             "ASX:DNL",
@@ -4573,7 +4571,6 @@
             "BIST:YKBNK",
             "BIST:ZOREN",
             "BIVA:FL",
-            "BIVA:MEG/N",
             "BIVA:SOMA/21",
             "BME:ACS",
             "BME:ADX",
@@ -5695,7 +5692,6 @@
             "NASDAQ:ZYXI",
             "NEWCONNECT:ADX",
             "NEWCONNECT:INS",
-            "NSE:818TFSIL27.N0",
             "NSE:AADHARHFC",
             "NSE:AAVAS",
             "NSE:ABCAPITAL",
@@ -5914,7 +5910,6 @@
             "NSENG:FIDELITYBK",
             "NSENG:UBA",
             "NYSE:A",
-            "NYSE:AAMI",
             "NYSE:AAP",
             "NYSE:ABBV",
             "NYSE:ABG",
@@ -7424,7 +7419,6 @@
             "TSX:MRG.UN",
             "TSX:MRT.UN",
             "TSX:MRU",
-            "TSX:MTL",
             "TSX:MX",
             "TSX:NA",
             "TSX:NFI",
@@ -7731,6 +7725,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CG",
             "CH",
@@ -7946,7 +7941,6 @@
             "daily",
             "every-28-days",
             "every-4-months",
-            "every-5-months",
             "every-91-days",
             "monthly",
             "on-aperiodic-schedule",
@@ -8015,7 +8009,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -8213,6 +8208,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
