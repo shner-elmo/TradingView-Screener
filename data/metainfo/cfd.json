@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12072,7 +12065,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12080,6 +12073,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19017,6 +19017,7 @@
             "Chia",
             "Chiliz",
             "CoinMarketCap 20 Index DTF",
+            "Collaterize",
             "Compound",
             "Conflux",
             "Convex Finance",
@@ -19041,6 +19042,7 @@
             "Dusk",
             "Dymension",
             "EOS",
+            "EURC",
             "EVAA Protocol",
             "Edelcoin",
             "EigenLayer",
@@ -19071,7 +19073,6 @@
             "Gala",
             "Gas",
             "GateToken",
-            "Gemini Dollar",
             "Global DePIN Chain",
             "Gnosis",
             "Golem",
@@ -19118,6 +19119,7 @@
             "Lista DAO",
             "Litecoin",
             "MANTRA",
+            "MBD Financials",
             "MOG Coin",
             "MYX Finance",
             "Maker",
@@ -19152,6 +19154,7 @@
             "Nervos Network",
             "Nexo",
             "Nillion",
+            "Notcoin",
             "Numeraire",
             "OG Fan Token",
             "OKB",
@@ -19381,6 +19384,7 @@
             "XTVCCLANKER",
             "XTVCCMC20",
             "XTVCCOAICH",
+            "XTVCCOLLAT",
             "XTVCCOMP",
             "XTVCCOT",
             "XTVCCOTI",
@@ -19419,6 +19423,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCEURC",
             "XTVCEVAAP",
             "XTVCFARTCOIN",
             "XTVCFDUSD",
@@ -19448,7 +19453,6 @@
             "XTVCGROK",
             "XTVCGRT",
             "XTVCGT",
-            "XTVCGUSD",
             "XTVCH",
             "XTVCH1",
             "XTVCHAJIMI",
@@ -19496,6 +19500,7 @@
             "XTVCMANA",
             "XTVCMANTA",
             "XTVCMAVIA",
+            "XTVCMBD",
             "XTVCMEMECORE",
             "XTVCMERL",
             "XTVCMETA",
@@ -19518,6 +19523,7 @@
             "XTVCNFT",
             "XTVCNIL",
             "XTVCNMR",
+            "XTVCNOT",
             "XTVCNVDAON",
             "XTVCNVDAX",
             "XTVCNXPC",
@@ -19725,7 +19731,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
