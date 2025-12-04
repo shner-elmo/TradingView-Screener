@@ -14851,13 +14851,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14865,7 +14858,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14879,7 +14872,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14887,6 +14880,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23204,6 +23204,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25353,7 +25354,6 @@
             "LifeSci Index Partners LLC",
             "Ljubljanska Borza dd",
             "London Platinum & Palladium Market",
-            "Loup Ventures GP I LLC",
             "Lukka, Inc.",
             "Lunt Capital Management, Inc.",
             "MSCI, Inc.",
@@ -25836,6 +25836,7 @@
             "Daishin Securities Co., Ltd.",
             "Daiwa Securities Group, Inc.",
             "Dakota Wealth Management LLC (Florida)",
+            "Dana Investment Advisors, Inc.",
             "Danofe Trading Ltd.",
             "David Young & Sandra G. Glain Family Trust",
             "Davis Selected Advisers LP",
@@ -26368,6 +26369,7 @@
             "Virtus Investment Partners, Inc.",
             "Volatility Shares LLC",
             "Vontobel Holding AG",
+            "Voya Financial, Inc.",
             "WBI Trading Co., Inc.",
             "WEBs Investments, Inc.",
             "Wahed Invest LLC",
@@ -26393,7 +26395,6 @@
             "Yelin Lapidot Investment Portfolio Management Ltd.",
             "Yingda Asset Management Co., Ltd.",
             "Yinhua Fund Management Co., Ltd.",
-            "Yongying Fund Management Co., Ltd.",
             "Yuanta Financial Holding Co. Ltd.",
             "Yuanta Securities Co. Ltd.",
             "Zerodha Asset Management Pvt Ltd.",
