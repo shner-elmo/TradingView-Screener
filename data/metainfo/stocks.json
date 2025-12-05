@@ -2361,7 +2361,6 @@
             "France",
             "Gabon",
             "Germany",
-            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -14851,13 +14850,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14865,7 +14857,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14879,7 +14871,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14887,6 +14879,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21634,7 +21633,6 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -21877,7 +21875,6 @@
             "Harvest ETFs",
             "Harvest Funds",
             "Hashdex",
-            "Hauck & Aufhuser",
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
@@ -23014,7 +23011,6 @@
             "FR",
             "GA",
             "GB",
-            "GH",
             "GI",
             "GL",
             "GR",

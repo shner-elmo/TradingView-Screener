@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12066,6 +12059,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18991,6 +18991,7 @@
             "Baby Doge Coin",
             "Basic Attention Token",
             "Berachain",
+            "Bi An Holder",
             "Bistroo",
             "BitDAO",
             "BitShiba",
@@ -19081,7 +19082,6 @@
             "Hamster Kombat",
             "HarryPotterObamaSonic10Inu (ERC-20)",
             "Hashflow",
-            "Haven1",
             "Hedera",
             "Helium",
             "Hemi",
@@ -19110,6 +19110,7 @@
             "Kamino Finance",
             "Kaspa",
             "Kava",
+            "Keeta",
             "Kite",
             "KuCoin Token",
             "Kusama",
@@ -19146,7 +19147,6 @@
             "NEAR Protocol",
             "NEM",
             "NEXPACE",
-            "NVIDIA Tokenized Stock (Ondo)",
             "NVIDIA tokenized stock (xStock)",
             "Nasdaq tokenized ETF (xStock)",
             "Nasdaq666",
@@ -19221,6 +19221,8 @@
             "Sky",
             "Snake of Solana",
             "Solana",
+            "Solar",
+            "Solayer",
             "Sologenic",
             "Stacks",
             "Starknet",
@@ -19370,6 +19372,7 @@
             "XTVCBLUAI",
             "XTVCBLUM",
             "XTVCBNB",
+            "XTVCBNBHOLDER",
             "XTVCBONK",
             "XTVCBOOM2",
             "XTVCBRICK",
@@ -19455,7 +19458,6 @@
             "XTVCGRT",
             "XTVCGT",
             "XTVCH",
-            "XTVCH1",
             "XTVCHAJIMI",
             "XTVCHBAR",
             "XTVCHEMI",
@@ -19488,6 +19490,8 @@
             "XTVCKITE",
             "XTVCKMNO",
             "XTVCKSM",
+            "XTVCKTA",
+            "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
             "XTVCLINEA",
@@ -19524,7 +19528,6 @@
             "XTVCNIL",
             "XTVCNMR",
             "XTVCNOT",
-            "XTVCNVDAON",
             "XTVCNVDAX",
             "XTVCNXPC",
             "XTVCOG",
@@ -19602,6 +19605,7 @@
             "XTVCSUSHI",
             "XTVCSWCH",
             "XTVCSWFTC",
+            "XTVCSXP",
             "XTVCSYRUP",
             "XTVCTAKE",
             "XTVCTAOB",
