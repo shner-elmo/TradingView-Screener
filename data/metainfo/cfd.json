@@ -12030,13 +12030,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12044,7 +12037,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,7 +12051,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12066,6 +12059,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19018,6 +19018,7 @@
             "Chainlink",
             "Chia",
             "Chiliz",
+            "Codatta",
             "CoinMarketCap 20 Index DTF",
             "Collaterize",
             "Compound",
@@ -19090,6 +19091,7 @@
             "Humanity Protocol",
             "Hyperlane",
             "Hyperliquid",
+            "IOST",
             "IOTA",
             "Illuvium",
             "Immutable",
@@ -19132,6 +19134,7 @@
             "MemeCore",
             "Merlin Chain",
             "Metadium",
+            "Milady Meme Coin",
             "Mina",
             "Minto",
             "Monad",
@@ -19220,6 +19223,7 @@
             "Shiba Inu",
             "Sky",
             "Snake of Solana",
+            "Snek",
             "Solana",
             "Solar",
             "Solayer",
@@ -19238,6 +19242,7 @@
             "Synthetix",
             "THORChain",
             "TQQQ tokenized ETF (xStock)",
+            "TROLL (SOL)",
             "TRON",
             "Telcoin",
             "Tellor",
@@ -19473,6 +19478,7 @@
             "XTVCIMX",
             "XTVCINDEX",
             "XTVCINJ",
+            "XTVCIOST",
             "XTVCIOTA",
             "XTVCIP",
             "XTVCIRYS",
@@ -19491,6 +19497,7 @@
             "XTVCKMNO",
             "XTVCKSM",
             "XTVCKTA",
+            "XTVCLADYS",
             "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLEO",
@@ -19590,6 +19597,7 @@
             "XTVCSILVER3",
             "XTVCSKL",
             "XTVCSKY2",
+            "XTVCSNEK",
             "XTVCSNX",
             "XTVCSOL",
             "XTVCSOLO",
@@ -19620,6 +19628,7 @@
             "XTVCTRAC",
             "XTVCTRADOOR",
             "XTVCTRB",
+            "XTVCTROLLSO",
             "XTVCTRUSTT",
             "XTVCTRX",
             "XTVCTSLAX",
@@ -19663,6 +19672,7 @@
             "XTVCXION",
             "XTVCXLM",
             "XTVCXMR",
+            "XTVCXNY",
             "XTVCXPIN",
             "XTVCXPL",
             "XTVCXPR",
@@ -19736,8 +19746,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
