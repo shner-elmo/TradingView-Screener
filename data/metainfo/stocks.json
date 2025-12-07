@@ -14850,13 +14850,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14864,7 +14857,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14872,6 +14865,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23200,6 +23200,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
@@ -25835,7 +25836,6 @@
             "Defiance ETFs LLC",
             "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
-            "Delaware Management Company Inc",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
