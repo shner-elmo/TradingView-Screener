@@ -12030,14 +12030,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12058,14 +12058,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19094,7 +19094,6 @@
             "Humanity Protocol",
             "Hyperlane",
             "Hyperliquid",
-            "IOST",
             "IOTA",
             "Illuvium",
             "Immutable",
@@ -19138,6 +19137,7 @@
             "Metadium",
             "Milady Meme Coin",
             "Mina",
+            "Mind Network",
             "Minto",
             "Monad",
             "Monero",
@@ -19165,7 +19165,6 @@
             "OG Fan Token",
             "OKB",
             "ORDI",
-            "OVERTAKE",
             "Oasis",
             "Ondo",
             "Onyxcoin",
@@ -19185,7 +19184,6 @@
             "PayPal USD",
             "Pendle",
             "Pepe",
-            "Perpetual Protocol",
             "Pieverse",
             "Pirate Chain",
             "Planck",
@@ -19201,6 +19199,7 @@
             "Quant",
             "Ravencoin",
             "Raydium",
+            "Ready to Fight",
             "Recall Network",
             "Render",
             "Reserve Rights",
@@ -19211,6 +19210,7 @@
             "Rizzmas",
             "RoOLZ",
             "Ronin",
+            "SIDUS",
             "SILVER",
             "SKALE",
             "SP500 tokenized ETF (xStock)",
@@ -19260,6 +19260,7 @@
             "Tether USDt",
             "Tezos",
             "The Graph",
+            "The Next Bitcoin",
             "The Root Network",
             "The Sandbox",
             "Theta Network",
@@ -19308,6 +19309,7 @@
             "Zcash",
             "Zebec Network",
             "Zerebro",
+            "Zynecoin",
             "ai16z",
             "aixbt",
             "dYdX (ethDYDX)",
@@ -19388,6 +19390,7 @@
             "XTVCBSV",
             "XTVCBTC",
             "XTVCBTCMT",
+            "XTVCBUTTCOIN",
             "XTVCCAKE",
             "XTVCCELO",
             "XTVCCFX",
@@ -19446,6 +19449,7 @@
             "XTVCFEAR",
             "XTVCFET",
             "XTVCFF",
+            "XTVCFHE",
             "XTVCFIL",
             "XTVCFIRO",
             "XTVCFLOCK",
@@ -19485,7 +19489,6 @@
             "XTVCIMX",
             "XTVCINDEX",
             "XTVCINJ",
-            "XTVCIOST",
             "XTVCIOTA",
             "XTVCIP",
             "XTVCIRYS",
@@ -19559,7 +19562,6 @@
             "XTVCPEAQ",
             "XTVCPENDLE",
             "XTVCPEPE",
-            "XTVCPERP",
             "XTVCPIEVERSE",
             "XTVCPIPPIN",
             "XTVCPIVX",
@@ -19589,6 +19591,7 @@
             "XTVCROOT",
             "XTVCROSE",
             "XTVCRSR",
+            "XTVCRTF",
             "XTVCRUNE",
             "XTVCRVN",
             "XTVCSAHARA",
@@ -19601,6 +19604,7 @@
             "XTVCSFUND",
             "XTVCSHIB",
             "XTVCSHIBA",
+            "XTVCSIDUS",
             "XTVCSILVER3",
             "XTVCSKL",
             "XTVCSKY2",
@@ -19623,7 +19627,6 @@
             "XTVCSWFTC",
             "XTVCSXP",
             "XTVCSYRUP",
-            "XTVCTAKE",
             "XTVCTAOB",
             "XTVCTEL",
             "XTVCTHETA",
@@ -19698,7 +19701,8 @@
             "XTVCZEREBRO",
             "XTVCZKP",
             "XTVCZORA2",
-            "XTVCZRX"
+            "XTVCZRX",
+            "XTVCZYN"
         ]
     },
     {
@@ -19754,7 +19758,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

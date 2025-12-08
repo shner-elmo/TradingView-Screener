@@ -14850,14 +14850,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21875,6 +21875,7 @@
             "Harvest ETFs",
             "Harvest Funds",
             "Hashdex",
+            "Hauck & Aufhuser",
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
@@ -23201,7 +23202,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -28359,7 +28361,6 @@
             "35",
             "4",
             "41",
-            "42",
             "48",
             "49",
             "5"
@@ -28601,7 +28602,6 @@
             "RU",
             "RW",
             "SA",
-            "SB",
             "SD",
             "SE",
             "SG",
