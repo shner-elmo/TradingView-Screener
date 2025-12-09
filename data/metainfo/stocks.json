@@ -1364,10 +1364,6 @@
                 "name": "NGX 30"
             },
             {
-                "id": "NYSE:XMI",
-                "name": "NYSE Arca Major Market"
-            },
-            {
                 "id": "NZX:NZ50G",
                 "name": "S&P/NZX 50"
             },
@@ -14850,14 +14846,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14878,13 +14874,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -14892,7 +14881,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14900,6 +14889,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21720,6 +21716,7 @@
             "Cullen",
             "Cultivar",
             "D-X Funds",
+            "DAC",
             "DB",
             "DDA",
             "DGA",
@@ -21875,7 +21872,6 @@
             "Harvest ETFs",
             "Harvest Funds",
             "Hashdex",
-            "Hauck & Aufhuser",
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
@@ -25087,7 +25083,6 @@
             "SYML:NSE;NIFTY_OIL_AND_GAS",
             "SYML:NSE;NIFTY_TOTAL_MKT",
             "SYML:NSENG;NGX30",
-            "SYML:NYSE;XMI",
             "SYML:NZX;NZ50G",
             "SYML:OMXCOP;OMXC25",
             "SYML:OMXHEX;OMXH25",
@@ -28602,6 +28597,7 @@
             "RU",
             "RW",
             "SA",
+            "SB",
             "SD",
             "SE",
             "SG",
