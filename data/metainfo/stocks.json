@@ -14846,13 +14846,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14860,7 +14853,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14868,6 +14861,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21592,7 +21592,6 @@
             "Avantis",
             "Axis",
             "Axxion",
-            "Azoria",
             "Aztlan",
             "BB",
             "BB DTVM",
@@ -22058,7 +22057,6 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -23197,6 +23195,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23992,6 +23991,7 @@
             "2198",
             "22",
             "2200",
+            "2202",
             "2203",
             "2204",
             "2205",
@@ -25413,7 +25413,6 @@
             "Taiwan Index Plus Corp.",
             "Taiwan Stock Exchange Corp.",
             "Teucrium Trading LLC",
-            "Texas Capital Bank",
             "The Belgrade Stock Exchange",
             "The London Bullion Market Association",
             "The London Metal Exchange",
@@ -25694,12 +25693,12 @@
             "Antipodes Partners Ltd.",
             "Aoris Investment Management (Pty) Ltd.",
             "Aptus Holdings LLC",
+            "Arax Investment Partners LLC",
             "Ardea Investment Management Pty Ltd.",
             "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
             "Artemis Corp.",
-            "Ashton Thomas Private Wealth LLC",
             "Asia Plus Group Holdings Public Co. Ltd.",
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
@@ -25832,7 +25831,6 @@
             "Deegan Holdings LLC",
             "Defiance ETFs LLC",
             "Deka Investment GmbH",
-            "DekaBank Deutsche Girozentrale",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
@@ -26118,7 +26116,6 @@
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -28226,6 +28223,7 @@
         "t": "text",
         "r": [
             "country/AE",
+            "country/ZA",
             "source/ADX",
             "source/AMEX",
             "source/AQUIS",
@@ -28271,7 +28269,6 @@
             "source/HNX",
             "source/HOSE",
             "source/IDX",
-            "source/JSE",
             "source/KRX",
             "source/KSE",
             "source/LS",
@@ -28356,6 +28353,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"
