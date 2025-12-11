@@ -3839,6 +3839,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14846,13 +14847,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -14860,7 +14854,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14874,7 +14868,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14888,7 +14882,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14896,6 +14890,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22359,6 +22360,7 @@
             "Wahed",
             "Wanjia",
             "WarCap",
+            "Warren",
             "WaveFront",
             "Wayfinder",
             "WealthTrust",
@@ -23133,6 +23135,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -23195,7 +23198,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25570,6 +25572,11 @@
         "r": null
     },
     {
+        "n": "ipo_offer_price_performance",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "ipo_offer_price_usd",
         "t": "number",
         "r": null
@@ -25831,6 +25838,7 @@
             "Deegan Holdings LLC",
             "Defiance ETFs LLC",
             "Deka Investment GmbH",
+            "DekaBank Deutsche Girozentrale",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
