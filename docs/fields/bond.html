@@ -257,6 +257,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>accrued_coupon_interest</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
       <td>all_time_high</td>
       <td></td>
       <td>price</td>
@@ -280,6 +285,11 @@
       <td>all_time_open</td>
       <td></td>
       <td>price</td>
+    </tr>
+    <tr>
+      <td>amount_outstanding_ratio</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>ask_net</td>
@@ -317,14 +327,54 @@
       <td>percent</td>
     </tr>
     <tr>
+      <td>bond_agents</td>
+      <td></td>
+      <td>interface</td>
+    </tr>
+    <tr>
       <td>bond_investment_grade</td>
       <td></td>
       <td>number</td>
     </tr>
     <tr>
+      <td>bond_issuer_cr_parent</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>bond_issuer_cr_parent_stock_symbol</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_outlook_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_outlook_st</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_rating_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_rating_lt_h</td>
+      <td></td>
+      <td>interface</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_rating_st</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_issuer_snp_rating_st_h</td>
+      <td></td>
+      <td>interface</td>
     </tr>
     <tr>
       <td>bond_issuer_stock_symbol</td>
@@ -337,9 +387,44 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>bond_snp_outlook_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_snp_rating_lt</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>bond_snp_rating_lt_h</td>
+      <td></td>
+      <td>interface</td>
+    </tr>
+    <tr>
+      <td>bond_type_gen</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>bus_day_conv_method</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>call_frequency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>call_next_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>call_next_price</td>
+      <td></td>
+      <td>percent</td>
     </tr>
     <tr>
       <td>call_option</td>
@@ -355,6 +440,11 @@
       <td>close_pct</td>
       <td></td>
       <td>percent</td>
+    </tr>
+    <tr>
+      <td>conversion_option</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>country_code</td>
@@ -377,7 +467,32 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>coupon_change_type</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>coupon_currency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_date_next</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>coupon_date_prev</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>coupon_daycount_type</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_exdate_gap</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -392,7 +507,62 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>coupon_link</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_next_reset_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>coupon_pmt_date_type</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_rate_ceiling</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>coupon_rate_floor</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>coupon_reset_frequency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_type_current</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>coupon_type_general</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>coupon_underlying_index</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>covenant</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>credit_enhancement_status</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>credit_enhancement_type</td>
       <td></td>
       <td>text</td>
     </tr>
@@ -427,6 +597,11 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>current_yield</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
       <td>daily-bar.time</td>
       <td></td>
       <td>number</td>
@@ -435,6 +610,11 @@
       <td>days_to_maturity</td>
       <td></td>
       <td>number</td>
+    </tr>
+    <tr>
+      <td>denom_increment</td>
+      <td></td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>denom_min</td>
@@ -455,6 +635,11 @@
       <td>expiration</td>
       <td></td>
       <td>time</td>
+    </tr>
+    <tr>
+      <td>final_redemption_amount</td>
+      <td></td>
+      <td>percent</td>
     </tr>
     <tr>
       <td>forex_priority</td>
@@ -507,6 +692,11 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>inflation_protection</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>is_blacklisted</td>
       <td></td>
       <td>bool</td>
@@ -522,9 +712,19 @@
       <td>bool</td>
     </tr>
     <tr>
+      <td>issue_amount</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
       <td>issue_date</td>
       <td></td>
       <td>time</td>
+    </tr>
+    <tr>
+      <td>issue_status</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>kind</td>
@@ -552,6 +752,26 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>make_whole_call_end_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>make_whole_call_option</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>make_whole_call_spread</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>make_whole_call_start_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
       <td>market</td>
       <td></td>
       <td>text</td>
@@ -560,6 +780,11 @@
       <td>maturity_date</td>
       <td></td>
       <td>time-yyyymmdd</td>
+    </tr>
+    <tr>
+      <td>maturity_type</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>measure</td>
@@ -592,6 +817,21 @@
       <td>fundamental_price</td>
     </tr>
     <tr>
+      <td>offer_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>offer_price_pct</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>offer_type</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>original_maturity</td>
       <td></td>
       <td>number</td>
@@ -600,6 +840,26 @@
       <td>outstanding_amount</td>
       <td></td>
       <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>ownership_form</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>placement_type</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>pledge_status</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>poison_put_option</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>popularity_rank</td>
@@ -622,14 +882,39 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>premature_redemption</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>pricescale</td>
       <td></td>
       <td>number</td>
     </tr>
     <tr>
+      <td>principal_redemption_type</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>provider-id</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>put_frequency</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>put_next_date</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>put_next_price</td>
+      <td></td>
+      <td>percent</td>
     </tr>
     <tr>
       <td>put_option</td>
@@ -702,6 +987,16 @@
       <td>map</td>
     </tr>
     <tr>
+      <td>redemption_type</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>redemptions_h</td>
+      <td></td>
+      <td>interface</td>
+    </tr>
+    <tr>
       <td>region</td>
       <td></td>
       <td>text</td>
@@ -710,6 +1005,21 @@
       <td>rtc</td>
       <td></td>
       <td>price</td>
+    </tr>
+    <tr>
+      <td>seniority_level</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>sinking_fund</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>social_responsibility</td>
+      <td></td>
+      <td>text</td>
     </tr>
     <tr>
       <td>source-logoid</td>
@@ -752,6 +1062,11 @@
       <td>time</td>
     </tr>
     <tr>
+      <td>use_of_proceeds</td>
+      <td></td>
+      <td>set</td>
+    </tr>
+    <tr>
       <td>value-unit-id</td>
       <td></td>
       <td>text</td>
@@ -772,7 +1087,22 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>yield_to_call</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
       <td>yield_to_maturity</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>yield_to_put</td>
+      <td></td>
+      <td>percent</td>
+    </tr>
+    <tr>
+      <td>yield_to_worst</td>
       <td></td>
       <td>percent</td>
     </tr>
@@ -780,16 +1110,16 @@
     <tfoot>
     <tr>
       <th scope="row">Fields</th>
-      <td>135</td>
+      <td>201</td>
     </tr>
     <tr>
       <th scope="row">Deduplicated fields</th>
-      <td>135</td>
+      <td>201</td>
     </tr>
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2025-12-11 07:16:18</mark>
+    <mark>Last updated: 2025-12-12 07:14:26</mark>
   </div>
 </main>
 <script>
