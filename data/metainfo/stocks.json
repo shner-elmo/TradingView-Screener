@@ -14862,13 +14862,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14876,7 +14869,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14890,7 +14883,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14898,6 +14891,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21874,6 +21874,7 @@
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
+            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -22078,7 +22079,6 @@
             "OTG",
             "OTP",
             "Oakmark",
-            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -23200,10 +23200,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24001,6 +23999,7 @@
             "2204",
             "2205",
             "2208",
+            "2210",
             "23",
             "24",
             "2430",
@@ -25977,6 +25976,7 @@
             "Hedge Investments Real Estate Gest\u00e3o de Recursos Ltda.",
             "Hedgeye Risk Management LLC",
             "Hejaz Capital Pty Ltd.",
+            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",

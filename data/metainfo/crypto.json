@@ -12806,14 +12806,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20545,6 +20545,7 @@
             "XTVCHNT",
             "XTVCHONEY",
             "XTVCHONOR",
+            "XTVCHORSES",
             "XTVCHPAY",
             "XTVCHTC",
             "XTVCHTX",
@@ -20709,6 +20710,7 @@
             "XTVCSYND",
             "XTVCSZPN",
             "XTVCT",
+            "XTVCTACETH",
             "XTVCTANGYUAN",
             "XTVCTBTC",
             "XTVCTCVX",
@@ -20794,7 +20796,6 @@
             "XTVCWDOGE",
             "XTVCWEETH",
             "XTVCWETH",
-            "XTVCWEURC",
             "XTVCWFAI",
             "XTVCWFTM",
             "XTVCWIF",
@@ -21655,6 +21656,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
