@@ -1534,7 +1534,6 @@
             "FLOKI",
             "FM",
             "FOMO",
-            "FON",
             "FOOM",
             "FOX",
             "FPI",
@@ -1644,7 +1643,6 @@
             "PENGU",
             "PEPE",
             "PHL",
-            "PI",
             "PLD",
             "PLN",
             "POPCAT",
@@ -1659,6 +1657,7 @@
             "QUICK",
             "RAD",
             "RAY",
+            "RDT",
             "RENBTC",
             "RETH",
             "RG",
@@ -1668,7 +1667,6 @@
             "ROVR",
             "ROX",
             "RSETH",
-            "RZ",
             "RZUSD",
             "SAUL",
             "SAVAX",
@@ -1681,7 +1679,6 @@
             "SHARK",
             "SLERF",
             "SOL",
-            "SOLVBTC",
             "SPA",
             "SPX",
             "SQUID",
@@ -1746,7 +1743,6 @@
             "USDTB",
             "USDTE",
             "USDU",
-            "USDX",
             "USDZ",
             "USELESS",
             "USN",
@@ -12792,13 +12788,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12806,7 +12795,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12820,7 +12809,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12834,7 +12823,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12842,6 +12831,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20510,7 +20506,6 @@
             "XTVCFLOKI",
             "XTVCFM",
             "XTVCFOMO",
-            "XTVCFON",
             "XTVCFOOM",
             "XTVCFOX",
             "XTVCFPI",
@@ -20648,16 +20643,13 @@
             "XTVCPFUSDC73",
             "XTVCPHL",
             "XTVCPHYSIS",
-            "XTVCPI",
             "XTVCPIAO",
             "XTVCPLD",
-            "XTVCPNTO",
             "XTVCPOFG",
             "XTVCPOPCAT",
             "XTVCPORTALS",
             "XTVCPOT",
             "XTVCPROV",
-            "XTVCPSOL",
             "XTVCPSY",
             "XTVCPUFETH",
             "XTVCPUMP",
@@ -20667,6 +20659,7 @@
             "XTVCQUICK",
             "XTVCRAD",
             "XTVCRAY",
+            "XTVCRDT",
             "XTVCRENBTC",
             "XTVCRETH",
             "XTVCRG",
@@ -20677,7 +20670,6 @@
             "XTVCROX",
             "XTVCRSETH",
             "XTVCRW",
-            "XTVCRZ",
             "XTVCRZUSD",
             "XTVCSAUL",
             "XTVCSAVAX",
@@ -20689,7 +20681,6 @@
             "XTVCSHARK",
             "XTVCSLERF",
             "XTVCSOL",
-            "XTVCSOLVBTC",
             "XTVCSPA",
             "XTVCSPINE",
             "XTVCSPX",
@@ -20768,7 +20759,6 @@
             "XTVCUSDTB",
             "XTVCUSDTE",
             "XTVCUSDU",
-            "XTVCUSDX",
             "XTVCUSDZ",
             "XTVCUSELESS",
             "XTVCUSN",
@@ -20830,7 +20820,6 @@
             "XTVCYAIT",
             "XTVCYBTCB",
             "XTVCYCRV",
-            "XTVCYETH",
             "XTVCYFIE",
             "XTVCYFSX",
             "XTVCYOSTEP",
@@ -21656,7 +21645,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },

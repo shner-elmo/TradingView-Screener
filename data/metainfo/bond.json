@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -13160,7 +13161,6 @@
             "NASDAQ:HOPE",
             "NASDAQ:HQY",
             "NASDAQ:HROW",
-            "NASDAQ:HST",
             "NASDAQ:ICMB",
             "NASDAQ:IDCC",
             "NASDAQ:IEP",
@@ -15537,6 +15537,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CG",
             "CH",
@@ -16262,6 +16263,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },

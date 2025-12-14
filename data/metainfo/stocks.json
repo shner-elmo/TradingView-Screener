@@ -14862,14 +14862,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14890,14 +14890,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21548,6 +21548,7 @@
             "Alexis",
             "Alger",
             "Alinma",
+            "Allfunds",
             "AllianceBernstein",
             "Allianz",
             "AllianzGI",
@@ -25681,6 +25682,8 @@
             "Alger Associates, Inc. (United States)",
             "Alinma Bank",
             "Alkhabeer Capital",
+            "Allfunds Group Plc",
+            "Allfunds Investment Solutions SA",
             "AllianceBernstein LP",
             "Allianz SE",
             "Allspring Group Holdings LLC",
