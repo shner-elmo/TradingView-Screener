@@ -332,6 +332,7 @@
             "LME",
             "MATBAROFEX",
             "MCX",
+            "MIAX",
             "MSEI",
             "MYX",
             "NASDAQDUBAI",
@@ -2457,7 +2458,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -2685,6 +2687,7 @@
             "Commodity/Agriculture/GrainAndSeed/Soybean/Oil",
             "Commodity/Agriculture/GrainAndSeed/Sunflower",
             "Commodity/Agriculture/GrainAndSeed/Wheat",
+            "Commodity/Agriculture/GrainAndSeed/Wheat/HRS",
             "Commodity/Agriculture/GrainAndSeed/Wheat/HRW",
             "Commodity/Agriculture/GrainAndSeed/Wheat/SRW",
             "Commodity/Agriculture/Livestock",
@@ -2864,6 +2867,7 @@
             "source/LME",
             "source/MATBAROFEX",
             "source/MCX",
+            "source/MIAX",
             "source/MSEI",
             "source/MYX",
             "source/NCDEX",
