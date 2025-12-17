@@ -2409,6 +2409,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14848,13 +14849,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -14862,7 +14856,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14876,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14884,6 +14878,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21614,6 +21615,7 @@
             "Bajaj Finserv",
             "Ballast",
             "Bancreek",
+            "Bandhan",
             "Barclays",
             "Baroda",
             "Baron",
@@ -22310,6 +22312,7 @@
             "Towle",
             "TradersAI",
             "Tradr",
+            "Transamerica",
             "Tremblant",
             "Trend ETF",
             "Trigono",
@@ -23076,6 +23079,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "SV",
             "TG",
             "TH",
@@ -25676,6 +25680,7 @@
             "Acquirers Funds LLC",
             "Aditya Birla Sun Life AMC Ltd.",
             "Advent Capital Management LLC",
+            "Aegon Ltd.",
             "Affiliated Managers Group, Inc.",
             "Affin Bank Bhd.",
             "African Bank Holdings Ltd.",
@@ -25737,6 +25742,7 @@
             "Banco Bilbao Vizcaya Argentaria SA",
             "Banco Bradesco SA /Private Group/",
             "Bandhan AMC Ltd.",
+            "Bandhan Financial Services Pvt Ltd.",
             "Bangarra Group Ltd.",
             "Bangkok Bank PCL",
             "Bangkok Capital Asset Management Co. Ltd.",
@@ -25901,7 +25907,6 @@
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "Fidelity Investments Canada ULC",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "Financial Street Securities Co., Ltd.",
@@ -27143,6 +27148,7 @@
             "40",
             "42",
             "43",
+            "4605",
             "47",
             "48",
             "49",
@@ -28376,6 +28382,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"
@@ -28875,6 +28882,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
