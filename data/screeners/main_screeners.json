@@ -121,11 +121,7 @@
                 "market",
                 "sector",
                 "AnalystRating",
-                "AnalystRating.tr",
-                "name",
-                "description",
-                "logoid",
-                "exchange"
+                "AnalystRating.tr"
             ],
             "filter": [
                 {
@@ -255,7 +251,7 @@
                 ]
             }
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'volume',\n     'relative_volume_10d_calc',\n     'market_cap_basic',\n     'fundamental_currency_code',\n     'price_earnings_ttm',\n     'earnings_per_share_diluted_ttm',\n     'earnings_per_share_diluted_yoy_growth_ttm',\n     'dividends_yield_current',\n     'sector.tr',\n     'market',\n     'sector',\n     'AnalystRating',\n     'AnalystRating.tr',\n     'name',\n     'description',\n     'logoid',\n     'exchange',\n )\n .where(col('is_primary') == True)\n .where2(\n     And(\n         Or(\n             And(col('type') == 'stock', col('typespecs').has(['common'])),\n             And(col('type') == 'stock', col('typespecs').has(['preferred'])),\n             And(col('type') == 'dr'),\n             And(col('type') == 'fund', col('typespecs').has_none_of(['etf'])),\n         ),\n         col('typespecs').has_none_of(['pre-ipo']),\n     )\n )\n .order_by('market_cap_basic', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'volume',\n     'relative_volume_10d_calc',\n     'market_cap_basic',\n     'fundamental_currency_code',\n     'price_earnings_ttm',\n     'earnings_per_share_diluted_ttm',\n     'earnings_per_share_diluted_yoy_growth_ttm',\n     'dividends_yield_current',\n     'sector.tr',\n     'market',\n     'sector',\n     'AnalystRating',\n     'AnalystRating.tr',\n )\n .where(col('is_primary') == True)\n .where2(\n     And(\n         Or(\n             And(col('type') == 'stock', col('typespecs').has(['common'])),\n             And(col('type') == 'stock', col('typespecs').has(['preferred'])),\n             And(col('type') == 'dr'),\n             And(col('type') == 'fund', col('typespecs').has_none_of(['etf'])),\n         ),\n         col('typespecs').has_none_of(['pre-ipo']),\n     )\n )\n .order_by('market_cap_basic', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
     },
     {
         "name": "Forex",
@@ -395,11 +391,7 @@
                 "socialdominance",
                 "crypto_common_categories.tr",
                 "TechRating_1D",
-                "TechRating_1D.tr",
-                "base_currency",
-                "base_currency_desc",
-                "base_currency_logoid",
-                "exchange"
+                "TechRating_1D.tr"
             ],
             "ignore_unknown_fields": false,
             "options": {
@@ -418,7 +410,7 @@
                 "coin"
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'crypto_total_rank',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol_cmc',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'TechRating_1D',\n     'TechRating_1D.tr',\n     'base_currency',\n     'base_currency_desc',\n     'base_currency_logoid',\n     'exchange',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'crypto_total_rank',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol_cmc',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'TechRating_1D',\n     'TechRating_1D.tr',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('symbols', {})\n .set_property('ignore_unknown_fields', False))"
     },
     {
         "name": "ETFs",
@@ -442,11 +434,7 @@
                 "nav_total_return.3Y",
                 "expense_ratio",
                 "asset_class.tr",
-                "focus.tr",
-                "name",
-                "description",
-                "logoid",
-                "exchange"
+                "focus.tr"
             ],
             "ignore_unknown_fields": false,
             "options": {
@@ -507,7 +495,7 @@
                 ]
             }
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'Value.Traded',\n     'relative_volume_10d_calc',\n     'aum',\n     'fundamental_currency_code',\n     'nav_total_return.3Y',\n     'expense_ratio',\n     'asset_class.tr',\n     'focus.tr',\n     'name',\n     'description',\n     'logoid',\n     'exchange',\n )\n .where2(And(Or(And(col('typespecs').has(['etf'])), And(col('type') == 'structured'))))\n .order_by('aum', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'Value.Traded',\n     'relative_volume_10d_calc',\n     'aum',\n     'fundamental_currency_code',\n     'nav_total_return.3Y',\n     'expense_ratio',\n     'asset_class.tr',\n     'focus.tr',\n )\n .where2(And(Or(And(col('typespecs').has(['etf'])), And(col('type') == 'structured'))))\n .order_by('aum', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
     },
     {
         "name": "Bonds",

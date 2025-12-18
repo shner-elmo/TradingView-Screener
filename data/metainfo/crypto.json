@@ -1495,6 +1495,7 @@
             "DETH",
             "DINO",
             "DLCBTC",
+            "DM",
             "DOG",
             "DOGE",
             "DOR",
@@ -1662,6 +1663,7 @@
             "SPA",
             "SPX",
             "SQUID",
+            "STEP",
             "STETH",
             "STON",
             "SUI",
@@ -12771,14 +12773,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12799,14 +12801,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20425,6 +20427,7 @@
             "XTVCDETH",
             "XTVCDINO",
             "XTVCDLCBTC",
+            "XTVCDM",
             "XTVCDOG",
             "XTVCDOGE",
             "XTVCDOLLART",
@@ -20489,7 +20492,6 @@
             "XTVCHEXAR",
             "XTVCHFURY",
             "XTVCHGXD",
-            "XTVCHMS",
             "XTVCHONEY",
             "XTVCHONOR",
             "XTVCHORSES",
@@ -20626,6 +20628,7 @@
             "XTVCSPX6",
             "XTVCSQDGN",
             "XTVCSQUID",
+            "XTVCSTEP",
             "XTVCSTETH",
             "XTVCSTON",
             "XTVCSTRAC",
