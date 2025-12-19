@@ -101,11 +101,11 @@
             },
             {
                 "id": "BET:BUMIX",
-                "name": "BUMIX Index"
+                "name": "BUMIX"
             },
             {
                 "id": "BET:BUX",
-                "name": "BUX Index"
+                "name": "BUX"
             },
             {
                 "id": "BIST:X030C",
@@ -453,7 +453,7 @@
             },
             {
                 "id": "BVB:BET",
-                "name": "BET Index"
+                "name": "BET"
             },
             {
                 "id": "BVC:ICAP",
@@ -597,23 +597,23 @@
             },
             {
                 "id": "EURONEXT:ISE20",
-                "name": "ISEQ 20 Index"
+                "name": "ISEQ 20"
             },
             {
                 "id": "EURONEXT:ISEQ",
-                "name": "ISEQ All Share Index"
+                "name": "ISEQ All Share"
             },
             {
                 "id": "EURONEXT:N100",
-                "name": "Euronext 100 Index"
+                "name": "Euronext 100"
             },
             {
                 "id": "EURONEXT:OBX",
-                "name": "OBX Total Return Index"
+                "name": "OBX Total Return"
             },
             {
                 "id": "EURONEXT:OSEBX",
-                "name": "Oslo B\u00f8rs Benchmark Index_GI"
+                "name": "Oslo B\u00f8rs Benchmark"
             },
             {
                 "id": "EURONEXT:PSI20",
@@ -645,11 +645,11 @@
             },
             {
                 "id": "FTSE:F4GBIVA",
-                "name": "FTSE4Good BIVA Index"
+                "name": "FTSE4Good BIVA"
             },
             {
                 "id": "FTSE:FTBIVA",
-                "name": "FTSE BIVA Index"
+                "name": "FTSE BIVA"
             },
             {
                 "id": "FTSE:MCX",
@@ -865,15 +865,15 @@
             },
             {
                 "id": "HSI:HSCEI",
-                "name": "Hang Seng China Enterprises Index"
+                "name": "Hang Seng China Enterprises"
             },
             {
                 "id": "HSI:HSI",
-                "name": "Hang Seng Index"
+                "name": "Hang Seng"
             },
             {
                 "id": "HSI:HSTECH",
-                "name": "Hang Seng TECH Index"
+                "name": "Hang Seng TECH"
             },
             {
                 "id": "IDX:IDX30",
@@ -1065,11 +1065,11 @@
             },
             {
                 "id": "LUXSE:LUXG",
-                "name": "Lux General Index"
+                "name": "Lux General"
             },
             {
                 "id": "LUXSE:LUXX",
-                "name": "LuxX Price Index"
+                "name": "LuxX"
             },
             {
                 "id": "NASDAQ:BANK",
@@ -1117,7 +1117,7 @@
             },
             {
                 "id": "NASDAQ:KFTX",
-                "name": "KBW NASDAQ Financial Technology Index"
+                "name": "KBW NASDAQ Financial Technology"
             },
             {
                 "id": "NASDAQ:NBI",
@@ -1153,7 +1153,7 @@
             },
             {
                 "id": "NASDAQ:NYMETA",
-                "name": "NASDAQ CB Insights Metaverse US Index"
+                "name": "NASDAQ CB Insights Metaverse US"
             },
             {
                 "id": "NASDAQ:OFIN",
@@ -1865,7 +1865,7 @@
             },
             {
                 "id": "TSX:TXSC",
-                "name": "S&P/TSX SmallCap Select Index (CAD)"
+                "name": "S&P/TSX SmallCap Select"
             },
             {
                 "id": "TSX:TXSI",
@@ -14863,13 +14863,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14877,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14891,7 +14884,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14899,6 +14892,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22276,6 +22276,7 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
+            "TBI",
             "TCW",
             "TD",
             "THOR",
@@ -23209,11 +23210,15 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
         ]
+    },
+    {
+        "n": "current_yield",
+        "t": "percent",
+        "r": null
     },
     {
         "n": "days_to_maturity",
@@ -24005,6 +24010,7 @@
             "2198",
             "22",
             "2200",
+            "2201",
             "2202",
             "2203",
             "2204",
@@ -25925,6 +25931,7 @@
             "Foray Enterprises Pty Ltd.",
             "Formidable Asset Management LLC",
             "Fortuna Funds LLC",
+            "Founder ETFs LLC",
             "Founder Fubon Fund Management Co., Ltd.",
             "Franklin Resources, Inc.",
             "Franklin Templeton Fund Adviser LLC",
@@ -25982,6 +25989,7 @@
             "Hamilton Capital Partners, Inc.",
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
+            "Hana Securities Co., Ltd.",
             "Hang Seng Investment Management Ltd.",
             "Harel Insurance Investments & Financial Services Ltd.",
             "Harfor Fund Management Co., Ltd.",
@@ -26069,7 +26077,6 @@
             "LIC Mutual Fund Asset Management Ltd.",
             "Lagan Holding Co. Trust",
             "Langar Holdings, Inc.",
-            "Lanyon Asset Management Pty Ltd.",
             "Lazard, Inc.",
             "Le Mouvement des caisses Desjardins",
             "Legal & General Group Plc",
@@ -26208,6 +26215,7 @@
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
             "ProcureAM LLC",
+            "Proprius Partners Oy",
             "Prospera Funds, Inc.",
             "Prudential Financial, Inc.",
             "Prudential Plc",
@@ -26529,7 +26537,6 @@
             "1636f70a7bf29b6ae3bdd70362782a50",
             "176120eec53119ba0b1bb2b7a4e77538",
             "205b83335c9d5a9dad8dae82e0856c1f",
-            "2c72cb32dc2f849b1df36621bbe622de",
             "3c10eee496eb162ae0ed866403f2f032",
             "40ae032593e6551c0ada26bc3cb0c8a7",
             "49204706ae89a84f49643608a4a1eccb",

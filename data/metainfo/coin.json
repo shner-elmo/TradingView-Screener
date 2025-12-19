@@ -19138,6 +19138,11 @@
         ]
     },
     {
+        "n": "current_yield",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "days_to_maturity",
         "t": "number",
         "r": null
