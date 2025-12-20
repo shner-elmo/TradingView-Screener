@@ -1234,7 +1234,6 @@
             "Aster Group Ltd.",
             "Aston Martin Lagonda Global Holdings Plc",
             "AstraZeneca PLC",
-            "Astronics Corp.",
             "Asurion LLC",
             "Atari SA",
             "Atento SA",
@@ -4520,6 +4519,7 @@
             "Kronos Acquisition Holdings, Inc.",
             "Krung Thai Bank Public Co., Ltd.",
             "Kubota Corp.",
+            "Kudgi Transmission Ltd.",
             "Kunshan Guochuang Investment Group Co., Ltd.",
             "Kunshan Hi-Tech Group Co. Ltd.",
             "Kunshan Transportation Development Holding Group Co., Ltd.",
@@ -4963,6 +4963,7 @@
             "Matesur SA",
             "Mather Foundation Ltd.",
             "Matias Ruiz y Cia SA",
+            "Maticmind SpA",
             "Mativ Holdings, Inc.",
             "Matrix IT Ltd.",
             "Mattamy Homes Ltd.",
@@ -4987,6 +4988,7 @@
             "Mediobanca Banca di Credito Finanziario SpA",
             "Medipower (Overseas) PCL",
             "Mediterranean Towers Ltd.",
+            "Medline Holdings LP",
             "Medtronic Plc",
             "Mega Or Holdings Ltd.",
             "Megaworld Corp.",
@@ -5161,7 +5163,6 @@
             "Motorola Solutions, Inc.",
             "Mount Nittany Medical Center",
             "Movida Participa\u00e7oes SA",
-            "Mozart Holdings LP",
             "Mr. Cooper Group, Inc.",
             "Muangthai Capital Public Co. Ltd.",
             "Muehlhan Holding GmbH",
@@ -5861,7 +5862,6 @@
             "Piedmont Healthcare, Inc.",
             "Piedmont Realty Trust, Inc.",
             "Pierer Konzerngesellschaft mbH",
-            "Pike Corp.",
             "Pilgrim's Pride Corp.",
             "Pinewood Group Ltd.",
             "Ping An Insurance (Group) Co. of China Ltd.",
@@ -9351,7 +9351,6 @@
             "NASDAQ:ASTS",
             "NASDAQ:ATEC",
             "NASDAQ:ATLC",
-            "NASDAQ:ATRO",
             "NASDAQ:AVAV",
             "NASDAQ:AVBH",
             "NASDAQ:AVDL",
@@ -12998,7 +12997,6 @@
             "NASDAQ:ASTS",
             "NASDAQ:ATEC",
             "NASDAQ:ATLC",
-            "NASDAQ:ATRO",
             "NASDAQ:ATVI",
             "NASDAQ:AVAV",
             "NASDAQ:AVBH",
@@ -16254,9 +16252,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -16497,7 +16493,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },

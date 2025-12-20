@@ -14863,14 +14863,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21817,6 +21817,7 @@
             "Formidable",
             "Forstrong",
             "Fortuna",
+            "Founder",
             "Franklin",
             "Franklin Templeton",
             "Free Market",
@@ -23211,8 +23212,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25875,6 +25875,7 @@
             "Dimensional Holdings, Inc.",
             "Distillate Capital Partners LLC",
             "Distribution Cognizant LLC",
+            "Dividend Assets Capital Holdings, Inc.",
             "Dokhod Asset Management Co. OOO",
             "Dongxu Optoelectronic Investment Co., Ltd.",
             "Donoghue Forlines LLC",

@@ -1488,7 +1488,6 @@
             "DAI",
             "DAIE",
             "DDD",
-            "DEGEN",
             "DETH",
             "DINO",
             "DLCBTC",
@@ -1606,7 +1605,6 @@
             "MXN",
             "NEURON",
             "NFX",
-            "NOICE",
             "NUKE",
             "NULL",
             "NVDAX",
@@ -1656,7 +1654,6 @@
             "SEUR",
             "SFL",
             "SGD",
-            "SHARK",
             "SLERF",
             "SOL",
             "SPA",
@@ -1689,6 +1686,7 @@
             "TSLAX",
             "TUSD",
             "TYCOON",
+            "U",
             "UAH",
             "UAHG",
             "UB",
@@ -12783,13 +12781,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12797,7 +12788,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12805,6 +12796,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20333,7 +20331,6 @@
             "XTVCAGEUR",
             "XTVCAICH",
             "XTVCAID",
-            "XTVCAIDAUSDC",
             "XTVCAIOT",
             "XTVCAIXBT",
             "XTVCALD",
@@ -20418,7 +20415,6 @@
             "XTVCDAIE",
             "XTVCDBIT",
             "XTVCDDDD",
-            "XTVCDEGEN",
             "XTVCDETH",
             "XTVCDINO",
             "XTVCDLCBTC",
@@ -20560,7 +20556,6 @@
             "XTVCNEURON",
             "XTVCNFX",
             "XTVCNGP",
-            "XTVCNOICE",
             "XTVCNUKE",
             "XTVCNULL",
             "XTVCNVDAX",
@@ -20617,7 +20612,6 @@
             "XTVCSENTIS",
             "XTVCSEUR",
             "XTVCSFL",
-            "XTVCSHARK",
             "XTVCSLERF",
             "XTVCSOL",
             "XTVCSPA",
@@ -20659,6 +20653,7 @@
             "XTVCTUR",
             "XTVCTUSD",
             "XTVCTYCOON",
+            "XTVCU",
             "XTVCUAHG",
             "XTVCUB",
             "XTVCUCF",
