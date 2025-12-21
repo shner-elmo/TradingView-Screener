@@ -12029,14 +12029,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12057,14 +12057,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18947,6 +18947,7 @@
         "r": [
             "00 Token",
             "0G",
+            "0x Protocol",
             "1inch",
             "AIOZ Network",
             "APENFT",
@@ -18998,8 +18999,8 @@
             "Bitcoin Cash",
             "Bitcoin SV",
             "Bitget Token",
+            "Bitlight",
             "Bittensor",
-            "Bless",
             "BluWhale",
             "Blum",
             "Bonk",
@@ -19032,6 +19033,7 @@
             "Curve DAO Token",
             "DAR Open Network",
             "DIA",
+            "DOGS",
             "DOWGE",
             "Dai",
             "Dash",
@@ -19048,7 +19050,6 @@
             "Dusk",
             "Dymension",
             "EURC",
-            "Edelcoin",
             "EigenLayer",
             "Enjin Coin",
             "Enso",
@@ -19123,6 +19124,7 @@
             "Lista DAO",
             "Lit Protocol",
             "Litecoin",
+            "Livepeer",
             "Loopring",
             "MANTRA",
             "MBD Financials",
@@ -19214,7 +19216,6 @@
             "SKALE",
             "SP500 tokenized ETF (xStock)",
             "SPX6900",
-            "STO CHAIN",
             "SUPRA",
             "Sahara AI",
             "Santos FC Fan Token",
@@ -19389,7 +19390,6 @@
             "XTVCBIST",
             "XTVCBITCOIN",
             "XTVCBITD",
-            "XTVCBLESS",
             "XTVCBLUAI",
             "XTVCBLUM",
             "XTVCBNB",
@@ -19432,6 +19432,7 @@
             "XTVCDJI6930",
             "XTVCDOGE",
             "XTVCDOGECOIN",
+            "XTVCDOGS2",
             "XTVCDOLO",
             "XTVCDOOD",
             "XTVCDOT",
@@ -19439,7 +19440,6 @@
             "XTVCDUSK",
             "XTVCDYDX",
             "XTVCDYM",
-            "XTVCEDLC",
             "XTVCEGLD",
             "XTVCEIGEN",
             "XTVCELIZAOS",
@@ -19518,10 +19518,12 @@
             "XTVCLADYS",
             "XTVCLDO",
             "XTVCLEO",
+            "XTVCLIGHTB",
             "XTVCLINEA",
             "XTVCLINK",
             "XTVCLISTA",
             "XTVCLITKEY",
+            "XTVCLPT",
             "XTVCLRC",
             "XTVCLSK",
             "XTVCLTC",
@@ -19631,7 +19633,6 @@
             "XTVCSPYX",
             "XTVCSQD",
             "XTVCSTEP",
-            "XTVCSTOCH",
             "XTVCSTRKS",
             "XTVCSUI",
             "XTVCSUN",
@@ -19719,7 +19720,8 @@
             "XTVCZEREBRO",
             "XTVCZKP",
             "XTVCZKSY",
-            "XTVCZORA2"
+            "XTVCZORA2",
+            "XTVCZRX"
         ]
     },
     {

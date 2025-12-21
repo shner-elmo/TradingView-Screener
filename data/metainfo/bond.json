@@ -1357,6 +1357,7 @@
             "BCPE Ulysses Intermediate, Inc.",
             "BCR - Brisa Concess\u00e3o Rodovi\u00e1ria SA",
             "BDO Unibank, Inc.",
+            "BDT & MSD Holdings LP",
             "BE Semiconductor Industries NV",
             "BEST SA",
             "BFF Bank SpA",
@@ -4862,7 +4863,6 @@
             "MRRThirteen Ltd.",
             "MS&AD Insurance Group Holdings, Inc.",
             "MSCI, Inc.",
-            "MSD Capital Management LLC",
             "MSU Energy SA",
             "MSU Green Energy SAU",
             "MSU SA",
@@ -12109,7 +12109,6 @@
             "500",
             "530",
             "540",
-            "560",
             "570",
             "580",
             "590",
@@ -16252,6 +16251,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
@@ -16493,6 +16493,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
