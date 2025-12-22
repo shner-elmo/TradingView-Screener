@@ -14863,13 +14863,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14877,7 +14870,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14885,6 +14878,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21878,6 +21878,7 @@
             "Harvest ETFs",
             "Harvest Funds",
             "Hashdex",
+            "Hauck & Aufhuser",
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
@@ -22140,7 +22141,6 @@
             "Premia",
             "Premier ETF",
             "Prescient",
-            "President",
             "Principal",
             "ProShares",
             "Procure",
@@ -23212,7 +23212,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -26211,7 +26212,6 @@
             "Power Financial Corp.",
             "Precidian Investments LLC",
             "Prescient Management Co. RF Pty Ltd.",
-            "President Securities Corp.",
             "Principal Asset Management Bhd.",
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",

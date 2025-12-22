@@ -1523,7 +1523,6 @@
             "FM",
             "FOMO",
             "FOOM",
-            "FOX",
             "FPI",
             "FRAX",
             "FRXETH",
@@ -1597,7 +1596,6 @@
             "MMSC",
             "MNT",
             "MOB",
-            "MONEY",
             "MOON",
             "MSOL",
             "MXN",
@@ -1729,6 +1727,7 @@
             "VUSD",
             "VVS",
             "VVV",
+            "WATER",
             "WAVAX",
             "WBNB",
             "WBTC",
@@ -12751,13 +12750,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12765,7 +12757,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12773,6 +12765,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12793,14 +12792,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20317,7 +20316,6 @@
             "XTVC355758",
             "XTVC3CRV",
             "XTVC738C79",
-            "XTVC9A647F",
             "XTVCACES",
             "XTVCADA",
             "XTVCADS",
@@ -20453,13 +20451,13 @@
             "XTVCFM",
             "XTVCFOMO",
             "XTVCFOOM",
-            "XTVCFOX",
             "XTVCFPI",
             "XTVCFRAX",
             "XTVCFRXETH",
             "XTVCFRXUSD",
             "XTVCFUL",
             "XTVCFUSD",
+            "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXSAVE",
             "XTVCFXUSD",
@@ -20542,7 +20540,6 @@
             "XTVCMMSC",
             "XTVCMNT",
             "XTVCMOB",
-            "XTVCMONEY",
             "XTVCMOON",
             "XTVCMORNINGSTAR",
             "XTVCMOVA",
@@ -20701,6 +20698,7 @@
             "XTVCVUSD",
             "XTVCVVS",
             "XTVCVVV",
+            "XTVCWATER",
             "XTVCWAV3",
             "XTVCWAVAX",
             "XTVCWBNB",
@@ -21568,6 +21566,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
