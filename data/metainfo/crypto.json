@@ -1508,7 +1508,6 @@
             "EUROC",
             "EUROP",
             "EURQ",
-            "EURR",
             "EURS",
             "EUSD",
             "EVC",
@@ -1573,7 +1572,6 @@
             "KTA",
             "KZT",
             "LABUBU",
-            "LAZIO",
             "LDO",
             "LEMX",
             "LINK",
@@ -12792,14 +12790,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20401,7 +20399,6 @@
             "XTVCCRVUSD",
             "XTVCCTR",
             "XTVCCUC",
-            "XTVCCVGSDT",
             "XTVCCVX",
             "XTVCCVXCRV",
             "XTVCD24444",
@@ -20434,7 +20431,6 @@
             "XTVCEUROC",
             "XTVCEUROP",
             "XTVCEURQ",
-            "XTVCEURR",
             "XTVCEURS",
             "XTVCEUSD",
             "XTVCEVCE",
@@ -20512,7 +20508,6 @@
             "XTVCKP3R",
             "XTVCKTA",
             "XTVCLABUBU",
-            "XTVCLAZIO",
             "XTVCLDO",
             "XTVCLEMX",
             "XTVCLINK",
@@ -21566,7 +21561,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
