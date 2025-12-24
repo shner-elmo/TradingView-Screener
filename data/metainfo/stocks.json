@@ -14863,14 +14863,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22006,6 +22006,7 @@
             "Man",
             "Man GLG",
             "Mandiri",
+            "Mango",
             "Manulife",
             "Manzil",
             "Market Access",
@@ -22141,7 +22142,6 @@
             "Premia",
             "Premier ETF",
             "Prescient",
-            "President",
             "Principal",
             "ProShares",
             "Procure",
@@ -22174,6 +22174,7 @@
             "Rareview Funds",
             "Rayliant",
             "Raymond James",
+            "RealFin",
             "Reckoner",
             "Regan",
             "Regents Park",
@@ -23212,9 +23213,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23919,6 +23920,7 @@
             "2042",
             "2043",
             "2044",
+            "2046",
             "2048",
             "2050",
             "2051",
@@ -24020,6 +24022,7 @@
             "2205",
             "2208",
             "2210",
+            "2211",
             "23",
             "24",
             "2430",
@@ -25865,7 +25868,6 @@
             "Deegan Holdings LLC",
             "Deepwater Asset Management LLC (Investment Management)",
             "Defiance ETFs LLC",
-            "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
@@ -26216,7 +26218,6 @@
             "Power Financial Corp.",
             "Precidian Investments LLC",
             "Prescient Management Co. RF Pty Ltd.",
-            "President Securities Corp.",
             "Principal Asset Management Bhd.",
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
@@ -26238,6 +26239,7 @@
             "Rakuten Group, Inc.",
             "Rational Advisors, Inc.",
             "Raymond James Financial, Inc.",
+            "Realfin Collective Investment Schemes (RF) Pty Ltd.",
             "Redbird Capital Partners LP",
             "Redwood Investment Holdco LLC",
             "Reflection Asset Management LLC",
@@ -27250,6 +27252,7 @@
             "9597",
             "9598",
             "9600",
+            "9601",
             "97",
             "98",
             "9861"
