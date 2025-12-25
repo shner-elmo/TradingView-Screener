@@ -1497,6 +1497,7 @@
             "DOR",
             "DOT",
             "DUSD",
+            "E",
             "EDGE",
             "EMP",
             "ETC",
@@ -1655,7 +1656,6 @@
             "SPA",
             "SPX",
             "SQUID",
-            "STC",
             "STEP",
             "STETH",
             "STON",
@@ -12778,13 +12778,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12792,7 +12785,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12800,6 +12793,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20335,6 +20335,7 @@
             "XTVCAMBIOS",
             "XTVCAMI",
             "XTVCANON",
+            "XTVCANX",
             "XTVCAPKAWS",
             "XTVCAPPLE",
             "XTVCARB",
@@ -20416,13 +20417,13 @@
             "XTVCDM",
             "XTVCDOG",
             "XTVCDOGE",
-            "XTVCDOLLART",
             "XTVCDOR",
             "XTVCDOT",
             "XTVCDPC",
             "XTVCDUANG",
             "XTVCDUSD",
             "XTVCDYJ",
+            "XTVCEA",
             "XTVCEDGE",
             "XTVCEMP",
             "XTVCESHARE",
@@ -20613,7 +20614,6 @@
             "XTVCSPX6",
             "XTVCSQDGN",
             "XTVCSQUID",
-            "XTVCSTC",
             "XTVCSTEP",
             "XTVCSTETH",
             "XTVCSTON",
@@ -21567,6 +21567,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },

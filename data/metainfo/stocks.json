@@ -2321,7 +2321,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -3841,7 +3840,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14863,14 +14861,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22986,7 +22984,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -23150,7 +23147,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -23925,7 +23921,6 @@
             "2050",
             "2051",
             "2052",
-            "2054",
             "2055",
             "2056",
             "2059",
@@ -24023,6 +24018,7 @@
             "2208",
             "2210",
             "2211",
+            "2213",
             "23",
             "24",
             "2430",
@@ -25642,6 +25638,11 @@
         "r": null
     },
     {
+        "n": "ipo_splitfactor_to_offer",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "is_blacklisted",
         "t": "bool",
         "r": null
@@ -25681,6 +25682,7 @@
             "AGF Management Ltd.",
             "AJM Ventures LLC",
             "AMMB Holdings Bhd.",
+            "AOT Invest LLC",
             "ARK Invest LLC",
             "ARK Investment Management LP",
             "AXA SA",
@@ -25868,6 +25870,7 @@
             "Deegan Holdings LLC",
             "Deepwater Asset Management LLC (Investment Management)",
             "Defiance ETFs LLC",
+            "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
@@ -27243,7 +27246,6 @@
             "9584",
             "9585",
             "9587",
-            "9590",
             "9591",
             "9592",
             "9594",
