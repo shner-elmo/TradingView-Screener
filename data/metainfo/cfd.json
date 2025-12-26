@@ -12057,13 +12057,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12071,7 +12064,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12079,6 +12072,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18947,6 +18947,7 @@
         "r": [
             "00 Token",
             "0G",
+            "0x Protocol",
             "1inch",
             "AIOZ Network",
             "AKEDO",
@@ -19005,7 +19006,6 @@
             "Blum",
             "Bonk",
             "Boom",
-            "Brawl AI Layer",
             "Buff Doge Coin",
             "CARV",
             "COTI",
@@ -19079,6 +19079,7 @@
             "Gunz",
             "Ha Ji Mi",
             "Hamster Kombat",
+            "Harmony",
             "HarryPotterObamaSonic10Inu (ERC-20)",
             "Hedera",
             "Helium",
@@ -19095,6 +19096,7 @@
             "Immutable",
             "Impossible Cloud Network",
             "Index Cooperative",
+            "Initia",
             "Injective",
             "Internet Computer",
             "Irys",
@@ -19137,6 +19139,7 @@
             "MemeCore",
             "Merlin Chain",
             "Metadium",
+            "Metis",
             "Milady Meme Coin",
             "Mina",
             "Mind Network",
@@ -19235,6 +19238,7 @@
             "Solar",
             "Sologenic",
             "Somnia",
+            "Stable",
             "Starknet",
             "Stellar",
             "Step Finance",
@@ -19254,7 +19258,6 @@
             "TROLL (SOL)",
             "TRON",
             "Talus Network",
-            "Tellor",
             "TenUp",
             "Tensor",
             "Terra",
@@ -19298,7 +19301,6 @@
             "Waves",
             "Wayfinder",
             "WeFi",
-            "WhiteBIT Coin",
             "Wojak",
             "World Liberty Financial",
             "World Liberty Financial USD",
@@ -19328,7 +19330,6 @@
             "handleFOREX",
             "peaq",
             "pippin",
-            "r/FortNiteBR Bricks",
             "tokenbot",
             "yearn.finance",
             "zkSync"
@@ -19398,8 +19399,6 @@
             "XTVCBNB",
             "XTVCBONK",
             "XTVCBOOM2",
-            "XTVCBRAWL",
-            "XTVCBRICK",
             "XTVCBSV",
             "XTVCBTC",
             "XTVCBTCMT",
@@ -19493,6 +19492,7 @@
             "XTVCICP",
             "XTVCIMX",
             "XTVCINDEX",
+            "XTVCINIT",
             "XTVCINJ",
             "XTVCIOST",
             "XTVCIOTA",
@@ -19537,6 +19537,7 @@
             "XTVCMEMECORE",
             "XTVCMERL",
             "XTVCMETA",
+            "XTVCMETIS",
             "XTVCMINA",
             "XTVCMKR",
             "XTVCMNT",
@@ -19564,6 +19565,7 @@
             "XTVCOL",
             "XTVCOM",
             "XTVCONDO",
+            "XTVCONE",
             "XTVCOP",
             "XTVCORCA",
             "XTVCORDER",
@@ -19637,6 +19639,7 @@
             "XTVCSPX6",
             "XTVCSPYX",
             "XTVCSQD",
+            "XTVCSTABLE3",
             "XTVCSTEP",
             "XTVCSTRKS",
             "XTVCSUI",
@@ -19659,7 +19662,6 @@
             "XTVCTQQQX",
             "XTVCTRAC",
             "XTVCTRADOOR",
-            "XTVCTRB",
             "XTVCTROLLSO",
             "XTVCTRX",
             "XTVCTSLAX",
@@ -19690,7 +19692,6 @@
             "XTVCVOXEL",
             "XTVCW",
             "XTVCWAVES",
-            "XTVCWBT",
             "XTVCWBTC",
             "XTVCWEMIX",
             "XTVCWFI",
@@ -19725,7 +19726,8 @@
             "XTVCZEREBRO",
             "XTVCZKP",
             "XTVCZKSY",
-            "XTVCZORA2"
+            "XTVCZORA2",
+            "XTVCZRX"
         ]
     },
     {

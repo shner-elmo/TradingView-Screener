@@ -1459,7 +1459,6 @@
             "BTR",
             "BUSD",
             "C",
-            "C98",
             "CAD",
             "CAKE",
             "CBADA",
@@ -1473,7 +1472,6 @@
             "CLEV",
             "CONVO",
             "COP",
-            "CORE",
             "COW",
             "CRCLX",
             "CRO",
@@ -1737,7 +1735,6 @@
             "WETH",
             "WFTM",
             "WIF",
-            "WIT",
             "WLD",
             "WMATIC",
             "WRON",
@@ -12764,13 +12761,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -12778,7 +12768,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12792,7 +12782,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12800,6 +12790,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20380,7 +20377,6 @@
             "XTVCBTRB",
             "XTVCBUSD",
             "XTVCC",
-            "XTVCC98",
             "XTVCCAKE",
             "XTVCCBADA",
             "XTVCCBBTC",
@@ -20392,7 +20388,6 @@
             "XTVCCLEV",
             "XTVCCLEVCVX",
             "XTVCCONVO",
-            "XTVCCORE",
             "XTVCCOSA",
             "XTVCCOW",
             "XTVCCRCLX",
@@ -20401,7 +20396,6 @@
             "XTVCCRVUSD",
             "XTVCCTR",
             "XTVCCUC",
-            "XTVCCVGSDT",
             "XTVCCVX",
             "XTVCCVXCRV",
             "XTVCCZUSD",
@@ -20578,7 +20572,6 @@
             "XTVCPORTALS",
             "XTVCPOT",
             "XTVCPROV",
-            "XTVCPSOL",
             "XTVCPSY",
             "XTVCPUFETH",
             "XTVCPUMP",
@@ -20647,7 +20640,6 @@
             "XTVCTUSD",
             "XTVCTYCOON",
             "XTVCU",
-            "XTVCUA",
             "XTVCUAHG",
             "XTVCUB",
             "XTVCUCF",
@@ -20711,7 +20703,6 @@
             "XTVCWETH",
             "XTVCWFTM",
             "XTVCWIF",
-            "XTVCWIT",
             "XTVCWLD",
             "XTVCWMATIC",
             "XTVCWRON",

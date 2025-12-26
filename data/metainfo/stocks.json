@@ -14861,13 +14861,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -14875,7 +14868,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,7 +14882,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14897,6 +14890,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22002,7 +22002,6 @@
             "Maj Invest",
             "Majoris",
             "Man",
-            "Man GLG",
             "Mandiri",
             "Mango",
             "Manulife",
@@ -22081,7 +22080,6 @@
             "Nu",
             "Numoro",
             "Nuveen",
-            "OFI",
             "OPAL",
             "OTG",
             "OTP",
@@ -22114,7 +22112,6 @@
             "Pando Asset",
             "Parametric",
             "Parnassus Investments",
-            "Peak",
             "PeakShares",
             "Peerless",
             "Penghua",
@@ -24015,7 +24012,6 @@
             "2203",
             "2204",
             "2205",
-            "2208",
             "2210",
             "2211",
             "2213",
@@ -25870,7 +25866,6 @@
             "Deegan Holdings LLC",
             "Deepwater Asset Management LLC (Investment Management)",
             "Defiance ETFs LLC",
-            "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
@@ -26145,7 +26140,6 @@
             "Mugunghwa Trust Co., Ltd.",
             "Mulvihill Capital Management, Inc.",
             "Munro Investment Holdings Pty Ltd.",
-            "Mutuelle Assurance Commer\u00e7ants et Industriels France SAM",
             "Myriad Asset Management Advisors LLC",
             "NBSH Acquisition LLC",
             "NEOS Investments LLC",
