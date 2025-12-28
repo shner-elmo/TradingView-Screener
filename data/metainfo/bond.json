@@ -109,7 +109,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -3964,6 +3963,7 @@
             "I.M.A. Industria Macchine Automatiche SpA",
             "IA Capital Structures (Ireland) PLC",
             "IAMGOLD Corp.",
+            "IBI Deposits Ltd.",
             "ICA Ictas Altyapi Yavuz Sultan Selim Koprusu ve Kuzey Cevre",
             "ICG Plc",
             "ICICI Bank Ltd.",
@@ -6453,7 +6453,6 @@
             "Santladevi Resorts Pvt Ltd.",
             "Santos Ltd.",
             "Santovka Holding as",
-            "Sapir Corp. Ltd.",
             "Sapir Deposits Ltd.",
             "Sappi Ltd.",
             "Saputo, Inc.",
@@ -15533,7 +15532,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CG",
             "CH",
@@ -16262,6 +16260,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },

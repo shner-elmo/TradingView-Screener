@@ -14861,13 +14861,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -14875,7 +14868,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,7 +14882,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14897,6 +14890,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21876,6 +21876,7 @@
             "Harvest ETFs",
             "Harvest Funds",
             "Hashdex",
+            "Hauck & Aufhuser",
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
@@ -25865,6 +25866,7 @@
             "Deegan Holdings LLC",
             "Deepwater Asset Management LLC (Investment Management)",
             "Defiance ETFs LLC",
+            "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",

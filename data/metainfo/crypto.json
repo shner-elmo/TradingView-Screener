@@ -227,7 +227,6 @@
             "Oasis Network",
             "Oasys",
             "Ocean Protocol",
-            "Omni",
             "Ondo",
             "Ontology",
             "Ontology Gas",
@@ -1574,6 +1573,7 @@
             "LABUBU",
             "LDO",
             "LEMX",
+            "LIBRA",
             "LINK",
             "LION",
             "LTC",
@@ -1633,6 +1633,7 @@
             "RENBTC",
             "RETH",
             "RG",
+            "RION",
             "RLUSD",
             "RON",
             "ROX",
@@ -1755,6 +1756,7 @@
             "XRP",
             "XUSD",
             "XVS",
+            "YNUSDX",
             "ZAR",
             "ZBCN",
             "ZEC",
@@ -12776,13 +12778,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12790,7 +12785,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12798,6 +12793,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20122,7 +20124,6 @@
             "OCEAN",
             "OG",
             "OGN",
-            "OMNI",
             "ONDO",
             "ONG",
             "ONT",
@@ -20511,6 +20512,7 @@
             "XTVCLABUBU",
             "XTVCLDO",
             "XTVCLEMX",
+            "XTVCLIBRA",
             "XTVCLINK",
             "XTVCLION",
             "XTVCLIRA",
@@ -20525,7 +20527,6 @@
             "XTVCLVLUSD",
             "XTVCMAGIC",
             "XTVCMAMO",
-            "XTVCMARWA",
             "XTVCMCOIN",
             "XTVCMETA",
             "XTVCMETFI",
@@ -20586,6 +20587,7 @@
             "XTVCRENBTC",
             "XTVCRETH",
             "XTVCRG",
+            "XTVCRION",
             "XTVCRIPE",
             "XTVCRLUSD",
             "XTVCROX",
@@ -20735,6 +20737,7 @@
             "XTVCYBTCB",
             "XTVCYCRV",
             "XTVCYFIE",
+            "XTVCYNUSDX",
             "XTVCYOSTEP",
             "XTVCYUDN",
             "XTVCYYLM",
@@ -21562,6 +21565,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
