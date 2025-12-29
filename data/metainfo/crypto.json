@@ -353,6 +353,7 @@
             "XRP",
             "XYO",
             "XinFin Network",
+            "YieldBasis",
             "ZORA",
             "Zcash",
             "dYdX",
@@ -1556,7 +1557,6 @@
             "JPY",
             "JUP",
             "JUPSOL",
-            "JUSD",
             "KAITO",
             "KAT",
             "KCS",
@@ -1621,7 +1621,6 @@
             "POPCAT",
             "PORTALS",
             "POT",
-            "PSY",
             "PUFETH",
             "PUMP",
             "PXETH",
@@ -12778,13 +12777,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12792,7 +12784,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12800,6 +12792,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20250,6 +20249,7 @@
             "XVS",
             "XYM",
             "XYO",
+            "YB",
             "YFI",
             "ZEC",
             "ZEN",
@@ -20475,7 +20475,6 @@
             "XTVCHEXAR",
             "XTVCHFURY",
             "XTVCHGXD",
-            "XTVCHMS",
             "XTVCHONEY",
             "XTVCHONOR",
             "XTVCHORSES",
@@ -20494,7 +20493,6 @@
             "XTVCJR",
             "XTVCJUP",
             "XTVCJUPSOL",
-            "XTVCJUSD",
             "XTVCK2",
             "XTVCKAITO",
             "XTVCKAT",
@@ -20575,7 +20573,6 @@
             "XTVCPOT",
             "XTVCPROV",
             "XTVCPSOL",
-            "XTVCPSY",
             "XTVCPUFETH",
             "XTVCPUMP",
             "XTVCPXETH",
@@ -21565,7 +21562,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
