@@ -953,9 +953,7 @@
         "r": [
             "DAY",
             "HOUR",
-            "KGM",
             "LTR",
-            "MMTR",
             "MONTH",
             "MTK",
             "WEEK",
@@ -988,6 +986,7 @@
             "HOUR",
             "JOU",
             "KGM",
+            "MMTR",
             "MTK",
             "NBL",
             "PCT",
