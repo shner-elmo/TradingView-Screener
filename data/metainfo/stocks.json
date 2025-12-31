@@ -1696,6 +1696,142 @@
                 "name": "CSI 300"
             },
             {
+                "id": "STOXX:BKXP",
+                "name": "STOXX Europe Total Market"
+            },
+            {
+                "id": "STOXX:DK5F",
+                "name": "STOXX Nordic 30"
+            },
+            {
+                "id": "STOXX:DKXF",
+                "name": "STOXX Nordic"
+            },
+            {
+                "id": "STOXX:EDD15P",
+                "name": "STOXX Developed Markets 150"
+            },
+            {
+                "id": "STOXX:EDD24BP",
+                "name": "STOXX Developed Markets 2400"
+            },
+            {
+                "id": "STOXX:EDE15BP",
+                "name": "STOXX Emerging Markets 1500"
+            },
+            {
+                "id": "STOXX:EDE5P",
+                "name": "STOXX Emerging Markets 50"
+            },
+            {
+                "id": "STOXX:EUE15P",
+                "name": "STOXX EU Enlarged 15"
+            },
+            {
+                "id": "STOXX:SX150P",
+                "name": "STOXX Global 150"
+            },
+            {
+                "id": "STOXX:SX50UL",
+                "name": "STOXX USA 500"
+            },
+            {
+                "id": "STOXX:SX50UP",
+                "name": "STOXX USA 500"
+            },
+            {
+                "id": "STOXX:SX5AP",
+                "name": "STOXX North America 50"
+            },
+            {
+                "id": "STOXX:SX5P",
+                "name": "STOXX Europe 50"
+            },
+            {
+                "id": "STOXX:SX5PP",
+                "name": "STOXX Asia/Pacific 50"
+            },
+            {
+                "id": "STOXX:SXA1E",
+                "name": "STOXX North America 600"
+            },
+            {
+                "id": "STOXX:SXABCP",
+                "name": "STOXX Asia 100"
+            },
+            {
+                "id": "STOXX:SXAF9BP",
+                "name": "STOXX Africa 90"
+            },
+            {
+                "id": "STOXX:SXAMBCP",
+                "name": "STOXX Americas 100"
+            },
+            {
+                "id": "STOXX:SXCNA5P",
+                "name": "STOXX China A 50"
+            },
+            {
+                "id": "STOXX:SXEA18P",
+                "name": "STOXX East Asia 1800"
+            },
+            {
+                "id": "STOXX:SXEAXJP",
+                "name": "STOXX East Asia 1800 ex Japan"
+            },
+            {
+                "id": "STOXX:SXEBCP",
+                "name": "STOXX All Europe 100"
+            },
+            {
+                "id": "STOXX:SXGBCP",
+                "name": "STOXX Global 200"
+            },
+            {
+                "id": "STOXX:SXLBCP",
+                "name": "STOXX Latin America 50"
+            },
+            {
+                "id": "STOXX:SXP1E",
+                "name": "STOXX Asia/Pacific 600"
+            },
+            {
+                "id": "STOXX:SXP2E",
+                "name": "STOXX Asia/Pacific 600 ex Japan"
+            },
+            {
+                "id": "STOXX:SXPBCP",
+                "name": "STOXX Pacific 50"
+            },
+            {
+                "id": "STOXX:SXW0E",
+                "name": "STOXX Global 1800 ex North America"
+            },
+            {
+                "id": "STOXX:SXW1E",
+                "name": "STOXX Global 1800"
+            },
+            {
+                "id": "STOXX:SXW8E",
+                "name": "STOXX Global 1800 ex Europe"
+            },
+            {
+                "id": "STOXX:SXW9E",
+                "name": "STOXX Global 1800 ex Asia/Pacific"
+            },
+            {
+                "id": "STOXX:SXXA",
+                "name": "STOXX Europe 600 ex Eurozone"
+            },
+            {
+                "id": "STOXX:SXXE",
+                "name": "EURO STOXX"
+            },
+            {
+                "id": "STOXX:SXXF",
+                "name": "STOXX Europe 600 ex UK"
+            },
+            {
                 "id": "SZSE:399001",
                 "name": "SZSE Component"
             },
@@ -14847,14 +14983,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14889,14 +15025,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21578,6 +21714,7 @@
             "Apostle",
             "Applied Finance",
             "Aptus",
+            "Archer Funds",
             "Argent",
             "Arin",
             "Arlington",
@@ -22226,7 +22363,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -22304,6 +22440,7 @@
             "Tiger ETF",
             "TimePolio",
             "Timefolio",
+            "TimesSquare",
             "Timothy",
             "Toews",
             "Tortoise",
@@ -22318,6 +22455,7 @@
             "Tru.x",
             "True",
             "TrueShares",
+            "Truth Social",
             "Tuttle Capital",
             "Tweedy, Browne Co.",
             "Twin Oak",
@@ -22396,6 +22534,7 @@
             "Yinhua",
             "Yoke",
             "Yongying",
+            "Yorkville",
             "Yuanta",
             "Yurie",
             "ZEGA",
@@ -23206,9 +23345,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24014,6 +24153,7 @@
             "2205",
             "2210",
             "2211",
+            "2212",
             "2213",
             "23",
             "24",
@@ -25170,6 +25310,40 @@
             "SYML:SP;SPX",
             "SYML:SSE;000001",
             "SYML:SSE;000300",
+            "SYML:STOXX;BKXP",
+            "SYML:STOXX;DK5F",
+            "SYML:STOXX;DKXF",
+            "SYML:STOXX;EDD15P",
+            "SYML:STOXX;EDD24BP",
+            "SYML:STOXX;EDE15BP",
+            "SYML:STOXX;EDE5P",
+            "SYML:STOXX;EUE15P",
+            "SYML:STOXX;SX150P",
+            "SYML:STOXX;SX50UL",
+            "SYML:STOXX;SX50UP",
+            "SYML:STOXX;SX5AP",
+            "SYML:STOXX;SX5P",
+            "SYML:STOXX;SX5PP",
+            "SYML:STOXX;SXA1E",
+            "SYML:STOXX;SXABCP",
+            "SYML:STOXX;SXAF9BP",
+            "SYML:STOXX;SXAMBCP",
+            "SYML:STOXX;SXCNA5P",
+            "SYML:STOXX;SXEA18P",
+            "SYML:STOXX;SXEAXJP",
+            "SYML:STOXX;SXEBCP",
+            "SYML:STOXX;SXGBCP",
+            "SYML:STOXX;SXLBCP",
+            "SYML:STOXX;SXP1E",
+            "SYML:STOXX;SXP2E",
+            "SYML:STOXX;SXPBCP",
+            "SYML:STOXX;SXW0E",
+            "SYML:STOXX;SXW1E",
+            "SYML:STOXX;SXW8E",
+            "SYML:STOXX;SXW9E",
+            "SYML:STOXX;SXXA",
+            "SYML:STOXX;SXXE",
+            "SYML:STOXX;SXXF",
             "SYML:SZSE;399001",
             "SYML:TADAWUL;TASI",
             "SYML:TADAWUL;TBNI",
@@ -25728,6 +25902,7 @@
             "Aoris Investment Management (Pty) Ltd.",
             "Aptus Holdings LLC",
             "Arax Investment Partners LLC",
+            "Archer Investment Corp.",
             "Ardea Investment Management Pty Ltd.",
             "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
@@ -25840,6 +26015,7 @@
             "Confederation Nationale Cr\u00e9dit Mutuel SA",
             "Convergence Investment Partners LLC",
             "Core Alternative Capital LLC",
+            "Corgi Strategies LLC",
             "Corient Holdings, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
             "Corton Capital, Inc.",
@@ -26051,7 +26227,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -26424,6 +26599,7 @@
             "Yelin Lapidot Investment Portfolio Management Ltd.",
             "Yingda Asset Management Co., Ltd.",
             "Yinhua Fund Management Co., Ltd.",
+            "Yorkville America LLC",
             "Yuanta Financial Holding Co. Ltd.",
             "Yuanta Securities Co. Ltd.",
             "Zerodha Asset Management Pvt Ltd.",
@@ -28398,6 +28574,7 @@
             "35",
             "4",
             "41",
+            "42",
             "48",
             "49",
             "5"
@@ -28569,7 +28746,6 @@
             "GB",
             "GE",
             "GH",
-            "GI",
             "GL",
             "GN",
             "GR",
@@ -28617,7 +28793,6 @@
             "MV",
             "MX",
             "MY",
-            "MZ",
             "NA",
             "NG",
             "NI",
