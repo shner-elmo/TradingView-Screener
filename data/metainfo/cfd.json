@@ -12029,13 +12029,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12043,7 +12036,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12051,6 +12044,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12071,14 +12071,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18959,7 +18959,6 @@
             "Act I : The AI Prophecy",
             "Aergo",
             "Aerodrome Finance",
-            "Akash Network",
             "Alchemist AI",
             "Alchemix",
             "Alchemy Pay",
@@ -19003,6 +19002,7 @@
             "Bitlight",
             "Bittensor",
             "Blum",
+            "Blur",
             "Bonk",
             "Boom",
             "Bounce Token",
@@ -19010,6 +19010,7 @@
             "Bullish Degen",
             "CARV",
             "COTI",
+            "CZ'S Dog",
             "Cardano",
             "Casper",
             "Celestia",
@@ -19064,6 +19065,7 @@
             "FLARE",
             "FLOKI",
             "FTX Token",
+            "FWOG (SOL)",
             "Fartcoin",
             "Fear",
             "Filecoin",
@@ -19237,6 +19239,7 @@
             "Serum",
             "Shiba Inu",
             "Sky",
+            "Slash Vision Labs",
             "Snek",
             "Solana",
             "Solar",
@@ -19294,6 +19297,7 @@
             "VALOR",
             "VeChain",
             "Velo",
+            "Venice Token",
             "Verasity",
             "Verge",
             "Verida",
@@ -19311,7 +19315,6 @@
             "World Liberty Financial USD",
             "Worldcoin",
             "Wormhole",
-            "Wrapped Bitcoin",
             "XDC Network",
             "XION",
             "XPIN Network",
@@ -19363,7 +19366,6 @@
             "XTVCAIXBT",
             "XTVCAKE",
             "XTVCAKRO",
-            "XTVCAKT",
             "XTVCALCH",
             "XTVCALCX",
             "XTVCALEO",
@@ -19400,10 +19402,12 @@
             "XTVCBITCOIN",
             "XTVCBITD",
             "XTVCBLUM",
+            "XTVCBLUR",
             "XTVCBNB",
             "XTVCBOME",
             "XTVCBONK",
             "XTVCBOOM2",
+            "XTVCBROCCOLI",
             "XTVCBSV",
             "XTVCBTC",
             "XTVCBTCMT",
@@ -19474,6 +19478,7 @@
             "XTVCFOREX",
             "XTVCFORMF",
             "XTVCFTT",
+            "XTVCFWOG2",
             "XTVCGALA",
             "XTVCGAS",
             "XTVCGEARB",
@@ -19657,6 +19662,7 @@
             "XTVCSUPER",
             "XTVCSUPRA",
             "XTVCSUSHI",
+            "XTVCSVL",
             "XTVCSWARMS",
             "XTVCSWCH",
             "XTVCSXP",
@@ -19701,9 +19707,9 @@
             "XTVCVISTAE",
             "XTVCVOXEL",
             "XTVCVRA",
+            "XTVCVVV",
             "XTVCW",
             "XTVCWAVES",
-            "XTVCWBTC",
             "XTVCWFI",
             "XTVCWHITEWHALE",
             "XTVCWIF",
@@ -19794,7 +19800,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

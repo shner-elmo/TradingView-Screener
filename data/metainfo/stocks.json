@@ -2711,7 +2711,6 @@
             "BCBA",
             "BCS",
             "BELEX",
-            "BER",
             "BET",
             "BIST",
             "BIVA",
@@ -14998,14 +14997,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21812,6 +21811,7 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
+            "Candriam",
             "Capital",
             "Capital Group",
             "Capstone",
@@ -22291,7 +22291,6 @@
             "QuantaShares",
             "Quantify Funds",
             "Quantum",
-            "Quay",
             "RAFI Indices",
             "RAM",
             "RBC",
@@ -23350,7 +23349,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -25933,7 +25933,6 @@
             "Banco Bradesco SA /Private Group/",
             "Bandhan AMC Ltd.",
             "Bandhan Financial Services Pvt Ltd.",
-            "Bangarra Group Ltd.",
             "Bangkok Bank PCL",
             "Bangkok Capital Asset Management Co. Ltd.",
             "Bank Albilad",
@@ -26350,7 +26349,6 @@
             "OTP Bank Nyrt",
             "Ocean Park Asset Management LLC",
             "Oneascent Holdings LLC",
-            "Opal Capital LLC",
             "Optimize Financial, Inc.",
             "Osmanli Yatirim Menkul Degerler AS",
             "Osprey Funds LLC",
@@ -28459,7 +28457,6 @@
             "source/BCBA",
             "source/BCS",
             "source/BELEX",
-            "source/BER",
             "source/BET",
             "source/BIST",
             "source/BIVA",
