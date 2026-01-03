@@ -772,6 +772,7 @@
             "Academy Ltd.",
             "Acadia Healthcare Co., Inc.",
             "Accelleron Industries AG",
+            "Accendra Health, Inc.",
             "Accent Group Ltd. (United Kingdom)",
             "Accentro Real Estate AG",
             "Accenture Plc",
@@ -3673,7 +3674,6 @@
             "HPS Investment Partners LLC",
             "HRTI LLC",
             "HSBC Holdings Plc",
-            "HSE Investment Sarl",
             "HSV Fu\u00dfball AG",
             "HUB International Ltd.",
             "HX Expeditions Holdings Ltd.",
@@ -4881,6 +4881,7 @@
             "Maiden Holdings Ltd.",
             "Maimonides Medical Center",
             "Main Street Capital Corp",
+            "Maison Pommery & Associ\u00e9s",
             "Maithon Power Ltd.",
             "Majid Al Futtaim Holding LLC",
             "Majordrive Holdings IV LLC",
@@ -5562,7 +5563,7 @@
             "Omni Helicopters International SA",
             "Omnicell, Inc.",
             "Omnicom Group, Inc.",
-            "Omniyat Sukuk 1 Ltd.",
+            "Omniyat Holdings Ltd.",
             "One Sky Flight LLC",
             "One Square Advisors GmbH",
             "OneAmerica Financial Partners, Inc.",
@@ -5614,7 +5615,6 @@
             "Oversea-Chinese Banking Corp. Ltd.",
             "Ovintiv Canada ULC",
             "Ovintiv, Inc.",
-            "Owens & Minor, Inc.",
             "Owens Corning",
             "Owens-Illinois Group, Inc.",
             "Oxford Bank Corp. (Michigan)",
@@ -5671,6 +5671,7 @@
             "PSA Finance Argentina CIA Financiera SA",
             "PSA International Pte Ltd.",
             "PSH SCRL",
+            "PSMA Holding SARL",
             "PSP Swiss Property AG",
             "PT Bank KB Indonesia Tbk",
             "PT Bank Mandiri (Persero) Tbk",
@@ -7731,7 +7732,6 @@
             "Voya Financial, Inc.",
             "Voyager Holdco Ii LLC",
             "Voyageurs du Monde SA",
-            "Vranken-Pommery Monopole SA",
             "Vulcan Materials Co.",
             "V\u00e5r Energi ASA",
             "V\u0161eobecn\u00e1 \u00faverov\u00e1 banka as",
@@ -16214,10 +16214,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -16451,14 +16448,15 @@
         "t": "text",
         "r": [
             "current",
-            "defaulted"
+            "defaulted",
+            "matured",
+            "redeemed"
         ]
     },
     {
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },

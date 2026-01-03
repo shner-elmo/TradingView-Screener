@@ -14983,14 +14983,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15011,14 +15011,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21947,6 +21947,7 @@
             "First Seafront",
             "First Sentier",
             "First Trust",
+            "FirstRand",
             "FlexShares",
             "FolioBeyond",
             "Formidable",
@@ -23347,10 +23348,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25850,6 +25849,7 @@
             "3iQ Corp.",
             "483A Bay Street Holdings LP",
             "818, Inc.",
+            "ABN AMRO Bank NV",
             "ACP Horizon Holdings LP",
             "AG Financial Services Group",
             "AGF Management Ltd.",
@@ -26110,6 +26110,7 @@
             "First Seafront Fund Management Co., Ltd.",
             "First Trust Advisors LP",
             "First Trust Global Portfolios Management Ltd.",
+            "FirstRand Bank Ltd.",
             "FirstRand Ltd.",
             "Focus Financial Partners, Inc.",
             "Foray Enterprises Pty Ltd.",

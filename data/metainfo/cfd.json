@@ -12029,14 +12029,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12057,14 +12057,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19015,6 +19015,7 @@
             "Casper",
             "Celestia",
             "Celo",
+            "Celsius",
             "Chainflip",
             "Chainlink",
             "Chiliz",
@@ -19022,7 +19023,6 @@
             "Clearpool",
             "Codatta",
             "CoinMarketCap 20 Index DTF",
-            "Coinbase Wrapped BTC",
             "Compound",
             "Conflux",
             "ConstitutionDAO",
@@ -19134,6 +19134,7 @@
             "MANTRA",
             "MBD Financials",
             "MOG Coin",
+            "MSTR2100",
             "MXC",
             "MYX Finance",
             "Maker",
@@ -19213,7 +19214,6 @@
             "RaveDAO",
             "Ravencoin",
             "Raydium",
-            "Rayls",
             "Recall Network",
             "Rekt",
             "Render",
@@ -19264,6 +19264,7 @@
             "THORChain",
             "TROLL (SOL)",
             "TRON",
+            "Taiko",
             "Talus Network",
             "TenUp",
             "Tensor",
@@ -19316,7 +19317,6 @@
             "Worldcoin",
             "Wormhole",
             "XDC Network",
-            "XION",
             "XPIN Network",
             "XPR Network",
             "XRP",
@@ -19339,7 +19339,6 @@
             "peaq",
             "pippin",
             "tokenbot",
-            "yearn.finance",
             "zkSync"
         ]
     },
@@ -19415,7 +19414,7 @@
             "XTVCBUTTCOIN",
             "XTVCCAKE",
             "XTVCCARV",
-            "XTVCCBBTCC",
+            "XTVCCEL",
             "XTVCCELO",
             "XTVCCFX",
             "XTVCCHILLGUY",
@@ -19557,6 +19556,7 @@
             "XTVCMONAD",
             "XTVCMOODENG",
             "XTVCMORPHO",
+            "XTVCMSTR2",
             "XTVCMUBARAK",
             "XTVCMXC",
             "XTVCMYRIA",
@@ -19621,7 +19621,6 @@
             "XTVCRETARDIO",
             "XTVCRIVER",
             "XTVCRIZZMAS",
-            "XTVCRLS",
             "XTVCRLUSD",
             "XTVCROSE",
             "XTVCRSR",
@@ -19667,6 +19666,7 @@
             "XTVCSWCH",
             "XTVCSXP",
             "XTVCSYRUP",
+            "XTVCTAIKO",
             "XTVCTAKE",
             "XTVCTAOB",
             "XTVCTHETA",
@@ -19722,7 +19722,6 @@
             "XTVCXAUT",
             "XTVCXCN",
             "XTVCXDC",
-            "XTVCXION",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXNY",
@@ -19735,7 +19734,6 @@
             "XTVCXVG",
             "XTVCXYO",
             "XTVCYB",
-            "XTVCYFI",
             "XTVCZBCN",
             "XTVCZEC",
             "XTVCZEN",
@@ -19798,10 +19796,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
