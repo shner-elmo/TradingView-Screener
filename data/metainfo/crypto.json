@@ -210,7 +210,6 @@
             "Moonbeam",
             "Moonriver",
             "NEAR Protocol",
-            "NEM",
             "NEO",
             "NEXPACE",
             "NFPrompt",
@@ -1459,6 +1458,7 @@
             "CBBTC",
             "CBETH",
             "CBXRP",
+            "CDCBTC",
             "CEO",
             "CETES",
             "CHECK",
@@ -1516,7 +1516,6 @@
             "FM",
             "FOMO",
             "FOOM",
-            "FOX",
             "FPI",
             "FRAX",
             "FRXETH",
@@ -1711,6 +1710,7 @@
             "VUSD",
             "VVS",
             "VVV",
+            "WATER",
             "WAVAX",
             "WBNB",
             "WBTC",
@@ -12734,14 +12734,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12762,13 +12762,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12776,7 +12769,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12784,6 +12777,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20223,7 +20223,6 @@
             "WLFI",
             "XAUT",
             "XDC",
-            "XEM",
             "XLM",
             "XMR",
             "XNO",
@@ -20362,6 +20361,7 @@
             "XTVCCBBTC",
             "XTVCCBETH",
             "XTVCCBXRP",
+            "XTVCCDCBTC",
             "XTVCCE",
             "XTVCCEO",
             "XTVCCETES",
@@ -20425,7 +20425,6 @@
             "XTVCFM",
             "XTVCFOMO",
             "XTVCFOOM",
-            "XTVCFOX",
             "XTVCFPI",
             "XTVCFRAX",
             "XTVCFRXETH",
@@ -20653,6 +20652,7 @@
             "XTVCVUSD",
             "XTVCVVS",
             "XTVCVVV",
+            "XTVCWATER",
             "XTVCWAV3",
             "XTVCWAVAX",
             "XTVCWBNB",
@@ -21518,6 +21518,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },

@@ -755,6 +755,7 @@
             "Aasen Sparebank",
             "Aavas Financiers Ltd.",
             "Abans Vanijya Pvt Ltd.",
+            "Abay Leasing 2014 LLC",
             "AbbVie, Inc.",
             "Abbott Laboratories",
             "Aberdeen Group Plc",
@@ -1144,6 +1145,7 @@
             "Arabian Centres Co.",
             "Aragvi Holding International Ltd.",
             "Aramark",
+            "Arantes Alimentos Ltda.",
             "Arbejdernes Landsbank AS",
             "Arbor Realty Trust, Inc.",
             "Arcadis NV",
@@ -1798,7 +1800,6 @@
             "CBR Service GmbH",
             "CBRE Europe Logistics Partners SCA SICAV-SIF",
             "CBRE Group, Inc.",
-            "CBX Corp.",
             "CCL Industries, Inc.",
             "CDC Habitat SA",
             "CDK Global II LLC",
@@ -3851,9 +3852,11 @@
             "Honeywell International, Inc.",
             "Hong Kong International (Qingdao) Co. Ltd.",
             "Hong Kong Xiangtian International Investment Group Co. Ltd.",
+            "Hong Seng Ltd.",
             "Hongkong Land Holdings Ltd.",
             "Hongkong Xidong International Co. Ltd.",
             "Hongta Securities Co., Ltd.",
+            "Hongyuan Holdings Group Co. Ltd.",
             "Hope Bancorp, Inc.",
             "Hopkins Healthcare Pvt Ltd.",
             "Horace Mann Educators Corp.",
@@ -5947,6 +5950,7 @@
             "Principality Building Society",
             "Priority 1 Issuer Logistics Designated Activity Co.",
             "Prism Johnson Ltd.",
+            "PrivatBank Commercial Bank PJSC",
             "Pro FEPP GmbH",
             "ProCredit Holding AG",
             "Prochem Bio SA",
@@ -6488,7 +6492,6 @@
             "Seazen Group Ltd.",
             "Seazen Holdings Co. Ltd.",
             "Secop Group Holding GmbH",
-            "Secundus Erste Beteiligungsgesellschaft mbH",
             "Secure Trust Bank Plc",
             "Securitas AB",
             "Security Bank Corp. (Philippines)",
@@ -7058,7 +7061,6 @@
             "Taiwan Semiconductor Manufacturing Co., Ltd.",
             "Taixing Zhongxin Investment Group Co. Ltd.",
             "Taizhou Circular Economy Development Co. Ltd.",
-            "Taizhou Eastern New Town Holding Group Co Ltd.",
             "Taizhou Fengcheng River Construction & Development Co. Ltd.",
             "Taizhou Hailing Urban Development Group Co., Ltd.",
             "Taizhou Huangyan State-Owned Capital Invt Operation Gp Co Ltd",
@@ -11153,6 +11155,7 @@
             "OTC:FRCB",
             "OTC:FTCHQ",
             "OTC:HALL",
+            "OTC:HGYN",
             "OTC:KLMR",
             "OTC:KTHN",
             "OTC:LAZRQ",
@@ -14516,6 +14519,7 @@
             "OTC:FRCB",
             "OTC:FTCHQ",
             "OTC:HALL",
+            "OTC:HGYN",
             "OTC:KLMR",
             "OTC:KTHN",
             "OTC:LAZRQ",
@@ -16215,7 +16219,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -16449,9 +16454,7 @@
         "t": "text",
         "r": [
             "current",
-            "defaulted",
-            "matured",
-            "redeemed"
+            "defaulted"
         ]
     },
     {
