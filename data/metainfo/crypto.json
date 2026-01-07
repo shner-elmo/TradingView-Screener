@@ -1419,6 +1419,7 @@
             "ANON",
             "ARB",
             "ARS",
+            "ASI",
             "ASTER",
             "ATM",
             "AUBRAI",
@@ -1426,7 +1427,6 @@
             "AUDIT",
             "AURA",
             "AVAX",
-            "AVNT",
             "AXS",
             "B3",
             "BARA",
@@ -1511,7 +1511,6 @@
             "FLOCK",
             "FLOKI",
             "FLY",
-            "FM",
             "FOMO",
             "FOOM",
             "FOX",
@@ -1588,7 +1587,6 @@
             "MXN",
             "NEURON",
             "NFX",
-            "NUKE",
             "NULL",
             "NVDAX",
             "OETH",
@@ -12761,13 +12759,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12775,7 +12766,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12783,6 +12774,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20318,6 +20316,7 @@
             "XTVCAPKAWS",
             "XTVCARB",
             "XTVCASDIC",
+            "XTVCASI",
             "XTVCASTER",
             "XTVCASTER2",
             "XTVCATM",
@@ -20325,7 +20324,6 @@
             "XTVCAUDIT",
             "XTVCAURA",
             "XTVCAVAX",
-            "XTVCAVNT",
             "XTVCAXB",
             "XTVCAXS",
             "XTVCB3",
@@ -20374,7 +20372,6 @@
             "XTVCCRVUSD",
             "XTVCCTR",
             "XTVCCUC",
-            "XTVCCVGSDT",
             "XTVCCVX",
             "XTVCCVXCRV",
             "XTVCDA",
@@ -20419,7 +20416,6 @@
             "XTVCFLOCK",
             "XTVCFLOKI",
             "XTVCFLY",
-            "XTVCFM",
             "XTVCFOMO",
             "XTVCFOOM",
             "XTVCFOX",
@@ -20430,7 +20426,6 @@
             "XTVCFSD",
             "XTVCFUL",
             "XTVCFUSD",
-            "XTVCFUSDX",
             "XTVCFXB20261231",
             "XTVCFXN",
             "XTVCFXUSD",
@@ -20471,7 +20466,6 @@
             "XTVCK2",
             "XTVCKAITO",
             "XTVCKAT",
-            "XTVCKCH",
             "XTVCKCS",
             "XTVCKET",
             "XTVCKIN",
@@ -20511,7 +20505,6 @@
             "XTVCNEURON",
             "XTVCNFX",
             "XTVCNGP",
-            "XTVCNUKE",
             "XTVCNULL",
             "XTVCNVDAX",
             "XTVCOE",
@@ -20644,7 +20637,6 @@
             "XTVCVAULT",
             "XTVCVCHF",
             "XTVCVELO",
-            "XTVCVIES",
             "XTVCVIRTUAL",
             "XTVCVNO",
             "XTVCVOW",
@@ -21516,6 +21508,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },

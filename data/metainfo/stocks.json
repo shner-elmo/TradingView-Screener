@@ -15010,13 +15010,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -15024,7 +15017,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15032,6 +15025,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21859,7 +21859,6 @@
             "DDA",
             "DGA",
             "DNB",
-            "DOO",
             "DSP",
             "DWS",
             "Da Cheng",
@@ -22059,6 +22058,7 @@
             "Invesco Great Wall",
             "Investlinx",
             "Investo",
+            "Inyova",
             "Itau",
             "JKO",
             "JLens",
@@ -22200,6 +22200,7 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Nikko",
@@ -22290,6 +22291,7 @@
             "QuantaShares",
             "Quantify Funds",
             "Quantum",
+            "Quay",
             "RAFI Indices",
             "RAM",
             "RBC",
@@ -22494,6 +22496,7 @@
             "VistaShares",
             "Vita",
             "Volatility Shares",
+            "Vontobel",
             "Voya",
             "Vunani BCI",
             "W.I.S.E.",
@@ -22532,7 +22535,6 @@
             "Yinhua",
             "Yoke",
             "Yongying",
-            "Yorkville",
             "Yuanta",
             "Yurie",
             "ZEGA",
@@ -23343,6 +23345,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24050,7 +24053,6 @@
             "2042",
             "2043",
             "2044",
-            "2046",
             "2048",
             "2050",
             "2051",
@@ -25929,6 +25931,7 @@
             "Banco Bradesco SA /Private Group/",
             "Bandhan AMC Ltd.",
             "Bandhan Financial Services Pvt Ltd.",
+            "Bangarra Group Ltd.",
             "Bangkok Bank PCL",
             "Bangkok Capital Asset Management Co. Ltd.",
             "Bank Albilad",
@@ -26058,7 +26061,6 @@
             "Dokhod Asset Management Co. OOO",
             "Dongxu Optoelectronic Investment Co., Ltd.",
             "Donoghue Forlines LLC",
-            "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
             "Dvx Ventures LLC",
@@ -26329,6 +26331,7 @@
             "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
