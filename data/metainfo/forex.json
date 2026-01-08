@@ -1065,7 +1065,6 @@
             "ILS",
             "INR",
             "IQD",
-            "IRR",
             "ISK",
             "ITL",
             "JMD",
@@ -12183,14 +12182,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19096,7 +19095,6 @@
             "ILS",
             "INR",
             "IQD",
-            "IRR",
             "ISK",
             "JMD",
             "JOD",
@@ -19222,7 +19220,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
