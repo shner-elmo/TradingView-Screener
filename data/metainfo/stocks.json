@@ -2557,6 +2557,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -15009,13 +15010,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -15023,7 +15017,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15031,6 +15025,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22100,6 +22101,7 @@
             "L1 Capital",
             "LFG",
             "LIC Mutual Fund",
+            "LOGIQ",
             "LSV",
             "Langar",
             "Lazard",
@@ -22222,6 +22224,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -23226,6 +23229,7 @@
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "UG",
             "US",
@@ -23347,8 +23351,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -25841,6 +25844,7 @@
             "10X Investments (Pty) Ltd.",
             "1251 Capital Group, Inc.",
             "21Shares AG",
+            "21co Holdings Ltd.",
             "27four Collective Investments (RF) (Pty) Ltd.",
             "360 One Wam Ltd.",
             "3EDGE Asset Management LP",
@@ -25848,7 +25852,6 @@
             "3iQ Corp.",
             "483A Bay Street Holdings LP",
             "818, Inc.",
-            "ABN AMRO Bank NV",
             "ACP Horizon Holdings LP",
             "AG Financial Services Group",
             "AGF Management Ltd.",
@@ -25893,7 +25896,6 @@
             "American Century Cos., Inc.",
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
-            "Amun Holdings Ltd.",
             "Amundi Luxembourg SA",
             "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
@@ -26228,6 +26230,7 @@
             "Investlinx Investment Management Ltd.",
             "Investo Gest\u00e3o de Recursos Ltda.",
             "Investor Asset Management BV",
+            "Inyova Impact Investing GmbH",
             "IronHorse Holdings LLC",
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
@@ -26739,6 +26742,7 @@
             "a91c78e040f7b9d158f381e197f8beb4",
             "b17077929ec55058d0eafe7827587934",
             "c8bb3176ea791b632824fe397e9d0935",
+            "ca2e0331f4d1d23b2cd299f128853317",
             "ded39cc46d3bcec2b9a969a7fdb5fabe",
             "e782cde821fae6ce1b676cfd4d140aa8",
             "ea26d532fadeb8bf0bc57e3ef88cec27"
