@@ -1395,7 +1395,6 @@
         "n": "currency",
         "t": "text",
         "r": [
-            "3CRV",
             "7",
             "ACES",
             "ADA",
@@ -1678,7 +1677,6 @@
             "UAH",
             "UAHG",
             "UB",
-            "UCF",
             "ULTI",
             "UNI",
             "UNIBTC",
@@ -12743,14 +12741,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20302,7 +20300,6 @@
             "XTVC0X548F93",
             "XTVC10",
             "XTVC355758",
-            "XTVC3CRV",
             "XTVC7",
             "XTVC738C79",
             "XTVCACES",
@@ -20390,6 +20387,7 @@
             "XTVCCVX",
             "XTVCCVXCRV",
             "XTVCCZUSD",
+            "XTVCD24444",
             "XTVCDA",
             "XTVCDAI",
             "XTVCDAIE",
@@ -20628,7 +20626,6 @@
             "XTVCU",
             "XTVCUAHG",
             "XTVCUB",
-            "XTVCUCF",
             "XTVCUFX",
             "XTVCULTI",
             "XTVCUNI",
