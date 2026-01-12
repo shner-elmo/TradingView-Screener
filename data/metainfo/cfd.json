@@ -12029,14 +12029,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19008,6 +19008,7 @@
             "Boom",
             "Bounce Token",
             "Brett (Based)",
+            "Brevis",
             "Buff Doge Coin",
             "CARV",
             "COTI",
@@ -19045,6 +19046,7 @@
             "DeepBook Protocol",
             "Dent",
             "Destra Network",
+            "DigiByte",
             "Dogecoin",
             "Dolomite",
             "Doodles",
@@ -19061,7 +19063,6 @@
             "Ethereum",
             "Ethereum Classic",
             "Ethereum Name Service",
-            "Ethervista",
             "Everlyn AI",
             "FLARE",
             "FLOKI",
@@ -19205,6 +19206,7 @@
             "Polygon (prev. MATIC)",
             "Polymesh",
             "Ponke",
+            "Popcat (SOL)",
             "Port3 Network",
             "Portal To Bitcoin",
             "Power Protocol",
@@ -19413,6 +19415,7 @@
             "XTVCBONK",
             "XTVCBOOM2",
             "XTVCBRETT2",
+            "XTVCBREV",
             "XTVCBROCCOLI",
             "XTVCBSV",
             "XTVCBTC",
@@ -19444,6 +19447,7 @@
             "XTVCDEEPB",
             "XTVCDENT",
             "XTVCDEXE",
+            "XTVCDGB",
             "XTVCDIA",
             "XTVCDJI6930",
             "XTVCDOGE",
@@ -19607,6 +19611,7 @@
             "XTVCPOLYG",
             "XTVCPOLYX",
             "XTVCPONKE",
+            "XTVCPOPCAT2",
             "XTVCPORT3",
             "XTVCPOWERP",
             "XTVCPRCL",
@@ -19718,7 +19723,6 @@
             "XTVCVINE",
             "XTVCVINU",
             "XTVCVIRTUAL",
-            "XTVCVISTAE",
             "XTVCVRA",
             "XTVCVVV",
             "XTVCW",
@@ -19811,7 +19815,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {

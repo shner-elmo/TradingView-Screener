@@ -62,7 +62,6 @@
             "Algorand",
             "Alitas",
             "Amp",
-            "Ampleforth",
             "Ampleforth Governance Token",
             "Andrew Tate's Dog",
             "Anime (animeonbase.art)",
@@ -1515,7 +1514,6 @@
             "FM",
             "FOMO",
             "FOOM",
-            "FOX",
             "FPI",
             "FRAX",
             "FRXETH",
@@ -1598,7 +1596,6 @@
             "NVDAX",
             "OETH",
             "OHM",
-            "OI",
             "OLY",
             "OLYN",
             "OMG",
@@ -1709,7 +1706,6 @@
             "USX",
             "UTY",
             "V",
-            "VAULT",
             "VCHF",
             "VELO",
             "VIRTUAL",
@@ -1718,6 +1714,7 @@
             "VUSD",
             "VVS",
             "VVV",
+            "WATER",
             "WAVAX",
             "WBNB",
             "WBTC",
@@ -12741,13 +12738,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12755,7 +12745,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12769,7 +12759,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12783,7 +12773,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12791,6 +12781,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19946,7 +19943,6 @@
             "ALGO",
             "ALT",
             "AMP",
-            "AMPL",
             "ANIME",
             "APE",
             "API3",
@@ -20387,7 +20383,6 @@
             "XTVCCVX",
             "XTVCCVXCRV",
             "XTVCCZUSD",
-            "XTVCD24444",
             "XTVCDA",
             "XTVCDAI",
             "XTVCDAIE",
@@ -20435,7 +20430,6 @@
             "XTVCFM",
             "XTVCFOMO",
             "XTVCFOOM",
-            "XTVCFOX",
             "XTVCFPI",
             "XTVCFRAX",
             "XTVCFRXETH",
@@ -20513,6 +20507,7 @@
             "XTVCMAGIC",
             "XTVCMAMO",
             "XTVCMANA",
+            "XTVCMARWA",
             "XTVCMCOIN",
             "XTVCMETA",
             "XTVCMETFI",
@@ -20537,7 +20532,6 @@
             "XTVCOETH",
             "XTVCOETHB",
             "XTVCOHM",
-            "XTVCOI",
             "XTVCOLY",
             "XTVCOLYN",
             "XTVCOMG",
@@ -20596,6 +20590,7 @@
             "XTVCSTON",
             "XTVCSTRAC",
             "XTVCSTUSDS",
+            "XTVCSUCCE",
             "XTVCSUI",
             "XTVCSUP",
             "XTVCSUSDA",
@@ -20665,7 +20660,6 @@
             "XTVCUSX",
             "XTVCUTY",
             "XTVCV",
-            "XTVCVAULT",
             "XTVCVCHF",
             "XTVCVELO",
             "XTVCVIES",
@@ -20675,6 +20669,7 @@
             "XTVCVUSD",
             "XTVCVVS",
             "XTVCVVV",
+            "XTVCWATER",
             "XTVCWAVAX",
             "XTVCWBNB",
             "XTVCWBTC",

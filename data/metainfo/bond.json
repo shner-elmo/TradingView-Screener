@@ -3546,7 +3546,6 @@
             "Grupo Antol\u00edn Irausa SA",
             "Grupo Aval Acciones y Valores SA",
             "Grupo Bimbo SAB de CV",
-            "Grupo Cohen SA",
             "Grupo Energia Bogot\u00e1 SA ESP",
             "Grupo Financiero Banorte SAB de CV",
             "Grupo Financiero Galicia SA",
@@ -8566,6 +8565,7 @@
             "BVMT:TLS",
             "BVMT:UBCI",
             "BX:KEL",
+            "BX:QGENEUR",
             "CBOE:CBOE",
             "CHIXAU:AN3PI",
             "CSE:AAWH.U",
@@ -10734,7 +10734,6 @@
             "NYSE:PSX",
             "NYSE:PVH",
             "NYSE:PWR",
-            "NYSE:QGEN",
             "NYSE:QSR",
             "NYSE:QTWO",
             "NYSE:QXO",
@@ -12356,6 +12355,7 @@
             "BVMT:TLS",
             "BVMT:UBCI",
             "BX:KEL",
+            "BX:QGENEUR",
             "CBOE:CBOE",
             "CHIXAU:AN3PI",
             "CHIXAU:MBLPC",
@@ -14158,7 +14158,6 @@
             "NYSE:PSX",
             "NYSE:PVH",
             "NYSE:PWR",
-            "NYSE:QGEN",
             "NYSE:QTWO",
             "NYSE:R",
             "NYSE:RBLX",
@@ -16216,7 +16215,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -16457,6 +16457,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },

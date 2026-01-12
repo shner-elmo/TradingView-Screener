@@ -15010,13 +15010,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -15024,7 +15017,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15032,6 +15025,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22495,6 +22495,7 @@
             "Vest",
             "VictoryShares",
             "Vident",
+            "Vietnam",
             "VinaCapital",
             "Virtune",
             "Virtus",
@@ -23351,7 +23352,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -26540,6 +26542,7 @@
             "Tianhong Fund Management Co., Ltd",
             "Tibet Oriental Wealth Securities Co., Ltd.",
             "Tidal Investments LLC",
+            "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
             "Tobam Holding Co. SAS",
             "Toews Corp.",
