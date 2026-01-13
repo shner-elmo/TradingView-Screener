@@ -2493,6 +2493,7 @@
             "France",
             "Gabon",
             "Germany",
+            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -2505,7 +2506,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Ivory Coast",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2544,7 +2544,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -14996,14 +14995,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22419,7 +22418,6 @@
             "TCW",
             "TD",
             "THOR",
-            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -23143,7 +23141,6 @@
             "BW",
             "CA",
             "CH",
-            "CI",
             "CL",
             "CM",
             "CN",
@@ -23162,6 +23159,7 @@
             "FR",
             "GA",
             "GB",
+            "GH",
             "GI",
             "GL",
             "GR",
@@ -23223,7 +23221,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "SV",
             "TG",
             "TH",
@@ -23359,6 +23356,11 @@
     {
         "n": "current_yield",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "daily-bar.time",
+        "t": "number",
         "r": null
     },
     {
@@ -23956,7 +23958,9 @@
             "2025-Q2",
             "2025-Q3",
             "2025-Q4",
-            "2026-Q1"
+            "2026-H1",
+            "2026-Q1",
+            "2026-Q2"
         ]
     },
     {
@@ -24152,7 +24156,6 @@
             "2198",
             "22",
             "2200",
-            "2201",
             "2202",
             "2203",
             "2204",
@@ -26544,7 +26547,6 @@
             "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
-            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
@@ -26643,6 +26645,11 @@
     {
         "n": "kind-delay",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "last-price-update-time",
+        "t": "time",
         "r": null
     },
     {
@@ -26967,6 +26974,11 @@
     },
     {
         "n": "minmove2",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "minute-bar.time",
         "t": "number",
         "r": null
     },
@@ -29090,6 +29102,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",

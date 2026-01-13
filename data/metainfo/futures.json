@@ -2462,7 +2462,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -2574,6 +2573,11 @@
     {
         "n": "kind-delay",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "last-price-update-time",
+        "t": "time",
         "r": null
     },
     {

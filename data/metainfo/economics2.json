@@ -803,6 +803,11 @@
         "r": null
     },
     {
+        "n": "last-price-update-time",
+        "t": "time",
+        "r": null
+    },
+    {
         "n": "last_bar_update_time",
         "t": "number",
         "r": null,

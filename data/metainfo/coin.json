@@ -11945,14 +11945,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19143,6 +19143,11 @@
         "r": null
     },
     {
+        "n": "daily-bar.time",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "days_to_maturity",
         "t": "number",
         "r": null
@@ -19955,6 +19960,11 @@
         "r": null
     },
     {
+        "n": "last-price-update-time",
+        "t": "time",
+        "r": null
+    },
+    {
         "n": "last_bar_update_time",
         "t": "number",
         "r": null,
@@ -20141,6 +20151,11 @@
     },
     {
         "n": "minmove2",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "minute-bar.time",
         "t": "number",
         "r": null
     },
