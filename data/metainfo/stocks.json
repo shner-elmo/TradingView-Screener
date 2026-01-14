@@ -14995,14 +14995,14 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21720,6 +21720,7 @@
             "Armada ETF Advisors",
             "Arrow Funds",
             "ArrowShares",
+            "Arysteq",
             "Asset Management One",
             "AssetPlus",
             "Astoria",
@@ -26057,6 +26058,7 @@
             "Defiance ETFs LLC",
             "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
+            "Delaware Management Company Inc",
             "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
@@ -26280,6 +26282,7 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
+            "Lexus Securities Pty Ltd.",
             "LionShares LLC",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
@@ -29102,7 +29105,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
