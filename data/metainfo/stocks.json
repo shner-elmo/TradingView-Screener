@@ -2497,7 +2497,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -14981,14 +14980,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22170,6 +22169,7 @@
             "Miller",
             "Minsheng Royal",
             "Mirae Asset",
+            "Moat",
             "Mohr Funds",
             "Monarch",
             "Montaka",
@@ -22522,6 +22522,7 @@
             "Western Asset",
             "Western LeadBank",
             "Westwood",
+            "Wilmington Funds",
             "Wisdom",
             "WisdomTree",
             "Woori",
@@ -23164,7 +23165,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -23349,6 +23349,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
