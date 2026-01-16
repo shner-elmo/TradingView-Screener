@@ -7,6 +7,53 @@
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark-dimmed.css">
   <style>
+#archive-banner {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #0d1117;
+  border-bottom: 1px solid #30363d;
+  padding: 0.4rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.archive-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.archive-badge {
+  background: rgba(56, 139, 253, 0.15);
+  color: #58a6ff;
+  border: 1px solid rgba(56, 139, 253, 0.4);
+  border-radius: 6px;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.archive-text {
+  color: #8b949e;
+}
+
+.archive-close {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  padding: 0 0.25rem;
+  cursor: pointer;
+  color: #8b949e;
+}
+
+.archive-close:hover {
+  color: #c9d1d9;
+}
+
     #screenerButtons button {
         padding: 7px 20px; /* Adjust padding to make the button smaller */
         margin: 3px;
@@ -17,6 +64,15 @@
   </style>
 </head>
 <body>
+<div id="archive-banner">
+  <div class="archive-left">
+    <span class="archive-badge">Archived</span>
+    <span class="archive-text">
+      This page is preserved for reference and no longer reflects the current TradingView website.
+    </span>
+  </div>
+  <button class="archive-close" aria-label="Close" onclick="closeArchiveBanner()">×</button>
+</div>
 <main class="container">
   <!--  <label for="market">Choose a Market:</label>-->
   <select id="market" onchange="location = this.value;">
@@ -160,6 +216,11 @@
 
     document.getElementById('market').value = window.location.href.split('/').slice(-1)[0];
     lastActiveButton.click();  // this is needed at the beginning, so it populates the code from the first screener-button
+  }
+</script>
+<script>
+  function closeArchiveBanner() {
+    document.getElementById("archive-banner")?.remove();
   }
 </script>
 </body>
