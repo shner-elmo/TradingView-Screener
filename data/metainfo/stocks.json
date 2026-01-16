@@ -15008,14 +15008,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21809,7 +21809,6 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
-            "Candriam",
             "Capital",
             "Capital Group",
             "Capstone",
@@ -25601,6 +25600,7 @@
             "SIX Group AG",
             "SIX Swiss Exchange AG",
             "SL Advisors LLC",
+            "SPADE DEFENSE INDEX",
             "STOXX AG",
             "Scientific Beta Pte Ltd.",
             "Shanghai Gold Exchange",
@@ -26077,7 +26077,6 @@
             "Donoghue Forlines LLC",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
-            "Dvx Ventures LLC",
             "E Fund Management Co., Ltd.",
             "EPWA Holding Co. LLC",
             "EQT Holdings Ltd.",
@@ -26397,6 +26396,7 @@
             "Perpetual Ltd.",
             "Pettee Investors, Inc.",
             "PhillipCapital",
+            "Phronesis Investimentos Ltda.",
             "Pictet & Partners",
             "Picton Mahoney Asset Management",
             "Ping An Insurance (Group) Co. of China Ltd.",
