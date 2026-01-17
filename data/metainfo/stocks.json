@@ -14994,13 +14994,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -15008,7 +15001,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15016,6 +15009,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22368,6 +22368,7 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -22521,7 +22522,6 @@
             "Western Asset",
             "Western LeadBank",
             "Westwood",
-            "Wilmington Funds",
             "Wisdom",
             "WisdomTree",
             "Woori",
@@ -23348,10 +23348,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -26028,6 +26026,7 @@
             "Confederation Nationale Cr\u00e9dit Mutuel SA",
             "Convergence Investment Partners LLC",
             "Core Alternative Capital LLC",
+            "Corgi Insurance Services, Inc.",
             "Corgi Strategies LLC",
             "Corient Holdings, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
@@ -26242,6 +26241,7 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -26433,7 +26433,7 @@
             "Rational Advisors, Inc.",
             "Raymond James Financial, Inc.",
             "Realfin Collective Investment Schemes (RF) Pty Ltd.",
-            "Redbird Capital Partners LP",
+            "Redbird Capital Partners Alternative Holdings LLC",
             "Redwood Investment Holdco LLC",
             "Reflection Asset Management LLC",
             "Regan Capital LLC",
@@ -27349,6 +27349,7 @@
             "16",
             "161",
             "167",
+            "168",
             "169",
             "171",
             "174",

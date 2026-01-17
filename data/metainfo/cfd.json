@@ -12029,13 +12029,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12043,7 +12036,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12051,6 +12044,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19034,6 +19034,7 @@
             "Core",
             "Cosmos",
             "Cosplay Token",
+            "Creditcoin",
             "Cronos",
             "Curve DAO Token",
             "DAR Open Network",
@@ -19078,6 +19079,7 @@
             "Four",
             "Frax (prev. FXS)",
             "GMT",
+            "GMX",
             "GRIFFAIN",
             "GROK",
             "Gala",
@@ -19166,6 +19168,7 @@
             "Mubarak",
             "MultiversX",
             "MyNeighborAlice",
+            "MyShell",
             "Myria",
             "Myro",
             "NEAR Protocol",
@@ -19245,7 +19248,6 @@
             "Sapien",
             "Saros",
             "Sei",
-            "SentismAI",
             "Serum",
             "Shiba Inu",
             "Sky",
@@ -19317,7 +19319,6 @@
             "WOLF",
             "WOO",
             "Waves",
-            "Wayfinder",
             "WeFi",
             "WingRiders Governance Token",
             "Wojak",
@@ -19325,7 +19326,6 @@
             "World Liberty Financial USD",
             "Worldcoin",
             "Wormhole",
-            "Wrapped Bitcoin",
             "XDC Network",
             "XPIN Network",
             "XPR Network",
@@ -19441,6 +19441,7 @@
             "XTVCCRO",
             "XTVCCRV",
             "XTVCCSPR",
+            "XTVCCTC",
             "XTVCCVX",
             "XTVCDA",
             "XTVCDAI",
@@ -19495,6 +19496,7 @@
             "XTVCGLMR",
             "XTVCGMMT",
             "XTVCGMT",
+            "XTVCGMX",
             "XTVCGOMINING",
             "XTVCGOOGLX",
             "XTVCGRIFFAIN",
@@ -19617,7 +19619,6 @@
             "XTVCPONKE",
             "XTVCPOWERP",
             "XTVCPRCL",
-            "XTVCPROMPT",
             "XTVCPTB",
             "XTVCPUMPF",
             "XTVCPYBOBO",
@@ -19653,7 +19654,7 @@
             "XTVCSAPIEN",
             "XTVCSAROS",
             "XTVCSEI",
-            "XTVCSENTIS",
+            "XTVCSHELLM",
             "XTVCSHIB",
             "XTVCSHIBA",
             "XTVCSHX",
@@ -19727,7 +19728,6 @@
             "XTVCVVV",
             "XTVCW",
             "XTVCWAVES",
-            "XTVCWBTC",
             "XTVCWETH",
             "XTVCWFI",
             "XTVCWHITEWHALE",
@@ -19814,10 +19814,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
