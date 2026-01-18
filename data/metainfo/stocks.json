@@ -15008,14 +15008,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22262,6 +22262,7 @@
             "Perpetual",
             "Perth Mint",
             "Phillip",
+            "Phronesis",
             "Pictet",
             "Picton Mahoney",
             "PineBridge Investments",
@@ -22278,7 +22279,6 @@
             "Premia",
             "Premier ETF",
             "Prescient",
-            "President",
             "Principal",
             "ProShares",
             "Procure",
@@ -23348,6 +23348,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
@@ -26324,6 +26325,7 @@
             "Mirae Asset Global Investments Co., Ltd.",
             "Mirae Asset Securities Co., Ltd.",
             "Mitsubishi UFJ Financial Group, Inc.",
+            "Moat Financial Ltd.",
             "Montagu Private Equity LLP",
             "Montaka Global Investments LLC",
             "Morgan Stanley",
@@ -26410,7 +26412,6 @@
             "Power Financial Corp.",
             "Precidian Investments LLC",
             "Prescient Management Co. RF Pty Ltd.",
-            "President Securities Corp.",
             "Principal Asset Management Bhd.",
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
@@ -28392,6 +28393,7 @@
             "28",
             "29",
             "3",
+            "30",
             "31",
             "32",
             "34",
