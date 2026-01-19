@@ -15022,14 +15022,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21767,6 +21767,7 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -22279,6 +22280,7 @@
             "Premia",
             "Premier ETF",
             "Prescient",
+            "President",
             "Principal",
             "ProShares",
             "Procure",
@@ -23348,9 +23350,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -26412,6 +26414,7 @@
             "Power Financial Corp.",
             "Precidian Investments LLC",
             "Prescient Management Co. RF Pty Ltd.",
+            "President Securities Corp.",
             "Principal Asset Management Bhd.",
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
@@ -29109,6 +29112,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
