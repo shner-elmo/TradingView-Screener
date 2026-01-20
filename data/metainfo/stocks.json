@@ -15008,13 +15008,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -15022,7 +15015,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15030,6 +15023,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22280,7 +22280,6 @@
             "Premia",
             "Premier ETF",
             "Prescient",
-            "President",
             "Principal",
             "ProShares",
             "Procure",
@@ -22505,7 +22504,6 @@
             "Volatility Shares",
             "Vontobel",
             "Voya",
-            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -22530,6 +22528,7 @@
             "X-Square",
             "XACT",
             "XBT",
+            "XP",
             "Xetra",
             "Xingquan",
             "Xingyin",
@@ -26414,7 +26413,6 @@
             "Power Financial Corp.",
             "Precidian Investments LLC",
             "Prescient Management Co. RF Pty Ltd.",
-            "President Securities Corp.",
             "Principal Asset Management Bhd.",
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
@@ -26516,7 +26514,6 @@
             "Symmetry Partners LLC",
             "T-Bank",
             "T. Rowe Price Group, Inc.",
-            "TBI Investment Managers (Pty) Ltd.",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
             "TS Financial Holding Co., Ltd.",
@@ -27353,7 +27350,6 @@
             "16",
             "161",
             "167",
-            "168",
             "169",
             "171",
             "174",
@@ -28396,7 +28392,6 @@
             "28",
             "29",
             "3",
-            "30",
             "31",
             "32",
             "34",
@@ -28625,6 +28620,7 @@
         "t": "text",
         "r": [
             "",
+            "cfd",
             "closedend",
             "common",
             "etf",
@@ -29112,7 +29108,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
