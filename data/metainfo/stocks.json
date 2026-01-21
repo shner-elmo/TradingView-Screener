@@ -3973,6 +3973,7 @@
             "HUF",
             "IDR",
             "ILA",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -14980,14 +14981,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15008,13 +15009,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -15022,7 +15016,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15030,6 +15024,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21635,7 +21636,6 @@
             "3iQ",
             "AAM",
             "AB Funds",
-            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -21859,6 +21859,7 @@
             "DDA",
             "DGA",
             "DNB",
+            "DOO",
             "DSP",
             "DWS",
             "Da Cheng",
@@ -22515,6 +22516,7 @@
             "Warren",
             "WaveFront",
             "Wayfinder",
+            "Waystone",
             "WealthTrust",
             "Wedbush",
             "Weitz",
@@ -23287,6 +23289,7 @@
             "HKD",
             "HUF",
             "IDR",
+            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -24165,6 +24168,7 @@
             "2211",
             "2212",
             "2213",
+            "2214",
             "23",
             "24",
             "2430",
@@ -25904,7 +25908,6 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amundi Luxembourg SA",
-            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
@@ -26076,6 +26079,7 @@
             "Dokhod Asset Management Co. OOO",
             "Dongxu Optoelectronic Investment Co., Ltd.",
             "Donoghue Forlines LLC",
+            "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
             "E Fund Management Co., Ltd.",
@@ -26602,6 +26606,7 @@
             "Warren Capital Management, Inc.",
             "Water Island Capital Partners LP",
             "Waverly Advisors LLC",
+            "Waystone Governance Ltd.",
             "WealthTrust Asset Management LLC",
             "Wedbush Capital",
             "Weitz Investment Management, Inc.",
@@ -27350,6 +27355,7 @@
             "16",
             "161",
             "167",
+            "168",
             "169",
             "171",
             "174",
@@ -27464,6 +27470,7 @@
             "9603",
             "9604",
             "97",
+            "9710",
             "98",
             "9861"
         ]
@@ -28392,6 +28399,7 @@
             "28",
             "29",
             "3",
+            "30",
             "31",
             "32",
             "34",

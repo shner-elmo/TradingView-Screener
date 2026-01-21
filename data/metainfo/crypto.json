@@ -258,7 +258,6 @@
             "Raydium",
             "Rayls",
             "Real USD",
-            "Recovery Right Token",
             "Render",
             "Request Network",
             "Resolv",
@@ -1428,7 +1427,6 @@
             "BKC",
             "BL",
             "BLOCK",
-            "BMX",
             "BNB",
             "BNKR",
             "BNX",
@@ -1474,6 +1472,7 @@
             "D",
             "DAI",
             "DAIE",
+            "DAN",
             "DDD",
             "DEAI",
             "DETH",
@@ -1566,6 +1565,7 @@
             "LABUBU",
             "LDO",
             "LEMX",
+            "LGNS",
             "LIBRA",
             "LIFE",
             "LINK",
@@ -1578,7 +1578,6 @@
             "MAGIC",
             "MAMO",
             "MANA",
-            "MBOX",
             "MCOIN",
             "META",
             "METFI",
@@ -12771,13 +12770,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12785,7 +12777,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12793,6 +12785,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20150,7 +20149,6 @@
             "RLS",
             "RON",
             "ROSE",
-            "RRT",
             "RUNE",
             "RVN",
             "S",
@@ -20344,7 +20342,6 @@
             "XTVCBL",
             "XTVCBLAZESTAKESTAKEDSOLBSOL",
             "XTVCBLOCK",
-            "XTVCBMX",
             "XTVCBNB",
             "XTVCBNKR",
             "XTVCBNX",
@@ -20391,6 +20388,7 @@
             "XTVCDA",
             "XTVCDAI",
             "XTVCDAIE",
+            "XTVCDAN",
             "XTVCDBIT",
             "XTVCDDDD",
             "XTVCDEAI",
@@ -20499,6 +20497,7 @@
             "XTVCLABUBU",
             "XTVCLDO",
             "XTVCLEMX",
+            "XTVCLGNS",
             "XTVCLIBRA",
             "XTVCLIFE",
             "XTVCLINK",
@@ -20515,7 +20514,6 @@
             "XTVCMAMO",
             "XTVCMANA",
             "XTVCMARWA",
-            "XTVCMBOX",
             "XTVCMCOIN",
             "XTVCMETA",
             "XTVCMETFI",
@@ -21551,6 +21549,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
