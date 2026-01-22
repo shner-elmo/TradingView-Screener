@@ -2457,7 +2457,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -15023,14 +15022,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21810,6 +21809,7 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
+            "Candriam",
             "Capital",
             "Capital Group",
             "Capstone",
@@ -22046,6 +22046,7 @@
             "INDEKS",
             "IPAAM",
             "Impact Shares",
+            "Income STKd",
             "IncomeShares",
             "IndexIQ",
             "Indexperts",
@@ -22421,6 +22422,7 @@
             "TCW",
             "TD",
             "THOR",
+            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -23128,7 +23130,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -24069,7 +24070,6 @@
             "2048",
             "2050",
             "2051",
-            "2054",
             "2055",
             "2056",
             "2059",
@@ -26556,6 +26556,7 @@
             "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
+            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
@@ -28628,7 +28629,6 @@
         "t": "text",
         "r": [
             "",
-            "cfd",
             "closedend",
             "common",
             "etf",
@@ -28790,6 +28790,7 @@
             "GB",
             "GE",
             "GH",
+            "GI",
             "GL",
             "GN",
             "GR",
