@@ -1208,6 +1208,10 @@
                 "name": "Nifty India Consumption"
             },
             {
+                "id": "NSE:CNXDIVIDOPPT",
+                "name": "Nifty Dividend Opportunities 50"
+            },
+            {
                 "id": "NSE:CNXENERGY",
                 "name": "Nifty Energy"
             },
@@ -1272,24 +1276,92 @@
                 "name": "Nifty CPSE"
             },
             {
+                "id": "NSE:LIX15",
+                "name": "Nifty 100 Liquid 15"
+            },
+            {
+                "id": "NSE:NI15",
+                "name": "Nifty Growth Sectors 15"
+            },
+            {
                 "id": "NSE:NIFTY",
                 "name": "Nifty 50"
+            },
+            {
+                "id": "NSE:NIFTY100EQUALWEIGHT",
+                "name": "Nifty 100 Equal Weight"
+            },
+            {
+                "id": "NSE:NIFTY100LOWVOL30",
+                "name": "Nifty 100 Low Volatility 30"
+            },
+            {
+                "id": "NSE:NIFTY100_ALPHA_30",
+                "name": "Nifty 100 Alpha 30"
             },
             {
                 "id": "NSE:NIFTY200MOMENTM30",
                 "name": "Nifty 200 Momentum 30"
             },
             {
+                "id": "NSE:NIFTY200QUALTY30",
+                "name": "Nifty 200 Quality 30"
+            },
+            {
+                "id": "NSE:NIFTY200_ALPHA_30",
+                "name": "Nifty 200 Alpha 30"
+            },
+            {
+                "id": "NSE:NIFTY200_VALUE_30",
+                "name": "Nifty 200 VALUE 30"
+            },
+            {
+                "id": "NSE:NIFTY500MOMENTM50",
+                "name": "Nifty 500 Momentum 50"
+            },
+            {
+                "id": "NSE:NIFTY500_EW",
+                "name": "Nifty 500 EW"
+            },
+            {
+                "id": "NSE:NIFTY500_LMS_EQL",
+                "name": "Nifty 500 LMS EQL"
+            },
+            {
+                "id": "NSE:NIFTY500_LOWVOL50",
+                "name": "Nifty 500 Low VOL 50"
+            },
+            {
+                "id": "NSE:NIFTY500_MQVLV50",
+                "name": "Nifty 500 MQVLV 50"
+            },
+            {
                 "id": "NSE:NIFTY500_MULTICAP",
                 "name": "Nifty 500 MultiCap 50:25:25"
+            },
+            {
+                "id": "NSE:NIFTY500_QLTY50",
+                "name": "Nifty 500 QLTY 50"
+            },
+            {
+                "id": "NSE:NIFTY500_VALUE_50",
+                "name": "Nifty 500 Value 50"
             },
             {
                 "id": "NSE:NIFTY50EQUALWEIGHT",
                 "name": "Nifty 50 Equal Weight"
             },
             {
+                "id": "NSE:NIFTY50_VALUE_20",
+                "name": "Nifty 50 Value 20"
+            },
+            {
                 "id": "NSE:NIFTYALPHA50",
                 "name": "Nifty Alpha 50"
+            },
+            {
+                "id": "NSE:NIFTYALPHALOWVOL",
+                "name": "Nifty Alpha Low Volatility 30"
             },
             {
                 "id": "NSE:NIFTYFINSRV25_50",
@@ -1300,6 +1372,10 @@
                 "name": "Nifty Next 50"
             },
             {
+                "id": "NSE:NIFTYM150MOMNTM50",
+                "name": "Nifty MidCap 150 Momentum 50"
+            },
+            {
                 "id": "NSE:NIFTYMIDCAP150",
                 "name": "Nifty MidCap 150"
             },
@@ -1308,12 +1384,28 @@
                 "name": "Nifty MidCap 50"
             },
             {
+                "id": "NSE:NIFTYMIDLIQ15",
+                "name": "Nifty MidCap Liquid 15"
+            },
+            {
                 "id": "NSE:NIFTYMIDSML400",
                 "name": "Nifty MidSmallCap 400"
             },
             {
+                "id": "NSE:NIFTYMS400_MQ_100",
+                "name": "Nifty MS 400 MQ 100"
+            },
+            {
                 "id": "NSE:NIFTYPVTBANK",
                 "name": "Nifty Private Bank"
+            },
+            {
+                "id": "NSE:NIFTYQUALITY30",
+                "name": "Nifty 100 Quality 30"
+            },
+            {
+                "id": "NSE:NIFTYSML250MQ_100",
+                "name": "Nifty SML 250 MQ 100"
             },
             {
                 "id": "NSE:NIFTYSMLCAP250",
@@ -1324,40 +1416,168 @@
                 "name": "Nifty SmallCap 50"
             },
             {
+                "id": "NSE:NIFTY_AQLV_30",
+                "name": "Nifty AQLV 30"
+            },
+            {
+                "id": "NSE:NIFTY_AQL_30",
+                "name": "Nifty AQL 30"
+            },
+            {
+                "id": "NSE:NIFTY_CAPITAL_MKT",
+                "name": "Nifty CAPITAL MKT"
+            },
+            {
                 "id": "NSE:NIFTY_CONSR_DURBL",
                 "name": "Nifty Consumer Durables"
+            },
+            {
+                "id": "NSE:NIFTY_COREHOUSING",
+                "name": "Nifty COREHOUSING"
+            },
+            {
+                "id": "NSE:NIFTY_CORP_MAATR",
+                "name": "Nifty CORP MAATR"
+            },
+            {
+                "id": "NSE:NIFTY_EV",
+                "name": "Nifty EV"
+            },
+            {
+                "id": "NSE:NIFTY_FINSEREXBNK",
+                "name": "Nifty FINSEREXBNK"
             },
             {
                 "id": "NSE:NIFTY_HEALTHCARE",
                 "name": "Nifty Healthcare"
             },
             {
+                "id": "NSE:NIFTY_HIGHBETA_50",
+                "name": "Nifty High Beta 50"
+            },
+            {
+                "id": "NSE:NIFTY_HOUSING",
+                "name": "Nifty Housing"
+            },
+            {
                 "id": "NSE:NIFTY_INDIA_MFG",
                 "name": "Nifty India Manufacturing"
+            },
+            {
+                "id": "NSE:NIFTY_IND_DEFENCE",
+                "name": "Nifty India Defence"
             },
             {
                 "id": "NSE:NIFTY_IND_DIGITAL",
                 "name": "Nifty India Digital"
             },
             {
+                "id": "NSE:NIFTY_IND_TOURISM",
+                "name": "Nifty India Tourism"
+            },
+            {
+                "id": "NSE:NIFTY_IPO",
+                "name": "Nifty IPO"
+            },
+            {
                 "id": "NSE:NIFTY_LARGEMID250",
                 "name": "Nifty LargeMidCap 250"
+            },
+            {
+                "id": "NSE:NIFTY_LOW_VOL_50",
+                "name": "Nifty Low VOL 50"
+            },
+            {
+                "id": "NSE:NIFTY_M150_QLTY50",
+                "name": "Nifty MidCap 150 Quality 50"
             },
             {
                 "id": "NSE:NIFTY_MICROCAP250",
                 "name": "Nifty MicroCap 250"
             },
             {
+                "id": "NSE:NIFTY_MIDSML_HLTH",
+                "name": "Nifty MIDSML HLTH"
+            },
+            {
                 "id": "NSE:NIFTY_MID_SELECT",
                 "name": "Nifty MidCap Select"
+            },
+            {
+                "id": "NSE:NIFTY_MOBILITY",
+                "name": "Nifty Mobility"
+            },
+            {
+                "id": "NSE:NIFTY_MS_FIN_SERV",
+                "name": "Nifty MS FIN SERV"
+            },
+            {
+                "id": "NSE:NIFTY_MS_IND_CONS",
+                "name": "Nifty MS India CONS"
+            },
+            {
+                "id": "NSE:NIFTY_MS_IT_TELCM",
+                "name": "Nifty MS IT TELCM"
+            },
+            {
+                "id": "NSE:NIFTY_MULTI_INFRA",
+                "name": "Nifty MULTI INFRA"
+            },
+            {
+                "id": "NSE:NIFTY_MULTI_MFG",
+                "name": "Nifty MULTI MFG"
+            },
+            {
+                "id": "NSE:NIFTY_MULTI_MQ_50",
+                "name": "Nifty MULTI MQ 50"
+            },
+            {
+                "id": "NSE:NIFTY_NEW_CONSUMP",
+                "name": "Nifty New CONSUMP"
+            },
+            {
+                "id": "NSE:NIFTY_NONCYC_CONS",
+                "name": "Nifty NONCYC CONS"
             },
             {
                 "id": "NSE:NIFTY_OIL_AND_GAS",
                 "name": "Nifty Oil and Gas"
             },
             {
+                "id": "NSE:NIFTY_QLTY_LV_30",
+                "name": "Nifty QLTY LV 30"
+            },
+            {
+                "id": "NSE:NIFTY_RURAL",
+                "name": "Nifty Rural"
+            },
+            {
+                "id": "NSE:NIFTY_SML250_Q50",
+                "name": "Nifty SML 250 Q 50"
+            },
+            {
+                "id": "NSE:NIFTY_TATA_25_CAP",
+                "name": "Nifty TATA 25 CAP"
+            },
+            {
+                "id": "NSE:NIFTY_TOP_10_EW",
+                "name": "Nifty Top 10 EW"
+            },
+            {
+                "id": "NSE:NIFTY_TOP_15_EW",
+                "name": "Nifty Top 15 EW"
+            },
+            {
+                "id": "NSE:NIFTY_TOP_20_EW",
+                "name": "Nifty Top 20 EW"
+            },
+            {
                 "id": "NSE:NIFTY_TOTAL_MKT",
                 "name": "Nifty Total Market"
+            },
+            {
+                "id": "NSE:NIFTY_TRANS_LOGIS",
+                "name": "Nifty TRANS LOGIS"
             },
             {
                 "id": "NSENG:NGX30",
@@ -2541,6 +2761,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -22224,7 +22445,6 @@
             "OTG",
             "OTP",
             "Oakmark",
-            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -23221,6 +23441,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "SV",
             "TG",
             "TH",
@@ -23350,8 +23571,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24066,6 +24286,7 @@
             "2048",
             "2050",
             "2051",
+            "2054",
             "2055",
             "2056",
             "2059",
@@ -24165,6 +24386,7 @@
             "2212",
             "2213",
             "2214",
+            "2215",
             "23",
             "24",
             "2430",
@@ -25213,6 +25435,7 @@
             "SYML:NSE;CNXAUTO",
             "SYML:NSE;CNXCOMMODITIES",
             "SYML:NSE;CNXCONSUMPTION",
+            "SYML:NSE;CNXDIVIDOPPT",
             "SYML:NSE;CNXENERGY",
             "SYML:NSE;CNXFINANCE",
             "SYML:NSE;CNXFMCG",
@@ -25229,28 +25452,82 @@
             "SYML:NSE;CNXSERVICE",
             "SYML:NSE;CNXSMALLCAP",
             "SYML:NSE;CPSE",
+            "SYML:NSE;LIX15",
+            "SYML:NSE;NI15",
             "SYML:NSE;NIFTY",
+            "SYML:NSE;NIFTY100EQUALWEIGHT",
+            "SYML:NSE;NIFTY100LOWVOL30",
+            "SYML:NSE;NIFTY100_ALPHA_30",
             "SYML:NSE;NIFTY200MOMENTM30",
+            "SYML:NSE;NIFTY200QUALTY30",
+            "SYML:NSE;NIFTY200_ALPHA_30",
+            "SYML:NSE;NIFTY200_VALUE_30",
+            "SYML:NSE;NIFTY500MOMENTM50",
+            "SYML:NSE;NIFTY500_EW",
+            "SYML:NSE;NIFTY500_LMS_EQL",
+            "SYML:NSE;NIFTY500_LOWVOL50",
+            "SYML:NSE;NIFTY500_MQVLV50",
             "SYML:NSE;NIFTY500_MULTICAP",
+            "SYML:NSE;NIFTY500_QLTY50",
+            "SYML:NSE;NIFTY500_VALUE_50",
             "SYML:NSE;NIFTY50EQUALWEIGHT",
+            "SYML:NSE;NIFTY50_VALUE_20",
             "SYML:NSE;NIFTYALPHA50",
+            "SYML:NSE;NIFTYALPHALOWVOL",
             "SYML:NSE;NIFTYFINSRV25_50",
             "SYML:NSE;NIFTYJR",
+            "SYML:NSE;NIFTYM150MOMNTM50",
             "SYML:NSE;NIFTYMIDCAP150",
             "SYML:NSE;NIFTYMIDCAP50",
+            "SYML:NSE;NIFTYMIDLIQ15",
             "SYML:NSE;NIFTYMIDSML400",
+            "SYML:NSE;NIFTYMS400_MQ_100",
             "SYML:NSE;NIFTYPVTBANK",
+            "SYML:NSE;NIFTYQUALITY30",
+            "SYML:NSE;NIFTYSML250MQ_100",
             "SYML:NSE;NIFTYSMLCAP250",
             "SYML:NSE;NIFTYSMLCAP50",
+            "SYML:NSE;NIFTY_AQLV_30",
+            "SYML:NSE;NIFTY_AQL_30",
+            "SYML:NSE;NIFTY_CAPITAL_MKT",
             "SYML:NSE;NIFTY_CONSR_DURBL",
+            "SYML:NSE;NIFTY_COREHOUSING",
+            "SYML:NSE;NIFTY_CORP_MAATR",
+            "SYML:NSE;NIFTY_EV",
+            "SYML:NSE;NIFTY_FINSEREXBNK",
             "SYML:NSE;NIFTY_HEALTHCARE",
+            "SYML:NSE;NIFTY_HIGHBETA_50",
+            "SYML:NSE;NIFTY_HOUSING",
             "SYML:NSE;NIFTY_INDIA_MFG",
+            "SYML:NSE;NIFTY_IND_DEFENCE",
             "SYML:NSE;NIFTY_IND_DIGITAL",
+            "SYML:NSE;NIFTY_IND_TOURISM",
+            "SYML:NSE;NIFTY_IPO",
             "SYML:NSE;NIFTY_LARGEMID250",
+            "SYML:NSE;NIFTY_LOW_VOL_50",
+            "SYML:NSE;NIFTY_M150_QLTY50",
             "SYML:NSE;NIFTY_MICROCAP250",
+            "SYML:NSE;NIFTY_MIDSML_HLTH",
             "SYML:NSE;NIFTY_MID_SELECT",
+            "SYML:NSE;NIFTY_MOBILITY",
+            "SYML:NSE;NIFTY_MS_FIN_SERV",
+            "SYML:NSE;NIFTY_MS_IND_CONS",
+            "SYML:NSE;NIFTY_MS_IT_TELCM",
+            "SYML:NSE;NIFTY_MULTI_INFRA",
+            "SYML:NSE;NIFTY_MULTI_MFG",
+            "SYML:NSE;NIFTY_MULTI_MQ_50",
+            "SYML:NSE;NIFTY_NEW_CONSUMP",
+            "SYML:NSE;NIFTY_NONCYC_CONS",
             "SYML:NSE;NIFTY_OIL_AND_GAS",
+            "SYML:NSE;NIFTY_QLTY_LV_30",
+            "SYML:NSE;NIFTY_RURAL",
+            "SYML:NSE;NIFTY_SML250_Q50",
+            "SYML:NSE;NIFTY_TATA_25_CAP",
+            "SYML:NSE;NIFTY_TOP_10_EW",
+            "SYML:NSE;NIFTY_TOP_15_EW",
+            "SYML:NSE;NIFTY_TOP_20_EW",
             "SYML:NSE;NIFTY_TOTAL_MKT",
+            "SYML:NSE;NIFTY_TRANS_LOGIS",
             "SYML:NSENG;NGX30",
             "SYML:NZX;NZ50G",
             "SYML:OMXCOP;OMXC25",
@@ -26057,6 +26334,7 @@
             "Deegan Holdings LLC",
             "Deepwater Asset Management LLC (Investment Management)",
             "Defiance ETFs LLC",
+            "Defiance Group Holdings LLC",
             "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Delaware Management Company Inc",
@@ -27980,8 +28258,7 @@
         "r": [
             "alor",
             "ice",
-            "sixgroup",
-            "tvc"
+            "sixgroup"
         ]
     },
     {
@@ -29105,7 +29382,6 @@
         "t": "set",
         "r": [
             "",
-            "cfd",
             "closedend",
             "common",
             "etf",

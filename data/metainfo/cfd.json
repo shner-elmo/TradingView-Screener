@@ -12029,14 +12029,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19030,7 +19030,6 @@
             "Cronos",
             "Curve DAO Token",
             "DAR Open Network",
-            "DOGS",
             "Dai",
             "Dash",
             "DeXe",
@@ -19111,6 +19110,7 @@
             "KAITO",
             "KGeN",
             "KUB Coin",
+            "Kaia",
             "Kamino Finance",
             "Kaon",
             "Kaspa",
@@ -19147,7 +19147,6 @@
             "Meteora",
             "Metis",
             "Micro GPT",
-            "Midnight",
             "Milady Meme Coin",
             "Mind Network",
             "Minto",
@@ -19218,7 +19217,6 @@
             "Quant",
             "Quantum Resistant Ledger",
             "RETARDIO",
-            "RaveDAO",
             "Ravencoin",
             "Raydium",
             "Rekt",
@@ -19263,6 +19261,7 @@
             "Sui",
             "Sun (New)",
             "SuperRare",
+            "Surge",
             "SushiSwap",
             "Swarm Network",
             "Swarms",
@@ -19446,7 +19445,6 @@
             "XTVCDGB",
             "XTVCDOGE",
             "XTVCDOGECOIN",
-            "XTVCDOGS2",
             "XTVCDOLO",
             "XTVCDOT",
             "XTVCDRIFT",
@@ -19520,6 +19518,7 @@
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
+            "XTVCKAIA",
             "XTVCKAITO",
             "XTVCKAS",
             "XTVCKAVA",
@@ -19580,7 +19579,6 @@
             "XTVCNEO",
             "XTVCNEXO",
             "XTVCNFT",
-            "XTVCNIGHTMI",
             "XTVCNIL",
             "XTVCNOBODY",
             "XTVCNOT",
@@ -19626,7 +19624,6 @@
             "XTVCQUAI",
             "XTVCQUBIC",
             "XTVCRARE",
-            "XTVCRAVED",
             "XTVCRAY",
             "XTVCREKTC",
             "XTVCRENDER",
@@ -19675,6 +19672,7 @@
             "XTVCSUI",
             "XTVCSUN",
             "XTVCSUPRA",
+            "XTVCSURGE2",
             "XTVCSUSHI",
             "XTVCSVL",
             "XTVCSWARMS",
@@ -19813,8 +19811,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
