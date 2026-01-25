@@ -3528,7 +3528,6 @@
             "GreenSaif Pipelines Bidco SARL",
             "Greenbrier Cos., Inc.",
             "Greenfood AB",
-            "Greenko Dutch BV",
             "Greenko Energy Holdings Pvt Ltd.",
             "Greenland Holdings Corp. Ltd.",
             "Greensquareaccord Ltd.",
@@ -16189,6 +16188,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "market",
             "out_of_session"
         ]
     },
