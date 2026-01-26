@@ -518,22 +518,6 @@
                 "exchange.tr",
                 "source-logoid"
             ],
-            "filter": [
-                {
-                    "left": "bond_issuer_type",
-                    "operation": "in_range",
-                    "right": [
-                        "sovereign"
-                    ]
-                },
-                {
-                    "left": "country",
-                    "operation": "in_range",
-                    "right": [
-                        "United States"
-                    ]
-                }
-            ],
             "ignore_unknown_fields": false,
             "options": {
                 "lang": "en"
@@ -543,14 +527,14 @@
                 100
             ],
             "sort": {
-                "sortBy": "maturity_date",
-                "sortOrder": "asc"
+                "sortBy": "bond_snp_rating_lt",
+                "sortOrder": "desc"
             },
             "symbols": {},
             "markets": [
                 "bond"
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'exchange.tr',\n     'source-logoid',\n )\n .where(col('bond_issuer_type').isin(['sovereign']), col('country').isin(['United States']))\n .order_by('maturity_date', ascending=True)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'exchange.tr',\n     'source-logoid',\n )\n .order_by('bond_snp_rating_lt', ascending=False)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
     }
 ]
