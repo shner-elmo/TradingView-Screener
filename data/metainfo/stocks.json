@@ -2711,7 +2711,6 @@
             "France",
             "Gabon",
             "Germany",
-            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -15214,13 +15213,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -15228,7 +15220,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15242,7 +15234,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15250,6 +15242,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22636,6 +22635,7 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
+            "TBI",
             "TCW",
             "TD",
             "THOR",
@@ -22715,6 +22715,7 @@
             "Vest",
             "VictoryShares",
             "Vident",
+            "Vietnam",
             "VinaCapital",
             "Virtune",
             "Virtus",
@@ -23379,7 +23380,6 @@
             "FR",
             "GA",
             "GB",
-            "GH",
             "GI",
             "GL",
             "GR",
@@ -23569,7 +23569,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24368,7 +24367,6 @@
             "2184",
             "2186",
             "2187",
-            "2189",
             "2190",
             "2191",
             "2193",
@@ -26829,6 +26827,7 @@
             "Tianhong Fund Management Co., Ltd",
             "Tibet Oriental Wealth Securities Co., Ltd.",
             "Tidal Investments LLC",
+            "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
             "Tobam Holding Co. SAS",
             "Toews Corp.",
@@ -27739,7 +27738,6 @@
             "9596",
             "9597",
             "9598",
-            "9600",
             "9601",
             "9602",
             "9603",
