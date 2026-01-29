@@ -15200,14 +15200,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -26397,6 +26397,7 @@
             "Financial Street Securities Co., Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
+            "First Eagle Investment Management LLC",
             "First Financial Holding Co., Ltd.",
             "First Metro Asset Management, Inc.",
             "First Pacific Advisors LP",
