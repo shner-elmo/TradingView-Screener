@@ -15200,13 +15200,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -15214,7 +15207,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15222,6 +15215,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22268,6 +22268,7 @@
             "Impact Shares",
             "Income STKd",
             "IncomeShares",
+            "Independance",
             "IndexIQ",
             "Indexperts",
             "InfraCap",
@@ -22277,6 +22278,7 @@
             "Intech ETFs",
             "Intelligent Investor",
             "InterCapital",
+            "Invesca",
             "Invesco",
             "Invesco Great Wall",
             "Investlinx",
@@ -22429,6 +22431,7 @@
             "Nifty",
             "Nikko",
             "Ninepoint",
+            "Ninety One",
             "Nippon",
             "Nissay",
             "Nomura",
@@ -22589,7 +22592,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -23572,8 +23574,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -26302,6 +26303,7 @@
             "Cohen & Steers, Inc. (New York)",
             "CoinShares Digital Securities Ltd.",
             "Coinshares International Ltd.",
+            "Colliers International Group, Inc.",
             "Concourse Capital Advisors LLC",
             "Confederation Nationale Cr\u00e9dit Mutuel SA",
             "Convergence Investment Partners LLC",
@@ -26391,6 +26393,7 @@
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
             "Federated Hermes, Inc.",
+            "FiCAS AG",
             "Fidelity Investments Canada ULC",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "Financial Street Securities Co., Ltd.",
@@ -26504,6 +26507,7 @@
             "IQ EQ Group Holdings SA",
             "Indexperts LLC",
             "Industrial Bank Co., Ltd.",
+            "Ind\u00e9pendance AM SAS (France)",
             "Infrastructure Capital Advisors LLC",
             "Innovator Capital Management LLC",
             "Insignia Financial Ltd.",
@@ -26524,7 +26528,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
