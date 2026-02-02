@@ -15200,14 +15200,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15228,14 +15228,14 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21944,7 +21944,6 @@
             "Astoria",
             "Atlas",
             "Aton",
-            "Ausbil",
             "Avantis",
             "Avory",
             "Axis",
@@ -22015,6 +22014,7 @@
             "CIBC",
             "CICC",
             "CIFM",
+            "CITIC",
             "CJHX",
             "CMB",
             "CORE16",
@@ -22073,6 +22073,7 @@
             "Crossmark",
             "Cullen",
             "Cultivar",
+            "Cyber Hornet",
             "D-X Funds",
             "DAC",
             "DB",
@@ -22228,6 +22229,7 @@
             "Harbor",
             "Harel Sal",
             "Harfor",
+            "Harrison Street",
             "Hartford",
             "Harvest",
             "Harvest ETFs",
@@ -23573,8 +23575,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -24390,6 +24394,7 @@
             "2213",
             "2214",
             "2215",
+            "2216",
             "23",
             "24",
             "2430",
@@ -26262,6 +26267,7 @@
             "CGS International Securities Pte Ltd.",
             "CI Financial Corp.",
             "CITIC Securities Co., Ltd.",
+            "CITIC-Prudential Fund Management Co., Ltd.",
             "COtwo Advisors LLC",
             "CSOP Asset Management Ltd.",
             "CTBC Financial Holding Co., Ltd.",
@@ -26652,7 +26658,6 @@
             "Ocean Park Asset Management LLC",
             "Oneascent Holdings LLC",
             "Optimize Financial, Inc.",
-            "Orient Securities Co., Ltd.",
             "Osmanli Yatirim Menkul Degerler AS",
             "Osprey Funds LLC",
             "Oversea-Chinese Banking Corp. Ltd.",
@@ -29394,7 +29399,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
