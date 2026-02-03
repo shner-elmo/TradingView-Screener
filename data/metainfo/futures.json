@@ -2462,7 +2462,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -2567,7 +2566,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
@@ -2949,7 +2947,6 @@
         "n": "update_mode",
         "t": "text",
         "r": [
-            "delayed_streaming_1200",
             "streaming"
         ]
     },
