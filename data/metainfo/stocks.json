@@ -15201,14 +15201,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15229,13 +15229,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -15243,7 +15236,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15251,6 +15244,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22454,6 +22454,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -22463,6 +22464,7 @@
             "Opportunistic",
             "Optimize",
             "Opus Capital Management",
+            "Oribi",
             "Osmanl Portfy",
             "Osprey",
             "Ossiam",
@@ -22649,7 +22651,6 @@
             "TCW",
             "TD",
             "THOR",
-            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -24386,6 +24387,7 @@
             "2193",
             "2194",
             "2195",
+            "2196",
             "2198",
             "22",
             "2200",
@@ -26850,7 +26852,6 @@
             "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
-            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
@@ -27761,7 +27762,6 @@
             "9598",
             "9601",
             "9602",
-            "9603",
             "9604",
             "97",
             "9710",

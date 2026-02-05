@@ -12070,14 +12070,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -19121,6 +19121,7 @@
             "Kite",
             "KuCoin Token",
             "Kusama",
+            "Kyber Network Crystal v2",
             "LayerZero",
             "Let's BONK",
             "Lido DAO",
@@ -19308,7 +19309,6 @@
             "Virtuals Protocol",
             "Vodra",
             "Voxies",
-            "WETH",
             "WOO",
             "Waterfall",
             "Waves",
@@ -19532,6 +19532,7 @@
             "XTVCKCS",
             "XTVCKITE",
             "XTVCKMNO",
+            "XTVCKNC",
             "XTVCKSM",
             "XTVCKTA",
             "XTVCKUB",
@@ -19719,7 +19720,6 @@
             "XTVCWATERF",
             "XTVCWAVES",
             "XTVCWBTC",
-            "XTVCWETH",
             "XTVCWFI",
             "XTVCWHITEWHALE",
             "XTVCWIF",
