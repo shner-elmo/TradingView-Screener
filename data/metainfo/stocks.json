@@ -15215,13 +15215,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -15229,7 +15222,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15243,7 +15236,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15251,6 +15244,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23582,7 +23582,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -24396,6 +24395,7 @@
             "2203",
             "2204",
             "2205",
+            "2208",
             "2210",
             "2211",
             "2212",
@@ -26453,6 +26453,7 @@
             "Government of South Korea",
             "Government of Thailand",
             "Government of Turkey",
+            "Grace Partners of Dupage LP",
             "Graff Capital",
             "GraniteShares, Inc.",
             "Grantham, Mayo, Van Otterloo & Co. LLC",
@@ -26764,6 +26765,7 @@
             "SS&C Technologies Holdings, Inc.",
             "SSI Securities Corp.",
             "SSIF BRK Financial Group SA",
+            "STF Management LP",
             "SWP Investment Management LLC",
             "Sa1 Issuer SPC Ltd.",
             "Sammons Enterprises, Inc.",
@@ -26802,7 +26804,6 @@
             "State of Zurich",
             "Sterling Capital Management LLC",
             "Sterling Fund Management LLC",
-            "Stf Management LP",
             "Stone Ridge Holdings Group LP",
             "Sumitomo Mitsui Financial Group, Inc.",
             "Sumitomo Mitsui Trust Group, Inc.",
@@ -29408,6 +29409,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
