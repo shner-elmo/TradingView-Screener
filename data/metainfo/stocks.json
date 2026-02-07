@@ -15229,14 +15229,14 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22143,6 +22143,7 @@
             "Exemplar",
             "Expat",
             "F/m",
+            "FINQ",
             "FM",
             "FNB",
             "FPA",
@@ -22434,7 +22435,6 @@
             "New York Life Investments",
             "Nicholas",
             "Nifty",
-            "Nikko",
             "Ninepoint",
             "Ninety One",
             "Nippon",
@@ -23583,8 +23583,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -26830,6 +26829,7 @@
             "The Applied Finance Group Ltd.",
             "The Bank of New York Mellon Corp.",
             "The Bank of Nova Scotia",
+            "The Burney Co.",
             "The Capital Group Cos., Inc.",
             "The Charles Schwab Corp.",
             "The Eighth Wonder Foundation",
@@ -27764,6 +27764,8 @@
             "9601",
             "9602",
             "9604",
+            "9606",
+            "9607",
             "97",
             "9710",
             "98",
