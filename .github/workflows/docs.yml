@@ -9,19 +9,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
       - uses: actions/checkout@v4
         with:
           ref: master
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+
       - name: Run `pdoc` on branch master
         run: |
-          curl -sSL https://install.python-poetry.org | python3 -
-          poetry install
-          poetry run pdoc tradingview_screener/ -o /tmp/docs -t templates/
+          uv sync
+          uv run pdoc tradingview_screener/ -o /tmp/docs -t templates/
 
       - uses: actions/checkout@v4
         with:
@@ -36,10 +36,10 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add .
           git status
-          
+
           if [ -n "$(git status --porcelain)" ]; then
             git commit -a -m "Generated docs for latest dev version"
             git push
           else
             echo "No changes"
-          fi          
+          fi
