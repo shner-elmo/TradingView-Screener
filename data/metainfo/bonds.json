@@ -652,6 +652,7 @@
             "PL",
             "PT",
             "RO",
+            "RU",
             "SE",
             "SG",
             "SK",
@@ -707,6 +708,7 @@
             "PL",
             "PT",
             "RO",
+            "RU",
             "SE",
             "SG",
             "SK",
@@ -926,6 +928,11 @@
     },
     {
         "n": "last-price-update-time",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "last-price-update-time-intraday",
         "t": "time",
         "r": null
     },

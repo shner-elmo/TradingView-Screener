@@ -412,16 +412,588 @@
                 "name": "IBEX Medium Cap"
             },
             {
+                "id": "BME:ID",
+                "name": "IBEX Top Dividend"
+            },
+            {
+                "id": "BME:IJ",
+                "name": "IBEX 35 Total Return"
+            },
+            {
+                "id": "BME:IND20000",
+                "name": "IGBM"
+            },
+            {
+                "id": "BME:IND20100",
+                "name": "IGBM Oil & Energy"
+            },
+            {
+                "id": "BME:IND20101",
+                "name": "IGBM Oil"
+            },
+            {
+                "id": "BME:IND20102",
+                "name": "IGBM Electricity & Gas"
+            },
+            {
+                "id": "BME:IND20103",
+                "name": "IGBM Water & Others"
+            },
+            {
+                "id": "BME:IND20104",
+                "name": "IGBM Renewable Energies"
+            },
+            {
+                "id": "BME:IND20200",
+                "name": "IGBM Basic Materials, Industry & Construction"
+            },
+            {
+                "id": "BME:IND20201",
+                "name": "IGBM Minerals, Metals & Transformation"
+            },
+            {
+                "id": "BME:IND20202",
+                "name": "IGBM Manufacturing & Assembly of Capital Goods"
+            },
+            {
+                "id": "BME:IND20203",
+                "name": "IGBM Construction"
+            },
+            {
+                "id": "BME:IND20205",
+                "name": "IGBM Chemical Industry"
+            },
+            {
+                "id": "BME:IND20206",
+                "name": "IGBM Engineering & Others"
+            },
+            {
+                "id": "BME:IND20207",
+                "name": "IGBM Aerospace"
+            },
+            {
+                "id": "BME:IND20300",
+                "name": "IGBM Consumer Goods"
+            },
+            {
+                "id": "BME:IND20301",
+                "name": "IGBM Food & Beverage"
+            },
+            {
+                "id": "BME:IND20302",
+                "name": "IGBM Textile, Footwear & Fragrances"
+            },
+            {
+                "id": "BME:IND20303",
+                "name": "IGBM Paper & Graphic Arts"
+            },
+            {
+                "id": "BME:IND20305",
+                "name": "IGBM Pharmaceuticals & Biotechnology"
+            },
+            {
+                "id": "BME:IND20306",
+                "name": "IGBM Other Consumer Goods"
+            },
+            {
+                "id": "BME:IND20400",
+                "name": "IGBM Consumer Services"
+            },
+            {
+                "id": "BME:IND20401",
+                "name": "IGBM Leisure, Tourism & Hotel Industry"
+            },
+            {
+                "id": "BME:IND20402",
+                "name": "IGBM Retailing"
+            },
+            {
+                "id": "BME:IND20403",
+                "name": "IGBM Communication & Publicity"
+            },
+            {
+                "id": "BME:IND20404",
+                "name": "IGBM Transport & Distribution"
+            },
+            {
+                "id": "BME:IND20406",
+                "name": "IGBM Other Services"
+            },
+            {
+                "id": "BME:IND20500",
+                "name": "IGBM Financial Services"
+            },
+            {
+                "id": "BME:IND20501",
+                "name": "IGBM Banks"
+            },
+            {
+                "id": "BME:IND20502",
+                "name": "IGBM Insurance"
+            },
+            {
+                "id": "BME:IND20503",
+                "name": "IGBM Portfolio & Holding"
+            },
+            {
+                "id": "BME:IND20506",
+                "name": "IGBM Investment Services"
+            },
+            {
+                "id": "BME:IND20600",
+                "name": "IGBM Technology & Telecommunication"
+            },
+            {
+                "id": "BME:IND20601",
+                "name": "IGBM Telecommunications & Others"
+            },
+            {
+                "id": "BME:IND20602",
+                "name": "IGBM Electronics & Software"
+            },
+            {
+                "id": "BME:IND20700",
+                "name": "IGBM Real Estate Services"
+            },
+            {
+                "id": "BME:IND20701",
+                "name": "IGBM Real Estate & Others"
+            },
+            {
+                "id": "BME:IND20702",
+                "name": "IGBM SOCIMI"
+            },
+            {
+                "id": "BME:IND21000",
+                "name": "ITBM"
+            },
+            {
+                "id": "BME:IND21100",
+                "name": "ITBM Oil & Energy"
+            },
+            {
+                "id": "BME:IND21101",
+                "name": "ITBM Oil"
+            },
+            {
+                "id": "BME:IND21102",
+                "name": "ITBM Electricity & Gas"
+            },
+            {
+                "id": "BME:IND21103",
+                "name": "ITBM Water & Others"
+            },
+            {
+                "id": "BME:IND21104",
+                "name": "ITBM Renewable Energies"
+            },
+            {
+                "id": "BME:IND21200",
+                "name": "ITBM Basic Materials, Industry & Construction"
+            },
+            {
+                "id": "BME:IND21201",
+                "name": "ITBM Minerals, Metals & Transformation"
+            },
+            {
+                "id": "BME:IND21202",
+                "name": "ITBM Manufacturing & Assembly of Capital Goods"
+            },
+            {
+                "id": "BME:IND21203",
+                "name": "ITBM Construction"
+            },
+            {
+                "id": "BME:IND21205",
+                "name": "ITBM Chemical Industry"
+            },
+            {
+                "id": "BME:IND21206",
+                "name": "ITBM Engineering & Others"
+            },
+            {
+                "id": "BME:IND21207",
+                "name": "ITBM Aerospace"
+            },
+            {
+                "id": "BME:IND21300",
+                "name": "ITBM Consumer Goods"
+            },
+            {
+                "id": "BME:IND21301",
+                "name": "ITBM Food & Beverage"
+            },
+            {
+                "id": "BME:IND21302",
+                "name": "ITBM Textile, Footwear & Fragrances"
+            },
+            {
+                "id": "BME:IND21303",
+                "name": "ITBM Paper & Graphic Arts"
+            },
+            {
+                "id": "BME:IND21305",
+                "name": "ITBM Pharmaceuticals & Biotechnology"
+            },
+            {
+                "id": "BME:IND21306",
+                "name": "ITBM Other Consumer Goods"
+            },
+            {
+                "id": "BME:IND21400",
+                "name": "ITBM Consumer Services"
+            },
+            {
+                "id": "BME:IND21401",
+                "name": "ITBM Leisure, Tourism & Hotel Industry"
+            },
+            {
+                "id": "BME:IND21402",
+                "name": "ITBM Retailing"
+            },
+            {
+                "id": "BME:IND21403",
+                "name": "ITBM Communication & Publicity"
+            },
+            {
+                "id": "BME:IND21404",
+                "name": "ITBM Transport & Distribution"
+            },
+            {
+                "id": "BME:IND21406",
+                "name": "ITBM Other Services"
+            },
+            {
+                "id": "BME:IND21500",
+                "name": "ITBM Financial Services"
+            },
+            {
+                "id": "BME:IND21501",
+                "name": "ITBM Banks"
+            },
+            {
+                "id": "BME:IND21502",
+                "name": "ITBM Insurance"
+            },
+            {
+                "id": "BME:IND21503",
+                "name": "ITBM Portfolio & Holding"
+            },
+            {
+                "id": "BME:IND21506",
+                "name": "ITBM Investment Services"
+            },
+            {
+                "id": "BME:IND21600",
+                "name": "ITBM Technology & Telecommunication"
+            },
+            {
+                "id": "BME:IND21601",
+                "name": "ITBM Telecommunications & Others"
+            },
+            {
+                "id": "BME:IND21602",
+                "name": "ITBM Electronics & Software"
+            },
+            {
+                "id": "BME:IND21700",
+                "name": "ITBM Real Estate Services"
+            },
+            {
+                "id": "BME:IND21701",
+                "name": "ITBM Real Estate & Others"
+            },
+            {
+                "id": "BME:IND21702",
+                "name": "ITBM SOCIMI"
+            },
+            {
+                "id": "BME:IND31000",
+                "name": "IGBV"
+            },
+            {
+                "id": "BME:IND31100",
+                "name": "IGBV Oil & Energy"
+            },
+            {
+                "id": "BME:IND31101",
+                "name": "IGBV Oil"
+            },
+            {
+                "id": "BME:IND31102",
+                "name": "IGBV Electricity & Gas"
+            },
+            {
+                "id": "BME:IND31103",
+                "name": "IGBV Water And Others"
+            },
+            {
+                "id": "BME:IND31104",
+                "name": "IGBV Renewable Energies"
+            },
+            {
+                "id": "BME:IND31200",
+                "name": "IGBV Basic Materials"
+            },
+            {
+                "id": "BME:IND31201",
+                "name": "IGBV Minerals, Metals & Transformation"
+            },
+            {
+                "id": "BME:IND31202",
+                "name": "IGBV Manufacturing & Assembly of Capital Goods"
+            },
+            {
+                "id": "BME:IND31203",
+                "name": "IGBV Construction"
+            },
+            {
+                "id": "BME:IND31205",
+                "name": "IGBV Chemical Industry"
+            },
+            {
+                "id": "BME:IND31206",
+                "name": "IGBV Engineering & Others"
+            },
+            {
+                "id": "BME:IND31207",
+                "name": "IGBV Aerospace"
+            },
+            {
+                "id": "BME:IND31300",
+                "name": "IGBV Consumer Goods"
+            },
+            {
+                "id": "BME:IND31301",
+                "name": "IGBV Food & Beverage"
+            },
+            {
+                "id": "BME:IND31302",
+                "name": "IGBV Textile, Footwear & Fragrances"
+            },
+            {
+                "id": "BME:IND31303",
+                "name": "IGBV Paper & Graphic Arts"
+            },
+            {
+                "id": "BME:IND31305",
+                "name": "IGBV Pharmaceuticals & Biotechnology"
+            },
+            {
+                "id": "BME:IND31306",
+                "name": "IGBV Other Consumer Goods"
+            },
+            {
+                "id": "BME:IND31400",
+                "name": "IGBV Consumer Services"
+            },
+            {
+                "id": "BME:IND31401",
+                "name": "IGBV Leisure, Tourism & Hotel Industry"
+            },
+            {
+                "id": "BME:IND31402",
+                "name": "IGBV Retailing"
+            },
+            {
+                "id": "BME:IND31403",
+                "name": "IGBV Communication & Publicity"
+            },
+            {
+                "id": "BME:IND31404",
+                "name": "IGBV Transport & Distribution"
+            },
+            {
+                "id": "BME:IND31406",
+                "name": "IGBV Other Services"
+            },
+            {
+                "id": "BME:IND31500",
+                "name": "IGBV Financial Services"
+            },
+            {
+                "id": "BME:IND31501",
+                "name": "IGBV Banks"
+            },
+            {
+                "id": "BME:IND31502",
+                "name": "IGBV Insurance"
+            },
+            {
+                "id": "BME:IND31503",
+                "name": "IGBV Portfolio & Holding"
+            },
+            {
+                "id": "BME:IND31506",
+                "name": "IGBV Investment Services"
+            },
+            {
+                "id": "BME:IND31600",
+                "name": "IGBV Technology & Telecommunication"
+            },
+            {
+                "id": "BME:IND31601",
+                "name": "IGBV Telecommunications & Others"
+            },
+            {
+                "id": "BME:IND31602",
+                "name": "IGBV Electronics & Software"
+            },
+            {
+                "id": "BME:IND31700",
+                "name": "IGBV Real Estate Services"
+            },
+            {
+                "id": "BME:IND31701",
+                "name": "IGBV Real Estate & Others"
+            },
+            {
+                "id": "BME:IND31702",
+                "name": "IGBV SOCIMI"
+            },
+            {
+                "id": "BME:IND40000",
+                "name": "BCN GLOBAL 100"
+            },
+            {
+                "id": "BME:IND40100",
+                "name": "BCN Oil & Basic Energy"
+            },
+            {
+                "id": "BME:IND40200",
+                "name": "BCN Financial Services"
+            },
+            {
+                "id": "BME:IND40400",
+                "name": "BCN Real Estate Services"
+            },
+            {
+                "id": "BME:IND40500",
+                "name": "BCN Basic Materials, Industry & Construction"
+            },
+            {
+                "id": "BME:IND40600",
+                "name": "BCN Consumer Services"
+            },
+            {
+                "id": "BME:IND40700",
+                "name": "BCN Technology & Telecommunication"
+            },
+            {
+                "id": "BME:IND40800",
+                "name": "BCN Consumer Goods"
+            },
+            {
+                "id": "BME:IND50000",
+                "name": "Bilbao Stock Exchange"
+            },
+            {
+                "id": "BME:INDA",
+                "name": "IBEX ESG"
+            },
+            {
+                "id": "BME:INDAN",
+                "name": "IBEX ESG Net Return"
+            },
+            {
+                "id": "BME:INDAT",
+                "name": "IBEX ESG Total Return"
+            },
+            {
+                "id": "BME:INDCN",
+                "name": "IBEX Medium Cap Net Return"
+            },
+            {
+                "id": "BME:INDCT",
+                "name": "IBEX Medium Cap Total Return"
+            },
+            {
+                "id": "BME:INDDN",
+                "name": "IBEX Top Dividend Net Return"
+            },
+            {
+                "id": "BME:INDDT",
+                "name": "IBEX Top Dividend Total Return"
+            },
+            {
+                "id": "BME:INDE",
+                "name": "IBEX Gender Equality"
+            },
+            {
+                "id": "BME:INDEN",
+                "name": "IBEX Gender Equality Net Return"
+            },
+            {
+                "id": "BME:INDET",
+                "name": "IBEX Gender Equality Total Return"
+            },
+            {
                 "id": "BME:INDGRO15",
-                "name": "IBEX GROWTH MARKET 15"
+                "name": "IBEX Growth Market 15"
             },
             {
                 "id": "BME:INDGROAS",
                 "name": "IBEX Growth Market All Share"
             },
             {
+                "id": "BME:INDIB",
+                "name": "IBEX 35 Bank"
+            },
+            {
+                "id": "BME:INDIC",
+                "name": "IBEX 35 Construction"
+            },
+            {
+                "id": "BME:INDIE",
+                "name": "IBEX 35 Energy"
+            },
+            {
+                "id": "BME:INDO",
+                "name": "IBEX ESG Weighted"
+            },
+            {
+                "id": "BME:INDON",
+                "name": "IBEX ESG Weighted Net Return"
+            },
+            {
+                "id": "BME:INDOT",
+                "name": "IBEX ESG Weighted Total Return"
+            },
+            {
+                "id": "BME:INDSN",
+                "name": "IBEX Small Cap Net Return"
+            },
+            {
+                "id": "BME:INDST",
+                "name": "IBEX Small Cap Total Return"
+            },
+            {
                 "id": "BME:IS",
                 "name": "IBEX Small Cap"
+            },
+            {
+                "id": "BME:IX",
+                "name": "IBEX 35 Capped"
+            },
+            {
+                "id": "BME:IY",
+                "name": "IBEX 35 Net Return"
+            },
+            {
+                "id": "BME:IZ",
+                "name": "IBEX 35 Capped Net Return"
+            },
+            {
+                "id": "BME:LXB",
+                "name": "Latibex Brazil"
+            },
+            {
+                "id": "BME:LXC",
+                "name": "Latibex All Share"
+            },
+            {
+                "id": "BME:LXT",
+                "name": "Latibex TOP"
             },
             {
                 "id": "BMFBOVESPA:IBOV",
@@ -444,8 +1016,292 @@
                 "name": "S&P/BMV IPC"
             },
             {
+                "id": "BSE:200EQW",
+                "name": "BSE 200 Equal Weight"
+            },
+            {
+                "id": "BSE:AUTO",
+                "name": "BSE Auto"
+            },
+            {
+                "id": "BSE:BANK",
+                "name": "BSE Bankex"
+            },
+            {
+                "id": "BSE:BBGEFS",
+                "name": "BSE Select Business Groups"
+            },
+            {
+                "id": "BSE:BHRT22",
+                "name": "BSE Bharat 22"
+            },
+            {
+                "id": "BSE:BS1000",
+                "name": "BSE 1000"
+            },
+            {
+                "id": "BSE:BSE100",
+                "name": "BSE 100"
+            },
+            {
+                "id": "BSE:BSE200",
+                "name": "BSE 200"
+            },
+            {
+                "id": "BSE:BSE500",
+                "name": "BSE 500"
+            },
+            {
+                "id": "BSE:BSEDSI",
+                "name": "BSE Dividend Stability"
+            },
+            {
+                "id": "BSE:BSEEVI",
+                "name": "BSE Enhanced Value"
+            },
+            {
+                "id": "BSE:BSELVI",
+                "name": "BSE Low Volatility"
+            },
+            {
+                "id": "BSE:BSEMOI",
+                "name": "BSE Momentum"
+            },
+            {
+                "id": "BSE:BSEPBI",
+                "name": "BSE Private Banks"
+            },
+            {
+                "id": "BSE:BSEQUI",
+                "name": "BSE Quality"
+            },
+            {
+                "id": "BSE:BSESER",
+                "name": "BSE Services"
+            },
+            {
+                "id": "BSE:CAPINS",
+                "name": "BSE Capital Markets & Insurance"
+            },
+            {
+                "id": "BSE:CD",
+                "name": "BSE Consumer Durables"
+            },
+            {
+                "id": "BSE:CG",
+                "name": "BSE Capital Goods"
+            },
+            {
+                "id": "BSE:COMDTY",
+                "name": "BSE Commodities"
+            },
+            {
+                "id": "BSE:CONDIS",
+                "name": "BSE Consumer Discretionary"
+            },
+            {
+                "id": "BSE:CPSE",
+                "name": "BSE CPSE"
+            },
+            {
+                "id": "BSE:DFRGRI",
+                "name": "BSE Diversified Financials Revenue Growth"
+            },
+            {
+                "id": "BSE:DOLLEX100",
+                "name": "BSE Dollex 100"
+            },
+            {
+                "id": "BSE:DOLLEX200",
+                "name": "BSE Dollex 200"
+            },
+            {
+                "id": "BSE:DOLLEX30",
+                "name": "BSE Dollex 30"
+            },
+            {
+                "id": "BSE:ENERGY",
+                "name": "BSE Energy"
+            },
+            {
+                "id": "BSE:ESG100",
+                "name": "BSE 100 ESG"
+            },
+            {
+                "id": "BSE:FINSER",
+                "name": "BSE Financial Services"
+            },
+            {
+                "id": "BSE:FMCG",
+                "name": "BSE Fast Moving Consumer Goods"
+            },
+            {
+                "id": "BSE:FOCIT",
+                "name": "BSE Focused IT"
+            },
+            {
+                "id": "BSE:FOCMID",
+                "name": "BSE Focused MidCap"
+            },
+            {
+                "id": "BSE:HC",
+                "name": "BSE Health Care"
+            },
+            {
+                "id": "BSE:IND150",
+                "name": "BSE India 150"
+            },
+            {
+                "id": "BSE:INDSTR",
+                "name": "BSE Industrials"
+            },
+            {
+                "id": "BSE:INSLDR",
+                "name": "BSE India Sector Leaders"
+            },
+            {
+                "id": "BSE:INTECO",
+                "name": "BSE Internet Economy"
+            },
+            {
+                "id": "BSE:IPO",
+                "name": "BSE IPO"
+            },
+            {
+                "id": "BSE:IT",
+                "name": "BSE Information Technology"
+            },
+            {
+                "id": "BSE:LCTMCI",
+                "name": "BSE 100 LargeCap TMC"
+            },
+            {
+                "id": "BSE:LMI250",
+                "name": "BSE 250 LargeMidCap"
+            },
+            {
+                "id": "BSE:METAL",
+                "name": "BSE Metal"
+            },
+            {
+                "id": "BSE:MFG",
+                "name": "BSE India Manufacturing"
+            },
+            {
+                "id": "BSE:MID150",
+                "name": "BSE 150 MidCap"
+            },
+            {
+                "id": "BSE:MIDSEL",
+                "name": "BSE MidCap Select"
+            },
+            {
+                "id": "BSE:MOME50",
+                "name": "BSE 500 Momentum 50"
+            },
+            {
+                "id": "BSE:MSL400",
+                "name": "BSE 400 MidSmallCap"
+            },
+            {
+                "id": "BSE:OILGAS",
+                "name": "BSE Oil & Gas"
+            },
+            {
+                "id": "BSE:POWENE",
+                "name": "BSE Power & Energy"
+            },
+            {
+                "id": "BSE:POWER",
+                "name": "BSE Power"
+            },
+            {
+                "id": "BSE:PRECON",
+                "name": "BSE Premium Consumption"
+            },
+            {
+                "id": "BSE:PSU",
+                "name": "BSE Public Sector"
+            },
+            {
+                "id": "BSE:PSUBNK",
+                "name": "BSE PSU Bank"
+            },
+            {
+                "id": "BSE:QUAL50",
+                "name": "BSE 500 Quality 50"
+            },
+            {
+                "id": "BSE:REALTY",
+                "name": "BSE Realty"
+            },
+            {
+                "id": "BSE:SELIPO",
+                "name": "BSE Select IPO"
+            },
+            {
+                "id": "BSE:SENEQW",
+                "name": "BSE Sensex Equal Weight"
+            },
+            {
                 "id": "BSE:SENSEX",
-                "name": "S&P BSE SENSEX"
+                "name": "BSE Sensex"
+            },
+            {
+                "id": "BSE:SML250",
+                "name": "BSE 250 SmallCap"
+            },
+            {
+                "id": "BSE:SMLSEL",
+                "name": "BSE SmallCap Select"
+            },
+            {
+                "id": "BSE:SNSX50",
+                "name": "BSE Sensex 50"
+            },
+            {
+                "id": "BSE:SNSX60",
+                "name": "BSE Sensex 60"
+            },
+            {
+                "id": "BSE:SNXN30",
+                "name": "BSE Sensex Next 30"
+            },
+            {
+                "id": "BSE:SNXT50",
+                "name": "BSE Sensex Next 50"
+            },
+            {
+                "id": "BSE:SS6535",
+                "name": "BSE Sensex 60 65:35"
+            },
+            {
+                "id": "BSE:TECK",
+                "name": "BSE TECk"
+            },
+            {
+                "id": "BSE:TELCOM",
+                "name": "BSE Telecommunication"
+            },
+            {
+                "id": "BSE:UTILS",
+                "name": "BSE Utilities"
+            },
+            {
+                "id": "BSESOF:BGBX40",
+                "name": "BGBX40"
+            },
+            {
+                "id": "BSESOF:BGREIT",
+                "name": "BG REIT"
+            },
+            {
+                "id": "BSESOF:BGTR30",
+                "name": "BG TR30"
+            },
+            {
+                "id": "BSESOF:SOFIX",
+                "name": "SOFIX"
             },
             {
                 "id": "BSSE:SAX",
@@ -478,6 +1334,10 @@
             {
                 "id": "BVCV:IINDUSTR",
                 "name": "Caracas Stock Exchange Industrial"
+            },
+            {
+                "id": "BVL:MXNUAMPEGEN",
+                "name": "MSCI NUAM Peru General"
             },
             {
                 "id": "BVMT:PX1",
@@ -1064,6 +1924,10 @@
                 "name": "Boursa Kuwait Premier Market TR"
             },
             {
+                "id": "LJSE:SBITOP",
+                "name": "Slovene Blue Chip"
+            },
+            {
                 "id": "LUXSE:LUXG",
                 "name": "Lux General"
             },
@@ -1313,7 +2177,7 @@
             },
             {
                 "id": "NSE:NIFTY200_VALUE_30",
-                "name": "Nifty 200 VALUE 30"
+                "name": "Nifty 200 Value 30"
             },
             {
                 "id": "NSE:NIFTY500MOMENTM50",
@@ -1321,19 +2185,19 @@
             },
             {
                 "id": "NSE:NIFTY500_EW",
-                "name": "Nifty 500 EW"
+                "name": "Nifty 500 Equal Weight"
             },
             {
                 "id": "NSE:NIFTY500_LMS_EQL",
-                "name": "Nifty 500 LMS EQL"
+                "name": "Nifty 500 LargeMidSmall Equal-Cap"
             },
             {
                 "id": "NSE:NIFTY500_LOWVOL50",
-                "name": "Nifty 500 Low VOL 50"
+                "name": "Nifty 500 Low Volatility 50"
             },
             {
                 "id": "NSE:NIFTY500_MQVLV50",
-                "name": "Nifty 500 MQVLV 50"
+                "name": "Nifty 500 Multifactor MQVLv 50"
             },
             {
                 "id": "NSE:NIFTY500_MULTICAP",
@@ -1341,7 +2205,7 @@
             },
             {
                 "id": "NSE:NIFTY500_QLTY50",
-                "name": "Nifty 500 QLTY 50"
+                "name": "Nifty 500 Quality 50"
             },
             {
                 "id": "NSE:NIFTY500_VALUE_50",
@@ -1393,7 +2257,7 @@
             },
             {
                 "id": "NSE:NIFTYMS400_MQ_100",
-                "name": "Nifty MS 400 MQ 100"
+                "name": "Nifty MidSmallcap 400 Momentum Quality 100"
             },
             {
                 "id": "NSE:NIFTYPVTBANK",
@@ -1405,7 +2269,7 @@
             },
             {
                 "id": "NSE:NIFTYSML250MQ_100",
-                "name": "Nifty SML 250 MQ 100"
+                "name": "Nifty Smallcap 250 Momentum Quality 100"
             },
             {
                 "id": "NSE:NIFTYSMLCAP250",
@@ -1417,15 +2281,15 @@
             },
             {
                 "id": "NSE:NIFTY_AQLV_30",
-                "name": "Nifty AQLV 30"
+                "name": "Nifty Alpha Quality Value Low-Volatility 30"
             },
             {
                 "id": "NSE:NIFTY_AQL_30",
-                "name": "Nifty AQL 30"
+                "name": "Nifty Alpha Quality Low-Volatility 30"
             },
             {
                 "id": "NSE:NIFTY_CAPITAL_MKT",
-                "name": "Nifty CAPITAL MKT"
+                "name": "Nifty Capital Markets"
             },
             {
                 "id": "NSE:NIFTY_CONSR_DURBL",
@@ -1433,19 +2297,19 @@
             },
             {
                 "id": "NSE:NIFTY_COREHOUSING",
-                "name": "Nifty COREHOUSING"
+                "name": "Nifty Core Housing"
             },
             {
                 "id": "NSE:NIFTY_CORP_MAATR",
-                "name": "Nifty CORP MAATR"
+                "name": "Nifty India Select 5 Corporate Groups (MAATR)"
             },
             {
                 "id": "NSE:NIFTY_EV",
-                "name": "Nifty EV"
+                "name": "Nifty EV & New Age Automotive"
             },
             {
                 "id": "NSE:NIFTY_FINSEREXBNK",
-                "name": "Nifty FINSEREXBNK"
+                "name": "Nifty Financial Services Ex-Bank"
             },
             {
                 "id": "NSE:NIFTY_HEALTHCARE",
@@ -1485,7 +2349,7 @@
             },
             {
                 "id": "NSE:NIFTY_LOW_VOL_50",
-                "name": "Nifty Low VOL 50"
+                "name": "Nifty Low Volatility 50"
             },
             {
                 "id": "NSE:NIFTY_M150_QLTY50",
@@ -1497,7 +2361,7 @@
             },
             {
                 "id": "NSE:NIFTY_MIDSML_HLTH",
-                "name": "Nifty MIDSML HLTH"
+                "name": "Nifty MidSmall Healthcare"
             },
             {
                 "id": "NSE:NIFTY_MID_SELECT",
@@ -1509,35 +2373,35 @@
             },
             {
                 "id": "NSE:NIFTY_MS_FIN_SERV",
-                "name": "Nifty MS FIN SERV"
+                "name": "Nifty MidSmall Financial Services"
             },
             {
                 "id": "NSE:NIFTY_MS_IND_CONS",
-                "name": "Nifty MS India CONS"
+                "name": "Nifty MidSmall India Consumption"
             },
             {
                 "id": "NSE:NIFTY_MS_IT_TELCM",
-                "name": "Nifty MS IT TELCM"
+                "name": "Nifty MidSmall IT & Telecom"
             },
             {
                 "id": "NSE:NIFTY_MULTI_INFRA",
-                "name": "Nifty MULTI INFRA"
+                "name": "Nifty 500 Multicap Infrastructure 50:30:20"
             },
             {
                 "id": "NSE:NIFTY_MULTI_MFG",
-                "name": "Nifty MULTI MFG"
+                "name": "Nifty 500 Multicap India Manufacturing 50:30:20"
             },
             {
                 "id": "NSE:NIFTY_MULTI_MQ_50",
-                "name": "Nifty MULTI MQ 50"
+                "name": "Nifty 500 Multicap Momentum Quality 50"
             },
             {
                 "id": "NSE:NIFTY_NEW_CONSUMP",
-                "name": "Nifty New CONSUMP"
+                "name": "Nifty India New Age Consumption"
             },
             {
                 "id": "NSE:NIFTY_NONCYC_CONS",
-                "name": "Nifty NONCYC CONS"
+                "name": "Nifty Non-Cyclical Consumer"
             },
             {
                 "id": "NSE:NIFTY_OIL_AND_GAS",
@@ -1545,7 +2409,7 @@
             },
             {
                 "id": "NSE:NIFTY_QLTY_LV_30",
-                "name": "Nifty QLTY LV 30"
+                "name": "Nifty Quality Low-Volatility 30"
             },
             {
                 "id": "NSE:NIFTY_RURAL",
@@ -1553,23 +2417,23 @@
             },
             {
                 "id": "NSE:NIFTY_SML250_Q50",
-                "name": "Nifty SML 250 Q 50"
+                "name": "Nifty Smallcap 250 Quality 50"
             },
             {
                 "id": "NSE:NIFTY_TATA_25_CAP",
-                "name": "Nifty TATA 25 CAP"
+                "name": "Nifty Tata Group 25% Cap"
             },
             {
                 "id": "NSE:NIFTY_TOP_10_EW",
-                "name": "Nifty Top 10 EW"
+                "name": "Nifty Top 10 Equal Weight Index"
             },
             {
                 "id": "NSE:NIFTY_TOP_15_EW",
-                "name": "Nifty Top 15 EW"
+                "name": "Nifty Top 15 Equal Weight"
             },
             {
                 "id": "NSE:NIFTY_TOP_20_EW",
-                "name": "Nifty Top 20 EW"
+                "name": "Nifty Top 20 Equal Weight"
             },
             {
                 "id": "NSE:NIFTY_TOTAL_MKT",
@@ -1577,7 +2441,7 @@
             },
             {
                 "id": "NSE:NIFTY_TRANS_LOGIS",
-                "name": "Nifty TRANS LOGIS"
+                "name": "Nifty Transportation & Logistics"
             },
             {
                 "id": "NSENG:NGX30",
@@ -1942,6 +2806,10 @@
             {
                 "id": "STOXX:EDE5P",
                 "name": "STOXX Emerging Markets 50"
+            },
+            {
+                "id": "STOXX:EEBCP",
+                "name": "STOXX Eastern Europe 50"
             },
             {
                 "id": "STOXX:EUE15P",
@@ -2334,6 +3202,46 @@
             {
                 "id": "XETR:TDXP",
                 "name": "TecDAX"
+            },
+            {
+                "id": "ZSE:ADRPR",
+                "name": "ADRIA Prime"
+            },
+            {
+                "id": "ZSE:CBX",
+                "name": "CROBEX"
+            },
+            {
+                "id": "ZSE:CBX10",
+                "name": "CROBEX 10"
+            },
+            {
+                "id": "ZSE:CBXIN",
+                "name": "CROBEX Industrija"
+            },
+            {
+                "id": "ZSE:CBXKO",
+                "name": "CROBEX Konstrukt"
+            },
+            {
+                "id": "ZSE:CBXNU",
+                "name": "CROBEX Nutris"
+            },
+            {
+                "id": "ZSE:CBXPL",
+                "name": "CROBEX Plus"
+            },
+            {
+                "id": "ZSE:CBXPR",
+                "name": "CROBEX Prime"
+            },
+            {
+                "id": "ZSE:CBXTP",
+                "name": "CROBEX Transport"
+            },
+            {
+                "id": "ZSE:CBXTU",
+                "name": "CROBEX Turist"
             }
         ],
         "agg": true
@@ -2415,13 +3323,6 @@
     },
     {
         "n": "volume",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded",
         "t": "number",
         "r": null,
         "hh": true,
@@ -2704,7 +3605,6 @@
             "Denmark",
             "Dominican Republic",
             "Egypt",
-            "El Salvador",
             "Estonia",
             "Faroe Islands",
             "Finland",
@@ -2723,6 +3623,8 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -2762,7 +3664,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -2935,6 +3836,7 @@
             "BMFBOVESPA",
             "BMV",
             "BSE",
+            "BSESOF",
             "BSSE",
             "BVB",
             "BVC",
@@ -2966,6 +3868,7 @@
             "JSE",
             "KRX",
             "KSE",
+            "LJSE",
             "LS",
             "LSE",
             "LSIN",
@@ -3016,7 +3919,8 @@
             "TWSE",
             "UPCOM",
             "VIE",
-            "XETR"
+            "XETR",
+            "ZSE"
         ]
     },
     {
@@ -4193,7 +5097,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -15215,13 +16118,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -15229,7 +16125,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15243,7 +16139,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -15251,6 +16147,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -21214,69 +22117,6 @@
         "rd": true
     },
     {
-        "n": "Value.Traded|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "W.R|1",
         "t": "number",
         "r": null,
@@ -21881,9 +22721,9 @@
             "Accelerate",
             "Accion",
             "Acquirers Fund",
-            "Acruence",
             "ActivePassive",
             "ActiveX",
+            "Acuitas",
             "Adaptiv",
             "Adaptive",
             "Adasina",
@@ -21900,6 +22740,7 @@
             "Albilad",
             "Alerian",
             "Alexis",
+            "Alfa",
             "Alger",
             "Alinma",
             "Allfunds",
@@ -21937,6 +22778,7 @@
             "Arin",
             "Arlington",
             "Armada ETF Advisors",
+            "Armor",
             "Arrow Funds",
             "ArrowShares",
             "Arysteq",
@@ -21945,8 +22787,10 @@
             "Astoria",
             "Atlas",
             "Aton",
+            "Aura",
             "Avantis",
             "Avory",
+            "Avos",
             "Axis",
             "Axxion",
             "Aztlan",
@@ -21978,6 +22822,7 @@
             "Batavia",
             "Beacon",
             "BeeHive",
+            "Bell Asset",
             "Bellevue",
             "Beta",
             "BetaPro",
@@ -21987,7 +22832,6 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -22037,9 +22881,11 @@
             "Capstone",
             "Carbon Collective",
             "Cardano",
+            "Cartesian Capital",
             "Castellan",
             "CastleArk",
             "Cathay",
+            "Chesapeake",
             "Chimera",
             "China CSI",
             "China Merchants",
@@ -22052,19 +22898,20 @@
             "Claremont Global",
             "ClearBridge",
             "ClearShares",
+            "Climate Global",
             "Clockwise Capital",
             "Clough",
             "Coastal",
             "Cohen & Steers",
             "CoinShares",
             "Columbia",
+            "Columbia Threadneedle",
             "Concourse",
             "Conductor Fund",
             "Congress",
             "Convergence",
             "Core Alternative",
             "CoreValues Alpha",
-            "CornerCap",
             "Coronation",
             "Corton",
             "Counterpoint",
@@ -22079,6 +22926,7 @@
             "DAC",
             "DB",
             "DDA",
+            "DFA",
             "DGA",
             "DNB",
             "DOO",
@@ -22093,10 +22941,9 @@
             "Danareksa",
             "Davis",
             "Day Hagan",
-            "Deepwater",
+            "Defender",
             "Defiance",
             "Deka",
-            "Democracy",
             "Desjardins",
             "Diamond Hill",
             "DigitalX",
@@ -22117,10 +22964,8 @@
             "EMQQ Global",
             "EQB",
             "ERShares",
-            "ETC",
             "ETFB",
             "ETFS",
-            "ETFSA",
             "ETRACS",
             "Eagle",
             "EasyETFs",
@@ -22145,6 +22990,7 @@
             "Expat",
             "F/m",
             "FINQ",
+            "FIRST",
             "FM",
             "FNB",
             "FPA",
@@ -22194,12 +23040,13 @@
             "GGM",
             "GMO",
             "GQG Partners",
+            "GSR",
             "Gabelli",
             "Gadsden",
             "Galapagos",
             "Galaxy",
             "GammaRoad",
-            "Genial Teva",
+            "Genial",
             "Genter Capital",
             "Global",
             "Global X",
@@ -22212,6 +23059,7 @@
             "GraniteShares",
             "Grayscale",
             "Great Wall",
+            "Green Light",
             "Grizzle",
             "Groww",
             "Guardian",
@@ -22242,7 +23090,6 @@
             "Hedge Investments",
             "Hedgeye",
             "Hejaz",
-            "Helveteq",
             "Hennessy",
             "Heungkuk",
             "Hilton",
@@ -22258,6 +23105,7 @@
             "Huaxia",
             "Huitianfu",
             "Hull",
+            "Humilis",
             "Hwabao",
             "Hypatia Capital",
             "Hyperion",
@@ -22273,7 +23121,7 @@
             "IPAAM",
             "Impact Shares",
             "Impax",
-            "Income STKd",
+            "IncomeSTKd",
             "IncomeShares",
             "Independance",
             "IndexIQ",
@@ -22292,6 +23140,7 @@
             "Investo",
             "Inyova",
             "Itau",
+            "Ivy",
             "JKO",
             "JLens",
             "JPMorgan",
@@ -22353,9 +23202,11 @@
             "Lysander",
             "Lyxor",
             "M&G",
+            "M.D. Sass",
             "MAXIS",
             "MC",
             "MFS",
+            "MIG",
             "MKAM",
             "MRBL",
             "MTF",
@@ -22398,6 +23249,7 @@
             "Milford",
             "Militia",
             "Miller",
+            "Milliman",
             "Minsheng Royal",
             "Mirae Asset",
             "Moat",
@@ -22405,6 +23257,7 @@
             "Monarch",
             "Montaka",
             "Montgomery",
+            "Moonvest",
             "More",
             "Morgan Dempsey",
             "Morgan Stanley",
@@ -22413,6 +23266,7 @@
             "Motley Fool",
             "Mulvihill",
             "Munro",
+            "Muzinich",
             "MyETF",
             "Myriad Capital",
             "NBI",
@@ -22423,6 +23277,7 @@
             "NH",
             "NH-Amundi",
             "NN investment partners",
+            "NPF",
             "NZAM",
             "Nanhua",
             "Nanuk",
@@ -22448,20 +23303,17 @@
             "Northern Trust",
             "NovaTide",
             "Nu",
-            "Numoro",
             "Nuveen",
-            "OFI",
-            "OPAL",
             "OTG",
             "OTP",
             "Oakmark",
-            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
             "OneETF",
             "Oneascent",
             "Onefund",
+            "Onemarkets",
             "Opportunistic",
             "Optimize",
             "Opus Capital Management",
@@ -22471,19 +23323,20 @@
             "Ossiam",
             "Overlay Shares",
             "PAM",
-            "PEO",
             "PGIM",
             "PICTON",
             "PIMCO",
             "PL",
             "PLUS",
             "PMV",
+            "Pabrai",
             "Pacer",
             "Pacific Funds",
             "Palmer Square",
             "Pando",
             "Pando Asset",
             "Parametric",
+            "Pareto",
             "Parnassus Investments",
             "Pathfinder",
             "PeakShares",
@@ -22507,7 +23360,6 @@
             "Point Bridge Capital",
             "Polen",
             "Portfolio Building Block",
-            "PortfolioMetrix",
             "Praxis",
             "Premia",
             "Premier ETF",
@@ -22519,6 +23371,7 @@
             "Prospera Funds",
             "Purpose",
             "Putnam",
+            "Pzena",
             "Q3",
             "QR",
             "QRAFT",
@@ -22526,9 +23379,7 @@
             "Quadratic",
             "Quadravest",
             "QuantaShares",
-            "Quantify Funds",
             "Quantum",
-            "Quay",
             "RAFI Indices",
             "RAM",
             "RBC",
@@ -22555,7 +23406,6 @@
             "Renaissance",
             "Resolution Capital",
             "Return Stacked",
-            "Reverb ETF",
             "River1",
             "RiverFront",
             "RiverNorth",
@@ -22567,10 +23417,10 @@
             "Rongtong",
             "Roundhill",
             "Royal Canadian Mint",
+            "Ruk",
             "Russell",
             "Russell Investments",
             "SAB Invest",
-            "SAM",
             "SBI",
             "SEI",
             "SMDAM",
@@ -22592,6 +23442,7 @@
             "Safra",
             "Samsung",
             "SanJac Alpha",
+            "Sapient",
             "Sarmaya Partners",
             "Satrix",
             "Sber",
@@ -22602,6 +23453,7 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -22622,9 +23474,11 @@
             "Sovereign's",
             "Sparkline",
             "Spear",
+            "Spheria",
             "Sprott",
             "Stacked",
             "Stance",
+            "Standard Bank",
             "Starlight",
             "State Street",
             "Sterling Capital",
@@ -22643,6 +23497,7 @@
             "Suncoast",
             "Swan",
             "Swisscanto",
+            "Swissquote",
             "Sygnia",
             "Symmetry Panoramic",
             "T-Capital",
@@ -22651,7 +23506,9 @@
             "TBI",
             "TCW",
             "TD",
+            "TEQ",
             "THOR",
+            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -22686,6 +23543,7 @@
             "Touchstone",
             "Towle",
             "TradersAI",
+            "Trading Central",
             "Tradr",
             "Transamerica",
             "Tremblant",
@@ -22699,6 +23557,7 @@
             "Tweedy, Browne Co.",
             "Twin Oak",
             "UBS",
+            "UBS SDIC",
             "UOB",
             "UPAMC",
             "US Benchmark Series",
@@ -22713,6 +23572,7 @@
             "Union Investment",
             "Union Mutual Fund",
             "United",
+            "Universal Investment",
             "Unlimited",
             "VI",
             "VTB",
@@ -22722,9 +23582,10 @@
             "Value Partners Funds",
             "VanEck",
             "Vanguard",
+            "Variant Perception",
             "Vaughan",
+            "Vegashares",
             "Vert",
-            "Vest",
             "VictoryShares",
             "Vident",
             "Vietnam",
@@ -22735,7 +23596,9 @@
             "Vita",
             "Volatility Shares",
             "Vontobel",
+            "Vox",
             "Voya",
+            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -22781,6 +23644,7 @@
             "Zerodha",
             "Zheshang",
             "Zhongrong",
+            "Ziller",
             "Ziraat",
             "aberdeen",
             "iA",
@@ -23027,6 +23891,264 @@
             "71",
             "75",
             "8"
+        ]
+    },
+    {
+        "n": "cfi_code",
+        "t": "text",
+        "r": [
+            "CBOIXU",
+            "CECGBS",
+            "CECGBU",
+            "CECGES",
+            "CECGEU",
+            "CECGLS",
+            "CECGMS",
+            "CECGMX",
+            "CECIBS",
+            "CECIBU",
+            "CECIBX",
+            "CECIES",
+            "CECIEU",
+            "CECIMS",
+            "CECIMU",
+            "CECIMX",
+            "CECJLS",
+            "CECJLU",
+            "CECJMS",
+            "CECJMU",
+            "CECJRS",
+            "CECJXU",
+            "CEMGLU",
+            "CEMILS",
+            "CEMJLS",
+            "CEOGBS",
+            "CEOGBU",
+            "CEOGCS",
+            "CEOGCU",
+            "CEOGDS",
+            "CEOGES",
+            "CEOGEU",
+            "CEOGEX",
+            "CEOGFS",
+            "CEOGFU",
+            "CEOGLS",
+            "CEOGLU",
+            "CEOGLX",
+            "CEOGMS",
+            "CEOGMU",
+            "CEOGMX",
+            "CEOGRS",
+            "CEOGXX",
+            "CEOIBS",
+            "CEOIBU",
+            "CEOICS",
+            "CEOICU",
+            "CEOICX",
+            "CEOIDS",
+            "CEOIES",
+            "CEOIEU",
+            "CEOILS",
+            "CEOILU",
+            "CEOILX",
+            "CEOIMS",
+            "CEOIMU",
+            "CEOIMX",
+            "CEOIRS",
+            "CEOIRX",
+            "CEOIVS",
+            "CEOIXS",
+            "CEOIXX",
+            "CEOJBS",
+            "CEOJBU",
+            "CEOJCS",
+            "CEOJCU",
+            "CEOJDS",
+            "CEOJES",
+            "CEOJEU",
+            "CEOJFS",
+            "CEOJFU",
+            "CEOJLS",
+            "CEOJLU",
+            "CEOJLX",
+            "CEOJMS",
+            "CEOJMU",
+            "CEOJNU",
+            "CEOJRS",
+            "CEOJXS",
+            "CEOJXU",
+            "CEOXCX",
+            "CEOXES",
+            "CEOXMS",
+            "CEOXMX",
+            "CEOXXS",
+            "CEOXXX",
+            "CEXGXX",
+            "CEXIBS",
+            "CEXICX",
+            "CEXIMS",
+            "CEXIMX",
+            "CEXJLS",
+            "CEXJMS",
+            "CEXJXX",
+            "CEXXLS",
+            "CEXXMX",
+            "CEXXXS",
+            "CEXXXX",
+            "CFOIIS",
+            "CHNXXX",
+            "CICGBU",
+            "CICGLS",
+            "CICGXS",
+            "CICGXX",
+            "CICIBS",
+            "CICIBU",
+            "CICIBX",
+            "CICIES",
+            "CICILS",
+            "CICILU",
+            "CICIMS",
+            "CICIMX",
+            "CICIRS",
+            "CICIRU",
+            "CICIRX",
+            "CICIXX",
+            "CICJBS",
+            "CICJCS",
+            "CICJLQ",
+            "CICJLS",
+            "CICJLU",
+            "CICJMS",
+            "CICJMU",
+            "CICJXS",
+            "CICXLS",
+            "CICXMX",
+            "CICXXX",
+            "CIMIBS",
+            "CIMJLS",
+            "CIOGEU",
+            "CIOGLS",
+            "CIOGLX",
+            "CIOGXX",
+            "CIOIES",
+            "CIOIEU",
+            "CIOILS",
+            "CIOIMS",
+            "CIOIXX",
+            "CIOJEU",
+            "CIOJLS",
+            "CIOJLU",
+            "CIOJMS",
+            "CIOJRS",
+            "CIOXMX",
+            "CIOXXS",
+            "CIOXXX",
+            "CIXXFX",
+            "CIXXXS",
+            "CIXXXX",
+            "CMXXXU",
+            "EFNCCR",
+            "EFNNFR",
+            "EFNRCX",
+            "EFNXCR",
+            "EFVCFR",
+            "EFVRCR",
+            "EFVRFR",
+            "EFVXCR",
+            "EFVXFR",
+            "EPNAFR",
+            "EPNCCR",
+            "EPNCFR",
+            "EPNNAR",
+            "EPNNCR",
+            "EPNNFR",
+            "EPNNPB",
+            "EPNNPR",
+            "EPNNQB",
+            "EPNRAR",
+            "EPNRCR",
+            "EPNRFR",
+            "EPNRPB",
+            "EPNTCR",
+            "EPNXAR",
+            "EPNXCR",
+            "EPNXFR",
+            "EPNXUR",
+            "EPNXXB",
+            "EPNXXR",
+            "EPRNNR",
+            "EPRRAR",
+            "EPRRCN",
+            "EPRRCR",
+            "EPVCCR",
+            "EPVCFR",
+            "EPVCQR",
+            "EPVGFR",
+            "EPVNAR",
+            "EPVNCR",
+            "EPVNFR",
+            "EPVNNM",
+            "EPVNNR",
+            "EPVRAR",
+            "EPVRCR",
+            "EPVRFR",
+            "EPVTFR",
+            "EPVXCR",
+            "EPVXFR",
+            "EPVXUR",
+            "EPXNFR",
+            "EPXXXR",
+            "EPXXXX",
+            "ESETFR",
+            "ESEUFN",
+            "ESEUFR",
+            "ESNTFR",
+            "ESNUFB",
+            "ESNUFN",
+            "ESNUFR",
+            "ESNUFX",
+            "ESNUOR",
+            "ESNUPN",
+            "ESNUPR",
+            "ESRTFR",
+            "ESRUFN",
+            "ESRUFR",
+            "ESRUXR",
+            "ESVTFB",
+            "ESVTFM",
+            "ESVTFN",
+            "ESVTFR",
+            "ESVTOR",
+            "ESVTXR",
+            "ESVUFB",
+            "ESVUFM",
+            "ESVUFN",
+            "ESVUFR",
+            "ESVUFX",
+            "ESVUOR",
+            "ESVUPN",
+            "ESVUPR",
+            "ESVUXN",
+            "ESVUXR",
+            "ESVUXX",
+            "ESVXFB",
+            "ESVXFN",
+            "ESVXFR",
+            "ESVXFX",
+            "ESVXXR",
+            "ESVXXX",
+            "ESXTFX",
+            "ESXUFR",
+            "ESXUFX",
+            "ESXUXB",
+            "ESXUXN",
+            "ESXUXR",
+            "ESXXFR",
+            "ESXXFX",
+            "ESXXXB",
+            "ESXXXN",
+            "ESXXXR",
+            "ESXXXX"
         ]
     },
     {
@@ -23375,6 +24497,7 @@
             "BW",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -23405,6 +24528,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -23454,8 +24578,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
-            "SV",
             "TG",
             "TH",
             "TN",
@@ -23520,7 +24642,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -23583,7 +24704,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
             "out_of_session"
         ]
     },
@@ -23770,6 +24890,11 @@
     {
         "n": "dps_common_stock_prim_issue_ttm",
         "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "earnings_fq_h",
+        "t": "interface",
         "r": null
     },
     {
@@ -24184,8 +25309,6 @@
         "n": "fiscal_period_current",
         "t": "text",
         "r": [
-            "2024-H2",
-            "2024-Q4",
             "2025-H1",
             "2025-H2",
             "2025-Q1",
@@ -24194,7 +25317,8 @@
             "2025-Q4",
             "2026-H1",
             "2026-Q1",
-            "2026-Q2"
+            "2026-Q2",
+            "2026-Q3"
         ]
     },
     {
@@ -24296,6 +25420,7 @@
             "2042",
             "2043",
             "2044",
+            "2045",
             "2048",
             "2050",
             "2051",
@@ -24386,7 +25511,6 @@
             "2193",
             "2194",
             "2195",
-            "2196",
             "2198",
             "22",
             "2200",
@@ -24403,6 +25527,10 @@
             "2214",
             "2215",
             "2216",
+            "2218",
+            "2223",
+            "2226",
+            "2227",
             "23",
             "24",
             "2430",
@@ -25137,6 +26265,26 @@
         ]
     },
     {
+        "n": "income_from_cont_ops_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "income_from_cont_ops_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "income_from_cont_ops_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "income_from_cont_ops_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "index_id",
         "t": "text",
         "r": [
@@ -25237,15 +26385,229 @@
             "SYML:BIST;XYUZO",
             "SYML:BME;IBC",
             "SYML:BME;ICC",
+            "SYML:BME;ID",
+            "SYML:BME;IJ",
+            "SYML:BME;IND20000",
+            "SYML:BME;IND20100",
+            "SYML:BME;IND20101",
+            "SYML:BME;IND20102",
+            "SYML:BME;IND20103",
+            "SYML:BME;IND20104",
+            "SYML:BME;IND20200",
+            "SYML:BME;IND20201",
+            "SYML:BME;IND20202",
+            "SYML:BME;IND20203",
+            "SYML:BME;IND20205",
+            "SYML:BME;IND20206",
+            "SYML:BME;IND20207",
+            "SYML:BME;IND20300",
+            "SYML:BME;IND20301",
+            "SYML:BME;IND20302",
+            "SYML:BME;IND20303",
+            "SYML:BME;IND20305",
+            "SYML:BME;IND20306",
+            "SYML:BME;IND20400",
+            "SYML:BME;IND20401",
+            "SYML:BME;IND20402",
+            "SYML:BME;IND20403",
+            "SYML:BME;IND20404",
+            "SYML:BME;IND20406",
+            "SYML:BME;IND20500",
+            "SYML:BME;IND20501",
+            "SYML:BME;IND20502",
+            "SYML:BME;IND20503",
+            "SYML:BME;IND20506",
+            "SYML:BME;IND20600",
+            "SYML:BME;IND20601",
+            "SYML:BME;IND20602",
+            "SYML:BME;IND20700",
+            "SYML:BME;IND20701",
+            "SYML:BME;IND20702",
+            "SYML:BME;IND21000",
+            "SYML:BME;IND21100",
+            "SYML:BME;IND21101",
+            "SYML:BME;IND21102",
+            "SYML:BME;IND21103",
+            "SYML:BME;IND21104",
+            "SYML:BME;IND21200",
+            "SYML:BME;IND21201",
+            "SYML:BME;IND21202",
+            "SYML:BME;IND21203",
+            "SYML:BME;IND21205",
+            "SYML:BME;IND21206",
+            "SYML:BME;IND21207",
+            "SYML:BME;IND21300",
+            "SYML:BME;IND21301",
+            "SYML:BME;IND21302",
+            "SYML:BME;IND21303",
+            "SYML:BME;IND21305",
+            "SYML:BME;IND21306",
+            "SYML:BME;IND21400",
+            "SYML:BME;IND21401",
+            "SYML:BME;IND21402",
+            "SYML:BME;IND21403",
+            "SYML:BME;IND21404",
+            "SYML:BME;IND21406",
+            "SYML:BME;IND21500",
+            "SYML:BME;IND21501",
+            "SYML:BME;IND21502",
+            "SYML:BME;IND21503",
+            "SYML:BME;IND21506",
+            "SYML:BME;IND21600",
+            "SYML:BME;IND21601",
+            "SYML:BME;IND21602",
+            "SYML:BME;IND21700",
+            "SYML:BME;IND21701",
+            "SYML:BME;IND21702",
+            "SYML:BME;IND31000",
+            "SYML:BME;IND31100",
+            "SYML:BME;IND31101",
+            "SYML:BME;IND31102",
+            "SYML:BME;IND31103",
+            "SYML:BME;IND31104",
+            "SYML:BME;IND31200",
+            "SYML:BME;IND31201",
+            "SYML:BME;IND31202",
+            "SYML:BME;IND31203",
+            "SYML:BME;IND31205",
+            "SYML:BME;IND31206",
+            "SYML:BME;IND31207",
+            "SYML:BME;IND31300",
+            "SYML:BME;IND31301",
+            "SYML:BME;IND31302",
+            "SYML:BME;IND31303",
+            "SYML:BME;IND31305",
+            "SYML:BME;IND31306",
+            "SYML:BME;IND31400",
+            "SYML:BME;IND31401",
+            "SYML:BME;IND31402",
+            "SYML:BME;IND31403",
+            "SYML:BME;IND31404",
+            "SYML:BME;IND31406",
+            "SYML:BME;IND31500",
+            "SYML:BME;IND31501",
+            "SYML:BME;IND31502",
+            "SYML:BME;IND31503",
+            "SYML:BME;IND31506",
+            "SYML:BME;IND31600",
+            "SYML:BME;IND31601",
+            "SYML:BME;IND31602",
+            "SYML:BME;IND31700",
+            "SYML:BME;IND31701",
+            "SYML:BME;IND31702",
+            "SYML:BME;IND40000",
+            "SYML:BME;IND40100",
+            "SYML:BME;IND40200",
+            "SYML:BME;IND40400",
+            "SYML:BME;IND40500",
+            "SYML:BME;IND40600",
+            "SYML:BME;IND40700",
+            "SYML:BME;IND40800",
+            "SYML:BME;IND50000",
+            "SYML:BME;INDA",
+            "SYML:BME;INDAN",
+            "SYML:BME;INDAT",
+            "SYML:BME;INDCN",
+            "SYML:BME;INDCT",
+            "SYML:BME;INDDN",
+            "SYML:BME;INDDT",
+            "SYML:BME;INDE",
+            "SYML:BME;INDEN",
+            "SYML:BME;INDET",
             "SYML:BME;INDGRO15",
             "SYML:BME;INDGROAS",
+            "SYML:BME;INDIB",
+            "SYML:BME;INDIC",
+            "SYML:BME;INDIE",
+            "SYML:BME;INDO",
+            "SYML:BME;INDON",
+            "SYML:BME;INDOT",
+            "SYML:BME;INDSN",
+            "SYML:BME;INDST",
             "SYML:BME;IS",
+            "SYML:BME;IX",
+            "SYML:BME;IY",
+            "SYML:BME;IZ",
+            "SYML:BME;LXB",
+            "SYML:BME;LXC",
+            "SYML:BME;LXT",
             "SYML:BMFBOVESPA;IBOV",
             "SYML:BMFBOVESPA;IBRA",
             "SYML:BMFBOVESPA;IBXL",
             "SYML:BMFBOVESPA;IFIX",
             "SYML:BMV;ME",
+            "SYML:BSE;200EQW",
+            "SYML:BSE;AUTO",
+            "SYML:BSE;BANK",
+            "SYML:BSE;BBGEFS",
+            "SYML:BSE;BHRT22",
+            "SYML:BSE;BS1000",
+            "SYML:BSE;BSE100",
+            "SYML:BSE;BSE200",
+            "SYML:BSE;BSE500",
+            "SYML:BSE;BSEDSI",
+            "SYML:BSE;BSEEVI",
+            "SYML:BSE;BSELVI",
+            "SYML:BSE;BSEMOI",
+            "SYML:BSE;BSEPBI",
+            "SYML:BSE;BSEQUI",
+            "SYML:BSE;BSESER",
+            "SYML:BSE;CAPINS",
+            "SYML:BSE;CD",
+            "SYML:BSE;CG",
+            "SYML:BSE;COMDTY",
+            "SYML:BSE;CONDIS",
+            "SYML:BSE;CPSE",
+            "SYML:BSE;DFRGRI",
+            "SYML:BSE;DOLLEX100",
+            "SYML:BSE;DOLLEX200",
+            "SYML:BSE;DOLLEX30",
+            "SYML:BSE;ENERGY",
+            "SYML:BSE;ESG100",
+            "SYML:BSE;FINSER",
+            "SYML:BSE;FMCG",
+            "SYML:BSE;FOCIT",
+            "SYML:BSE;FOCMID",
+            "SYML:BSE;HC",
+            "SYML:BSE;IND150",
+            "SYML:BSE;INDSTR",
+            "SYML:BSE;INSLDR",
+            "SYML:BSE;INTECO",
+            "SYML:BSE;IPO",
+            "SYML:BSE;IT",
+            "SYML:BSE;LCTMCI",
+            "SYML:BSE;LMI250",
+            "SYML:BSE;METAL",
+            "SYML:BSE;MFG",
+            "SYML:BSE;MID150",
+            "SYML:BSE;MIDSEL",
+            "SYML:BSE;MOME50",
+            "SYML:BSE;MSL400",
+            "SYML:BSE;OILGAS",
+            "SYML:BSE;POWENE",
+            "SYML:BSE;POWER",
+            "SYML:BSE;PRECON",
+            "SYML:BSE;PSU",
+            "SYML:BSE;PSUBNK",
+            "SYML:BSE;QUAL50",
+            "SYML:BSE;REALTY",
+            "SYML:BSE;SELIPO",
+            "SYML:BSE;SENEQW",
             "SYML:BSE;SENSEX",
+            "SYML:BSE;SML250",
+            "SYML:BSE;SMLSEL",
+            "SYML:BSE;SNSX50",
+            "SYML:BSE;SNSX60",
+            "SYML:BSE;SNXN30",
+            "SYML:BSE;SNXT50",
+            "SYML:BSE;SS6535",
+            "SYML:BSE;TECK",
+            "SYML:BSE;TELCOM",
+            "SYML:BSE;UTILS",
+            "SYML:BSESOF;BGBX40",
+            "SYML:BSESOF;BGREIT",
+            "SYML:BSESOF;BGTR30",
+            "SYML:BSESOF;SOFIX",
             "SYML:BSSE;SAX",
             "SYML:BVB;BET",
             "SYML:BVC;ICAP",
@@ -25254,6 +26616,7 @@
             "SYML:BVCV;IBC",
             "SYML:BVCV;IFINANCIE",
             "SYML:BVCV;IINDUSTR",
+            "SYML:BVL;SPBLPGPT",
             "SYML:BVMT;PX1",
             "SYML:BVMT;TUN20",
             "SYML:CBOE;SPESG",
@@ -25400,6 +26763,7 @@
             "SYML:KSE;BKMT",
             "SYML:KSE;BKP",
             "SYML:KSE;BKPT",
+            "SYML:LJSE;SBITOP",
             "SYML:LUXSE;LUXG",
             "SYML:LUXSE;LUXX",
             "SYML:MOEX;IMOEX",
@@ -25620,6 +26984,7 @@
             "SYML:STOXX;EDD24BP",
             "SYML:STOXX;EDE15BP",
             "SYML:STOXX;EDE5P",
+            "SYML:STOXX;EEBCP",
             "SYML:STOXX;EUE15P",
             "SYML:STOXX;SX150P",
             "SYML:STOXX;SX50UL",
@@ -25717,7 +27082,17 @@
             "SYML:XETR;DAXK",
             "SYML:XETR;MDAX",
             "SYML:XETR;SDXP",
-            "SYML:XETR;TDXP"
+            "SYML:XETR;TDXP",
+            "SYML:ZSE;ADRPR",
+            "SYML:ZSE;CBX",
+            "SYML:ZSE;CBX10",
+            "SYML:ZSE;CBXIN",
+            "SYML:ZSE;CBXKO",
+            "SYML:ZSE;CBXNU",
+            "SYML:ZSE;CBXPL",
+            "SYML:ZSE;CBXPR",
+            "SYML:ZSE;CBXTP",
+            "SYML:ZSE;CBXTU"
         ],
         "agg": true
     },
@@ -25733,8 +27108,11 @@
             "ARK Investment Management LP",
             "Abacus FCF Advisors LLC",
             "Acquirers Funds LLC",
+            "Akros S.R.L.",
             "American Century Investment Management, Inc.",
             "Arch Indices Investment Advisors LLC",
+            "Asia Index Pvt Ltd.",
+            "Associa\u00e7\u00e3o Brasileira das Entidades dos Mercados Financeiro",
             "Athens Stock Exchange",
             "Auspice Capital Advisors Ltd.",
             "Aztlan Equity Management LLC (Mexico)",
@@ -25747,6 +27125,7 @@
             "Bianco Research Advisors LLC",
             "Big Tree Capital LLC",
             "Bitwise Asset Management, Inc.",
+            "Bitwise Index Services LLC",
             "BlackRock Index Services LLC",
             "Bloomberg Finance LP",
             "Bloomberg Index Services Ltd.",
@@ -25781,6 +27160,7 @@
             "Corporate Knights, Inc.",
             "DBX ETF Trust",
             "Dalian Commodity Exchange",
+            "DeepSearch, Inc.",
             "Deutsche B\u00f6rse AG",
             "Dimensional Fund Advisors",
             "Dorsey, Wright & Associates LLC",
@@ -25843,10 +27223,12 @@
             "MSCI, Inc.",
             "Macedonia Stock Exchange",
             "Manulife Investment Management Ltd.",
+            "Market Vectors Exchange Traded Notes",
             "MarketAxess Technologies, Inc.",
             "MarketGrader Capital LLC",
             "MarketVector Indexes GmbH",
-            "Merqube, Inc.",
+            "Maverix Securities AG",
+            "MerQube, Inc.",
             "Merrill Lynch International",
             "Metaurus Advisors LLC",
             "Mirae Asset Global Index Pvt Ltd.",
@@ -25860,11 +27242,14 @@
             "NYSE Euronext Holding NV",
             "Nasdaq ISE LLC",
             "Ned Davis Research, Inc.",
+            "Neos Investment Management LLC",
             "New York Life Investment Management LLC",
+            "New York Stock Exchange",
             "Newfound Research LLC",
             "Nikkei, Inc.",
             "North Shore Indices, Inc.",
             "Numeric Investors LLC",
+            "O'Shares Investment Advisers LLC (US)",
             "Oak City Consulting LLC",
             "Optimize Financial, Inc.",
             "Osaka Exchange, Inc.",
@@ -25899,6 +27284,7 @@
             "Shanghai Gold Exchange",
             "Shanghai Stock Exchange",
             "Shenzhen Securities Information Co., Ltd.",
+            "Shenzhen Stock Exchange",
             "Singapore Exchange Ltd.",
             "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale SA",
             "Solactive AG",
@@ -25910,7 +27296,9 @@
             "Taiwan Index Plus Corp.",
             "Taiwan Stock Exchange Corp.",
             "Teucrium Trading LLC",
+            "Teva Indices",
             "The Belgrade Stock Exchange",
+            "The Korea Economic Daily",
             "The London Bullion Market Association",
             "The London Metal Exchange",
             "The Motley Fool, LLC",
@@ -26139,8 +27527,6 @@
         "n": "issuer",
         "t": "text",
         "r": [
-            "10X Fund Managers (RF) Proprietary Ltd",
-            "10X Investments (Pty) Ltd.",
             "1251 Capital Group, Inc.",
             "21Shares AG",
             "21co Holdings Ltd.",
@@ -26151,6 +27537,8 @@
             "3iQ Corp.",
             "483A Bay Street Holdings LP",
             "818, Inc.",
+            "ABN AMRO Bank NV",
+            "ABSA Bank Ltd.",
             "ACP Horizon Holdings LP",
             "AG Financial Services Group",
             "AGF Management Ltd.",
@@ -26167,6 +27555,7 @@
             "Absolute Investment Advisers LLC",
             "Accelerate Financial Technologies, Inc.",
             "Acquirers Funds LLC",
+            "Acuitas Investments LLC",
             "Aditya Birla Sun Life AMC Ltd.",
             "Advent Capital Management LLC",
             "Aegon Ltd.",
@@ -26174,16 +27563,19 @@
             "Affiliated Managers Group, Inc.",
             "Affin Bank Bhd.",
             "African Bank Holdings Ltd.",
+            "African Ivy Investment Holdings (Pty) Ltd.",
             "AgioFunds TFI SA",
             "Akbank TAS",
             "Akre Capital Management LLC",
             "Albert D. Mason, Inc.",
             "Alexis Investment Partners LLC",
+            "Alfa Group",
             "Alger Associates, Inc. (United States)",
             "Alinma Bank",
             "Alkhabeer Capital",
             "Allfunds Group Plc",
             "Allfunds Investment Solutions SA",
+            "AllianceBernstein LP",
             "Allianz SE",
             "Allspring Group Holdings LLC",
             "Alpha Services & Holdings SA",
@@ -26213,6 +27605,7 @@
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
             "Astorg Group SARL",
+            "Avos Capital Management, LLC",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BCP CC Holdings LP",
@@ -26228,9 +27621,9 @@
             "Banco BTG Pactual SA",
             "Banco Bilbao Vizcaya Argentaria SA",
             "Banco Bradesco SA /Private Group/",
+            "Bancreek Capital Management LP",
             "Bandhan AMC Ltd.",
             "Bandhan Financial Services Pvt Ltd.",
-            "Bangarra Group Ltd.",
             "Bangkok Bank PCL",
             "Bangkok Capital Asset Management Co. Ltd.",
             "Bank Albilad",
@@ -26254,6 +27647,7 @@
             "Bitwise Europe GmbH",
             "BlackRock Brasil Gestora de Investimentos Ltda.",
             "BlackRock, Inc.",
+            "Blue Sky Investments Ltd.",
             "Bondbloxx Investment Management Corp.",
             "Bosera Asset Management Co., Ltd.",
             "Brandes Worldwide Holdings LP",
@@ -26287,13 +27681,13 @@
             "Capital Investment Trust Corp.",
             "Capstone Asset Management Inc",
             "Carne Global Financial Services Ltd.",
+            "Cartesian Capital Pyt Ltd. (South Africa)",
             "Cary Street Partners Financial LLC",
             "CastleArk Management LLC",
             "Cathay Financial Holdings Co., Ltd.",
             "Cathay Fund Management Co. Ltd.",
             "Cathay Pacific Airways Ltd.",
             "Cavalier16, Inc.",
-            "Cboe Global Markets, Inc.",
             "Challenger Ltd.",
             "Chimera Investment LLC",
             "China Capital-COFCO Purchase Final No. 1 Asset-backed Special",
@@ -26307,7 +27701,6 @@
             "China Universal Fund Management Co. Ltd.",
             "City of Wuxi",
             "Claremont Funds Management Pty Ltd.",
-            "Clipper Holding LP",
             "Clough CGI LLC",
             "Cohanzick Management LLC",
             "Cohen & Steers, Inc. (New York)",
@@ -26340,23 +27733,21 @@
             "Daishin Securities Co., Ltd.",
             "Daiwa Securities Group, Inc.",
             "Dakota Wealth Management LLC (Florida)",
-            "Dana Investment Advisors, Inc.",
             "Danofe Trading Ltd.",
             "David Young & Sandra G. Glain Family Trust",
             "Davis Selected Advisers LP",
             "Dawn Global Topco Ltd.",
             "Deegan Holdings LLC",
-            "Deepwater Asset Management LLC (Investment Management)",
             "Defiance ETFs LLC",
             "Defiance Group Holdings LLC",
             "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Delaware Management Company Inc",
-            "Democracy Investment Management LLC",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
             "Deutsche Bank AG",
             "Deutsche B\u00f6rse Commodities GmbH",
             "Deutscher Sparkassen-und Giroverband eV",
+            "Dhandho Holdings LP",
             "Diamond Hill Investment Group, Inc.",
             "Digital Currency Group, Inc.",
             "DigitalX Asset Management Pty Ltd.",
@@ -26370,10 +27761,9 @@
             "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
+            "Dvx Ventures LLC",
             "E Fund Management Co., Ltd.",
-            "EPWA Holding Co. LLC",
             "EQT Holdings Ltd.",
-            "ETC Holdings Ltd. (Guernsey)",
             "ETF Shares Management Ltd.",
             "ETFS Capital Ltd.",
             "ETP Holding Co. LLC",
@@ -26386,10 +27776,10 @@
             "Empirical Finance LLC",
             "Empiricus Gestao De Recursos Ltda.",
             "Envestnet, Inc.",
-            "Epiris Managers LLP",
             "Equitable Holdings, Inc.",
             "Estate Counselors LLC",
             "Eurazeo SE",
+            "Eurizon Capital SGR SpA",
             "Eventide Asset Management LLC",
             "Everence Holdings, Inc.",
             "Evolve Funds Group, Inc.",
@@ -26402,6 +27792,7 @@
             "Fair Oaks Capital Ltd.",
             "Faith Investor Services LLC",
             "Falcom Holding Co.",
+            "Falconx Holdings Ltd.",
             "Federated Hermes, Inc.",
             "FiCAS AG",
             "Fidelity Investments Canada ULC",
@@ -26409,11 +27800,13 @@
             "Financial Street Securities Co., Ltd.",
             "FinecoBank SpA",
             "Firetrail Investments Pty Ltd.",
+            "First Asset Management JSC",
             "First Eagle Investment Management LLC",
             "First Financial Holding Co., Ltd.",
             "First Metro Asset Management, Inc.",
             "First Pacific Advisors LP",
             "First Seafront Fund Management Co., Ltd.",
+            "First Trust Advisors LP",
             "First Trust Global Portfolios Management Ltd.",
             "FirstRand Bank Ltd.",
             "FirstRand Ltd.",
@@ -26423,6 +27816,7 @@
             "Fortuna Funds LLC",
             "Founder ETFs LLC",
             "Founder Fubon Fund Management Co., Ltd.",
+            "Framework Digital Advisors LLC",
             "Franklin Resources, Inc.",
             "Franklin Templeton Fund Adviser LLC",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
@@ -26458,8 +27852,6 @@
             "GraniteShares, Inc.",
             "Grantham, Mayo, Van Otterloo & Co. LLC",
             "Grasim Industries Ltd.",
-            "Grayscale Investments Sponsors LLC",
-            "Grayscale Operating LLC",
             "Great Eastern Holdings Ltd.",
             "Great Wall Fund Management Co., Ltd.",
             "Greenbay Acquisitions Ltd.",
@@ -26488,12 +27880,10 @@
             "Harvest Fund Management Co., Ltd.",
             "Harvest Portfolios Group, Inc.",
             "Hashdex AG",
-            "Hashdex Gestora de Recursos Ltda.",
             "Hashdex Ltd.",
             "Hedge Investments Real Estate Gest\u00e3o de Recursos Ltda.",
             "Hedgeye Risk Management LLC",
             "Hejaz Capital Pty Ltd.",
-            "Helveteq AG",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
@@ -26501,7 +27891,6 @@
             "Horizon Kinetics Holding Corp.",
             "Howard Capital Management, Inc. (Georgia)",
             "HuaAn Fund Management Co., Ltd.",
-            "Huabao Fund Management Co. Ltd.",
             "Huafu Securities Co., Ltd.",
             "Huatai Securities Co., Ltd.",
             "Huatai-PineBridge Fund Management Co., Ltd.",
@@ -26540,6 +27929,7 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -26550,13 +27940,13 @@
             "KB Financial Group, Inc.",
             "KB Securities Co., Ltd. /Private Equity/",
             "KBA Consulting Management Ltd.",
+            "KBC Group NV",
             "KCGI Asset Management Co., Ltd.",
             "KGI Financial Holding Co., Ltd.",
             "KGI Securities (Thailand) PCL",
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
             "Kapital Mexico Grupo Financiero SA de CV",
-            "Kasikornbank Public Co. Ltd.",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
             "Killir Kapital Management LLC",
@@ -26582,6 +27972,7 @@
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
             "Lexus Securities Pty Ltd.",
+            "Lightwater Partners Ltd.",
             "Lion Fund Management Co., Ltd.",
             "LionShares LLC",
             "Liquid Strategies LLC",
@@ -26592,11 +27983,12 @@
             "LongPoint Asset Management, Inc.",
             "L\u00e4hiTapiola Keskin\u00e4inen Vakuutusyhti\u00f6",
             "M&G Plc",
+            "M. D. Sass LLC",
             "MERITZ Financial Group, Inc.",
             "MERITZ SECURITIES Co., Ltd.",
+            "MIG Capital LLC",
             "MM VAM LLC",
             "MS&AD Insurance Group Holdings, Inc.",
-            "Macif SAM",
             "Macquarie Group Ltd.",
             "Madison Investment Holdings, Inc.",
             "Magellan Financial Group Ltd.",
@@ -26604,7 +27996,7 @@
             "Mairs & Power, Inc.",
             "Man Group Plc (Jersey)",
             "Manulife Financial Corp.",
-            "Manulife TEDA Fund Management Co., Ltd.",
+            "Manulife Fund Management Co., Ltd.",
             "Marathon Partners LLC",
             "Market Access Asset Management Ltd.",
             "Matthews International Capital Management LLC",
@@ -26621,6 +28013,7 @@
             "Migdal Mutual Funds Ltd.",
             "Milford Asset Management Ltd.",
             "Miller Value Partners LLC",
+            "Milliman, Inc.",
             "Minsheng Royal Fund Management Co., Ltd.",
             "Mirae Asset Financial Group",
             "Mirae Asset Global Investments Co., Ltd.",
@@ -26636,6 +28029,7 @@
             "Mugunghwa Trust Co., Ltd.",
             "Mulvihill Capital Management, Inc.",
             "Munro Investment Holdings Pty Ltd.",
+            "Muzinich & Co., Inc.",
             "Myriad Asset Management Advisors LLC",
             "NBSH Acquisition LLC",
             "NEOS Investments LLC",
@@ -26649,9 +28043,9 @@
             "National Bank of Canada",
             "Natixis Investment Managers LP",
             "Neil Azous Revocable Trust",
-            "New China Fund Management Co., Ltd.",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Nicholas Wealth LLC",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
             "Nippon Life Insurance Co.",
@@ -26660,6 +28054,7 @@
             "Nomura Asset Management Taiwan Ltd",
             "Nomura Holdings, Inc.",
             "Nordea Bank Abp",
+            "Norris, Perne & French LLP",
             "Northern Trust Corp.",
             "Nu Holdings Ltd.",
             "Nxtassets GmbH",
@@ -26704,12 +28099,11 @@
             "Picton Mahoney Asset Management",
             "Ping An Insurance (Group) Co. of China Ltd.",
             "Pinnacle Investment Management Group Ltd.",
-            "PlanRock Wealth Management LLC",
+            "PlanRock Investment Management LLC",
             "Platinum Asset Management Ltd.",
             "Point Bridge Capital LLC",
             "Polen Capital Management LLC",
-            "Portfoliometrix Holdings Ltd.",
-            "Power Corp. of Canada",
+            "Power Corp of Canada",
             "Power Financial Corp.",
             "Precidian Investments LLC",
             "Prescient Management Co. RF Pty Ltd.",
@@ -26722,11 +28116,11 @@
             "Prospera Funds, Inc.",
             "Prudential Financial, Inc.",
             "Prudential Plc",
-            "Purpose Unlimited",
+            "Purpose Unlimited, Inc.",
+            "Pzena Investment Management LP",
             "Q3 Asset Management Corp.",
             "QR Capital Gestora De Recursos Ltda.",
             "Quadravest Capital Management, Inc.",
-            "Quantify Chaos Advisors LLC",
             "Quantum Advisors Pvt. Ltd.",
             "Qunyi Securities Investment Trust Co. Ltd.",
             "RDJ Associates LLC",
@@ -26756,18 +28150,19 @@
             "S.C.M. Edge, LLC",
             "SAB Invest",
             "SAS Rue la Bo\u00e9tie",
-            "SBI Funds Management Ltd.",
+            "SBI Funds Management Ltd. (Investment Management)",
             "SBI Holdings, Inc.",
             "SDIC Capital Co., Ltd.",
             "SEI Investments Co.",
+            "SG Hiscock & Co. Ltd.",
             "SR Partners LLC",
             "SRN Advisors LLC",
             "SS&C Technologies Holdings, Inc.",
             "SSI Securities Corp.",
             "SSIF BRK Financial Group SA",
-            "STF Management LP",
             "SWP Investment Management LLC",
             "Sa1 Issuer SPC Ltd.",
+            "Saba Capital Management LP",
             "Sammons Enterprises, Inc.",
             "Samsung Life Insurance Co., Ltd.",
             "Samsung Securities Co., Ltd.",
@@ -26790,11 +28185,13 @@
             "Skandinaviska Enskilda Banken AB",
             "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Gestion SA",
             "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale SA",
+            "Sound Capital Holdings LLC",
             "Sound Capital Solutions LLC",
             "Soundwatch Capital LLC",
             "Sovereign's Capital Management LLC",
             "Spear Advisors LLC",
             "Spend Life Wisely Co., Inc.",
+            "Spheria Asset Management Pty Ltd.",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
             "Standard Bank Group Ltd.",
@@ -26803,7 +28200,6 @@
             "State of Western Australia",
             "State of Zurich",
             "Sterling Capital Management LLC",
-            "Sterling Fund Management LLC",
             "Stone Ridge Holdings Group LP",
             "Sumitomo Mitsui Financial Group, Inc.",
             "Sumitomo Mitsui Trust Group, Inc.",
@@ -26814,7 +28210,9 @@
             "Sygnia Ltd.",
             "Symmetry Partners LLC",
             "T-Bank (Russia)",
+            "T-Technologies IPJSC",
             "T. Rowe Price Group, Inc.",
+            "TFG Parent Holdings LLC",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
             "TS Financial Holding Co., Ltd.",
@@ -26842,10 +28240,11 @@
             "The Marygold Cos, Inc.",
             "The Mcivy Co. LLC",
             "The Motley Fool Holdings, Inc.",
-            "The Samuel Group, Inc.",
+            "The Standard Bank of South Africa Ltd.",
             "The TCW Group, Inc.",
             "The Toronto-Dominion Bank",
             "The Vanguard Group, Inc.",
+            "Thor Analytics LLC",
             "Thor Trading Advisors LLC",
             "Thornburg Investment Management, Inc.",
             "Thrivent Financial for Lutherans",
@@ -26854,6 +28253,7 @@
             "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
+            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
@@ -26866,14 +28266,15 @@
             "Truvalue Asset Management Co. Ltd.",
             "Tuttle Capital Management LLC",
             "Twin Oak Holdings LP",
+            "T\u00fcrkiye Is Bankasi AS",
             "U.S. Global Investors, Inc.",
+            "UBS AG (London Branch)",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
             "UniCredit SpA",
             "Union Bank of Taiwan",
             "United Overseas Bank Ltd. (Singapore)",
-            "Unlimited Funds, Inc.",
             "VI Asset Management Co., Ltd.",
             "VNDirect Securities Corp.",
             "VTB Bank PJSC",
@@ -26883,6 +28284,7 @@
             "Value Partners Group Ltd.",
             "Van Eck Associates Corp.",
             "VanEck ETP AG",
+            "Vega Financial Group, LLC",
             "Vereinigung Baden-W\u00fcrttembergische Wertpapierb\u00f6rse eV",
             "Veritas Liberabit Vos LLC",
             "Vert Asset Management LLC",
@@ -26890,12 +28292,10 @@
             "Victory Capital Holdings, Inc.",
             "Vident Investors' Oversight Trust",
             "VinaCapital Fund Management JSC",
-            "Virtune AB",
             "Virtune AB (Publ)",
             "Virtus Investment Partners, Inc.",
             "Volatility Shares LLC",
             "Vontobel Holding AG",
-            "Voya Financial, Inc.",
             "WBI Trading Co., Inc.",
             "WEBs Investments, Inc.",
             "Wahed Invest LLC",
@@ -26907,8 +28307,9 @@
             "Waystone Governance Ltd.",
             "WealthTrust Asset Management LLC",
             "Wedbush Capital",
+            "Wedbush Family Partners LLC",
             "Weitz Investment Management, Inc.",
-            "Wellington Management Group LLP",
+            "Wellesley Asset Management, Inc.",
             "Western & Southern Mutual Holding Co.",
             "Western Leadbank Fund Management Co., Ltd",
             "Westwood Holdings Group, Inc.",
@@ -26929,6 +28330,7 @@
             "Zerodha Asset Management Pvt Ltd.",
             "Zheshang Fund Management Co., Ltd.",
             "Zhongrong International Trust Co., Ltd.",
+            "Ziller Funds Management Pty Ltd.",
             "iA Financial Corp., Inc.",
             "iM Financial Group Co., Ltd.",
             "issuance.swiss AG"
@@ -26957,6 +28359,11 @@
     },
     {
         "n": "last-price-update-time",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "last-price-update-time-intraday",
         "t": "time",
         "r": null
     },
@@ -27049,6 +28456,7 @@
             "1636f70a7bf29b6ae3bdd70362782a50",
             "176120eec53119ba0b1bb2b7a4e77538",
             "205b83335c9d5a9dad8dae82e0856c1f",
+            "2c72cb32dc2f849b1df36621bbe622de",
             "3c10eee496eb162ae0ed866403f2f032",
             "40ae032593e6551c0ada26bc3cb0c8a7",
             "49204706ae89a84f49643608a4a1eccb",
@@ -27208,10 +28616,12 @@
             "bangladesh",
             "belgium",
             "brazil",
+            "bulgaria",
             "canada",
             "chile",
             "china",
             "colombia",
+            "croatia",
             "cyprus",
             "czech",
             "denmark",
@@ -27256,6 +28666,7 @@
             "serbia",
             "singapore",
             "slovakia",
+            "slovenia",
             "spain",
             "srilanka",
             "sweden",
@@ -27569,6 +28980,46 @@
         "r": null
     },
     {
+        "n": "net_revenue_after_provision_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_revenue_after_provision_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_revenue_after_provision_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_revenue_after_provision_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_revenue_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_revenue_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_revenue_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_revenue_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "next_dividend_date",
         "t": "time",
         "r": null
@@ -27664,7 +29115,6 @@
             "193",
             "20",
             "30",
-            "3216",
             "33",
             "34",
             "35",
@@ -27719,6 +29169,7 @@
             "9536",
             "9540",
             "9543",
+            "9544",
             "9547",
             "9548",
             "9549",
@@ -27756,21 +29207,23 @@
             "9587",
             "9589",
             "9591",
-            "9592",
             "9594",
             "9595",
             "9596",
             "9597",
             "9598",
+            "9599",
             "9601",
             "9602",
+            "9603",
             "9604",
             "9606",
             "9607",
             "97",
             "9710",
             "98",
-            "9861"
+            "9861",
+            "9864"
         ]
     },
     {
@@ -28670,6 +30123,11 @@
         "r": null
     },
     {
+        "n": "revenues_fq_h",
+        "t": "interface",
+        "r": null
+    },
+    {
         "n": "rtc",
         "t": "price",
         "r": null
@@ -28802,6 +30260,7 @@
             "source/BMFBOVESPA",
             "source/BMV",
             "source/BSE",
+            "source/BSESOF",
             "source/BSSE",
             "source/BVB",
             "source/BVC",
@@ -28832,6 +30291,7 @@
             "source/IDX",
             "source/KRX",
             "source/KSE",
+            "source/LJSE",
             "source/LS",
             "source/LSE",
             "source/LSIN",
@@ -28881,7 +30341,8 @@
             "source/TWSE",
             "source/UPCOM",
             "source/VIE",
-            "source/XETR"
+            "source/XETR",
+            "source/ZSE"
         ]
     },
     {
@@ -29042,6 +30503,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AM",
             "AO",
             "AR",
             "AT",
@@ -29055,7 +30517,6 @@
             "BM",
             "BO",
             "BR",
-            "BS",
             "BW",
             "CA",
             "CD",
@@ -29141,7 +30602,6 @@
             "NO",
             "NZ",
             "OM",
-            "PA",
             "PE",
             "PG",
             "PH",
@@ -29161,7 +30621,6 @@
             "SG",
             "SI",
             "SK",
-            "SY",
             "TH",
             "TJ",
             "TN",
@@ -29412,7 +30871,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",

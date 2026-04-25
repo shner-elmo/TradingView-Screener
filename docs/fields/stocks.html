@@ -16,7 +16,7 @@
     <button
       class="primary"
       data-placement="bottom"
-      data-tooltip="set_markets('america', 'argentina', 'australia', 'austria', 'bahrain', 'bangladesh', 'belgium', 'brazil', 'canada', 'chile', 'china', 'colombia', 'cyprus', 'czech', 'denmark', 'egypt', 'estonia', 'finland', 'france', 'germany', 'greece', 'hongkong', 'hungary', 'iceland', 'india', 'indonesia', 'ireland', 'israel', 'italy', 'japan', 'kenya', 'korea', 'ksa', 'kuwait', 'latvia', 'lithuania', 'luxembourg', 'malaysia', 'mexico', 'morocco', 'netherlands', 'newzealand', 'nigeria', 'norway', 'pakistan', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'romania', 'rsa', 'russia', 'serbia', 'singapore', 'slovakia', 'spain', 'srilanka', 'sweden', 'switzerland', 'taiwan', 'thailand', 'tunisia', 'turkey', 'uae', 'uk', 'venezuela', 'vietnam')"
+      data-tooltip="set_markets('america', 'argentina', 'australia', 'austria', 'bahrain', 'bangladesh', 'belgium', 'brazil', 'bulgaria', 'canada', 'chile', 'china', 'colombia', 'croatia', 'cyprus', 'czech', 'denmark', 'egypt', 'estonia', 'finland', 'france', 'germany', 'greece', 'hongkong', 'hungary', 'iceland', 'india', 'indonesia', 'ireland', 'israel', 'italy', 'japan', 'kenya', 'korea', 'ksa', 'kuwait', 'latvia', 'lithuania', 'luxembourg', 'malaysia', 'mexico', 'morocco', 'netherlands', 'newzealand', 'nigeria', 'norway', 'pakistan', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'romania', 'rsa', 'russia', 'serbia', 'singapore', 'slovakia', 'slovenia', 'spain', 'srilanka', 'sweden', 'switzerland', 'taiwan', 'thailand', 'tunisia', 'turkey', 'uae', 'uk', 'venezuela', 'vietnam')"
       onclick="window.location.href = 'stocks.html'"
     >Stocks
     </button>
@@ -249,27 +249,6 @@
         </details>
       </td>
       <td>Volume</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Value.Traded</summary>
-          <ul>
-            <li>Value.Traded</li>
-            <li>Value.Traded|1</li>
-            <li>Value.Traded|5</li>
-            <li>Value.Traded|15</li>
-            <li>Value.Traded|30</li>
-            <li>Value.Traded|60</li>
-            <li>Value.Traded|120</li>
-            <li>Value.Traded|240</li>
-            <li>Value.Traded|1W</li>
-            <li>Value.Traded|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Volume*Price</td>
       <td>number</td>
     </tr>
     <tr>
@@ -6928,6 +6907,11 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>cfi_code</td>
+      <td></td>
+      <td>text</td>
+    </tr>
+    <tr>
       <td>continuous_dividend_growth</td>
       <td></td>
       <td>number</td>
@@ -7166,6 +7150,11 @@
       <td>dps_common_stock_prim_issue_ttm</td>
       <td></td>
       <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>earnings_fq_h</td>
+      <td></td>
+      <td>interface</td>
     </tr>
     <tr>
       <td>earnings_per_share_basic_cagr_5y</td>
@@ -7892,6 +7881,26 @@
       <td>text</td>
     </tr>
     <tr>
+      <td>income_from_cont_ops_fh</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>income_from_cont_ops_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>income_from_cont_ops_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>income_from_cont_ops_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
       <td>index_id</td>
       <td></td>
       <td>text</td>
@@ -8079,6 +8088,11 @@
     </tr>
     <tr>
       <td>last-price-update-time</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
+      <td>last-price-update-time-intraday</td>
       <td></td>
       <td>time</td>
     </tr>
@@ -8447,6 +8461,46 @@
       <td>net_margin_ttm</td>
       <td></td>
       <td>percent</td>
+    </tr>
+    <tr>
+      <td>net_revenue_after_provision_fh</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_revenue_after_provision_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_revenue_after_provision_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_revenue_after_provision_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_revenue_fh</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_revenue_fq</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_revenue_fy</td>
+      <td></td>
+      <td>fundamental_price</td>
+    </tr>
+    <tr>
+      <td>net_revenue_ttm</td>
+      <td></td>
+      <td>fundamental_price</td>
     </tr>
     <tr>
       <td>next_dividend_date</td>
@@ -9072,6 +9126,11 @@
       <td>percent</td>
     </tr>
     <tr>
+      <td>revenues_fq_h</td>
+      <td></td>
+      <td>interface</td>
+    </tr>
+    <tr>
       <td>rtc</td>
       <td></td>
       <td>price</td>
@@ -9584,16 +9643,16 @@
     <tfoot>
     <tr>
       <th scope="row">Fields</th>
-      <td>3514</td>
+      <td>3520</td>
     </tr>
     <tr>
       <th scope="row">Deduplicated fields</th>
-      <td>1003</td>
+      <td>1018</td>
     </tr>
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-02-08 07:31:15</mark>
+    <mark>Last updated: 2026-04-25 18:20:15</mark>
   </div>
 </main>
 <script>

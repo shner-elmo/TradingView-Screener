@@ -61,13 +61,6 @@
         "rd": true
     },
     {
-        "n": "Value.Traded",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "High.1M",
         "t": "number",
         "r": null,
@@ -12169,13 +12162,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -12183,7 +12169,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12191,6 +12177,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18154,69 +18147,6 @@
         "rd": true
     },
     {
-        "n": "Value.Traded|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "W.R|1",
         "t": "number",
         "r": null,
@@ -19832,6 +19762,11 @@
     },
     {
         "n": "last-price-update-time",
+        "t": "time",
+        "r": null
+    },
+    {
+        "n": "last-price-update-time-intraday",
         "t": "time",
         "r": null
     },

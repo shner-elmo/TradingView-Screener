@@ -64,13 +64,6 @@
         "rd": true
     },
     {
-        "n": "Value.Traded",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "High.1M",
         "t": "number",
         "r": null,
@@ -303,6 +296,7 @@
         "n": "exchange",
         "t": "text",
         "r": [
+            "ABAXX",
             "ADX",
             "ASX24",
             "BET",
@@ -351,7 +345,8 @@
             "TFEX",
             "TFX",
             "TMX",
-            "TOCOM"
+            "TOCOM",
+            "ZCE"
         ]
     },
     {
@@ -2462,7 +2457,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
             "out_of_session"
         ]
     },
@@ -2579,6 +2573,11 @@
         "r": null
     },
     {
+        "n": "last-price-update-time-intraday",
+        "t": "time",
+        "r": null
+    },
+    {
         "n": "last_bar_update_time",
         "t": "number",
         "r": null,
@@ -2686,6 +2685,7 @@
             "Commodity/Agriculture",
             "Commodity/Agriculture/Dairy",
             "Commodity/Agriculture/Fertilizer",
+            "Commodity/Agriculture/Fish",
             "Commodity/Agriculture/GrainAndSeed",
             "Commodity/Agriculture/GrainAndSeed/AdzukiBean",
             "Commodity/Agriculture/GrainAndSeed/Barley",
@@ -2694,6 +2694,8 @@
             "Commodity/Agriculture/GrainAndSeed/Oats",
             "Commodity/Agriculture/GrainAndSeed/PalmOil",
             "Commodity/Agriculture/GrainAndSeed/Rapeseed",
+            "Commodity/Agriculture/GrainAndSeed/Rapeseed/Meal",
+            "Commodity/Agriculture/GrainAndSeed/Rapeseed/Oil",
             "Commodity/Agriculture/GrainAndSeed/Rice/Rough",
             "Commodity/Agriculture/GrainAndSeed/Soybean",
             "Commodity/Agriculture/GrainAndSeed/Soybean/Meal",
@@ -2715,20 +2717,27 @@
             "Commodity/Agriculture/Softs/Coffee/Arabica",
             "Commodity/Agriculture/Softs/Coffee/Robusta",
             "Commodity/Agriculture/Softs/Coriander",
+            "Commodity/Agriculture/Softs/Cotton",
             "Commodity/Agriculture/Softs/Cotton/CottonSeed",
             "Commodity/Agriculture/Softs/Cotton/Kapas",
             "Commodity/Agriculture/Softs/Cotton/Raw",
+            "Commodity/Agriculture/Softs/Cotton/Yarn",
             "Commodity/Agriculture/Softs/Cumin",
             "Commodity/Agriculture/Softs/FrozenOrangeJuice",
+            "Commodity/Agriculture/Softs/FruitsAndVegetables/Apple",
+            "Commodity/Agriculture/Softs/FruitsAndVegetables/Jujube",
             "Commodity/Agriculture/Softs/Guar",
             "Commodity/Agriculture/Softs/Isabgol",
             "Commodity/Agriculture/Softs/MenthaOil",
+            "Commodity/Agriculture/Softs/Peanut",
             "Commodity/Agriculture/Softs/Rubber",
             "Commodity/Agriculture/Softs/Sesame",
             "Commodity/Agriculture/Softs/Sugar",
             "Commodity/Agriculture/Softs/Sugar/Raw",
             "Commodity/Agriculture/Softs/Sugar/White",
             "Commodity/Agriculture/Softs/Turmeric",
+            "Commodity/BuildingMaterials",
+            "Commodity/Chemicals",
             "Commodity/Energy",
             "Commodity/Energy/Biofuel",
             "Commodity/Energy/Coal",
@@ -2748,6 +2757,7 @@
             "Commodity/Energy/Oil/Refined/Gasoline",
             "Commodity/Energy/Oil/Refined/Heating",
             "Commodity/Metals",
+            "Commodity/Metals/Alloys",
             "Commodity/Metals/Ferrous",
             "Commodity/Metals/Ferrous/Steel",
             "Commodity/Metals/NonFerrous",
@@ -2777,6 +2787,7 @@
         "n": "provider-id",
         "t": "text",
         "r": [
+            "abaxx",
             "alor",
             "ice"
         ]
@@ -2851,6 +2862,7 @@
         "t": "text",
         "r": [
             "country/AE",
+            "source/ABAXX",
             "source/ADX",
             "source/ASX24",
             "source/BET",
@@ -2898,7 +2910,8 @@
             "source/TFEX",
             "source/TFX",
             "source/TMX",
-            "source/TOCOM"
+            "source/TOCOM",
+            "source/ZCE"
         ]
     },
     {

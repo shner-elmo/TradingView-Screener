@@ -16,7 +16,7 @@
     <button
       class="secondary"
       data-placement="bottom"
-      data-tooltip="set_markets('america', 'argentina', 'australia', 'austria', 'bahrain', 'bangladesh', 'belgium', 'brazil', 'canada', 'chile', 'china', 'colombia', 'cyprus', 'czech', 'denmark', 'egypt', 'estonia', 'finland', 'france', 'germany', 'greece', 'hongkong', 'hungary', 'iceland', 'india', 'indonesia', 'ireland', 'israel', 'italy', 'japan', 'kenya', 'korea', 'ksa', 'kuwait', 'latvia', 'lithuania', 'luxembourg', 'malaysia', 'mexico', 'morocco', 'netherlands', 'newzealand', 'nigeria', 'norway', 'pakistan', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'romania', 'rsa', 'russia', 'serbia', 'singapore', 'slovakia', 'spain', 'srilanka', 'sweden', 'switzerland', 'taiwan', 'thailand', 'tunisia', 'turkey', 'uae', 'uk', 'venezuela', 'vietnam')"
+      data-tooltip="set_markets('america', 'argentina', 'australia', 'austria', 'bahrain', 'bangladesh', 'belgium', 'brazil', 'bulgaria', 'canada', 'chile', 'china', 'colombia', 'croatia', 'cyprus', 'czech', 'denmark', 'egypt', 'estonia', 'finland', 'france', 'germany', 'greece', 'hongkong', 'hungary', 'iceland', 'india', 'indonesia', 'ireland', 'israel', 'italy', 'japan', 'kenya', 'korea', 'ksa', 'kuwait', 'latvia', 'lithuania', 'luxembourg', 'malaysia', 'mexico', 'morocco', 'netherlands', 'newzealand', 'nigeria', 'norway', 'pakistan', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'romania', 'rsa', 'russia', 'serbia', 'singapore', 'slovakia', 'slovenia', 'spain', 'srilanka', 'sweden', 'switzerland', 'taiwan', 'thailand', 'tunisia', 'turkey', 'uae', 'uk', 'venezuela', 'vietnam')"
       onclick="window.location.href = 'stocks.html'"
     >Stocks
     </button>
@@ -224,27 +224,6 @@
         </details>
       </td>
       <td>Volume</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <td>
-        <details>
-          <summary>Value.Traded</summary>
-          <ul>
-            <li>Value.Traded</li>
-            <li>Value.Traded|1</li>
-            <li>Value.Traded|5</li>
-            <li>Value.Traded|15</li>
-            <li>Value.Traded|30</li>
-            <li>Value.Traded|60</li>
-            <li>Value.Traded|120</li>
-            <li>Value.Traded|240</li>
-            <li>Value.Traded|1W</li>
-            <li>Value.Traded|1M</li>
-          </ul>
-        </details>
-      </td>
-      <td>Volume*Price</td>
       <td>number</td>
     </tr>
     <tr>
@@ -6508,6 +6487,11 @@
       <td>price</td>
     </tr>
     <tr>
+      <td>funding_rate</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>galaxyscore</td>
       <td></td>
       <td>number</td>
@@ -6678,6 +6662,11 @@
       <td>time</td>
     </tr>
     <tr>
+      <td>last-price-update-time-intraday</td>
+      <td></td>
+      <td>time</td>
+    </tr>
+    <tr>
       <td>
         <details>
           <summary>last_bar_update_time</summary>
@@ -6699,9 +6688,59 @@
       <td>number</td>
     </tr>
     <tr>
+      <td>liquidations_volume_12h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>liquidations_volume_15m</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>liquidations_volume_1h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>liquidations_volume_24h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>liquidations_volume_4h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
       <td>logoid</td>
       <td></td>
       <td>text</td>
+    </tr>
+    <tr>
+      <td>long_liquidations_volume_12h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>long_liquidations_volume_15m</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>long_liquidations_volume_1h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>long_liquidations_volume_24h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>long_liquidations_volume_4h</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>losses_addresses_percentage</td>
@@ -6765,6 +6804,41 @@
     </tr>
     <tr>
       <td>nvt</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>open_interest</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>open_interest_change_percent_12h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>open_interest_change_percent_15m</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>open_interest_change_percent_1h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>open_interest_change_percent_24h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>open_interest_change_percent_4h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>open_interest_to_volume_24h</td>
       <td></td>
       <td>number</td>
     </tr>
@@ -6872,71 +6946,6 @@
       <td>text</td>
     </tr>
     <tr>
-      <td>rates_cf</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_current</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_dividend_recent</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_dividend_upcoming</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_earnings_fq</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_earnings_next_fq</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_fh</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_fq</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_fy</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_mc</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_pt</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_time_series</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
-      <td>rates_ttm</td>
-      <td></td>
-      <td>map</td>
-    </tr>
-    <tr>
       <td>rtc</td>
       <td></td>
       <td>price</td>
@@ -6945,6 +6954,31 @@
       <td>sentiment</td>
       <td></td>
       <td>percent</td>
+    </tr>
+    <tr>
+      <td>short_liquidations_volume_12h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>short_liquidations_volume_15m</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>short_liquidations_volume_1h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>short_liquidations_volume_24h</td>
+      <td></td>
+      <td>number</td>
+    </tr>
+    <tr>
+      <td>short_liquidations_volume_4h</td>
+      <td></td>
+      <td>number</td>
     </tr>
     <tr>
       <td>social_volume_24h</td>
@@ -7159,16 +7193,16 @@
     <tfoot>
     <tr>
       <th scope="row">Fields</th>
-      <td>3029</td>
+      <td>3030</td>
     </tr>
     <tr>
       <th scope="row">Deduplicated fields</th>
-      <td>518</td>
+      <td>528</td>
     </tr>
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-02-08 07:31:18</mark>
+    <mark>Last updated: 2026-04-25 18:20:18</mark>
   </div>
 </main>
 <script>

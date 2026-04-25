@@ -57,13 +57,6 @@
         "rd": true
     },
     {
-        "n": "Value.Traded",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "High.1M",
         "t": "number",
         "r": null,
@@ -11959,13 +11952,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -11973,7 +11959,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -11981,6 +11967,13 @@
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -17958,69 +17951,6 @@
         "rd": true
     },
     {
-        "n": "Value.Traded|1",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|5",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|120",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|240",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|1W",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
-        "n": "Value.Traded|1M",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "W.R|1",
         "t": "number",
         "r": null,
@@ -18871,6 +18801,7 @@
             "heco-ecosystem",
             "hyperevm-ecosystem",
             "iotex-ecosystem",
+            "monad-ecosystem",
             "moonriver-ecosystem",
             "multiversx-ecosystem",
             "near-protocol-ecosystem",
@@ -18879,6 +18810,7 @@
             "ondo-global-markets-ecosystem",
             "ontology-ecosystem",
             "optimism-ecosystem",
+            "plasma-ecosystem",
             "polkadot-ecosystem",
             "polygon-ecosystem",
             "pump-fun-ecosystem",
@@ -18957,17 +18889,20 @@
             "internet-of-things",
             "interoperability",
             "iotex-ecosystem",
+            "iso-20022",
             "jobs",
             "layer-1",
             "lending-borrowing",
             "logistics",
             "loyalty-rewards",
             "made-in-america",
+            "made-in-china",
             "manufacturing",
             "marketing",
             "marketplace",
             "memecoins",
             "metaverse",
+            "monad-ecosystem",
             "moonriver-ecosystem",
             "move-to-earn",
             "multiversx-ecosystem",
@@ -18979,6 +18914,7 @@
             "optimism-ecosystem",
             "oracles",
             "payments",
+            "plasma-ecosystem",
             "polkadot-ecosystem",
             "polygon-ecosystem",
             "prediction-markets",
@@ -19058,12 +18994,14 @@
             "insurance",
             "internet-of-things",
             "interoperability",
+            "iso-20022",
             "jobs",
             "layer-1",
             "lending-borrowing",
             "logistics",
             "loyalty-rewards",
             "made-in-america",
+            "made-in-china",
             "manufacturing",
             "marketing",
             "marketplace",
@@ -19420,6 +19358,13 @@
         "n": "fully_diluted_value",
         "t": "price",
         "r": null
+    },
+    {
+        "n": "funding_rate",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "galaxyscore",
@@ -19965,6 +19910,11 @@
         "r": null
     },
     {
+        "n": "last-price-update-time-intraday",
+        "t": "time",
+        "r": null
+    },
+    {
         "n": "last_bar_update_time",
         "t": "number",
         "r": null,
@@ -20035,9 +19985,79 @@
         "rd": true
     },
     {
+        "n": "liquidations_volume_12h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "liquidations_volume_15m",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "liquidations_volume_1h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "liquidations_volume_24h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "liquidations_volume_4h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "logoid",
         "t": "text",
         "r": null
+    },
+    {
+        "n": "long_liquidations_volume_12h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "long_liquidations_volume_15m",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "long_liquidations_volume_1h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "long_liquidations_volume_24h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "long_liquidations_volume_4h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "losses_addresses_percentage",
@@ -20228,6 +20248,55 @@
     {
         "n": "open|1M",
         "t": "price",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open_interest",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open_interest_change_percent_12h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open_interest_change_percent_15m",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open_interest_change_percent_1h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open_interest_change_percent_24h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open_interest_change_percent_4h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "open_interest_to_volume_24h",
+        "t": "number",
         "r": null,
         "hh": true,
         "rd": true
@@ -20489,71 +20558,6 @@
         ]
     },
     {
-        "n": "rates_cf",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_current",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_dividend_recent",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_dividend_upcoming",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_earnings_fq",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_earnings_next_fq",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_fh",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_fq",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_fy",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_mc",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_pt",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_time_series",
-        "t": "map",
-        "r": null
-    },
-    {
-        "n": "rates_ttm",
-        "t": "map",
-        "r": null
-    },
-    {
         "n": "relative_volume_10d_calc|1",
         "t": "number",
         "r": null,
@@ -20625,6 +20629,41 @@
         "n": "sentiment",
         "t": "percent",
         "r": null
+    },
+    {
+        "n": "short_liquidations_volume_12h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "short_liquidations_volume_15m",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "short_liquidations_volume_1h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "short_liquidations_volume_24h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "short_liquidations_volume_4h",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
     },
     {
         "n": "social_volume_24h",
