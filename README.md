@@ -102,6 +102,38 @@ from tradingview_screener import Query, col
  .get_scanner_data())
 ```
 
+### Other Screeners
+
+```python
+from tradingview_screener import stocks, crypto, options
+
+# top stocks by market cap in Italy
+stocks('italy').limit(5).get_scanner_data()
+
+# top CEX crypto pairs by 24 h volume
+crypto().limit(5).get_scanner_data()
+
+# AAPL options chain
+options('NASDAQ:AAPL').limit(5).get_scanner_data()
+```
+
+All screener functions return a `Query` object, so you can chain any of the usual methods
+(`.select()`, `.where()`, `.order_by()`, etc.) on top of them:
+
+```python
+from tradingview_screener import options, col
+
+(options('NASDAQ:AAPL')
+ .select('name', 'close', 'ask', 'bid', 'expiration', 'volume')
+ .where(col('expiration') == 20260427)  # 2026/4/27
+ .order_by('strike')
+ .limit(10)
+ .get_scanner_data())
+```
+
+The full list of available screeners: `stocks`, `crypto`, `crypto_dex`, `coin`, `forex`,
+`futures`, `bond`, `cfd`, `options`.
+
 <br>
 Note that some fields (usually prices and indicators) have multiple timeframes that you can choose from, for example:
 
