@@ -178,6 +178,40 @@ bans.</p>
 </code></pre>
 </div>
 
+<h3 id="other-screeners">Other Screeners</h3>
+
+<div class="pdoc-code codehilite">
+<pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">tradingview_screener</span><span class="w"> </span><span class="kn">import</span> <span class="n">stocks</span><span class="p">,</span> <span class="n">crypto</span><span class="p">,</span> <span class="n">options</span>
+
+<span class="c1"># top stocks by market cap in Italy</span>
+<span class="n">stocks</span><span class="p">(</span><span class="s1">&#39;italy&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">get_scanner_data</span><span class="p">()</span>
+
+<span class="c1"># top CEX crypto pairs by 24 h volume</span>
+<span class="n">crypto</span><span class="p">()</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">get_scanner_data</span><span class="p">()</span>
+
+<span class="c1"># AAPL options chain</span>
+<span class="n">options</span><span class="p">(</span><span class="s1">&#39;NASDAQ:AAPL&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">get_scanner_data</span><span class="p">()</span>
+</code></pre>
+</div>
+
+<p>All screener functions return a <code>Query</code> object, so you can chain any of the usual methods
+(<code>.select()</code>, <code>.where()</code>, <code>.order_by()</code>, etc.) on top of them:</p>
+
+<div class="pdoc-code codehilite">
+<pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">tradingview_screener</span><span class="w"> </span><span class="kn">import</span> <span class="n">options</span><span class="p">,</span> <span class="n">col</span>
+
+<span class="p">(</span><span class="n">options</span><span class="p">(</span><span class="s1">&#39;NASDAQ:AAPL&#39;</span><span class="p">)</span>
+ <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;ask&#39;</span><span class="p">,</span> <span class="s1">&#39;bid&#39;</span><span class="p">,</span> <span class="s1">&#39;expiration&#39;</span><span class="p">,</span> <span class="s1">&#39;volume&#39;</span><span class="p">)</span>
+ <span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s1">&#39;expiration&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="mi">20260427</span><span class="p">)</span>  <span class="c1"># 2026/4/27</span>
+ <span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="s1">&#39;strike&#39;</span><span class="p">)</span>
+ <span class="o">.</span><span class="n">limit</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+ <span class="o">.</span><span class="n">get_scanner_data</span><span class="p">())</span>
+</code></pre>
+</div>
+
+<p>The full list of available screeners: <code>stocks</code>, <code>crypto</code>, <code>crypto_dex</code>, <code>coin</code>, <code>forex</code>,
+<code>futures</code>, <code>bond</code>, <code>cfd</code>, <code>options</code>.</p>
+
 <p><br>
 Note that some fields (usually prices and indicators) have multiple timeframes that you can choose from, for example:</p>
 
