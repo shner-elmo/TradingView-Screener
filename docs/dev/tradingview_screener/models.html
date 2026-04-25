@@ -325,31 +325,34 @@
 </span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>    <span class="n">ignore_unknown_fields</span><span class="p">:</span> <span class="nb">bool</span>  <span class="c1"># default false</span>
 </span><span id="L-85"><a href="#L-85"><span class="linenos"> 85</span></a>    <span class="n">preset</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;index_components_market_pages&#39;</span><span class="p">,</span> <span class="s1">&#39;pre-market-gainers&#39;</span><span class="p">]</span>  <span class="c1"># there are many</span>
 </span><span id="L-86"><a href="#L-86"><span class="linenos"> 86</span></a>    <span class="c1"># other presets (these are just some a examples)</span>
-</span><span id="L-87"><a href="#L-87"><span class="linenos"> 87</span></a>    <span class="n">price_conversion</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_symbol&#39;</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span>
-</span><span id="L-88"><a href="#L-88"><span class="linenos"> 88</span></a>        <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_currency&#39;</span><span class="p">],</span> <span class="nb">str</span>  <span class="c1"># this string should be the currency in lower-case</span>
-</span><span id="L-89"><a href="#L-89"><span class="linenos"> 89</span></a>    <span class="p">]</span>
-</span><span id="L-90"><a href="#L-90"><span class="linenos"> 90</span></a>
-</span><span id="L-91"><a href="#L-91"><span class="linenos"> 91</span></a>
-</span><span id="L-92"><a href="#L-92"><span class="linenos"> 92</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-93"><a href="#L-93"><span class="linenos"> 93</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># symbol (NASDAQ:AAPL)</span>
-</span><span id="L-94"><a href="#L-94"><span class="linenos"> 94</span></a>    <span class="n">d</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
-</span><span id="L-95"><a href="#L-95"><span class="linenos"> 95</span></a>
-</span><span id="L-96"><a href="#L-96"><span class="linenos"> 96</span></a>
-</span><span id="L-97"><a href="#L-97"><span class="linenos"> 97</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-98"><a href="#L-98"><span class="linenos"> 98</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
-</span><span id="L-99"><a href="#L-99"><span class="linenos"> 99</span></a>    <span class="n">data</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDict</span><span class="p">]</span>
-</span><span id="L-100"><a href="#L-100"><span class="linenos">100</span></a>
-</span><span id="L-101"><a href="#L-101"><span class="linenos">101</span></a>
-</span><span id="L-102"><a href="#L-102"><span class="linenos">102</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-103"><a href="#L-103"><span class="linenos">103</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># for options: &#39;OPRA:AAPL260821C200.0&#39;</span>
-</span><span id="L-104"><a href="#L-104"><span class="linenos">104</span></a>    <span class="n">f</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
-</span><span id="L-105"><a href="#L-105"><span class="linenos">105</span></a>
-</span><span id="L-106"><a href="#L-106"><span class="linenos">106</span></a>
-</span><span id="L-107"><a href="#L-107"><span class="linenos">107</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="L-108"><a href="#L-108"><span class="linenos">108</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
-</span><span id="L-109"><a href="#L-109"><span class="linenos">109</span></a>    <span class="n">fields</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-</span><span id="L-110"><a href="#L-110"><span class="linenos">110</span></a>    <span class="n">symbols</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDictV2</span><span class="p">]</span>
-</span><span id="L-111"><a href="#L-111"><span class="linenos">111</span></a>    <span class="n">time</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># &#39;2026-04-24T13:45:37Z&#39;</span>
+</span><span id="L-87"><a href="#L-87"><span class="linenos"> 87</span></a>    <span class="n">price_conversion</span><span class="p">:</span> <span class="p">(</span>
+</span><span id="L-88"><a href="#L-88"><span class="linenos"> 88</span></a>        <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_symbol&#39;</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span>
+</span><span id="L-89"><a href="#L-89"><span class="linenos"> 89</span></a>        <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span>
+</span><span id="L-90"><a href="#L-90"><span class="linenos"> 90</span></a>            <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_currency&#39;</span><span class="p">],</span> <span class="nb">str</span>  <span class="c1"># this string should be the currency in lower-case</span>
+</span><span id="L-91"><a href="#L-91"><span class="linenos"> 91</span></a>        <span class="p">]</span>
+</span><span id="L-92"><a href="#L-92"><span class="linenos"> 92</span></a>    <span class="p">)</span>
+</span><span id="L-93"><a href="#L-93"><span class="linenos"> 93</span></a>
+</span><span id="L-94"><a href="#L-94"><span class="linenos"> 94</span></a>
+</span><span id="L-95"><a href="#L-95"><span class="linenos"> 95</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-96"><a href="#L-96"><span class="linenos"> 96</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># symbol (NASDAQ:AAPL)</span>
+</span><span id="L-97"><a href="#L-97"><span class="linenos"> 97</span></a>    <span class="n">d</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
+</span><span id="L-98"><a href="#L-98"><span class="linenos"> 98</span></a>
+</span><span id="L-99"><a href="#L-99"><span class="linenos"> 99</span></a>
+</span><span id="L-100"><a href="#L-100"><span class="linenos">100</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-101"><a href="#L-101"><span class="linenos">101</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
+</span><span id="L-102"><a href="#L-102"><span class="linenos">102</span></a>    <span class="n">data</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDict</span><span class="p">]</span>
+</span><span id="L-103"><a href="#L-103"><span class="linenos">103</span></a>
+</span><span id="L-104"><a href="#L-104"><span class="linenos">104</span></a>
+</span><span id="L-105"><a href="#L-105"><span class="linenos">105</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-106"><a href="#L-106"><span class="linenos">106</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># for options: &#39;OPRA:AAPL260821C200.0&#39;</span>
+</span><span id="L-107"><a href="#L-107"><span class="linenos">107</span></a>    <span class="n">f</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
+</span><span id="L-108"><a href="#L-108"><span class="linenos">108</span></a>
+</span><span id="L-109"><a href="#L-109"><span class="linenos">109</span></a>
+</span><span id="L-110"><a href="#L-110"><span class="linenos">110</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="L-111"><a href="#L-111"><span class="linenos">111</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
+</span><span id="L-112"><a href="#L-112"><span class="linenos">112</span></a>    <span class="n">fields</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="L-113"><a href="#L-113"><span class="linenos">113</span></a>    <span class="n">symbols</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDictV2</span><span class="p">]</span>
+</span><span id="L-114"><a href="#L-114"><span class="linenos">114</span></a>    <span class="n">time</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># &#39;2026-04-24T13:45:37Z&#39;</span>
 </span></pre></div>
 
 
@@ -698,9 +701,12 @@
 </span><span id="QueryDict-85"><a href="#QueryDict-85"><span class="linenos">85</span></a>    <span class="n">ignore_unknown_fields</span><span class="p">:</span> <span class="nb">bool</span>  <span class="c1"># default false</span>
 </span><span id="QueryDict-86"><a href="#QueryDict-86"><span class="linenos">86</span></a>    <span class="n">preset</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;index_components_market_pages&#39;</span><span class="p">,</span> <span class="s1">&#39;pre-market-gainers&#39;</span><span class="p">]</span>  <span class="c1"># there are many</span>
 </span><span id="QueryDict-87"><a href="#QueryDict-87"><span class="linenos">87</span></a>    <span class="c1"># other presets (these are just some a examples)</span>
-</span><span id="QueryDict-88"><a href="#QueryDict-88"><span class="linenos">88</span></a>    <span class="n">price_conversion</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_symbol&#39;</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span>
-</span><span id="QueryDict-89"><a href="#QueryDict-89"><span class="linenos">89</span></a>        <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_currency&#39;</span><span class="p">],</span> <span class="nb">str</span>  <span class="c1"># this string should be the currency in lower-case</span>
-</span><span id="QueryDict-90"><a href="#QueryDict-90"><span class="linenos">90</span></a>    <span class="p">]</span>
+</span><span id="QueryDict-88"><a href="#QueryDict-88"><span class="linenos">88</span></a>    <span class="n">price_conversion</span><span class="p">:</span> <span class="p">(</span>
+</span><span id="QueryDict-89"><a href="#QueryDict-89"><span class="linenos">89</span></a>        <span class="nb">dict</span><span class="p">[</span><span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_symbol&#39;</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span>
+</span><span id="QueryDict-90"><a href="#QueryDict-90"><span class="linenos">90</span></a>        <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span>
+</span><span id="QueryDict-91"><a href="#QueryDict-91"><span class="linenos">91</span></a>            <span class="n">Literal</span><span class="p">[</span><span class="s1">&#39;to_currency&#39;</span><span class="p">],</span> <span class="nb">str</span>  <span class="c1"># this string should be the currency in lower-case</span>
+</span><span id="QueryDict-92"><a href="#QueryDict-92"><span class="linenos">92</span></a>        <span class="p">]</span>
+</span><span id="QueryDict-93"><a href="#QueryDict-93"><span class="linenos">93</span></a>    <span class="p">)</span>
 </span></pre></div>
 
 
@@ -841,9 +847,9 @@
 
     </div>
     <a class="headerlink" href="#ScreenerRowDict"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerRowDict-93"><a href="#ScreenerRowDict-93"><span class="linenos">93</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="ScreenerRowDict-94"><a href="#ScreenerRowDict-94"><span class="linenos">94</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># symbol (NASDAQ:AAPL)</span>
-</span><span id="ScreenerRowDict-95"><a href="#ScreenerRowDict-95"><span class="linenos">95</span></a>    <span class="n">d</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerRowDict-96"><a href="#ScreenerRowDict-96"><span class="linenos">96</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="ScreenerRowDict-97"><a href="#ScreenerRowDict-97"><span class="linenos">97</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># symbol (NASDAQ:AAPL)</span>
+</span><span id="ScreenerRowDict-98"><a href="#ScreenerRowDict-98"><span class="linenos">98</span></a>    <span class="n">d</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
 </span></pre></div>
 
 
@@ -883,9 +889,9 @@
 
     </div>
     <a class="headerlink" href="#ScreenerDict"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerDict-98"><a href="#ScreenerDict-98"><span class="linenos"> 98</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="ScreenerDict-99"><a href="#ScreenerDict-99"><span class="linenos"> 99</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
-</span><span id="ScreenerDict-100"><a href="#ScreenerDict-100"><span class="linenos">100</span></a>    <span class="n">data</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDict</span><span class="p">]</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerDict-101"><a href="#ScreenerDict-101"><span class="linenos">101</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDict</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="ScreenerDict-102"><a href="#ScreenerDict-102"><span class="linenos">102</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
+</span><span id="ScreenerDict-103"><a href="#ScreenerDict-103"><span class="linenos">103</span></a>    <span class="n">data</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDict</span><span class="p">]</span>
 </span></pre></div>
 
 
@@ -925,9 +931,9 @@
 
     </div>
     <a class="headerlink" href="#ScreenerRowDictV2"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerRowDictV2-103"><a href="#ScreenerRowDictV2-103"><span class="linenos">103</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="ScreenerRowDictV2-104"><a href="#ScreenerRowDictV2-104"><span class="linenos">104</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># for options: &#39;OPRA:AAPL260821C200.0&#39;</span>
-</span><span id="ScreenerRowDictV2-105"><a href="#ScreenerRowDictV2-105"><span class="linenos">105</span></a>    <span class="n">f</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerRowDictV2-106"><a href="#ScreenerRowDictV2-106"><span class="linenos">106</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerRowDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="ScreenerRowDictV2-107"><a href="#ScreenerRowDictV2-107"><span class="linenos">107</span></a>    <span class="n">s</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># for options: &#39;OPRA:AAPL260821C200.0&#39;</span>
+</span><span id="ScreenerRowDictV2-108"><a href="#ScreenerRowDictV2-108"><span class="linenos">108</span></a>    <span class="n">f</span><span class="p">:</span> <span class="nb">list</span>  <span class="c1"># data, list of values</span>
 </span></pre></div>
 
 
@@ -967,11 +973,11 @@
 
     </div>
     <a class="headerlink" href="#ScreenerDictV2"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerDictV2-108"><a href="#ScreenerDictV2-108"><span class="linenos">108</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
-</span><span id="ScreenerDictV2-109"><a href="#ScreenerDictV2-109"><span class="linenos">109</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
-</span><span id="ScreenerDictV2-110"><a href="#ScreenerDictV2-110"><span class="linenos">110</span></a>    <span class="n">fields</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-</span><span id="ScreenerDictV2-111"><a href="#ScreenerDictV2-111"><span class="linenos">111</span></a>    <span class="n">symbols</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDictV2</span><span class="p">]</span>
-</span><span id="ScreenerDictV2-112"><a href="#ScreenerDictV2-112"><span class="linenos">112</span></a>    <span class="n">time</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># &#39;2026-04-24T13:45:37Z&#39;</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="ScreenerDictV2-111"><a href="#ScreenerDictV2-111"><span class="linenos">111</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ScreenerDictV2</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+</span><span id="ScreenerDictV2-112"><a href="#ScreenerDictV2-112"><span class="linenos">112</span></a>    <span class="n">totalCount</span><span class="p">:</span> <span class="nb">int</span>
+</span><span id="ScreenerDictV2-113"><a href="#ScreenerDictV2-113"><span class="linenos">113</span></a>    <span class="n">fields</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</span><span id="ScreenerDictV2-114"><a href="#ScreenerDictV2-114"><span class="linenos">114</span></a>    <span class="n">symbols</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ScreenerRowDictV2</span><span class="p">]</span>
+</span><span id="ScreenerDictV2-115"><a href="#ScreenerDictV2-115"><span class="linenos">115</span></a>    <span class="n">time</span><span class="p">:</span> <span class="nb">str</span>  <span class="c1"># &#39;2026-04-24T13:45:37Z&#39;</span>
 </span></pre></div>
 
 
