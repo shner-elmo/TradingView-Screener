@@ -56,7 +56,9 @@ def test_crypto_cex_filter():
     q = crypto()
     filter2 = q.query['filter2']  # pyright: ignore [reportTypedDictNotRequiredAccess]
     assert filter2['operator'] == 'and'
-    assert {'expression': {'left': 'centralization', 'operation': 'equal', 'right': 'cex'}} in filter2['operands']
+    assert {
+        'expression': {'left': 'centralization', 'operation': 'equal', 'right': 'cex'}
+    } in filter2['operands']
 
 
 def test_crypto_dex_filter():
@@ -86,7 +88,9 @@ def test_options_has_base_type_filter():
     q = options('NASDAQ:AAPL')
     filter2 = q.query['filter2']  # pyright: ignore [reportTypedDictNotRequiredAccess]
     assert filter2['operator'] == 'and'
-    assert {'expression': {'left': 'type', 'operation': 'equal', 'right': 'option'}} in filter2['operands']
+    assert {'expression': {'left': 'type', 'operation': 'equal', 'right': 'option'}} in filter2[
+        'operands'
+    ]
 
 
 def test_options_with_underlying():

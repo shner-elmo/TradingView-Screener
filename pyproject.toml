@@ -59,12 +59,12 @@ max-doc-length = 88
 [tool.ruff.format]
 quote-style = "single"
 
-[tool.ruff.flake8-quotes]
+[tool.ruff.lint.flake8-quotes]
 docstring-quotes = "double"
 inline-quotes = "single"
 multiline-quotes = "double"
 
-[tool.ruff.flake8-errmsg]
+[tool.ruff.lint.flake8-errmsg]
 max-string-length = 20
 
 [tool.pyright]

@@ -43,49 +43,128 @@ HEADERS = {
     'accept-language': 'en-US,en;q=0.9,it;q=0.8',
 }
 STOCKS_QUERY = {
-        'markets': [],
-        'symbols': {},
-        'options': {'lang': 'en'},
-        'columns': [
-            'name', 'close', 'type', 'typespecs', 'pricescale', 'minmov', 'fractional',
-            'minmove2', 'currency', 'change', 'volume', 'relative_volume_10d_calc',
-            'market_cap_basic', 'fundamental_currency_code', 'price_earnings_ttm',
-            'earnings_per_share_diluted_ttm', 'earnings_per_share_diluted_yoy_growth_ttm',
-            'dividends_yield_current', 'sector.tr', 'market', 'sector',
-            'AnalystRating', 'AnalystRating.tr',
+    'markets': [],
+    'symbols': {},
+    'options': {'lang': 'en'},
+    'columns': [
+        'name',
+        'close',
+        'type',
+        'typespecs',
+        'pricescale',
+        'minmov',
+        'fractional',
+        'minmove2',
+        'currency',
+        'change',
+        'volume',
+        'relative_volume_10d_calc',
+        'market_cap_basic',
+        'fundamental_currency_code',
+        'price_earnings_ttm',
+        'earnings_per_share_diluted_ttm',
+        'earnings_per_share_diluted_yoy_growth_ttm',
+        'dividends_yield_current',
+        'sector.tr',
+        'market',
+        'sector',
+        'AnalystRating',
+        'AnalystRating.tr',
+    ],
+    'filter': [{'left': 'is_primary', 'operation': 'equal', 'right': True}],
+    'filter2': {
+        'operator': 'and',
+        'operands': [
+            {
+                'operation': {
+                    'operator': 'or',
+                    'operands': [
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'stock',
+                                        }
+                                    },
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has',
+                                            'right': ['common'],
+                                        }
+                                    },
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'stock',
+                                        }
+                                    },
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has',
+                                            'right': ['preferred'],
+                                        }
+                                    },
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'dr',
+                                        }
+                                    },
+                                ],
+                            }
+                        },
+                        {
+                            'operation': {
+                                'operator': 'and',
+                                'operands': [
+                                    {
+                                        'expression': {
+                                            'left': 'type',
+                                            'operation': 'equal',
+                                            'right': 'fund',
+                                        }
+                                    },
+                                    {
+                                        'expression': {
+                                            'left': 'typespecs',
+                                            'operation': 'has_none_of',
+                                            'right': ['etf', 'mutual', 'closedend'],
+                                        }
+                                    },
+                                ],
+                            }
+                        },
+                    ],
+                }
+            },
+            {'expression': {'left': 'typespecs', 'operation': 'has_none_of', 'right': ['pre-ipo']}},
         ],
-        'filter': [{'left': 'is_primary', 'operation': 'equal', 'right': True}],
-        'filter2': {
-            'operator': 'and',
-            'operands': [
-                {
-                    'operation': {
-                        'operator': 'or',
-                        'operands': [
-                            {'operation': {'operator': 'and', 'operands': [
-                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'stock'}},
-                                {'expression': {'left': 'typespecs', 'operation': 'has', 'right': ['common']}},
-                            ]}},
-                            {'operation': {'operator': 'and', 'operands': [
-                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'stock'}},
-                                {'expression': {'left': 'typespecs', 'operation': 'has', 'right': ['preferred']}},
-                            ]}},
-                            {'operation': {'operator': 'and', 'operands': [
-                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'dr'}},
-                            ]}},
-                            {'operation': {'operator': 'and', 'operands': [
-                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'fund'}},
-                                {'expression': {'left': 'typespecs', 'operation': 'has_none_of', 'right': ['etf', 'mutual', 'closedend']}},
-                            ]}},
-                        ],
-                    }
-                },
-                {'expression': {'left': 'typespecs', 'operation': 'has_none_of', 'right': ['pre-ipo']}},
-            ],
-        },
-        'sort': {'sortBy': 'market_cap_basic', 'sortOrder': 'desc'},
-        'range': DEFAULT_RANGE.copy(),
-        'ignore_unknown_fields': False,
+    },
+    'sort': {'sortBy': 'market_cap_basic', 'sortOrder': 'desc'},
+    'range': DEFAULT_RANGE.copy(),
+    'ignore_unknown_fields': False,
 }
 
 

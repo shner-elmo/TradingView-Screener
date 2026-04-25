@@ -15,11 +15,26 @@ def coin() -> Query:
         'symbols': {},
         'options': {'lang': 'en'},
         'columns': [
-            'ticker-view', 'crypto_total_rank', 'close', 'type', 'typespecs', 'pricescale',
-            'minmov', 'fractional', 'minmove2', 'currency', '24h_close_change|5',
-            'market_cap_calc', 'fundamental_currency_code', '24h_vol_cmc', 'circulating_supply',
-            '24h_vol_to_market_cap', 'socialdominance', 'crypto_common_categories.tr',
-            'TechRating_1D', 'TechRating_1D.tr',
+            'ticker-view',
+            'crypto_total_rank',
+            'close',
+            'type',
+            'typespecs',
+            'pricescale',
+            'minmov',
+            'fractional',
+            'minmove2',
+            'currency',
+            '24h_close_change|5',
+            'market_cap_calc',
+            'fundamental_currency_code',
+            '24h_vol_cmc',
+            'circulating_supply',
+            '24h_vol_to_market_cap',
+            'socialdominance',
+            'crypto_common_categories.tr',
+            'TechRating_1D',
+            'TechRating_1D.tr',
         ],
         'sort': {'sortBy': 'crypto_total_rank', 'sortOrder': 'asc'},
         'range': DEFAULT_RANGE.copy(),
@@ -36,13 +51,28 @@ def crypto() -> Query:
         'symbols': {},
         'options': {'lang': 'en'},
         'columns': [
-            'ticker-view', 'exchange.tr', 'provider-id', 'close', 'type', 'typespecs',
-            'pricescale', 'minmov', 'fractional', 'minmove2', 'currency', '24h_close_change|5',
-            '24h_vol|5', '24h_vol_change|5', 'TechRating_1D', 'TechRating_1D.tr',
+            'ticker-view',
+            'exchange.tr',
+            'provider-id',
+            'close',
+            'type',
+            'typespecs',
+            'pricescale',
+            'minmov',
+            'fractional',
+            'minmove2',
+            'currency',
+            '24h_close_change|5',
+            '24h_vol|5',
+            '24h_vol_change|5',
+            'TechRating_1D',
+            'TechRating_1D.tr',
         ],
         'filter2': {
             'operator': 'and',
-            'operands': [{'expression': {'left': 'centralization', 'operation': 'equal', 'right': 'cex'}}],
+            'operands': [
+                {'expression': {'left': 'centralization', 'operation': 'equal', 'right': 'cex'}}
+            ],
         },
         'sort': {'sortBy': '24h_vol|5', 'sortOrder': 'desc'},
         'range': DEFAULT_RANGE.copy(),
@@ -59,11 +89,27 @@ def crypto_dex() -> Query:
         'symbols': {},
         'options': {'lang': 'en'},
         'columns': [
-            'ticker-view', 'blockchain-id.tr', 'blockchain-id', 'exchange.tr', 'provider-id',
-            'close', 'type', 'typespecs', 'pricescale', 'minmov', 'fractional', 'minmove2',
-            'currency', '24h_close_change|5', 'dex_txs_count_24h', 'dex_trading_volume_24h',
-            'dex_txs_count_uniq_24h', 'dex_total_liquidity', 'fully_diluted_value',
-            'TechRating_1D', 'TechRating_1D.tr',
+            'ticker-view',
+            'blockchain-id.tr',
+            'blockchain-id',
+            'exchange.tr',
+            'provider-id',
+            'close',
+            'type',
+            'typespecs',
+            'pricescale',
+            'minmov',
+            'fractional',
+            'minmove2',
+            'currency',
+            '24h_close_change|5',
+            'dex_txs_count_24h',
+            'dex_trading_volume_24h',
+            'dex_txs_count_uniq_24h',
+            'dex_total_liquidity',
+            'fully_diluted_value',
+            'TechRating_1D',
+            'TechRating_1D.tr',
         ],
         'filter2': {
             'operator': 'and',
@@ -72,8 +118,20 @@ def crypto_dex() -> Query:
                     'operation': {
                         'operator': 'and',
                         'operands': [
-                            {'expression': {'left': 'centralization', 'operation': 'equal', 'right': 'dex'}},
-                            {'expression': {'left': 'currency_id', 'operation': 'equal', 'right': 'USD'}},
+                            {
+                                'expression': {
+                                    'left': 'centralization',
+                                    'operation': 'equal',
+                                    'right': 'dex',
+                                }
+                            },
+                            {
+                                'expression': {
+                                    'left': 'currency_id',
+                                    'operation': 'equal',
+                                    'right': 'USD',
+                                }
+                            },
                         ],
                     }
                 },
@@ -81,9 +139,20 @@ def crypto_dex() -> Query:
                     'operation': {
                         'operator': 'or',
                         'operands': [
-                            {'operation': {'operator': 'and', 'operands': [
-                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'spot'}}
-                            ]}}
+                            {
+                                'operation': {
+                                    'operator': 'and',
+                                    'operands': [
+                                        {
+                                            'expression': {
+                                                'left': 'type',
+                                                'operation': 'equal',
+                                                'right': 'spot',
+                                            }
+                                        }
+                                    ],
+                                }
+                            }
                         ],
                     }
                 },
@@ -134,10 +203,22 @@ def bond() -> Query:
         'symbols': {},
         'options': {'lang': 'en'},
         'columns': [
-            'ticker-view', 'exchange.tr', 'source-logoid', 'isin-displayed', 'yield_to_worst',
-            'close_pct', 'close_net', 'type', 'typespecs', 'fundamental_currency_code',
-            'current_coupon', 'maturity_date', 'redemption_type.tr', 'bond_issuer_type.tr',
-            'bond_snp_rating_lt.tr', 'bond_fitch_rating_lt.tr',
+            'ticker-view',
+            'exchange.tr',
+            'source-logoid',
+            'isin-displayed',
+            'yield_to_worst',
+            'close_pct',
+            'close_net',
+            'type',
+            'typespecs',
+            'fundamental_currency_code',
+            'current_coupon',
+            'maturity_date',
+            'redemption_type.tr',
+            'bond_issuer_type.tr',
+            'bond_snp_rating_lt.tr',
+            'bond_fitch_rating_lt.tr',
         ],
         'sort': {'sortBy': 'bond_snp_rating_lt', 'sortOrder': 'desc'},
         'range': DEFAULT_RANGE.copy(),
@@ -169,15 +250,27 @@ def options(underlying: str) -> Query:
     q.url = 'https://scanner.tradingview.com/options/scan2?label-product=options-builder'
     q.query = {
         'columns': [
-            'ask', 'bid', 'currency', 'delta', 'expiration', 'gamma', 'iv', 'option-type',
-            'pricescale', 'rho', 'root', 'strike', 'theoPrice', 'theta', 'vega',
-            'bid_iv', 'ask_iv',
+            'ask',
+            'bid',
+            'currency',
+            'delta',
+            'expiration',
+            'gamma',
+            'iv',
+            'option-type',
+            'pricescale',
+            'rho',
+            'root',
+            'strike',
+            'theoPrice',
+            'theta',
+            'vega',
+            'bid_iv',
+            'ask_iv',
         ],
         'filter2': {
             'operator': 'and',
-            'operands': [
-                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'option'}}
-            ],
+            'operands': [{'expression': {'left': 'type', 'operation': 'equal', 'right': 'option'}}],
         },
         'ignore_unknown_fields': False,
         'index_filters': [{'name': 'underlying_symbol', 'values': [underlying]}],
