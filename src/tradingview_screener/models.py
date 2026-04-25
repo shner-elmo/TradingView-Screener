@@ -97,3 +97,15 @@ class ScreenerRowDict(TypedDict):
 class ScreenerDict(TypedDict):
     totalCount: int
     data: list[ScreenerRowDict]
+
+
+class ScreenerRowDictV2(TypedDict):
+    s: str  # for options: 'OPRA:AAPL260821C200.0'
+    f: list  # data, list of values
+
+
+class ScreenerDictV2(TypedDict):
+    totalCount: int
+    fields: list[str]
+    symbols: list[ScreenerRowDictV2]
+    time: str  # '2026-04-24T13:45:37Z'

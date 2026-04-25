@@ -1,0 +1,187 @@
+from __future__ import annotations
+
+from tradingview_screener.query import Query, DEFAULT_RANGE, URL
+
+
+def stocks(market: str = 'america') -> Query:
+    return Query(market)
+
+
+def coin() -> Query:
+    q = Query()
+    q.url = URL.format(market='coin')
+    q.query = {
+        'markets': ['coin'],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': [
+            'ticker-view', 'crypto_total_rank', 'close', 'type', 'typespecs', 'pricescale',
+            'minmov', 'fractional', 'minmove2', 'currency', '24h_close_change|5',
+            'market_cap_calc', 'fundamental_currency_code', '24h_vol_cmc', 'circulating_supply',
+            '24h_vol_to_market_cap', 'socialdominance', 'crypto_common_categories.tr',
+            'TechRating_1D', 'TechRating_1D.tr',
+        ],
+        'sort': {'sortBy': 'crypto_total_rank', 'sortOrder': 'asc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
+def crypto() -> Query:
+    q = Query()
+    q.url = URL.format(market='crypto')
+    q.query = {
+        'markets': ['crypto'],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': [
+            'ticker-view', 'exchange.tr', 'provider-id', 'close', 'type', 'typespecs',
+            'pricescale', 'minmov', 'fractional', 'minmove2', 'currency', '24h_close_change|5',
+            '24h_vol|5', '24h_vol_change|5', 'TechRating_1D', 'TechRating_1D.tr',
+        ],
+        'filter2': {
+            'operator': 'and',
+            'operands': [{'expression': {'left': 'centralization', 'operation': 'equal', 'right': 'cex'}}],
+        },
+        'sort': {'sortBy': '24h_vol|5', 'sortOrder': 'desc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
+def crypto_dex() -> Query:
+    q = Query()
+    q.url = URL.format(market='crypto')
+    q.query = {
+        'markets': ['crypto'],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': [
+            'ticker-view', 'blockchain-id.tr', 'blockchain-id', 'exchange.tr', 'provider-id',
+            'close', 'type', 'typespecs', 'pricescale', 'minmov', 'fractional', 'minmove2',
+            'currency', '24h_close_change|5', 'dex_txs_count_24h', 'dex_trading_volume_24h',
+            'dex_txs_count_uniq_24h', 'dex_total_liquidity', 'fully_diluted_value',
+            'TechRating_1D', 'TechRating_1D.tr',
+        ],
+        'filter2': {
+            'operator': 'and',
+            'operands': [
+                {
+                    'operation': {
+                        'operator': 'and',
+                        'operands': [
+                            {'expression': {'left': 'centralization', 'operation': 'equal', 'right': 'dex'}},
+                            {'expression': {'left': 'currency_id', 'operation': 'equal', 'right': 'USD'}},
+                        ],
+                    }
+                },
+                {
+                    'operation': {
+                        'operator': 'or',
+                        'operands': [
+                            {'operation': {'operator': 'and', 'operands': [
+                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'spot'}}
+                            ]}}
+                        ],
+                    }
+                },
+            ],
+        },
+        'sort': {'sortBy': 'dex_txs_count_24h', 'sortOrder': 'desc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
+def forex() -> Query:
+    q = Query()
+    q.url = URL.format(market='forex')
+    q.query = {
+        'markets': ['forex'],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': ['name', 'close', 'volume', 'currency'],
+        'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
+def futures() -> Query:
+    q = Query()
+    q.url = URL.format(market='futures')
+    q.query = {
+        'markets': ['futures'],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': ['name', 'close', 'volume', 'currency'],
+        'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
+def bond() -> Query:
+    q = Query()
+    q.url = URL.format(market='bond')
+    q.query = {
+        'markets': ['bond'],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': [
+            'ticker-view', 'exchange.tr', 'source-logoid', 'isin-displayed', 'yield_to_worst',
+            'close_pct', 'close_net', 'type', 'typespecs', 'fundamental_currency_code',
+            'current_coupon', 'maturity_date', 'redemption_type.tr', 'bond_issuer_type.tr',
+            'bond_snp_rating_lt.tr', 'bond_fitch_rating_lt.tr',
+        ],
+        'sort': {'sortBy': 'bond_snp_rating_lt', 'sortOrder': 'desc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
+def cfd() -> Query:
+    q = Query()
+    q.url = URL.format(market='cfd')
+    q.query = {
+        'markets': ['cfd'],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': ['name', 'close', 'volume', 'currency'],
+        'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
+def options(underlying: str) -> Query:
+    """
+    :param underlying: The underlying symbol to filter by, e.g. ``'CME_MINI:ESM2026'``.
+    """
+    q = Query()
+    q.url = 'https://scanner.tradingview.com/options/scan2?label-product=options-builder'
+    q.query = {
+        'columns': [
+            'ask', 'bid', 'currency', 'delta', 'expiration', 'gamma', 'iv', 'option-type',
+            'pricescale', 'rho', 'root', 'strike', 'theoPrice', 'theta', 'vega',
+            'bid_iv', 'ask_iv',
+        ],
+        'filter2': {
+            'operator': 'and',
+            'operands': [
+                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'option'}}
+            ],
+        },
+        'ignore_unknown_fields': False,
+        'index_filters': [{'name': 'underlying_symbol', 'values': [underlying]}],
+        'options': {'lang': 'en'},
+        'range': DEFAULT_RANGE.copy(),
+    }
+    return q

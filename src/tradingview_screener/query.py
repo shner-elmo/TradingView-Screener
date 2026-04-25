@@ -2,6 +2,7 @@ from __future__ import annotations
 
 __all__ = ['And', 'Or', 'Query']
 
+import copy
 import pprint
 from typing import TYPE_CHECKING
 
@@ -19,6 +20,7 @@ if TYPE_CHECKING:
         ScreenerDict,
         FilterOperationDict,
         OperationDict,
+        ScreenerDictV2,
     )
 
 
@@ -39,6 +41,51 @@ HEADERS = {
     'sec-fetch-dest': 'empty',
     'referer': 'https://www.tradingview.com/',
     'accept-language': 'en-US,en;q=0.9,it;q=0.8',
+}
+STOCKS_QUERY = {
+        'markets': [],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': [
+            'name', 'close', 'type', 'typespecs', 'pricescale', 'minmov', 'fractional',
+            'minmove2', 'currency', 'change', 'volume', 'relative_volume_10d_calc',
+            'market_cap_basic', 'fundamental_currency_code', 'price_earnings_ttm',
+            'earnings_per_share_diluted_ttm', 'earnings_per_share_diluted_yoy_growth_ttm',
+            'dividends_yield_current', 'sector.tr', 'market', 'sector',
+            'AnalystRating', 'AnalystRating.tr',
+        ],
+        'filter': [{'left': 'is_primary', 'operation': 'equal', 'right': True}],
+        'filter2': {
+            'operator': 'and',
+            'operands': [
+                {
+                    'operation': {
+                        'operator': 'or',
+                        'operands': [
+                            {'operation': {'operator': 'and', 'operands': [
+                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'stock'}},
+                                {'expression': {'left': 'typespecs', 'operation': 'has', 'right': ['common']}},
+                            ]}},
+                            {'operation': {'operator': 'and', 'operands': [
+                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'stock'}},
+                                {'expression': {'left': 'typespecs', 'operation': 'has', 'right': ['preferred']}},
+                            ]}},
+                            {'operation': {'operator': 'and', 'operands': [
+                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'dr'}},
+                            ]}},
+                            {'operation': {'operator': 'and', 'operands': [
+                                {'expression': {'left': 'type', 'operation': 'equal', 'right': 'fund'}},
+                                {'expression': {'left': 'typespecs', 'operation': 'has_none_of', 'right': ['etf', 'mutual', 'closedend']}},
+                            ]}},
+                        ],
+                    }
+                },
+                {'expression': {'left': 'typespecs', 'operation': 'has_none_of', 'right': ['pre-ipo']}},
+            ],
+        },
+        'sort': {'sortBy': 'market_cap_basic', 'sortOrder': 'desc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
 }
 
 
@@ -240,18 +287,11 @@ class Query:
      [50 rows x 5 columns])
     """
 
-    def __init__(self) -> None:
+    def __init__(self, market: str = 'america') -> None:
         # noinspection PyTypeChecker
-        self.query: QueryDict = {
-            'markets': ['america'],
-            'symbols': {'query': {'types': []}, 'tickers': []},
-            'options': {'lang': 'en'},
-            'columns': ['name', 'close', 'volume', 'market_cap_basic'],
-            # 'filter': ...,
-            'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
-            'range': DEFAULT_RANGE.copy(),
-        }
-        self.url = 'https://scanner.tradingview.com/america/scan'
+        self.query: QueryDict = copy.deepcopy(STOCKS_QUERY)
+        self.query['markets'] = [market]
+        self.url = URL.format(market=market)
 
     def select(self, *columns: Column | str) -> Self:
         self.query['columns'] = [
@@ -486,7 +526,7 @@ class Query:
 
     def set_index(self, *indexes: str) -> Self:
         """
-        Scan only the equities that are in in the given index (or indexes).
+        Scan only the equities that are in the given index (or indexes).
 
         Note that this resets the markets and sets the URL market to `global`.
 
@@ -568,7 +608,7 @@ class Query:
         self.query[key] = value
         return self
 
-    def get_scanner_data_raw(self, **kwargs) -> ScreenerDict:
+    def get_scanner_data_raw(self, **kwargs) -> ScreenerDict | ScreenerDictV2:
         """
         Perform a POST web-request and return the data from the API (dictionary).
 
@@ -620,12 +660,16 @@ class Query:
 
         json_obj = self.get_scanner_data_raw(**kwargs)
         rows_count = json_obj['totalCount']
-        data = json_obj['data']
 
-        df = pd.DataFrame(
-            data=([row['s'], *row['d']] for row in data),
-            columns=['ticker', *self.query.get('columns', ())],  # pyright: ignore [reportArgumentType]
-        )
+        if '/scan2' in self.url:
+            rows = json_obj['symbols']
+            columns = ['ticker', *json_obj['fields']]
+            df = pd.DataFrame(([row['s'], *row['f']] for row in rows), columns=columns)
+        else:
+            rows = json_obj['data']
+            columns = ['ticker', *self.query.get('columns', ())]  # pyright: ignore [reportArgumentType]
+            df = pd.DataFrame(([row['s'], *row['d']] for row in rows), columns=columns)
+
         return rows_count, df
 
     def copy(self) -> Query:

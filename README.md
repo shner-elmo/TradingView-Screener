@@ -32,7 +32,7 @@ API. This package retrieves data directly from TradingView without the need for 
 
 ### Key Features
 
-- **Markets**: Stocks, crypto, forex, CFDs, futures, bonds, and more.
+- Stocks (~70 countries), options, crypto, forex, CFDs, futures, bonds, and more.
 - **3000+ Data Fields**: OHLC data, technical indicators, fundamental metrics (e.g. P/E, EPS), and even internal TradingView-only fields.
 - **Timeframes**: Use 1m, 5m, 15m, 30m, 1h, 2h, 4h, 1d, 1w, and 1mo — freely mix timeframes per field, no subscription required.
 - **Filtering**: SQL-like syntax with full support for `AND`/`OR` logic.
