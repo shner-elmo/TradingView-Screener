@@ -4,10 +4,20 @@ from tradingview_screener.query import Query, DEFAULT_RANGE, URL
 
 
 def stocks(market: str = 'america') -> Query:
+    """
+    Screener for stocks (common, preferred, DRs, and non-ETF funds), filtered to primary listings
+    only and sorted by market cap descending.
+
+    :param market: Market/country to scan, e.g. ``'america'``, ``'italy'``, ``'germany'``.
+        Defaults to ``'america'``.
+    """
     return Query(market)
 
 
 def coin() -> Query:
+    """
+    Screener for crypto coins (CoinMarketCap universe), sorted by overall rank ascending.
+    """
     q = Query()
     q.url = URL.format(market='coin')
     q.query = {
@@ -44,6 +54,9 @@ def coin() -> Query:
 
 
 def crypto() -> Query:
+    """
+    Screener for centralised-exchange (CEX) crypto pairs, sorted by 24 h volume descending.
+    """
     q = Query()
     q.url = URL.format(market='crypto')
     q.query = {
@@ -82,6 +95,10 @@ def crypto() -> Query:
 
 
 def crypto_dex() -> Query:
+    """
+    Screener for decentralised-exchange (DEX) spot pairs priced in USD, sorted by 24 h transaction
+    count descending.
+    """
     q = Query()
     q.url = URL.format(market='crypto')
     q.query = {
@@ -166,6 +183,9 @@ def crypto_dex() -> Query:
 
 
 def forex() -> Query:
+    """
+    Screener for forex currency pairs, sorted by traded value descending.
+    """
     q = Query()
     q.url = URL.format(market='forex')
     q.query = {
@@ -181,6 +201,9 @@ def forex() -> Query:
 
 
 def futures() -> Query:
+    """
+    Screener for futures contracts, sorted by traded value descending.
+    """
     q = Query()
     q.url = URL.format(market='futures')
     q.query = {
@@ -196,6 +219,9 @@ def futures() -> Query:
 
 
 def bond() -> Query:
+    """
+    Screener for bonds, sorted by S&P long-term rating descending.
+    """
     q = Query()
     q.url = URL.format(market='bond')
     q.query = {
@@ -228,6 +254,9 @@ def bond() -> Query:
 
 
 def cfd() -> Query:
+    """
+    Screener for CFDs (contracts for difference), sorted by traded value descending.
+    """
     q = Query()
     q.url = URL.format(market='cfd')
     q.query = {
