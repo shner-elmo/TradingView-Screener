@@ -53,6 +53,7 @@
                     <li><a href="tradingview_screener/column.html">column</a></li>
                     <li><a href="tradingview_screener/models.html">models</a></li>
                     <li><a href="tradingview_screener/query.html">query</a></li>
+                    <li><a href="tradingview_screener/screeners.html">screeners</a></li>
                     <li><a href="tradingview_screener/util.html">util</a></li>
             </ul>
 
@@ -104,7 +105,7 @@ API. This package retrieves data directly from TradingView without the need for 
 <h3 id="key-features">Key Features</h3>
 
 <ul>
-<li><strong>Markets</strong>: Stocks, crypto, forex, CFDs, futures, bonds, and more.</li>
+<li>Stocks (~70 countries), options, crypto, forex, CFDs, futures, bonds, and more.</li>
 <li><strong>3000+ Data Fields</strong>: OHLC data, technical indicators, fundamental metrics (e.g. P/E, EPS), and even internal TradingView-only fields.</li>
 <li><strong>Timeframes</strong>: Use 1m, 5m, 15m, 30m, 1h, 2h, 4h, 1d, 1w, and 1mo — freely mix timeframes per field, no subscription required.</li>
 <li><strong>Filtering</strong>: SQL-like syntax with full support for <code>AND</code>/<code>OR</code> logic.</li>
@@ -421,6 +422,7 @@ allowing you to query data using SQL-like syntax without knowing the specifics o
 </span><span id="L-6"><a href="#L-6"><span class="linenos">6</span></a>
 </span><span id="L-7"><a href="#L-7"><span class="linenos">7</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">tradingview_screener.column</span><span class="w"> </span><span class="kn">import</span> <span class="n">Column</span><span class="p">,</span> <span class="n">col</span>
 </span><span id="L-8"><a href="#L-8"><span class="linenos">8</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">tradingview_screener.query</span><span class="w"> </span><span class="kn">import</span> <span class="n">Query</span><span class="p">,</span> <span class="n">And</span><span class="p">,</span> <span class="n">Or</span>
+</span><span id="L-9"><a href="#L-9"><span class="linenos">9</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">tradingview_screener.screeners</span><span class="w"> </span><span class="kn">import</span> <span class="n">bond</span><span class="p">,</span> <span class="n">cfd</span><span class="p">,</span> <span class="n">coin</span><span class="p">,</span> <span class="n">crypto</span><span class="p">,</span> <span class="n">crypto_dex</span><span class="p">,</span> <span class="n">forex</span><span class="p">,</span> <span class="n">futures</span><span class="p">,</span> <span class="n">options</span><span class="p">,</span> <span class="n">stocks</span>
 </span></pre></div>
 
 
