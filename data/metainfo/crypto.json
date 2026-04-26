@@ -1403,7 +1403,6 @@
             "CONVO",
             "COP",
             "COQAI",
-            "CORE",
             "COSA",
             "COW",
             "CP",
@@ -1491,6 +1490,7 @@
             "GUAC",
             "GUSD",
             "HAI",
+            "HAJIMI",
             "HBAR",
             "HBX",
             "HEMPY",
@@ -1547,6 +1547,7 @@
             "LPZ",
             "LTC",
             "LUA",
+            "LUCKY",
             "LUFFY",
             "LURKY",
             "LUSD",
@@ -1656,7 +1657,6 @@
             "STR",
             "STSOL",
             "STUSDS",
-            "SUCCE",
             "SUI",
             "SUP",
             "SUSDAT",
@@ -12778,14 +12778,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12820,14 +12820,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20288,7 +20288,6 @@
             "XTVCCOMPOU",
             "XTVCCONVO",
             "XTVCCOQAI",
-            "XTVCCORE",
             "XTVCCOSA",
             "XTVCCOW2",
             "XTVCCP2",
@@ -20379,6 +20378,7 @@
             "XTVCGUSD",
             "XTVCGUSDG",
             "XTVCHAII",
+            "XTVCHAJIMI",
             "XTVCHBAR",
             "XTVCHBX",
             "XTVCHEMPY",
@@ -20431,6 +20431,7 @@
             "XTVCLPZ",
             "XTVCLTC",
             "XTVCLUALU",
+            "XTVCLUCKYB",
             "XTVCLUFFY2",
             "XTVCLURKY",
             "XTVCLUSD",
@@ -20550,13 +20551,11 @@
             "XTVCSTRSW",
             "XTVCSTSOL",
             "XTVCSTUSDS",
-            "XTVCSUCCE",
             "XTVCSUI",
             "XTVCSUPERF",
             "XTVCSUSDAT",
             "XTVCSUSDE",
             "XTVCSUSDSS",
-            "XTVCSUSHI",
             "XTVCSUSHIT",
             "XTVCSWARMTH",
             "XTVCSWINGC",
@@ -21511,6 +21510,7 @@
         "n": "kind",
         "t": "text",
         "r": [
+            "delay",
             "rt"
         ]
     },
