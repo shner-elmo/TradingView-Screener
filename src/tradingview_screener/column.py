@@ -4,7 +4,8 @@ from typing import TYPE_CHECKING
 
 
 if TYPE_CHECKING:
-    from typing import Optional, Iterable
+    from typing import Iterable, Optional
+
     from tradingview_screener.models import FilterOperationDict
 
 
@@ -54,6 +55,15 @@ class Column:
         if isinstance(obj, Column):
             return obj.name
         return obj
+
+    @staticmethod
+    def _build_pct_range(
+        column: Column | str, pct1: float, pct2: Optional[float] = None
+    ) -> list[str | float]:
+        values: list[str | float] = [Column._extract_name(column), pct1]
+        if pct2 is not None:
+            values.append(pct2)
+        return values
 
     def __gt__(self, other) -> FilterOperationDict:
         return {'left': self.name, 'operation': 'greater', 'right': self._extract_name(other)}
@@ -168,7 +178,7 @@ class Column:
         return {
             'left': self.name,
             'operation': 'in_range%',
-            'right': [self._extract_name(column), pct1, pct2],
+            'right': self._build_pct_range(column, pct1, pct2),
         }
 
     def not_between_pct(
@@ -183,7 +193,7 @@ class Column:
         return {
             'left': self.name,
             'operation': 'not_in_range%',
-            'right': [self._extract_name(column), pct1, pct2],
+            'right': self._build_pct_range(column, pct1, pct2),
         }
 
     def like(self, other) -> FilterOperationDict:
