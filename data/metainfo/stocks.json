@@ -1440,6 +1440,10 @@
                 "name": "DSE 30"
             },
             {
+                "id": "DSEBD:DSES",
+                "name": "DSEX Shariah"
+            },
+            {
                 "id": "DSEBD:DSEX",
                 "name": "DSE Broad"
             },
@@ -16104,13 +16108,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -16118,7 +16115,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16132,7 +16129,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16146,7 +16143,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16154,6 +16151,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22731,7 +22735,6 @@
             "Advent",
             "AdvisorShares",
             "Aegon",
-            "Affinity",
             "Agiofunds",
             "Ailis",
             "Airlie",
@@ -22928,7 +22931,6 @@
             "DFA",
             "DGA",
             "DNB",
-            "DOO",
             "DSP",
             "DWS",
             "Da Cheng",
@@ -23254,7 +23256,6 @@
             "Moat",
             "Mohr Funds",
             "Monarch",
-            "Montaka",
             "Montgomery",
             "Moonvest",
             "More",
@@ -24707,7 +24708,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -25519,7 +25519,6 @@
             "2195",
             "2198",
             "22",
-            "2200",
             "2201",
             "2202",
             "2203",
@@ -26647,6 +26646,7 @@
             "SYML:DJ;DJT",
             "SYML:DJ;DJU",
             "SYML:DSEBD;DS30",
+            "SYML:DSEBD;DSES",
             "SYML:DSEBD;DSEX",
             "SYML:EGX;EGX30",
             "SYML:EURONEXT;AEX",
@@ -27764,7 +27764,6 @@
             "Dokhod Asset Management Co. OOO",
             "Dongxu Optoelectronic Investment Co., Ltd.",
             "Donoghue Forlines LLC",
-            "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
             "Dvx Ventures LLC",
