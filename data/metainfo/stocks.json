@@ -3582,6 +3582,7 @@
         "t": "text",
         "r": [
             "Aland Islands",
+            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -3609,6 +3610,7 @@
             "Denmark",
             "Dominican Republic",
             "Egypt",
+            "El Salvador",
             "Estonia",
             "Faroe Islands",
             "Finland",
@@ -3627,8 +3629,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -16122,13 +16122,6 @@
         "rd": true
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null,
@@ -16136,7 +16129,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16150,7 +16143,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16158,6 +16151,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22878,6 +22878,7 @@
             "Cambria",
             "Canary",
             "Candriam",
+            "CapForce",
             "Capital",
             "Capital Group",
             "Capstone",
@@ -22931,6 +22932,7 @@
             "DFA",
             "DGA",
             "DNB",
+            "DOO",
             "DSP",
             "DWS",
             "Da Cheng",
@@ -24485,6 +24487,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AI",
             "AR",
             "AT",
             "AU",
@@ -24501,7 +24504,6 @@
             "BW",
             "CA",
             "CH",
-            "CI",
             "CL",
             "CM",
             "CN",
@@ -24532,7 +24534,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -24582,6 +24583,7 @@
             "SG",
             "SI",
             "SK",
+            "SV",
             "TG",
             "TH",
             "TN",
@@ -24710,6 +24712,7 @@
         "r": [
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -27764,6 +27767,7 @@
             "Dokhod Asset Management Co. OOO",
             "Dongxu Optoelectronic Investment Co., Ltd.",
             "Donoghue Forlines LLC",
+            "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
             "Dvx Ventures LLC",
@@ -27799,7 +27803,6 @@
             "Falcom Holding Co.",
             "Falconx Holdings Ltd.",
             "Federated Hermes, Inc.",
-            "FiCAS AG",
             "Fidelity Investments Canada ULC",
             "FinEx Capital Holdings (Jersey) Ltd.",
             "Financial Street Securities Co., Ltd.",
@@ -27989,6 +27992,7 @@
             "L\u00e4hiTapiola Keskin\u00e4inen Vakuutusyhti\u00f6",
             "M&G Plc",
             "M. D. Sass LLC",
+            "M2 Financial LLC",
             "MERITZ Financial Group, Inc.",
             "MERITZ SECURITIES Co., Ltd.",
             "MIG Capital LLC",
@@ -30876,6 +30880,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
