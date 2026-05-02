@@ -12,6 +12,7 @@ from tradingview_screener.screeners import (
     coin,
     crypto,
     crypto_dex,
+    dividend_calendar,
     forex,
     futures,
     options,

@@ -271,6 +271,63 @@ def cfd() -> Query:
     return q
 
 
+def dividend_calendar(market: str = 'america') -> Query:
+    """
+    Screener for stocks with an upcoming ex-dividend date, sorted by ex-dividend date ascending.
+
+    Returns only primary listings that have a known upcoming ex-dividend date, making it easy
+    to build a dividend calendar for any market.
+
+    Examples:
+
+    >>> dividend_calendar().get_scanner_data()  # upcoming dividends in the US market
+    >>> dividend_calendar('germany').get_scanner_data()
+
+    To get dividends going ex in the next 7 days:
+
+    >>> import time
+    >>> now = int(time.time())
+    >>> week = 7 * 24 * 3600
+    >>> (dividend_calendar()
+    ...  .where(
+    ...      Column('dividend_ex_date_upcoming') > now,
+    ...      Column('dividend_ex_date_upcoming') < now + week,
+    ...  )
+    ...  .get_scanner_data())
+
+    :param market: Market/country to scan. Defaults to ``'america'``.
+    """
+    import time
+
+    q = Query()
+    q.url = URL.format(market=market)
+    q.query = {
+        'markets': [market],
+        'symbols': {},
+        'options': {'lang': 'en'},
+        'columns': [
+            'name',
+            'close',
+            'dividend_ex_date_upcoming',
+            'dividend_payment_date_upcoming',
+            'dps_common_stock_prim_issue_fq',
+            'dividends_yield_current',
+        ],
+        'filter': [
+            {'left': 'is_primary', 'operation': 'equal', 'right': True},
+            {
+                'left': 'dividend_ex_date_upcoming',
+                'operation': 'greater',
+                'right': int(time.time()),
+            },
+        ],
+        'sort': {'sortBy': 'dividend_ex_date_upcoming', 'sortOrder': 'asc'},
+        'range': DEFAULT_RANGE.copy(),
+        'ignore_unknown_fields': False,
+    }
+    return q
+
+
 def options(underlying: str) -> Query:
     """
     :param underlying: The underlying symbol to filter by, e.g. ``'CME_MINI:ESM2026'``.

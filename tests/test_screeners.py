@@ -7,6 +7,7 @@ from tradingview_screener.screeners import (
     coin,
     crypto,
     crypto_dex,
+    dividend_calendar,
     forex,
     futures,
     options,
@@ -28,6 +29,7 @@ from tradingview_screener.screeners import (
         (bond, 'bond', 'https://scanner.tradingview.com/bond/scan'),
         (cfd, 'cfd', 'https://scanner.tradingview.com/cfd/scan'),
         (coin, 'coin', 'https://scanner.tradingview.com/coin/scan'),
+        (dividend_calendar, 'america', 'https://scanner.tradingview.com/america/scan'),
     ],
 )
 def test_standard_screener_url_and_market(factory, expected_market, expected_url):
@@ -43,7 +45,7 @@ def test_stocks_custom_market():
 
 
 def test_standard_screeners_return_query_instance():
-    for factory in (stocks, crypto, crypto_dex, forex, futures, bond, cfd, coin):
+    for factory in (stocks, crypto, crypto_dex, forex, futures, bond, cfd, coin, dividend_calendar):
         assert isinstance(factory(), Query)
 
 
@@ -182,3 +184,27 @@ def test_options_returns_data():
     count, df = options('NASDAQ:AAPL').limit(5).get_scanner_data()
     assert count > 0
     assert len(df) == 5
+
+
+def test_dividend_calendar_returns_data():
+    count, df = dividend_calendar().limit(5).get_scanner_data()
+    assert count > 0
+    assert len(df) == 5
+    assert 'dividend_ex_date_upcoming' in df.columns
+
+
+def test_dividend_calendar_sort():
+    q = dividend_calendar()
+    assert q.query['sort'] == {'sortBy': 'dividend_ex_date_upcoming', 'sortOrder': 'asc'}
+
+
+def test_dividend_calendar_has_upcoming_filter():
+    q = dividend_calendar()
+    fields = [f['left'] for f in q.query.get('filter', [])]
+    assert 'dividend_ex_date_upcoming' in fields
+
+
+def test_dividend_calendar_custom_market():
+    q = dividend_calendar('germany')
+    assert q.url == 'https://scanner.tradingview.com/germany/scan'
+    assert q.query['markets'] == ['germany']
