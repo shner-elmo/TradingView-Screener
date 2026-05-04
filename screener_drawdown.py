@@ -1,8 +1,9 @@
 """
 US Stock Drawdown Screener
 
-Finds US stocks with the highest drawdown from their 52-week high.
-Requires a TradingView session cookie.
+Finds US stocks with the highest drawdown over the last year, using
+TradingView's pre-computed `Perf.Y` (1-year performance %) field to sort
+directly in the API, and `price_52_week_high` for the peak-to-current drop.
 
 Usage:
     python screener_drawdown.py <sessionid>
@@ -18,6 +19,7 @@ from tradingview_screener import Query, col
 
 def run_screener(session_id: str | None = None) -> pd.DataFrame:
     cookies = {'sessionid': session_id} if session_id else None
+    kwargs = {'cookies': cookies} if cookies else {}
 
     print("Fetching US stocks from TradingView...")
     count, df = (
@@ -27,33 +29,33 @@ def run_screener(session_id: str | None = None) -> pd.DataFrame:
             'close',
             'price_52_week_high',
             'price_52_week_low',
+            'Perf.Y',         # 1-year performance % (pre-computed)
+            'Perf.6M',
+            'Perf.3M',
             'market_cap_basic',
-            'volume',
             'sector',
             'exchange',
         )
         .where(
-            col('market_cap_basic') > 100_000_000,   # >$100M market cap
-            col('typespecs').has(['common']),           # common shares only
-            col('exchange').not_in(['OTC']),            # exclude OTC
-            col('price_52_week_high').not_empty(),
-            col('close').not_empty(),
+            col('market_cap_basic') > 100_000_000,  # >$100M market cap
+            col('typespecs').has(['common']),          # common shares only
+            col('exchange').not_in(['OTC']),           # exclude OTC
+            col('Perf.Y').not_empty(),
         )
+        .order_by('Perf.Y', ascending=True)           # worst performers first
         .set_markets('america')
-        .limit(3000)
-        .get_scanner_data(**(dict(cookies=cookies) if cookies else {}))
+        .limit(50)
+        .get_scanner_data(**kwargs)
     )
 
-    print(f"Total US stocks scanned: {count:,}")
+    print(f"Total US stocks matched filters: {count:,}")
 
-    df['drawdown_pct'] = (
+    df['drawdown_from_52wk_high_%'] = (
         (df['price_52_week_high'] - df['close']) / df['price_52_week_high'] * 100
     )
     df['market_cap_B'] = df['market_cap_basic'] / 1e9
 
-    df_sorted = df.sort_values('drawdown_pct', ascending=False)
-
-    return df_sorted
+    return df
 
 
 def main():
@@ -63,26 +65,27 @@ def main():
 
     df = run_screener(session_id)
 
-    top = df[
-        ['name', 'close', 'price_52_week_high', 'drawdown_pct', 'market_cap_B', 'sector', 'exchange']
-    ].head(50)
+    display_cols = {
+        'name': 'Ticker',
+        'close': 'Price',
+        'price_52_week_high': '52W High',
+        'drawdown_from_52wk_high_%': 'Drop from 52W High %',
+        'Perf.Y': '1Y Perf %',
+        'Perf.6M': '6M Perf %',
+        'Perf.3M': '3M Perf %',
+        'market_cap_B': 'Mkt Cap ($B)',
+        'sector': 'Sector',
+        'exchange': 'Exchange',
+    }
+
+    top = df[list(display_cols)].rename(columns=display_cols)
 
     pd.set_option('display.max_rows', 60)
-    pd.set_option('display.width', 120)
+    pd.set_option('display.width', 160)
     pd.set_option('display.float_format', '{:.2f}'.format)
 
-    print("\nTop 50 US stocks with highest drawdown from 52-week high:\n")
-    print(
-        top.rename(columns={
-            'name': 'Ticker',
-            'close': 'Price',
-            'price_52_week_high': '52W High',
-            'drawdown_pct': 'Drawdown %',
-            'market_cap_B': 'Mkt Cap ($B)',
-            'sector': 'Sector',
-            'exchange': 'Exchange',
-        }).to_string(index=False)
-    )
+    print("\nTop 50 US stocks with highest drawdown in the last year:\n")
+    print(top.to_string(index=False))
 
 
 if __name__ == '__main__':
