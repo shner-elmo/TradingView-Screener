@@ -217,6 +217,13 @@
       margin-top: 0.75rem;
       font-size: 0.88em;
     }
+    .error-box pre {
+      margin: 0.5rem 0 0;
+      font-size: 0.82em;
+      white-space: pre-wrap;
+      opacity: 0.8;
+      color: #f85149;
+    }
 
     /* ── Misc ── */
     .hint { color: var(--muted); font-size: 0.83em; }
@@ -712,7 +719,10 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
-      if (!resp.ok) throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
+      if (!resp.ok) {
+        const body = await resp.text().catch(() => '');
+        throw new Error(`HTTP ${resp.status} ${resp.statusText}\n\n${body}`);
+      }
 
       const data    = await resp.json();
       const columns = payload.columns;
@@ -730,10 +740,9 @@
       resultsSection.style.display = '';
 
     } catch (err) {
-      const isCors = err instanceof TypeError;
       statusEl.innerHTML = `<div class="error-box">
-        <strong>Error:</strong> ${escHtml(err.message)}<br>
-        ${isCors ? '<small>This may be a CORS restriction — use the generated Python code to run the query locally instead.</small>' : ''}
+        <strong>${escHtml(err.name)}:</strong> ${escHtml(err.message)}
+        ${err.stack ? `<pre>${escHtml(err.stack)}</pre>` : ''}
       </div>`;
     } finally {
       runBtn.removeAttribute('aria-busy');
