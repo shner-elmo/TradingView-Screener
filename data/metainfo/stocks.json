@@ -16110,14 +16110,14 @@
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16138,13 +16138,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -16152,7 +16145,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16160,6 +16153,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22696,7 +22696,6 @@
             "10X",
             "1nvest",
             "21Shares",
-            "27Four Funds",
             "360 ONE",
             "3Edge",
             "3iQ",
@@ -22786,7 +22785,6 @@
             "Armor",
             "Arrow Funds",
             "ArrowShares",
-            "Arysteq",
             "Asset Management One",
             "AssetPlus",
             "Astoria",
@@ -22993,6 +22991,7 @@
             "Evoke",
             "Evolve",
             "Evovest",
+            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -23083,6 +23082,7 @@
             "Hamilton",
             "Hana",
             "Hang Seng",
+            "Hansainvest",
             "Hanwha",
             "Harbor",
             "Harel Sal",
@@ -23283,7 +23283,6 @@
             "NEXT NOTES",
             "NH",
             "NH-Amundi",
-            "NN investment partners",
             "NPF",
             "NZAM",
             "Nanhua",
@@ -23508,7 +23507,6 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
-            "TBI",
             "TCW",
             "TD",
             "TEQ",
@@ -24715,9 +24713,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -27957,6 +27955,7 @@
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
             "Kapital Mexico Grupo Financiero SA de CV",
+            "Kasikornbank Public Co. Ltd.",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
             "Killir Kapital Management LLC",
@@ -27981,7 +27980,6 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
-            "Lexus Securities Pty Ltd.",
             "Lightwater Partners Ltd.",
             "Lion Fund Management Co., Ltd.",
             "LionShares LLC",
@@ -28078,7 +28076,6 @@
             "Osmanli Yatirim Menkul Degerler AS",
             "Osprey Funds LLC",
             "Oversea-Chinese Banking Corp. Ltd.",
-            "PBT Holdings Ltd.",
             "PEH Wertpapier AG",
             "PMV Capital LLC",
             "PT Bahana TCW Investment Management",
@@ -28165,6 +28162,7 @@
             "SDIC Capital Co., Ltd.",
             "SEI Investments Co.",
             "SG Hiscock & Co. Ltd.",
+            "SIGNAL IDUNA Gruppe",
             "SR Partners LLC",
             "SRN Advisors LLC",
             "SS&C Technologies Holdings, Inc.",
@@ -28278,7 +28276,6 @@
             "Twin Oak Holdings LP",
             "T\u00fcrkiye Is Bankasi AS",
             "U.S. Global Investors, Inc.",
-            "UBS AG (London Branch)",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
