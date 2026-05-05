@@ -1,36 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Query Tester</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark-dimmed.min.css">
   <style>
-    body { overflow-x: hidden; }
+    :root {
+      --bg:      #0d1117;
+      --surface: #161b22;
+      --border:  #30363d;
+      --muted:   #8b949e;
+      --accent:  #58a6ff;
+      --fg:      #c9d1d9;
+      --accent-bg:     rgba(56, 139, 253, 0.15);
+      --accent-border: rgba(56, 139, 253, 0.4);
+    }
 
+    body { background: var(--bg); color: var(--fg); overflow-x: hidden; }
+
+    /* ── Page header ── */
+    .page-header {
+      padding: 2rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+    .page-header h1 { margin: 0 0 0.3rem; font-size: 1.5rem; }
+    .page-header p  { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+    .card-body { padding: 1.1rem 1.4rem; }
+    .card-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      font-weight: 700;
+      margin: 0 0 0.8rem;
+    }
+    .card-title span {
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 400;
+      font-size: 0.9rem;
+    }
+
+    /* ── Market pills ── */
+    #market-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+    #market-buttons button {
+      padding: 0.25rem 0.85rem;
+      font-size: 0.83rem;
+      border-radius: 999px;
+      height: auto;
+      margin: 0;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      transition: border-color 0.12s, color 0.12s, background 0.12s;
+    }
+    #market-buttons button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    #market-buttons button.active {
+      background: var(--accent-bg);
+      border-color: var(--accent-border);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* ── Chip input ── */
     .chip-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
-      min-height: 2.4rem;
-      padding: 0.4rem;
-      border: 1px solid var(--pico-form-element-border-color);
-      border-radius: var(--pico-border-radius);
-      background: var(--pico-form-element-background-color);
+      gap: 0.3rem;
+      min-height: 2.6rem;
+      padding: 0.35rem 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
       cursor: text;
+      transition: border-color 0.12s;
     }
+    .chip-container:focus-within { border-color: var(--accent); }
     .chip {
       display: inline-flex;
       align-items: center;
-      gap: 0.3rem;
-      padding: 0.1rem 0.5rem;
-      background: var(--pico-primary-background);
-      color: var(--pico-primary-inverse);
+      gap: 0.2rem;
+      padding: 0.12rem 0.5rem;
+      background: var(--accent-bg);
+      color: var(--accent);
+      border: 1px solid var(--accent-border);
       border-radius: 999px;
-      font-size: 0.85em;
+      font-size: 0.81em;
       white-space: nowrap;
     }
     .chip button {
@@ -38,291 +113,356 @@
       cursor: pointer;
       font-size: 1em;
       line-height: 1;
-      opacity: 0.7;
+      opacity: 0.55;
     }
     .chip button:hover { opacity: 1; }
-
     .chip-input {
       border: none !important;
       outline: none !important;
       box-shadow: none !important;
       background: transparent !important;
-      padding: 0.1rem 0.2rem !important;
+      padding: 0 0.2rem !important;
       margin: 0 !important;
-      min-width: 10rem;
+      min-width: 12rem;
       flex: 1;
-      font-size: 0.9em;
+      font-size: 0.87em;
+      color: var(--fg);
     }
 
+    /* ── Filter rows ── */
     .filter-row {
       display: grid;
       grid-template-columns: 1fr auto 1fr auto;
-      gap: 0.5rem;
+      gap: 0.45rem;
       align-items: center;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.45rem;
     }
     .filter-row select,
-    .filter-row input {
-      margin-bottom: 0;
-    }
+    .filter-row input { margin-bottom: 0; }
     .filter-row .remove-btn {
-      padding: 0.4rem 0.7rem;
-      font-size: 0.9em;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.82em;
+      height: auto;
     }
 
+    /* ── Tab bar ── */
     .tab-bar {
       display: flex;
-      gap: 0.3rem;
-      margin-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.4rem;
     }
     .tab-bar button {
-      padding: 0.3rem 0.9rem;
-      font-size: 0.9em;
+      padding: 0.5rem 1rem;
+      font-size: 0.85em;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--muted);
+      border-radius: 0;
+      height: auto;
+      margin: 0 0 -1px;
+      cursor: pointer;
     }
+    .tab-bar button:hover { color: var(--fg); }
     .tab-bar button[aria-selected="true"] {
-      background: var(--pico-primary);
-      color: var(--pico-primary-inverse);
-      border-color: var(--pico-primary);
+      color: var(--accent);
+      border-bottom-color: var(--accent);
     }
 
-    .code-wrapper {
-      position: relative;
-    }
+    /* ── Code block ── */
+    .code-wrapper { position: relative; }
     .copy-btn {
       position: absolute;
-      top: 0.5rem;
-      right: 0.5rem;
-      padding: 0.2rem 0.6rem;
-      font-size: 0.8em;
+      top: 0.55rem;
+      right: 0.55rem;
+      padding: 0.18rem 0.6rem;
+      font-size: 0.77em;
       z-index: 1;
+      border-radius: 5px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      cursor: pointer;
     }
+    .copy-btn:hover { color: var(--fg); border-color: var(--muted); }
     pre {
-      margin-top: 0;
-      border-radius: var(--pico-border-radius);
+      margin: 0;
+      border-radius: 0;
+      border: none;
     }
     pre code.hljs {
-      border-radius: var(--pico-border-radius);
+      border-radius: 0;
+      font-size: 0.84em;
+      line-height: 1.65;
     }
 
-    #results-table-wrapper {
-      overflow-x: auto;
+    /* ── Results ── */
+    #results-table-wrapper { overflow-x: auto; }
+    #results-table { font-size: 0.82em; }
+    .result-header {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-bottom: 0.65rem;
     }
-    #results-table {
-      font-size: 0.85em;
-    }
+    .result-header h3 { margin: 0; font-size: 0.9rem; }
 
+    /* ── Error ── */
     .error-box {
-      padding: 1rem;
-      border: 1px solid var(--pico-del-color);
-      border-radius: var(--pico-border-radius);
-      color: var(--pico-del-color);
-      background: color-mix(in srgb, var(--pico-del-color) 10%, transparent);
+      padding: 0.8rem 1rem;
+      border: 1px solid #f85149;
+      border-radius: 6px;
+      color: #f85149;
+      background: rgba(248, 81, 73, 0.08);
+      margin-top: 0.75rem;
+      font-size: 0.88em;
     }
 
-    section { margin-bottom: 1.5rem; }
-    h3 { margin-bottom: 0.6rem; }
-    small.hint { color: var(--pico-muted-color); }
+    /* ── Misc ── */
+    .hint { color: var(--muted); font-size: 0.83em; }
+    small.hint { display: block; margin-top: 0.3rem; }
+    kbd {
+      background: var(--border);
+      border-radius: 3px;
+      padding: 0.05em 0.35em;
+      font-size: 0.88em;
+      color: var(--fg);
+    }
+
+    /* ── Pico overrides ── */
+    input, select {
+      background: var(--bg) !important;
+      border-color: var(--border) !important;
+      color: var(--fg) !important;
+    }
+    input:focus, select:focus {
+      border-color: var(--accent) !important;
+      box-shadow: 0 0 0 2px rgba(56, 139, 253, 0.15) !important;
+    }
+    label { color: var(--muted); font-size: 0.86em; }
+
+    /* ── Run button ── */
+    #run-btn {
+      background: var(--accent-bg);
+      border: 1px solid var(--accent-border);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    #run-btn:hover {
+      background: rgba(56, 139, 253, 0.24);
+      border-color: rgba(56, 139, 253, 0.6);
+    }
+    #run-btn[aria-busy="true"] { opacity: 0.65; cursor: not-allowed; }
   </style>
 </head>
 <body>
 <main class="container">
-  <h2>Query Tester</h2>
-  <p><small class="hint">Build a TradingView screener query, generate the Python code, and optionally run it live.</small></p>
+  <header class="page-header">
+    <h1>Query Tester</h1>
+    <p>Build a TradingView screener query, generate the Python code, and optionally run it live.</p>
+  </header>
 
   <!-- Market -->
-  <section>
-    <h3>Market</h3>
-    <div role="group" id="market-buttons">
-      <button class="primary" data-market="america" onclick="selectMarket('america')">Stocks</button>
-      <button class="secondary" data-market="crypto" onclick="selectMarket('crypto')">Crypto</button>
-      <button class="secondary" data-market="forex" onclick="selectMarket('forex')">Forex</button>
-      <button class="secondary" data-market="coin" onclick="selectMarket('coin')">Coin</button>
-      <button class="secondary" data-market="cfd" onclick="selectMarket('cfd')">CFD</button>
-      <button class="secondary" data-market="futures" onclick="selectMarket('futures')">Futures</button>
-      <button class="secondary" data-market="bonds" onclick="selectMarket('bonds')">Bonds</button>
-      <button class="secondary" data-market="bond" onclick="selectMarket('bond')">Bond</button>
-      <button class="secondary" data-market="economics2" onclick="selectMarket('economics2')">Economy</button>
-      <button class="secondary" data-market="options" onclick="selectMarket('options')">Options</button>
+  <div class="card">
+    <div class="card-body">
+      <p class="card-title">Market</p>
+      <div id="market-buttons">
+        <button class="active" data-market="america"   onclick="selectMarket('america')">Stocks</button>
+        <button                data-market="crypto"    onclick="selectMarket('crypto')">Crypto</button>
+        <button                data-market="forex"     onclick="selectMarket('forex')">Forex</button>
+        <button                data-market="coin"      onclick="selectMarket('coin')">Coin</button>
+        <button                data-market="cfd"       onclick="selectMarket('cfd')">CFD</button>
+        <button                data-market="futures"   onclick="selectMarket('futures')">Futures</button>
+        <button                data-market="bonds"     onclick="selectMarket('bonds')">Bonds</button>
+        <button                data-market="bond"      onclick="selectMarket('bond')">Bond</button>
+        <button                data-market="economics2" onclick="selectMarket('economics2')">Economy</button>
+        <button                data-market="options"   onclick="selectMarket('options')">Options</button>
+      </div>
     </div>
-  </section>
+  </div>
 
   <!-- Columns -->
-  <section>
-    <h3>Columns <small class="hint">(SELECT)</small></h3>
-    <div class="chip-container" id="columns-container" onclick="document.getElementById('column-input').focus()">
-      <input
-        id="column-input"
-        class="chip-input"
-        type="text"
-        list="column-suggestions"
-        placeholder="Type a field name and press Enter..."
-        autocomplete="off"
-        onkeydown="handleColumnKeydown(event)"
-      />
+  <div class="card">
+    <div class="card-body">
+      <p class="card-title">Columns <span>— SELECT</span></p>
+      <div class="chip-container" id="columns-container" onclick="document.getElementById('column-input').focus()">
+        <input
+          id="column-input"
+          class="chip-input"
+          type="text"
+          list="column-suggestions"
+          placeholder="Type a field name and press Enter…"
+          autocomplete="off"
+          onkeydown="handleColumnKeydown(event)"
+        />
+      </div>
+      <datalist id="column-suggestions"></datalist>
+      <small class="hint">Press <kbd>Enter</kbd> to add · <kbd>Backspace</kbd> to remove last</small>
     </div>
-    <datalist id="column-suggestions"></datalist>
-    <small class="hint">Press <kbd>Enter</kbd> to add, or click &times; to remove.</small>
-  </section>
+  </div>
 
   <!-- Filters -->
-  <section>
-    <h3>Filters <small class="hint">(WHERE)</small></h3>
-    <div id="filters-container"></div>
-    <button class="secondary" onclick="addFilterRow()">+ Add Filter</button>
-  </section>
-
-  <!-- Sort -->
-  <section>
-    <h3>Order By</h3>
-    <div class="grid">
-      <input
-        id="sort-field"
-        type="text"
-        list="sort-suggestions"
-        placeholder="Field name (leave empty to skip)"
-        autocomplete="off"
-        oninput="scheduleUpdate()"
-      />
-      <datalist id="sort-suggestions"></datalist>
-      <select id="sort-dir" onchange="scheduleUpdate()">
-        <option value="desc">Descending</option>
-        <option value="asc">Ascending</option>
-      </select>
+  <div class="card">
+    <div class="card-body">
+      <p class="card-title">Filters <span>— WHERE</span></p>
+      <div id="filters-container"></div>
+      <button class="secondary outline" style="font-size:0.84em;padding:0.3rem 0.75rem;height:auto;" onclick="addFilterRow()">+ Add Filter</button>
     </div>
-  </section>
+  </div>
 
-  <!-- Limit / Offset -->
-  <section>
-    <div class="grid">
-      <label>Limit
-        <input type="number" id="limit" value="50" min="1" max="10000" oninput="scheduleUpdate()">
-      </label>
-      <label>Offset
-        <input type="number" id="offset" value="0" min="0" oninput="scheduleUpdate()">
-      </label>
+  <!-- Sort / Limit / Offset -->
+  <div class="card">
+    <div class="card-body">
+      <p class="card-title">Order &amp; Limit</p>
+      <div class="grid">
+        <label>Order by field
+          <input id="sort-field" type="text" list="sort-suggestions" placeholder="Field name (optional)" autocomplete="off" oninput="scheduleUpdate()">
+          <datalist id="sort-suggestions"></datalist>
+        </label>
+        <label>Direction
+          <select id="sort-dir" onchange="scheduleUpdate()">
+            <option value="desc">Descending</option>
+            <option value="asc">Ascending</option>
+          </select>
+        </label>
+        <label>Limit
+          <input type="number" id="limit" value="50" min="1" max="10000" oninput="scheduleUpdate()">
+        </label>
+        <label>Offset
+          <input type="number" id="offset" value="0" min="0" oninput="scheduleUpdate()">
+        </label>
+      </div>
     </div>
-  </section>
+  </div>
 
   <!-- Output -->
-  <section>
-    <h3>Output</h3>
+  <div class="card">
+    <div style="padding: 0.75rem 1.4rem 0;">
+      <p class="card-title" style="margin-bottom: 0.6rem;">Output</p>
+    </div>
     <div class="tab-bar">
-      <button aria-selected="true" onclick="showTab('python', this)">Python</button>
+      <button aria-selected="true"  onclick="showTab('python', this)">Python</button>
       <button aria-selected="false" onclick="showTab('json', this)">JSON Payload</button>
     </div>
     <div id="tab-python" class="code-wrapper">
-      <button class="secondary copy-btn" onclick="copyCode('python-code')">Copy</button>
+      <button class="copy-btn" onclick="copyCode('python-code', this)">Copy</button>
       <pre><code id="python-code" class="language-python"></code></pre>
     </div>
     <div id="tab-json" class="code-wrapper" style="display:none">
-      <button class="secondary copy-btn" onclick="copyCode('json-code')">Copy</button>
+      <button class="copy-btn" onclick="copyCode('json-code', this)">Copy</button>
       <pre><code id="json-code" class="language-json"></code></pre>
     </div>
-  </section>
+  </div>
 
   <!-- Run -->
-  <section>
-    <button id="run-btn" onclick="runQuery()">&#9654; Run Query</button>
-    <div id="run-status"></div>
-    <div id="results-section" style="display:none">
-      <h3>Results <small id="result-count" class="hint"></small></h3>
-      <div id="results-table-wrapper"></div>
+  <div class="card">
+    <div class="card-body">
+      <button id="run-btn" onclick="runQuery()">&#9654;&nbsp; Run Query</button>
+      <div id="run-status"></div>
+      <div id="results-section" style="display:none; margin-top:1rem;">
+        <div class="result-header">
+          <h3>Results</h3>
+          <small id="result-count" class="hint"></small>
+        </div>
+        <div id="results-table-wrapper"></div>
+      </div>
     </div>
-  </section>
+  </div>
+
 </main>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
 <script>
-  // ── State ────────────────────────────────────────────────────────────────────
+  // ── State ────────────────────────────────────────────────────────────────────────────
   let currentMarket = 'america';
-  let availableFields = [];       // [{n, t, r}]
-  let selectedColumns = [];       // string[]
+  let availableFields = [];
+  let selectedColumns = [];
   let filterIdCounter = 0;
   let updateTimer = null;
 
   const MARKET_TO_FILE = {
-    america: 'stocks', crypto: 'crypto', forex: 'forex', coin: 'coin',
-    cfd: 'cfd', futures: 'futures', bonds: 'bonds', bond: 'bond',
-    economics2: 'economics2', options: 'options',
+    america:    'stocks',
+    crypto:     'crypto',
+    forex:      'forex',
+    coin:       'coin',
+    cfd:        'cfd',
+    futures:    'futures',
+    bonds:      'bonds',
+    bond:       'bond',
+    economics2: 'economics2',
+    options:    'options',
   };
 
   const OPERATORS = [
-    { value: 'greater',        label: '>',           arity: 1 },
-    { value: 'egreater',       label: '>=',          arity: 1 },
-    { value: 'less',           label: '<',           arity: 1 },
-    { value: 'eless',          label: '<=',          arity: 1 },
-    { value: 'equal',          label: '==',          arity: 1 },
-    { value: 'nequal',         label: '!=',          arity: 1 },
-    { value: 'in_range',       label: 'between',     arity: 2 },
-    { value: 'not_in_range',   label: 'not between', arity: 2 },
-    { value: 'match',          label: 'like',        arity: 1 },
-    { value: 'nmatch',         label: 'not like',    arity: 1 },
-    { value: 'in_list',        label: 'in list',     arity: 'list' },
-    { value: 'not_in_list',    label: 'not in list', arity: 'list' },
-    { value: 'has',            label: 'has',         arity: 'list' },
-    { value: 'has_none_of',    label: 'has none of', arity: 'list' },
-    { value: 'empty',          label: 'is empty',    arity: 0 },
-    { value: 'nempty',         label: 'is not empty',arity: 0 },
+    { value: 'greater',      label: '>',            arity: 1      },
+    { value: 'egreater',     label: '>=',           arity: 1      },
+    { value: 'less',         label: '<',            arity: 1      },
+    { value: 'eless',        label: '<=',           arity: 1      },
+    { value: 'equal',        label: '==',           arity: 1      },
+    { value: 'nequal',       label: '!=',           arity: 1      },
+    { value: 'in_range',     label: 'between',      arity: 2      },
+    { value: 'not_in_range', label: 'not between',  arity: 2      },
+    { value: 'match',        label: 'like',         arity: 1      },
+    { value: 'nmatch',       label: 'not like',     arity: 1      },
+    { value: 'in_list',      label: 'in list',      arity: 'list' },
+    { value: 'not_in_list',  label: 'not in list',  arity: 'list' },
+    { value: 'has',          label: 'has',          arity: 'list' },
+    { value: 'has_none_of',  label: 'has none of',  arity: 'list' },
+    { value: 'empty',        label: 'is empty',     arity: 0      },
+    { value: 'nempty',       label: 'is not empty', arity: 0      },
   ];
 
-  // Map operator value → Python method
   const OP_TO_PY = {
-    greater:      (f, v)  => `Column('${f}') > ${v[0]}`,
-    egreater:     (f, v)  => `Column('${f}') >= ${v[0]}`,
-    less:         (f, v)  => `Column('${f}') < ${v[0]}`,
-    eless:        (f, v)  => `Column('${f}') <= ${v[0]}`,
-    equal:        (f, v)  => `Column('${f}') == ${v[0]}`,
-    nequal:       (f, v)  => `Column('${f}') != ${v[0]}`,
-    in_range:     (f, v)  => `Column('${f}').between(${v[0]}, ${v[1]})`,
-    not_in_range: (f, v)  => `Column('${f}').not_between(${v[0]}, ${v[1]})`,
-    match:        (f, v)  => `Column('${f}').like(${JSON.stringify(v[0])})`,
-    nmatch:       (f, v)  => `Column('${f}').not_like(${JSON.stringify(v[0])})`,
-    in_list:      (f, v)  => `Column('${f}').isin([${v.map(x => JSON.stringify(x)).join(', ')}])`,
-    not_in_list:  (f, v)  => `Column('${f}').not_in([${v.map(x => JSON.stringify(x)).join(', ')}])`,
-    has:          (f, v)  => `Column('${f}').has([${v.map(x => JSON.stringify(x)).join(', ')}])`,
-    has_none_of:  (f, v)  => `Column('${f}').has_none_of([${v.map(x => JSON.stringify(x)).join(', ')}])`,
-    empty:        (f)     => `Column('${f}').empty()`,
-    nempty:       (f)     => `Column('${f}').not_empty()`,
+    greater:      (f, v) => `Column('${f}') > ${v[0]}`,
+    egreater:     (f, v) => `Column('${f}') >= ${v[0]}`,
+    less:         (f, v) => `Column('${f}') < ${v[0]}`,
+    eless:        (f, v) => `Column('${f}') <= ${v[0]}`,
+    equal:        (f, v) => `Column('${f}') == ${v[0]}`,
+    nequal:       (f, v) => `Column('${f}') != ${v[0]}`,
+    in_range:     (f, v) => `Column('${f}').between(${v[0]}, ${v[1]})`,
+    not_in_range: (f, v) => `Column('${f}').not_between(${v[0]}, ${v[1]})`,
+    match:        (f, v) => `Column('${f}').like(${JSON.stringify(v[0])})`,
+    nmatch:       (f, v) => `Column('${f}').not_like(${JSON.stringify(v[0])})`,
+    in_list:      (f, v) => `Column('${f}').isin([${v.map(x => JSON.stringify(x)).join(', ')}])`,
+    not_in_list:  (f, v) => `Column('${f}').not_in([${v.map(x => JSON.stringify(x)).join(', ')}])`,
+    has:          (f, v) => `Column('${f}').has([${v.map(x => JSON.stringify(x)).join(', ')}])`,
+    has_none_of:  (f, v) => `Column('${f}').has_none_of([${v.map(x => JSON.stringify(x)).join(', ')}])`,
+    empty:        (f)    => `Column('${f}').empty()`,
+    nempty:       (f)    => `Column('${f}').not_empty()`,
   };
 
-  // ── Field loading ─────────────────────────────────────────────────────────────
+  // ── Field loading ─────────────────────────────────────────────────────────────────────
   async function loadFields(market) {
     const file = MARKET_TO_FILE[market] || 'stocks';
     try {
       const resp = await fetch(`../data/metainfo/${file}.json`);
       if (!resp.ok) return [];
       return await resp.json();
-    } catch {
-      return [];
-    }
+    } catch { return []; }
   }
 
-  function fieldNames() {
-    return availableFields.map(f => f.n);
-  }
+  function fieldNames() { return availableFields.map(f => f.n); }
 
   function updateDataLists() {
-    const names = fieldNames();
-    const html = names.map(n => `<option value="${escHtml(n)}">`).join('');
+    const html = fieldNames().map(n => `<option value="${escHtml(n)}">`).join('');
     document.getElementById('column-suggestions').innerHTML = html;
     document.getElementById('sort-suggestions').innerHTML = html;
-    document.querySelectorAll('.filter-field-list').forEach(dl => {
-      dl.innerHTML = html;
-    });
+    document.querySelectorAll('.filter-field-list').forEach(dl => dl.innerHTML = html);
   }
 
-  // ── Market selection ──────────────────────────────────────────────────────────
+  // ── Market ────────────────────────────────────────────────────────────────────────────
   async function selectMarket(market) {
     currentMarket = market;
     document.querySelectorAll('#market-buttons button').forEach(btn => {
-      const active = btn.dataset.market === market;
-      btn.className = active ? 'primary' : 'secondary';
+      btn.classList.toggle('active', btn.dataset.market === market);
     });
     availableFields = await loadFields(market);
     updateDataLists();
     scheduleUpdate();
   }
 
-  // ── Columns ───────────────────────────────────────────────────────────────────
+  // ── Columns ───────────────────────────────────────────────────────────────────────────
   function handleColumnKeydown(e) {
     if (e.key === 'Enter') {
       e.preventDefault();
@@ -359,27 +499,22 @@
     container.appendChild(input);
   }
 
-  // ── Filters ───────────────────────────────────────────────────────────────────
+  // ── Filters ───────────────────────────────────────────────────────────────────────────
   function addFilterRow() {
     const id = ++filterIdCounter;
     const listId = `filter-field-list-${id}`;
-    const names = fieldNames();
-    const datalistHtml = names.map(n => `<option value="${escHtml(n)}">`).join('');
-    const opOptions = OPERATORS.map(op =>
-      `<option value="${op.value}">${op.label}</option>`
-    ).join('');
+    const datalistHtml = fieldNames().map(n => `<option value="${escHtml(n)}">`).join('');
+    const opOptions = OPERATORS.map(op => `<option value="${op.value}">${op.label}</option>`).join('');
 
     const row = document.createElement('div');
     row.className = 'filter-row';
     row.id = `filter-row-${id}`;
     row.innerHTML = `
-      <input type="text" list="${listId}" class="filter-field" placeholder="Field" autocomplete="off" oninput="onFilterChange(${id})">
+      <input type="text" list="${listId}" class="filter-field" placeholder="Field" autocomplete="off" oninput="scheduleUpdate()">
       <datalist id="${listId}" class="filter-field-list">${datalistHtml}</datalist>
-      <select class="filter-op" onchange="onFilterOpChange(${id})">
-        ${opOptions}
-      </select>
+      <select class="filter-op" onchange="onFilterOpChange(${id})">${opOptions}</select>
       <input type="text" class="filter-value" placeholder="Value" oninput="scheduleUpdate()">
-      <button class="secondary remove-btn" onclick="removeFilter(${id})">&times;</button>
+      <button class="secondary outline remove-btn" onclick="removeFilter(${id})">&times;</button>
     `;
     document.getElementById('filters-container').appendChild(row);
     scheduleUpdate();
@@ -387,10 +522,6 @@
 
   function removeFilter(id) {
     document.getElementById(`filter-row-${id}`).remove();
-    scheduleUpdate();
-  }
-
-  function onFilterChange(id) {
     scheduleUpdate();
   }
 
@@ -408,7 +539,7 @@
       valueInput.placeholder = 'min, max';
     } else if (opDef.arity === 'list') {
       valueInput.style.display = '';
-      valueInput.placeholder = 'val1, val2, ...';
+      valueInput.placeholder = 'val1, val2, …';
     } else {
       valueInput.style.display = '';
       valueInput.placeholder = 'Value';
@@ -417,37 +548,31 @@
   }
 
   function collectFilters() {
-    const rows = document.querySelectorAll('.filter-row');
     const filters = [];
-    rows.forEach(row => {
+    document.querySelectorAll('.filter-row').forEach(row => {
       const field = row.querySelector('.filter-field').value.trim();
       const op = row.querySelector('.filter-op').value;
       const rawVal = row.querySelector('.filter-value').value.trim();
       const opDef = OPERATORS.find(o => o.value === op);
       if (!field) return;
 
-      let values = [];
-      if (opDef.arity === 0) {
-        values = [];
-      } else if (opDef.arity === 2) {
-        values = rawVal.split(',').map(s => s.trim()).filter(Boolean);
-      } else if (opDef.arity === 'list') {
-        values = rawVal.split(',').map(s => s.trim()).filter(Boolean);
-      } else {
-        values = [rawVal];
-      }
+      let values;
+      if (opDef.arity === 0)                               values = [];
+      else if (opDef.arity === 2 || opDef.arity === 'list') values = rawVal.split(',').map(s => s.trim()).filter(Boolean);
+      else                                                   values = [rawVal];
+
       filters.push({ field, op, opDef, values });
     });
     return filters;
   }
 
-  // ── Code generation ───────────────────────────────────────────────────────────
+  // ── Code generation ───────────────────────────────────────────────────────────────────
   function buildPayload() {
     const filters = collectFilters();
     const sortField = document.getElementById('sort-field').value.trim();
-    const sortDir = document.getElementById('sort-dir').value;
-    const limit = parseInt(document.getElementById('limit').value) || 50;
-    const offset = parseInt(document.getElementById('offset').value) || 0;
+    const sortDir   = document.getElementById('sort-dir').value;
+    const limit     = parseInt(document.getElementById('limit').value) || 50;
+    const offset    = parseInt(document.getElementById('offset').value) || 0;
 
     const payload = {
       markets: [currentMarket],
@@ -463,17 +588,10 @@
 
     if (filters.length) {
       payload.filter = filters.map(f => {
-        const opDef = f.opDef;
         let right;
-        if (opDef.arity === 0) {
-          right = undefined;
-        } else if (opDef.arity === 2) {
-          right = f.values.map(v => maybeNum(v));
-        } else if (opDef.arity === 'list') {
-          right = f.values.map(v => maybeNum(v));
-        } else {
-          right = maybeNum(f.values[0] ?? '');
-        }
+        if (f.opDef.arity === 0)                                 right = undefined;
+        else if (f.opDef.arity === 2 || f.opDef.arity === 'list') right = f.values.map(maybeNum);
+        else                                                       right = maybeNum(f.values[0] ?? '');
         const obj = { left: f.field, operation: f.op };
         if (right !== undefined) obj.right = right;
         return obj;
@@ -484,49 +602,44 @@
   }
 
   function buildPythonCode() {
-    const filters = collectFilters();
+    const filters   = collectFilters();
     const sortField = document.getElementById('sort-field').value.trim();
-    const sortDir = document.getElementById('sort-dir').value;
-    const limit = parseInt(document.getElementById('limit').value) || 50;
-    const offset = parseInt(document.getElementById('offset').value) || 0;
-
-    const cols = selectedColumns.length ? selectedColumns : ['name', 'close', 'volume'];
-    const colsStr = cols.map(c => `'${c}'`).join(', ');
+    const sortDir   = document.getElementById('sort-dir').value;
+    const limit     = parseInt(document.getElementById('limit').value) || 50;
+    const offset    = parseInt(document.getElementById('offset').value) || 0;
+    const cols      = selectedColumns.length ? selectedColumns : ['name', 'close', 'volume'];
 
     const lines = ['from tradingview_screener import Query, Column', ''];
     lines.push('count, df = (');
-    lines.push(`    Query()`);
+    lines.push('    Query()');
 
     if (currentMarket !== 'america') {
       lines.push(`    .set_markets('${currentMarket}')`);
     }
 
-    lines.push(`    .select(${colsStr})`);
+    lines.push(`    .select(${cols.map(c => `'${c}'`).join(', ')})`);
 
     if (filters.length) {
       if (filters.length === 1) {
-        const f = filters[0];
-        const py = buildFilterPy(f);
+        const py = buildFilterPy(filters[0]);
         if (py) lines.push(`    .where(${py})`);
       } else {
-        lines.push(`    .where(`);
+        lines.push('    .where(');
         filters.forEach((f, i) => {
           const py = buildFilterPy(f);
           if (py) lines.push(`        ${py}${i < filters.length - 1 ? ',' : ''}`);
         });
-        lines.push(`    )`);
+        lines.push('    )');
       }
     }
 
     if (sortField) {
-      const asc = sortDir === 'asc';
-      lines.push(`    .order_by('${sortField}', ascending=${asc ? 'True' : 'False'})`);
+      lines.push(`    .order_by('${sortField}', ascending=${sortDir === 'asc' ? 'True' : 'False'})`);
     }
+    if (limit !== 50)  lines.push(`    .limit(${limit})`);
+    if (offset !== 0)  lines.push(`    .offset(${offset})`);
 
-    if (limit !== 50) lines.push(`    .limit(${limit})`);
-    if (offset !== 0) lines.push(`    .offset(${offset})`);
-
-    lines.push(`    .get_scanner_data()`);
+    lines.push('    .get_scanner_data()');
     lines.push(')');
     lines.push('print(df)');
 
@@ -544,52 +657,46 @@
     return (s !== '' && !isNaN(n)) ? n : s;
   }
 
-  // ── UI updates ────────────────────────────────────────────────────────────────
+  // ── UI updates ────────────────────────────────────────────────────────────────────────
   function scheduleUpdate() {
     clearTimeout(updateTimer);
     updateTimer = setTimeout(updateOutput, 80);
   }
 
   function updateOutput() {
-    const pyCode = buildPythonCode();
-    const payload = buildPayload();
-    const jsonStr = JSON.stringify(payload, null, 2);
-
     const pyEl = document.getElementById('python-code');
-    pyEl.textContent = pyCode;
+    pyEl.textContent = buildPythonCode();
     delete pyEl.dataset.highlighted;
     hljs.highlightElement(pyEl);
 
     const jsonEl = document.getElementById('json-code');
-    jsonEl.textContent = jsonStr;
+    jsonEl.textContent = JSON.stringify(buildPayload(), null, 2);
     delete jsonEl.dataset.highlighted;
     hljs.highlightElement(jsonEl);
   }
 
-  // ── Tabs ──────────────────────────────────────────────────────────────────────
+  // ── Tabs ──────────────────────────────────────────────────────────────────────────────
   function showTab(name, btn) {
     document.getElementById('tab-python').style.display = name === 'python' ? '' : 'none';
-    document.getElementById('tab-json').style.display = name === 'json' ? '' : 'none';
+    document.getElementById('tab-json').style.display   = name === 'json'   ? '' : 'none';
     document.querySelectorAll('.tab-bar button').forEach(b => b.setAttribute('aria-selected', 'false'));
     btn.setAttribute('aria-selected', 'true');
   }
 
-  // ── Copy ──────────────────────────────────────────────────────────────────────
-  function copyCode(id) {
-    const text = document.getElementById(id).textContent;
-    navigator.clipboard.writeText(text).then(() => {
-      const btn = event.target;
+  // ── Copy ──────────────────────────────────────────────────────────────────────────────
+  function copyCode(id, btn) {
+    navigator.clipboard.writeText(document.getElementById(id).textContent).then(() => {
       const orig = btn.textContent;
       btn.textContent = 'Copied!';
       setTimeout(() => { btn.textContent = orig; }, 1500);
     });
   }
 
-  // ── Run query ─────────────────────────────────────────────────────────────────
+  // ── Run query ─────────────────────────────────────────────────────────────────────────
   async function runQuery() {
-    const statusEl = document.getElementById('run-status');
+    const statusEl      = document.getElementById('run-status');
     const resultsSection = document.getElementById('results-section');
-    const runBtn = document.getElementById('run-btn');
+    const runBtn        = document.getElementById('run-btn');
 
     runBtn.setAttribute('aria-busy', 'true');
     runBtn.disabled = true;
@@ -597,8 +704,7 @@
     resultsSection.style.display = 'none';
 
     const payload = buildPayload();
-    const market = payload.markets[0];
-    const url = `https://scanner.tradingview.com/${market}/scan`;
+    const url = `https://scanner.tradingview.com/${payload.markets[0]}/scan`;
 
     try {
       const resp = await fetch(url, {
@@ -606,32 +712,28 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
 
-      if (!resp.ok) {
-        throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
-      }
-
-      const data = await resp.json();
+      const data    = await resp.json();
       const columns = payload.columns;
-      const rows = (data.data || data.symbols || []).map(item => item.d || item.f || []);
-      const total = data.totalCount ?? rows.length;
+      const rows    = (data.data || data.symbols || []).map(item => item.d || item.f || []);
+      const total   = data.totalCount ?? rows.length;
 
-      document.getElementById('result-count').textContent = `(${rows.length} of ${total.toLocaleString()} total)`;
-
-      const thead = `<thead><tr><th>#</th>${columns.map(c => `<th>${escHtml(c)}</th>`).join('')}</tr></thead>`;
-      const tbody = rows.map((row, i) =>
-        `<tr><td>${i + 1}</td>${row.map(v => `<td>${escHtml(v == null ? '' : String(v))}</td>`).join('')}</tr>`
-      ).join('');
-
+      document.getElementById('result-count').textContent = `${rows.length} of ${total.toLocaleString()} total`;
       document.getElementById('results-table-wrapper').innerHTML =
-        `<table id="results-table">${thead}<tbody>${tbody}</tbody></table>`;
+        `<table id="results-table">
+          <thead><tr><th>#</th>${columns.map(c => `<th>${escHtml(c)}</th>`).join('')}</tr></thead>
+          <tbody>${rows.map((row, i) =>
+            `<tr><td>${i + 1}</td>${row.map(v => `<td>${escHtml(v == null ? '' : String(v))}</td>`).join('')}</tr>`
+          ).join('')}</tbody>
+        </table>`;
       resultsSection.style.display = '';
 
     } catch (err) {
-      const isCors = err instanceof TypeError && err.message.toLowerCase().includes('fetch');
+      const isCors = err instanceof TypeError;
       statusEl.innerHTML = `<div class="error-box">
         <strong>Error:</strong> ${escHtml(err.message)}<br>
-        ${isCors ? '<small>This is likely a CORS restriction. Use the generated Python code to run the query locally instead.</small>' : ''}
+        ${isCors ? '<small>This may be a CORS restriction — use the generated Python code to run the query locally instead.</small>' : ''}
       </div>`;
     } finally {
       runBtn.removeAttribute('aria-busy');
@@ -639,7 +741,7 @@
     }
   }
 
-  // ── Helpers ───────────────────────────────────────────────────────────────────
+  // ── Helpers ───────────────────────────────────────────────────────────────────────────
   function escHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
@@ -647,7 +749,7 @@
     return String(s).replace(/'/g, "\\'").replace(/"/g, '&quot;');
   }
 
-  // ── Init ──────────────────────────────────────────────────────────────────────
+  // ── Init ──────────────────────────────────────────────────────────────────────────────
   (async () => {
     availableFields = await loadFields('america');
     updateDataLists();
