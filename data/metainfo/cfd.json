@@ -12022,13 +12022,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12036,7 +12029,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12050,7 +12043,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12064,7 +12057,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12072,6 +12065,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18880,6 +18880,7 @@
             "0G",
             "0x Protocol",
             "1inch",
+            "4",
             "AINFT",
             "AIOZ Network",
             "AKEDO",
@@ -18897,7 +18898,6 @@
             "Amp",
             "Ankr",
             "ApeCoin",
-            "ApeX Protocol",
             "Aptos",
             "Apu Apustaja",
             "Arbitrum",
@@ -18964,6 +18964,7 @@
             "Cronos ID",
             "Curve DAO Token",
             "DAO Maker",
+            "DOGS",
             "DOWGE",
             "Dai",
             "Dash",
@@ -19122,7 +19123,6 @@
             "PIVX",
             "PUMPCADE",
             "PancakeSwap",
-            "Panther Protocol",
             "Particle Network",
             "PayPal USD",
             "Pendle",
@@ -19284,6 +19284,7 @@
             "XTVC0G",
             "XTVC1INCH",
             "XTVC2Z",
+            "XTVC4",
             "XTVCAAVE",
             "XTVCACH",
             "XTVCADA",
@@ -19303,7 +19304,6 @@
             "XTVCAMP2",
             "XTVCANKR",
             "XTVCAPE",
-            "XTVCAPEX",
             "XTVCAPI3",
             "XTVCAPTO",
             "XTVCAPUAP",
@@ -19380,6 +19380,7 @@
             "XTVCDJI6930",
             "XTVCDOGE",
             "XTVCDOGECOIN",
+            "XTVCDOGS2",
             "XTVCDOOD",
             "XTVCDOT",
             "XTVCDRIFT",
@@ -19675,7 +19676,6 @@
             "XTVCZEN",
             "XTVCZEREBRO",
             "XTVCZKJ",
-            "XTVCZKP",
             "XTVCZORA2",
             "XTVCZROL",
             "XTVCZRX"
