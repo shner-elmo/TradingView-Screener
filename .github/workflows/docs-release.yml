@@ -1,0 +1,60 @@
+name: docs release
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version folder name (e.g. 3.2.0)'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run pdoc
+        run: |
+          uv sync
+          uv run pdoc tradingview_screener/ -o /tmp/docs -t templates/
+
+      - name: Resolve version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "version=${{ github.event.inputs.version }}" >> $GITHUB_OUTPUT
+          else
+            echo "version=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          ref: docs
+          fetch-depth: 0
+
+      - name: Copy docs to versioned folder and commit
+        run: |
+          VERSION=${{ steps.version.outputs.version }}
+          mkdir -p ./docs/$VERSION
+          cp -r /tmp/docs/* ./docs/$VERSION
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git status
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -a -m "Generated docs for v$VERSION"
+            git push
+          else
+            echo "No changes"
+          fi
