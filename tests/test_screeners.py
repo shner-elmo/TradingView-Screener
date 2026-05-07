@@ -1,6 +1,7 @@
 import pytest
 
 from tradingview_screener.query import DEFAULT_RANGE, Query
+from tradingview_screener.column import col
 from tradingview_screener.screeners import (
     bond,
     cfd,
@@ -182,3 +183,15 @@ def test_options_returns_data():
     count, df = options('NASDAQ:AAPL').limit(5).get_scanner_data()
     assert count > 0
     assert len(df) == 5
+
+
+def test_options_empty_result():
+    """
+    This is necessary to test the /scan2 API endpoint, because when the result its empty, the JSON is missing
+    the `symbols` key. So make sure it handles that well.
+    """
+    count, df = (
+        options('NASDAQ:AAPL').where(col('strike') > 12345290390).limit(10).get_scanner_data()
+    )
+    assert count == 0
+    assert df.empty
