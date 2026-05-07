@@ -741,9 +741,12 @@ class Query:
         rows_count = json_obj['totalCount']
 
         if '/scan2' in self.url:
-            rows = json_obj['symbols']
             columns = ['ticker', *json_obj['fields']]
-            df = pd.DataFrame(([row['s'], *row['f']] for row in rows), columns=columns)
+            rows = json_obj.get('symbols')
+            if rows:
+                df = pd.DataFrame(([row['s'], *row['f']] for row in rows), columns=columns)
+            else:
+                df = pd.DataFrame([], columns=columns)
         else:
             rows = json_obj['data']
             columns = ['ticker', *self.query.get('columns', ())]  # pyright: ignore [reportArgumentType]
