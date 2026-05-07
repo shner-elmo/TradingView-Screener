@@ -1138,7 +1138,7 @@ wheels = [
 
 [[package]]
 name = "tradingview-screener"
-version = "3.0.0"
+version = "3.2.0a1"
 source = { editable = "." }
 dependencies = [
     { name = "pandas" },
