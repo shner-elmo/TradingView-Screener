@@ -1316,14 +1316,6 @@
                 "name": "MSCI COLCAP"
             },
             {
-                "id": "BVC:ICSC",
-                "name": "COLSC"
-            },
-            {
-                "id": "BVC:IEQY",
-                "name": "COLEQTY"
-            },
-            {
                 "id": "BVCV:IBC",
                 "name": "Caracas Stock Exchange General"
             },
@@ -3629,6 +3621,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -3680,7 +3673,6 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
-            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -16124,14 +16116,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22832,6 +22824,7 @@
             "Beta",
             "BetaPro",
             "BetaShares",
+            "Billionaires",
             "Bitcoin Capital",
             "Bitwise",
             "BlackRock",
@@ -22880,7 +22873,6 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
-            "Candriam",
             "CapForce",
             "Capital",
             "Capital Group",
@@ -23316,6 +23308,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -23909,6 +23902,7 @@
             "CBOIXU",
             "CECGBS",
             "CECGBU",
+            "CECGBX",
             "CECGES",
             "CECGEU",
             "CECGLS",
@@ -24541,6 +24535,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -24596,7 +24591,6 @@
             "TN",
             "TR",
             "TW",
-            "TZ",
             "UA",
             "UG",
             "US",
@@ -25535,6 +25529,7 @@
             "2203",
             "2204",
             "2205",
+            "2208",
             "2210",
             "2211",
             "2212",
@@ -26627,8 +26622,6 @@
             "SYML:BSSE;SAX",
             "SYML:BVB;BET",
             "SYML:BVC;ICAP",
-            "SYML:BVC;ICSC",
-            "SYML:BVC;IEQY",
             "SYML:BVCV;IBC",
             "SYML:BVCV;IFINANCIE",
             "SYML:BVCV;IINDUSTR",
@@ -27872,7 +27865,7 @@
             "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",
-            "Guolianan Fund Management Co., Ltd.",
+            "Guolian Minsheng Securities Co., Ltd.",
             "Guotai Asset Management Co., Ltd.",
             "Guotai Haitong Securities Co., Ltd.",
             "Guotai Junan Securities Co., Ltd.",
@@ -27900,6 +27893,7 @@
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
             "Heungkuk Securities Co., Ltd.",
+            "Hexis Capital Management Ltd.",
             "Holding Plural SA",
             "Horizon Investments LLC",
             "Horizon Kinetics Holding Corp.",
@@ -29163,6 +29157,7 @@
             "7",
             "70",
             "72",
+            "8",
             "83",
             "85",
             "86",
@@ -29223,7 +29218,9 @@
             "9585",
             "9587",
             "9589",
+            "9590",
             "9591",
+            "9592",
             "9594",
             "9595",
             "9596",
@@ -29240,7 +29237,8 @@
             "9710",
             "98",
             "9861",
-            "9864"
+            "9864",
+            "9866"
         ]
     },
     {
@@ -30619,6 +30617,7 @@
             "NO",
             "NZ",
             "OM",
+            "PA",
             "PE",
             "PG",
             "PH",
@@ -30887,6 +30886,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
