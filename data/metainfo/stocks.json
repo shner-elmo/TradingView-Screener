@@ -4214,6 +4214,7 @@
             "Savings Banks",
             "Semiconductors",
             "Services to the Health Industry",
+            "Sovereign",
             "Specialty Insurance",
             "Specialty Stores",
             "Specialty Telecommunications",
@@ -16102,13 +16103,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -16116,7 +16110,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16124,6 +16118,13 @@
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16144,14 +16145,14 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23094,6 +23095,7 @@
             "Hejaz",
             "Hennessy",
             "Heungkuk",
+            "Hexis",
             "Hilton",
             "Honeytree",
             "Hony Horizon",
@@ -23305,6 +23307,7 @@
             "NovaTide",
             "Nu",
             "Nuveen",
+            "OFI",
             "OTG",
             "OTP",
             "Oakmark",
@@ -24712,10 +24715,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -27746,7 +27747,6 @@
             "Deegan Holdings LLC",
             "Defiance ETFs LLC",
             "Defiance Group Holdings LLC",
-            "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Delaware Management Company Inc",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
@@ -27998,6 +27998,7 @@
             "MIG Capital LLC",
             "MM VAM LLC",
             "MS&AD Insurance Group Holdings, Inc.",
+            "Macif SAM",
             "Macquarie Group Ltd.",
             "Madison Investment Holdings, Inc.",
             "Magellan Financial Group Ltd.",
@@ -29238,7 +29239,8 @@
             "98",
             "9861",
             "9864",
-            "9866"
+            "9866",
+            "9911"
         ]
     },
     {
@@ -30886,7 +30888,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
