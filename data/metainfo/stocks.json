@@ -16103,13 +16103,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -16117,7 +16110,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16125,6 +16118,13 @@
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16145,14 +16145,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23511,7 +23511,6 @@
             "TD",
             "TEQ",
             "THOR",
-            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -24126,7 +24125,6 @@
             "ESVTFM",
             "ESVTFN",
             "ESVTFR",
-            "ESVTFX",
             "ESVTOR",
             "ESVTXR",
             "ESVUFB",
@@ -24715,7 +24713,9 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -25431,9 +25431,11 @@
             "2043",
             "2044",
             "2045",
+            "2046",
             "2048",
             "2050",
             "2051",
+            "2052",
             "2054",
             "2055",
             "2056",
@@ -27864,7 +27866,6 @@
             "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",
-            "Guolian Minsheng Securities Co., Ltd.",
             "Guotai Asset Management Co., Ltd.",
             "Guotai Haitong Securities Co., Ltd.",
             "Guotai Junan Securities Co., Ltd.",
@@ -28263,7 +28264,6 @@
             "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
-            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
@@ -29238,8 +29238,7 @@
             "98",
             "9861",
             "9864",
-            "9866",
-            "9911"
+            "9866"
         ]
     },
     {
@@ -30887,6 +30886,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
