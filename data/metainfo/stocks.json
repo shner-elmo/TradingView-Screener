@@ -3661,6 +3661,7 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
+            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -4214,7 +4215,6 @@
             "Savings Banks",
             "Semiconductors",
             "Services to the Health Industry",
-            "Sovereign",
             "Specialty Insurance",
             "Specialty Stores",
             "Specialty Telecommunications",
@@ -16117,13 +16117,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -16131,7 +16124,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16145,7 +16138,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16153,6 +16146,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22741,7 +22741,6 @@
             "Alfa",
             "Alger",
             "Alinma",
-            "Allfunds",
             "AllianceBernstein",
             "Allianz",
             "AllianzGI",
@@ -23291,6 +23290,7 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Ninepoint",
@@ -24585,6 +24585,7 @@
             "SG",
             "SI",
             "SK",
+            "SN",
             "SV",
             "TG",
             "TH",
@@ -24714,7 +24715,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -27582,8 +27582,6 @@
             "Alger Associates, Inc. (United States)",
             "Alinma Bank",
             "Alkhabeer Capital",
-            "Allfunds Group Plc",
-            "Allfunds Investment Solutions SA",
             "AllianceBernstein Holding LP",
             "AllianceBernstein LP",
             "Allianz SE",
@@ -28055,6 +28053,7 @@
             "Neil Azous Revocable Trust",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nicholas Wealth LLC",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
@@ -29157,7 +29156,6 @@
             "7",
             "70",
             "72",
-            "8",
             "83",
             "85",
             "86",
@@ -29238,7 +29236,8 @@
             "98",
             "9861",
             "9864",
-            "9866"
+            "9866",
+            "9911"
         ]
     },
     {
@@ -30886,7 +30885,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
