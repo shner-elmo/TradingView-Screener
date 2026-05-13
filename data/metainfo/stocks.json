@@ -3602,7 +3602,6 @@
             "Denmark",
             "Dominican Republic",
             "Egypt",
-            "El Salvador",
             "Estonia",
             "Faroe Islands",
             "Finland",
@@ -16103,13 +16102,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -16117,7 +16109,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16131,7 +16123,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16145,7 +16137,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16153,6 +16145,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22717,6 +22716,7 @@
             "Abacus",
             "Absolute",
             "Academy",
+            "Acatis",
             "Accelerate",
             "Accion",
             "Acquirers Fund",
@@ -22830,6 +22830,7 @@
             "BlackRock",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -23243,6 +23244,7 @@
             "Meitav",
             "Melanion",
             "Meridian",
+            "Meritage",
             "Meritz",
             "MicroBit",
             "Midas Funds",
@@ -24586,7 +24588,6 @@
             "SI",
             "SK",
             "SN",
-            "SV",
             "TG",
             "TH",
             "TN",
@@ -24715,6 +24716,7 @@
         "r": [
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -27236,7 +27238,6 @@
             "Macedonia Stock Exchange",
             "Manulife Investment Management Ltd.",
             "Market Vectors Exchange Traded Notes",
-            "MarketAxess Technologies, Inc.",
             "MarketGrader Capital LLC",
             "MarketVector Indexes GmbH",
             "Maverix Securities AG",
@@ -27549,6 +27550,7 @@
             "818, Inc.",
             "ABN AMRO Bank NV",
             "ABSA Bank Ltd.",
+            "ACATIS Investment Kapitalverwaltungsgesellschaft mbH",
             "ACP Horizon Holdings LP",
             "AG Financial Services Group",
             "AGF Management Ltd.",
@@ -27779,6 +27781,7 @@
             "Edmond de Rothschild Holding SA",
             "El Dorado Asset Management Sociedad Administradora de Fondos",
             "Ellerston Capital Ltd.",
+            "Emirate of Abu Dhabi (United Arab Emirates)",
             "Empirical Finance LLC",
             "Empiricus Gestao De Recursos Ltda.",
             "Envestnet, Inc.",
@@ -27864,6 +27867,7 @@
             "Grupo Safra SA",
             "Guardian Capital Group Ltd.",
             "Guinness Atkinson Asset Management, Inc.",
+            "Guolian Minsheng Securities Co., Ltd.",
             "Guotai Asset Management Co., Ltd.",
             "Guotai Haitong Securities Co., Ltd.",
             "Guotai Junan Securities Co., Ltd.",
@@ -27945,7 +27949,6 @@
             "KB Financial Group, Inc.",
             "KB Securities Co., Ltd. /Private Equity/",
             "KBA Consulting Management Ltd.",
-            "KBC Group NV",
             "KCGI Asset Management Co., Ltd.",
             "KGI Financial Holding Co., Ltd.",
             "KGI Securities (Thailand) PCL",
@@ -29174,6 +29177,7 @@
             "9528",
             "9529",
             "9530",
+            "9532",
             "9534",
             "9535",
             "9536",

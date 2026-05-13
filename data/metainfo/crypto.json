@@ -1346,7 +1346,6 @@
             "AVUSD",
             "AXB",
             "AXLUSDC",
-            "AZND",
             "B",
             "B3",
             "BADGER",
@@ -1633,6 +1632,7 @@
             "RLUSD",
             "RSETH",
             "RW",
+            "RWA",
             "RZ",
             "RZUSD",
             "SAITABIT",
@@ -1729,7 +1729,6 @@
             "USDTZ",
             "USDW",
             "USDZ",
-            "USN",
             "USOL",
             "USX",
             "UUSD",
@@ -12776,13 +12775,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -12790,7 +12782,7 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12804,7 +12796,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12812,6 +12804,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -20232,7 +20231,6 @@
             "XTVCAVUSD4",
             "XTVCAXB",
             "XTVCAXLUSDC",
-            "XTVCAZND",
             "XTVCB",
             "XTVCB3",
             "XTVCBADGER",
@@ -20521,6 +20519,7 @@
             "XTVCRIPE",
             "XTVCRLUSD",
             "XTVCRSETH",
+            "XTVCRWA3",
             "XTVCRWAC",
             "XTVCRZ",
             "XTVCRZUSD",
@@ -20627,7 +20626,6 @@
             "XTVCUSDTZTETH",
             "XTVCUSDW",
             "XTVCUSDZA",
-            "XTVCUSNTO",
             "XTVCUSOLS",
             "XTVCUSXS",
             "XTVCUUSDU",
