@@ -12022,13 +12022,6 @@
         "rd": true
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null,
@@ -12036,7 +12029,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12050,7 +12043,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12064,7 +12057,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12072,6 +12065,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18943,7 +18943,6 @@
             "Cardano",
             "Cartesi",
             "Celestia",
-            "Celo",
             "Centrifuge",
             "Cetus Protocol",
             "ChainGPT",
@@ -18958,6 +18957,7 @@
             "Compound",
             "Conflux",
             "Constellation",
+            "Convex Finance",
             "Core",
             "Cosmos",
             "Cosplay Token",
@@ -19040,7 +19040,6 @@
             "Jelly-My-Jelly",
             "Jito",
             "Jupiter",
-            "Jupiter Perps LP",
             "Just a chill guy",
             "KAITO",
             "Kaspa",
@@ -19057,6 +19056,7 @@
             "Lido DAO",
             "Lido Staked ETH",
             "Linea",
+            "Lista DAO",
             "Litecoin",
             "Lobstar",
             "Loopring",
@@ -19100,6 +19100,7 @@
             "Nexo",
             "Nietzschean Penguin",
             "Nillion",
+            "Nobody Sausage",
             "Nockchain",
             "Nomina",
             "Notcoin",
@@ -19107,7 +19108,6 @@
             "OG Fan Token",
             "OKB",
             "OKZOO",
-            "OLAXBT",
             "ORDI",
             "Oasis",
             "Ondo",
@@ -19146,7 +19146,6 @@
             "Pyth Network",
             "QANplatform",
             "QUBIC",
-            "Quai Network",
             "Quant",
             "RaveDAO",
             "Ravencoin",
@@ -19222,7 +19221,6 @@
             "Toncoin",
             "Tradoor",
             "Trust Wallet Token",
-            "TrustSwap",
             "Turbo",
             "UMA",
             "UNUS SED LEO",
@@ -19295,7 +19293,6 @@
             "XTVCACH",
             "XTVCADA",
             "XTVCAEROD",
-            "XTVCAIO",
             "XTVCAIOT",
             "XTVCAIOZ",
             "XTVCAIXBT",
@@ -19355,7 +19352,6 @@
             "XTVCBUTTCOIN",
             "XTVCCAKE",
             "XTVCCARDSC",
-            "XTVCCELO",
             "XTVCCETUS",
             "XTVCCFG",
             "XTVCCFX",
@@ -19376,6 +19372,7 @@
             "XTVCCROSS",
             "XTVCCRV",
             "XTVCCTSI",
+            "XTVCCVX",
             "XTVCDAG",
             "XTVCDAI",
             "XTVCDAO",
@@ -19456,7 +19453,6 @@
             "XTVCIRYS",
             "XTVCJASMY",
             "XTVCJELLYJELLY",
-            "XTVCJLP",
             "XTVCJST",
             "XTVCJTO",
             "XTVCJUPI",
@@ -19475,6 +19471,7 @@
             "XTVCLEO",
             "XTVCLINEA",
             "XTVCLINK",
+            "XTVCLISTA",
             "XTVCLOBSTAR",
             "XTVCLRC",
             "XTVCLTC",
@@ -19514,6 +19511,7 @@
             "XTVCNEXO",
             "XTVCNFT",
             "XTVCNIL",
+            "XTVCNOBODY",
             "XTVCNOCK",
             "XTVCNOMI",
             "XTVCNOT",
@@ -19558,7 +19556,6 @@
             "XTVCQANX",
             "XTVCQNT",
             "XTVCQQQX",
-            "XTVCQUAI",
             "XTVCQUBIC",
             "XTVCRAVED",
             "XTVCRAY",
@@ -19612,7 +19609,6 @@
             "XTVCSUPER",
             "XTVCSUPRA",
             "XTVCSUSHI",
-            "XTVCSWAP",
             "XTVCSWARMS",
             "XTVCSWEAT",
             "XTVCSYRUP",
@@ -19744,6 +19740,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]

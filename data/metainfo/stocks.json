@@ -5094,7 +5094,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -16116,13 +16115,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -16130,7 +16122,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16138,6 +16130,13 @@
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22741,6 +22740,7 @@
             "Alfa",
             "Alger",
             "Alinma",
+            "Allfunds",
             "AllianceBernstein",
             "Allianz",
             "AllianzGI",
@@ -24651,7 +24651,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -24714,9 +24713,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -27584,6 +27583,8 @@
             "Alger Associates, Inc. (United States)",
             "Alinma Bank",
             "Alkhabeer Capital",
+            "Allfunds Group Plc",
+            "Allfunds Investment Solutions SA",
             "AllianceBernstein Holding LP",
             "AllianceBernstein LP",
             "Allianz SE",
