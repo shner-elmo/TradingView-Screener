@@ -3574,7 +3574,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -3608,6 +3607,7 @@
             "France",
             "Gabon",
             "Germany",
+            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -4185,7 +4185,6 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
-            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -16101,14 +16100,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16129,13 +16128,6 @@
         "rd": true
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null,
@@ -16143,7 +16135,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16151,6 +16143,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23412,6 +23411,7 @@
             "Renaissance",
             "Resolution Capital",
             "Return Stacked",
+            "Ritholtz",
             "River1",
             "RiverFront",
             "RiverNorth",
@@ -24490,7 +24490,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -24524,6 +24523,7 @@
             "FR",
             "GA",
             "GB",
+            "GH",
             "GI",
             "GL",
             "GR",
@@ -24716,6 +24716,7 @@
             "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -27616,7 +27617,6 @@
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
             "Astorg Group SARL",
-            "Avos Capital Management, LLC",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "BCP CC Holdings LP",
@@ -30889,7 +30889,7 @@
             "etf",
             "mutual",
             "odd",
-            "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
