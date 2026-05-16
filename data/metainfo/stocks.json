@@ -3683,6 +3683,7 @@
             "United Kingdom",
             "United States",
             "Uruguay",
+            "Uzbekistan",
             "Venezuela",
             "Vietnam",
             "Zambia"
@@ -16114,14 +16115,14 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23459,6 +23460,7 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -23660,7 +23662,8 @@
             "iMGP",
             "iPath",
             "iShares",
-            "nxtAssets"
+            "nxtAssets",
+            "xETFs"
         ]
     },
     {
@@ -24597,6 +24600,7 @@
             "UG",
             "US",
             "UY",
+            "UZ",
             "VE",
             "VG",
             "VN",
@@ -24713,11 +24717,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -27585,7 +27586,6 @@
             "Alinma Bank",
             "Alkhabeer Capital",
             "Allfunds Group Plc",
-            "Allfunds Investment Solutions SA",
             "AllianceBernstein Holding LP",
             "AllianceBernstein LP",
             "Allianz SE",
@@ -27940,6 +27940,7 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",

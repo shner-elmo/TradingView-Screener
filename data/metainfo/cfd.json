@@ -12051,13 +12051,6 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null,
@@ -12065,7 +12058,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -12073,6 +12066,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -18943,6 +18943,7 @@
             "CROSS",
             "Cardano",
             "Cartesi",
+            "Casper",
             "Celestia",
             "Celo",
             "Centrifuge",
@@ -19031,7 +19032,6 @@
             "IOTA",
             "Illuvium",
             "Immutable",
-            "Index Cooperative",
             "Injective",
             "Internet Computer",
             "Inverse Finance",
@@ -19054,7 +19054,6 @@
             "LAB",
             "LCX",
             "LayerZero",
-            "LeisureMeta",
             "Lido DAO",
             "Lido Staked ETH",
             "Linea",
@@ -19202,6 +19201,7 @@
             "Swarm Network",
             "Swarms",
             "Synthetix",
+            "TAC Protocol",
             "THORChain",
             "TROLL (SOL)",
             "TRON",
@@ -19373,6 +19373,7 @@
             "XTVCCRO",
             "XTVCCROSS",
             "XTVCCRV",
+            "XTVCCSPR",
             "XTVCCTSI",
             "XTVCCVX",
             "XTVCDAG",
@@ -19447,7 +19448,6 @@
             "XTVCICX",
             "XTVCILV",
             "XTVCIMX",
-            "XTVCINDEX",
             "XTVCINJ",
             "XTVCINV",
             "XTVCIOTA",
@@ -19473,7 +19473,6 @@
             "XTVCLINEA",
             "XTVCLINK",
             "XTVCLISTA",
-            "XTVCLM",
             "XTVCLOBSTAR",
             "XTVCLRC",
             "XTVCLTC",
@@ -19613,6 +19612,7 @@
             "XTVCSWARMS",
             "XTVCSWEAT",
             "XTVCSYRUP",
+            "XTVCTACP",
             "XTVCTAOB",
             "XTVCTEL",
             "XTVCTHETA",
@@ -19741,7 +19741,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
