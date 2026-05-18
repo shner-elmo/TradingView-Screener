@@ -4214,6 +4214,7 @@
             "Savings Banks",
             "Semiconductors",
             "Services to the Health Industry",
+            "Sovereign",
             "Specialty Insurance",
             "Specialty Stores",
             "Specialty Telecommunications",
@@ -16101,13 +16102,6 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null,
@@ -16115,7 +16109,7 @@
         "rd": true
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16129,7 +16123,7 @@
         "rd": true
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16143,7 +16137,7 @@
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16151,6 +16145,13 @@
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22987,7 +22988,6 @@
             "Evoke",
             "Evolve",
             "Evovest",
-            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -23153,7 +23153,6 @@
             "Jensen",
             "John Hancock",
             "Jupiter",
-            "K2",
             "KB",
             "KB RISE",
             "KBStar ETF",
@@ -24718,7 +24717,9 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -27947,7 +27948,6 @@
             "Japan Agricultural Cooperatives Group",
             "Jensen Investment Management, Inc.",
             "Jupiter Fund Management Plc",
-            "K2 Asset Management Holdings Ltd.",
             "KB Financial Group, Inc.",
             "KB Securities Co., Ltd. /Private Equity/",
             "KBA Consulting Management Ltd.",
@@ -28282,6 +28282,7 @@
             "Twin Oak Holdings LP",
             "T\u00fcrkiye Is Bankasi AS",
             "U.S. Global Investors, Inc.",
+            "UBS AG (London Branch)",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
