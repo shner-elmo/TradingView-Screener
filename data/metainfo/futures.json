@@ -1814,6 +1814,27 @@
         "rd": true
     },
     {
+        "n": "Perf.10Y_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.1M_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.3M_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "Perf.3Y",
         "t": "number",
         "r": null,
@@ -1821,7 +1842,61 @@
         "rd": true
     },
     {
+        "n": "Perf.3Y_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "Perf.5D",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.5D_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.5Y_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.6M_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All_abs",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Perf.W_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.YTD_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.Y_abs",
         "t": "number",
         "r": null,
         "hh": true,
@@ -2459,7 +2534,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market"
         ]
     },
     {

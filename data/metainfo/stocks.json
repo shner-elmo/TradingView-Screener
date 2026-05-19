@@ -3673,6 +3673,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -4186,6 +4187,7 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
+            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -14009,7 +14011,21 @@
         "rd": true
     },
     {
+        "n": "Perf.10Y_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "Perf.1M.MarketCap",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.1M_abs",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14037,7 +14053,21 @@
         "rd": true
     },
     {
+        "n": "Perf.3M_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "Perf.3Y",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.3Y_abs",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14051,7 +14081,21 @@
         "rd": true
     },
     {
+        "n": "Perf.5D_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "Perf.5Y.MarketCap",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.5Y_abs",
         "t": "number",
         "r": null,
         "hh": true,
@@ -14065,7 +14109,40 @@
         "rd": true
     },
     {
+        "n": "Perf.6M_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.All_abs",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Perf.W_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
         "n": "Perf.YTD.MarketCap",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.YTD_abs",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "Perf.Y_abs",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16116,13 +16193,6 @@
         "rd": true
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null,
@@ -16130,7 +16200,7 @@
         "rd": true
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16144,7 +16214,7 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null,
         "hh": true,
@@ -16152,6 +16222,13 @@
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null,
+        "hh": true,
+        "rd": true
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -22870,7 +22947,6 @@
             "Cabana",
             "Caixa",
             "Calamos",
-            "Caldwell",
             "Calvert",
             "Cambiar Funds",
             "Cambria",
@@ -22918,6 +22994,7 @@
             "Counterpoint",
             "Credit Mutuel",
             "Credit Suisse",
+            "CresAlta",
             "CrossingBridge Funds",
             "Crossmark",
             "Cullen",
@@ -22988,7 +23065,6 @@
             "Evoke",
             "Evolve",
             "Evovest",
-            "Exemplar",
             "Expat",
             "F/m",
             "FINQ",
@@ -23509,7 +23585,6 @@
             "T-Capital",
             "T-Rex",
             "T. Rowe Price",
-            "TBI",
             "TCW",
             "TD",
             "TEQ",
@@ -23654,7 +23729,6 @@
             "Ziller",
             "Ziraat",
             "aberdeen",
-            "iA",
             "iA Clarington",
             "iFreeETF",
             "iM",
@@ -24108,7 +24182,6 @@
             "EPVXFR",
             "EPVXUR",
             "EPXNFR",
-            "EPXXXB",
             "EPXXXX",
             "ESETFR",
             "ESEUFN",
@@ -24595,6 +24668,7 @@
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "UG",
             "US",
@@ -24716,6 +24790,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "post_market",
@@ -27557,6 +27632,7 @@
             "AG Financial Services Group",
             "AGF Management Ltd.",
             "AJM Ventures LLC",
+            "AMG National Corp.",
             "AMMB Holdings Bhd.",
             "AOT Invest LLC",
             "ARK Invest LLC",
@@ -27683,7 +27759,6 @@
             "CTBC Financial Holding Co., Ltd.",
             "CYBER HORNET ETFs LLC",
             "Calamos Family Partners, Inc.",
-            "Caldwell Financial Ltd.",
             "Cambiar Holdings LLLP",
             "Cambria Investment Management LP",
             "Canadian Imperial Bank of Commerce",
@@ -27828,7 +27903,6 @@
             "Founder Fubon Fund Management Co., Ltd.",
             "Framework Digital Advisors LLC",
             "Franklin Resources, Inc.",
-            "Franklin Templeton Fund Adviser LLC",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
             "Frontier Asset Management LLC",
             "Fubon Financial Holding Co., Ltd.",
@@ -28081,7 +28155,6 @@
             "Osmanli Yatirim Menkul Degerler AS",
             "Osprey Funds LLC",
             "Oversea-Chinese Banking Corp. Ltd.",
-            "PBT Holdings Ltd.",
             "PEH Wertpapier AG",
             "PMV Capital LLC",
             "PT Bahana TCW Investment Management",
@@ -30891,7 +30964,7 @@
             "etf",
             "mutual",
             "odd",
-            "pre-ipo",
+            "otc",
             "preferred",
             "reit",
             "sharia",
