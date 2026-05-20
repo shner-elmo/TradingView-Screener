@@ -142,7 +142,6 @@
                 "sortBy": "market_cap_basic",
                 "sortOrder": "desc"
             },
-            "symbols": {},
             "markets": [
                 "america"
             ],
@@ -229,7 +228,8 @@
                                                     "left": "typespecs",
                                                     "operation": "has_none_of",
                                                     "right": [
-                                                        "etf"
+                                                        "etf",
+                                                        "mutual"
                                                     ]
                                                 }
                                             }
@@ -251,7 +251,7 @@
                 ]
             }
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'volume',\n     'relative_volume_10d_calc',\n     'market_cap_basic',\n     'fundamental_currency_code',\n     'price_earnings_ttm',\n     'earnings_per_share_diluted_ttm',\n     'earnings_per_share_diluted_yoy_growth_ttm',\n     'dividends_yield_current',\n     'sector.tr',\n     'market',\n     'sector',\n     'AnalystRating',\n     'AnalystRating.tr',\n )\n .where(col('is_primary') == True)\n .where2(\n     And(\n         Or(\n             And(col('type') == 'stock', col('typespecs').has(['common'])),\n             And(col('type') == 'stock', col('typespecs').has(['preferred'])),\n             And(col('type') == 'dr'),\n             And(col('type') == 'fund', col('typespecs').has_none_of(['etf'])),\n         ),\n         col('typespecs').has_none_of(['pre-ipo']),\n     )\n )\n .order_by('market_cap_basic', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'volume',\n     'relative_volume_10d_calc',\n     'market_cap_basic',\n     'fundamental_currency_code',\n     'price_earnings_ttm',\n     'earnings_per_share_diluted_ttm',\n     'earnings_per_share_diluted_yoy_growth_ttm',\n     'dividends_yield_current',\n     'sector.tr',\n     'market',\n     'sector',\n     'AnalystRating',\n     'AnalystRating.tr',\n )\n .where(col('is_primary') == True)\n .where2(\n     And(\n         Or(\n             And(col('type') == 'stock', col('typespecs').has(['common'])),\n             And(col('type') == 'stock', col('typespecs').has(['preferred'])),\n             And(col('type') == 'dr'),\n             And(col('type') == 'fund', col('typespecs').has_none_of(['etf', 'mutual'])),\n         ),\n         col('typespecs').has_none_of(['pre-ipo']),\n     )\n )\n .order_by('market_cap_basic', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False))"
     },
     {
         "name": "Forex",
@@ -405,12 +405,11 @@
                 "sortBy": "crypto_total_rank",
                 "sortOrder": "asc"
             },
-            "symbols": {},
             "markets": [
                 "coin"
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'crypto_total_rank',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol_cmc',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'TechRating_1D',\n     'TechRating_1D.tr',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'crypto_total_rank',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol_cmc',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'TechRating_1D',\n     'TechRating_1D.tr',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('ignore_unknown_fields', False))"
     },
     {
         "name": "ETFs",
@@ -428,9 +427,9 @@
                 "currency",
                 "change",
                 "Value.Traded",
+                "fundamental_currency_code",
                 "relative_volume_10d_calc",
                 "aum",
-                "fundamental_currency_code",
                 "nav_total_return.3Y",
                 "expense_ratio",
                 "asset_class.tr",
@@ -448,7 +447,6 @@
                 "sortBy": "aum",
                 "sortOrder": "desc"
             },
-            "symbols": {},
             "markets": [
                 "america"
             ],
@@ -495,7 +493,7 @@
                 ]
             }
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'Value.Traded',\n     'relative_volume_10d_calc',\n     'aum',\n     'fundamental_currency_code',\n     'nav_total_return.3Y',\n     'expense_ratio',\n     'asset_class.tr',\n     'focus.tr',\n )\n .where2(And(Or(And(col('typespecs').has(['etf'])), And(col('type') == 'structured'))))\n .order_by('aum', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'Value.Traded',\n     'fundamental_currency_code',\n     'relative_volume_10d_calc',\n     'aum',\n     'nav_total_return.3Y',\n     'expense_ratio',\n     'asset_class.tr',\n     'focus.tr',\n )\n .where2(And(Or(And(col('typespecs').has(['etf'])), And(col('type') == 'structured'))))\n .order_by('aum', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False))"
     },
     {
         "name": "Bonds",
@@ -503,6 +501,8 @@
         "query": {
             "columns": [
                 "ticker-view",
+                "exchange.tr",
+                "source-logoid",
                 "isin-displayed",
                 "yield_to_worst",
                 "close_pct",
@@ -515,8 +515,7 @@
                 "redemption_type.tr",
                 "bond_issuer_type.tr",
                 "bond_snp_rating_lt.tr",
-                "exchange.tr",
-                "source-logoid"
+                "bond_fitch_rating_lt.tr"
             ],
             "ignore_unknown_fields": false,
             "options": {
@@ -530,11 +529,10 @@
                 "sortBy": "bond_snp_rating_lt",
                 "sortOrder": "desc"
             },
-            "symbols": {},
             "markets": [
                 "bond"
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'exchange.tr',\n     'source-logoid',\n )\n .order_by('bond_snp_rating_lt', ascending=False)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False)\n .set_property('symbols', {}))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'exchange.tr',\n     'source-logoid',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'bond_fitch_rating_lt.tr',\n )\n .order_by('bond_snp_rating_lt', ascending=False)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False))"
     }
 ]
