@@ -4922,7 +4922,6 @@
         "t": "text",
         "r": [
             "",
-            "EMQI",
             "MAIN",
             "OTCQB",
             "OTCQX",
@@ -16224,14 +16223,14 @@
         "rd": true
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null,
         "hh": true,
@@ -23562,6 +23561,7 @@
             "SoFi",
             "Societe Generale",
             "SonicShares",
+            "Sophus",
             "Sound Income Strategies",
             "SoundWatch Capital",
             "Sovereign's",
@@ -29343,7 +29343,8 @@
             "9861",
             "9864",
             "9866",
-            "9911"
+            "9911",
+            "9921"
         ]
     },
     {
