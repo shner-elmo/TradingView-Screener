@@ -109,6 +109,7 @@
             "Barbados",
             "Belarus",
             "Belgium",
+            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -7851,6 +7852,7 @@
             "Vestfjorden Avl\u00f8psselskap (Veas)",
             "Via A11 NV",
             "Via Pribina AS",
+            "Via Renewables, Inc.",
             "ViaSat, Inc.",
             "Viatris, Inc.",
             "Viavi Solutions, Inc.",
@@ -10023,6 +10025,7 @@
             "NASDAQ:VEON",
             "NASDAQ:VERI",
             "NASDAQ:VERX",
+            "NASDAQ:VIASP",
             "NASDAQ:VIAV",
             "NASDAQ:VLY",
             "NASDAQ:VNET",
@@ -13735,6 +13738,7 @@
             "NASDAQ:VECO",
             "NASDAQ:VERI",
             "NASDAQ:VERX",
+            "NASDAQ:VIASP",
             "NASDAQ:VIAV",
             "NASDAQ:VLY",
             "NASDAQ:VNET",
@@ -16310,6 +16314,7 @@
             "BR",
             "BS",
             "BY",
+            "BZ",
             "CA",
             "CD",
             "CG",
@@ -17057,6 +17062,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
