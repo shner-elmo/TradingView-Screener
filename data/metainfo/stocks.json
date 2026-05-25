@@ -32,12 +32,20 @@
                 "name": "FTSE ADX Growth Market"
             },
             {
+                "id": "ADX:FADSI",
+                "name": "FTSE ADX Dividend Stars"
+            },
+            {
                 "id": "ADX:FADX15",
                 "name": "FTSE ADX 15"
             },
             {
                 "id": "ADX:FADXI15",
                 "name": "FTSE ADX 15 Islamic"
+            },
+            {
+                "id": "ADX:FADXSI",
+                "name": "FTSE ADX ESG Screened"
             },
             {
                 "id": "ASX:XAO",
@@ -16181,14 +16189,14 @@
         "rd": true
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null,
         "hh": true,
         "rd": true
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null,
         "hh": true,
@@ -24809,7 +24817,9 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -25525,7 +25535,6 @@
             "2043",
             "2044",
             "2045",
-            "2046",
             "2048",
             "2050",
             "2051",
@@ -26397,8 +26406,10 @@
         "r": [
             "SYML:ADX;FADGI",
             "SYML:ADX;FADGMI",
+            "SYML:ADX;FADSI",
             "SYML:ADX;FADX15",
             "SYML:ADX;FADXI15",
+            "SYML:ADX;FADXSI",
             "SYML:ASX;XAO",
             "SYML:ASX;XFL",
             "SYML:ASX;XJO",
@@ -27681,6 +27692,7 @@
             "Alinma Bank",
             "Alkhabeer Capital",
             "Allfunds Group Plc",
+            "Allfunds Investment Solutions SA",
             "AllianceBernstein Holding LP",
             "AllianceBernstein LP",
             "Allianz SE",
@@ -28296,7 +28308,6 @@
             "Simplify Asset Management, Inc.",
             "SinoPac Financial Holdings Co., Ltd.",
             "Skandinaviska Enskilda Banken AB",
-            "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Gestion SA",
             "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale SA",
             "Sound Capital Holdings LLC",
             "Sound Capital Solutions LLC",
@@ -30993,6 +31004,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
