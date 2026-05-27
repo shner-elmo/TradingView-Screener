@@ -19,23 +19,17 @@
     {
         "n": "change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "sector",
@@ -67,9 +61,7 @@
     {
         "n": "volume",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.All",
@@ -79,16 +71,12 @@
     {
         "n": "change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_from_open_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "country",
@@ -292,16 +280,12 @@
     {
         "n": "gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "high",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "industry",
@@ -447,65 +431,47 @@
     {
         "n": "low",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "open",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "submarket",
@@ -555,9 +521,7 @@
     {
         "n": "_pine_close_",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "accrued_coupon_interest",
@@ -607,9 +571,7 @@
     {
         "n": "bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "base_currency_kind",
@@ -811,7 +773,6 @@
             "Aargauische Kantonalbank",
             "Aasen Sparebank",
             "Aavas Financiers Ltd.",
-            "Abay Leasing 2014 LLC",
             "AbbVie, Inc.",
             "Abbott Laboratories",
             "Abengoa SA",
@@ -1769,6 +1730,7 @@
             "BlueLinx Holdings, Inc.",
             "BlueNord ASA",
             "Bluewater Holding BV",
+            "Bnp Paribas Cardif",
             "Boardwalk Pipeline Partners LP",
             "Boats Investments (Netherlands) BV",
             "Bobst Group SA",
@@ -2087,6 +2049,7 @@
             "Caybon Holding AB",
             "Cayo Norte Sp zoo",
             "Cboe Global Markets, Inc.",
+            "Ccit Group A/S",
             "Cedars-Sinai Health System",
             "Cedisur SA",
             "Celanese Corp.",
@@ -2882,7 +2845,6 @@
             "Eagle Bancorp Montana, Inc.",
             "Eagle Bancorp, Inc. (Maryland)",
             "Eagle Materials, Inc.",
-            "Eagle Point Credit Co., Inc.",
             "Eaglestone Group SARL",
             "EarlySalary Service Pvt Ltd.",
             "Earthstone Energy, Inc.",
@@ -3133,7 +3095,6 @@
             "Evoca SpA",
             "Evoke Plc",
             "Evolent Health, Inc.",
-            "Evolve Bancorp, Inc.",
             "Evonik Industries AG",
             "Evotec SE",
             "Exail Technologies SA",
@@ -3418,7 +3379,6 @@
             "GATX Corp.",
             "GB Social Housing (Holdings) Ltd.",
             "GCC SAB de CV",
-            "GCI Liberty, Inc.",
             "GD Power Development Co., Ltd.",
             "GDS Holdings Ltd.",
             "GE Aerospace",
@@ -4233,7 +4193,6 @@
             "Inner Mongolia Xingye Silver & Tin Mining Co., Ltd.",
             "Innisfree Ltd.",
             "Innophos Holdings, Inc.",
-            "Innovative Industrial Properties, Inc.",
             "Innoviva, Inc.",
             "Inotiv, Inc.",
             "Inova Health System Foundation",
@@ -4439,7 +4398,6 @@
             "Jilin Provincial Communication Department",
             "Jimo City Land Reserve Center",
             "Jinan City Construction Group Co., Ltd.",
-            "Jinan City Investment Group Co., Ltd.",
             "Jinan Hi-Tech Holding Group Co., Ltd.",
             "Jinan Lixia Holding Group Co. Ltd.",
             "Jinan Rail Transit Group Co. Ltd.",
@@ -4581,6 +4539,7 @@
             "Kimberly-Clark Corp.",
             "Kimberly-Clark de M\u00e9xico SAB de CV",
             "Kimco Realty Corp.",
+            "Kinara Capital Pvt Ltd.",
             "Kinder Morgan, Inc.",
             "Kinderspital Z\u00fcrich Eleonorenstiftung",
             "Kinepolis Group NV",
@@ -4795,6 +4754,7 @@
             "Liaocheng City Antai Urban & Rural Investment Dev Co., Ltd.",
             "Liaocheng Industrial Economic Development Co. Ltd.",
             "Liaoning Cheng Da Co., Ltd.",
+            "Liberty Capital Corp.",
             "Liberty Energy, Inc.",
             "Liberty Global Holdings Ltd.",
             "Liberty Infrabuild Ltd.",
@@ -5113,6 +5073,7 @@
             "McKesson Corp.",
             "Mechanics Bancorp",
             "MedStar Health, Inc.",
+            "Medallion Financial Corp.",
             "Medical Properties Trust, Inc.",
             "Mediobanca Banca di Credito Finanziario SpA",
             "Medipower (Overseas) PCL",
@@ -5219,7 +5180,6 @@
             "Mining & Metallurgical Company NORILSK NICKEL PJSC",
             "Minmetals Capital Co., Ltd.",
             "Minnesota Mutual Cos., Inc.",
-            "Minor International Public Co., Ltd.",
             "Minrav Group Ltd.",
             "Minsur SA",
             "Mirae Asset Financial Group",
@@ -5673,6 +5633,7 @@
             "Octagon Healthcare Funding PLC",
             "Octave Specialty Group, Inc.",
             "Odal Sparebank",
+            "Odea Bank AS",
             "Odfjell Drilling Ltd.",
             "Odido Group Holding BV",
             "Ofek Group (P.H.A.) Investments Ltd.",
@@ -5991,6 +5952,7 @@
             "PhillipCapital",
             "Phillips 66",
             "Phillips Edison & Co., Inc.",
+            "Phison Electronics Corp.",
             "Phoenix ARC Pvt Ltd.",
             "Phoenix Aviation Capital LLC",
             "Phoenix Capital Holding AD",
@@ -6032,6 +5994,7 @@
             "Planet Financial Group LLC",
             "Platform Housing Group Ltd.",
             "Platform4 Rail Regeneration Ltd.",
+            "Platinum Equity Advisors LLC",
             "Platinum Securities Cayman SPC Ltd.",
             "Playtech Plc",
             "Playtika Holding Corp.",
@@ -6243,7 +6206,6 @@
             "ROADIS Transportation Holding SLU",
             "ROI Property Fund REIT",
             "RPM International, Inc.",
-            "RRD Intermediate Holdings, Inc.",
             "RTX Corp.",
             "RWE AG",
             "RWJ Barnabas Health, Inc.",
@@ -6449,7 +6411,6 @@
             "Ruta 3 Automotores SA",
             "Rutas 2 & 7 Finance Ltd.",
             "Ryan Specialty LLC",
-            "Ryanair Holdings Plc",
             "Ryder System, Inc.",
             "Ryman Hospitality Properties, Inc.",
             "R\u00e9alit\u00e9s SA",
@@ -6690,7 +6651,6 @@
             "ServiceNow, Inc.",
             "Services Industriels de Gen\u00e8ve",
             "Ses Financing SARL",
-            "Setco Automotive Ltd.",
             "Settle Group",
             "Seven & i Holdings Co., Ltd.",
             "Sever Holding AD",
@@ -6819,6 +6779,7 @@
             "Shuozhou City Development Group Co. Ltd.",
             "Shurgard Self Storage Ltd.",
             "Shutterfly LLC",
+            "SiTime Corp.",
             "Sibanye Gold Ltd.",
             "Sibanye-Stillwater UK Financing Plc",
             "Sichuan Anzhou Development Group Co., Ltd.",
@@ -7095,6 +7056,7 @@
             "Sumisho Air Lease Corp.",
             "Sumitomo Chemical Co., Ltd.",
             "Sumitomo Corp.",
+            "Sumitomo Forestry Co., Ltd.",
             "Sumitomo Life Insurance Co.",
             "Sumitomo Mitsui Finance & Leasing Co., Ltd.",
             "Sumitomo Mitsui Financial Group, Inc.",
@@ -7290,6 +7252,7 @@
             "Tecpetrol SA",
             "Teilor Holding SA",
             "Teine Energy Ltd.",
+            "Tekni-Plex, Inc.",
             "Teladoc Health, Inc.",
             "Telangana State Industrial Infrastructure Corp. Ltd.",
             "Tele Columbus AG",
@@ -7488,7 +7451,6 @@
             "The Williams Cos., Inc.",
             "Thermo Fisher Scientific, Inc.",
             "Thirax 1 LLC",
-            "Thirax 2 LLC",
             "Thomas Cook Group Plc",
             "Thomson Reuters Corp.",
             "Thon Holding AS",
@@ -7590,12 +7552,10 @@
             "Travere Therapeutics, Inc.",
             "Trefelt Argentina SA",
             "Tresnal Agropecuaria SA",
-            "Tri Pointe Homes, Inc.",
             "Tri-State Generation & Transmission Association, Inc.",
             "TriMas Corp.",
             "TriNet Group, Inc.",
             "Trident Energy LP",
-            "Trident TPI Holdings, Inc.",
             "Trifuchsia Midco SARL",
             "Trigema as",
             "Trillium Health, Inc.",
@@ -7839,7 +7799,7 @@
             "Veritone, Inc.",
             "Verizon Communications, Inc.",
             "Vermilion Energy, Inc.",
-            "Verra Mobility Corp. /Old/",
+            "Verra Mobility Corp.",
             "VersaBank",
             "Versant Media Group, Inc.",
             "Vertex, Inc.",
@@ -8031,6 +7991,7 @@
             "Weyerhaeuser Co.",
             "Wheatley Housing Group Ltd.",
             "Wheel Topco Ltd.",
+            "Wheeler Real Estate Investment Trust, Inc.",
             "Wheelock & Co. Ltd.",
             "Whirlpool Corp.",
             "Whispering Heights Real Estate Pvt Ltd.",
@@ -8081,6 +8042,7 @@
             "Worley Ltd.",
             "Worthington Enterprises, Inc.",
             "WorxInvest NV",
+            "WuXi AppTec Co., Ltd.",
             "Wuchan Zhongda Group Co., Ltd.",
             "Wuhan DR Laser Technology Corp., Ltd.",
             "Wuhan Dangdai Technology Industry Group Co. Ltd.",
@@ -8529,7 +8491,7 @@
             "BAHRAIN:BBK",
             "BAHRAIN:BMUSC",
             "BAHRAIN:GFH",
-            "BCBA:ALUAB",
+            "BCBA:ALUA.CI",
             "BCBA:AUSO",
             "BCBA:AYPF",
             "BCBA:BBAR",
@@ -8537,18 +8499,15 @@
             "BCBA:BMA",
             "BCBA:BPAT",
             "BCBA:CAPX",
-            "BCBA:CGPA2",
-            "BCBA:COP",
+            "BCBA:CGPA2.CI",
             "BCBA:CRES",
             "BCBA:EDN",
             "BCBA:GGACB",
-            "BCBA:INVJ",
-            "BCBA:IRSAB",
+            "BCBA:INVJ.CI",
+            "BCBA:IRSA.CI",
             "BCBA:LEDE",
             "BCBA:LOMA",
             "BCBA:MIRG",
-            "BCBA:MP",
-            "BCBA:NEE",
             "BCBA:PAMCB",
             "BCBA:RCHDB",
             "BCBA:SAMI",
@@ -8628,7 +8587,6 @@
             "BIVA:FIBRAHD/15",
             "BIVA:LAZR",
             "BIVA:SOMA/21",
-            "BIVA:TPH",
             "BME:ACS",
             "BME:ADX",
             "BME:AENA",
@@ -8987,7 +8945,6 @@
             "EURONEXT:RI",
             "EURONEXT:RNO",
             "EURONEXT:RXL",
-            "EURONEXT:RYA",
             "EURONEXT:SAF",
             "EURONEXT:SAN",
             "EURONEXT:SBMO",
@@ -9836,6 +9793,7 @@
             "NASDAQ:META",
             "NASDAQ:METC",
             "NASDAQ:MFIC",
+            "NASDAQ:MFIN",
             "NASDAQ:MGEE",
             "NASDAQ:MGPI",
             "NASDAQ:MIRM",
@@ -9966,6 +9924,7 @@
             "NASDAQ:SIFY",
             "NASDAQ:SIGI",
             "NASDAQ:SIRI",
+            "NASDAQ:SITM",
             "NASDAQ:SKIN",
             "NASDAQ:SLM",
             "NASDAQ:SMCI",
@@ -10032,6 +9991,7 @@
             "NASDAQ:VNET",
             "NASDAQ:VRDN",
             "NASDAQ:VRNS",
+            "NASDAQ:VRRM",
             "NASDAQ:VRSK",
             "NASDAQ:VRSN",
             "NASDAQ:VSAT",
@@ -10041,6 +10001,7 @@
             "NASDAQ:WDAY",
             "NASDAQ:WFRD",
             "NASDAQ:WHF",
+            "NASDAQ:WHLR",
             "NASDAQ:WIX",
             "NASDAQ:WLFC",
             "NASDAQ:WMG",
@@ -10288,7 +10249,6 @@
             "NSE:SBICARD",
             "NSE:SBIN",
             "NSE:SEITINVIT",
-            "NSE:SETCO",
             "NSE:SFL",
             "NSE:SHAREINDIA",
             "NSE:SHREECEM",
@@ -10554,6 +10514,7 @@
             "NYSE:COHR",
             "NYSE:COLD",
             "NYSE:COMP",
+            "NYSE:COP",
             "NYSE:COR",
             "NYSE:COTY",
             "NYSE:CPS",
@@ -10625,7 +10586,6 @@
             "NYSE:EAF",
             "NYSE:EAT",
             "NYSE:EBS",
-            "NYSE:ECC",
             "NYSE:ECL",
             "NYSE:ED",
             "NYSE:EE",
@@ -10780,7 +10740,6 @@
             "NYSE:IFF",
             "NYSE:IFS",
             "NYSE:IHS",
-            "NYSE:IIPR",
             "NYSE:INGR",
             "NYSE:INVH",
             "NYSE:IP",
@@ -10891,6 +10850,7 @@
             "NYSE:MO",
             "NYSE:MOH",
             "NYSE:MOS",
+            "NYSE:MP",
             "NYSE:MPC",
             "NYSE:MPLX",
             "NYSE:MPT",
@@ -10920,6 +10880,7 @@
             "NYSE:NCDL",
             "NYSE:NCLH",
             "NYSE:NE",
+            "NYSE:NEE",
             "NYSE:NEM",
             "NYSE:NET",
             "NYSE:NEU",
@@ -11462,7 +11423,6 @@
             "OTC:SFIGA",
             "OTC:SLNAF",
             "OTC:SPBRF",
-            "OTC:SRALY",
             "OTC:TPICQ",
             "OTC:TSEOF",
             "OTC:VTGDF",
@@ -11518,7 +11478,6 @@
             "SET:BBL",
             "SET:KBANK",
             "SET:KTB",
-            "SET:MINT",
             "SET:MTC",
             "SET:PTT",
             "SET:PTTEP",
@@ -11621,6 +11580,7 @@
             "SIX:SLHN",
             "SIX:SOON",
             "SIX:SPSN",
+            "SIX:SRAIL",
             "SIX:SREN",
             "SIX:STMN",
             "SIX:SUN",
@@ -11714,6 +11674,7 @@
             "SSE:601992",
             "SSE:601995",
             "SSE:601998",
+            "SSE:603259",
             "SSE:603993",
             "SWB:59Q",
             "SWB:6SO",
@@ -12019,6 +11980,8 @@
             "TASE:ZUR",
             "TPEX:5347",
             "TPEX:6488",
+            "TPEX:8299",
+            "TSE:1911",
             "TSE:1928",
             "TSE:2502",
             "TSE:285A",
@@ -12389,6 +12352,7 @@
             "500",
             "530",
             "540",
+            "560",
             "570",
             "580",
             "590",
@@ -12474,7 +12438,6 @@
             "ASX:IAG",
             "ASX:JDO",
             "ASX:LFS",
-            "ASX:LLC",
             "ASX:MGR",
             "ASX:MIN",
             "ASX:MQG",
@@ -12511,7 +12474,7 @@
             "ATHEX:TPEIR",
             "BAHRAIN:BBK",
             "BAHRAIN:BMUSC",
-            "BCBA:ALUAB",
+            "BCBA:ALUA.CI",
             "BCBA:AUSO",
             "BCBA:AYPF",
             "BCBA:BBAR",
@@ -12519,16 +12482,14 @@
             "BCBA:BMA",
             "BCBA:BPAT",
             "BCBA:CAPX",
-            "BCBA:CGPA2",
-            "BCBA:COP",
+            "BCBA:CGPA2.CI",
             "BCBA:CRES",
             "BCBA:EDN",
-            "BCBA:INVJ",
-            "BCBA:IRSAB",
+            "BCBA:INVJ.CI",
+            "BCBA:IRSA.CI",
             "BCBA:LEDE",
             "BCBA:LOMA",
             "BCBA:MIRG",
-            "BCBA:MP",
             "BCBA:PAMCB",
             "BCBA:RCHDB",
             "BCBA:SAMI",
@@ -12597,7 +12558,6 @@
             "BIST:VESTL",
             "BIST:YKBNK",
             "BIST:ZOREN",
-            "BIVA:CCL/N",
             "BIVA:FIBRAHD/15",
             "BIVA:FL",
             "BIVA:LAZR",
@@ -12630,7 +12590,6 @@
             "BME:UNI",
             "BMFBOVESPA:AXIA3",
             "BMFBOVESPA:B3SA3",
-            "BMFBOVESPA:C1OG34",
             "BMFBOVESPA:NATU3",
             "BMFBOVESPA:OIBR3",
             "BMFBOVESPA:SANB3",
@@ -12642,6 +12601,8 @@
             "BMV:CEMEX/A",
             "BMV:CREAL",
             "BMV:CUERVO",
+            "BMV:CUK/N",
+            "BMV:CYBR/N",
             "BMV:CYDSASA/A",
             "BMV:ESENTIA/I",
             "BMV:EXAS",
@@ -12752,6 +12713,8 @@
             "BVMT:TJL",
             "BVMT:TLS",
             "BVMT:UBCI",
+            "BX:APLS",
+            "BX:XCQ",
             "CBOE:CBOE",
             "CSE:AAWH.U",
             "CSE:AYR.A",
@@ -13581,6 +13544,7 @@
             "NASDAQ:META",
             "NASDAQ:METC",
             "NASDAQ:MFIC",
+            "NASDAQ:MFIN",
             "NASDAQ:MGPI",
             "NASDAQ:MIRM",
             "NASDAQ:MKSI",
@@ -13690,6 +13654,7 @@
             "NASDAQ:SFNC",
             "NASDAQ:SFST",
             "NASDAQ:SIGI",
+            "NASDAQ:SITM",
             "NASDAQ:SKIN",
             "NASDAQ:SLM",
             "NASDAQ:SMCI",
@@ -14152,6 +14117,7 @@
             "NYSE:CCO",
             "NYSE:CCS",
             "NYSE:CDE",
+            "NYSE:CDR/PB",
             "NYSE:CFG",
             "NYSE:CFR",
             "NYSE:CHD",
@@ -14181,6 +14147,7 @@
             "NYSE:COF",
             "NYSE:COHR",
             "NYSE:COMP",
+            "NYSE:COP",
             "NYSE:COR",
             "NYSE:COTY",
             "NYSE:CPT",
@@ -14464,6 +14431,7 @@
             "NYSE:MO",
             "NYSE:MOH",
             "NYSE:MOS",
+            "NYSE:MP",
             "NYSE:MPC",
             "NYSE:MPLX",
             "NYSE:MRK",
@@ -14947,7 +14915,6 @@
             "OTC:SNTUF",
             "OTC:SOCGP",
             "OTC:SPBRF",
-            "OTC:SRALY",
             "OTC:TPICQ",
             "OTC:UELMO",
             "OTC:VTGDF",
@@ -14971,7 +14938,6 @@
             "PSECZ:MONET",
             "SET:ADVANC",
             "SET:BBL",
-            "SET:MINT",
             "SET:MTC",
             "SET:PTT",
             "SET:TOP",
@@ -15047,6 +15013,7 @@
             "SIX:SLHN",
             "SIX:SOON",
             "SIX:SPSN",
+            "SIX:SRAIL",
             "SIX:STMN",
             "SIX:SUN",
             "SIX:TECN",
@@ -15106,7 +15073,7 @@
             "SSE:601990",
             "SSE:601992",
             "SSE:601995",
-            "SWB:1JK",
+            "SSE:603259",
             "SWB:59Q",
             "SWB:6SO",
             "SWB:GTT",
@@ -15384,6 +15351,7 @@
             "TASE:ZPRS",
             "TASE:ZUR",
             "TPEX:5347",
+            "TPEX:8299",
             "TSE:1928",
             "TSE:2502",
             "TSE:285A",
@@ -15804,6 +15772,56 @@
         "r": []
     },
     {
+        "n": "candlestick_patterns_15m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1D",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1M",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1W",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_2h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_30m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_4h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_5m",
+        "t": "set",
+        "r": []
+    },
+    {
         "n": "cfi_code",
         "t": "text",
         "r": [
@@ -15934,6 +15952,7 @@
             "DBVXQB",
             "DBVXQR",
             "DBVXQX",
+            "DBXNFX",
             "DBZNAB",
             "DBZNAR",
             "DBZNAX",
@@ -15952,7 +15971,6 @@
             "DBZXCR",
             "DBZXFB",
             "DBZXFR",
-            "DBZXFX",
             "DBZXGR",
             "DCFJFR",
             "DCFNAR",
@@ -17062,9 +17080,7 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -17219,30 +17235,22 @@
     {
         "n": "gap_down",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_down_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "index_priority",
@@ -17257,9 +17265,7 @@
     {
         "n": "indicators_bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "inflation_protection",
@@ -17371,6 +17377,7 @@
             "500",
             "530",
             "540",
+            "560",
             "570",
             "580",
             "590",
@@ -17430,9 +17437,7 @@
     {
         "n": "last_bar_update_time",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "logoid",
@@ -17603,23 +17608,17 @@
     {
         "n": "post_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premature_redemption",
@@ -18218,9 +18217,7 @@
     {
         "n": "time",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "typespecs",
@@ -18308,16 +18305,12 @@
     {
         "n": "volume_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume_change_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "years_to_maturity",
@@ -18327,23 +18320,17 @@
     {
         "n": "yield_to_call",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "yield_to_maturity",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "yield_to_put",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "yield_to_worst",

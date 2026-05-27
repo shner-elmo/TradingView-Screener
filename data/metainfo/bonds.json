@@ -19,23 +19,17 @@
     {
         "n": "change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "sector",
@@ -45,100 +39,72 @@
     {
         "n": "volume",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.1M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.1M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.3M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.3M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.6M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.6M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.6M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_high",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_low",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.All",
@@ -148,16 +114,12 @@
     {
         "n": "change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_from_open_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "exchange",
@@ -169,86 +131,62 @@
     {
         "n": "gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "high",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "low",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.1M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "open",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "submarket",
@@ -260,44 +198,32 @@
     {
         "n": "Volatility.D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Volatility.M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Volatility.W",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.W",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.YTD",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "currency",
@@ -321,30 +247,22 @@
     {
         "n": "Bond.Change",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Bond.Change|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Bond.Change.%",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Bond.Change.%|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Bond.Currency",
@@ -360,198 +278,142 @@
     {
         "n": "Bond.Price",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Bond.Price|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.1M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.3M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.5D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.6M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All.Calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All.Calc.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.1M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.3M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.5D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.6M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.After.High.All",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All.Calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All.Calc.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Open.All.Calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.10Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.10Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.1M_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3M_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5D_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.6M_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.All_abs",
@@ -561,23 +423,17 @@
     {
         "n": "Perf.W_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.YTD_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "all_time_high",
@@ -607,16 +463,12 @@
     {
         "n": "bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "bars_count|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "base_currency_kind",
@@ -629,60 +481,94 @@
         "r": null
     },
     {
+        "n": "candlestick_patterns_15m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1D",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1M",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1W",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_2h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_30m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_4h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_5m",
+        "t": "set",
+        "r": []
+    },
+    {
         "n": "change|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_abs|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_from_open|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_from_open_abs|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close_1_days_back",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close_30_days_back",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close_365_days_back",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "country_code",
@@ -832,7 +718,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
@@ -860,9 +745,7 @@
     {
         "n": "first_bar_time",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "first_bar_time_1d",
@@ -885,72 +768,52 @@
     {
         "n": "gap|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_down",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_down|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_down_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_down_abs|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up_abs|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "high|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "index_priority",
@@ -965,16 +828,12 @@
     {
         "n": "indicators_bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "indicators_bars_count|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "is_blacklisted",
@@ -1016,16 +875,12 @@
     {
         "n": "last_bar_update_time",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "last_bar_update_time|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "logoid",
@@ -1035,9 +890,7 @@
     {
         "n": "low|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "low_after_high_all_change",
@@ -1079,9 +932,7 @@
     {
         "n": "open|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "popularity_rank",
@@ -1091,58 +942,42 @@
     {
         "n": "post_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "post_change|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change_abs|1",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_high_date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_low_date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pricescale",
@@ -1296,23 +1131,17 @@
     {
         "n": "time",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "time|1",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "time_business_day",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "typespecs",
@@ -1351,36 +1180,26 @@
     {
         "n": "volume|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume_change|1",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume_change_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume_change_abs|1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     }
 ]

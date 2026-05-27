@@ -19,30 +19,22 @@
     {
         "n": "change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.All",
@@ -52,16 +44,12 @@
     {
         "n": "change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_from_open_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "exchange",
@@ -83,79 +71,57 @@
     {
         "n": "gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "high",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "low",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "open",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "submarket",
@@ -194,9 +160,7 @@
     {
         "n": "bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "base_currency_kind",
@@ -207,6 +171,56 @@
         "n": "bid_ask_spread_pct",
         "t": "percent",
         "r": null
+    },
+    {
+        "n": "candlestick_patterns_15m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1D",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1M",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1W",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_2h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_30m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_4h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_5m",
+        "t": "set",
+        "r": []
     },
     {
         "n": "coupon",
@@ -278,30 +292,22 @@
     {
         "n": "gap_down",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_down_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "indexes",
@@ -311,9 +317,7 @@
     {
         "n": "indicators_bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "is_blacklisted",
@@ -356,9 +360,7 @@
     {
         "n": "last_bar_update_time",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "logoid",
@@ -403,23 +405,17 @@
     {
         "n": "post_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pricescale",
@@ -459,9 +455,7 @@
     {
         "n": "time",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "typespecs",
@@ -491,15 +485,11 @@
     {
         "n": "volume_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume_change_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     }
 ]

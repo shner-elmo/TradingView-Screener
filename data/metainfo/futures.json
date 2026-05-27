@@ -19,23 +19,17 @@
     {
         "n": "change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "close",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "sector",
@@ -52,107 +46,77 @@
     {
         "n": "Recommend.All",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.1M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.1M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.3M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.3M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.6M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.6M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.6M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_high",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_low",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.All",
@@ -162,135 +126,97 @@
     {
         "n": "Aroon.Down",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Aroon.Up",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADR",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ATR",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "average_volume_10d_calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "average_volume_30d_calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "average_volume_60d_calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "average_volume_90d_calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "AO",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "BB.lower",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "BB.upper",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "BBPower",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ChaikinMoneyFlow",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "change_from_open_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "CCI20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "DonchCh20.Lower",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "DonchCh20.Upper",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "exchange",
@@ -352,569 +278,407 @@
     {
         "n": "EMA5",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA10",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA30",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA100",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA200",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "high",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "HullMA9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.BLine",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.CLine",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.Lead1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.Lead2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "KltChnl.lower",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "KltChnl.upper",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "low",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "MACD.macd",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "MACD.signal",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Mom",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "MoneyFlow",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.1M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Recommend.MA",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "open",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Recommend.Other",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "P.SAR",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Camarilla.Middle",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Camarilla.R1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Camarilla.R2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Camarilla.R3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Camarilla.S1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Camarilla.S2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Camarilla.S3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Classic.Middle",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Classic.R1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Classic.R2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Classic.R3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Classic.S1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Classic.S2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Classic.S3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Demark.Middle",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Demark.R1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Demark.S1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Fibonacci.Middle",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Fibonacci.R1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Fibonacci.R2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Fibonacci.R3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Fibonacci.S1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Fibonacci.S2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Fibonacci.S3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Woodie.Middle",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Woodie.R1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Woodie.R2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Woodie.R3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Woodie.S1",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Woodie.S2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Pivot.M.Woodie.S3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "postmarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_change_from_open_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "premarket_gap",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ROC",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI7",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "relative_volume_10d_calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA5",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA10",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA30",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA100",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA200",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.RSI.K",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.RSI.D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "submarket",
@@ -926,72 +690,52 @@
     {
         "n": "UO",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Volatility.D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Volatility.M",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Volatility.W",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "VWAP",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "VWMA",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.W",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "W.R",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.YTD",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "currency",
@@ -1039,842 +783,687 @@
     {
         "n": "ADRP",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_100[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_20[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_50[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_9[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX+DI_100",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_100[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_20[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_50[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_9[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX-DI_100",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX_9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX_20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX_50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ADX_100",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "AO[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "AO[2]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "ATRP",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "BB.basis",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "BB.basis_50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "BB.lower_50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "BB.upper_50",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "CCI20[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.3BlackCrows",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.3WhiteSoldiers",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.AbandonedBaby.Bearish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.AbandonedBaby.Bullish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.DarkCloudCover.Bearish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "Candle.Doji",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Doji.Dragonfly",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Doji.Gravestone",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.DojiStar.Bearish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.DojiStar.Bullish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.DownsideTasukiGap.Bearish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "Candle.Engulfing.Bearish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Engulfing.Bullish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.EveningDojiStar.Bearish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "Candle.EveningStar",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.FallingThreeMethods.Bearish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.FallingWindow.Bearish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "Candle.Hammer",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.HangingMan",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Harami.Bearish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Harami.Bullish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.HaramiCross.Bearish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.HaramiCross.Bullish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "Candle.InvertedHammer",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Kicking.Bearish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Kicking.Bullish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.LongShadow.Lower",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.LongShadow.Upper",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Marubozu.Black",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.Marubozu.White",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.MorningDojiStar.Bullish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "Candle.MorningStar",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.OnNeck.Bearish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.Piercing.Bullish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.RisingThreeMethods.Bullish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.RisingWindow.Bullish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "Candle.ShootingStar",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.SpinningTop.Black",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.SpinningTop.White",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.TriStar.Bearish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Candle.TriStar.Bullish",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
+    },
+    {
+        "n": "Candle.TweezerBottom.Bullish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.TweezerTop.Bearish",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Candle.UpsideTasukiGap.Bullish",
+        "t": "number",
+        "r": null
     },
     {
         "n": "DonchCh20.Middle",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA6",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA7",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA8",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA12",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA13",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA14",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA15",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA21",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA25",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA26",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA34",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA40",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA55",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA60",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA75",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA89",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA120",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA144",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA150",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA250",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "EMA300",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.1M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.3M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.5D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.6M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All.Calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All.Calc.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "High.All.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "HullMA20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "HullMA200",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.BLine_20_60_120_30",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.CLine_20_60_120_30",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.Lead1_20_60_120_30",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Ichimoku.Lead2_20_60_120_30",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "KltChnl.basis",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.1M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.3M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.5D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.6M.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.After.High.All",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All.Calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All.Calc.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Low.All.Date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "MACD.hist",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Mom[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Mom_14",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Mom_14[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Open.All.Calc",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.10Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.10Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.1M_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3M_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3Y",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.3Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5D",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5D_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.5Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.6M_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.All_abs",
@@ -1884,506 +1473,362 @@
     {
         "n": "Perf.W_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.YTD_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Perf.Y_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI4",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI5",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI10",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI20",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI21",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI30",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI10[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI20[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI21[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI2[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI30[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI4[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI5[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI7[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI9[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "RSI[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Rec.BBPower",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Rec.HullMA9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Rec.Ichimoku",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Rec.Stoch.RSI",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Rec.UO",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Rec.VWMA",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Rec.WR",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA2",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA6",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA7",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA8",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA9",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA12",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA13",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA14",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA15",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA21",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA25",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA26",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA34",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA40",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA55",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA60",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA75",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA89",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA120",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA144",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA150",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA250",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "SMA300",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_14_1_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_14_1_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_5_3_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_5_3_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_6_3_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_6_3_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_8_3_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.D_8_3_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_14_1_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_14_1_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_5_3_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_5_3_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_6_3_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_6_3_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_8_3_3",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "Stoch.K_8_3_3[1]",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "all_time_high",
@@ -2413,9 +1858,7 @@
     {
         "n": "bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "base_currency_kind",
@@ -2424,6 +1867,91 @@
             "crypto",
             "fiat"
         ]
+    },
+    {
+        "n": "candlestick_patterns_15m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1D",
+        "t": "set",
+        "r": [
+            "dark_cloud_cover_bearish",
+            "doji",
+            "doji_star_bearish",
+            "doji_star_bullish",
+            "downside_tasuki_gap_bearish",
+            "dragonfly_doji_bullish",
+            "engulfing_bearish",
+            "engulfing_bullish",
+            "evening_star_bearish",
+            "falling_window_bearish",
+            "gravestone_doji_bearish",
+            "hammer_bullish",
+            "hanging_man_bearish",
+            "harami_bearish",
+            "harami_bullish",
+            "harami_cross_bearish",
+            "harami_cross_bullish",
+            "inverted_hammer_bullish",
+            "kicking_bearish",
+            "kicking_bullish",
+            "long_lower_shadow_bullish",
+            "long_upper_shadow_bearish",
+            "marubozu_black_bearish",
+            "marubozu_white_bullish",
+            "morning_star_bullish",
+            "on_neck_bearish",
+            "rising_window_bullish",
+            "shooting_star_bearish",
+            "spinning_top_black",
+            "spinning_top_white",
+            "three_black_crows_bearish",
+            "tweezer_bottom_bullish",
+            "tweezer_top_bearish",
+            "upside_tasuki_gap_bullish"
+        ]
+    },
+    {
+        "n": "candlestick_patterns_1M",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1W",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_1m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_2h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_30m",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_4h",
+        "t": "set",
+        "r": []
+    },
+    {
+        "n": "candlestick_patterns_5m",
+        "t": "set",
+        "r": []
     },
     {
         "n": "country_code",
@@ -2560,9 +2088,7 @@
     {
         "n": "first_bar_time",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "fractional",
@@ -2580,30 +2106,22 @@
     {
         "n": "gap_down",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_down_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "gap_up_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "indexes",
@@ -2613,9 +2131,7 @@
     {
         "n": "indicators_bars_count",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "is_blacklisted",
@@ -2657,9 +2173,7 @@
     {
         "n": "last_bar_update_time",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "logoid",
@@ -2706,9 +2220,7 @@
     {
         "n": "open_interest",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "popularity_rank",
@@ -2718,37 +2230,27 @@
     {
         "n": "post_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pre_change_abs",
         "t": "price",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_high_date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "price_52_week_low_date",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "pricescale",
@@ -3004,16 +2506,12 @@
     {
         "n": "time",
         "t": "time",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "time_business_day",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "typespecs",
@@ -3047,15 +2545,11 @@
     {
         "n": "volume_change",
         "t": "percent",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     },
     {
         "n": "volume_change_abs",
         "t": "number",
-        "r": null,
-        "hh": true,
-        "rd": true
+        "r": null
     }
 ]
