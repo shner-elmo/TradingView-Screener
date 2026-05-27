@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <title>Title</title>
+  <meta charset="UTF-8">
+  <title>TradingView Screener Docs</title>
 </head>
 <body>
-      <!-- TODO: make the redirect dynamic to the latest version -->
-      <meta http-equiv="refresh" content="0; url=3.0.0/index.html" />
-
-      <a href="3.0.0/index.html">Click here for the latest version </a>
+  <p>Redirecting to latest docs...</p>
+  <script>
+    fetch('latest.txt')
+      .then(r => r.text())
+      .then(v => { window.location.href = v.trim() + '/index.html'; });
+  </script>
 </body>
 </html>
