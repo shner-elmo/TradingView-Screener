@@ -47,6 +47,7 @@ jobs:
           VERSION=${{ steps.version.outputs.version }}
           mkdir -p ./docs/$VERSION
           cp -r /tmp/docs/* ./docs/$VERSION
+          echo "$VERSION" > ./docs/latest.txt                                                                                                                                                                     
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
