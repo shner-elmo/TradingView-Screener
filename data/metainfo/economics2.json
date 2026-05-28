@@ -281,56 +281,6 @@
         "r": []
     },
     {
-        "n": "candlestick_patterns_15m",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1D",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1M",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1W",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1h",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1m",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_2h",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_30m",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_4h",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_5m",
-        "t": "set",
-        "r": []
-    },
-    {
         "n": "country_code",
         "t": "text",
         "r": [

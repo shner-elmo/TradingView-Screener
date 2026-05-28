@@ -773,6 +773,7 @@
             "Aargauische Kantonalbank",
             "Aasen Sparebank",
             "Aavas Financiers Ltd.",
+            "Abay Leasing 2014 LLC",
             "AbbVie, Inc.",
             "Abbott Laboratories",
             "Abengoa SA",
@@ -3379,6 +3380,7 @@
             "GATX Corp.",
             "GB Social Housing (Holdings) Ltd.",
             "GCC SAB de CV",
+            "GCL Solar Star Investment Ltd.",
             "GD Power Development Co., Ltd.",
             "GDS Holdings Ltd.",
             "GE Aerospace",
@@ -3448,7 +3450,6 @@
             "Gav-Yam Lands Corp. Ltd.",
             "Gawar Construction Ltd.",
             "Gazprom PJSC",
-            "Gcl Solar Star Investment Ltd.",
             "Geberit AG",
             "Gecci Investment KG",
             "Gecina SA",
@@ -4342,6 +4343,7 @@
             "Jana Small Finance Bank Ltd.",
             "Jane Street Group LLC",
             "Janus Henderson Group Plc",
+            "Japan International Cooperation Agency",
             "Japan Tobacco, Inc.",
             "Jardine Matheson Holdings Ltd.",
             "Jarna Issuance Vehicle SA",
@@ -4605,7 +4607,6 @@
             "Kreissparkasse K\u00f6ln",
             "Kronos Acquisition Holdings, Inc.",
             "Kuaishou Technology",
-            "Kubota Corp.",
             "Kunshan Guochuang Investment Group Co., Ltd.",
             "Kunshan Hi-Tech Group Co. Ltd.",
             "Kunshan Transportation Development Holding Group Co., Ltd.",
@@ -6676,6 +6677,7 @@
             "Shandong Hesheng Investment Co. Ltd.",
             "Shandong Hi-Speed Group Co. Ltd.",
             "Shandong Hi-Speed Holdings Group Ltd.",
+            "Shandong High Speed Co. Ltd.",
             "Shandong Iron & Steel Co., Ltd.",
             "Shandong Longda Meishi Co., Ltd.",
             "Shandong Longshan Industrial Dev & Inv Group Co.",
@@ -7475,6 +7477,7 @@
             "Tianshui Urban Conston Investment Co. Ltd.",
             "Tidewater Midstream & Infrastructure Ltd.",
             "Tidewater, Inc.",
+            "Tieto Corp.",
             "Tikehau Capital SCA",
             "Tilray Brands, Inc.",
             "Timbercreek Financial Corp.",
@@ -8013,7 +8016,6 @@
             "Willow Topco Ltd.",
             "Wilsonart LLC",
             "Wilton Re Ltd.",
-            "Windermere Aviation LLC",
             "Winnebago Industries, Inc.",
             "Winning Health Technology Group Co. Ltd.",
             "Winston Pointe LBC LLC",
@@ -11264,6 +11266,7 @@
             "OMXHEX:SAMPO",
             "OMXHEX:SANOMA",
             "OMXHEX:STEAV",
+            "OMXHEX:TIETO",
             "OMXHEX:TOKMAN",
             "OMXHEX:TTALO",
             "OMXHEX:TYRES",
@@ -11424,7 +11427,7 @@
             "OTC:SLNAF",
             "OTC:SPBRF",
             "OTC:TPICQ",
-            "OTC:TSEOF",
+            "OTC:TSEOQ",
             "OTC:VTGDF",
             "PSE:AC",
             "PSE:ACEN",
@@ -11994,7 +11997,6 @@
             "TSE:5401",
             "TSE:6201",
             "TSE:6301",
-            "TSE:6326",
             "TSE:6425",
             "TSE:6701",
             "TSE:6723",
@@ -12903,7 +12905,6 @@
             "FWB:1COV",
             "FWB:A4Y0",
             "FWB:BTG",
-            "FWB:CSN",
             "FWB:KKS",
             "FWB:NUVA",
             "FWB:RKCI",
@@ -14066,6 +14067,7 @@
             "NYSE:BDC",
             "NYSE:BDX",
             "NYSE:BEN",
+            "NYSE:BEPH",
             "NYSE:BF.A",
             "NYSE:BFH",
             "NYSE:BGS",
@@ -14769,6 +14771,7 @@
             "OMXHEX:SAMPO",
             "OMXHEX:SANOMA",
             "OMXHEX:STEAV",
+            "OMXHEX:TIETO",
             "OMXHEX:TOKMAN",
             "OMXHEX:TTALO",
             "OMXHEX:TYRES",
@@ -15066,7 +15069,6 @@
             "SSE:601688",
             "SSE:601788",
             "SSE:601800",
-            "SSE:601808",
             "SSE:601881",
             "SSE:601899",
             "SSE:601939",
@@ -15076,6 +15078,7 @@
             "SSE:603259",
             "SWB:59Q",
             "SWB:6SO",
+            "SWB:CSN",
             "SWB:GTT",
             "SWB:JR0",
             "SZSE:000027",
@@ -15772,56 +15775,6 @@
         "r": []
     },
     {
-        "n": "candlestick_patterns_15m",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1D",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1M",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1W",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1h",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_1m",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_2h",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_30m",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_4h",
-        "t": "set",
-        "r": []
-    },
-    {
-        "n": "candlestick_patterns_5m",
-        "t": "set",
-        "r": []
-    },
-    {
         "n": "cfi_code",
         "t": "text",
         "r": [
@@ -15952,7 +15905,6 @@
             "DBVXQB",
             "DBVXQR",
             "DBVXQX",
-            "DBXNFX",
             "DBZNAB",
             "DBZNAR",
             "DBZNAX",
