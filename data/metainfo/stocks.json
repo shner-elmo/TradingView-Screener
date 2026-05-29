@@ -3545,7 +3545,6 @@
             "France",
             "Gabon",
             "Germany",
-            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -13631,22 +13630,22 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -13661,12 +13660,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18711,6 +18710,7 @@
             "First Sentier",
             "First Trust",
             "FirstRand",
+            "Fitzgerald",
             "FlexShares",
             "FolioBeyond",
             "Formidable",
@@ -18984,7 +18984,6 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Ninepoint",
@@ -19153,7 +19152,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -19300,7 +19298,6 @@
             "Vontobel",
             "Vox",
             "Voya",
-            "Vunani BCI",
             "W.I.S.E.",
             "WBI Shares",
             "WCM",
@@ -20131,7 +20128,6 @@
             "FR",
             "GA",
             "GB",
-            "GH",
             "GI",
             "GL",
             "GR",
@@ -23407,7 +23403,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -23524,7 +23519,6 @@
             "Neil Azous Revocable Trust",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nicholas Wealth LLC",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
@@ -24648,8 +24642,7 @@
             "9866",
             "9911",
             "9921",
-            "9937",
-            "9938"
+            "9937"
         ]
     },
     {
