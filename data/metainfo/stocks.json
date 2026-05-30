@@ -13630,22 +13630,22 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -13660,12 +13660,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18984,6 +18984,7 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
+            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Ninepoint",
@@ -19321,6 +19322,7 @@
             "WisdomTree",
             "Woori",
             "Worth Charting",
+            "X-Square",
             "XACT",
             "XBT",
             "XP",
@@ -20322,10 +20324,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -21737,6 +21737,7 @@
         "r": [
             "176a9161fef684328415321c640ada1a",
             "2402e241d9f16aa08de32421e0fa211f",
+            "3e8961795f30b441beb6aa81b2478c76",
             "460491fc520f4dbfcff22d1a45f6b056",
             "55a6587f79a2d84489e92e46d0a83f09",
             "7612e84033b6f5f1a8b8039d9e25d9b5",
@@ -23247,7 +23248,7 @@
             "Ellerston Capital Ltd.",
             "Emirate of Abu Dhabi (United Arab Emirates)",
             "Empirical Finance LLC",
-            "Empiricus Gestao De Recursos Ltda.",
+            "Empiricus Asset Management Ltda.",
             "Envestnet, Inc.",
             "Equitable Holdings, Inc.",
             "Estate Counselors LLC",
@@ -23397,7 +23398,6 @@
             "InvestSMART Funds Management Ltd.",
             "Investlinx Investment Management Ltd.",
             "Investo Gest\u00e3o de Recursos Ltda.",
-            "Investor Asset Management BV",
             "Inyova Impact Investing GmbH",
             "IronHorse Holdings LLC",
             "Ironbark Asset Management Pty Ltd.",
@@ -23519,6 +23519,7 @@
             "Neil Azous Revocable Trust",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
+            "Niche Asset Management Ltd.",
             "Nicholas Wealth LLC",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
@@ -23795,6 +23796,7 @@
             "Woori Financial Group, Inc.",
             "World Gold Council Ltd.",
             "Worth Charting Group LLC",
+            "X Square Capital LLC",
             "XP, Inc.",
             "Xinghua Fund Management Co. Ltd.",
             "Y.D. More Investments Ltd.",

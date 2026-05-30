@@ -758,7 +758,6 @@
             "ATA Group Ltd/ Private Group/",
             "ATAL SA (Poland)",
             "ATENOR SA",
-            "ATI, Inc.",
             "ATS Corp.",
             "AU Small Finance Bank Ltd.",
             "AVIC Industry-Finance Holdings Co., Ltd.",
@@ -826,6 +825,7 @@
             "Adient plc",
             "Aditya Birla Capital Ltd.",
             "Aditya Birla Fashion & Retail Ltd.",
+            "Aditya Birla Housing Finance Ltd.",
             "Aditya Birla Lifestyle Brands Ltd.",
             "Aditya Birla Management Corp Pvt Ltd.",
             "Aditya Birla Real Estate Ltd.",
@@ -972,6 +972,7 @@
             "Alior Bank SA",
             "Alkami Technology, Inc.",
             "Alkermes Plc",
+            "Allegheny Technologies, Inc.",
             "Allegiant Travel Co.",
             "Allegion Plc",
             "Allegro Invest SE",
@@ -5770,7 +5771,7 @@
             "POP Pankkikeskus osk",
             "PORR AG",
             "POSCO Holdings, Inc.",
-            "PPF Group NV",
+            "PPF Group as",
             "PPG Industries, Inc.",
             "PPI Public Property Invest AB",
             "PPL Corp.",
@@ -13315,6 +13316,7 @@
             "NASDAQ:AMZN",
             "NASDAQ:ANIP",
             "NASDAQ:APA",
+            "NASDAQ:APLD",
             "NASDAQ:APP",
             "NASDAQ:ARAY",
             "NASDAQ:ARBE",
@@ -16772,7 +16774,6 @@
             "colombia-real-value-unit-uvr",
             "corra-compounded-index",
             "costa-rica-colon-per-u-s-dollar",
-            "crude-oil",
             "crude-oil-wti",
             "denmark-cpi-total-2005-100",
             "dkk-swap-10y",
@@ -17017,7 +17018,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
@@ -17355,7 +17355,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
