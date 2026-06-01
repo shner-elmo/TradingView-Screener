@@ -13630,12 +13630,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13660,12 +13660,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18680,6 +18680,7 @@
             "Evoke",
             "Evolve",
             "Evovest",
+            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -19005,6 +19006,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -19601,7 +19603,6 @@
             "CBOIXU",
             "CECGBS",
             "CECGBU",
-            "CECGBX",
             "CECGES",
             "CECGEU",
             "CECGLS",
@@ -19609,7 +19610,6 @@
             "CECGMX",
             "CECIBS",
             "CECIBU",
-            "CECIBX",
             "CECIES",
             "CECIEU",
             "CECIMS",
@@ -19696,6 +19696,7 @@
             "CEXXMX",
             "CEXXXS",
             "CEXXXX",
+            "CFCIIU",
             "CFOIIS",
             "CHNXXX",
             "CICGBU",
@@ -19734,6 +19735,7 @@
             "CIOIEU",
             "CIOILS",
             "CIOIMS",
+            "CIOIMX",
             "CIOIXX",
             "CIOJEU",
             "CIOJLS",
@@ -19747,6 +19749,7 @@
             "CIXXXS",
             "CIXXXX",
             "CMXXXU",
+            "CMXXXX",
             "EFNCCR",
             "EFNNFR",
             "EFNRCX",
@@ -19803,6 +19806,7 @@
             "EPVXFR",
             "EPVXUR",
             "EPXNFR",
+            "EPXXXB",
             "EPXXXX",
             "ESETFR",
             "ESEUFN",
@@ -20326,7 +20330,9 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -21040,6 +21046,7 @@
             "2043",
             "2044",
             "2045",
+            "2046",
             "2048",
             "2050",
             "2051",
@@ -21072,7 +21079,6 @@
             "2107",
             "2108",
             "2111",
-            "2112",
             "2113",
             "2114",
             "2115",
@@ -23589,7 +23595,6 @@
             "Principal Financial Group, Inc.",
             "ProShare Advisors LLC",
             "ProcureAM LLC",
-            "Proprius Partners Oy",
             "Prospera Funds, Inc.",
             "Prudential Financial, Inc.",
             "Prudential Plc",
