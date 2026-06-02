@@ -2708,6 +2708,10 @@
                 "name": "Russia Transportation"
             },
             {
+                "id": "SET:MAI",
+                "name": "SET MAI"
+            },
+            {
                 "id": "SET:SET100",
                 "name": "SET100"
             },
@@ -3548,7 +3552,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -13630,17 +13633,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13650,12 +13648,17 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18497,6 +18500,7 @@
             "BOCOM Schroder",
             "BTG Pactual",
             "Bahl & Gaynor",
+            "Baillie Gifford Funds",
             "Bajaj Allianz",
             "Bajaj Finserv",
             "Ballast",
@@ -19827,7 +19831,6 @@
             "ESVTFM",
             "ESVTFN",
             "ESVTFR",
-            "ESVTFX",
             "ESVTOR",
             "ESVTXR",
             "ESVUFB",
@@ -20137,7 +20140,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -20328,7 +20330,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "post_market",
@@ -21366,7 +21367,6 @@
             "TND",
             "TRY",
             "TWD",
-            "UNK",
             "USD",
             "VES",
             "VND",
@@ -22457,6 +22457,7 @@
             "SYML:PSX;OGTI",
             "SYML:PSX;UPP9",
             "SYML:QSE;GNRI",
+            "SYML:SET;MAI",
             "SYML:SET;SET100",
             "SYML:SET;SET50",
             "SYML:SIX;SMI",
@@ -23097,6 +23098,7 @@
             "BOOKOOK SECURITIES Co., Ltd.",
             "BPCE SA",
             "Bahl & Gaynor, Inc.",
+            "Baillie Gifford & Co.",
             "Baird Financial Group, Inc.",
             "Bajaj Finserv Ltd.",
             "Banco BTG Pactual SA",
@@ -23533,7 +23535,7 @@
             "Nippon Life Insurance Co.",
             "Nissay Asset Management Corp.",
             "Noa LLC",
-            "Nomura Asset Management Taiwan Ltd",
+            "Nomura Asset Management Taiwan Ltd.",
             "Nomura Holdings, Inc.",
             "Nordea Bank Abp",
             "Norris, Perne & French LLP",
