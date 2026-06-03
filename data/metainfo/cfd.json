@@ -9516,12 +9516,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9546,12 +9546,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14481,6 +14481,7 @@
             "B3 (Base)",
             "BNB",
             "BOOK OF MEME",
+            "BSquared Network",
             "BUILDon",
             "Baby Doge Coin",
             "Babylon",
@@ -14729,6 +14730,7 @@
             "Ravencoin",
             "Raydium",
             "Realio Network",
+            "Recall",
             "Render",
             "Renzo",
             "Reppo",
@@ -14763,7 +14765,6 @@
             "Snek",
             "Solana",
             "Solayer",
-            "Solv Protocol",
             "Stable",
             "Stacks",
             "Stargate Finance",
@@ -14798,9 +14799,11 @@
             "Theta Network",
             "Toncoin",
             "Tradoor",
+            "Trust Wallet Token",
             "Turbo",
             "USDC",
             "USDD",
+            "Unicorn Fart Dust",
             "Unipeg",
             "Uniswap",
             "United States Oil Tokenized Fund (Ondo)",
@@ -14822,7 +14825,6 @@
             "Waves",
             "WeFi",
             "WingRiders Governance Token",
-            "Wojak",
             "World Liberty Financial",
             "World Liberty Financial USD",
             "Worldcoin",
@@ -14899,6 +14901,7 @@
             "XTVCAZERO",
             "XTVCAZTEC",
             "XTVCB",
+            "XTVCB2",
             "XTVCB3",
             "XTVCBABYDOGE",
             "XTVCBABYL",
@@ -15148,6 +15151,7 @@
             "XTVCRAIL",
             "XTVCRAVED",
             "XTVCRAY",
+            "XTVCRECALL",
             "XTVCREDO",
             "XTVCRENDER",
             "XTVCREPPO",
@@ -15183,7 +15187,6 @@
             "XTVCSNEK",
             "XTVCSNX",
             "XTVCSOL",
-            "XTVCSOLV",
             "XTVCSOON2",
             "XTVCSPX6",
             "XTVCSPYX",
@@ -15215,6 +15218,8 @@
             "XTVCTRUMPOF",
             "XTVCTRX",
             "XTVCTURBO",
+            "XTVCTWT",
+            "XTVCUFD",
             "XTVCUNI",
             "XTVCUPEG",
             "XTVCUS",
@@ -15247,7 +15252,6 @@
             "XTVCWLDW",
             "XTVCWLFIO",
             "XTVCWOJAK2",
-            "XTVCWOJAK5",
             "XTVCWRT",
             "XTVCXAUT",
             "XTVCXCH",
@@ -15303,7 +15307,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
