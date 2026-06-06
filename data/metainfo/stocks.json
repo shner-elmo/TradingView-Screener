@@ -3552,6 +3552,7 @@
             "Gibraltar",
             "Greece",
             "Greenland",
+            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -3560,6 +3561,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -13652,22 +13654,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -20118,6 +20120,7 @@
             "BW",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CM",
             "CN",
@@ -20138,6 +20141,7 @@
             "GI",
             "GL",
             "GR",
+            "GU",
             "HK",
             "HR",
             "HU",
@@ -20327,10 +20331,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -24589,7 +24591,6 @@
             "9536",
             "9540",
             "9543",
-            "9544",
             "9547",
             "9548",
             "9549",
@@ -24639,6 +24640,7 @@
             "9602",
             "9603",
             "9604",
+            "9605",
             "9606",
             "9607",
             "97",
