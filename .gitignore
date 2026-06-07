@@ -6,3 +6,5 @@ docs/
 data/
 dist/
 trash/
+.venv
+.vscode
