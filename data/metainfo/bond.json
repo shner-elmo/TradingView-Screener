@@ -97,7 +97,6 @@
             "Barbados",
             "Belarus",
             "Belgium",
-            "Belize",
             "Benin",
             "Bermuda",
             "Bolivia",
@@ -5073,7 +5072,6 @@
             "McKesson Corp.",
             "Mechanics Bancorp",
             "MedStar Health, Inc.",
-            "Medallion Financial Corp.",
             "Medical Properties Trust, Inc.",
             "Mediobanca Banca di Credito Finanziario SpA",
             "Medipower (Overseas) PCL",
@@ -5992,7 +5990,6 @@
             "Planet Financial Group LLC",
             "Platform Housing Group Ltd.",
             "Platform4 Rail Regeneration Ltd.",
-            "Platinum Equity Advisors LLC",
             "Platinum Securities Cayman SPC Ltd.",
             "Playtech Plc",
             "Playtika Holding Corp.",
@@ -9780,7 +9777,6 @@
             "NASDAQ:META",
             "NASDAQ:METC",
             "NASDAQ:MFIC",
-            "NASDAQ:MFIN",
             "NASDAQ:MGEE",
             "NASDAQ:MGPI",
             "NASDAQ:MIRM",
@@ -13518,7 +13514,6 @@
             "NASDAQ:META",
             "NASDAQ:METC",
             "NASDAQ:MFIC",
-            "NASDAQ:MFIN",
             "NASDAQ:MGPI",
             "NASDAQ:MIRM",
             "NASDAQ:MKSI",
@@ -16250,7 +16245,6 @@
             "BR",
             "BS",
             "BY",
-            "BZ",
             "CA",
             "CD",
             "CG",
@@ -16999,7 +16993,7 @@
         "r": [
             "market",
             "out_of_session",
-            "pre_market"
+            "post_market"
         ]
     },
     {

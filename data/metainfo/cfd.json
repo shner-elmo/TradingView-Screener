@@ -9526,12 +9526,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -14579,7 +14579,6 @@
             "Gigachad",
             "Gnosis",
             "Hamster Kombat",
-            "Hana Network",
             "Harmony",
             "Harold",
             "HarryPotterObamaSonic10Inu (ERC-20)",
@@ -14657,7 +14656,6 @@
             "Moonriver",
             "Morpho",
             "Movement",
-            "Mubarak",
             "MultiversX",
             "Myria",
             "NEAR Protocol",
@@ -14788,6 +14786,7 @@
             "Tensor",
             "Terra",
             "Terra Classic",
+            "TerraClassicUSD",
             "Tesla tokenized stock (xStock)",
             "Tether Gold",
             "Tether USDt",
@@ -15012,7 +15011,6 @@
             "XTVCGUAS",
             "XTVCGWEI",
             "XTVCH",
-            "XTVCHANAN",
             "XTVCHAROLD3",
             "XTVCHBAR",
             "XTVCHEI",
@@ -15089,7 +15087,6 @@
             "XTVCMOVEM",
             "XTVCMOVR",
             "XTVCMSTR2",
-            "XTVCMUBARAK",
             "XTVCMYRIA",
             "XTVCMYX",
             "XTVCNAORIS",
@@ -15232,6 +15229,7 @@
             "XTVCUSDT",
             "XTVCUSELESS",
             "XTVCUSOON",
+            "XTVCUSTC",
             "XTVCUTYA",
             "XTVCVAL",
             "XTVCVANRY",
@@ -15308,9 +15306,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "pre_market"
+            "post_market"
         ]
     },
     {
