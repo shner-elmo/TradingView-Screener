@@ -1744,6 +1744,10 @@
                 "name": "IDX 30"
             },
             {
+                "id": "IDX:IDX80",
+                "name": "IDX 80"
+            },
+            {
                 "id": "IDX:IDXMESBUMN",
                 "name": "IDX-MES BUMN 17"
             },
@@ -13634,12 +13638,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13664,12 +13668,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18623,7 +18627,6 @@
             "DAC",
             "DB",
             "DDA",
-            "DFA",
             "DGA",
             "DNB",
             "DOO",
@@ -19324,7 +19327,6 @@
             "Western Asset",
             "Western LeadBank",
             "Westwood",
-            "Wisdom",
             "WisdomTree",
             "Woori",
             "Worth Charting",
@@ -19604,6 +19606,7 @@
         "n": "cfi_code",
         "t": "text",
         "r": [
+            "CBCIXU",
             "CBOIXU",
             "CECGBS",
             "CECGBU",
@@ -19775,7 +19778,6 @@
             "EPNNFR",
             "EPNNPB",
             "EPNNPR",
-            "EPNNQB",
             "EPNRAR",
             "EPNRCR",
             "EPNRFR",
@@ -20332,7 +20334,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -22215,6 +22218,7 @@
             "SYML:HSI;HSI",
             "SYML:HSI;HSTECH",
             "SYML:IDX;IDX30",
+            "SYML:IDX;IDX80",
             "SYML:IDX;IDXMESBUMN",
             "SYML:IDX;IDXSHAGROW",
             "SYML:IDX;ISSI",
@@ -23674,7 +23678,6 @@
             "Soundwatch Capital LLC",
             "Sovereign's Capital Management LLC",
             "Spear Advisors LLC",
-            "Spend Life Wisely Co., Inc.",
             "Spheria Asset Management Pty Ltd.",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
@@ -23791,7 +23794,6 @@
             "Waystone Governance Ltd.",
             "Wealth Co. Asset Management Holdings Pvt Ltd.",
             "WealthTrust Asset Management LLC",
-            "Wedbush Capital",
             "Wedbush Family Partners LLC",
             "Weitz Investment Management, Inc.",
             "Wellesley Asset Management, Inc.",
@@ -24525,6 +24527,7 @@
             "16",
             "161",
             "167",
+            "168",
             "169",
             "171",
             "174",
@@ -24640,7 +24643,6 @@
             "9602",
             "9603",
             "9604",
-            "9605",
             "9606",
             "9607",
             "97",
@@ -24649,6 +24651,7 @@
             "9861",
             "9864",
             "9866",
+            "9867",
             "9911",
             "9921",
             "9937"

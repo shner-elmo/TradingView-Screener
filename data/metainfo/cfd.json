@@ -9516,22 +9516,22 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9546,12 +9546,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14507,13 +14507,11 @@
             "Celestia",
             "Celo",
             "Centrifuge",
-            "Cetus Protocol",
             "ChainGPT",
             "Chainflip",
             "Chainlink",
             "Chia",
             "Chiliz",
-            "Circle tokenized stock (xStock)",
             "Clearpool",
             "Codatta",
             "CoinMarketCap 20 Index DTF",
@@ -14581,6 +14579,7 @@
             "Gigachad",
             "Gnosis",
             "Hamster Kombat",
+            "Hana Network",
             "Harmony",
             "Harold",
             "HarryPotterObamaSonic10Inu (ERC-20)",
@@ -14621,6 +14620,7 @@
             "Kyber Network Crystal v2",
             "LAB",
             "LCX",
+            "LayerZero",
             "Lido DAO",
             "Lido Staked ETH",
             "Linea",
@@ -14810,6 +14810,7 @@
             "Useless Coin",
             "Utya",
             "VOOI",
+            "Validity",
             "Vanar Chain",
             "VeChain",
             "Velo",
@@ -14927,7 +14928,6 @@
             "XTVCCAKE",
             "XTVCCARDSC",
             "XTVCCELO",
-            "XTVCCETUS",
             "XTVCCFG",
             "XTVCCFX",
             "XTVCCGPT",
@@ -14939,7 +14939,6 @@
             "XTVCCOMP",
             "XTVCCOT",
             "XTVCCPOOL",
-            "XTVCCRCLX",
             "XTVCCRO",
             "XTVCCROSS",
             "XTVCCRV",
@@ -15013,6 +15012,7 @@
             "XTVCGUAS",
             "XTVCGWEI",
             "XTVCH",
+            "XTVCHANAN",
             "XTVCHAROLD3",
             "XTVCHBAR",
             "XTVCHEI",
@@ -15233,6 +15233,7 @@
             "XTVCUSELESS",
             "XTVCUSOON",
             "XTVCUTYA",
+            "XTVCVAL",
             "XTVCVANRY",
             "XTVCVELO",
             "XTVCVELVET",
@@ -15274,6 +15275,7 @@
             "XTVCZEN",
             "XTVCZEREBRO",
             "XTVCZKJ",
+            "XTVCZROL",
             "XTVCZRX"
         ]
     },
@@ -15307,7 +15309,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
