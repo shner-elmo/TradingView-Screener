@@ -8,6 +8,9 @@
     body {
       overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+    td {
+      vertical-align: top;
+    }
   </style>
 </head>
 <body>
@@ -98,6 +101,7 @@
       <th scope="col">Name</th>
       <th scope="col">Display name</th>
       <th scope="col">Type</th>
+      <th scope="col">Values</th>
     </tr>
     </thead>
     <tbody>
@@ -105,16 +109,25 @@
       <td>type</td>
       <td>Symbol Type</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>forex</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>is_primary</td>
       <td>Primary Listing</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>active_symbol</td>
       <td>Current trading day</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -136,6 +149,7 @@
       </td>
       <td>Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -157,6 +171,7 @@
       </td>
       <td>Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -178,11 +193,21 @@
       </td>
       <td>Price</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>sector</td>
       <td>Group</td>
       <td>text</td>
+      <td>  <details>
+    <summary>3</summary>
+    <ul>
+      <li>Exotic</li>
+      <li>Major</li>
+      <li>Minor</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -204,6 +229,7 @@
       </td>
       <td>Technical Rating</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -225,76 +251,91 @@
       </td>
       <td>Volume</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.1M</td>
       <td>1-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.1M</td>
       <td>1-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.3M</td>
       <td>3-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.3M</td>
       <td>3-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3M</td>
       <td>3-Month Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5Y</td>
       <td>5Y Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.6M</td>
       <td>6-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.6M</td>
       <td>6-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.6M</td>
       <td>6-Month Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_high</td>
       <td>52 Week High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_low</td>
       <td>52 Week Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All</td>
       <td>All Time High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All</td>
       <td>All Time Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All</td>
       <td>All Time Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -316,6 +357,7 @@
       </td>
       <td>Aroon Down (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -337,6 +379,7 @@
       </td>
       <td>Aroon Up (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -358,6 +401,7 @@
       </td>
       <td>Average Day Range (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -379,6 +423,7 @@
       </td>
       <td>Average Directional Index (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -400,6 +445,7 @@
       </td>
       <td>Average True Range (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -421,6 +467,7 @@
       </td>
       <td>Average Volume (10 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -442,6 +489,7 @@
       </td>
       <td>Average Volume (30 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -463,6 +511,7 @@
       </td>
       <td>Average Volume (60 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -484,6 +533,7 @@
       </td>
       <td>Average Volume (90 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -505,6 +555,7 @@
       </td>
       <td>Awesome Oscillator</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -526,6 +577,7 @@
       </td>
       <td>Bollinger Lower Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -547,6 +599,7 @@
       </td>
       <td>Bollinger Upper Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -568,6 +621,7 @@
       </td>
       <td>Bull Bear Power</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -589,6 +643,7 @@
       </td>
       <td>Chaikin Money Flow (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -610,6 +665,7 @@
       </td>
       <td>Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -631,6 +687,7 @@
       </td>
       <td>Change from Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -652,11 +709,24 @@
       </td>
       <td>Commodity Channel Index (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>country</td>
       <td>Region</td>
       <td>text</td>
+      <td>  <details>
+    <summary>6</summary>
+    <ul>
+      <li>Africa</li>
+      <li>Americas</li>
+      <li>Asia</li>
+      <li>Europe</li>
+      <li>Middle East</li>
+      <li>Pacific</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -678,6 +748,7 @@
       </td>
       <td>Donchian Channels Lower Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -699,11 +770,48 @@
       </td>
       <td>Donchian Channels Upper Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>exchange</td>
       <td>Exchange</td>
       <td>text</td>
+      <td>  <details>
+    <summary>30</summary>
+    <ul>
+      <li>ACTIVTRADES</li>
+      <li>BLACKBULL</li>
+      <li>CAPITALCOM</li>
+      <li>CITYINDEX</li>
+      <li>EASYMARKETS</li>
+      <li>EIGHTCAP</li>
+      <li>FOREXCOM</li>
+      <li>FPMARKETS</li>
+      <li>FUSIONMARKETS</li>
+      <li>FX</li>
+      <li>FX_IDC</li>
+      <li>GBEBROKERS</li>
+      <li>IBKR</li>
+      <li>IBROKER</li>
+      <li>ICMARKETS</li>
+      <li>IG</li>
+      <li>JFX</li>
+      <li>OANDA</li>
+      <li>PEPPERSTONE</li>
+      <li>PHILLIPNOVA</li>
+      <li>RUS</li>
+      <li>SAXO</li>
+      <li>SKILLING</li>
+      <li>SPREADEX</li>
+      <li>THINKMARKETS</li>
+      <li>TRADENATION</li>
+      <li>TRADENATIONSB</li>
+      <li>VANTAGE</li>
+      <li>VELOCITY</li>
+      <li>WHSELFINVEST</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -725,6 +833,7 @@
       </td>
       <td>Exponential Moving Average (5)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -746,6 +855,7 @@
       </td>
       <td>Exponential Moving Average (10)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -767,6 +877,7 @@
       </td>
       <td>Exponential Moving Average (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -788,6 +899,7 @@
       </td>
       <td>Exponential Moving Average (30)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -809,6 +921,7 @@
       </td>
       <td>Exponential Moving Average (50)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -830,6 +943,7 @@
       </td>
       <td>Exponential Moving Average (100)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -851,6 +965,7 @@
       </td>
       <td>Exponential Moving Average (200)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -872,6 +987,7 @@
       </td>
       <td>Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -893,6 +1009,7 @@
       </td>
       <td>High</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -914,6 +1031,7 @@
       </td>
       <td>Hull Moving Average (9)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -935,6 +1053,7 @@
       </td>
       <td>Ichimoku Base Line (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -956,6 +1075,7 @@
       </td>
       <td>Ichimoku Conversion Line (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -977,6 +1097,7 @@
       </td>
       <td>Ichimoku Leading Span A (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -998,6 +1119,7 @@
       </td>
       <td>Ichimoku Leading Span B (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1019,6 +1141,7 @@
       </td>
       <td>Keltner Channels Lower Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1040,6 +1163,7 @@
       </td>
       <td>Keltner Channels Upper Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1061,6 +1185,7 @@
       </td>
       <td>Low</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1082,6 +1207,7 @@
       </td>
       <td>MACD Level (12, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1103,6 +1229,7 @@
       </td>
       <td>MACD Signal (12, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1124,6 +1251,7 @@
       </td>
       <td>Momentum (10)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1145,11 +1273,13 @@
       </td>
       <td>Money Flow (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1M</td>
       <td>Monthly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1171,6 +1301,7 @@
       </td>
       <td>Moving Averages Rating</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1192,6 +1323,7 @@
       </td>
       <td>Negative Directional Indicator (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1213,6 +1345,7 @@
       </td>
       <td>Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1234,6 +1367,7 @@
       </td>
       <td>Oscillators Rating</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1255,6 +1389,7 @@
       </td>
       <td>Parabolic SAR</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1276,6 +1411,7 @@
       </td>
       <td>Pivot Camarilla P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1297,6 +1433,7 @@
       </td>
       <td>Pivot Camarilla R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1318,6 +1455,7 @@
       </td>
       <td>Pivot Camarilla R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1339,6 +1477,7 @@
       </td>
       <td>Pivot Camarilla R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1360,6 +1499,7 @@
       </td>
       <td>Pivot Camarilla S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1381,6 +1521,7 @@
       </td>
       <td>Pivot Camarilla S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1402,6 +1543,7 @@
       </td>
       <td>Pivot Camarilla S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1423,6 +1565,7 @@
       </td>
       <td>Pivot Classic P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1444,6 +1587,7 @@
       </td>
       <td>Pivot Classic R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1465,6 +1609,7 @@
       </td>
       <td>Pivot Classic R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1486,6 +1631,7 @@
       </td>
       <td>Pivot Classic R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1507,6 +1653,7 @@
       </td>
       <td>Pivot Classic S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1528,6 +1675,7 @@
       </td>
       <td>Pivot Classic S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1549,6 +1697,7 @@
       </td>
       <td>Pivot Classic S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1570,6 +1719,7 @@
       </td>
       <td>Pivot DM P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1591,6 +1741,7 @@
       </td>
       <td>Pivot DM R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1612,6 +1763,7 @@
       </td>
       <td>Pivot DM S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1633,6 +1785,7 @@
       </td>
       <td>Pivot Fibonacci P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1654,6 +1807,7 @@
       </td>
       <td>Pivot Fibonacci R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1675,6 +1829,7 @@
       </td>
       <td>Pivot Fibonacci R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1696,6 +1851,7 @@
       </td>
       <td>Pivot Fibonacci R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1717,6 +1873,7 @@
       </td>
       <td>Pivot Fibonacci S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1738,6 +1895,7 @@
       </td>
       <td>Pivot Fibonacci S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1759,6 +1917,7 @@
       </td>
       <td>Pivot Fibonacci S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1780,6 +1939,7 @@
       </td>
       <td>Pivot Woodie P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1801,6 +1961,7 @@
       </td>
       <td>Pivot Woodie R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1822,6 +1983,7 @@
       </td>
       <td>Pivot Woodie R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1843,6 +2005,7 @@
       </td>
       <td>Pivot Woodie R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1864,6 +2027,7 @@
       </td>
       <td>Pivot Woodie S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1885,6 +2049,7 @@
       </td>
       <td>Pivot Woodie S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1906,6 +2071,7 @@
       </td>
       <td>Pivot Woodie S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1927,41 +2093,49 @@
       </td>
       <td>Positive Directional Indicator (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change</td>
       <td>Post-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change_abs</td>
       <td>Post-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change</td>
       <td>Pre-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_abs</td>
       <td>Pre-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open</td>
       <td>Pre-market Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open_abs</td>
       <td>Pre-market Change from Open</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_gap</td>
       <td>Pre-market Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1983,6 +2157,7 @@
       </td>
       <td>Rate Of Change (9)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2004,6 +2179,7 @@
       </td>
       <td>Relative Strength Index (7)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2025,6 +2201,7 @@
       </td>
       <td>Relative Strength Index (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2046,6 +2223,7 @@
       </td>
       <td>Relative Volume</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2067,6 +2245,7 @@
       </td>
       <td>Simple Moving Average (5)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2088,6 +2267,7 @@
       </td>
       <td>Simple Moving Average (10)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2109,6 +2289,7 @@
       </td>
       <td>Simple Moving Average (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2130,6 +2311,7 @@
       </td>
       <td>Simple Moving Average (30)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2151,6 +2333,7 @@
       </td>
       <td>Simple Moving Average (50)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2172,6 +2355,7 @@
       </td>
       <td>Simple Moving Average (100)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2193,6 +2377,7 @@
       </td>
       <td>Simple Moving Average (200)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2214,6 +2399,7 @@
       </td>
       <td>Stochastic %D (14, 3, 3)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2235,6 +2421,7 @@
       </td>
       <td>Stochastic %K (14, 3, 3)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2256,6 +2443,7 @@
       </td>
       <td>Stochastic RSI Fast (3, 3, 14, 14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2277,11 +2465,19 @@
       </td>
       <td>Stochastic RSI Slow (3, 3, 14, 14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>submarket</td>
       <td>Submarket</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li></li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -2303,21 +2499,25 @@
       </td>
       <td>Ultimate Oscillator (7, 14, 28)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.D</td>
       <td>Volatility</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.M</td>
       <td>Volatility Month</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.W</td>
       <td>Volatility Week</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2339,6 +2539,7 @@
       </td>
       <td>Volume Weighted Average Price</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2360,11 +2561,13 @@
       </td>
       <td>Volume Weighted Moving Average (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.W</td>
       <td>Weekly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2386,31 +2589,215 @@
       </td>
       <td>Williams Percent Range (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.Y</td>
       <td>Yearly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.YTD</td>
       <td>YTD Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency</td>
       <td>Quote currency</td>
       <td>text</td>
+      <td>  <details>
+    <summary>173</summary>
+    <ul>
+      <li>AED</li>
+      <li>AFN</li>
+      <li>ALL</li>
+      <li>AMD</li>
+      <li>AOA</li>
+      <li>ARS</li>
+      <li>ATS</li>
+      <li>AUD</li>
+      <li>AWG</li>
+      <li>AZN</li>
+      <li>BAM</li>
+      <li>BBD</li>
+      <li>BDT</li>
+      <li>BEF</li>
+      <li>BGN</li>
+      <li>BHD</li>
+      <li>BIF</li>
+      <li>BMD</li>
+      <li>BND</li>
+      <li>BOB</li>
+      <li>BRL</li>
+      <li>BSD</li>
+      <li>BWP</li>
+      <li>BYN</li>
+      <li>BZD</li>
+      <li>CAD</li>
+      <li>CDF</li>
+      <li>CHF</li>
+      <li>CLF</li>
+      <li>CLP</li>
+      <li>CNH</li>
+      <li>CNY</li>
+      <li>COP</li>
+      <li>COU</li>
+      <li>CRC</li>
+      <li>CUP</li>
+      <li>CVE</li>
+      <li>CZK</li>
+      <li>DEM</li>
+      <li>DJF</li>
+      <li>DKK</li>
+      <li>DOP</li>
+      <li>DZD</li>
+      <li>EGP</li>
+      <li>ERN</li>
+      <li>ESP</li>
+      <li>ETB</li>
+      <li>EUR</li>
+      <li>FIM</li>
+      <li>FJD</li>
+      <li>FKP</li>
+      <li>FRF</li>
+      <li>GBP</li>
+      <li>GBX</li>
+      <li>GEL</li>
+      <li>GHS</li>
+      <li>GIP</li>
+      <li>GMD</li>
+      <li>GNF</li>
+      <li>GRD</li>
+      <li>GTQ</li>
+      <li>GYD</li>
+      <li>HKD</li>
+      <li>HNL</li>
+      <li>HRK</li>
+      <li>HTG</li>
+      <li>HUF</li>
+      <li>IDR</li>
+      <li>ILA</li>
+      <li>ILS</li>
+      <li>INR</li>
+      <li>IQD</li>
+      <li>IRR</li>
+      <li>ISK</li>
+      <li>ITL</li>
+      <li>JMD</li>
+      <li>JOD</li>
+      <li>JPY</li>
+      <li>KES</li>
+      <li>KHR</li>
+      <li>KMF</li>
+      <li>KPW</li>
+      <li>KRW</li>
+      <li>KWD</li>
+      <li>KWF</li>
+      <li>KYD</li>
+      <li>KZT</li>
+      <li>LAK</li>
+      <li>LBP</li>
+      <li>LKR</li>
+      <li>LRD</li>
+      <li>LSL</li>
+      <li>LUF</li>
+      <li>LYD</li>
+      <li>MAD</li>
+      <li>MDL</li>
+      <li>MGA</li>
+      <li>MKD</li>
+      <li>MMK</li>
+      <li>MNT</li>
+      <li>MOP</li>
+      <li>MRU</li>
+      <li>MUR</li>
+      <li>MVR</li>
+      <li>MWK</li>
+      <li>MXN</li>
+      <li>MXV</li>
+      <li>MYR</li>
+      <li>MZN</li>
+      <li>NAD</li>
+      <li>NGN</li>
+      <li>NIO</li>
+      <li>NLG</li>
+      <li>NOK</li>
+      <li>NPR</li>
+      <li>NZD</li>
+      <li>OMR</li>
+      <li>PAB</li>
+      <li>PEN</li>
+      <li>PGK</li>
+      <li>PHP</li>
+      <li>PKR</li>
+      <li>PLN</li>
+      <li>PTE</li>
+      <li>PYG</li>
+      <li>QAR</li>
+      <li>RON</li>
+      <li>RSD</li>
+      <li>RUB</li>
+      <li>RWF</li>
+      <li>SAR</li>
+      <li>SBD</li>
+      <li>SCR</li>
+      <li>SDG</li>
+      <li>SEK</li>
+      <li>SGD</li>
+      <li>SHP</li>
+      <li>SIT</li>
+      <li>SLL</li>
+      <li>SOS</li>
+      <li>SRD</li>
+      <li>STN</li>
+      <li>SVC</li>
+      <li>SYP</li>
+      <li>SZL</li>
+      <li>THB</li>
+      <li>TJS</li>
+      <li>TMT</li>
+      <li>TND</li>
+      <li>TOP</li>
+      <li>TRY</li>
+      <li>TTD</li>
+      <li>TWD</li>
+      <li>TZS</li>
+      <li>UAH</li>
+      <li>UGX</li>
+      <li>USD</li>
+      <li>UYU</li>
+      <li>UZS</li>
+      <li>VES</li>
+      <li>VND</li>
+      <li>VUV</li>
+      <li>WCU</li>
+      <li>WST</li>
+      <li>XAF</li>
+      <li>XCD</li>
+      <li>XDR</li>
+      <li>XOF</li>
+      <li>XPF</li>
+      <li>YER</li>
+      <li>ZAC</li>
+      <li>ZAR</li>
+      <li>ZMW</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>ask</td>
       <td>Ask</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>bid</td>
       <td>Bid</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2432,6 +2819,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2453,6 +2841,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2474,6 +2863,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2495,6 +2885,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2516,6 +2907,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2537,6 +2929,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2558,6 +2951,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2579,6 +2973,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2600,6 +2995,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2621,6 +3017,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2642,6 +3039,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2663,6 +3061,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2684,6 +3083,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2705,6 +3105,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2726,6 +3127,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2747,6 +3149,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2768,6 +3171,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2789,6 +3193,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2810,6 +3215,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2831,6 +3237,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2852,6 +3259,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2873,6 +3281,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2894,6 +3303,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2915,6 +3325,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2936,6 +3347,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2957,26 +3369,31 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>AvgValue.Traded_10d</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>AvgValue.Traded_30d</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>AvgValue.Traded_60d</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>AvgValue.Traded_90d</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -2998,6 +3415,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3019,6 +3437,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3040,6 +3459,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3061,6 +3481,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3082,6 +3503,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3103,6 +3525,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3124,6 +3547,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3145,6 +3569,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3166,6 +3591,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3187,6 +3613,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3208,6 +3635,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3229,6 +3657,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3250,6 +3679,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3271,6 +3701,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3292,6 +3723,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3313,6 +3745,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3334,6 +3767,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3355,6 +3789,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3376,6 +3811,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3397,6 +3833,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3418,6 +3855,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3439,6 +3877,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3460,6 +3899,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3481,6 +3921,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3502,6 +3943,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3523,6 +3965,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3544,6 +3987,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3565,6 +4009,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3586,6 +4031,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3607,6 +4053,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3628,6 +4075,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3649,6 +4097,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3670,6 +4119,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3691,6 +4141,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3712,6 +4163,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3733,6 +4185,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3754,6 +4207,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3775,6 +4229,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3796,6 +4251,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3817,6 +4273,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3838,6 +4295,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3859,6 +4317,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3880,6 +4339,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3901,6 +4361,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3922,6 +4383,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3943,6 +4405,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3964,6 +4427,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -3985,6 +4449,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4006,6 +4471,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4027,6 +4493,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4048,6 +4515,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4069,6 +4537,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4090,6 +4559,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4111,6 +4581,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4132,6 +4603,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4153,6 +4625,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4174,6 +4647,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4195,6 +4669,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4216,6 +4691,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4237,6 +4713,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4258,6 +4735,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4279,6 +4757,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4300,6 +4779,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4321,6 +4801,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4342,6 +4823,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4363,6 +4845,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4384,6 +4867,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4405,6 +4889,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4426,6 +4911,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4447,6 +4933,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4468,6 +4955,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4489,6 +4977,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4510,6 +4999,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4531,41 +5021,49 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.1M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.3M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.6M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Calc.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4587,6 +5085,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4608,6 +5107,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4629,6 +5129,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4650,6 +5151,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4671,6 +5173,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4692,6 +5195,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4713,46 +5217,55 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.1M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.3M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.6M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.After.High.All</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Calc.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4774,6 +5287,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4795,6 +5309,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4816,6 +5331,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4837,116 +5353,139 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Open.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.10Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.10Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1M.MarketCap</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1W.MarketCap</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1Y.MarketCap</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3M.MarketCap</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5D_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5Y.MarketCap</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.6M.MarketCap</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.6M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.W_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.YTD.MarketCap</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.YTD_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4968,6 +5507,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -4989,6 +5529,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5010,6 +5551,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5031,6 +5573,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5052,6 +5595,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5073,6 +5617,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5094,6 +5639,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5115,6 +5661,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5136,6 +5683,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5157,6 +5705,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5178,6 +5727,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5199,6 +5749,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5220,6 +5771,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5241,6 +5793,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5262,6 +5815,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5283,6 +5837,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5304,6 +5859,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5325,6 +5881,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5346,6 +5903,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5367,6 +5925,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5388,6 +5947,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5409,6 +5969,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5430,6 +5991,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5451,6 +6013,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5472,6 +6035,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5493,6 +6057,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5514,6 +6079,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5535,6 +6101,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5556,6 +6123,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5577,6 +6145,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5598,6 +6167,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5619,6 +6189,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5640,6 +6211,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5661,6 +6233,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5682,6 +6255,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5703,6 +6277,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5724,6 +6299,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5745,6 +6321,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5766,6 +6343,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5787,6 +6365,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5808,6 +6387,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5829,6 +6409,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5850,6 +6431,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5871,6 +6453,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5892,6 +6475,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5913,6 +6497,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5934,6 +6519,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5955,6 +6541,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5976,6 +6563,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -5997,6 +6585,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6018,6 +6607,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6039,6 +6629,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6060,6 +6651,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6081,6 +6673,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6102,6 +6695,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6123,6 +6717,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6144,6 +6739,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6165,6 +6761,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6186,6 +6783,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6207,6 +6805,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6228,6 +6827,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6249,6 +6849,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6270,6 +6871,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6291,6 +6893,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6312,6 +6915,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6333,6 +6937,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6354,6 +6959,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6375,6 +6981,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6396,61 +7003,73 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_high</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_high_day</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_low</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_low_day</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_open</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>aum_perf.1M</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>aum_perf.1Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>aum_perf.3M</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>aum_perf.3Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>aum_perf.5Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>aum_perf.YTD</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6472,131 +7091,380 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>base_currency_kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>3</summary>
+    <ul>
+      <li>fiat</li>
+      <li>forex</li>
+      <li>metal</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>bid_ask_spread_pct</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>country2</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>6</summary>
+    <ul>
+      <li>Africa</li>
+      <li>Americas</li>
+      <li>Asia</li>
+      <li>Europe</li>
+      <li>Middle East</li>
+      <li>Pacific</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>country_code</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>RU</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>coupon</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency_id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>173</summary>
+    <ul>
+      <li>AED</li>
+      <li>AFN</li>
+      <li>ALL</li>
+      <li>AMD</li>
+      <li>AOA</li>
+      <li>ARS</li>
+      <li>AUD</li>
+      <li>AWG</li>
+      <li>AZN</li>
+      <li>BAM</li>
+      <li>BBD</li>
+      <li>BDT</li>
+      <li>BGN</li>
+      <li>BHD</li>
+      <li>BIF</li>
+      <li>BMD</li>
+      <li>BND</li>
+      <li>BOB</li>
+      <li>BRL</li>
+      <li>BSD</li>
+      <li>BWP</li>
+      <li>BYN</li>
+      <li>BZD</li>
+      <li>CAD</li>
+      <li>CDF</li>
+      <li>CHF</li>
+      <li>CLF</li>
+      <li>CLP</li>
+      <li>CNY</li>
+      <li>COP</li>
+      <li>CRC</li>
+      <li>CUP</li>
+      <li>CVE</li>
+      <li>CZK</li>
+      <li>DJF</li>
+      <li>DKK</li>
+      <li>DOP</li>
+      <li>DZD</li>
+      <li>EGP</li>
+      <li>ERN</li>
+      <li>ETB</li>
+      <li>EUR</li>
+      <li>FJD</li>
+      <li>FKP</li>
+      <li>GBP</li>
+      <li>GEL</li>
+      <li>GHS</li>
+      <li>GIP</li>
+      <li>GMD</li>
+      <li>GNF</li>
+      <li>GTQ</li>
+      <li>GYD</li>
+      <li>HKD</li>
+      <li>HNL</li>
+      <li>HRK</li>
+      <li>HTG</li>
+      <li>HUF</li>
+      <li>IDR</li>
+      <li>ILS</li>
+      <li>INR</li>
+      <li>IQD</li>
+      <li>IRR</li>
+      <li>ISK</li>
+      <li>JMD</li>
+      <li>JOD</li>
+      <li>JPY</li>
+      <li>KES</li>
+      <li>KHR</li>
+      <li>KMF</li>
+      <li>KPW</li>
+      <li>KRW</li>
+      <li>KWD</li>
+      <li>KYD</li>
+      <li>KZT</li>
+      <li>LAK</li>
+      <li>LBP</li>
+      <li>LKR</li>
+      <li>LRD</li>
+      <li>LSL</li>
+      <li>LYD</li>
+      <li>MAD</li>
+      <li>MDL</li>
+      <li>MGA</li>
+      <li>MKD</li>
+      <li>MMK</li>
+      <li>MNT</li>
+      <li>MOP</li>
+      <li>MRU</li>
+      <li>MUR</li>
+      <li>MVR</li>
+      <li>MWK</li>
+      <li>MXN</li>
+      <li>MXV</li>
+      <li>MYR</li>
+      <li>MZN</li>
+      <li>NAD</li>
+      <li>NGN</li>
+      <li>NIO</li>
+      <li>NOK</li>
+      <li>NPR</li>
+      <li>NZD</li>
+      <li>OMR</li>
+      <li>PAB</li>
+      <li>PEN</li>
+      <li>PGK</li>
+      <li>PHP</li>
+      <li>PKR</li>
+      <li>PLN</li>
+      <li>PYG</li>
+      <li>QAR</li>
+      <li>RON</li>
+      <li>RSD</li>
+      <li>RUB</li>
+      <li>RWF</li>
+      <li>SAR</li>
+      <li>SBD</li>
+      <li>SCR</li>
+      <li>SDG</li>
+      <li>SEK</li>
+      <li>SGD</li>
+      <li>SHP</li>
+      <li>SLL</li>
+      <li>SOS</li>
+      <li>SRD</li>
+      <li>STN</li>
+      <li>SVC</li>
+      <li>SYP</li>
+      <li>SZL</li>
+      <li>THB</li>
+      <li>TJS</li>
+      <li>TMT</li>
+      <li>TND</li>
+      <li>TOP</li>
+      <li>TRY</li>
+      <li>TTD</li>
+      <li>TWD</li>
+      <li>TZS</li>
+      <li>UAH</li>
+      <li>UGX</li>
+      <li>USD</li>
+      <li>UYU</li>
+      <li>UZS</li>
+      <li>VES</li>
+      <li>VND</li>
+      <li>VUV</li>
+      <li>WST</li>
+      <li>XAF</li>
+      <li>XCD</li>
+      <li>XDR</li>
+      <li>XOF</li>
+      <li>XPF</li>
+      <li>XTVATS</li>
+      <li>XTVBEF</li>
+      <li>XTVCNH</li>
+      <li>XTVCOU</li>
+      <li>XTVDEM</li>
+      <li>XTVESP</li>
+      <li>XTVFIM</li>
+      <li>XTVFRF</li>
+      <li>XTVGBX</li>
+      <li>XTVGRD</li>
+      <li>XTVILA</li>
+      <li>XTVITL</li>
+      <li>XTVKWF</li>
+      <li>XTVLUF</li>
+      <li>XTVNLG</li>
+      <li>XTVPTE</li>
+      <li>XTVSIT</li>
+      <li>XTVWCU</li>
+      <li>XTVZAC</li>
+      <li>YER</li>
+      <li>ZAR</li>
+      <li>ZMW</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>currency_kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>fiat</li>
+      <li>forex</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_session</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>market</li>
+      <li>out_of_session</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_yield</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>days_to_maturity</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>expiration</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>first_bar_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>forex_exotic_priority</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>forex_minor_priority</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>forex_priority</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>fractional</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>false</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>fund_flows.1M</td>
       <td></td>
       <td>fundamental_price</td>
+      <td></td>
     </tr>
     <tr>
       <td>fund_flows.1Y</td>
       <td></td>
       <td>fundamental_price</td>
+      <td></td>
     </tr>
     <tr>
       <td>fund_flows.3M</td>
       <td></td>
       <td>fundamental_price</td>
+      <td></td>
     </tr>
     <tr>
       <td>fund_flows.3Y</td>
       <td></td>
       <td>fundamental_price</td>
+      <td></td>
     </tr>
     <tr>
       <td>fund_flows.5Y</td>
       <td></td>
       <td>fundamental_price</td>
+      <td></td>
     </tr>
     <tr>
       <td>fund_flows.YTD</td>
       <td></td>
       <td>fundamental_price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6618,6 +7486,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6639,6 +7508,7 @@
       </td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6660,6 +7530,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6681,16 +7552,19 @@
       </td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>index_priority</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>indexes</td>
       <td></td>
       <td>interface</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6712,41 +7586,55 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_blacklisted</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_shariah_compliant</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_symbol_primary_listing</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>rt</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>kind-delay</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time-intraday</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6768,121 +7656,151 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>logoid</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>low_after_high_all_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>low_after_high_all_change_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>market</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>forex</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>maturity_date</td>
       <td></td>
       <td>time-yyyymmdd</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmov</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmove2</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>name</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_discount_premium</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_perf.1M</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_perf.1Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_perf.3M</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_perf.3Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_perf.5Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_perf.YTD</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_total_return.1M</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_total_return.1Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_total_return.3M</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_total_return.3Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_total_return.5Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_total_return.6M</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>nav_total_return.YTD</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>popularity_rank</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6904,6 +7822,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6925,6 +7844,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -6946,111 +7866,212 @@
       </td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_high_date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_low_date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>pricescale</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>provider-id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>30</summary>
+    <ul>
+      <li>activtrades</li>
+      <li>alor</li>
+      <li>blackbullmarkets</li>
+      <li>capitalcom</li>
+      <li>cityindex</li>
+      <li>easymarkets</li>
+      <li>eightcap</li>
+      <li>fpmarkets</li>
+      <li>fusionmarkets</li>
+      <li>fxcm</li>
+      <li>gain</li>
+      <li>gbebrokers</li>
+      <li>ibkr</li>
+      <li>ibroker</li>
+      <li>ice</li>
+      <li>icmarkets</li>
+      <li>ig</li>
+      <li>jfx</li>
+      <li>oanda</li>
+      <li>pepperstone</li>
+      <li>phillipnova</li>
+      <li>saxobank</li>
+      <li>skilling</li>
+      <li>spreadex</li>
+      <li>thinkmarkets</li>
+      <li>tradenation</li>
+      <li>tvc</li>
+      <li>vantagefx</li>
+      <li>velocitytrade</li>
+      <li>whselfinvest</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>rates_cf</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_current</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_recent</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_upcoming</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_next_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fh</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fy</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_mc</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_pt</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_time_series</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_ttm</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>relative_volume_intraday|5</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>rtc</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>source-logoid</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>29</summary>
+    <ul>
+      <li>provider/activtrades</li>
+      <li>provider/blackbullmarkets</li>
+      <li>provider/capitalcom</li>
+      <li>provider/cityindex</li>
+      <li>provider/easymarkets</li>
+      <li>provider/eightcap</li>
+      <li>provider/fpmarkets</li>
+      <li>provider/fusionmarkets</li>
+      <li>provider/fxcm</li>
+      <li>provider/gain</li>
+      <li>provider/gbebrokers</li>
+      <li>provider/ibkr</li>
+      <li>provider/ibroker</li>
+      <li>provider/ice</li>
+      <li>provider/icmarkets</li>
+      <li>provider/ig</li>
+      <li>provider/jfx</li>
+      <li>provider/oanda</li>
+      <li>provider/pepperstone</li>
+      <li>provider/phillipnova</li>
+      <li>provider/saxobank</li>
+      <li>provider/skilling</li>
+      <li>provider/spreadex</li>
+      <li>provider/thinkmarkets</li>
+      <li>provider/tradenation</li>
+      <li>provider/vantagefx</li>
+      <li>provider/velocitytrade</li>
+      <li>provider/whselfinvest</li>
+      <li>source/RUS</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>subtype</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>5</summary>
+    <ul>
+      <li></li>
+      <li>cfd</li>
+      <li>ndf</li>
+      <li>spreadbet</li>
+      <li>synthetic</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -7072,21 +8093,35 @@
       </td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>time_business_day</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
+      <td>  <details>
+    <summary>5</summary>
+    <ul>
+      <li></li>
+      <li>cfd</li>
+      <li>ndf</li>
+      <li>spreadbet</li>
+      <li>synthetic</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update-time</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -7108,11 +8143,19 @@
       </td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>streaming</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -7134,6 +8177,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -7155,6 +8199,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     </tbody>
     <tfoot>
@@ -7169,7 +8214,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-06-08 15:49:17</mark>
+    <mark>Last updated: 2026-06-09 10:26:08</mark>
   </div>
 </main>
 <script>
@@ -7185,6 +8230,25 @@
     // this is still not good, because `cells[0]` can contain nested cells ...
     // row.style.display = row.cells[0].textContent.toLowerCase().includes(substr) ? "" : "none";
     // row.style.display = Array.from(row.cells).some((cell) => cell.textContent.toLowerCase().includes(substr)) ? "" : "none";
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (q) {
+    searchbar.value = q;
+    filterTable();
+  }
+
+  if (params.has('expand')) {
+    document.querySelectorAll('details').forEach((el) => el.open = true);
+  }
+
+  const field = params.get('field');
+  if (field) {
+    const substr = field.toLowerCase();
+    rows.forEach((row) => {
+      row.style.display = row.cells[0].textContent.trim().toLowerCase() === substr ? "" : "none";
+    });
   }
 </script>
 </body>

@@ -8,6 +8,9 @@
     body {
       overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+    td {
+      vertical-align: top;
+    }
   </style>
 </head>
 <body>
@@ -98,6 +101,7 @@
       <th scope="col">Name</th>
       <th scope="col">Display name</th>
       <th scope="col">Type</th>
+      <th scope="col">Values</th>
     </tr>
     </thead>
     <tbody>
@@ -105,371 +109,574 @@
       <td>type</td>
       <td>Symbol Type</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>option</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>is_primary</td>
       <td>Primary Listing</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>active_symbol</td>
       <td>Current trading day</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>change</td>
       <td>Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_abs</td>
       <td>Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>close</td>
       <td>Price</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume</td>
       <td>Volume</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All</td>
       <td>All Time Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_from_open</td>
       <td>Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_from_open_abs</td>
       <td>Change from Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>exchange</td>
       <td>Exchange</td>
       <td>text</td>
+      <td>  <details>
+    <summary>11</summary>
+    <ul>
+      <li>BSE</li>
+      <li>CBOT</li>
+      <li>CBOT_MINI</li>
+      <li>CME</li>
+      <li>CME_MINI</li>
+      <li>COMEX</li>
+      <li>EUREX</li>
+      <li>MCX</li>
+      <li>NSE</li>
+      <li>NYMEX</li>
+      <li>OPRA</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>gap</td>
       <td>Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>high</td>
       <td>High</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>low</td>
       <td>Low</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>open</td>
       <td>Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change</td>
       <td>Post-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change_abs</td>
       <td>Post-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change</td>
       <td>Pre-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_abs</td>
       <td>Pre-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open</td>
       <td>Pre-market Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open_abs</td>
       <td>Pre-market Change from Open</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_gap</td>
       <td>Pre-market Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>submarket</td>
       <td>Submarket</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li></li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>currency</td>
       <td>Quote currency</td>
       <td>text</td>
+      <td>  <details>
+    <summary>11</summary>
+    <ul>
+      <li>AUD</li>
+      <li>CAD</li>
+      <li>CHF</li>
+      <li>CNH</li>
+      <li>EUR</li>
+      <li>GBP</li>
+      <li>INR</li>
+      <li>JPY</li>
+      <li>NZD</li>
+      <li>USD</li>
+      <li>USX</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>ask</td>
       <td>Ask</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>bid</td>
       <td>Bid</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>bars_count</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>base_currency_kind</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>bid_ask_spread_pct</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>coupon</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency_id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>11</summary>
+    <ul>
+      <li>AUD</li>
+      <li>CAD</li>
+      <li>CHF</li>
+      <li>EUR</li>
+      <li>GBP</li>
+      <li>INR</li>
+      <li>JPY</li>
+      <li>NZD</li>
+      <li>USD</li>
+      <li>XTVCNH</li>
+      <li>XTVUSX</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>currency_kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>fiat</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_yield</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>days_to_maturity</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>expiration</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>fractional</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>false</li>
+      <li>true</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>gap_down</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_down_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_up</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_up_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>indexes</td>
       <td></td>
       <td>interface</td>
+      <td></td>
     </tr>
     <tr>
       <td>indicators_bars_count</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_blacklisted</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_shariah_compliant</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_symbol_primary_listing</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>delay</li>
+      <li>rt</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>kind-delay</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time-intraday</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last_bar_update_time</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>logoid</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>market</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>options</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>maturity_date</td>
       <td></td>
       <td>time-yyyymmdd</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmov</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmove2</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>name</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>option-type</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>call</li>
+      <li>put</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>post_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>pre_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>pre_change_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>pricescale</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>source-logoid</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>11</summary>
+    <ul>
+      <li>source/BSE</li>
+      <li>source/CBOT</li>
+      <li>source/CBOT_MINI</li>
+      <li>source/CME</li>
+      <li>source/CME_MINI</li>
+      <li>source/COMEX</li>
+      <li>source/EUREX</li>
+      <li>source/MCX</li>
+      <li>source/NSE</li>
+      <li>source/NYMEX</li>
+      <li>source/OPRA</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>strike</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>subtype</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li></li>
+      <li>euoption</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li></li>
+      <li>euoption</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update-time</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>update_mode</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>streaming</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume_change_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     </tbody>
     <tfoot>
@@ -484,7 +691,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-06-08 15:49:41</mark>
+    <mark>Last updated: 2026-06-09 10:26:27</mark>
   </div>
 </main>
 <script>
@@ -500,6 +707,25 @@
     // this is still not good, because `cells[0]` can contain nested cells ...
     // row.style.display = row.cells[0].textContent.toLowerCase().includes(substr) ? "" : "none";
     // row.style.display = Array.from(row.cells).some((cell) => cell.textContent.toLowerCase().includes(substr)) ? "" : "none";
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (q) {
+    searchbar.value = q;
+    filterTable();
+  }
+
+  if (params.has('expand')) {
+    document.querySelectorAll('details').forEach((el) => el.open = true);
+  }
+
+  const field = params.get('field');
+  if (field) {
+    const substr = field.toLowerCase();
+    rows.forEach((row) => {
+      row.style.display = row.cells[0].textContent.trim().toLowerCase() === substr ? "" : "none";
+    });
   }
 </script>
 </body>

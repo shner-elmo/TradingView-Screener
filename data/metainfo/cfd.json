@@ -9526,12 +9526,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9546,12 +9546,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14461,6 +14461,7 @@
             "Aptos",
             "ArbDoge AI",
             "Arbitrum",
+            "AriaAI",
             "Arkham",
             "Artificial Superintelligence Alliance",
             "Artrade",
@@ -14519,7 +14520,6 @@
             "Compound",
             "Conflux",
             "Constellation",
-            "Convex Finance",
             "Cosmos",
             "Cosplay Token",
             "Cronos",
@@ -14579,6 +14579,7 @@
             "Gigachad",
             "Gnosis",
             "Hamster Kombat",
+            "Hana Network",
             "Harmony",
             "Harold",
             "HarryPotterObamaSonic10Inu (ERC-20)",
@@ -14614,7 +14615,6 @@
             "KernelDAO",
             "Kinetiq",
             "Kite",
-            "Klickl Token",
             "Kusama",
             "Kyber Network Crystal v2",
             "LAB",
@@ -14640,6 +14640,7 @@
             "Mantle",
             "Manyu",
             "Maple Finance",
+            "Marlin",
             "Maxxing",
             "McDonald's Tokenized Stock (Ondo)",
             "MegaETH",
@@ -14852,8 +14853,7 @@
             "pippin",
             "siren",
             "tokenbot",
-            "wojak",
-            "xMoney"
+            "wojak"
         ]
     },
     {
@@ -14883,6 +14883,7 @@
             "XTVCAPTO",
             "XTVCAR",
             "XTVCARBI",
+            "XTVCARIAA",
             "XTVCARKM",
             "XTVCARRR",
             "XTVCASTER2",
@@ -14943,7 +14944,6 @@
             "XTVCCRV",
             "XTVCCSPR",
             "XTVCCULTM",
-            "XTVCCVX",
             "XTVCDAG",
             "XTVCDAI",
             "XTVCDASH",
@@ -15011,6 +15011,7 @@
             "XTVCGUAS",
             "XTVCGWEI",
             "XTVCH",
+            "XTVCHANAN",
             "XTVCHAROLD3",
             "XTVCHBAR",
             "XTVCHEI",
@@ -15043,7 +15044,6 @@
             "XTVCKAS",
             "XTVCKERNEL",
             "XTVCKITE",
-            "XTVCKLK",
             "XTVCKNC",
             "XTVCKNTQ",
             "XTVCKSM",
@@ -15131,6 +15131,7 @@
             "XTVCPLUME",
             "XTVCPOLS",
             "XTVCPOLYG",
+            "XTVCPOND",
             "XTVCPONKE",
             "XTVCPROVE",
             "XTVCPSG",
@@ -15258,7 +15259,6 @@
             "XTVCXCN",
             "XTVCXDC",
             "XTVCXLM",
-            "XTVCXMN",
             "XTVCXMR",
             "XTVCXNY",
             "XTVCXPIN",
@@ -15306,10 +15306,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {

@@ -8,6 +8,9 @@
     body {
       overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+    td {
+      vertical-align: top;
+    }
   </style>
 </head>
 <body>
@@ -98,6 +101,7 @@
       <th scope="col">Name</th>
       <th scope="col">Display name</th>
       <th scope="col">Type</th>
+      <th scope="col">Values</th>
     </tr>
     </thead>
     <tbody>
@@ -105,2111 +109,2970 @@
       <td>type</td>
       <td>Symbol Type</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>futures</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>is_primary</td>
       <td>Primary Listing</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>active_symbol</td>
       <td>Current trading day</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>change</td>
       <td>Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_abs</td>
       <td>Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>close</td>
       <td>Price</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>sector</td>
       <td>Group</td>
       <td>text</td>
+      <td>  <details>
+    <summary>6</summary>
+    <ul>
+      <li>Agricultural</li>
+      <li>Currencies</li>
+      <li>Energy</li>
+      <li>Financials</li>
+      <li>Indexes</li>
+      <li>Metals</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>Recommend.All</td>
       <td>Technical Rating</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume</td>
       <td>Volume</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.1M</td>
       <td>1-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.1M</td>
       <td>1-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.3M</td>
       <td>3-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.3M</td>
       <td>3-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3M</td>
       <td>3-Month Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5Y</td>
       <td>5Y Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.6M</td>
       <td>6-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.6M</td>
       <td>6-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.6M</td>
       <td>6-Month Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_high</td>
       <td>52 Week High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_low</td>
       <td>52 Week Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All</td>
       <td>All Time High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All</td>
       <td>All Time Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All</td>
       <td>All Time Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Aroon.Down</td>
       <td>Aroon Down (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Aroon.Up</td>
       <td>Aroon Up (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADR</td>
       <td>Average Day Range (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX</td>
       <td>Average Directional Index (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ATR</td>
       <td>Average True Range (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>average_volume_10d_calc</td>
       <td>Average Volume (10 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>average_volume_30d_calc</td>
       <td>Average Volume (30 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>average_volume_60d_calc</td>
       <td>Average Volume (60 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>average_volume_90d_calc</td>
       <td>Average Volume (90 day)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>AO</td>
       <td>Awesome Oscillator</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>BB.lower</td>
       <td>Bollinger Lower Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>BB.upper</td>
       <td>Bollinger Upper Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>BBPower</td>
       <td>Bull Bear Power</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ChaikinMoneyFlow</td>
       <td>Chaikin Money Flow (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_from_open</td>
       <td>Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_from_open_abs</td>
       <td>Change from Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>CCI20</td>
       <td>Commodity Channel Index (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>DonchCh20.Lower</td>
       <td>Donchian Channels Lower Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>DonchCh20.Upper</td>
       <td>Donchian Channels Upper Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>exchange</td>
       <td>Exchange</td>
       <td>text</td>
+      <td>  <details>
+    <summary>51</summary>
+    <ul>
+      <li>ABAXX</li>
+      <li>ADX</li>
+      <li>ASX24</li>
+      <li>BET</li>
+      <li>BIST</li>
+      <li>BMFBOVESPA</li>
+      <li>BSE</li>
+      <li>CBOE</li>
+      <li>CBOT</li>
+      <li>CBOT_MINI</li>
+      <li>CFFEX</li>
+      <li>CME</li>
+      <li>CME_MINI</li>
+      <li>COMEX</li>
+      <li>COMEX_MINI</li>
+      <li>DFM</li>
+      <li>EUREX</li>
+      <li>EURONEXT</li>
+      <li>GPW</li>
+      <li>HKEX</li>
+      <li>HNX</li>
+      <li>ICEAD</li>
+      <li>ICEENDEX</li>
+      <li>ICEEUR</li>
+      <li>ICESG</li>
+      <li>ICEUS</li>
+      <li>KRX</li>
+      <li>LME</li>
+      <li>MATBAROFEX</li>
+      <li>MCX</li>
+      <li>MIAX</li>
+      <li>MSEI</li>
+      <li>MYX</li>
+      <li>NASDAQDUBAI</li>
+      <li>NCDEX</li>
+      <li>NSE</li>
+      <li>NSEIX</li>
+      <li>NYMEX</li>
+      <li>NYMEX_MINI</li>
+      <li>NZX</li>
+      <li>OMXNORDIC</li>
+      <li>OSE</li>
+      <li>RUS</li>
+      <li>SGX</li>
+      <li>SHFE</li>
+      <li>TAIFEX</li>
+      <li>TFEX</li>
+      <li>TFX</li>
+      <li>TMX</li>
+      <li>TOCOM</li>
+      <li>ZCE</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>EMA5</td>
       <td>Exponential Moving Average (5)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA10</td>
       <td>Exponential Moving Average (10)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA20</td>
       <td>Exponential Moving Average (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA30</td>
       <td>Exponential Moving Average (30)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA50</td>
       <td>Exponential Moving Average (50)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA100</td>
       <td>Exponential Moving Average (100)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA200</td>
       <td>Exponential Moving Average (200)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap</td>
       <td>Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>high</td>
       <td>High</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>HullMA9</td>
       <td>Hull Moving Average (9)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.BLine</td>
       <td>Ichimoku Base Line (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.CLine</td>
       <td>Ichimoku Conversion Line (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.Lead1</td>
       <td>Ichimoku Leading Span A (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.Lead2</td>
       <td>Ichimoku Leading Span B (9, 26, 52, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>KltChnl.lower</td>
       <td>Keltner Channels Lower Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>KltChnl.upper</td>
       <td>Keltner Channels Upper Band (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>low</td>
       <td>Low</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>MACD.macd</td>
       <td>MACD Level (12, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>MACD.signal</td>
       <td>MACD Signal (12, 26)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Mom</td>
       <td>Momentum (10)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>MoneyFlow</td>
       <td>Money Flow (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1M</td>
       <td>Monthly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Recommend.MA</td>
       <td>Moving Averages Rating</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI</td>
       <td>Negative Directional Indicator (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>open</td>
       <td>Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>Recommend.Other</td>
       <td>Oscillators Rating</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>P.SAR</td>
       <td>Parabolic SAR</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Camarilla.Middle</td>
       <td>Pivot Camarilla P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Camarilla.R1</td>
       <td>Pivot Camarilla R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Camarilla.R2</td>
       <td>Pivot Camarilla R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Camarilla.R3</td>
       <td>Pivot Camarilla R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Camarilla.S1</td>
       <td>Pivot Camarilla S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Camarilla.S2</td>
       <td>Pivot Camarilla S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Camarilla.S3</td>
       <td>Pivot Camarilla S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Classic.Middle</td>
       <td>Pivot Classic P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Classic.R1</td>
       <td>Pivot Classic R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Classic.R2</td>
       <td>Pivot Classic R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Classic.R3</td>
       <td>Pivot Classic R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Classic.S1</td>
       <td>Pivot Classic S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Classic.S2</td>
       <td>Pivot Classic S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Classic.S3</td>
       <td>Pivot Classic S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Demark.Middle</td>
       <td>Pivot DM P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Demark.R1</td>
       <td>Pivot DM R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Demark.S1</td>
       <td>Pivot DM S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Fibonacci.Middle</td>
       <td>Pivot Fibonacci P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Fibonacci.R1</td>
       <td>Pivot Fibonacci R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Fibonacci.R2</td>
       <td>Pivot Fibonacci R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Fibonacci.R3</td>
       <td>Pivot Fibonacci R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Fibonacci.S1</td>
       <td>Pivot Fibonacci S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Fibonacci.S2</td>
       <td>Pivot Fibonacci S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Fibonacci.S3</td>
       <td>Pivot Fibonacci S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Woodie.Middle</td>
       <td>Pivot Woodie P</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Woodie.R1</td>
       <td>Pivot Woodie R1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Woodie.R2</td>
       <td>Pivot Woodie R2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Woodie.R3</td>
       <td>Pivot Woodie R3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Woodie.S1</td>
       <td>Pivot Woodie S1</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Woodie.S2</td>
       <td>Pivot Woodie S2</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Pivot.M.Woodie.S3</td>
       <td>Pivot Woodie S3</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI</td>
       <td>Positive Directional Indicator (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change</td>
       <td>Post-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change_abs</td>
       <td>Post-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change</td>
       <td>Pre-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_abs</td>
       <td>Pre-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open</td>
       <td>Pre-market Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open_abs</td>
       <td>Pre-market Change from Open</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_gap</td>
       <td>Pre-market Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>ROC</td>
       <td>Rate Of Change (9)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI7</td>
       <td>Relative Strength Index (7)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI</td>
       <td>Relative Strength Index (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>relative_volume_10d_calc</td>
       <td>Relative Volume</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA5</td>
       <td>Simple Moving Average (5)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA10</td>
       <td>Simple Moving Average (10)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA20</td>
       <td>Simple Moving Average (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA30</td>
       <td>Simple Moving Average (30)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA50</td>
       <td>Simple Moving Average (50)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA100</td>
       <td>Simple Moving Average (100)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA200</td>
       <td>Simple Moving Average (200)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D</td>
       <td>Stochastic %D (14, 3, 3)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K</td>
       <td>Stochastic %K (14, 3, 3)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.RSI.K</td>
       <td>Stochastic RSI Fast (3, 3, 14, 14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.RSI.D</td>
       <td>Stochastic RSI Slow (3, 3, 14, 14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>submarket</td>
       <td>Submarket</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li></li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>UO</td>
       <td>Ultimate Oscillator (7, 14, 28)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.D</td>
       <td>Volatility</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.M</td>
       <td>Volatility Month</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.W</td>
       <td>Volatility Week</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>VWAP</td>
       <td>Volume Weighted Average Price</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>VWMA</td>
       <td>Volume Weighted Moving Average (20)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.W</td>
       <td>Weekly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>W.R</td>
       <td>Williams Percent Range (14)</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.Y</td>
       <td>Yearly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.YTD</td>
       <td>YTD Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency</td>
       <td>Quote currency</td>
       <td>text</td>
+      <td>  <details>
+    <summary>37</summary>
+    <ul>
+      <li>AED</li>
+      <li>ARS</li>
+      <li>AUD</li>
+      <li>BRL</li>
+      <li>CAD</li>
+      <li>CHF</li>
+      <li>CLP</li>
+      <li>CNH</li>
+      <li>CNY</li>
+      <li>CZK</li>
+      <li>DKK</li>
+      <li>EUR</li>
+      <li>GBP</li>
+      <li>GBX</li>
+      <li>HKD</li>
+      <li>HUF</li>
+      <li>INR</li>
+      <li>JPY</li>
+      <li>KRW</li>
+      <li>MXN</li>
+      <li>MYR</li>
+      <li>NOK</li>
+      <li>NZD</li>
+      <li>PLN</li>
+      <li>RON</li>
+      <li>RSD</li>
+      <li>RUB</li>
+      <li>SEK</li>
+      <li>SGD</li>
+      <li>THB</li>
+      <li>TRY</li>
+      <li>TWD</li>
+      <li>UAH</li>
+      <li>USD</li>
+      <li>USX</li>
+      <li>VND</li>
+      <li>ZAR</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>ADRP</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_9</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_20</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_100[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_50</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_20[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_50[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_9[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX+DI_100</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_9</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_20</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_100[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_50</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_20[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_50[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_9[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX-DI_100</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX_9</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX_20</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX_50</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ADX_100</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>AO[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>AO[2]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>ATRP</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>BB.basis</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>BB.basis_50</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>BB.lower_50</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>BB.upper_50</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>CCI20[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.3BlackCrows</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.3WhiteSoldiers</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.AbandonedBaby.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.AbandonedBaby.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.DarkCloudCover.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Doji</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Doji.Dragonfly</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Doji.Gravestone</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.DojiStar.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.DojiStar.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.DownsideTasukiGap.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Engulfing.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Engulfing.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.EveningDojiStar.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.EveningStar</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.FallingThreeMethods.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.FallingWindow.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Hammer</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.HangingMan</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Harami.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Harami.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.HaramiCross.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.HaramiCross.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.InvertedHammer</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Kicking.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Kicking.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.LongShadow.Lower</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.LongShadow.Upper</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Marubozu.Black</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Marubozu.White</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.MorningDojiStar.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.MorningStar</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.OnNeck.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.Piercing.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.RisingThreeMethods.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.RisingWindow.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.ShootingStar</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.SpinningTop.Black</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.SpinningTop.White</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.TriStar.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.TriStar.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.TweezerBottom.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.TweezerTop.Bearish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Candle.UpsideTasukiGap.Bullish</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>DonchCh20.Middle</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA2</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA6</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA7</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA8</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA9</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA12</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA13</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA14</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA15</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA21</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA25</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA26</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA34</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA40</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA55</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA60</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA75</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA89</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA120</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA144</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA150</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA250</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>EMA300</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.1M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.3M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.6M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Calc.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>HullMA20</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>HullMA200</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.BLine_20_60_120_30</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.CLine_20_60_120_30</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.Lead1_20_60_120_30</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Ichimoku.Lead2_20_60_120_30</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>KltChnl.basis</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.1M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.3M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.6M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.After.High.All</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Calc.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>MACD.hist</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Mom[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Mom_14</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Mom_14[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Open.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.10Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.10Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5D_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.6M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.W_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.YTD_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI2</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI4</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI5</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI9</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI10</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI20</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI21</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI30</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI10[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI20[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI21[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI2[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI30[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI4[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI5[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI7[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI9[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>RSI[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Rec.BBPower</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Rec.HullMA9</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Rec.Ichimoku</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Rec.Stoch.RSI</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Rec.UO</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Rec.VWMA</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Rec.WR</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA2</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA6</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA7</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA8</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA9</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA12</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA13</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA14</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA15</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA21</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA25</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA26</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA34</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA40</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA55</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA60</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA75</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA89</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA120</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA144</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA150</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA250</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>SMA300</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_14_1_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_14_1_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_5_3_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_5_3_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_6_3_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_6_3_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_8_3_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.D_8_3_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_14_1_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_14_1_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_5_3_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_5_3_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_6_3_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_6_3_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_8_3_3</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Stoch.K_8_3_3[1]</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_high</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_high_day</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_low</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_low_day</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_open</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>bars_count</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>base_currency_kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>crypto</li>
+      <li>fiat</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>country_code</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>32</summary>
+    <ul>
+      <li>AE</li>
+      <li>AR</li>
+      <li>AU</li>
+      <li>BE</li>
+      <li>BR</li>
+      <li>CA</li>
+      <li>CN</li>
+      <li>DK</li>
+      <li>EU</li>
+      <li>FI</li>
+      <li>FR</li>
+      <li>GB</li>
+      <li>HK</li>
+      <li>HU</li>
+      <li>IN</li>
+      <li>IT</li>
+      <li>JP</li>
+      <li>KR</li>
+      <li>MY</li>
+      <li>NL</li>
+      <li>NO</li>
+      <li>NZ</li>
+      <li>PL</li>
+      <li>PT</li>
+      <li>RU</li>
+      <li>SE</li>
+      <li>SG</li>
+      <li>TH</li>
+      <li>TR</li>
+      <li>TW</li>
+      <li>US</li>
+      <li>VN</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>coupon</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency_id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>37</summary>
+    <ul>
+      <li>AED</li>
+      <li>ARS</li>
+      <li>AUD</li>
+      <li>BRL</li>
+      <li>CAD</li>
+      <li>CHF</li>
+      <li>CLP</li>
+      <li>CNY</li>
+      <li>CZK</li>
+      <li>DKK</li>
+      <li>EUR</li>
+      <li>GBP</li>
+      <li>HKD</li>
+      <li>HUF</li>
+      <li>INR</li>
+      <li>JPY</li>
+      <li>KRW</li>
+      <li>MXN</li>
+      <li>MYR</li>
+      <li>NOK</li>
+      <li>NZD</li>
+      <li>PLN</li>
+      <li>RON</li>
+      <li>RSD</li>
+      <li>RUB</li>
+      <li>SEK</li>
+      <li>SGD</li>
+      <li>THB</li>
+      <li>TRY</li>
+      <li>TWD</li>
+      <li>UAH</li>
+      <li>USD</li>
+      <li>VND</li>
+      <li>XTVCNH</li>
+      <li>XTVGBX</li>
+      <li>XTVUSX</li>
+      <li>ZAR</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>currency_kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>fiat</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_session</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>3</summary>
+    <ul>
+      <li>market</li>
+      <li>out_of_session</li>
+      <li>post_market</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_yield</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>days_to_maturity</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>expiration</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>first_bar_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>fractional</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>false</li>
+      <li>true</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>fundamental_currency_code</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_down</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_down_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_up</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_up_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>indexes</td>
       <td></td>
       <td>interface</td>
+      <td></td>
     </tr>
     <tr>
       <td>indicators_bars_count</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_blacklisted</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_shariah_compliant</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_symbol_primary_listing</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>rt</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>kind-delay</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time-intraday</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last_bar_update_time</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>logoid</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>low_after_high_all_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>low_after_high_all_change_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>market</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>futures</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>maturity_date</td>
       <td></td>
       <td>time-yyyymmdd</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmov</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmove2</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>name</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>open_interest</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>popularity_rank</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>post_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>pre_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>pre_change_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_high_date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_low_date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>pricescale</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>product</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>102</summary>
+    <ul>
+      <li>Commodity/Agriculture</li>
+      <li>Commodity/Agriculture/Dairy</li>
+      <li>Commodity/Agriculture/Fertilizer</li>
+      <li>Commodity/Agriculture/Fish</li>
+      <li>Commodity/Agriculture/GrainAndSeed</li>
+      <li>Commodity/Agriculture/GrainAndSeed/AdzukiBean</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Barley</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Corn</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Millet</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Oats</li>
+      <li>Commodity/Agriculture/GrainAndSeed/PalmOil</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Rapeseed</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Rapeseed/Meal</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Rapeseed/Oil</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Rice/Rough</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Soybean</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Soybean/Meal</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Soybean/Oil</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Sunflower</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Wheat</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Wheat/HRS</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Wheat/HRW</li>
+      <li>Commodity/Agriculture/GrainAndSeed/Wheat/SRW</li>
+      <li>Commodity/Agriculture/Livestock</li>
+      <li>Commodity/Agriculture/Livestock/Cattle/Feeder</li>
+      <li>Commodity/Agriculture/Livestock/Cattle/Live</li>
+      <li>Commodity/Agriculture/Livestock/Hog</li>
+      <li>Commodity/Agriculture/Lumber</li>
+      <li>Commodity/Agriculture/Softs</li>
+      <li>Commodity/Agriculture/Softs/CastorOil</li>
+      <li>Commodity/Agriculture/Softs/CastorSeed</li>
+      <li>Commodity/Agriculture/Softs/Cocoa</li>
+      <li>Commodity/Agriculture/Softs/Coffee/Arabica</li>
+      <li>Commodity/Agriculture/Softs/Coffee/Robusta</li>
+      <li>Commodity/Agriculture/Softs/Coriander</li>
+      <li>Commodity/Agriculture/Softs/Cotton</li>
+      <li>Commodity/Agriculture/Softs/Cotton/CottonSeed</li>
+      <li>Commodity/Agriculture/Softs/Cotton/Kapas</li>
+      <li>Commodity/Agriculture/Softs/Cotton/Raw</li>
+      <li>Commodity/Agriculture/Softs/Cotton/Yarn</li>
+      <li>Commodity/Agriculture/Softs/Cumin</li>
+      <li>Commodity/Agriculture/Softs/FrozenOrangeJuice</li>
+      <li>Commodity/Agriculture/Softs/FruitsAndVegetables/Apple</li>
+      <li>Commodity/Agriculture/Softs/FruitsAndVegetables/Jujube</li>
+      <li>Commodity/Agriculture/Softs/Guar</li>
+      <li>Commodity/Agriculture/Softs/Isabgol</li>
+      <li>Commodity/Agriculture/Softs/MenthaOil</li>
+      <li>Commodity/Agriculture/Softs/Peanut</li>
+      <li>Commodity/Agriculture/Softs/Rubber</li>
+      <li>Commodity/Agriculture/Softs/Sesame</li>
+      <li>Commodity/Agriculture/Softs/Sugar</li>
+      <li>Commodity/Agriculture/Softs/Sugar/Raw</li>
+      <li>Commodity/Agriculture/Softs/Sugar/White</li>
+      <li>Commodity/Agriculture/Softs/Turmeric</li>
+      <li>Commodity/BuildingMaterials</li>
+      <li>Commodity/Chemicals</li>
+      <li>Commodity/Energy</li>
+      <li>Commodity/Energy/Biofuel</li>
+      <li>Commodity/Energy/Coal</li>
+      <li>Commodity/Energy/Electricity</li>
+      <li>Commodity/Energy/Emissions</li>
+      <li>Commodity/Energy/Freight</li>
+      <li>Commodity/Energy/NatGas</li>
+      <li>Commodity/Energy/Oil</li>
+      <li>Commodity/Energy/Oil/CrudeOil</li>
+      <li>Commodity/Energy/Oil/CrudeOil/BAKKEN</li>
+      <li>Commodity/Energy/Oil/CrudeOil/Brent</li>
+      <li>Commodity/Energy/Oil/CrudeOil/Dubai</li>
+      <li>Commodity/Energy/Oil/CrudeOil/LLS</li>
+      <li>Commodity/Energy/Oil/CrudeOil/Mars</li>
+      <li>Commodity/Energy/Oil/CrudeOil/Murban</li>
+      <li>Commodity/Energy/Oil/CrudeOil/WTI</li>
+      <li>Commodity/Energy/Oil/CrudeOil/WTS</li>
+      <li>Commodity/Energy/Oil/Refined</li>
+      <li>Commodity/Energy/Oil/Refined/Gasoil</li>
+      <li>Commodity/Energy/Oil/Refined/Gasoline</li>
+      <li>Commodity/Energy/Oil/Refined/Heating</li>
+      <li>Commodity/Metals</li>
+      <li>Commodity/Metals/Alloys</li>
+      <li>Commodity/Metals/Ferrous</li>
+      <li>Commodity/Metals/Ferrous/Steel</li>
+      <li>Commodity/Metals/NonFerrous</li>
+      <li>Commodity/Metals/NonFerrous/Aluminium</li>
+      <li>Commodity/Metals/NonFerrous/Cobalt</li>
+      <li>Commodity/Metals/NonFerrous/Copper</li>
+      <li>Commodity/Metals/NonFerrous/Lead</li>
+      <li>Commodity/Metals/NonFerrous/Lithium</li>
+      <li>Commodity/Metals/NonFerrous/Molybdenum</li>
+      <li>Commodity/Metals/NonFerrous/Nickel</li>
+      <li>Commodity/Metals/NonFerrous/Tin</li>
+      <li>Commodity/Metals/NonFerrous/Uranium</li>
+      <li>Commodity/Metals/NonFerrous/Zinc</li>
+      <li>Commodity/Metals/Precious</li>
+      <li>Commodity/Metals/Precious/Gold</li>
+      <li>Commodity/Metals/Precious/Palladium</li>
+      <li>Commodity/Metals/Precious/Platinum</li>
+      <li>Commodity/Metals/Precious/Silver</li>
+      <li>Commodity/Weather</li>
+      <li>Financial/Currency</li>
+      <li>Financial/Equity</li>
+      <li>Financial/Index</li>
+      <li>Financial/InterestRate</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>provider-id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>3</summary>
+    <ul>
+      <li>abaxx</li>
+      <li>alor</li>
+      <li>ice</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>rates_cf</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_current</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_recent</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_upcoming</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_next_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fh</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fy</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_mc</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_pt</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_time_series</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_ttm</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>source-logoid</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>51</summary>
+    <ul>
+      <li>country/AE</li>
+      <li>source/ABAXX</li>
+      <li>source/ADX</li>
+      <li>source/ASX24</li>
+      <li>source/BET</li>
+      <li>source/BIST</li>
+      <li>source/BMFBOVESPA</li>
+      <li>source/BSE</li>
+      <li>source/CBOE</li>
+      <li>source/CBOT</li>
+      <li>source/CBOT_MINI</li>
+      <li>source/CFFEX</li>
+      <li>source/CME</li>
+      <li>source/CME_MINI</li>
+      <li>source/COMEX</li>
+      <li>source/COMEX_MINI</li>
+      <li>source/DFM</li>
+      <li>source/EUREX</li>
+      <li>source/EURONEXT</li>
+      <li>source/GPW</li>
+      <li>source/HKEX</li>
+      <li>source/HNX</li>
+      <li>source/ICEAD</li>
+      <li>source/ICEENDEX</li>
+      <li>source/ICEEUR</li>
+      <li>source/ICESG</li>
+      <li>source/ICEUS</li>
+      <li>source/KRX</li>
+      <li>source/LME</li>
+      <li>source/MATBAROFEX</li>
+      <li>source/MCX</li>
+      <li>source/MIAX</li>
+      <li>source/MSEI</li>
+      <li>source/MYX</li>
+      <li>source/NCDEX</li>
+      <li>source/NSE</li>
+      <li>source/NSEIX</li>
+      <li>source/NYMEX</li>
+      <li>source/NYMEX_MINI</li>
+      <li>source/NZX</li>
+      <li>source/OMXNORDIC</li>
+      <li>source/OSE</li>
+      <li>source/RUS</li>
+      <li>source/SGX</li>
+      <li>source/SHFE</li>
+      <li>source/TAIFEX</li>
+      <li>source/TFEX</li>
+      <li>source/TFX</li>
+      <li>source/TMX</li>
+      <li>source/TOCOM</li>
+      <li>source/ZCE</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>subtype</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>4</summary>
+    <ul>
+      <li></li>
+      <li>continuous</li>
+      <li>micro</li>
+      <li>mini</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>time_business_day</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
+      <td>  <details>
+    <summary>6</summary>
+    <ul>
+      <li></li>
+      <li>continuous</li>
+      <li>expired</li>
+      <li>micro</li>
+      <li>mini</li>
+      <li>synthetic</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update-time</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>update_mode</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>streaming</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume_change_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     </tbody>
     <tfoot>
@@ -2224,7 +3087,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-06-08 15:49:18</mark>
+    <mark>Last updated: 2026-06-09 10:26:09</mark>
   </div>
 </main>
 <script>
@@ -2240,6 +3103,25 @@
     // this is still not good, because `cells[0]` can contain nested cells ...
     // row.style.display = row.cells[0].textContent.toLowerCase().includes(substr) ? "" : "none";
     // row.style.display = Array.from(row.cells).some((cell) => cell.textContent.toLowerCase().includes(substr)) ? "" : "none";
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (q) {
+    searchbar.value = q;
+    filterTable();
+  }
+
+  if (params.has('expand')) {
+    document.querySelectorAll('details').forEach((el) => el.open = true);
+  }
+
+  const field = params.get('field');
+  if (field) {
+    const substr = field.toLowerCase();
+    rows.forEach((row) => {
+      row.style.display = row.cells[0].textContent.trim().toLowerCase() === substr ? "" : "none";
+    });
   }
 </script>
 </body>

@@ -8,6 +8,9 @@
     body {
       overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+    td {
+      vertical-align: top;
+    }
   </style>
 </head>
 <body>
@@ -98,6 +101,7 @@
       <th scope="col">Name</th>
       <th scope="col">Display name</th>
       <th scope="col">Type</th>
+      <th scope="col">Values</th>
     </tr>
     </thead>
     <tbody>
@@ -105,406 +109,1115 @@
       <td>type</td>
       <td>Symbol Type</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>economic</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>is_primary</td>
       <td>Primary Listing</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>active_symbol</td>
       <td>Current trading day</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>change</td>
       <td>Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_abs</td>
       <td>Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>close</td>
       <td>Price</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume</td>
       <td>Volume</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All</td>
       <td>All Time Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_from_open</td>
       <td>Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>change_from_open_abs</td>
       <td>Change from Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>exchange</td>
       <td>Exchange</td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>ECONOMICS</li>
+      <li>FRED</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>gap</td>
       <td>Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>high</td>
       <td>High</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>low</td>
       <td>Low</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>open</td>
       <td>Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change</td>
       <td>Post-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change_abs</td>
       <td>Post-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change</td>
       <td>Pre-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_abs</td>
       <td>Pre-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open</td>
       <td>Pre-market Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open_abs</td>
       <td>Pre-market Change from Open</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_gap</td>
       <td>Pre-market Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>submarket</td>
       <td>Submarket</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li></li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>currency</td>
       <td>Quote currency</td>
       <td>text</td>
+      <td>  <details>
+    <summary>143</summary>
+    <ul>
+      <li>AED</li>
+      <li>AFN</li>
+      <li>ALL</li>
+      <li>AMD</li>
+      <li>AOA</li>
+      <li>ARS</li>
+      <li>AUD</li>
+      <li>AWG</li>
+      <li>AZN</li>
+      <li>BAM</li>
+      <li>BBD</li>
+      <li>BDT</li>
+      <li>BGN</li>
+      <li>BHD</li>
+      <li>BIF</li>
+      <li>BMD</li>
+      <li>BND</li>
+      <li>BOB</li>
+      <li>BRL</li>
+      <li>BSD</li>
+      <li>BTN</li>
+      <li>BWP</li>
+      <li>BYN</li>
+      <li>BZD</li>
+      <li>CAD</li>
+      <li>CDF</li>
+      <li>CHF</li>
+      <li>CLP</li>
+      <li>CNY</li>
+      <li>COP</li>
+      <li>CRC</li>
+      <li>CUP</li>
+      <li>CVE</li>
+      <li>CZK</li>
+      <li>DJF</li>
+      <li>DKK</li>
+      <li>DOP</li>
+      <li>DZD</li>
+      <li>EGP</li>
+      <li>ETB</li>
+      <li>EUR</li>
+      <li>FJD</li>
+      <li>GBP</li>
+      <li>GEL</li>
+      <li>GHS</li>
+      <li>GMD</li>
+      <li>GNF</li>
+      <li>GTQ</li>
+      <li>GYD</li>
+      <li>HKD</li>
+      <li>HNL</li>
+      <li>HRK</li>
+      <li>HTG</li>
+      <li>HUF</li>
+      <li>IDR</li>
+      <li>ILS</li>
+      <li>INR</li>
+      <li>IQD</li>
+      <li>IRR</li>
+      <li>ISK</li>
+      <li>JMD</li>
+      <li>JOD</li>
+      <li>JPY</li>
+      <li>KES</li>
+      <li>KGS</li>
+      <li>KHR</li>
+      <li>KMF</li>
+      <li>KPW</li>
+      <li>KRW</li>
+      <li>KWD</li>
+      <li>KYD</li>
+      <li>KZT</li>
+      <li>LAK</li>
+      <li>LBP</li>
+      <li>LKR</li>
+      <li>LRD</li>
+      <li>LSL</li>
+      <li>LYD</li>
+      <li>MAD</li>
+      <li>MDL</li>
+      <li>MGA</li>
+      <li>MKD</li>
+      <li>MMK</li>
+      <li>MNT</li>
+      <li>MOP</li>
+      <li>MRU</li>
+      <li>MUR</li>
+      <li>MVR</li>
+      <li>MWK</li>
+      <li>MXN</li>
+      <li>MYR</li>
+      <li>MZN</li>
+      <li>NAD</li>
+      <li>NGN</li>
+      <li>NIO</li>
+      <li>NOK</li>
+      <li>NPR</li>
+      <li>NZD</li>
+      <li>OMR</li>
+      <li>PAB</li>
+      <li>PEN</li>
+      <li>PGK</li>
+      <li>PHP</li>
+      <li>PKR</li>
+      <li>PLN</li>
+      <li>PYG</li>
+      <li>QAR</li>
+      <li>RON</li>
+      <li>RSD</li>
+      <li>RUB</li>
+      <li>RWF</li>
+      <li>SAR</li>
+      <li>SCR</li>
+      <li>SDG</li>
+      <li>SEK</li>
+      <li>SGD</li>
+      <li>SLL</li>
+      <li>SRD</li>
+      <li>SSP</li>
+      <li>STN</li>
+      <li>SVC</li>
+      <li>SYP</li>
+      <li>SZL</li>
+      <li>THB</li>
+      <li>TJS</li>
+      <li>TND</li>
+      <li>TRY</li>
+      <li>TTD</li>
+      <li>TWD</li>
+      <li>TZS</li>
+      <li>UAH</li>
+      <li>UGX</li>
+      <li>USD</li>
+      <li>UYU</li>
+      <li>UZS</li>
+      <li>VES</li>
+      <li>VND</li>
+      <li>XAF</li>
+      <li>XOF</li>
+      <li>XPF</li>
+      <li>YER</li>
+      <li>ZAR</li>
+      <li>ZMW</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>bars_count</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>base_currency_kind</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>country_code</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>202</summary>
+    <ul>
+      <li>AD</li>
+      <li>AE</li>
+      <li>AF</li>
+      <li>AG</li>
+      <li>AL</li>
+      <li>AM</li>
+      <li>AO</li>
+      <li>AR</li>
+      <li>AT</li>
+      <li>AU</li>
+      <li>AW</li>
+      <li>AZ</li>
+      <li>BA</li>
+      <li>BB</li>
+      <li>BD</li>
+      <li>BE</li>
+      <li>BF</li>
+      <li>BG</li>
+      <li>BH</li>
+      <li>BI</li>
+      <li>BJ</li>
+      <li>BM</li>
+      <li>BN</li>
+      <li>BO</li>
+      <li>BR</li>
+      <li>BS</li>
+      <li>BT</li>
+      <li>BW</li>
+      <li>BY</li>
+      <li>BZ</li>
+      <li>CA</li>
+      <li>CD</li>
+      <li>CF</li>
+      <li>CG</li>
+      <li>CH</li>
+      <li>CI</li>
+      <li>CL</li>
+      <li>CM</li>
+      <li>CN</li>
+      <li>CO</li>
+      <li>CR</li>
+      <li>CU</li>
+      <li>CV</li>
+      <li>CY</li>
+      <li>CZ</li>
+      <li>DE</li>
+      <li>DJ</li>
+      <li>DK</li>
+      <li>DM</li>
+      <li>DO</li>
+      <li>DZ</li>
+      <li>EC</li>
+      <li>EE</li>
+      <li>EG</li>
+      <li>ER</li>
+      <li>ES</li>
+      <li>ET</li>
+      <li>EU</li>
+      <li>FI</li>
+      <li>FJ</li>
+      <li>FO</li>
+      <li>FR</li>
+      <li>GA</li>
+      <li>GB</li>
+      <li>GD</li>
+      <li>GE</li>
+      <li>GH</li>
+      <li>GL</li>
+      <li>GM</li>
+      <li>GN</li>
+      <li>GQ</li>
+      <li>GR</li>
+      <li>GT</li>
+      <li>GW</li>
+      <li>GY</li>
+      <li>HK</li>
+      <li>HN</li>
+      <li>HR</li>
+      <li>HT</li>
+      <li>HU</li>
+      <li>ID</li>
+      <li>IE</li>
+      <li>IL</li>
+      <li>IM</li>
+      <li>IN</li>
+      <li>IQ</li>
+      <li>IR</li>
+      <li>IS</li>
+      <li>IT</li>
+      <li>JM</li>
+      <li>JO</li>
+      <li>JP</li>
+      <li>KE</li>
+      <li>KG</li>
+      <li>KH</li>
+      <li>KI</li>
+      <li>KM</li>
+      <li>KP</li>
+      <li>KR</li>
+      <li>KW</li>
+      <li>KY</li>
+      <li>KZ</li>
+      <li>LA</li>
+      <li>LB</li>
+      <li>LC</li>
+      <li>LI</li>
+      <li>LK</li>
+      <li>LR</li>
+      <li>LS</li>
+      <li>LT</li>
+      <li>LU</li>
+      <li>LV</li>
+      <li>LY</li>
+      <li>MA</li>
+      <li>MC</li>
+      <li>MD</li>
+      <li>ME</li>
+      <li>MG</li>
+      <li>MK</li>
+      <li>ML</li>
+      <li>MM</li>
+      <li>MN</li>
+      <li>MO</li>
+      <li>MR</li>
+      <li>MT</li>
+      <li>MU</li>
+      <li>MV</li>
+      <li>MW</li>
+      <li>MX</li>
+      <li>MY</li>
+      <li>MZ</li>
+      <li>NA</li>
+      <li>NC</li>
+      <li>NE</li>
+      <li>NG</li>
+      <li>NI</li>
+      <li>NL</li>
+      <li>NO</li>
+      <li>NP</li>
+      <li>NZ</li>
+      <li>OM</li>
+      <li>PA</li>
+      <li>PE</li>
+      <li>PG</li>
+      <li>PH</li>
+      <li>PK</li>
+      <li>PL</li>
+      <li>PR</li>
+      <li>PS</li>
+      <li>PT</li>
+      <li>PY</li>
+      <li>QA</li>
+      <li>RO</li>
+      <li>RS</li>
+      <li>RU</li>
+      <li>RW</li>
+      <li>SA</li>
+      <li>SB</li>
+      <li>SC</li>
+      <li>SD</li>
+      <li>SE</li>
+      <li>SG</li>
+      <li>SI</li>
+      <li>SK</li>
+      <li>SL</li>
+      <li>SM</li>
+      <li>SN</li>
+      <li>SO</li>
+      <li>SR</li>
+      <li>SS</li>
+      <li>ST</li>
+      <li>SV</li>
+      <li>SY</li>
+      <li>SZ</li>
+      <li>TD</li>
+      <li>TG</li>
+      <li>TH</li>
+      <li>TJ</li>
+      <li>TL</li>
+      <li>TM</li>
+      <li>TN</li>
+      <li>TO</li>
+      <li>TR</li>
+      <li>TT</li>
+      <li>TW</li>
+      <li>TZ</li>
+      <li>UA</li>
+      <li>UG</li>
+      <li>US</li>
+      <li>UY</li>
+      <li>UZ</li>
+      <li>VC</li>
+      <li>VE</li>
+      <li>VN</li>
+      <li>VU</li>
+      <li>WS</li>
+      <li>WW</li>
+      <li>XK</li>
+      <li>YE</li>
+      <li>ZA</li>
+      <li>ZM</li>
+      <li>ZW</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>coupon</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency_id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>144</summary>
+    <ul>
+      <li></li>
+      <li>AED</li>
+      <li>AFN</li>
+      <li>ALL</li>
+      <li>AMD</li>
+      <li>AOA</li>
+      <li>ARS</li>
+      <li>AUD</li>
+      <li>AWG</li>
+      <li>AZN</li>
+      <li>BAM</li>
+      <li>BBD</li>
+      <li>BDT</li>
+      <li>BGN</li>
+      <li>BHD</li>
+      <li>BIF</li>
+      <li>BMD</li>
+      <li>BND</li>
+      <li>BOB</li>
+      <li>BRL</li>
+      <li>BSD</li>
+      <li>BTN</li>
+      <li>BWP</li>
+      <li>BYN</li>
+      <li>BZD</li>
+      <li>CAD</li>
+      <li>CDF</li>
+      <li>CHF</li>
+      <li>CLP</li>
+      <li>CNY</li>
+      <li>COP</li>
+      <li>CRC</li>
+      <li>CUP</li>
+      <li>CVE</li>
+      <li>CZK</li>
+      <li>DJF</li>
+      <li>DKK</li>
+      <li>DOP</li>
+      <li>DZD</li>
+      <li>EGP</li>
+      <li>ETB</li>
+      <li>EUR</li>
+      <li>FJD</li>
+      <li>GBP</li>
+      <li>GEL</li>
+      <li>GHS</li>
+      <li>GMD</li>
+      <li>GNF</li>
+      <li>GTQ</li>
+      <li>GYD</li>
+      <li>HKD</li>
+      <li>HNL</li>
+      <li>HRK</li>
+      <li>HTG</li>
+      <li>HUF</li>
+      <li>IDR</li>
+      <li>ILS</li>
+      <li>INR</li>
+      <li>IQD</li>
+      <li>IRR</li>
+      <li>ISK</li>
+      <li>JMD</li>
+      <li>JOD</li>
+      <li>JPY</li>
+      <li>KES</li>
+      <li>KGS</li>
+      <li>KHR</li>
+      <li>KMF</li>
+      <li>KPW</li>
+      <li>KRW</li>
+      <li>KWD</li>
+      <li>KYD</li>
+      <li>KZT</li>
+      <li>LAK</li>
+      <li>LBP</li>
+      <li>LKR</li>
+      <li>LRD</li>
+      <li>LSL</li>
+      <li>LYD</li>
+      <li>MAD</li>
+      <li>MDL</li>
+      <li>MGA</li>
+      <li>MKD</li>
+      <li>MMK</li>
+      <li>MNT</li>
+      <li>MOP</li>
+      <li>MRU</li>
+      <li>MUR</li>
+      <li>MVR</li>
+      <li>MWK</li>
+      <li>MXN</li>
+      <li>MYR</li>
+      <li>MZN</li>
+      <li>NAD</li>
+      <li>NGN</li>
+      <li>NIO</li>
+      <li>NOK</li>
+      <li>NPR</li>
+      <li>NZD</li>
+      <li>OMR</li>
+      <li>PAB</li>
+      <li>PEN</li>
+      <li>PGK</li>
+      <li>PHP</li>
+      <li>PKR</li>
+      <li>PLN</li>
+      <li>PYG</li>
+      <li>QAR</li>
+      <li>RON</li>
+      <li>RSD</li>
+      <li>RUB</li>
+      <li>RWF</li>
+      <li>SAR</li>
+      <li>SCR</li>
+      <li>SDG</li>
+      <li>SEK</li>
+      <li>SGD</li>
+      <li>SLL</li>
+      <li>SRD</li>
+      <li>SSP</li>
+      <li>STN</li>
+      <li>SVC</li>
+      <li>SYP</li>
+      <li>SZL</li>
+      <li>THB</li>
+      <li>TJS</li>
+      <li>TND</li>
+      <li>TRY</li>
+      <li>TTD</li>
+      <li>TWD</li>
+      <li>TZS</li>
+      <li>UAH</li>
+      <li>UGX</li>
+      <li>USD</li>
+      <li>UYU</li>
+      <li>UZS</li>
+      <li>VES</li>
+      <li>VND</li>
+      <li>XAF</li>
+      <li>XOF</li>
+      <li>XPF</li>
+      <li>YER</li>
+      <li>ZAR</li>
+      <li>ZMW</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>currency_kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>fiat</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_yield</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>days_to_maturity</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>economic-category-id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>13</summary>
+    <ul>
+      <li>bsnss</li>
+      <li>clmt</li>
+      <li>cnsm</li>
+      <li>enrg</li>
+      <li>gdp</li>
+      <li>gov</li>
+      <li>hlth</li>
+      <li>hse</li>
+      <li>lbr</li>
+      <li>mny</li>
+      <li>prce</li>
+      <li>trd</li>
+      <li>txs</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>expiration</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_down</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_down_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_up</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_up_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>indexes</td>
       <td></td>
       <td>interface</td>
+      <td></td>
     </tr>
     <tr>
       <td>indicators_bars_count</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_blacklisted</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_shariah_compliant</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_symbol_primary_listing</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>rt</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>kind-delay</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time-intraday</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last_bar_update_time</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>logoid</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>market</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>economics2</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>maturity_date</td>
       <td></td>
       <td>time-yyyymmdd</td>
+      <td></td>
     </tr>
     <tr>
       <td>measure</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>3</summary>
+    <ul>
+      <li>currency</li>
+      <li>price</li>
+      <li>unit</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>name</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>post_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>pre_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>pre_change_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_cf</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_current</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_recent</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_upcoming</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_next_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fh</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fy</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_mc</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_pt</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_time_series</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_ttm</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>subtype</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li></li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li></li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>unit-id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>8</summary>
+    <ul>
+      <li>DAY</li>
+      <li>HOUR</li>
+      <li>LTR</li>
+      <li>MONTH</li>
+      <li>MTK</li>
+      <li>MWH</li>
+      <li>WEEK</li>
+      <li>YEAR</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update_mode</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>streaming</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>value-unit-id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>25</summary>
+    <ul>
+      <li>BLL</li>
+      <li>BUA</li>
+      <li>CAP</li>
+      <li>CMPNY</li>
+      <li>DEGC</li>
+      <li>FTQ</li>
+      <li>GWH</li>
+      <li>HOUR</li>
+      <li>JOU</li>
+      <li>KGM</li>
+      <li>MMTR</li>
+      <li>MTK</li>
+      <li>NBL</li>
+      <li>PCT</li>
+      <li>PCTGDP</li>
+      <li>PMP</li>
+      <li>POINT</li>
+      <li>PSN</li>
+      <li>PTP</li>
+      <li>RATIO</li>
+      <li>TIV</li>
+      <li>TNE</li>
+      <li>TWH</li>
+      <li>UNIT</li>
+      <li>YEAR</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>volume_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>volume_change_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     </tbody>
     <tfoot>
@@ -519,7 +1232,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-06-08 15:49:18</mark>
+    <mark>Last updated: 2026-06-09 10:26:09</mark>
   </div>
 </main>
 <script>
@@ -535,6 +1248,25 @@
     // this is still not good, because `cells[0]` can contain nested cells ...
     // row.style.display = row.cells[0].textContent.toLowerCase().includes(substr) ? "" : "none";
     // row.style.display = Array.from(row.cells).some((cell) => cell.textContent.toLowerCase().includes(substr)) ? "" : "none";
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (q) {
+    searchbar.value = q;
+    filterTable();
+  }
+
+  if (params.has('expand')) {
+    document.querySelectorAll('details').forEach((el) => el.open = true);
+  }
+
+  const field = params.get('field');
+  if (field) {
+    const substr = field.toLowerCase();
+    rows.forEach((row) => {
+      row.style.display = row.cells[0].textContent.trim().toLowerCase() === substr ? "" : "none";
+    });
   }
 </script>
 </body>

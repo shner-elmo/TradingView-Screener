@@ -9670,22 +9670,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },

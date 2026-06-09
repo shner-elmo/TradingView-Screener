@@ -8,6 +8,9 @@
     body {
       overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+    td {
+      vertical-align: top;
+    }
   </style>
 </head>
 <body>
@@ -98,6 +101,7 @@
       <th scope="col">Name</th>
       <th scope="col">Display name</th>
       <th scope="col">Type</th>
+      <th scope="col">Values</th>
     </tr>
     </thead>
     <tbody>
@@ -105,16 +109,25 @@
       <td>type</td>
       <td>Symbol Type</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>bond</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>is_primary</td>
       <td>Primary Listing</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>active_symbol</td>
       <td>Current trading day</td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -128,6 +141,7 @@
       </td>
       <td>Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -141,6 +155,7 @@
       </td>
       <td>Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -154,11 +169,13 @@
       </td>
       <td>Price</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>sector</td>
       <td>Group</td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -172,76 +189,91 @@
       </td>
       <td>Volume</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.1M</td>
       <td>1-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.1M</td>
       <td>1-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.3M</td>
       <td>3-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.3M</td>
       <td>3-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3M</td>
       <td>3-Month Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5Y</td>
       <td>5Y Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.6M</td>
       <td>6-Month High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.6M</td>
       <td>6-Month Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.6M</td>
       <td>6-Month Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_high</td>
       <td>52 Week High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_low</td>
       <td>52 Week Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All</td>
       <td>All Time High</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All</td>
       <td>All Time Low</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All</td>
       <td>All Time Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -255,6 +287,7 @@
       </td>
       <td>Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -268,11 +301,19 @@
       </td>
       <td>Change from Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>exchange</td>
       <td>Exchange</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>TVC</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -286,6 +327,7 @@
       </td>
       <td>Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -299,6 +341,7 @@
       </td>
       <td>High</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -312,11 +355,13 @@
       </td>
       <td>Low</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1M</td>
       <td>Monthly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -330,91 +375,123 @@
       </td>
       <td>Open</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change</td>
       <td>Post-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>postmarket_change_abs</td>
       <td>Post-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change</td>
       <td>Pre-market Change %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_abs</td>
       <td>Pre-market Change</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open</td>
       <td>Pre-market Change from Open %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_change_from_open_abs</td>
       <td>Pre-market Change from Open</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>premarket_gap</td>
       <td>Pre-market Gap %</td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>submarket</td>
       <td>Submarket</td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li></li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>Volatility.D</td>
       <td>Volatility</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.M</td>
       <td>Volatility Month</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Volatility.W</td>
       <td>Volatility Week</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.W</td>
       <td>Weekly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.Y</td>
       <td>Yearly Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.YTD</td>
       <td>YTD Performance</td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency</td>
       <td>Quote currency</td>
       <td>text</td>
+      <td>  <details>
+    <summary>3</summary>
+    <ul>
+      <li>BRL</li>
+      <li>EUR</li>
+      <li>KRW</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>ask</td>
       <td>Ask</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>bid</td>
       <td>Bid</td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -428,6 +505,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -441,11 +519,23 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Bond.Currency</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>5</summary>
+    <ul>
+      <li>BRL</li>
+      <li>KRW</li>
+      <li>PCTDY</li>
+      <li>PCTPAR</li>
+      <li>PCTYTM</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -459,181 +549,217 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.1M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.3M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.6M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Calc.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>High.All.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.1M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.3M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.6M.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.After.High.All</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Calc.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Low.All.Date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>Open.All.Calc</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.10Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.10Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.1M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3Y</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.3Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5D</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5D_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.5Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.6M_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.All_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.W_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.YTD_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>Perf.Y_abs</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_high</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_high_day</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_low</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_low_day</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>all_time_open</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -647,111 +773,272 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>base_currency_kind</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>bid_ask_spread_pct</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>close_1_days_back</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>close_30_days_back</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>close_365_days_back</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>country_code</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>50</summary>
+    <ul>
+      <li>AT</li>
+      <li>AU</li>
+      <li>BE</li>
+      <li>BR</li>
+      <li>CA</li>
+      <li>CH</li>
+      <li>CL</li>
+      <li>CN</li>
+      <li>CO</li>
+      <li>CZ</li>
+      <li>DE</li>
+      <li>DK</li>
+      <li>ES</li>
+      <li>EU</li>
+      <li>FI</li>
+      <li>FR</li>
+      <li>GB</li>
+      <li>GR</li>
+      <li>HK</li>
+      <li>HU</li>
+      <li>ID</li>
+      <li>IE</li>
+      <li>IL</li>
+      <li>IN</li>
+      <li>IS</li>
+      <li>IT</li>
+      <li>JP</li>
+      <li>KR</li>
+      <li>LT</li>
+      <li>MX</li>
+      <li>MY</li>
+      <li>NL</li>
+      <li>NO</li>
+      <li>NZ</li>
+      <li>PE</li>
+      <li>PH</li>
+      <li>PL</li>
+      <li>PT</li>
+      <li>RO</li>
+      <li>RU</li>
+      <li>SE</li>
+      <li>SG</li>
+      <li>SK</li>
+      <li>TH</li>
+      <li>TR</li>
+      <li>TW</li>
+      <li>UA</li>
+      <li>US</li>
+      <li>VN</li>
+      <li>ZA</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>country_code_fund</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>50</summary>
+    <ul>
+      <li>AT</li>
+      <li>AU</li>
+      <li>BE</li>
+      <li>BR</li>
+      <li>CA</li>
+      <li>CH</li>
+      <li>CL</li>
+      <li>CN</li>
+      <li>CO</li>
+      <li>CZ</li>
+      <li>DE</li>
+      <li>DK</li>
+      <li>ES</li>
+      <li>EU</li>
+      <li>FI</li>
+      <li>FR</li>
+      <li>GB</li>
+      <li>GR</li>
+      <li>HK</li>
+      <li>HU</li>
+      <li>ID</li>
+      <li>IE</li>
+      <li>IL</li>
+      <li>IN</li>
+      <li>IS</li>
+      <li>IT</li>
+      <li>JP</li>
+      <li>KR</li>
+      <li>LT</li>
+      <li>MX</li>
+      <li>MY</li>
+      <li>NL</li>
+      <li>NO</li>
+      <li>NZ</li>
+      <li>PE</li>
+      <li>PH</li>
+      <li>PL</li>
+      <li>PT</li>
+      <li>RO</li>
+      <li>RU</li>
+      <li>SE</li>
+      <li>SG</li>
+      <li>SK</li>
+      <li>TH</li>
+      <li>TR</li>
+      <li>TW</li>
+      <li>UA</li>
+      <li>US</li>
+      <li>VN</li>
+      <li>ZA</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>coupon</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>cryptoasset-info.id</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>currency_id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>4</summary>
+    <ul>
+      <li></li>
+      <li>BRL</li>
+      <li>EUR</li>
+      <li>KRW</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>currency_kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>fiat</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_session</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>market</li>
+      <li>out_of_session</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>current_yield</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>days_to_maturity</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>description</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>expiration</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>first_bar_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>first_bar_time_1d</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>forex_priority</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>fractional</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>false</li>
+      <li>true</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -765,6 +1052,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -778,6 +1066,7 @@
       </td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -791,6 +1080,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -804,16 +1094,19 @@
       </td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>index_priority</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>indexes</td>
       <td></td>
       <td>interface</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -827,41 +1120,55 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_blacklisted</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_shariah_compliant</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>is_symbol_primary_listing</td>
       <td></td>
       <td>bool</td>
+      <td></td>
     </tr>
     <tr>
       <td>kind</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>rt</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>kind-delay</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>last-price-update-time-intraday</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -875,51 +1182,67 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>logoid</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>low_after_high_all_change</td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>low_after_high_all_change_abs</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>market</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>bonds</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>maturity_date</td>
       <td></td>
       <td>time-yyyymmdd</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmov</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>minmove2</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>name</td>
       <td></td>
       <td>text</td>
+      <td></td>
     </tr>
     <tr>
       <td>popularity_rank</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -933,6 +1256,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -946,6 +1270,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -959,116 +1284,208 @@
       </td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_high_date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>price_52_week_low_date</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>pricescale</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>provider-id</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>refinitiv</li>
+      <li>tvc</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>rates_cf</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_current</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_recent</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_dividend_upcoming</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_earnings_next_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fh</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fq</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_fy</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_mc</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_pt</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_time_series</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>rates_ttm</td>
       <td></td>
       <td>map</td>
+      <td></td>
     </tr>
     <tr>
       <td>region</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>6</summary>
+    <ul>
+      <li>Africa</li>
+      <li>Americas</li>
+      <li>Asia</li>
+      <li>Europe</li>
+      <li>Middle East</li>
+      <li>Pacific</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>rtc</td>
       <td></td>
       <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>source-logoid</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>provider/tvc</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>subtype</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>2</summary>
+    <ul>
+      <li>cfd</li>
+      <li>government</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>term-to-maturity</td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>33</summary>
+    <ul>
+      <li>P10Y</li>
+      <li>P11Y</li>
+      <li>P12Y</li>
+      <li>P13Y</li>
+      <li>P14Y</li>
+      <li>P15Y</li>
+      <li>P18Y</li>
+      <li>P19Y</li>
+      <li>P1M</li>
+      <li>P1Y</li>
+      <li>P20Y</li>
+      <li>P24Y</li>
+      <li>P25Y</li>
+      <li>P2M</li>
+      <li>P2Y</li>
+      <li>P30Y</li>
+      <li>P3M</li>
+      <li>P3Y</li>
+      <li>P40Y</li>
+      <li>P4M</li>
+      <li>P4Y</li>
+      <li>P50Y</li>
+      <li>P5M</li>
+      <li>P5Y</li>
+      <li>P60Y</li>
+      <li>P6M</li>
+      <li>P6Y</li>
+      <li>P7M</li>
+      <li>P7Y</li>
+      <li>P8Y</li>
+      <li>P95Y</li>
+      <li>P9M</li>
+      <li>P9Y</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>
@@ -1082,21 +1499,34 @@
       </td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>time_business_day</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
+      <td>  <details>
+    <summary>4</summary>
+    <ul>
+      <li>benchmark</li>
+      <li>cfd</li>
+      <li>government</li>
+      <li>yield</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update-time</td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1110,11 +1540,19 @@
       </td>
       <td></td>
       <td>text</td>
+      <td>  <details>
+    <summary>1</summary>
+    <ul>
+      <li>streaming</li>
+    </ul>
+  </details>
+</td>
     </tr>
     <tr>
       <td>update_time</td>
       <td></td>
       <td>time</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1128,6 +1566,7 @@
       </td>
       <td></td>
       <td>percent</td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -1141,6 +1580,7 @@
       </td>
       <td></td>
       <td>number</td>
+      <td></td>
     </tr>
     </tbody>
     <tfoot>
@@ -1155,7 +1595,7 @@
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-06-08 15:49:18</mark>
+    <mark>Last updated: 2026-06-09 10:26:09</mark>
   </div>
 </main>
 <script>
@@ -1171,6 +1611,25 @@
     // this is still not good, because `cells[0]` can contain nested cells ...
     // row.style.display = row.cells[0].textContent.toLowerCase().includes(substr) ? "" : "none";
     // row.style.display = Array.from(row.cells).some((cell) => cell.textContent.toLowerCase().includes(substr)) ? "" : "none";
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (q) {
+    searchbar.value = q;
+    filterTable();
+  }
+
+  if (params.has('expand')) {
+    document.querySelectorAll('details').forEach((el) => el.open = true);
+  }
+
+  const field = params.get('field');
+  if (field) {
+    const substr = field.toLowerCase();
+    rows.forEach((row) => {
+      row.style.display = row.cells[0].textContent.trim().toLowerCase() === substr ? "" : "none";
+    });
   }
 </script>
 </body>
