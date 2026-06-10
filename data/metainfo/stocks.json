@@ -3566,7 +3566,6 @@
             "Israel",
             "Italy",
             "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -13637,12 +13636,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13667,12 +13666,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18643,6 +18642,7 @@
             "Defiance",
             "Deka",
             "Desjardins",
+            "Deutsche X-trackers",
             "Diamond Hill",
             "DigitalX",
             "Dimensional",
@@ -19002,7 +19002,6 @@
             "Nordea",
             "North Shore",
             "North Square",
-            "Northern Funds",
             "Northern Trust",
             "NovaTide",
             "Nu",
@@ -19065,6 +19064,7 @@
             "Plato",
             "Point Bridge Capital",
             "Polen",
+            "Porter & Company",
             "Portfolio Building Block",
             "PortfolioMetrix",
             "Praxis",
@@ -19087,6 +19087,7 @@
             "Quadravest",
             "QuantaShares",
             "Quantum",
+            "Quoniam Funds",
             "RAFI Indices",
             "RAM",
             "RBC",
@@ -20153,7 +20154,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -21155,7 +21155,6 @@
             "2215",
             "2216",
             "2218",
-            "2220",
             "2223",
             "2226",
             "2227",
@@ -23374,6 +23373,7 @@
             "Horizon Investments LLC",
             "Horizon Kinetics Holding Corp.",
             "Howard Capital Management, Inc. (Georgia)",
+            "Hua Nan Financial Holdings Co., Ltd.",
             "HuaAn Fund Management Co., Ltd.",
             "Huafu Securities Co., Ltd.",
             "Huatai Securities Co., Ltd.",
@@ -26177,7 +26177,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
