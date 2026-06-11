@@ -315,3 +315,4 @@ If this package has bought value to your projects, please consider starring it.
 
 ## Stargazers over time
 [![Stargazers over time](https://starchart.cc/shner-elmo/TradingView-Screener.svg?variant=adaptive)](https://starchart.cc/shner-elmo/TradingView-Screener)
+
