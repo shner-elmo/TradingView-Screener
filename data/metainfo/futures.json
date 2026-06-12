@@ -238,6 +238,7 @@
             "COMEX",
             "COMEX_MINI",
             "DFM",
+            "EEX",
             "EUREX",
             "EURONEXT",
             "GPW",
@@ -1879,6 +1880,7 @@
             "BR",
             "CA",
             "CN",
+            "DE",
             "DK",
             "EU",
             "FI",
@@ -1975,6 +1977,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
@@ -2357,7 +2360,6 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
-            "country/AE",
             "source/ABAXX",
             "source/ADX",
             "source/ASX24",
@@ -2374,6 +2376,7 @@
             "source/COMEX",
             "source/COMEX_MINI",
             "source/DFM",
+            "source/EEX",
             "source/EUREX",
             "source/EURONEXT",
             "source/GPW",
@@ -2391,6 +2394,7 @@
             "source/MIAX",
             "source/MSEI",
             "source/MYX",
+            "source/NASDAQDUBAI",
             "source/NCDEX",
             "source/NSE",
             "source/NSEIX",

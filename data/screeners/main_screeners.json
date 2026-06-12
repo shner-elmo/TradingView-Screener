@@ -431,6 +431,7 @@
                 "relative_volume_10d_calc",
                 "aum",
                 "nav_total_return.3Y",
+                "etf_holdings_count",
                 "expense_ratio",
                 "asset_class.tr",
                 "focus.tr"
@@ -493,7 +494,7 @@
                 ]
             }
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'Value.Traded',\n     'fundamental_currency_code',\n     'relative_volume_10d_calc',\n     'aum',\n     'nav_total_return.3Y',\n     'expense_ratio',\n     'asset_class.tr',\n     'focus.tr',\n )\n .where2(And(Or(And(col('typespecs').has(['etf'])), And(col('type') == 'structured'))))\n .order_by('aum', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     'change',\n     'Value.Traded',\n     'fundamental_currency_code',\n     'relative_volume_10d_calc',\n     'aum',\n     'nav_total_return.3Y',\n     'etf_holdings_count',\n     'expense_ratio',\n     'asset_class.tr',\n     'focus.tr',\n )\n .where2(And(Or(And(col('typespecs').has(['etf'])), And(col('type') == 'structured'))))\n .order_by('aum', ascending=False)\n .limit(100)\n .set_markets('america')\n .set_property('ignore_unknown_fields', False))"
     },
     {
         "name": "Bonds",

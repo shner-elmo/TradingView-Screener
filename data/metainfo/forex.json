@@ -9650,12 +9650,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9670,12 +9670,12 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -14738,6 +14738,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]

@@ -13646,22 +13646,22 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -19298,6 +19298,7 @@
             "Vident",
             "Vietnam",
             "VinaCapital",
+            "Vinva",
             "Virtune",
             "Virtus",
             "VistaShares",
@@ -20332,9 +20333,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -23778,6 +23779,7 @@
             "Victory Capital Holdings, Inc.",
             "Vident Investors' Oversight Trust",
             "VinaCapital Fund Management JSC",
+            "Vinva Holdings Ltd.",
             "Virtune AB (Publ)",
             "Virtus Investment Partners, Inc.",
             "Volatility Shares LLC",
@@ -24648,7 +24650,6 @@
             "9710",
             "98",
             "9861",
-            "9864",
             "9866",
             "9867",
             "9911",
@@ -25570,7 +25571,6 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
-            "country/AE",
             "country/ZA",
             "source/ADX",
             "source/AMEX",
@@ -25630,6 +25630,7 @@
             "source/MYX",
             "source/NAG",
             "source/NASDAQ",
+            "source/NASDAQDUBAI",
             "source/NEO",
             "source/NEWCONNECT",
             "source/NGM",
