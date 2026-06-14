@@ -13636,12 +13636,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13656,12 +13656,12 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18467,6 +18467,7 @@
             "Aptus",
             "Archer Funds",
             "Argent",
+            "Arimathea",
             "Arin",
             "Arlington",
             "Armada ETF Advisors",
@@ -18885,6 +18886,7 @@
             "LOGIQ",
             "LSV",
             "Langar",
+            "Lanyon",
             "Lazard",
             "LeaderShares",
             "Leatherback",
@@ -19034,6 +19036,7 @@
             "PL",
             "PLUS",
             "PMV",
+            "PZU Funds",
             "Pabrai",
             "Pacer",
             "Pacific Funds",
@@ -20333,10 +20336,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23082,6 +23083,7 @@
             "Archer Investment Corp.",
             "Ardea Investment Management Pty Ltd.",
             "Argent Holdings, Inc.",
+            "Arimathea Corp.",
             "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
@@ -23311,6 +23313,7 @@
             "GAMCO Investors, Inc.",
             "GF Securities Co., Ltd.",
             "GQG Partners, Inc.",
+            "Galapagos Capital Control Participa\u00e7\u00f5es S.A.",
             "Galapagos Capital Investimentos e Participa\u00e7\u00f5es Ltda.",
             "Galaxy Fund Management Co., Ltd.",
             "Gladius Capital Management LP",
@@ -23592,6 +23595,7 @@
             "Portfoliometrix Holdings Ltd.",
             "Power Corp of Canada",
             "Power Financial Corp.",
+            "Powszechny Zaklad Ubezpieczen SA",
             "Precidian Investments LLC",
             "Prescient Management Co. RF Pty Ltd.",
             "President Securities Corp.",
@@ -23798,6 +23802,7 @@
             "Wedbush Family Partners LLC",
             "Weitz Investment Management, Inc.",
             "Wellesley Asset Management, Inc.",
+            "Wellington Management Group LLP",
             "Western & Southern Mutual Holding Co.",
             "Western Leadbank Fund Management Co., Ltd",
             "Westwood Holdings Group, Inc.",
