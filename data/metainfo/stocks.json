@@ -4857,7 +4857,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -13638,17 +13637,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13658,12 +13652,17 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18483,6 +18482,7 @@
             "Atlas",
             "Aton",
             "Aura",
+            "Ausbil",
             "Avantis",
             "Avory",
             "Avos",
@@ -18789,6 +18789,7 @@
             "Hartford",
             "Harvest",
             "Harvest ETFs",
+            "Harvest Edge",
             "Harvest Funds",
             "Hashdex",
             "Hauck & Aufhuser",
@@ -19198,7 +19199,6 @@
             "Sterling Capital",
             "StockSnips",
             "Stone Ridge",
-            "Stoneport Advisors",
             "Strategas",
             "Strategy Shares",
             "Stratified",
@@ -19274,7 +19274,6 @@
             "UBS SDIC",
             "UOB",
             "UPAMC",
-            "US Benchmark Series",
             "US Commodity Funds",
             "US Global",
             "USCF",
@@ -20274,7 +20273,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -21052,6 +21050,7 @@
             "2043",
             "2044",
             "2045",
+            "2046",
             "2048",
             "2050",
             "2051",
@@ -23008,7 +23007,6 @@
         "r": [
             "10X Fund Managers (RF) Proprietary Ltd",
             "10X Investments (Pty) Ltd.",
-            "1251 Capital Group, Inc.",
             "21Shares AG",
             "21co Holdings Ltd.",
             "27four Collective Investments (RF) (Pty) Ltd.",
@@ -24637,6 +24635,7 @@
             "9584",
             "9585",
             "9587",
+            "9588",
             "9589",
             "9590",
             "9591",
@@ -24654,7 +24653,8 @@
             "9606",
             "9607",
             "9609",
-            "9614",
+            "9616",
+            "9617",
             "97",
             "9710",
             "98",
@@ -26186,6 +26186,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
