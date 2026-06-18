@@ -3519,6 +3519,7 @@
         "t": "text",
         "r": [
             "Aland Islands",
+            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -4117,7 +4118,6 @@
             "Pharmaceuticals: Other",
             "Precious Metals",
             "Property/Casualty Insurance",
-            "Province/State",
             "Publishing: Books/Magazines",
             "Publishing: Newspapers",
             "Pulp & Paper",
@@ -13667,12 +13667,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18755,6 +18755,7 @@
             "Global",
             "Global X",
             "Globinvest",
+            "God Bless",
             "Golden Eagle",
             "Goldman Sachs",
             "Goose Hollow",
@@ -19221,7 +19222,6 @@
             "TD",
             "TEQ",
             "THOR",
-            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -20110,6 +20110,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AI",
             "AR",
             "AT",
             "AU",
@@ -20338,6 +20339,7 @@
             "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -23745,7 +23747,6 @@
             "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
-            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
@@ -26186,7 +26187,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
