@@ -1420,19 +1420,19 @@
                 "name": "DFM General"
             },
             {
-                "id": "DJ:DJA",
+                "id": "DJCFD:DJA",
                 "name": "Dow Jones Composite Average"
             },
             {
-                "id": "DJ:DJI",
+                "id": "DJCFD:DJI",
                 "name": "Dow Jones Industrial Average"
             },
             {
-                "id": "DJ:DJT",
+                "id": "DJCFD:DJT",
                 "name": "Dow Jones Transportation Average"
             },
             {
-                "id": "DJ:DJU",
+                "id": "DJCFD:DJU",
                 "name": "Dow Jones Utility Average"
             },
             {
@@ -1740,6 +1740,22 @@
                 "name": "Hang Seng TECH"
             },
             {
+                "id": "IDX:BISNIS_27",
+                "name": "JSX BISNIS 27"
+            },
+            {
+                "id": "IDX:ECONOMIC30",
+                "name": "IDX Cyclical Economy 30"
+            },
+            {
+                "id": "IDX:ESGQKEHATI",
+                "name": "ESG Quality 45 IDX KEHATI"
+            },
+            {
+                "id": "IDX:ESGSKEHATI",
+                "name": "ESG Sector Leaders IDX KEHATI"
+            },
+            {
                 "id": "IDX:IDX30",
                 "name": "IDX 30"
             },
@@ -1748,16 +1764,68 @@
                 "name": "IDX 80"
             },
             {
+                "id": "IDX:IDXBUMN20",
+                "name": "IDX BUMN20"
+            },
+            {
+                "id": "IDX:IDXESGL",
+                "name": "IDX ESG Leaders"
+            },
+            {
+                "id": "IDX:IDXG30",
+                "name": "IDX Growth 30"
+            },
+            {
+                "id": "IDX:IDXHIDIV20",
+                "name": "IDX High Dividend 20"
+            },
+            {
+                "id": "IDX:IDXLQ45LCL",
+                "name": "IDX LQ45 Low Carbon Leaders"
+            },
+            {
                 "id": "IDX:IDXMESBUMN",
                 "name": "IDX-MES BUMN 17"
+            },
+            {
+                "id": "IDX:IDXQ30",
+                "name": "IDX Quality 30"
             },
             {
                 "id": "IDX:IDXSHAGROW",
                 "name": "IDX Sharia Growth"
             },
             {
+                "id": "IDX:IDXSMC_COM",
+                "name": "IDX SMC Composite"
+            },
+            {
+                "id": "IDX:IDXSMC_LIQ",
+                "name": "IDX SMC Liquid"
+            },
+            {
+                "id": "IDX:IDXV30",
+                "name": "IDX Value 30"
+            },
+            {
+                "id": "IDX:IDXVESTA28",
+                "name": "IDX Infovesta Multi Factor 28"
+            },
+            {
+                "id": "IDX:INFOBANK15",
+                "name": "Infobank 15"
+            },
+            {
+                "id": "IDX:INVESTOR33",
+                "name": "Investor 33"
+            },
+            {
                 "id": "IDX:ISSI",
                 "name": "Indonesia Sharia Stock Index"
+            },
+            {
+                "id": "IDX:I_GRADE",
+                "name": "PEFINDO i-Grade"
             },
             {
                 "id": "IDX:JII",
@@ -1774,6 +1842,22 @@
             {
                 "id": "IDX:LQ45",
                 "name": "IDX LQ45"
+            },
+            {
+                "id": "IDX:MNC36",
+                "name": "MNC36"
+            },
+            {
+                "id": "IDX:PRIMBANK10",
+                "name": "IDX PEFINDO Prime Bank"
+            },
+            {
+                "id": "IDX:SMINFRA18",
+                "name": "SMinfra 18"
+            },
+            {
+                "id": "IDX:SRI_KEHATI",
+                "name": "SRI-KEHATI"
             },
             {
                 "id": "INDEX:FTSEMIB",
@@ -2728,59 +2812,59 @@
                 "name": "Swiss Market Index"
             },
             {
-                "id": "SP:MID",
+                "id": "SPCFD:MID",
                 "name": "S&P MidCap 400"
             },
             {
-                "id": "SP:OEX",
+                "id": "SPCFD:OEX",
                 "name": "S&P 100"
             },
             {
-                "id": "SP:S5COND",
+                "id": "SPCFD:S5COND",
                 "name": "S&P 500 Consumer Discretionary"
             },
             {
-                "id": "SP:S5CONS",
+                "id": "SPCFD:S5CONS",
                 "name": "S&P 500 Consumer Staples"
             },
             {
-                "id": "SP:S5HLTH",
+                "id": "SPCFD:S5HLTH",
                 "name": "S&P 500 Health Care"
             },
             {
-                "id": "SP:S5INDU",
+                "id": "SPCFD:S5INDU",
                 "name": "S&P 500 Industrials"
             },
             {
-                "id": "SP:S5INFT",
+                "id": "SPCFD:S5INFT",
                 "name": "S&P 500 Information Technology"
             },
             {
-                "id": "SP:S5MATR",
+                "id": "SPCFD:S5MATR",
                 "name": "S&P 500 Materials"
             },
             {
-                "id": "SP:S5REAS",
+                "id": "SPCFD:S5REAS",
                 "name": "S&P 500 Real Estate"
             },
             {
-                "id": "SP:S5TELS",
+                "id": "SPCFD:S5TELS",
                 "name": "S&P 500 Communication Services"
             },
             {
-                "id": "SP:S5UTIL",
+                "id": "SPCFD:S5UTIL",
                 "name": "S&P 500 Utilities"
             },
             {
-                "id": "SP:SPF",
+                "id": "SPCFD:SPF",
                 "name": "S&P 500 Financials"
             },
             {
-                "id": "SP:SPN",
+                "id": "SPCFD:SPN",
                 "name": "S&P 500 Energy"
             },
             {
-                "id": "SP:SPX",
+                "id": "SPCFD:SPX",
                 "name": "S&P 500"
             },
             {
@@ -3566,7 +3650,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Ivory Coast",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -13647,22 +13730,22 @@
         "r": null
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18628,6 +18711,7 @@
             "DB",
             "DDA",
             "DGA",
+            "DNB",
             "DOO",
             "DSP",
             "DWS",
@@ -18707,6 +18791,7 @@
             "Fat Prophets",
             "Federated Hermes",
             "Fidelity",
+            "Fidelity Advisor",
             "Fideuram",
             "FinEx ETF",
             "Finans Asset Management",
@@ -18900,6 +18985,7 @@
             "Liberty One",
             "Lion Global Investors",
             "LionShares",
+            "Lioncrest",
             "Little Harbor Advisors",
             "Loftus Peak",
             "Logan",
@@ -20127,7 +20213,6 @@
             "BW",
             "CA",
             "CH",
-            "CI",
             "CL",
             "CM",
             "CN",
@@ -20339,7 +20424,6 @@
             "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -20884,6 +20968,7 @@
             "KWD",
             "MXN",
             "MYR",
+            "NOK",
             "NZD",
             "PEN",
             "PHP",
@@ -22219,15 +22304,36 @@
             "SYML:HSI;HSCEI",
             "SYML:HSI;HSI",
             "SYML:HSI;HSTECH",
+            "SYML:IDX;BISNIS_27",
+            "SYML:IDX;ECONOMIC30",
+            "SYML:IDX;ESGQKEHATI",
+            "SYML:IDX;ESGSKEHATI",
             "SYML:IDX;IDX30",
             "SYML:IDX;IDX80",
+            "SYML:IDX;IDXBUMN20",
+            "SYML:IDX;IDXESGL",
+            "SYML:IDX;IDXG30",
+            "SYML:IDX;IDXHIDIV20",
+            "SYML:IDX;IDXLQ45LCL",
             "SYML:IDX;IDXMESBUMN",
+            "SYML:IDX;IDXQ30",
             "SYML:IDX;IDXSHAGROW",
+            "SYML:IDX;IDXSMC_COM",
+            "SYML:IDX;IDXSMC_LIQ",
+            "SYML:IDX;IDXV30",
+            "SYML:IDX;IDXVESTA28",
+            "SYML:IDX;INFOBANK15",
+            "SYML:IDX;INVESTOR33",
             "SYML:IDX;ISSI",
+            "SYML:IDX;I_GRADE",
             "SYML:IDX;JII",
             "SYML:IDX;JII70",
             "SYML:IDX;KOMPAS100",
             "SYML:IDX;LQ45",
+            "SYML:IDX;MNC36",
+            "SYML:IDX;PRIMBANK10",
+            "SYML:IDX;SMINFRA18",
+            "SYML:IDX;SRI_KEHATI",
             "SYML:INDEX;FTSEMIB",
             "SYML:KRX;KOSDAQ",
             "SYML:KRX;KOSDAQ150",
@@ -22754,6 +22860,7 @@
             "Oak City Consulting LLC",
             "Optimize Financial, Inc.",
             "Osaka Exchange, Inc.",
+            "Oslo Stock Exchange",
             "Pacific Investment Management Co. LLC",
             "Palmer Square Capital Management LLC",
             "Point Bridge Capital LLC",
@@ -23082,7 +23189,6 @@
             "Archer Investment Corp.",
             "Ardea Investment Management Pty Ltd.",
             "Argent Holdings, Inc.",
-            "Arimathea Corp.",
             "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
@@ -23209,6 +23315,7 @@
             "DB Securities Co., Ltd.",
             "DDA ETP AG",
             "DDA ETP GmbH",
+            "DNB ASA",
             "DSP Adiko Holdings Pvt Ltd.",
             "DSP Finance Pvt Ltd. (Old)",
             "DWS Investment SA",
@@ -23461,6 +23568,7 @@
             "Lightwater Partners Ltd.",
             "Lion Fund Management Co., Ltd.",
             "LionShares LLC",
+            "Lioncrest Partners Pty Ltd.",
             "Liquid Strategies LLC",
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
@@ -23547,6 +23655,7 @@
             "Norris, Perne & French LLP",
             "Northern Trust Corp.",
             "Nu Holdings Ltd.",
+            "Nuveen Securities LLC",
             "Nxtassets GmbH",
             "ORIX Corp.",
             "OTP Bank Nyrt",
@@ -23828,6 +23937,7 @@
             "Ziller Funds Management Pty Ltd.",
             "iA Financial Corp., Inc.",
             "iM Financial Group Co., Ltd.",
+            "iM Global Partner SAS",
             "issuance.swiss AG"
         ]
     },
@@ -24654,6 +24764,7 @@
             "9606",
             "9607",
             "9609",
+            "9611",
             "9616",
             "9617",
             "97",
@@ -24662,6 +24773,7 @@
             "9861",
             "9866",
             "9867",
+            "9887",
             "9911",
             "9921",
             "9937"
@@ -25948,7 +26060,6 @@
             "UA",
             "UG",
             "US",
-            "UY",
             "UZ",
             "VE",
             "VG",
