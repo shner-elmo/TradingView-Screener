@@ -562,11 +562,11 @@ class Query:
          49                    CRYPTOCAP:OP  ...     cfd
          [50 rows x 3 columns])
 
-        :param markets: one or more markets
-        :return: Self
-
         [country]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=country&expand
         [Markets]: https://shner-elmo.github.io/TradingView-Screener/markets.html
+
+        :param markets: one or more markets
+        :return: Self
         """
         if len(markets) == 1:
             market = markets[0]
