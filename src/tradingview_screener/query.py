@@ -244,7 +244,7 @@ class Query:
      49     AMEX:XLK  161.17  162.750  ...  -1.520828  36.868658                 NaN
      [50 rows x 8 columns])
 
-    You can find the 250+ columns available in the [Fields] page.
+    You can find the 250+ columns available in the [Fields](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html) page.
 
     Now let's do some queries using the `WHERE` statement, select all the stocks that the `close` is
     bigger or equal than 350
@@ -365,7 +365,6 @@ class Query:
      49    OTC:CLRMF  CLRMF  0.032500     496049                 17.560935
      [50 rows x 5 columns])
 
-    [Fields]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html
     """
 
     def __init__(self, market: str = 'america') -> None:
@@ -413,9 +412,9 @@ class Query:
            ```
 
            This query filters entities where:
-           - The [type] is `'stock'` and [typespecs] contains `'common'` or `'preferred'`, **OR**
-           - The [type] is `'fund'` and [typespecs] does not contain `'etf'`, **OR**
-           - The [type] is `'dr'`.
+           - The [type](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=type&expand) is `'stock'` and [typespecs](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=typespecs&expand) contains `'common'` or `'preferred'`, **OR**
+           - The [type](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=type&expand) is `'fund'` and [typespecs](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=typespecs&expand) does not contain `'etf'`, **OR**
+           - The [type](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=type&expand) is `'dr'`.
 
         2. **Mixing conditions with `OR`:**
            ```python
@@ -427,8 +426,8 @@ class Query:
            )
            ```
            This query filters entities where:
-           - The [type] is `'stock'` and [typespecs] contains `'common'`, **OR**
-           - The [type] is `'fund'`.
+           - The [type](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=type&expand) is `'stock'` and [typespecs](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=typespecs&expand) contains `'common'`, **OR**
+           - The [type](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=type&expand) is `'fund'`.
 
         3. **Combining conditions with `AND`:**
            ```python
@@ -445,8 +444,6 @@ class Query:
            - The `exchange` is one of `'UNISWAP3POLYGON', 'VERSEETH', 'a', 'fffffffff'`, **AND**
            - The `currency_id` is `'USD'`.
 
-        [type]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=type&expand
-        [typespecs]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=typespecs&expand
         """
         self.query['filter2'] = operation['operation']
         return self
@@ -490,11 +487,11 @@ class Query:
         This method allows you to select the market/s which you want to query.
 
         By default, the screener will only scan US equities, but you can change it to scan any
-        market or [country], that includes a list of 67 countries, and also the following
+        market or [country](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=country&expand), that includes a list of 67 countries, and also the following
         asset classes: `bonds`, `cfd`, `coin`, `crypto`, `euronext`, `forex`,
         `futures`, `options`.
 
-        You may choose any value from the [Markets] page.
+        You may choose any value from the [Markets](https://shner-elmo.github.io/TradingView-Screener/markets.html) page.
 
         If you select multiple countries, you might want to
 
@@ -561,9 +558,6 @@ class Query:
          48                  CRYPTOCAP:ARBI  ...     cfd
          49                    CRYPTOCAP:OP  ...     cfd
          [50 rows x 3 columns])
-
-        [country]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=country&expand
-        [Markets]: https://shner-elmo.github.io/TradingView-Screener/markets.html
 
         :param markets: one or more markets
         :return: Self
