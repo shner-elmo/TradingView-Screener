@@ -3641,7 +3641,6 @@
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -13720,17 +13719,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13740,12 +13734,17 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18934,6 +18933,7 @@
             "Inyova",
             "Itau",
             "Ivy",
+            "JAMP",
             "JKO",
             "JLens",
             "JPMorgan",
@@ -20233,7 +20233,6 @@
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -20421,10 +20420,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23528,6 +23525,7 @@
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
             "Japan Agricultural Cooperatives Group",
+            "Japan Asset Management Platform Co. Ltd.",
             "Jensen Investment Management, Inc.",
             "Jupiter Fund Management Plc",
             "KB Financial Group, Inc.",

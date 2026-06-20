@@ -9516,12 +9516,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9546,12 +9546,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14458,6 +14458,7 @@
             "Ankr",
             "ApeCoin",
             "Aptos",
+            "ArbDoge AI",
             "Arbitrum",
             "AriaAI",
             "Arkham",
@@ -14507,6 +14508,7 @@
             "Celo",
             "Centrifuge",
             "ChainGPT",
+            "ChainOpera AI",
             "Chainflip",
             "Chainlink",
             "Chia",
@@ -14602,6 +14604,7 @@
             "IOTA",
             "Illuvium",
             "Immutable",
+            "Impossible Cloud Network",
             "Index Cooperative",
             "Injective",
             "Inter Milan Fan Token",
@@ -14648,6 +14651,7 @@
             "Marlin",
             "MegaETH",
             "MemeCore",
+            "Memecoin",
             "Metadium",
             "Metis",
             "MicroVisionChain",
@@ -14670,7 +14674,6 @@
             "Nervos Network",
             "New XAI gork",
             "Nexo",
-            "Nietzschean Penguin",
             "Nillion",
             "Nobody Sausage",
             "Nockchain",
@@ -14765,7 +14768,6 @@
             "Stargate Finance",
             "Starknet",
             "Stellar",
-            "Storj",
             "Story",
             "Stronghold SHx",
             "Subsquid",
@@ -14864,6 +14866,7 @@
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAIAD",
+            "XTVCAIDOGE",
             "XTVCAIO",
             "XTVCAIOZ",
             "XTVCAIXBT",
@@ -14931,6 +14934,7 @@
             "XTVCCKB",
             "XTVCCLANKER",
             "XTVCCMC20",
+            "XTVCCOAICH",
             "XTVCCOMP",
             "XTVCCOT",
             "XTVCCPOOL",
@@ -15023,6 +15027,7 @@
             "XTVCHOMED",
             "XTVCHYPEH",
             "XTVCHYPERL",
+            "XTVCICNT",
             "XTVCICP",
             "XTVCICX",
             "XTVCID",
@@ -15071,6 +15076,7 @@
             "XTVCMBD",
             "XTVCMBOX",
             "XTVCMEGAE",
+            "XTVCMEMECO",
             "XTVCMEMECORE",
             "XTVCMETA",
             "XTVCMETIS",
@@ -15117,7 +15123,6 @@
             "XTVCPAXG",
             "XTVCPEAQ",
             "XTVCPENDLE",
-            "XTVCPENGUINN",
             "XTVCPENGUPUD",
             "XTVCPEPE",
             "XTVCPHA",
@@ -15183,7 +15188,6 @@
             "XTVCSTETH",
             "XTVCSTG",
             "XTVCSTOOS",
-            "XTVCSTORJ",
             "XTVCSTRKS",
             "XTVCSTXS",
             "XTVCSUI",
@@ -15298,10 +15302,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
