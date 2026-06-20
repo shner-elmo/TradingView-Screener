@@ -244,7 +244,7 @@ class Query:
      49     AMEX:XLK  161.17  162.750  ...  -1.520828  36.868658                 NaN
      [50 rows x 8 columns])
 
-    You can find the 250+ columns available in `tradingview_screener.constants.COLUMNS`.
+    You can find the 250+ columns available in the [Fields] page.
 
     Now let's do some queries using the `WHERE` statement, select all the stocks that the `close` is
     bigger or equal than 350
@@ -364,6 +364,8 @@ class Query:
      48  NASDAQ:GBNH   GBNH  0.273000     500412                  9.076764
      49    OTC:CLRMF  CLRMF  0.032500     496049                 17.560935
      [50 rows x 5 columns])
+
+    [Fields]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html
     """
 
     def __init__(self, market: str = 'america') -> None:
@@ -411,9 +413,9 @@ class Query:
            ```
 
            This query filters entities where:
-           - The `type` is `'stock'` and `typespecs` contains `'common'` or `'preferred'`, **OR**
-           - The `type` is `'fund'` and `typespecs` does not contain `'etf'`, **OR**
-           - The `type` is `'dr'`.
+           - The [type] is `'stock'` and [typespecs] contains `'common'` or `'preferred'`, **OR**
+           - The [type] is `'fund'` and [typespecs] does not contain `'etf'`, **OR**
+           - The [type] is `'dr'`.
 
         2. **Mixing conditions with `OR`:**
            ```python
@@ -425,8 +427,8 @@ class Query:
            )
            ```
            This query filters entities where:
-           - The `type` is `'stock'` and `typespecs` contains `'common'`, **OR**
-           - The `type` is `'fund'`.
+           - The [type] is `'stock'` and [typespecs] contains `'common'`, **OR**
+           - The [type] is `'fund'`.
 
         3. **Combining conditions with `AND`:**
            ```python
@@ -442,6 +444,9 @@ class Query:
            This query filters entities in the `'crypto'` market where:
            - The `exchange` is one of `'UNISWAP3POLYGON', 'VERSEETH', 'a', 'fffffffff'`, **AND**
            - The `currency_id` is `'USD'`.
+
+        [type]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=type&expand
+        [typespecs]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=typespecs&expand
         """
         self.query['filter2'] = operation['operation']
         return self
@@ -485,11 +490,11 @@ class Query:
         This method allows you to select the market/s which you want to query.
 
         By default, the screener will only scan US equities, but you can change it to scan any
-        market or country, that includes a list of 67 countries, and also the following
+        market or [country], that includes a list of 67 countries, and also the following
         asset classes: `bonds`, `cfd`, `coin`, `crypto`, `euronext`, `forex`,
         `futures`, `options`.
 
-        You may choose any value from `tradingview_screener.constants.MARKETS`.
+        You may choose any value from the [Markets] page.
 
         If you select multiple countries, you might want to
 
@@ -559,6 +564,9 @@ class Query:
 
         :param markets: one or more markets
         :return: Self
+
+        [country]: https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html?field=country&expand
+        [Markets]: https://shner-elmo.github.io/TradingView-Screener/markets.html
         """
         if len(markets) == 1:
             market = markets[0]
