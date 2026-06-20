@@ -41,8 +41,9 @@ API. This package retrieves data directly from TradingView without the need for 
 ### Links
 
 - [GitHub Repository](https://github.com/shner-elmo/TradingView-Screener)
-- [Documentation](https://shner-elmo.github.io/TradingView-Screener/3.2.0/tradingview_screener.html)
+- [Documentation](https://shner-elmo.github.io/TradingView-Screener/3.2.1/tradingview_screener.html)
 - [Fields](https://shner-elmo.github.io/TradingView-Screener/fields/stocks.html)
+- [Markets](https://shner-elmo.github.io/TradingView-Screener/markets.html)
 - [Screeners](https://shner-elmo.github.io/TradingView-Screener/screeners/stocks/america.html)
 
 Note that throughout the documentation, "field" and "column" are used interchangeably.

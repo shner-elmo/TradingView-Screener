@@ -1271,7 +1271,7 @@ wheels = [
 
 [[package]]
 name = "tradingview-screener"
-version = "3.2.0"
+version = "3.2.1"
 source = { editable = "." }
 dependencies = [
     { name = "pandas", version = "2.3.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
