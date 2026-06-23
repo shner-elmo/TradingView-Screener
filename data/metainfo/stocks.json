@@ -13750,12 +13750,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -19799,7 +19799,6 @@
             "CEXXXX",
             "CFOIIS",
             "CHNXXX",
-            "CICGBU",
             "CICGLS",
             "CICGXS",
             "CICGXX",
@@ -23481,6 +23480,7 @@
             "Heungkuk Securities Co., Ltd.",
             "Hexis Capital Management Ltd.",
             "Holding Plural SA",
+            "Horizon Asset Management Co., Ltd.",
             "Horizon Investments LLC",
             "Horizon Kinetics Holding Corp.",
             "Howard Capital Management, Inc. (Georgia)",
@@ -23489,7 +23489,6 @@
             "Huafu Securities Co., Ltd.",
             "Huatai Securities Co., Ltd.",
             "Huatai-PineBridge Fund Management Co., Ltd.",
-            "Hui'an Fund Management Co. Ltd.",
             "Hull Investments LLC",
             "Humankind USA LLC",
             "Hwabao WP Fund Management Co., Ltd.",
@@ -23656,6 +23655,7 @@
             "Norris, Perne & French LLP",
             "Northern Trust Corp.",
             "Nu Holdings Ltd.",
+            "Nuveen LLC",
             "Nuveen Securities LLC",
             "Nxtassets GmbH",
             "ORIX Corp.",
@@ -23903,7 +23903,6 @@
             "WEBs Investments, Inc.",
             "Wahed Invest LLC",
             "Wanjia Asset Management Co., Ltd.",
-            "Wanjia Fund Management Co Ltd.",
             "Warren Capital Management, Inc.",
             "Water Island Capital Partners LP",
             "Waverly Advisors LLC",
@@ -26033,6 +26032,7 @@
             "NO",
             "NZ",
             "OM",
+            "PA",
             "PE",
             "PG",
             "PH",

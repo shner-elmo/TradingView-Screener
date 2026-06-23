@@ -1978,7 +1978,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market"
         ]
     },
     {
@@ -2068,7 +2069,6 @@
         "n": "kind",
         "t": "text",
         "r": [
-            "delay",
             "rt"
         ]
     },
@@ -2246,11 +2246,8 @@
             "Commodity/Energy/Oil/CrudeOil/BAKKEN",
             "Commodity/Energy/Oil/CrudeOil/Brent",
             "Commodity/Energy/Oil/CrudeOil/Dubai",
-            "Commodity/Energy/Oil/CrudeOil/LLS",
-            "Commodity/Energy/Oil/CrudeOil/Mars",
             "Commodity/Energy/Oil/CrudeOil/Murban",
             "Commodity/Energy/Oil/CrudeOil/WTI",
-            "Commodity/Energy/Oil/CrudeOil/WTS",
             "Commodity/Energy/Oil/Refined",
             "Commodity/Energy/Oil/Refined/Gasoil",
             "Commodity/Energy/Oil/Refined/Gasoline",
