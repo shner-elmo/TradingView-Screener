@@ -13740,22 +13740,22 @@
         "r": null
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18840,7 +18840,6 @@
             "Global",
             "Global X",
             "Globinvest",
-            "God Bless",
             "Golden Eagle",
             "Goldman Sachs",
             "Goose Hollow",
@@ -19901,7 +19900,6 @@
             "EPVXFR",
             "EPVXUR",
             "EPXNFR",
-            "EPXXXB",
             "EPXXXX",
             "ESETFR",
             "ESEUFN",
@@ -23496,6 +23494,7 @@
             "Hyperion Holdings Ltd.  (Australia)",
             "I.B.I. Investment House Ltd.",
             "ICBC UBS Asset Management Co. Ltd.",
+            "ICICI Bank Ltd.",
             "ICICI Prudential Asset Management Co. Ltd. (Invt Mgmt)",
             "IDX Advisors LLC",
             "IQ EQ Group Holdings SARL",
@@ -23816,6 +23815,7 @@
             "T-Bank (Russia)",
             "T-Technologies IPJSC",
             "T. Rowe Price Group, Inc.",
+            "TBI Investment Managers (Pty) Ltd.",
             "TFG Parent Holdings LLC",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
@@ -24774,7 +24774,6 @@
             "9866",
             "9867",
             "9887",
-            "9898",
             "9911",
             "9921",
             "9937"
