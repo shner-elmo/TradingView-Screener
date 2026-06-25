@@ -9546,12 +9546,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14455,13 +14455,12 @@
             "Alchemy Pay",
             "Aleph Zero",
             "Algorand",
+            "Alien Worlds",
             "Allora",
             "AltLayer",
             "Ankr",
-            "Anoma",
             "ApeCoin",
             "Aptos",
-            "ArbDoge AI",
             "Arbitrum",
             "AriaAI",
             "Arkham",
@@ -14491,6 +14490,7 @@
             "Berachain",
             "Bi An Ren Sheng",
             "Biconomy",
+            "Bio Protocol",
             "BitTorrent-New",
             "Bitcoin",
             "Bitcoin Cash",
@@ -14500,10 +14500,10 @@
             "Bless",
             "Block Street",
             "BluWhale",
+            "Blum",
             "Bonfida",
             "Bonk",
             "Boson Protocol",
-            "Brett (Based)",
             "Buff Doge Coin",
             "Buttcoin",
             "Cardano",
@@ -14516,7 +14516,6 @@
             "Chainlink",
             "Chia",
             "Chiliz",
-            "Clearpool",
             "Codatta",
             "Coin98",
             "CoinMarketCap 20 Index DTF",
@@ -14584,7 +14583,6 @@
             "GamerCoin",
             "Gas",
             "Genius Terminal",
-            "Gigachad",
             "Gnosis",
             "Golem",
             "Gram (prev. Toncoin)",
@@ -14630,10 +14628,10 @@
             "Kinetiq",
             "Kite",
             "LAB",
-            "LCX",
             "LayerZero",
             "Lido DAO",
             "Lido Staked ETH",
+            "Lighter",
             "Linea",
             "Litecoin",
             "Litentry",
@@ -14803,8 +14801,8 @@
             "USDC",
             "USDD",
             "USDS",
-            "Unicorn Fart Dust",
             "UnifAI Network",
+            "Union",
             "Uniswap",
             "United States Oil Tokenized Fund (Ondo)",
             "Useless Coin",
@@ -14828,6 +14826,7 @@
             "World Liberty Financial USD",
             "Worldcoin",
             "Wormhole",
+            "Wrapped Bitcoin",
             "XDC Network",
             "XPR Network",
             "XRP",
@@ -14869,7 +14868,6 @@
             "XTVCAEROD",
             "XTVCAGTAL",
             "XTVCAIAD",
-            "XTVCAIDOGE",
             "XTVCAIO",
             "XTVCAIOZ",
             "XTVCAIXBT",
@@ -14915,15 +14913,16 @@
             "XTVCBGB",
             "XTVCBIANRENSHENG",
             "XTVCBICO",
+            "XTVCBIOPR",
             "XTVCBITCOIN",
             "XTVCBLESS",
             "XTVCBLUAI",
+            "XTVCBLUM",
             "XTVCBNB",
             "XTVCBNKRB",
             "XTVCBOME",
             "XTVCBONK",
             "XTVCBOSON",
-            "XTVCBRETT2",
             "XTVCBSBBL",
             "XTVCBSV",
             "XTVCBTC",
@@ -14945,7 +14944,6 @@
             "XTVCCOAICH",
             "XTVCCOMP",
             "XTVCCOT",
-            "XTVCCPOOL",
             "XTVCCRO",
             "XTVCCRV",
             "XTVCCVX",
@@ -15006,7 +15004,6 @@
             "XTVCGENIUS",
             "XTVCGEODN",
             "XTVCGHX",
-            "XTVCGIGACH",
             "XTVCGLM",
             "XTVCGMT",
             "XTVCGMX",
@@ -15060,11 +15057,11 @@
             "XTVCKNTQ",
             "XTVCLAB2",
             "XTVCLAYERS",
-            "XTVCLCX",
             "XTVCLDO",
             "XTVCLINEA",
             "XTVCLINK",
             "XTVCLIT",
+            "XTVCLITL",
             "XTVCLPT",
             "XTVCLRC",
             "XTVCLTC",
@@ -15210,6 +15207,7 @@
             "XTVCTHETA",
             "XTVCTIA2",
             "XTVCTIBBIR",
+            "XTVCTLM",
             "XTVCTNSR",
             "XTVCTRAC",
             "XTVCTRB",
@@ -15218,8 +15216,8 @@
             "XTVCTSLAX",
             "XTVCTURBO",
             "XTVCUAIU",
-            "XTVCUFD",
             "XTVCUNI",
+            "XTVCUNION",
             "XTVCUS",
             "XTVCUSD1W",
             "XTVCUSDC",
@@ -15242,6 +15240,7 @@
             "XTVCVVV",
             "XTVCW",
             "XTVCWAVES",
+            "XTVCWBTC",
             "XTVCWEMIX",
             "XTVCWETH",
             "XTVCWHITEWHALE",
@@ -15250,7 +15249,6 @@
             "XTVCWLDW",
             "XTVCWOJAK2",
             "XTVCWRT",
-            "XTVCXANA",
             "XTVCXAUT",
             "XTVCXCH",
             "XTVCXCN",
@@ -15306,7 +15304,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
@@ -15324,6 +15321,21 @@
     {
         "n": "description",
         "t": "text",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebit_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_sales_fwd",
+        "t": "number",
         "r": null
     },
     {
@@ -16191,6 +16203,21 @@
     {
         "n": "price_52_week_low_date",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "price_book_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_fwd",
+        "t": "number",
         "r": null
     },
     {

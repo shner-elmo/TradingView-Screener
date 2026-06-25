@@ -9649,17 +9649,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9669,7 +9664,7 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -9679,12 +9674,17 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14756,6 +14756,21 @@
         "r": null
     },
     {
+        "n": "enterprise_value_ebit_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_sales_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "expiration",
         "t": "time",
         "r": null
@@ -15619,6 +15634,21 @@
     {
         "n": "price_52_week_low_date",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "price_book_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_fwd",
+        "t": "number",
         "r": null
     },
     {

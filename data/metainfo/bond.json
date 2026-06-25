@@ -1374,7 +1374,7 @@
             "BAWAG Group AG",
             "BBMG Corp.",
             "BBMG Jidong Cement Group Co., Ltd.",
-            "BBVA Bancomer SA de CV",
+            "BBVA Bancomer, SA de CV",
             "BCB Bancorp, Inc.",
             "BCE, Inc.",
             "BCP Investment Corp.",
@@ -1657,7 +1657,6 @@
             "Bezeq The Israeli Telecommunication Corp. Ltd.",
             "Bhanu Infrabuild Pvt Ltd.",
             "Bharat Forge Ltd.",
-            "Bharat Heavy Electricals Ltd.",
             "Bharat Petroleum Corp. Ltd.",
             "Bharat Sanchar Nigam Ltd.",
             "Bharti Airtel Ltd.",
@@ -2711,7 +2710,6 @@
             "Deyang Development Holding Group Co., Ltd.",
             "Dezhou Deda Urban Construction Investment & Operation Co. Ltd.",
             "Dhafrah Pv2 Energy Co., LLC",
-            "Dhampur Sugar Mills Ltd.",
             "DiaSorin SpA",
             "Diageo Plc",
             "Diamondback Energy, Inc.",
@@ -3564,7 +3562,6 @@
             "Gorilla Technology Group, Inc.",
             "Gossamer Bio, Inc.",
             "Gosudarstvennaya Transportnaya Lizingovaya Kompaniya OJSC",
-            "Goswami Infratech Pvt Ltd.",
             "Gothaer Allgemeine Versicherung AG",
             "Government of Australia",
             "Government of Bahrain",
@@ -3661,6 +3658,7 @@
             "Grupo Financiero Inbursa SAB de CV",
             "Grupo Financiero Mifel SA de CV",
             "Grupo M\u00e9xico S.A.B. de C.V.",
+            "Grupo Nosa-Terra 21 SA",
             "Grupo Nutresa SA",
             "Grupo Prima SA",
             "Grupo Supervielle SA",
@@ -4031,6 +4029,7 @@
             "Hydro One Ltd.",
             "Hydro-Qu\u00e9bec",
             "Hyflux Ltd.",
+            "Hygiacura Finance Ltd.",
             "Hyperion Bancshares, Inc.",
             "Hypo Tirol Bank AG",
             "Hypo Vorarlberg Bank AG",
@@ -4633,7 +4632,6 @@
             "L3Harris Technologies, Inc.",
             "LAIQON AG",
             "LAMDA Development SA",
-            "LANXESS AG",
             "LATAM Airlines Group SA",
             "LBS Bina Group Bhd.",
             "LCI Industries",
@@ -4703,6 +4701,7 @@
             "Lanshan State-Owned Asset Management Service Center",
             "Lanterra Canada Enterprises LP",
             "Lantheus Holdings, Inc.",
+            "Lanxess AG",
             "Larsen & Toubro Ltd.",
             "Larvotto Resources Ltd.",
             "Las Vegas Sands Corp.",
@@ -6288,6 +6287,7 @@
             "Relais Group Oyj",
             "Reliance Capital Ltd.",
             "Reliance Industries Ltd.",
+            "Reliance Jio Infocomm Ltd.",
             "Reliance Power Ltd.",
             "Reliance, Inc.",
             "Remonda, Castro y CIA SAC",
@@ -6442,6 +6442,7 @@
             "SFS Group AG",
             "SGAM AG2R La Mondiale",
             "SGAM Klesia Assurances",
+            "SGAM Malakoff Humanis",
             "SGH Ltd.",
             "SGL Carbon SE",
             "SGS SA",
@@ -7797,7 +7798,6 @@
             "Vestfjorden Avl\u00f8psselskap (Veas)",
             "Via A11 NV",
             "Via Pribina AS",
-            "Via Renewables, Inc.",
             "ViaSat, Inc.",
             "Viatris, Inc.",
             "Viavi Solutions, Inc.",
@@ -7941,6 +7941,7 @@
             "Weihai Wendeng District State Owned Assets Service Center",
             "Weimob, Inc.",
             "Weinan State-owned Capital Holdings (Group) Co. Ltd.",
+            "Well Link Group Holdings Ltd.",
             "Wellbore Integrity Solutions Parent, Inc.",
             "Wells Fargo & Co.",
             "Welltower OP LLC",
@@ -8755,6 +8756,7 @@
             "BVMT:TJL",
             "BVMT:TLS",
             "BVMT:UBCI",
+            "BX:6D81",
             "CBOE:CBOE",
             "CSE:AAWH.U",
             "CSE:AYR.A",
@@ -9622,6 +9624,7 @@
             "NASDAQ:EA",
             "NASDAQ:EBAY",
             "NASDAQ:EBMT",
+            "NASDAQ:ECHO",
             "NASDAQ:ECPG",
             "NASDAQ:EEFT",
             "NASDAQ:EFSC",
@@ -9883,7 +9886,6 @@
             "NASDAQ:RWAY",
             "NASDAQ:RXT",
             "NASDAQ:SAIC",
-            "NASDAQ:SATS",
             "NASDAQ:SBAC",
             "NASDAQ:SBRA",
             "NASDAQ:SBUX",
@@ -9958,7 +9960,6 @@
             "NASDAQ:VEON",
             "NASDAQ:VERI",
             "NASDAQ:VERX",
-            "NASDAQ:VIASP",
             "NASDAQ:VIAV",
             "NASDAQ:VLY",
             "NASDAQ:VNET",
@@ -10040,7 +10041,6 @@
             "NSE:BBTC",
             "NSE:BHARATFORG",
             "NSE:BHARTIARTL",
-            "NSE:BHEL",
             "NSE:BIOCON",
             "NSE:BIRET.RR",
             "NSE:BIRLACORPN",
@@ -10066,7 +10066,6 @@
             "NSE:DCAL",
             "NSE:DCBBANK",
             "NSE:DCCL",
-            "NSE:DHAMPURSUG",
             "NSE:DLF",
             "NSE:DMART",
             "NSE:DOLATALGO",
@@ -10526,7 +10525,6 @@
             "NYSE:DBD",
             "NYSE:DCH",
             "NYSE:DCOM",
-            "NYSE:DD",
             "NYSE:DDD",
             "NYSE:DDS",
             "NYSE:DE",
@@ -12666,7 +12664,7 @@
             "BVMT:TJL",
             "BVMT:TLS",
             "BVMT:UBCI",
-            "BX:APLS",
+            "BX:6D81",
             "CBOE:CBOE",
             "CSE:AAWH.U",
             "CSE:AYR.A",
@@ -13052,6 +13050,7 @@
             "LS:A2AFQV",
             "LS:A2DU22",
             "LS:A2DYQD",
+            "LS:A2JAAW",
             "LS:A2PFBF",
             "LS:A3CT7N",
             "LSE:0DTT",
@@ -13378,6 +13377,7 @@
             "NASDAQ:EA",
             "NASDAQ:EBAY",
             "NASDAQ:EBMT",
+            "NASDAQ:ECHO",
             "NASDAQ:ECPG",
             "NASDAQ:EEFT",
             "NASDAQ:EFSC",
@@ -13599,7 +13599,6 @@
             "NASDAQ:RVMD",
             "NASDAQ:RWAY",
             "NASDAQ:SAIC",
-            "NASDAQ:SATS",
             "NASDAQ:SBAC",
             "NASDAQ:SBUX",
             "NASDAQ:SEDG",
@@ -13657,7 +13656,6 @@
             "NASDAQ:VECO",
             "NASDAQ:VERI",
             "NASDAQ:VERX",
-            "NASDAQ:VIASP",
             "NASDAQ:VIAV",
             "NASDAQ:VLY",
             "NASDAQ:VNET",
@@ -13728,7 +13726,6 @@
             "NSE:BBTC",
             "NSE:BHARATFORG",
             "NSE:BHARTIARTL",
-            "NSE:BHEL",
             "NSE:BIRET.RR",
             "NSE:BIRLACORPN",
             "NSE:CANBK",
@@ -13751,7 +13748,6 @@
             "NSE:DCAL",
             "NSE:DCBBANK",
             "NSE:DCCL",
-            "NSE:DHAMPURSUG",
             "NSE:DMART",
             "NSE:DOLATALGO",
             "NSE:EDELWEISS",
@@ -14131,7 +14127,6 @@
             "NYSE:DAR",
             "NYSE:DBD",
             "NYSE:DCOM",
-            "NYSE:DD",
             "NYSE:DDD",
             "NYSE:DDS",
             "NYSE:DE",
@@ -16963,9 +16958,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market"
+            "pre_market"
         ]
     },
     {
@@ -17012,6 +17008,21 @@
             "perpetual",
             "short-term"
         ]
+    },
+    {
+        "n": "enterprise_value_ebit_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_sales_fwd",
+        "t": "number",
+        "r": null
     },
     {
         "n": "expiration",
@@ -17191,8 +17202,7 @@
         "t": "text",
         "r": [
             "current",
-            "defaulted",
-            "redeemed"
+            "defaulted"
         ]
     },
     {
@@ -17513,6 +17523,21 @@
             "non-redeemable",
             "redeemable"
         ]
+    },
+    {
+        "n": "price_book_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_fwd",
+        "t": "number",
+        "r": null
     },
     {
         "n": "pricescale",

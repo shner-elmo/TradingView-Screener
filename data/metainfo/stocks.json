@@ -13740,22 +13740,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18445,6 +18445,21 @@
         "r": null
     },
     {
+        "n": "book_value_per_share_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_value_per_share_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "book_value_per_share_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "book_value_per_share_fh",
         "t": "fundamental_price",
         "r": null
@@ -18534,6 +18549,7 @@
             "Altrius",
             "Altshares",
             "AmInvest",
+            "Amana",
             "American Beacon",
             "American Century",
             "Amova",
@@ -18610,6 +18626,7 @@
             "Bitcoin Capital",
             "Bitwise",
             "BlackRock",
+            "BlueSphere",
             "Bluemonte",
             "Blueprint",
             "Bochk",
@@ -19103,7 +19120,6 @@
             "OTG",
             "OTP",
             "Oakmark",
-            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -19169,6 +19185,7 @@
             "ProShares",
             "Procure",
             "Prospera Funds",
+            "PurePlay",
             "Purpose",
             "Putnam",
             "Pzena",
@@ -19298,6 +19315,7 @@
             "Suncoast",
             "Swan",
             "Swisscanto",
+            "Swissquote",
             "Sygnia",
             "Symmetry Panoramic",
             "T-Capital",
@@ -19393,7 +19411,6 @@
             "Virtune",
             "Virtus",
             "VistaShares",
-            "Vita",
             "Volatility Shares",
             "Vontobel",
             "Vox",
@@ -19490,6 +19507,26 @@
         "r": null
     },
     {
+        "n": "capital_expenditures_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "capital_expenditures_estimate_ntm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "capital_expenditures_fh",
         "t": "fundamental_price",
         "r": null
@@ -19555,6 +19592,26 @@
         "r": null
     },
     {
+        "n": "cash_f_financing_activities_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_financing_activities_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_financing_activities_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_financing_activities_estimate_ntm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "cash_f_financing_activities_fh",
         "t": "fundamental_price",
         "r": null
@@ -19571,6 +19628,26 @@
     },
     {
         "n": "cash_f_financing_activities_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_investing_activities_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_investing_activities_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_investing_activities_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_investing_activities_estimate_ntm",
         "t": "fundamental_price",
         "r": null
     },
@@ -19595,6 +19672,26 @@
         "r": null
     },
     {
+        "n": "cash_f_operating_activities_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_operating_activities_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_operating_activities_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_f_operating_activities_estimate_ntm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "cash_f_operating_activities_fh",
         "t": "fundamental_price",
         "r": null
@@ -19611,6 +19708,21 @@
     },
     {
         "n": "cash_f_operating_activities_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_estimate_fy",
         "t": "fundamental_price",
         "r": null
     },
@@ -20189,6 +20301,26 @@
         "r": null
     },
     {
+        "n": "cost_of_goods_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cost_of_goods_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cost_of_goods_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "cost_of_goods_estimate_ntm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "country_code_fund",
         "t": "text",
         "r": [
@@ -20611,6 +20743,26 @@
         "r": null
     },
     {
+        "n": "dps_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dps_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dps_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "dps_estimate_ntm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "earnings_fq_h",
         "t": "interface",
         "r": null
@@ -20756,6 +20908,26 @@
         "r": null
     },
     {
+        "n": "ebit_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebit_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebit_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebit_estimate_ntm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "ebit_per_share_current",
         "t": "fundamental_price",
         "r": null
@@ -20782,6 +20954,26 @@
     },
     {
         "n": "ebit_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "ebitda_estimate_ntm",
         "t": "fundamental_price",
         "r": null
     },
@@ -20896,7 +21088,22 @@
         "r": null
     },
     {
+        "n": "enterprise_value_ebit_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "enterprise_value_ebitda_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_sales_fwd",
         "t": "number",
         "r": null
     },
@@ -20928,6 +21135,11 @@
     {
         "n": "eps_diluted_growth_percent_fy",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "eps_estimate_ntm",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -21294,6 +21506,26 @@
     {
         "n": "free_cash_flow_cagr_5y",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_estimate_ntm",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -21737,6 +21969,26 @@
     {
         "n": "gross_margin_ttm",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "gross_profit_estimate_ntm",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -23301,7 +23553,6 @@
             "Core Alternative Capital LLC",
             "Corgi Insurance Services, Inc.",
             "Corgi Strategies LLC",
-            "Corient Holdings, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
             "Corton Capital, Inc.",
             "Cottonwood ETF Holdings LLC",
@@ -23367,8 +23618,8 @@
             "Equitable Holdings, Inc.",
             "Estate Counselors LLC",
             "Eurazeo SE",
-            "Eurizon Capital SGR SpA",
             "Eventide Asset Management LLC",
+            "Everence Association, Inc.",
             "Everence Holdings, Inc.",
             "Evolve Funds Group, Inc.",
             "Expat Capital AD",
@@ -23598,6 +23849,7 @@
             "Matthews International Capital Management LLC",
             "Maverix Securities AG",
             "Maxwealth Fund Management Co., Ltd.",
+            "Mc Accelerate Holdco Uk Ltd.",
             "Mega Financial Holding Co., Ltd.",
             "Meitav Investment House Ltd.",
             "Melanion Capital SAS",
@@ -23688,8 +23940,8 @@
             "Passionate Investment Management Pvt Ltd.",
             "Patria Bank SA",
             "Peakshares LLC",
-            "Peng Yang Amc Fund Management Co. Ltd.",
             "Penghua Fund Management Co., Ltd.",
+            "Pengyang Asset Management Co., Ltd.",
             "Perennial Value Management Ltd.",
             "Perpetual Ltd.",
             "Pettee Investors, Inc.",
@@ -23771,6 +24023,7 @@
             "Samsung Securities Co., Ltd.",
             "Sanlam Ltd.",
             "Saracen Energy Advisors LP",
+            "Saturna Capital Corp.",
             "Sberbank Russia PJSC",
             "Scharf Investments LLC",
             "Schroders Plc",
@@ -23938,6 +24191,7 @@
             "iA Financial Corp., Inc.",
             "iM Financial Group Co., Ltd.",
             "iM Global Partner SAS",
+            "iM Square SAS",
             "issuance.swiss AG"
         ]
     },
@@ -24462,6 +24716,26 @@
     {
         "n": "net_income_cagr_5y",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "net_income_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "net_income_estimate_ntm",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -25115,6 +25389,11 @@
         "r": null
     },
     {
+        "n": "price_book_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "price_cash_flow_current",
         "t": "number",
         "r": null
@@ -25126,6 +25405,11 @@
     },
     {
         "n": "price_earnings_forward_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_fwd",
         "t": "number",
         "r": null
     },
@@ -25146,6 +25430,11 @@
     },
     {
         "n": "price_sales_current",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_fwd",
         "t": "number",
         "r": null
     },
@@ -25389,6 +25678,26 @@
         "r": null
     },
     {
+        "n": "research_and_dev_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_estimate_ntm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "research_and_dev_fh",
         "t": "fundamental_price",
         "r": null
@@ -25506,6 +25815,11 @@
     {
         "n": "return_on_total_capital_fy",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "revenue_estimate_ntm",
+        "t": "fundamental_price",
         "r": null
     },
     {
@@ -25631,6 +25945,26 @@
     },
     {
         "n": "sell_gen_admin_exp_other_ttm",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_total_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_total_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_total_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_total_estimate_ntm",
         "t": "fundamental_price",
         "r": null
     },
@@ -26071,6 +26405,21 @@
         ]
     },
     {
+        "n": "total_assets_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_assets_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_assets_estimate_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
         "n": "total_assets_fq",
         "t": "fundamental_price",
         "r": null
@@ -26147,6 +26496,21 @@
     },
     {
         "n": "total_current_liabilities_fy",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_estimate_fh",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_estimate_fq",
+        "t": "fundamental_price",
+        "r": null
+    },
+    {
+        "n": "total_debt_estimate_fy",
         "t": "fundamental_price",
         "r": null
     },

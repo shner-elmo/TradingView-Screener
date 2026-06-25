@@ -1978,8 +1978,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {
@@ -1995,6 +1994,21 @@
     {
         "n": "description",
         "t": "text",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebit_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_sales_fwd",
+        "t": "number",
         "r": null
     },
     {
@@ -2167,6 +2181,21 @@
     {
         "n": "price_52_week_low_date",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "price_book_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_fwd",
+        "t": "number",
         "r": null
     },
     {

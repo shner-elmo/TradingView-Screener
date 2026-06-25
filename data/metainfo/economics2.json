@@ -695,6 +695,21 @@
         ]
     },
     {
+        "n": "enterprise_value_ebit_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_ebitda_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "enterprise_value_sales_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "expiration",
         "t": "time",
         "r": null
@@ -815,6 +830,21 @@
     {
         "n": "pre_change_abs",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "price_book_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_earnings_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_fwd",
+        "t": "number",
         "r": null
     },
     {
