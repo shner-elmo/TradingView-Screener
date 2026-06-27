@@ -13740,12 +13740,12 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18534,6 +18534,7 @@
             "Alfa",
             "Alger",
             "Alinma",
+            "Alki",
             "Allfunds",
             "AllianceBernstein",
             "Allianz",
@@ -19326,6 +19327,7 @@
             "TD",
             "TEQ",
             "THOR",
+            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -20027,7 +20029,6 @@
             "ESRTFR",
             "ESRUFN",
             "ESRUFR",
-            "ESRUXR",
             "ESVTFB",
             "ESVTFM",
             "ESVTFN",
@@ -20550,11 +20551,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23420,6 +23418,7 @@
             "Alpha Services & Holdings SA",
             "Alternative Access Funds LLC",
             "AmeriLife Group LLC",
+            "American Beacon Advisors, Inc.",
             "American Beacon Partners",
             "American Century Cos., Inc.",
             "Ameriprise Financial, Inc.",
@@ -24110,6 +24109,7 @@
             "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
+            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
@@ -25050,7 +25050,8 @@
             "9887",
             "9911",
             "9921",
-            "9937"
+            "9937",
+            "9941"
         ]
     },
     {
@@ -26365,7 +26366,6 @@
             "NO",
             "NZ",
             "OM",
-            "PA",
             "PE",
             "PG",
             "PH",
