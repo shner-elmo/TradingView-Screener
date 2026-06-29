@@ -13720,22 +13720,22 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -18791,7 +18791,6 @@
             "Evoke",
             "Evolve",
             "Evovest",
-            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -20552,9 +20551,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -21437,6 +21436,7 @@
             "2193",
             "2194",
             "2195",
+            "2196",
             "2198",
             "22",
             "2200",
