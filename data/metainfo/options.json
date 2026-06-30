@@ -55,6 +55,7 @@
         "n": "exchange",
         "t": "text",
         "r": [
+            "BIST",
             "BSE",
             "CBOT",
             "CBOT_MINI",
@@ -143,6 +144,7 @@
             "INR",
             "JPY",
             "NZD",
+            "TRY",
             "USD",
             "USX"
         ]
@@ -199,6 +201,7 @@
             "INR",
             "JPY",
             "NZD",
+            "TRY",
             "USD",
             "XTVCNH",
             "XTVUSX"

@@ -3625,13 +3625,13 @@
             "Chile",
             "China",
             "Colombia",
+            "Costa Rica",
             "Croatia",
             "Cyprus",
             "Czech Republic",
             "Denmark",
             "Dominican Republic",
             "Egypt",
-            "El Salvador",
             "Estonia",
             "Faroe Islands",
             "Finland",
@@ -13720,12 +13720,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13740,22 +13740,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18791,6 +18791,7 @@
             "Evoke",
             "Evolve",
             "Evovest",
+            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -19144,7 +19145,6 @@
             "PLUS",
             "PMV",
             "PZU Funds",
-            "Pabrai",
             "Pacer",
             "Pacific Funds",
             "Palmer Square",
@@ -19272,7 +19272,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -19940,7 +19939,6 @@
             "CICXXX",
             "CIMJLS",
             "CIOGEU",
-            "CIOGLS",
             "CIOGLX",
             "CIOGXX",
             "CIOIES",
@@ -20348,6 +20346,7 @@
             "CM",
             "CN",
             "CO",
+            "CR",
             "CY",
             "CZ",
             "DE",
@@ -20423,7 +20422,6 @@
             "SI",
             "SK",
             "SN",
-            "SV",
             "TG",
             "TH",
             "TN",
@@ -20553,6 +20551,7 @@
         "r": [
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -23038,7 +23037,6 @@
             "FnGuide, Inc.",
             "Frank Russell Co.",
             "Franklin Advisers, Inc.",
-            "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
             "Fuzzy Logix LLC",
             "Gapstow Capital Partners LP",
             "Global Property Research BV",
@@ -23585,7 +23583,6 @@
             "Deutsche Bank AG",
             "Deutsche B\u00f6rse Commodities GmbH",
             "Deutscher Sparkassen-und Giroverband eV",
-            "Dhandho Holdings LP",
             "Diamond Hill Investment Group, Inc.",
             "Digital Currency Group, Inc.",
             "DigitalX Asset Management Pty Ltd.",
@@ -23773,7 +23770,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -23954,6 +23950,7 @@
             "Pinnacle Investment Management Group Ltd.",
             "PlanRock Investment Management LLC",
             "Platinum Asset Management Ltd.",
+            "Plato Investment Management Ltd.",
             "Point Bridge Capital LLC",
             "Polen Capital Management LLC",
             "Portfoliometrix Holdings Ltd.",
@@ -26397,6 +26394,7 @@
             "UA",
             "UG",
             "US",
+            "UY",
             "UZ",
             "VE",
             "VG",
@@ -26665,6 +26663,7 @@
             "mutual",
             "odd",
             "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",

@@ -9516,12 +9516,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9536,22 +9536,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14448,6 +14448,7 @@
             "ARTFI",
             "AWE",
             "Aave",
+            "Act I : The AI Prophecy",
             "Adventure Gold",
             "Aerodrome Finance",
             "Akash Network",
@@ -14534,6 +14535,7 @@
             "DOWGE",
             "Dai",
             "Dash",
+            "Data Network",
             "DeAgentAI",
             "DeXe",
             "Decentraland",
@@ -14606,7 +14608,6 @@
             "Immutable",
             "Impossible Cloud Network",
             "Index Cooperative",
-            "Initia",
             "Injective",
             "Inter Milan Fan Token",
             "Internet Computer",
@@ -14629,6 +14630,7 @@
             "KernelDAO",
             "Kinetiq",
             "Kite",
+            "Kusama",
             "LAB",
             "LCX",
             "LayerZero",
@@ -14700,7 +14702,6 @@
             "Orderly",
             "OriginTrail",
             "Osmosis",
-            "PAAL AI",
             "PAX Gold",
             "PUMPCADE",
             "PancakeSwap",
@@ -14770,7 +14771,6 @@
             "Stargate Finance",
             "Starknet",
             "Stellar",
-            "Story",
             "Stronghold SHx",
             "Subsquid",
             "Sui",
@@ -14779,6 +14779,7 @@
             "Swarms",
             "Synapse",
             "Synthetix",
+            "TAC Protocol",
             "THORChain",
             "TROLL (SOL)",
             "TRON",
@@ -14789,7 +14790,6 @@
             "Terra",
             "Terra Classic",
             "TerraClassicUSD",
-            "Tesla tokenized stock (xStock)",
             "Tether Gold",
             "Tether USDt",
             "Tezos",
@@ -14865,6 +14865,7 @@
             "XTVC2Z",
             "XTVCAAVE",
             "XTVCACH",
+            "XTVCACTI",
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAGLD",
@@ -15036,7 +15037,6 @@
             "XTVCILV",
             "XTVCIMX",
             "XTVCINDEX",
-            "XTVCINIT",
             "XTVCINJ",
             "XTVCINTER",
             "XTVCINV",
@@ -15059,6 +15059,7 @@
             "XTVCKITE",
             "XTVCKMNO",
             "XTVCKNTQ",
+            "XTVCKSM",
             "XTVCLAB2",
             "XTVCLAYERS",
             "XTVCLCX",
@@ -15121,7 +15122,6 @@
             "XTVCORDI",
             "XTVCORO",
             "XTVCOSMO",
-            "XTVCPAAL",
             "XTVCPARTI",
             "XTVCPAXG",
             "XTVCPEAQ",
@@ -15203,6 +15203,7 @@
             "XTVCSWEAT",
             "XTVCSYN",
             "XTVCSYRUP",
+            "XTVCTACP",
             "XTVCTAOB",
             "XTVCTEL",
             "XTVCTHETA",
@@ -15215,7 +15216,6 @@
             "XTVCTRB",
             "XTVCTROLLSO",
             "XTVCTRX",
-            "XTVCTSLAX",
             "XTVCTURBO",
             "XTVCUAIU",
             "XTVCUNI",
@@ -15307,8 +15307,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
