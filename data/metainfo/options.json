@@ -409,6 +409,7 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
+            "source/BIST",
             "source/BSE",
             "source/CBOT",
             "source/CBOT_MINI",

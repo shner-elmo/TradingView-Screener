@@ -668,6 +668,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
@@ -1079,6 +1080,7 @@
             "P13Y",
             "P14Y",
             "P15Y",
+            "P16Y",
             "P18Y",
             "P19Y",
             "P1M",

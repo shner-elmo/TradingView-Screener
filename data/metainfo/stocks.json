@@ -13720,12 +13720,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13750,12 +13750,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -19145,6 +19145,7 @@
             "PLUS",
             "PMV",
             "PZU Funds",
+            "Pabrai",
             "Pacer",
             "Pacific Funds",
             "Palmer Square",
@@ -19282,6 +19283,7 @@
             "Simplify",
             "SinoPac",
             "Siren",
+            "Skylar",
             "Smart",
             "Smartshares",
             "SoFi",
@@ -19820,7 +19822,6 @@
             "CECGLS",
             "CECGMS",
             "CECGMX",
-            "CECIBS",
             "CECIBU",
             "CECIES",
             "CECIEU",
@@ -19909,6 +19910,7 @@
             "CEXXMX",
             "CEXXXS",
             "CEXXXX",
+            "CFCIIU",
             "CFOIIS",
             "CHNXXX",
             "CICGLS",
@@ -19946,6 +19948,7 @@
             "CIOILS",
             "CIOIMS",
             "CIOIXX",
+            "CIOJEU",
             "CIOJLS",
             "CIOJLU",
             "CIOJMS",
@@ -19957,6 +19960,7 @@
             "CIXXXS",
             "CIXXXX",
             "CMXXXU",
+            "CMXXXX",
             "EFNCCR",
             "EFNNFR",
             "EFNRCX",
@@ -21397,6 +21401,7 @@
             "2131",
             "2132",
             "2134",
+            "2135",
             "2136",
             "2137",
             "2144",
@@ -21429,7 +21434,6 @@
             "2184",
             "2186",
             "2187",
-            "2189",
             "2190",
             "2191",
             "2193",
@@ -23583,6 +23587,7 @@
             "Deutsche Bank AG",
             "Deutsche B\u00f6rse Commodities GmbH",
             "Deutscher Sparkassen-und Giroverband eV",
+            "Dhandho Holdings LP",
             "Diamond Hill Investment Group, Inc.",
             "Digital Currency Group, Inc.",
             "DigitalX Asset Management Pty Ltd.",
@@ -25030,7 +25035,6 @@
             "9597",
             "9598",
             "9599",
-            "9601",
             "9602",
             "9603",
             "9604",
@@ -25047,6 +25051,7 @@
             "9866",
             "9867",
             "9887",
+            "9898",
             "9911",
             "9921",
             "9937",
