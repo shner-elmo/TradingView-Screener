@@ -314,5 +314,13 @@ allowing you to query data using SQL-like syntax without knowing the specifics o
 If this package has bought value to your projects, please consider starring it.
 
 
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/shner-elmo/TradingView-Screener.svg?variant=adaptive)](https://starchart.cc/shner-elmo/TradingView-Screener)
+## Stargazers 
+
+<a href="https://www.star-history.com/?repos=shner-elmo%2FTradingView-Screener&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=shner-elmo/TradingView-Screener&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=shner-elmo/TradingView-Screener&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=shner-elmo/TradingView-Screener&type=date&legend=top-left" />
+ </picture>
+</a>
+
