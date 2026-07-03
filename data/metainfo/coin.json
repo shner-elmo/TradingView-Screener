@@ -9463,12 +9463,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9493,12 +9493,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14412,7 +14412,6 @@
             "near-protocol-ecosystem",
             "okexchain-ecosystem",
             "olympus-pro-ecosystem",
-            "ondo-global-markets-ecosystem",
             "ontology-ecosystem",
             "optimism-ecosystem",
             "plasma-ecosystem",
@@ -14514,7 +14513,6 @@
             "near-protocol-ecosystem",
             "okexchain-ecosystem",
             "olympus-pro-ecosystem",
-            "ondo-global-markets-ecosystem",
             "ontology-ecosystem",
             "optimism-ecosystem",
             "oracles",
@@ -15952,11 +15950,6 @@
         "n": "sentiment",
         "t": "percent",
         "r": null
-    },
-    {
-        "n": "session-holidays",
-        "t": "text",
-        "r": []
     },
     {
         "n": "short_liquidations_volume_12h",
