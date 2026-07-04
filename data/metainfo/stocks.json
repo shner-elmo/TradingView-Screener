@@ -13679,22 +13679,22 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18961,6 +18961,7 @@
             "LongPoint",
             "Longview",
             "Loomis Sayles",
+            "Lunate",
             "Lysander",
             "Lyxor",
             "M&G",
@@ -20505,10 +20506,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {
@@ -23383,7 +23382,6 @@
             "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
-            "Artemis Corp.",
             "Asia Plus Group Holdings Public Co. Ltd.",
             "Asset Management One Co., Ltd.",
             "AssetPlus Investment Management Co., Ltd.",
@@ -23606,6 +23604,7 @@
             "FundRock Management Co. SA",
             "Future Fund Advisors LLC",
             "GAMCO Investors, Inc.",
+            "GC Ferry Parent LP",
             "GF Securities Co., Ltd.",
             "GQG Partners, Inc.",
             "Galapagos Capital Control Participa\u00e7\u00f5es S.A.",
@@ -24049,12 +24048,10 @@
             "Thrivent Financial for Lutherans",
             "Tianhong Fund Management Co., Ltd",
             "Tibet Oriental Wealth Securities Co., Ltd.",
-            "Tidal Investments LLC",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
             "Tobam Holding Co. SAS",
             "Toews Corp.",
-            "Toroso Investments Topco LLC",
             "TortoiseEcofin Investments LLC",
             "Tralucent Asset Management, Inc.",
             "Tremblant Advisors LP",
@@ -24995,8 +24992,7 @@
             "9898",
             "9911",
             "9921",
-            "9937",
-            "9941"
+            "9937"
         ]
     },
     {
