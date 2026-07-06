@@ -13679,22 +13679,22 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18532,6 +18532,7 @@
             "Atlas",
             "Aton",
             "Aura",
+            "Ausbil",
             "Avantis",
             "Avory",
             "Avos",
@@ -18623,7 +18624,6 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
-            "Candriam",
             "CapForce",
             "Capital",
             "Capital Group",
@@ -19195,7 +19195,6 @@
             "SEI",
             "SMDAM",
             "SMI Funds",
-            "SMO",
             "SMTAM",
             "SOL",
             "SP Funds",
@@ -20506,8 +20505,11 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -21303,8 +21305,6 @@
             "2048",
             "2050",
             "2051",
-            "2052",
-            "2054",
             "2055",
             "2056",
             "2059",
@@ -21384,6 +21384,7 @@
             "2184",
             "2186",
             "2187",
+            "2189",
             "2190",
             "2191",
             "2193",
@@ -26611,7 +26612,6 @@
             "mutual",
             "odd",
             "otc",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
