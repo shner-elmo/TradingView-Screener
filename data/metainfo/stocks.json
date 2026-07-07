@@ -13679,12 +13679,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -18983,7 +18983,6 @@
             "Main Funds",
             "Mairs & Power",
             "Maj Invest",
-            "Majoris",
             "Man",
             "Mandiri",
             "Mango",
@@ -19892,6 +19891,7 @@
             "CICXXX",
             "CIMJLS",
             "CIOGEU",
+            "CIOGLU",
             "CIOGLX",
             "CIOGXX",
             "CIOIES",
@@ -20505,7 +20505,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "post_market",
@@ -21305,6 +21304,8 @@
             "2048",
             "2050",
             "2051",
+            "2052",
+            "2054",
             "2055",
             "2056",
             "2059",
@@ -23519,6 +23520,7 @@
             "Deegan Holdings LLC",
             "Defiance ETFs LLC",
             "Defiance Group Holdings LLC",
+            "Deka Investment GmbH",
             "DekaBank Deutsche Girozentrale",
             "Delaware Management Company Inc",
             "Desjardins Soci\u00e9t\u00e9 de Placement, Inc.",
@@ -24011,7 +24013,6 @@
             "T-Bank (Russia)",
             "T-Technologies IPJSC",
             "T. Rowe Price Group, Inc.",
-            "TBI Investment Managers (Pty) Ltd.",
             "TFG Parent Holdings LLC",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
