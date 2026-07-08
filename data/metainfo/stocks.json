@@ -13689,22 +13689,22 @@
         "r": null
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18983,6 +18983,7 @@
             "Main Funds",
             "Mairs & Power",
             "Maj Invest",
+            "Majoris",
             "Man",
             "Mandiri",
             "Mango",
@@ -19266,7 +19267,6 @@
             "Suncoast",
             "Swan",
             "Swisscanto",
-            "Swissquote",
             "Sygnia",
             "Symmetry Panoramic",
             "T-Capital",
@@ -20507,7 +20507,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -24101,6 +24100,7 @@
             "Wanjia Asset Management Co., Ltd.",
             "Warren Capital Management, Inc.",
             "Water Island Capital Partners LP",
+            "WaveFront Global Asset Management Corp.",
             "Waverly Advisors LLC",
             "Waystone Governance Ltd.",
             "Wealth Co. Asset Management Holdings Pvt Ltd.",
@@ -25972,7 +25972,6 @@
         "n": "source-logoid",
         "t": "text",
         "r": [
-            "country/ZA",
             "source/ADX",
             "source/AMEX",
             "source/AQUIS",
@@ -26018,6 +26017,7 @@
             "source/HNX",
             "source/HOSE",
             "source/IDX",
+            "source/JSE",
             "source/KRX",
             "source/KSE",
             "source/LJSE",

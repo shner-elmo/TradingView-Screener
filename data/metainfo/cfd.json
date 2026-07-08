@@ -9518,12 +9518,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -16394,6 +16394,7 @@
             "source/CITYINDEX",
             "source/CRYPTOCAP",
             "source/DFM",
+            "source/DJ",
             "source/EASYMARKETS",
             "source/EGX",
             "source/EIGHTCAP",
@@ -16418,6 +16419,7 @@
             "source/SET",
             "source/SIX",
             "source/SKILLING",
+            "source/SP",
             "source/SPARKS",
             "source/SSE",
             "source/STOXX",
