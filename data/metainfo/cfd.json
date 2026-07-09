@@ -254,7 +254,6 @@
             "CRYPTOCAP",
             "DFM",
             "DJ",
-            "DJCFD",
             "EASYMARKETS",
             "EGX",
             "EIGHTCAP",
@@ -9528,12 +9527,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -14631,6 +14630,7 @@
             "Kusama",
             "LAB",
             "LCX",
+            "LayerZero",
             "Lido DAO",
             "Lido Staked ETH",
             "Lighter",
@@ -14750,7 +14750,6 @@
             "SPACE ID",
             "SPDR S&P 500 Tokenized ETF (Ondo)",
             "SPX6900",
-            "STO Operating System",
             "SUPERFORTUNE",
             "SUPRA",
             "SWEAT",
@@ -15194,7 +15193,6 @@
             "XTVCSTABLE3",
             "XTVCSTETH",
             "XTVCSTG",
-            "XTVCSTOOS",
             "XTVCSTXS",
             "XTVCSUI",
             "XTVCSUPER",
@@ -15276,6 +15274,7 @@
             "XTVCZEREBRO",
             "XTVCZEST",
             "XTVCZORA2",
+            "XTVCZROL",
             "XTVCZRX"
         ]
     },
