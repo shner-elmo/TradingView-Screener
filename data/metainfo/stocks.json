@@ -3587,6 +3587,7 @@
             "France",
             "Gabon",
             "Germany",
+            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -13670,12 +13671,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13690,22 +13691,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -19073,6 +19074,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -19278,7 +19280,6 @@
             "TD",
             "TEQ",
             "THOR",
-            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -20316,6 +20317,7 @@
             "FR",
             "GA",
             "GB",
+            "GH",
             "GI",
             "GL",
             "GR",
@@ -21198,6 +21200,7 @@
             "2025-Q3",
             "2025-Q4",
             "2026-H1",
+            "2026-H2",
             "2026-Q1",
             "2026-Q2",
             "2026-Q3"
@@ -21233,7 +21236,8 @@
         "t": "text",
         "r": [
             "2024",
-            "2025"
+            "2025",
+            "2026"
         ]
     },
     {
@@ -23392,6 +23396,7 @@
             "Astorg Group SARL",
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
+            "Azimut Holding SpA",
             "BCP CC Holdings LP",
             "BNK Financial Group, Inc.",
             "BNP Paribas SA",
@@ -23814,6 +23819,7 @@
             "Mirae Asset Securities Co., Ltd.",
             "Mitsubishi UFJ Financial Group, Inc.",
             "Moat Financial Ltd.",
+            "Monex Group, Inc.",
             "Montagu Private Equity LLP",
             "Montaka Global Investments LLC",
             "Morgan Stanley",
@@ -24054,7 +24060,6 @@
             "Tibet Oriental Wealth Securities Co., Ltd.",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
-            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "TortoiseEcofin Investments LLC",
             "Tralucent Asset Management, Inc.",
@@ -24079,7 +24084,6 @@
             "VTB Bank PJSC",
             "VTB Capital Asset Management JSC",
             "Valour Digital Securities Ltd.",
-            "Valour, Inc. (Switzerland)",
             "Value Partners Group Ltd.",
             "Van Eck Associates Corp.",
             "VanEck ETP AG",
@@ -24993,9 +24997,11 @@
             "9866",
             "9867",
             "9887",
+            "9897",
             "9898",
             "9911",
             "9921",
+            "9934",
             "9937",
             "9941"
         ]
