@@ -9517,12 +9517,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9537,22 +9537,22 @@
         "r": null
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14544,7 +14544,6 @@
             "Dego Finance",
             "Dent",
             "Dogecoin",
-            "Dogeus Maximus",
             "Doodles",
             "DoubleZero",
             "Drift",
@@ -14744,7 +14743,6 @@
             "Roam",
             "Rootstock Infrastructure Framework",
             "SKYAI",
-            "SLIMEX",
             "SOON",
             "SP500 tokenized ETF (xStock)",
             "SPACE ID",
@@ -14788,6 +14786,7 @@
             "Terra",
             "Terra Classic",
             "TerraClassicUSD",
+            "Tesla tokenized stock (xStock)",
             "Tether Gold",
             "Tether USDt",
             "Tezos",
@@ -14964,7 +14963,6 @@
             "XTVCDODO",
             "XTVCDOGE",
             "XTVCDOGECOIN",
-            "XTVCDOGEUS",
             "XTVCDOGS2",
             "XTVCDOOD",
             "XTVCDOT",
@@ -15180,7 +15178,6 @@
             "XTVCSKYAI2",
             "XTVCSLP",
             "XTVCSLVON",
-            "XTVCSLXS",
             "XTVCSNEK",
             "XTVCSNX",
             "XTVCSOL",
@@ -15215,6 +15212,7 @@
             "XTVCTRB",
             "XTVCTROLLSO",
             "XTVCTRX",
+            "XTVCTSLAX",
             "XTVCTURBO",
             "XTVCUAIU",
             "XTVCUNI",

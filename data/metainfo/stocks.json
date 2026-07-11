@@ -13671,12 +13671,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -19998,7 +19998,6 @@
             "ESVUOR",
             "ESVUPN",
             "ESVUPR",
-            "ESVUXN",
             "ESVUXR",
             "ESVUXX",
             "ESVXFB",
@@ -20510,9 +20509,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
