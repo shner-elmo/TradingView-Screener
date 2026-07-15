@@ -3640,7 +3640,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -13692,22 +13691,22 @@
         "r": null
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18743,6 +18742,7 @@
             "Evoke",
             "Evolve",
             "Evovest",
+            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -19223,7 +19223,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -19233,7 +19232,6 @@
             "Simplex",
             "Simplify",
             "SinoPac",
-            "Siren",
             "Skylar",
             "Smart",
             "Smartshares",
@@ -19898,7 +19896,6 @@
             "CIOILS",
             "CIOIMS",
             "CIOIXX",
-            "CIOJEU",
             "CIOJLS",
             "CIOJLU",
             "CIOJMS",
@@ -19963,6 +19960,7 @@
             "EPVTFR",
             "EPVXCR",
             "EPVXFR",
+            "EPVXNR",
             "EPVXUR",
             "EPXNFR",
             "EPXXXX",
@@ -19994,6 +19992,7 @@
             "ESVUOR",
             "ESVUPN",
             "ESVUPR",
+            "ESVUXN",
             "ESVUXR",
             "ESVUXX",
             "ESVXFB",
@@ -20375,7 +20374,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "SV",
             "TG",
             "TH",
@@ -20505,8 +20503,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -21302,6 +21302,7 @@
             "2043",
             "2044",
             "2045",
+            "2046",
             "2048",
             "2050",
             "2051",
@@ -21392,7 +21393,6 @@
             "2193",
             "2194",
             "2195",
-            "2196",
             "2198",
             "22",
             "2200",
@@ -23060,7 +23060,6 @@
             "QNB Finans Portf\u00f6y Y\u00f6netimi AS",
             "Quant Insight Ltd.",
             "Quantix Commodities LP",
-            "Reality Shares Advisors LLC",
             "Red Rocks Capital LLC",
             "Redwood Investment Management LLC (California)",
             "Refinitiv Benchmark Services (UK) Ltd.",
@@ -23717,7 +23716,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -23959,7 +23957,6 @@
             "SG Hiscock & Co. Ltd.",
             "SIGNAL IDUNA Gruppe",
             "SR Partners LLC",
-            "SRN Advisors LLC",
             "SS&C Technologies Holdings, Inc.",
             "SSI Securities Corp.",
             "SSIF BRK Financial Group SA",

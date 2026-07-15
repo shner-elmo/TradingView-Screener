@@ -14529,6 +14529,7 @@
             "Cosplay Token",
             "Cronos",
             "Curve DAO Token",
+            "DAR Open Network",
             "DODO",
             "DOGS",
             "DOWGE",
@@ -14951,6 +14952,7 @@
             "XTVCCRO",
             "XTVCCRV",
             "XTVCCVX",
+            "XTVCDA",
             "XTVCDAG",
             "XTVCDAI",
             "XTVCDASH",
@@ -15304,6 +15306,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
