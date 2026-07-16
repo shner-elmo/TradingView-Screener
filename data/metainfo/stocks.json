@@ -3567,7 +3567,6 @@
             "British Virgin Islands",
             "Bulgaria",
             "Cambodia",
-            "Cameroon",
             "Canada",
             "Cayman Islands",
             "Chile",
@@ -3620,6 +3619,7 @@
             "Mexico",
             "Monaco",
             "Mongolia",
+            "Montenegro",
             "Morocco",
             "Mozambique",
             "Netherlands",
@@ -3666,8 +3666,7 @@
             "Uzbekistan",
             "Venezuela",
             "Vietnam",
-            "Zambia",
-            "Zimbabwe"
+            "Zambia"
         ]
     },
     {
@@ -13671,17 +13670,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13691,12 +13685,17 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18556,6 +18555,7 @@
             "BOC",
             "BOCOM Schroder",
             "BTG Pactual",
+            "BWM",
             "Bahl & Gaynor",
             "Baillie Gifford Funds",
             "Bajaj Allianz",
@@ -19149,6 +19149,7 @@
             "QVGMEX",
             "Quadratic",
             "Quadravest",
+            "Qualivian",
             "QuantaShares",
             "Quantum",
             "Quoniam Funds",
@@ -19223,6 +19224,7 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -20294,7 +20296,6 @@
             "CH",
             "CI",
             "CL",
-            "CM",
             "CN",
             "CO",
             "CR",
@@ -20341,6 +20342,7 @@
             "LV",
             "MA",
             "MC",
+            "ME",
             "MK",
             "MN",
             "MO",
@@ -20390,8 +20392,7 @@
             "VG",
             "VN",
             "ZA",
-            "ZM",
-            "ZW"
+            "ZM"
         ]
     },
     {
@@ -20503,7 +20504,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "post_market",
@@ -21198,7 +21198,8 @@
             "2026-H2",
             "2026-Q1",
             "2026-Q2",
-            "2026-Q3"
+            "2026-Q3",
+            "2026-Q4"
         ]
     },
     {
@@ -23632,6 +23633,8 @@
             "Government of Turkey",
             "Grace Partners of Dupage LP",
             "Graff Capital",
+            "Granite Group Advisors LLC",
+            "GraniteShares Financial Plc",
             "GraniteShares, Inc.",
             "Grantham, Mayo, Van Otterloo & Co. LLC",
             "Grasim Industries Ltd.",
@@ -23716,6 +23719,7 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Plc",
@@ -23756,6 +23760,7 @@
             "Leonteq Securities AG",
             "Leverage Shares LLC",
             "Leverage Shares Management Co. Ltd.",
+            "Leverage Shares Plc",
             "Lexus Securities Pty Ltd.",
             "Lightwater Partners Ltd.",
             "Lion Fund Management Co., Ltd.",
@@ -24998,8 +25003,7 @@
             "9911",
             "9921",
             "9934",
-            "9937",
-            "9941"
+            "9937"
         ]
     },
     {
