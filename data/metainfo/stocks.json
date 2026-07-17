@@ -3551,7 +3551,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -13670,12 +13669,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13700,12 +13699,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -20277,7 +20276,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -20422,7 +20420,6 @@
         "n": "currency_id",
         "t": "text",
         "r": [
-            "",
             "AED",
             "ARS",
             "AUD",
@@ -26288,7 +26285,6 @@
             "IS",
             "IT",
             "JE",
-            "JM",
             "JP",
             "KE",
             "KG",
