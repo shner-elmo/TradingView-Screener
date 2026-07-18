@@ -3589,6 +3589,7 @@
             "Gibraltar",
             "Greece",
             "Greenland",
+            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -13669,17 +13670,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13689,12 +13685,17 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18596,7 +18597,7 @@
             "Brookmont",
             "Brookstone",
             "Brown Advisory",
-            "Buena",
+            "Buena Vista",
             "BufferLABS",
             "Build",
             "Burney",
@@ -18733,6 +18734,7 @@
             "Emerald",
             "Empiricus",
             "Equable",
+            "Erste",
             "Euclidean",
             "Eurizon",
             "Euwax",
@@ -20314,6 +20316,7 @@
             "GI",
             "GL",
             "GR",
+            "GU",
             "HK",
             "HR",
             "HU",
@@ -20502,9 +20505,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23597,7 +23598,6 @@
             "Founder Fubon Fund Management Co., Ltd.",
             "Framework Digital Advisors LLC",
             "Franklin Resources, Inc.",
-            "Franklin Templeton Fund Adviser LLC",
             "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
             "Frontier Asset Management LLC",
             "Fubon Financial Holding Co., Ltd.",
@@ -23698,7 +23698,6 @@
             "Industrial Bank Co., Ltd.",
             "Ind\u00e9pendance AM SAS (France)",
             "Infrastructure Capital Advisors LLC",
-            "Innovator Capital Management LLC",
             "Insignia Financial Ltd.",
             "Inspire Impact Group LLC",
             "Intech Holdings LLC",
