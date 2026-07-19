@@ -9518,12 +9518,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9538,22 +9538,22 @@
         "r": null
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14516,6 +14516,7 @@
             "Chainlink",
             "Chia",
             "Chiliz",
+            "Chromia",
             "Codatta",
             "Coin98",
             "CoinMarketCap 20 Index DTF",
@@ -14523,6 +14524,7 @@
             "Compound",
             "Conflux",
             "Constellation",
+            "Convex Finance",
             "Coq Inu",
             "Cosmos",
             "Cronos",
@@ -14534,7 +14536,6 @@
             "Dash",
             "DeXe",
             "Decentraland",
-            "DeepBook Protocol",
             "DeepBrain Chain",
             "Defi App",
             "Dent",
@@ -14672,7 +14673,6 @@
             "NotInEmploymentEducationTraining",
             "Notcoin",
             "OKB",
-            "OKZOO",
             "OLAXBT",
             "ORDI",
             "Oasis",
@@ -14750,6 +14750,7 @@
             "Space and Time",
             "SpaceX Tokenized bStocks",
             "Spell Token",
+            "Spores Network",
             "Stable",
             "Stacks",
             "Stargate Finance",
@@ -14827,7 +14828,6 @@
             "Yearn",
             "Yei Finance",
             "Yooldo",
-            "ZORA",
             "Zama",
             "Zano",
             "Zcash",
@@ -14865,7 +14865,6 @@
             "XTVCAGLD",
             "XTVCAGTAL",
             "XTVCAIO",
-            "XTVCAIOT",
             "XTVCAIOZ",
             "XTVCAIXBT",
             "XTVCAKE",
@@ -14930,6 +14929,7 @@
             "XTVCCFX",
             "XTVCCGPT",
             "XTVCCHILLGUY",
+            "XTVCCHR",
             "XTVCCHZ",
             "XTVCCLANKER",
             "XTVCCLAWNCH",
@@ -14939,12 +14939,12 @@
             "XTVCCOQ",
             "XTVCCRO",
             "XTVCCRV",
+            "XTVCCVX",
             "XTVCDA",
             "XTVCDAG",
             "XTVCDAI",
             "XTVCDASH",
             "XTVCDBC",
-            "XTVCDEEPB",
             "XTVCDENT",
             "XTVCDEXE",
             "XTVCDODO",
@@ -15165,6 +15165,7 @@
             "XTVCSPACE",
             "XTVCSPCXB",
             "XTVCSPELL",
+            "XTVCSPO",
             "XTVCSPX6",
             "XTVCSPYX",
             "XTVCSQD",
@@ -15259,7 +15260,6 @@
             "XTVCZEC",
             "XTVCZEN",
             "XTVCZEREBRO",
-            "XTVCZORA2",
             "XTVCZRX"
         ]
     },
