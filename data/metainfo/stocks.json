@@ -13680,12 +13680,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -18534,7 +18534,6 @@
             "Atlas",
             "Aton",
             "Aura",
-            "Ausbil",
             "Avantis",
             "Avory",
             "Avos",
@@ -18582,7 +18581,6 @@
             "BlueSphere",
             "Bluemonte",
             "Blueprint",
-            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -19963,7 +19961,6 @@
             "EPVTFR",
             "EPVXCR",
             "EPVXFR",
-            "EPVXNR",
             "EPVXUR",
             "EPXNFR",
             "EPXXXX",
@@ -20505,7 +20502,9 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -21306,7 +21305,6 @@
             "2050",
             "2051",
             "2052",
-            "2054",
             "2055",
             "2056",
             "2059",
@@ -26284,6 +26282,7 @@
             "IS",
             "IT",
             "JE",
+            "JM",
             "JP",
             "KE",
             "KG",
