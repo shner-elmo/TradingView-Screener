@@ -96,10 +96,6 @@
                 "name": "S&P MERVAL"
             },
             {
-                "id": "BCS:SP_IPSA",
-                "name": "S&P IPSA"
-            },
-            {
                 "id": "BELEX:BELEX15",
                 "name": "BELEX15"
             },
@@ -13680,17 +13676,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -13700,12 +13691,17 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18836,6 +18832,7 @@
             "Hansainvest",
             "Hanwha",
             "Harbor",
+            "Harding Loevner",
             "Harel Sal",
             "Harfor",
             "Harrison Street",
@@ -20503,7 +20500,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -21305,6 +21301,7 @@
             "2050",
             "2051",
             "2052",
+            "2054",
             "2055",
             "2056",
             "2059",
@@ -22095,7 +22092,6 @@
             "SYML:BAHRAIN;BHBX",
             "SYML:BAHRAIN;BIX",
             "SYML:BCBA;IMV",
-            "SYML:BCS;SP_IPSA",
             "SYML:BELEX;BELEX15",
             "SYML:BELEX;BELEXLINE",
             "SYML:BET;BUMIX",
@@ -22984,7 +22980,7 @@
             "Global X Investments Canada, Inc.",
             "Global X Management Co. LLC",
             "Goldman Sachs International",
-            "Hang Seng Indexes Co. Ltd.",
+            "Hang Seng Indexes Co., Ltd.",
             "Harbor Capital Advisors, Inc.",
             "Harvest Portfolios Group, Inc.",
             "Hedgeye Risk Management LLC",
@@ -23585,7 +23581,6 @@
             "First Pacific Advisors LP",
             "First Seafront Fund Management Co., Ltd.",
             "First Trust Advisors LP",
-            "First Trust Global Portfolios Management Ltd.",
             "FirstRand Bank Ltd.",
             "FirstRand Ltd.",
             "Focus Financial Partners, Inc.",
@@ -23626,7 +23621,6 @@
             "Government of South Korea",
             "Government of Thailand",
             "Government of Turkey",
-            "Grace Partners of Dupage LP",
             "Graff Capital",
             "Granite Group Advisors LLC",
             "GraniteShares Financial Plc",
@@ -24988,6 +24982,7 @@
             "9710",
             "98",
             "9861",
+            "9864",
             "9866",
             "9867",
             "9887",
@@ -24996,7 +24991,6 @@
             "9900",
             "9911",
             "9921",
-            "9934",
             "9937"
         ]
     },
