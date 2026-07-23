@@ -13665,17 +13665,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13685,7 +13680,7 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -13695,12 +13690,17 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18618,6 +18618,7 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
+            "Candriam",
             "CapForce",
             "Capital",
             "Capital Group",
@@ -20495,6 +20496,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -22948,6 +22950,7 @@
             "Comdaq Metals Ltd.",
             "Compass Efficient Model Portfolios LLC",
             "Compass Financial Technologies SA",
+            "Concinnity Advisors LP",
             "Corporate Knights, Inc.",
             "DBX ETF Trust",
             "Dalian Commodity Exchange",

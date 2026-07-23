@@ -9517,22 +9517,22 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9547,12 +9547,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14532,7 +14532,6 @@
             "DeXe",
             "Decentraland",
             "DeepBrain Chain",
-            "Defi App",
             "Dent",
             "Dogecoin",
             "Doodles",
@@ -14578,11 +14577,11 @@
             "Gram (prev. Toncoin)",
             "Hamster Kombat",
             "Harmony",
-            "Harold",
             "HarryPotterObamaSonic10Inu (ERC-20)",
             "Hedera",
             "Heima",
             "Helium",
+            "Hemi",
             "Heroes of Mavia",
             "Highstreet",
             "Holo",
@@ -14611,7 +14610,6 @@
             "Jupiter USD",
             "Just a chill guy",
             "KAITO",
-            "Kamino",
             "Kaspa",
             "KernelDAO",
             "Kite",
@@ -14659,6 +14657,7 @@
             "NVIDIA tokenized stock (xStock)",
             "Naoris Protocol",
             "Nasdaq tokenized ETF (xStock)",
+            "Neiro",
             "Neo",
             "New XAI gork",
             "Nexo",
@@ -15000,13 +14999,12 @@
             "XTVCGRT",
             "XTVCGWEI",
             "XTVCH",
-            "XTVCHAROLD3",
             "XTVCHBAR",
             "XTVCHEI",
+            "XTVCHEMI",
             "XTVCHIGH",
             "XTVCHMSTR",
             "XTVCHNT",
-            "XTVCHOMED",
             "XTVCHOT",
             "XTVCHYPEH",
             "XTVCHYPERL",
@@ -15034,7 +15032,6 @@
             "XTVCKAS",
             "XTVCKERNEL",
             "XTVCKITE",
-            "XTVCKMNO",
             "XTVCKSM",
             "XTVCLAB2",
             "XTVCLAYERS",
@@ -15074,6 +15071,7 @@
             "XTVCNAORIS",
             "XTVCNEAR",
             "XTVCNEET",
+            "XTVCNEIRO",
             "XTVCNEO",
             "XTVCNEXO",
             "XTVCNFPR",
@@ -15288,6 +15286,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
