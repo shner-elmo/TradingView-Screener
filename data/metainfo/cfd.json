@@ -9517,17 +9517,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9537,7 +9532,7 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9547,12 +9542,17 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14477,6 +14477,7 @@
             "BASED",
             "BNB",
             "BOOK OF MEME",
+            "BSquared Network",
             "BUILDon",
             "Baby Doge Coin",
             "BankrCoin",
@@ -14534,6 +14535,7 @@
             "Defi App",
             "Dent",
             "Dogecoin",
+            "Doodles",
             "Drift",
             "Dusk",
             "ETHGas",
@@ -14547,10 +14549,10 @@
             "Ethereum",
             "Ethereum Classic",
             "Ethereum Name Service",
+            "Euler",
             "Everlyn AI",
             "FLARE",
             "FLOKI",
-            "FREEdom Coin",
             "FTX Token",
             "FUNToken",
             "Falcon Finance",
@@ -14604,7 +14606,6 @@
             "JUST",
             "Janction",
             "JasmyCoin",
-            "Jelly-My-Jelly",
             "Jito",
             "Jito Staked SOL",
             "Jupiter",
@@ -14639,7 +14640,6 @@
             "Manyu",
             "Maple Finance",
             "Marlin",
-            "MegaETH",
             "MemeCore",
             "Memecoin",
             "Metadium",
@@ -14742,7 +14742,6 @@
             "Smooth Love Potion",
             "Snek",
             "Solana",
-            "Solayer",
             "Somnia",
             "Space and Time",
             "Spell Token",
@@ -14791,6 +14790,7 @@
             "Uniswap",
             "United States Oil Tokenized Fund (Ondo)",
             "Useless Coin",
+            "Usual",
             "VOOI",
             "Validity",
             "Vanar Chain",
@@ -14885,6 +14885,7 @@
             "XTVCAVICI",
             "XTVCAXS",
             "XTVCB",
+            "XTVCB2",
             "XTVCBABYDOGE",
             "XTVCBANKLO",
             "XTVCBASED2",
@@ -14939,6 +14940,7 @@
             "XTVCDODO",
             "XTVCDOGE",
             "XTVCDOGS2",
+            "XTVCDOOD",
             "XTVCDOT",
             "XTVCDRIFT",
             "XTVCDUSK",
@@ -14956,6 +14958,7 @@
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
+            "XTVCEUL",
             "XTVCEVAAP",
             "XTVCFARTBOY",
             "XTVCFARTCOIN",
@@ -14973,7 +14976,6 @@
             "XTVCFOLKS",
             "XTVCFORESTP",
             "XTVCFOREX",
-            "XTVCFREE",
             "XTVCFTT",
             "XTVCFUN",
             "XTVCGALA",
@@ -15018,7 +15020,6 @@
             "XTVCIRYS",
             "XTVCJASMY",
             "XTVCJCT",
-            "XTVCJELLYJELLY",
             "XTVCJGGL",
             "XTVCJITOSOL",
             "XTVCJST",
@@ -15032,7 +15033,6 @@
             "XTVCKSM",
             "XTVCKUB",
             "XTVCLAB2",
-            "XTVCLAYERS",
             "XTVCLDO",
             "XTVCLINEA",
             "XTVCLINK",
@@ -15052,7 +15052,6 @@
             "XTVCMANTRA",
             "XTVCMANYU3",
             "XTVCMAVIA",
-            "XTVCMEGAE",
             "XTVCMEMECO",
             "XTVCMEMECORE",
             "XTVCMETA",
@@ -15202,6 +15201,7 @@
             "XTVCUSELESS",
             "XTVCUSOON",
             "XTVCUSTC",
+            "XTVCUSUAL",
             "XTVCVAL",
             "XTVCVANRY",
             "XTVCVELO",
