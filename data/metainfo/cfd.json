@@ -14484,6 +14484,7 @@
             "Basic Attention Token",
             "Berachain",
             "Biconomy",
+            "BitMart Token",
             "BitTorrent-New",
             "Bitcoin",
             "Bitcoin Cash",
@@ -14902,6 +14903,7 @@
             "XTVCBLUM",
             "XTVCBLUR",
             "XTVCBMEX",
+            "XTVCBMX",
             "XTVCBNB",
             "XTVCBNKRB",
             "XTVCBOME",
@@ -15282,6 +15284,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]

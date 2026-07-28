@@ -3614,7 +3614,6 @@
             "Mexico",
             "Monaco",
             "Mongolia",
-            "Montenegro",
             "Morocco",
             "Mozambique",
             "Netherlands",
@@ -13665,22 +13664,22 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -13695,12 +13694,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18432,7 +18431,6 @@
             "3iQ",
             "AAM",
             "AB Funds",
-            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -18937,6 +18935,7 @@
             "LIC Mutual Fund",
             "LOGIQ",
             "LSV",
+            "Langar",
             "Lanyon",
             "Lazard",
             "LeaderShares",
@@ -19111,14 +19110,12 @@
             "Phillip",
             "Phronesis",
             "Pictet",
-            "Picton Mahoney",
             "PineBridge Investments",
             "Ping An",
             "Pinnacle",
             "PlanRock",
             "Platinum",
             "Plato",
-            "Point Bridge Capital",
             "Polen",
             "Porter & Company",
             "Portfolio Building Block",
@@ -19960,6 +19957,7 @@
             "EPVXFR",
             "EPVXUR",
             "EPXNFR",
+            "EPXXXB",
             "EPXXXX",
             "ESETFR",
             "ESEUFN",
@@ -19978,6 +19976,7 @@
             "ESVTFM",
             "ESVTFN",
             "ESVTFR",
+            "ESVTFX",
             "ESVTOR",
             "ESVTXR",
             "ESVUFB",
@@ -20335,7 +20334,6 @@
             "LV",
             "MA",
             "MC",
-            "ME",
             "MK",
             "MN",
             "MO",
@@ -20496,9 +20494,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -21295,7 +21293,6 @@
             "2043",
             "2044",
             "2045",
-            "2046",
             "2048",
             "2050",
             "2051",
@@ -23361,7 +23358,6 @@
             "Amplify Holding Co. LLC",
             "Amundi Asset Management SAS",
             "Amundi Luxembourg SA",
-            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
@@ -23555,7 +23551,6 @@
             "Eurazeo SE",
             "Eventide Asset Management LLC",
             "Everence Association, Inc.",
-            "Everence Holdings, Inc.",
             "Evolve Funds Group, Inc.",
             "Expat Capital AD",
             "F/m Investments LLC",
@@ -23589,7 +23584,7 @@
             "Founder Fubon Fund Management Co., Ltd.",
             "Framework Digital Advisors LLC",
             "Franklin Resources, Inc.",
-            "Franklin Templeton SinoAm Securities Investment Mgmt, Inc",
+            "Franklin Templeton SinoAm Securities Investment Mgmt, Inc.",
             "Frontier Asset Management LLC",
             "Fubon Financial Holding Co., Ltd.",
             "Fuh Hwa Securities Investment Trust Co., Ltd.",
@@ -23683,6 +23678,7 @@
             "ICICI Prudential Asset Management Co. Ltd. (Invt Mgmt)",
             "IDX Advisors LLC",
             "IQ EQ Group Holdings SARL",
+            "Ilirika DD",
             "Impax Asset Management Group Plc",
             "Indexperts LLC",
             "Industrial Bank Co., Ltd.",
@@ -23736,6 +23732,7 @@
             "L1 Capital International (Pty) Ltd.",
             "LIC Mutual Fund Asset Management Ltd.",
             "Lagan Holding Co. Trust",
+            "Langar Holdings, Inc.",
             "Lanyon Asset Management Pty Ltd.",
             "Lazard, Inc.",
             "Le Mouvement des caisses Desjardins",
@@ -23888,7 +23885,6 @@
             "PlanRock Investment Management LLC",
             "Platinum Asset Management Ltd.",
             "Plato Investment Management Ltd.",
-            "Point Bridge Capital LLC",
             "Polen Capital Management LLC",
             "Portfoliometrix Holdings Ltd.",
             "Power Corp of Canada",
@@ -24036,7 +24032,6 @@
             "The TCW Group, Inc.",
             "The Toronto-Dominion Bank",
             "The Vanguard Group, Inc.",
-            "Thor Analytics LLC",
             "Thor Trading Advisors LLC",
             "Thornburg Investment Management, Inc.",
             "Thrivent Financial for Lutherans",
@@ -24068,7 +24063,6 @@
             "VTB Bank PJSC",
             "VTB Capital Asset Management JSC",
             "Valour Digital Securities Ltd.",
-            "Valour, Inc. (Switzerland)",
             "Value Partners Group Ltd.",
             "Van Eck Associates Corp.",
             "VanEck ETP AG",
