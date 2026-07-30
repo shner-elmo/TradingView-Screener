@@ -9537,12 +9537,12 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -14519,6 +14519,7 @@
             "Compound",
             "Conflux",
             "Constellation",
+            "ConstitutionDAO",
             "Convex Finance",
             "Coq Inu",
             "Cosmos",
@@ -14538,7 +14539,6 @@
             "Defi App",
             "Dent",
             "Dogecoin",
-            "Doodles",
             "Drift",
             "Dusk",
             "ETHGas",
@@ -14717,6 +14717,7 @@
             "Raydium",
             "Re",
             "Realio Network",
+            "Rekt",
             "Render",
             "Reppo",
             "Request",
@@ -14808,7 +14809,6 @@
             "WEMIX",
             "Warden",
             "Waves",
-            "WeFi",
             "Wiki Cat",
             "WingRiders Governance Token",
             "World Liberty Financial USD",
@@ -14944,7 +14944,6 @@
             "XTVCDODO",
             "XTVCDOGE",
             "XTVCDOGS2",
-            "XTVCDOOD",
             "XTVCDOT",
             "XTVCDRIFT",
             "XTVCDUSK",
@@ -15096,6 +15095,7 @@
             "XTVCPEAQ",
             "XTVCPENDLE",
             "XTVCPENGUPUD",
+            "XTVCPEOPLE",
             "XTVCPEPE",
             "XTVCPIEVERSE",
             "XTVCPIPPIN",
@@ -15124,6 +15124,7 @@
             "XTVCRE",
             "XTVCREDO",
             "XTVCREI2",
+            "XTVCREKTC",
             "XTVCRENDER",
             "XTVCREPPO",
             "XTVCREQ",
@@ -15219,7 +15220,6 @@
             "XTVCWARD",
             "XTVCWAVES",
             "XTVCWEMIX",
-            "XTVCWFI",
             "XTVCWHITEWHALE",
             "XTVCWIF",
             "XTVCWKC",
@@ -15280,7 +15280,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]

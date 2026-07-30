@@ -3547,6 +3547,7 @@
         "t": "text",
         "r": [
             "Aland Islands",
+            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -3643,6 +3644,7 @@
             "Spain",
             "Sri Lanka",
             "Sudan",
+            "Swaziland",
             "Sweden",
             "Switzerland",
             "Taiwan",
@@ -4128,7 +4130,6 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
-            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -13674,12 +13675,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -13694,12 +13695,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18527,6 +18528,7 @@
             "Atlas",
             "Aton",
             "Aura",
+            "Ausbil",
             "Avantis",
             "Avory",
             "Avos",
@@ -18574,6 +18576,7 @@
             "BlueSphere",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -20269,6 +20272,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AI",
             "AR",
             "AT",
             "AU",
@@ -20367,6 +20371,7 @@
             "SI",
             "SK",
             "SV",
+            "SZ",
             "TG",
             "TH",
             "TN",
@@ -26596,7 +26601,6 @@
             "etf",
             "mutual",
             "odd",
-            "otc",
             "preferred",
             "reit",
             "sharia",
