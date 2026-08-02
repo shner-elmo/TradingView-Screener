@@ -3582,10 +3582,10 @@
             "France",
             "Gabon",
             "Germany",
+            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
-            "Guam",
             "Hong Kong",
             "Hungary",
             "Iceland",
@@ -13676,17 +13676,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -13696,12 +13691,17 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18517,6 +18517,7 @@
             "Argent",
             "Arimathea",
             "Arin",
+            "Aristotle",
             "Arlington",
             "Armada ETF Advisors",
             "Armor",
@@ -18696,7 +18697,6 @@
             "Defiance",
             "Deka",
             "Desjardins",
-            "Deutsche X-trackers",
             "Diamond Hill",
             "DigitalX",
             "Dimensional",
@@ -18876,6 +18876,7 @@
             "ICICI",
             "IDFC",
             "IDX",
+            "ILIRIKA",
             "IML",
             "INDEKS",
             "IPAAM",
@@ -20316,10 +20317,10 @@
             "FR",
             "GA",
             "GB",
+            "GH",
             "GI",
             "GL",
             "GR",
-            "GU",
             "HK",
             "HR",
             "HU",
@@ -20509,9 +20510,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23382,6 +23381,7 @@
             "Archer Investment Corp.",
             "Ardea Investment Management Pty Ltd.",
             "Argent Holdings, Inc.",
+            "Aristotle Capital Management LLC",
             "Arlington Capital Ltd.",
             "Arrow Capital Management LLC",
             "Arrow Investment Advisors LLC",
@@ -23731,6 +23731,7 @@
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
             "Kapital Mexico Grupo Financiero SA de CV",
+            "Kasikornbank Public Co. Ltd.",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
             "Killir Kapital Management LLC",
