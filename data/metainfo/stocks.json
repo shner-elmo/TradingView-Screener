@@ -13686,12 +13686,12 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18741,6 +18741,7 @@
             "Evoke",
             "Evolve",
             "Evovest",
+            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -20509,8 +20510,11 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -21309,8 +21313,6 @@
             "2048",
             "2050",
             "2051",
-            "2052",
-            "2054",
             "2055",
             "2056",
             "2059",
@@ -21390,9 +21392,9 @@
             "2184",
             "2186",
             "2187",
-            "2189",
             "2190",
             "2191",
+            "2193",
             "2194",
             "2195",
             "2198",
@@ -23035,7 +23037,6 @@
             "Morgan Stanley",
             "Morningstar, Inc.",
             "Moscow Stock Exchange OJSC",
-            "Mount Lucas Management LP",
             "NASDAQ",
             "NH Investment & Securities Co., Ltd.",
             "NSE Indices Ltd.",
@@ -24015,7 +24016,6 @@
             "T-Bank (Russia)",
             "T-Technologies IPJSC",
             "T. Rowe Price Group, Inc.",
-            "TBI Investment Managers (Pty) Ltd.",
             "TFG Parent Holdings LLC",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
