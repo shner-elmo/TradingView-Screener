@@ -9547,12 +9547,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14619,6 +14619,7 @@
             "Koma Inu",
             "Kusama",
             "LAB",
+            "LayerZero",
             "Lido DAO",
             "Lido Staked ETH",
             "Lighter",
@@ -14650,7 +14651,6 @@
             "Moonbeam",
             "Morpho",
             "MultiversX",
-            "MyNeighborAlice",
             "Myro",
             "NEAR Protocol",
             "NFPrompt",
@@ -14863,7 +14863,6 @@
             "XTVCAL",
             "XTVCALCH",
             "XTVCALGO",
-            "XTVCALICE",
             "XTVCALLO",
             "XTVCANSEMTHEBLACK",
             "XTVCAPE",
@@ -15248,6 +15247,7 @@
             "XTVCZEC",
             "XTVCZEN",
             "XTVCZEREBRO",
+            "XTVCZROL",
             "XTVCZRX"
         ]
     },

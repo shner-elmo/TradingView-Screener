@@ -13666,22 +13666,22 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -19069,10 +19069,10 @@
             "Nu",
             "Numoro",
             "Nuveen",
-            "OFI",
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -19359,7 +19359,6 @@
             "Vident",
             "Vietnam",
             "VinaCapital",
-            "Vinva",
             "Virtune",
             "Virtus",
             "VistaShares",
@@ -19780,7 +19779,6 @@
             "CECIES",
             "CECIEU",
             "CECIMS",
-            "CECIMU",
             "CECIMX",
             "CECJLS",
             "CECJLU",
@@ -19970,7 +19968,6 @@
             "EPVXFR",
             "EPVXUR",
             "EPXNFR",
-            "EPXXXB",
             "EPXXXX",
             "ESETFR",
             "ESEUFN",
@@ -20510,7 +20507,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "post_market",
@@ -23612,7 +23608,7 @@
             "GQG Partners, Inc.",
             "Galapagos Capital Control Participa\u00e7\u00f5es S.A.",
             "Galapagos Capital Investimentos e Participa\u00e7\u00f5es Ltda.",
-            "Galaxy Fund Management Co., Ltd.",
+            "Galaxy Fund Management Co. Ltd. (Old)",
             "Gladius Capital Management LP",
             "Global X Japan Co., Ltd.",
             "Global X Management Co. (Europe) Ltd.",
@@ -23778,7 +23774,6 @@
             "MIG Capital LLC",
             "MM VAM LLC",
             "MS&AD Insurance Group Holdings, Inc.",
-            "Macif SAM",
             "Macquarie Group Ltd.",
             "Madison Investment Holdings, Inc.",
             "Magellan Financial Group Ltd.",
@@ -24068,6 +24063,7 @@
             "Twin Oak Holdings LP",
             "T\u00fcrkiye Is Bankasi AS",
             "U.S. Global Investors, Inc.",
+            "UBS AG (London Branch)",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
@@ -24090,7 +24086,6 @@
             "Victory Capital Holdings, Inc.",
             "Vident Investors' Oversight Trust",
             "VinaCapital Fund Management JSC",
-            "Vinva Holdings Ltd.",
             "Virtune AB (Publ)",
             "Virtus Investment Partners, Inc.",
             "Volatility Shares LLC",
@@ -26348,7 +26343,6 @@
             "UA",
             "UG",
             "US",
-            "UY",
             "UZ",
             "VE",
             "VG",
