@@ -13666,12 +13666,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -19076,6 +19076,7 @@
             "Obra",
             "Ocean Park",
             "Oddo BHF",
+            "One",
             "OneETF",
             "Oneascent",
             "Onefund",
@@ -20507,9 +20508,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -21396,7 +21397,6 @@
             "2198",
             "22",
             "2200",
-            "2201",
             "2202",
             "2203",
             "2204",
@@ -24021,6 +24021,7 @@
             "Tapp Finance, Inc.",
             "Tata Sons Pvt Ltd.",
             "Techcom Capital Management Ltd.",
+            "Tema ETFs LLC",
             "Teucrium Trading LLC",
             "Texas Capital Bancshares, Inc.",
             "Thalia Street Partners LLC",
@@ -25865,7 +25866,6 @@
             "30",
             "31",
             "32",
-            "34",
             "35",
             "36",
             "37",
@@ -26313,7 +26313,6 @@
             "NO",
             "NZ",
             "OM",
-            "PA",
             "PE",
             "PG",
             "PH",

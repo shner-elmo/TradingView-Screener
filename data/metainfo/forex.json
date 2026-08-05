@@ -9649,12 +9649,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9669,12 +9669,12 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -15859,7 +15859,6 @@
         "r": [
             "",
             "cfd",
-            "ndf",
             "spreadbet",
             "synthetic"
         ]
@@ -15925,7 +15924,6 @@
         "r": [
             "",
             "cfd",
-            "ndf",
             "spreadbet",
             "synthetic"
         ]
