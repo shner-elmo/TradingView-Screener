@@ -13686,12 +13686,12 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18623,7 +18623,6 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
-            "Candriam",
             "CapForce",
             "Capital",
             "Capital Group",
@@ -19360,6 +19359,7 @@
             "Vident",
             "Vietnam",
             "VinaCapital",
+            "Vinva",
             "Virtune",
             "Virtus",
             "VistaShares",
@@ -20508,9 +20508,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -21310,6 +21310,8 @@
             "2048",
             "2050",
             "2051",
+            "2052",
+            "2054",
             "2055",
             "2056",
             "2059",
@@ -21389,6 +21391,7 @@
             "2184",
             "2186",
             "2187",
+            "2189",
             "2190",
             "2191",
             "2193",
@@ -21397,6 +21400,7 @@
             "2198",
             "22",
             "2200",
+            "2201",
             "2202",
             "2203",
             "2204",
@@ -22938,7 +22942,6 @@
             "Bucharest Stock Exchange",
             "Budapest Stock Exchange Plc",
             "Bulgarian Stock Exchange-Sofia",
-            "C-tracks Exchange-traded Notes",
             "CF Benchmarks Ltd.",
             "CIBC World Markets, Inc.",
             "CME Group, Inc.",
@@ -24087,6 +24090,7 @@
             "Victory Capital Holdings, Inc.",
             "Vident Investors' Oversight Trust",
             "VinaCapital Fund Management JSC",
+            "Vinva Holdings Ltd.",
             "Virtune AB (Publ)",
             "Virtus Investment Partners, Inc.",
             "Volatility Shares LLC",
