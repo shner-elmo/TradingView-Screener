@@ -3568,7 +3568,6 @@
             "Chile",
             "China",
             "Colombia",
-            "Costa Rica",
             "Croatia",
             "Cyprus",
             "Czech Republic",
@@ -13666,22 +13665,22 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -18543,6 +18542,7 @@
             "BBVA",
             "BCAP",
             "BCS",
+            "BIT",
             "BMO",
             "BNK",
             "BNP Paribas",
@@ -18678,6 +18678,7 @@
             "DAC",
             "DB",
             "DDA",
+            "DFA",
             "DGA",
             "DNB",
             "DOO",
@@ -18926,7 +18927,6 @@
             "KSM",
             "KTAM",
             "Keating",
-            "Kenanga Investors",
             "Kensington",
             "Kingsbarn",
             "Kiwoom",
@@ -19078,7 +19078,6 @@
             "One",
             "OneETF",
             "Oneascent",
-            "Onefund",
             "Onemarkets",
             "Opportunistic",
             "Optimize",
@@ -20302,7 +20301,6 @@
             "CL",
             "CN",
             "CO",
-            "CR",
             "CY",
             "CZ",
             "DE",
@@ -20510,7 +20508,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -23393,6 +23390,7 @@
             "Axxess Capital Partners SA",
             "Azimut Holding SpA",
             "BCP CC Holdings LP",
+            "BIT Capital GmbH",
             "BNK Financial Group, Inc.",
             "BNP Paribas SA",
             "BOC International (China) Co., Ltd.",
