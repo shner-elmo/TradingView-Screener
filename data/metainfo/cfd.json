@@ -9517,12 +9517,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9537,12 +9537,12 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -14501,6 +14501,7 @@
             "COTI",
             "CREPE",
             "Cardano",
+            "Cartesi",
             "Cash Cat",
             "Casper",
             "CateCoin",
@@ -14536,7 +14537,6 @@
             "Dash",
             "DeXe",
             "Decentraland",
-            "DeepBook Protocol",
             "DeepBrain Chain",
             "DeepNode",
             "Defi App",
@@ -14569,6 +14569,7 @@
             "Flock.io",
             "Flow",
             "Forest Protocol",
+            "Fusionist",
             "GAMEE",
             "GEODNET",
             "GMT",
@@ -14604,6 +14605,7 @@
             "Injective",
             "Internet Computer",
             "Inverse Finance",
+            "IoTeX",
             "JUST",
             "Janction",
             "JasmyCoin",
@@ -14718,7 +14720,6 @@
             "Realio Network",
             "Rekt",
             "Render",
-            "Renzo",
             "Reppo",
             "Request",
             "Reserve Rights",
@@ -14749,6 +14750,7 @@
             "Solana",
             "Somnia",
             "Space and Time",
+            "SpaceX Tokenized bStocks",
             "Spores Network",
             "Stable",
             "Stacks",
@@ -14808,7 +14810,6 @@
             "Vulcan Forged (PYR)",
             "WAX",
             "WEMIX",
-            "Warden",
             "Waves",
             "Wiki Cat",
             "WingRiders Governance Token",
@@ -14855,6 +14856,7 @@
             "XTVC1INCH",
             "XTVC4",
             "XTVCAAVE",
+            "XTVCACEF",
             "XTVCACH",
             "XTVCACTI",
             "XTVCADA",
@@ -14933,6 +14935,7 @@
             "XTVCCRO",
             "XTVCCRV",
             "XTVCCSPR",
+            "XTVCCTSI",
             "XTVCCVX",
             "XTVCCYSI",
             "XTVCDA",
@@ -14941,7 +14944,6 @@
             "XTVCDAI",
             "XTVCDASH",
             "XTVCDBC",
-            "XTVCDEEPB",
             "XTVCDENT",
             "XTVCDEXE",
             "XTVCDGB",
@@ -15022,6 +15024,7 @@
             "XTVCINJ",
             "XTVCINV",
             "XTVCIOTA",
+            "XTVCIOTX",
             "XTVCJASMY",
             "XTVCJCT",
             "XTVCJITOSOL",
@@ -15133,7 +15136,6 @@
             "XTVCREPPO",
             "XTVCREQ",
             "XTVCRESOLV",
-            "XTVCREZ",
             "XTVCRIF",
             "XTVCRIO",
             "XTVCRIVER",
@@ -15163,6 +15165,7 @@
             "XTVCSOMI",
             "XTVCSOON2",
             "XTVCSPACE",
+            "XTVCSPCXB",
             "XTVCSPO",
             "XTVCSPYX",
             "XTVCSQD",
@@ -15222,7 +15225,6 @@
             "XTVCVRA",
             "XTVCVVV",
             "XTVCW",
-            "XTVCWARD",
             "XTVCWAVES",
             "XTVCWAXP",
             "XTVCWBTC",
@@ -15286,6 +15288,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
