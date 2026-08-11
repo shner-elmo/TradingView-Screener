@@ -9517,17 +9517,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9537,12 +9532,17 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -14528,7 +14528,6 @@
             "Cronos",
             "Curve DAO Token",
             "Cysic",
-            "DAR Open Network",
             "DIA",
             "DODO",
             "DOGS",
@@ -14581,6 +14580,7 @@
             "Gas",
             "Genius Terminal",
             "Gnosis",
+            "Goldfinch",
             "Golem",
             "Gram (prev. Toncoin)",
             "Hamster Kombat",
@@ -14751,7 +14751,6 @@
             "Somnia",
             "Space and Time",
             "SpaceX Tokenized bStocks",
-            "Spores Network",
             "Stable",
             "Stacks",
             "Stellar",
@@ -14938,7 +14937,6 @@
             "XTVCCTSI",
             "XTVCCVX",
             "XTVCCYSI",
-            "XTVCDA",
             "XTVCDADDYT",
             "XTVCDAG",
             "XTVCDAI",
@@ -14992,6 +14990,7 @@
             "XTVCGAS",
             "XTVCGENIUS",
             "XTVCGEODN",
+            "XTVCGFI",
             "XTVCGHX",
             "XTVCGLM",
             "XTVCGLMR",
@@ -15166,7 +15165,6 @@
             "XTVCSOON2",
             "XTVCSPACE",
             "XTVCSPCXB",
-            "XTVCSPO",
             "XTVCSPYX",
             "XTVCSQD",
             "XTVCSTABLE3",
@@ -15288,7 +15286,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]

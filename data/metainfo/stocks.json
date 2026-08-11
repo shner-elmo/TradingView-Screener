@@ -3593,6 +3593,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -13673,22 +13674,22 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18512,6 +18513,7 @@
             "Aptus",
             "Archer Funds",
             "Argent",
+            "Aria",
             "Arimathea",
             "Arin",
             "Aristotle",
@@ -18623,6 +18625,7 @@
             "Cambiar Funds",
             "Cambria",
             "Canary",
+            "Candriam",
             "CapForce",
             "Capital",
             "Capital Group",
@@ -18834,7 +18837,7 @@
             "Hana",
             "Hang Seng",
             "Hansainvest",
-            "Hanwha",
+            "Hanwha PLUS",
             "Harbor",
             "Harding Loevner",
             "Harel Sal",
@@ -19051,7 +19054,6 @@
             "Neuberger Berman",
             "New China Fund",
             "New York Life Investments",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Ninepoint",
@@ -19067,6 +19069,7 @@
             "Nu",
             "Numoro",
             "Nuveen",
+            "OFI",
             "OTG",
             "OTP",
             "Oakmark",
@@ -19242,7 +19245,6 @@
             "Sovereign's",
             "Sparkline",
             "Spear",
-            "Spheria",
             "Sprott",
             "Stacked",
             "Stance",
@@ -20298,6 +20300,7 @@
             "BW",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CN",
             "CO",
@@ -20505,7 +20508,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "pre_market"
@@ -23777,6 +23779,7 @@
             "MIG Capital LLC",
             "MM VAM LLC",
             "MS&AD Insurance Group Holdings, Inc.",
+            "Macif SAM",
             "Macquarie Group Ltd.",
             "Madison Investment Holdings, Inc.",
             "Magellan Financial Group Ltd.",
@@ -23837,7 +23840,6 @@
             "Neil Azous Revocable Trust",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nicholas Wealth LLC",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
@@ -23993,7 +23995,6 @@
             "Sovereign's Capital Management LLC",
             "Spear Advisors LLC",
             "Spend Life Wisely Co., Inc.",
-            "Spheria Asset Management Pty Ltd.",
             "Split Rock Private Trading & Wealth Management LLC",
             "Sprott, Inc.",
             "Standard Bank Group Ltd.",
@@ -26612,8 +26613,10 @@
             "closedend",
             "common",
             "etf",
+            "foreign",
             "mutual",
             "odd",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
