@@ -3024,118 +3024,6 @@
                 "name": "GreTai 50"
             },
             {
-                "id": "TSX:JX",
-                "name": "S&P/TSX Venture Composite"
-            },
-            {
-                "id": "TSX:RTRE",
-                "name": "S&P/TSX Capped REIT"
-            },
-            {
-                "id": "TSX:T00C",
-                "name": "S&P/TSX Capped Composite"
-            },
-            {
-                "id": "TSX:TSX",
-                "name": "S&P/TSX Composite"
-            },
-            {
-                "id": "TSX:TTCD",
-                "name": "S&P/TSX Capped Consumer Discretionary"
-            },
-            {
-                "id": "TSX:TTCS",
-                "name": "S&P/TSE Capped Consumer Staples"
-            },
-            {
-                "id": "TSX:TTEN",
-                "name": "S&P/TSX Capped Energy"
-            },
-            {
-                "id": "TSX:TTFS",
-                "name": "S&P/TSX Capped Financial"
-            },
-            {
-                "id": "TSX:TTHC",
-                "name": "S&P/TSX Capped Health Care"
-            },
-            {
-                "id": "TSX:TTIN",
-                "name": "S&P/TSX Capped Industrials"
-            },
-            {
-                "id": "TSX:TTMT",
-                "name": "S&P/TSX Capped Materials"
-            },
-            {
-                "id": "TSX:TTRE",
-                "name": "S&P/TSX Capped Real Estate"
-            },
-            {
-                "id": "TSX:TTTK",
-                "name": "S&P/TSX Capped Information Technology"
-            },
-            {
-                "id": "TSX:TTTS",
-                "name": "S&P/TSX Capped Telecommunication Services"
-            },
-            {
-                "id": "TSX:TTUT",
-                "name": "S&P/TSX Capped Utilities"
-            },
-            {
-                "id": "TSX:TX20",
-                "name": "S&P/TSX SmallCap"
-            },
-            {
-                "id": "TSX:TX40",
-                "name": "S&P/TSX Completion"
-            },
-            {
-                "id": "TSX:TX60",
-                "name": "S&P/TSX 60"
-            },
-            {
-                "id": "TSX:TX6C",
-                "name": "S&P/TSX 60 Capped"
-            },
-            {
-                "id": "TSX:TXCT",
-                "name": "S&P/TSX Clean Technology"
-            },
-            {
-                "id": "TSX:TXDC",
-                "name": "S&P/TSX Composite Dividend"
-            },
-            {
-                "id": "TSX:TXDE",
-                "name": "S&P/TSX Equal Weight Diversified Banks"
-            },
-            {
-                "id": "TSX:TXHB",
-                "name": "S&P/TSX Composite High Beta"
-            },
-            {
-                "id": "TSX:TXIE",
-                "name": "S&P/TSX Equal Weight Industrials"
-            },
-            {
-                "id": "TSX:TXOE",
-                "name": "S&P/TSX Equal Weight Oil & Gas"
-            },
-            {
-                "id": "TSX:TXPR",
-                "name": "S&P/TSX Preferred Share"
-            },
-            {
-                "id": "TSX:TXSC",
-                "name": "S&P/TSX SmallCap Select"
-            },
-            {
-                "id": "TSX:TXSI",
-                "name": "S&P/TSX 60 Shariah"
-            },
-            {
                 "id": "TVC:NI225",
                 "name": "Nikkei 225"
             },
@@ -3647,6 +3535,7 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
+            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -13663,17 +13552,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13683,12 +13567,17 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18655,7 +18544,6 @@
             "Coastal",
             "Cohen & Steers",
             "CoinShares",
-            "Colchester",
             "Columbia",
             "Columbia Threadneedle",
             "Concourse",
@@ -19024,6 +18912,7 @@
             "Moat",
             "Mohr Funds",
             "Monarch",
+            "Montaka",
             "Montgomery",
             "Moonvest",
             "More",
@@ -20387,6 +20276,7 @@
             "TN",
             "TR",
             "TW",
+            "TZ",
             "UA",
             "UG",
             "US",
@@ -22835,34 +22725,6 @@
             "SYML:TASE;TA125",
             "SYML:TASE;TA35",
             "SYML:TPEX;GTSM50",
-            "SYML:TSX;JX",
-            "SYML:TSX;RTRE",
-            "SYML:TSX;T00C",
-            "SYML:TSX;TSX",
-            "SYML:TSX;TTCD",
-            "SYML:TSX;TTCS",
-            "SYML:TSX;TTEN",
-            "SYML:TSX;TTFS",
-            "SYML:TSX;TTHC",
-            "SYML:TSX;TTIN",
-            "SYML:TSX;TTMT",
-            "SYML:TSX;TTRE",
-            "SYML:TSX;TTTK",
-            "SYML:TSX;TTTS",
-            "SYML:TSX;TTUT",
-            "SYML:TSX;TX20",
-            "SYML:TSX;TX40",
-            "SYML:TSX;TX60",
-            "SYML:TSX;TX6C",
-            "SYML:TSX;TXCT",
-            "SYML:TSX;TXDC",
-            "SYML:TSX;TXDE",
-            "SYML:TSX;TXHB",
-            "SYML:TSX;TXIE",
-            "SYML:TSX;TXOE",
-            "SYML:TSX;TXPR",
-            "SYML:TSX;TXSC",
-            "SYML:TSX;TXSI",
             "SYML:TVC;NI225",
             "SYML:TVC;RUA",
             "SYML:TVC;RUI",
@@ -23737,7 +23599,6 @@
             "KIWOOM Securities Co., Ltd.",
             "KSM Mutual Funds Ltd.",
             "Kapital Mexico Grupo Financiero SA de CV",
-            "Kasikornbank Public Co. Ltd.",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
             "Killir Kapital Management LLC",
@@ -23985,7 +23846,6 @@
             "Shin Kong Financial Holding Co. Ltd.",
             "Shinhan Financial Group Co., Ltd.",
             "Shriram Credit Co. Ltd.",
-            "Silchester Partners Ltd.",
             "Simplex Financial Holdings Co., Ltd.",
             "Simplify Asset Management, Inc.",
             "SinoPac Financial Holdings Co., Ltd.",
@@ -24083,6 +23943,7 @@
             "VTB Bank PJSC",
             "VTB Capital Asset Management JSC",
             "Valour Digital Securities Ltd.",
+            "Valour, Inc. (Switzerland)",
             "Value Partners Group Ltd.",
             "Van Eck Associates Corp.",
             "VanEck ETP AG",
