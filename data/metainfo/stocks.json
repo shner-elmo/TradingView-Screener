@@ -3468,7 +3468,6 @@
             "France",
             "Gabon",
             "Germany",
-            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -3481,7 +3480,6 @@
             "Israel",
             "Italy",
             "Ivory Coast",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -13572,22 +13570,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18509,7 +18507,6 @@
             "Caitong",
             "Caixa",
             "Calamos",
-            "Caldwell",
             "Calvert",
             "Cambiar Funds",
             "Cambria",
@@ -20205,7 +20202,6 @@
             "FR",
             "GA",
             "GB",
-            "GH",
             "GI",
             "GL",
             "GR",
@@ -20218,7 +20214,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -20397,10 +20392,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
-            "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -23322,7 +23314,6 @@
             "CYBER HORNET ETFs LLC",
             "Caitong Securities Co., Ltd.",
             "Calamos Family Partners, Inc.",
-            "Caldwell Financial Ltd.",
             "Cambiar Holdings LLLP",
             "Cambria Investment Management LP",
             "Canadian Imperial Bank of Commerce",
