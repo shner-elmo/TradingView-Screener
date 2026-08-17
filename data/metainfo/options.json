@@ -67,7 +67,8 @@
             "MCX",
             "NSE",
             "NYMEX",
-            "OPRA"
+            "OPRA",
+            "TFEX"
         ]
     },
     {
@@ -145,6 +146,7 @@
             "INR",
             "JPY",
             "NZD",
+            "THB",
             "TRY",
             "USD",
             "USX"
@@ -168,7 +170,9 @@
     {
         "n": "base_currency_kind",
         "t": "text",
-        "r": []
+        "r": [
+            "fiat"
+        ]
     },
     {
         "n": "bid_ask_spread_pct",
@@ -202,6 +206,7 @@
             "INR",
             "JPY",
             "NZD",
+            "THB",
             "TRY",
             "USD",
             "XTVCNH",
@@ -421,7 +426,8 @@
             "source/MCX",
             "source/NSE",
             "source/NYMEX",
-            "source/OPRA"
+            "source/OPRA",
+            "source/TFEX"
         ]
     },
     {
