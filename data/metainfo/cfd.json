@@ -9517,17 +9517,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9537,7 +9532,7 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9547,12 +9542,17 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14448,7 +14448,6 @@
             "AIOZ Network",
             "AKEDO",
             "API3",
-            "AVA (Travala)",
             "Aave",
             "Act I : The AI Prophecy",
             "Aerodrome Finance",
@@ -14470,6 +14469,7 @@
             "Asteroid Shiba",
             "Atletico De Madrid Fan Token",
             "Audiera",
+            "Australian Digital Dollar",
             "Avalanche",
             "Avantis",
             "Avici",
@@ -14572,7 +14572,6 @@
             "GAMEE",
             "GEODNET",
             "GMT",
-            "GRASS",
             "GRIFFAIN",
             "GROK",
             "Gala",
@@ -14580,6 +14579,7 @@
             "Gas",
             "Genius Terminal",
             "Gnosis",
+            "GoPlus Security",
             "Goldfinch",
             "Gram (prev. Toncoin)",
             "Grvt",
@@ -14603,7 +14603,6 @@
             "Index Cooperative",
             "Injective",
             "Internet Computer",
-            "Inverse Finance",
             "IoTeX",
             "JUST",
             "Janction",
@@ -14699,6 +14698,7 @@
             "Pepe",
             "Phala Network",
             "Pieverse",
+            "Pirate Nation",
             "Plasma",
             "Plume",
             "Polkadot",
@@ -14727,7 +14727,6 @@
             "Reppo",
             "Request",
             "Reserve Rights",
-            "Resistance Dog",
             "Ribbita by Virtuals",
             "Ripple USD",
             "River",
@@ -14787,7 +14786,6 @@
             "The Graph",
             "The Sandbox",
             "Theta Network",
-            "Threshold",
             "Turbo",
             "Tutorial",
             "USDC",
@@ -14830,6 +14828,7 @@
             "Zcash",
             "Zebec Network",
             "Zerebro",
+            "Zilliqa",
             "aPriori",
             "aixbt",
             "dYdX (ethDYDX)",
@@ -14886,7 +14885,7 @@
             "XTVCASTEROID",
             "XTVCATM",
             "XTVCATOM",
-            "XTVCAVA",
+            "XTVCAUDD",
             "XTVCAVAX",
             "XTVCAVICI",
             "XTVCAVNT",
@@ -15000,8 +14999,8 @@
             "XTVCGMT",
             "XTVCGNO",
             "XTVCGORK",
+            "XTVCGPS",
             "XTVCGRAM",
-            "XTVCGRASS2",
             "XTVCGRIFFAIN",
             "XTVCGROK",
             "XTVCGRT",
@@ -15023,7 +15022,6 @@
             "XTVCIMX",
             "XTVCINDEX",
             "XTVCINJ",
-            "XTVCINV",
             "XTVCIOTA",
             "XTVCIOTX",
             "XTVCJASMY",
@@ -15107,6 +15105,7 @@
             "XTVCPI3",
             "XTVCPIEVERSE",
             "XTVCPIPPIN",
+            "XTVCPIRATEN",
             "XTVCPLUME",
             "XTVCPOLYG",
             "XTVCPOND",
@@ -15131,7 +15130,6 @@
             "XTVCRAVED",
             "XTVCRAY",
             "XTVCRE",
-            "XTVCREDO",
             "XTVCREI2",
             "XTVCREKTC",
             "XTVCRENDER",
@@ -15185,7 +15183,6 @@
             "XTVCSXT",
             "XTVCSYN",
             "XTVCSYRUP",
-            "XTVCT",
             "XTVCTACP",
             "XTVCTAIKO",
             "XTVCTAKE",
@@ -15257,6 +15254,7 @@
             "XTVCZEC",
             "XTVCZEN",
             "XTVCZEREBRO",
+            "XTVCZIL",
             "XTVCZROL",
             "XTVCZRX"
         ]
@@ -15290,9 +15288,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
