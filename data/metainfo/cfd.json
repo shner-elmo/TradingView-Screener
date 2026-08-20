@@ -9517,22 +9517,22 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -14501,6 +14501,7 @@
             "COTI",
             "CREPE",
             "CROSS",
+            "CUDIS",
             "Cardano",
             "Cartesi",
             "Cash Cat",
@@ -14571,7 +14572,6 @@
             "GAMEE",
             "GEODNET",
             "GMT",
-            "GRASS",
             "GRIFFAIN",
             "GROK",
             "Gala",
@@ -14621,9 +14621,9 @@
             "KernelDAO",
             "Kite",
             "Koma Inu",
-            "Kusama",
             "LAB",
             "LayerZero",
+            "LeisureMeta",
             "Lido DAO",
             "Lido Staked ETH",
             "Lighter",
@@ -14692,6 +14692,7 @@
             "PI",
             "PUMPCADE",
             "PancakeSwap",
+            "Parcl",
             "Paris Saint-Germain Fan Token",
             "Particle Network",
             "PayPal USD",
@@ -14743,6 +14744,7 @@
             "SafePal",
             "Saga",
             "Sahara AI",
+            "Salesforce Tokenized Stock (Ondo)",
             "Saros",
             "Secret",
             "Sei",
@@ -14766,7 +14768,6 @@
             "Swarms",
             "Synapse",
             "Synthetix",
-            "TAC Protocol",
             "THORChain",
             "TROLL (SOL)",
             "TRON",
@@ -14933,11 +14934,13 @@
             "XTVCCOTI",
             "XTVCCOW",
             "XTVCCREPE2",
+            "XTVCCRMON",
             "XTVCCRO",
             "XTVCCROSS",
             "XTVCCRV",
             "XTVCCSPR",
             "XTVCCTSI",
+            "XTVCCUDIS",
             "XTVCCULTM",
             "XTVCCVX",
             "XTVCCYSI",
@@ -15000,7 +15003,6 @@
             "XTVCGORK",
             "XTVCGPS",
             "XTVCGRAM",
-            "XTVCGRASS2",
             "XTVCGRIFFAIN",
             "XTVCGROK",
             "XTVCGRT",
@@ -15038,7 +15040,6 @@
             "XTVCKGEN",
             "XTVCKITE",
             "XTVCKOMA",
-            "XTVCKSM",
             "XTVCKUB",
             "XTVCKYVE",
             "XTVCLAB2",
@@ -15047,6 +15048,7 @@
             "XTVCLINK",
             "XTVCLIT",
             "XTVCLITL",
+            "XTVCLM",
             "XTVCLPT",
             "XTVCLRC",
             "XTVCLTC",
@@ -15112,6 +15114,7 @@
             "XTVCPOND",
             "XTVCPONKE",
             "XTVCPONS",
+            "XTVCPRCL",
             "XTVCPROM",
             "XTVCPSG",
             "XTVCPTB",
@@ -15183,7 +15186,6 @@
             "XTVCSXT",
             "XTVCSYN",
             "XTVCSYRUP",
-            "XTVCTACP",
             "XTVCTAIKO",
             "XTVCTAKE",
             "XTVCTAOB",
@@ -15288,9 +15290,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
