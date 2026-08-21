@@ -13551,17 +13551,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13571,7 +13566,7 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -13581,12 +13576,17 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18466,6 +18466,7 @@
             "BlueSphere",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -19113,7 +19114,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Shelton Capital",
             "Shin Kong",
@@ -21200,6 +21200,7 @@
             "2050",
             "2051",
             "2052",
+            "2054",
             "2055",
             "2056",
             "2059",
@@ -23580,7 +23581,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Ltd.",
