@@ -9527,17 +9527,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9547,12 +9542,17 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14450,6 +14450,7 @@
             "API3",
             "Aave",
             "Act I : The AI Prophecy",
+            "Acurast",
             "Aerodrome Finance",
             "Aevo",
             "Akash Network",
@@ -14464,6 +14465,7 @@
             "AriaAI",
             "Arkham",
             "Artificial Superintelligence Alliance",
+            "Arweave",
             "Aster",
             "Asteroid Shiba",
             "Atletico De Madrid Fan Token",
@@ -14487,7 +14489,6 @@
             "Bitcoin Cash",
             "Bitcoin SV",
             "Bitget Token",
-            "Bitmex Token",
             "Bittensor",
             "Bless",
             "BluWhale",
@@ -14497,6 +14498,7 @@
             "Bonk",
             "Boson Protocol",
             "Brett (Based)",
+            "Bullish Degen",
             "COTI",
             "CREPE",
             "CROSS",
@@ -14613,8 +14615,8 @@
             "KAITO",
             "KGeN",
             "KUB Coin",
-            "KYVE Network",
             "Kaia",
+            "Kamino",
             "Kaspa",
             "KernelDAO",
             "Kite",
@@ -14622,7 +14624,6 @@
             "Kusama",
             "LAB",
             "LayerZero",
-            "LeisureMeta",
             "Lido DAO",
             "Lido Staked ETH",
             "Lighter",
@@ -14861,6 +14862,7 @@
             "XTVCACEF",
             "XTVCACH",
             "XTVCACTI",
+            "XTVCACU",
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
@@ -14878,6 +14880,7 @@
             "XTVCAPI3",
             "XTVCAPR",
             "XTVCAPTO",
+            "XTVCAR",
             "XTVCARBI",
             "XTVCARIAA",
             "XTVCARKM",
@@ -14905,7 +14908,6 @@
             "XTVCBLUAI",
             "XTVCBLUM",
             "XTVCBLUR",
-            "XTVCBMEX",
             "XTVCBNB",
             "XTVCBNKRB",
             "XTVCBOME",
@@ -14915,6 +14917,7 @@
             "XTVCBSV",
             "XTVCBTC",
             "XTVCBTT",
+            "XTVCBULLISHD",
             "XTVCC98",
             "XTVCCAKE",
             "XTVCCARDSC",
@@ -15037,17 +15040,16 @@
             "XTVCKERNEL",
             "XTVCKGEN",
             "XTVCKITE",
+            "XTVCKMNO",
             "XTVCKOMA",
             "XTVCKSM",
             "XTVCKUB",
-            "XTVCKYVE",
             "XTVCLAB2",
             "XTVCLDO",
             "XTVCLINEA",
             "XTVCLINK",
             "XTVCLIT",
             "XTVCLITL",
-            "XTVCLM",
             "XTVCLPT",
             "XTVCLRC",
             "XTVCLTC",
@@ -15290,7 +15292,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
