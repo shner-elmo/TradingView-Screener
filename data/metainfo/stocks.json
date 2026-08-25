@@ -3520,7 +3520,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -13550,17 +13549,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13570,7 +13564,7 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -13580,12 +13574,17 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18355,6 +18354,7 @@
             "AdvisorShares",
             "Aegon",
             "Agiofunds",
+            "Ai Funds",
             "Ailis",
             "Airlie",
             "Akre",
@@ -18545,7 +18545,6 @@
             "Conductor Fund",
             "Congress",
             "Convergence",
-            "Coolabah",
             "Core Alternative",
             "CoreShares",
             "CoreValues Alpha",
@@ -18881,6 +18880,7 @@
             "MarketDesk",
             "Martin Currie",
             "Mason Capital",
+            "Mast",
             "Matrix",
             "Matthews",
             "Maverix",
@@ -18955,6 +18955,7 @@
             "Nu",
             "Numoro",
             "Nuveen",
+            "OFI",
             "OTG",
             "OTP",
             "Oakmark",
@@ -19033,6 +19034,7 @@
             "Quadratic",
             "Quadravest",
             "Qualivian",
+            "Quant",
             "QuantaShares",
             "Quantum",
             "Quoniam Funds",
@@ -19152,6 +19154,7 @@
             "Suncoast",
             "Swan",
             "Swisscanto",
+            "Swissquote",
             "Sygnia",
             "Symmetry Panoramic",
             "T-Capital",
@@ -20263,7 +20266,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "SV",
             "TG",
             "TH",
@@ -20391,9 +20393,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -22958,7 +22960,6 @@
             "The Northern Trust Co.",
             "The Stock Exchange of Thailand",
             "The Tel Aviv Stock Exchange Ltd.",
-            "Thomson Reuters Corp.",
             "Thor Analytics LLC",
             "Tokyo Stock Exchange, Inc.",
             "Tortoise Index Solutions LLC",
@@ -23174,9 +23175,9 @@
             "ABN AMRO Bank NV",
             "ABSA Bank Ltd.",
             "ACATIS Investment Kapitalverwaltungsgesellschaft mbH",
-            "ACP Horizon Holdings LP",
             "AG Financial Services Group",
             "AGF Management Ltd.",
+            "AI Funds, Inc.",
             "AJM Ventures LLC",
             "AMG National Corp.",
             "AMMB Holdings Bhd.",
@@ -23218,7 +23219,6 @@
             "Alternative Access Funds LLC",
             "AmeriLife Group LLC",
             "American Beacon Advisors, Inc.",
-            "American Beacon Partners",
             "American Century Cos., Inc.",
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
@@ -23226,7 +23226,6 @@
             "Amundi Luxembourg SA",
             "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
-            "Angel Oak Cos. LP",
             "Angel One Asset Management Co. Ltd.",
             "Angel One Ltd.",
             "Ant Group Co., Ltd.",
@@ -23248,7 +23247,6 @@
             "Axis Bank Ltd.",
             "Axxess Capital Partners SA",
             "Azimut Holding SpA",
-            "BCP CC Holdings LP",
             "BIT Capital GmbH",
             "BNK Financial Group, Inc.",
             "BNP Paribas SA",
@@ -23294,7 +23292,7 @@
             "Brandes Worldwide Holdings LP",
             "Bristol Gate Capital Partners, Inc.",
             "Brompton Corp.",
-            "Brookfield Asset Management Ltd.",
+            "Brookfield Corp.",
             "Brookmont Capital Management LLC",
             "Brown Advisory Management LLC",
             "Brown Brothers Harriman & Co.",
@@ -23353,7 +23351,6 @@
             "Convergence Investment Partners LLC",
             "Core Alternative Capital LLC",
             "Corgi Insurance Services, Inc.",
-            "Corgi Strategies LLC",
             "Corporaci\u00f3n Actinver, SAB de CV",
             "Corton Capital, Inc.",
             "Cottonwood ETF Holdings LLC",
@@ -23522,7 +23519,6 @@
             "Hashdex AG",
             "Hashdex Ltd.",
             "Hedge Investments Real Estate Gest\u00e3o de Recursos Ltda.",
-            "Hedgeye Risk Management LLC",
             "Hejaz Capital Pty Ltd.",
             "Hengdian Group Holdings Co., Ltd.",
             "Hennessy Advisors, Inc.",
@@ -23553,6 +23549,7 @@
             "Ilirika DD",
             "Impax Asset Management Group Plc",
             "Indexperts LLC",
+            "IndusInd International Holdings Ltd.",
             "Industrial Bank Co., Ltd.",
             "Ind\u00e9pendance AM SAS (France)",
             "Infrastructure Capital Advisors LLC",
@@ -23635,6 +23632,7 @@
             "MIG Capital LLC",
             "MM VAM LLC",
             "MS&AD Insurance Group Holdings, Inc.",
+            "Macif SAM",
             "Macquarie Group Ltd.",
             "Madison Investment Holdings, Inc.",
             "Magellan Financial Group Ltd.",
@@ -23645,7 +23643,6 @@
             "Manteio Partners LLC",
             "Manulife Financial Corp.",
             "Manulife Fund Management Co., Ltd.",
-            "Marathon Partners LLC",
             "Market Access Asset Management Ltd.",
             "Matthews International Capital Management LLC",
             "Maverix Securities AG",
@@ -23708,8 +23705,6 @@
             "Norris, Perne & French LLP",
             "Northern Trust Corp.",
             "Nu Holdings Ltd.",
-            "Nuveen LLC",
-            "Nuveen Securities LLC",
             "Nxtassets GmbH",
             "ORIX Corp.",
             "OTP Bank Nyrt",
@@ -23845,7 +23840,6 @@
             "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale Gestion SA",
             "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale SA",
             "Sound Capital Holdings LLC",
-            "Sound Capital Solutions LLC",
             "Soundwatch Capital LLC",
             "Sovereign's Capital Management LLC",
             "Spear Advisors LLC",
@@ -23858,7 +23852,6 @@
             "State Street Corp.",
             "State of Western Australia",
             "State of Zurich",
-            "Sterling Capital Management LLC",
             "Stone Ridge Holdings Group LP",
             "Sumitomo Mitsui Financial Group, Inc.",
             "Sumitomo Mitsui Trust Group, Inc.",
@@ -23996,7 +23989,8 @@
             "iM Financial Group Co., Ltd.",
             "iM Global Partner SAS",
             "iM Square SAS",
-            "issuance.swiss AG"
+            "issuance.swiss AG",
+            "quant Money Managers Ltd."
         ]
     },
     {
@@ -26473,6 +26467,7 @@
             "etf",
             "mutual",
             "odd",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
