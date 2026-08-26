@@ -3481,6 +3481,7 @@
             "Israel",
             "Italy",
             "Ivory Coast",
+            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -13569,12 +13570,12 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18545,6 +18546,7 @@
             "Conductor Fund",
             "Congress",
             "Convergence",
+            "Coolabah",
             "Core Alternative",
             "CoreShares",
             "CoreValues Alpha",
@@ -19250,7 +19252,6 @@
             "Vident",
             "Vietnam",
             "VinaCapital",
-            "Vinva",
             "Virtune",
             "Virtus",
             "VistaShares",
@@ -20217,6 +20218,7 @@
             "IN",
             "IS",
             "IT",
+            "JM",
             "JO",
             "JP",
             "KE",
@@ -20395,7 +20397,8 @@
         "r": [
             "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "pre_market"
         ]
     },
     {
@@ -21223,7 +21226,6 @@
             "2107",
             "2108",
             "2111",
-            "2112",
             "2113",
             "2114",
             "2115",
@@ -21285,7 +21287,6 @@
             "2198",
             "22",
             "2200",
-            "2201",
             "2202",
             "2203",
             "2204",
@@ -23942,7 +23943,6 @@
             "Victory Capital Holdings, Inc.",
             "Vident Investors' Oversight Trust",
             "VinaCapital Fund Management JSC",
-            "Vinva Holdings Ltd.",
             "Virtune AB (Publ)",
             "Virtus Investment Partners, Inc.",
             "Volatility Shares LLC",
@@ -26170,6 +26170,7 @@
             "NO",
             "NZ",
             "OM",
+            "PA",
             "PE",
             "PG",
             "PH",
