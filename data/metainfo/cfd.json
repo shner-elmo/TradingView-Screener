@@ -9516,17 +9516,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9536,12 +9531,17 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -14691,6 +14691,7 @@
             "Ontology Gas",
             "Onyxcoin",
             "Open Loot",
+            "OpenEden",
             "Optimism",
             "Orca",
             "Orchid",
@@ -14706,7 +14707,6 @@
             "PayPal USD",
             "Pendle",
             "Pepe",
-            "Phala Network",
             "Pieverse",
             "Plasma",
             "Plume",
@@ -14831,7 +14831,6 @@
             "Zcash",
             "Zebec Network",
             "Zerebro",
-            "Zilliqa",
             "aixbt",
             "dYdX (ethDYDX)",
             "dogwifhat",
@@ -14965,6 +14964,7 @@
             "XTVCDRIFT",
             "XTVCDUSK",
             "XTVCDYDX",
+            "XTVCEDENO",
             "XTVCEDGEX",
             "XTVCEGLD",
             "XTVCEGO",
@@ -15115,7 +15115,6 @@
             "XTVCPENGUPUD",
             "XTVCPEOPLE",
             "XTVCPEPE",
-            "XTVCPHA",
             "XTVCPIEVERSE",
             "XTVCPIPPIN",
             "XTVCPLUME",
@@ -15260,7 +15259,6 @@
             "XTVCZEC",
             "XTVCZEN",
             "XTVCZEREBRO",
-            "XTVCZIL",
             "XTVCZROL",
             "XTVCZRX"
         ]
