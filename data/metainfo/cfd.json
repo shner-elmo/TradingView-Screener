@@ -9526,12 +9526,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -14438,7 +14438,6 @@
         "t": "text",
         "r": [
             "00 Token",
-            "0G",
             "0x Protocol",
             "1inch",
             "4",
@@ -14448,6 +14447,7 @@
             "API3",
             "Aave",
             "Act I : The AI Prophecy",
+            "Acurast",
             "Aerodrome Finance",
             "Aevo",
             "Akash Network",
@@ -14564,7 +14564,6 @@
             "FLOKI",
             "FTX Token",
             "FUNToken",
-            "Fabric Protocol",
             "Fartboy",
             "Fartcoin",
             "Filecoin",
@@ -14707,6 +14706,7 @@
             "PayPal USD",
             "Pendle",
             "Pepe",
+            "Phala Network",
             "Pieverse",
             "Plasma",
             "Plume",
@@ -14740,6 +14740,7 @@
             "SK hynix tokenized stock (xStock)",
             "SKYAI",
             "SP500 tokenized ETF (xStock)",
+            "SPX6900",
             "STO CHAIN",
             "SUPRA",
             "Saga",
@@ -14774,7 +14775,6 @@
             "THORChain",
             "TROLL (SOL)",
             "TRON",
-            "Taiko",
             "Talus",
             "Telcoin",
             "Tellor",
@@ -14853,7 +14853,6 @@
         "t": "text",
         "r": [
             "XTVC00",
-            "XTVC0G",
             "XTVC1INCH",
             "XTVC2Z",
             "XTVC4",
@@ -14861,6 +14860,7 @@
             "XTVCACEF",
             "XTVCACH",
             "XTVCACTI",
+            "XTVCACU",
             "XTVCADA",
             "XTVCAEROD",
             "XTVCAEVO",
@@ -15115,6 +15115,7 @@
             "XTVCPENGUPUD",
             "XTVCPEOPLE",
             "XTVCPEPE",
+            "XTVCPHA",
             "XTVCPIEVERSE",
             "XTVCPIPPIN",
             "XTVCPLUME",
@@ -15149,7 +15150,6 @@
             "XTVCRIO",
             "XTVCRIVER",
             "XTVCRLUSD",
-            "XTVCROBOTO",
             "XTVCROSE",
             "XTVCRSR",
             "XTVCRUNE",
@@ -15174,6 +15174,7 @@
             "XTVCSOMI",
             "XTVCSPACE",
             "XTVCSPCXB",
+            "XTVCSPX6",
             "XTVCSPYX",
             "XTVCSQD",
             "XTVCSTABLE3",
@@ -15191,7 +15192,6 @@
             "XTVCSYN",
             "XTVCSYRUP",
             "XTVCTACP",
-            "XTVCTAIKO",
             "XTVCTAKE",
             "XTVCTAOB",
             "XTVCTEL",
@@ -15293,7 +15293,8 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market"
         ]
     },
     {
