@@ -249,7 +249,6 @@
             "BVC",
             "BVL",
             "CBOE",
-            "CITYINDEX",
             "CRYPTOCAP",
             "DFM",
             "DJ",
@@ -282,6 +281,7 @@
             "SPARKS",
             "SPCFD",
             "SSE",
+            "STONEXTRADING",
             "STOXX",
             "SZSE",
             "TADAWUL",
@@ -9516,12 +9516,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9546,12 +9546,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14438,6 +14438,7 @@
         "t": "text",
         "r": [
             "00 Token",
+            "0G",
             "0x Protocol",
             "1inch",
             "4",
@@ -14512,7 +14513,6 @@
             "Celestia",
             "Celo",
             "Centrifuge",
-            "ChainGPT",
             "Chainflip",
             "Chainlink",
             "Chiliz",
@@ -14618,7 +14618,6 @@
             "KAITO",
             "KGeN",
             "KUB Coin",
-            "Kaia",
             "Kamino",
             "Kaspa",
             "KernelDAO",
@@ -14632,6 +14631,7 @@
             "Lido Staked ETH",
             "Lighter",
             "Linea",
+            "Lista DAO",
             "Litecoin",
             "Litentry",
             "Loopring",
@@ -14689,7 +14689,6 @@
             "Ontology",
             "Ontology Gas",
             "Onyxcoin",
-            "Open Loot",
             "OpenEden",
             "Optimism",
             "Orca",
@@ -14743,11 +14742,11 @@
             "SPX6900",
             "STO CHAIN",
             "SUPRA",
-            "Saga",
             "Sahara AI",
             "Salesforce Tokenized Stock (Ondo)",
             "Saros",
             "Secret",
+            "Seeker",
             "Sei",
             "Shiba Inu",
             "Shiro Neko",
@@ -14761,6 +14760,7 @@
             "Stacks",
             "Starknet",
             "Stellar",
+            "StonkBroker",
             "Storj",
             "Stronghold SHx",
             "Subsquid",
@@ -14790,6 +14790,7 @@
             "The Juggernaut",
             "The Sandbox",
             "Theta Network",
+            "Trust Wallet Token",
             "Turbo",
             "Tutorial",
             "USDC",
@@ -14853,6 +14854,7 @@
         "t": "text",
         "r": [
             "XTVC00",
+            "XTVC0G",
             "XTVC1INCH",
             "XTVC2Z",
             "XTVC4",
@@ -14927,7 +14929,6 @@
             "XTVCCELR",
             "XTVCCFG",
             "XTVCCFX",
-            "XTVCCGPT",
             "XTVCCHILLGUY",
             "XTVCCHZ",
             "XTVCCLANKER",
@@ -15040,7 +15041,6 @@
             "XTVCJUGGERNAUT",
             "XTVCJUPI",
             "XTVCJUPUSD",
-            "XTVCKAIA",
             "XTVCKAITO",
             "XTVCKAS",
             "XTVCKERNEL",
@@ -15055,6 +15055,7 @@
             "XTVCLDO",
             "XTVCLINEA",
             "XTVCLINK",
+            "XTVCLISTA",
             "XTVCLIT",
             "XTVCLITL",
             "XTVCLRC",
@@ -15097,7 +15098,6 @@
             "XTVCNOT",
             "XTVCNVDAX",
             "XTVCOKB",
-            "XTVCOL",
             "XTVCON",
             "XTVCONDO",
             "XTVCONE",
@@ -15154,7 +15154,6 @@
             "XTVCRSR",
             "XTVCRUNE",
             "XTVCRVN",
-            "XTVCSAGA2",
             "XTVCSAHARA",
             "XTVCSAND",
             "XTVCSAROS",
@@ -15165,6 +15164,7 @@
             "XTVCSHX",
             "XTVCSIREN",
             "XTVCSKHYX",
+            "XTVCSKRS",
             "XTVCSKY2",
             "XTVCSKYAI2",
             "XTVCSLVON",
@@ -15180,6 +15180,7 @@
             "XTVCSTABLE3",
             "XTVCSTETH",
             "XTVCSTOCH",
+            "XTVCSTONKBROKER",
             "XTVCSTORJ",
             "XTVCSTRKS",
             "XTVCSTXS",
@@ -15207,6 +15208,7 @@
             "XTVCTRX",
             "XTVCTURBO",
             "XTVCTUTO",
+            "XTVCTWT",
             "XTVCUAIU",
             "XTVCUNI",
             "XTVCUS",
@@ -15292,9 +15294,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {
@@ -16219,7 +16221,6 @@
         "t": "text",
         "r": [
             "blackbullmarkets",
-            "cityindex",
             "easymarkets",
             "eightcap",
             "fxcm",
@@ -16230,6 +16231,7 @@
             "phillipnova",
             "saxobank",
             "skilling",
+            "stonextrading",
             "tvc"
         ]
     },
@@ -16375,7 +16377,6 @@
             "source/BVC",
             "source/BVL",
             "source/CBOE",
-            "source/CITYINDEX",
             "source/CRYPTOCAP",
             "source/DFM",
             "source/DJ",

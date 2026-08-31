@@ -13560,12 +13560,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -13580,12 +13580,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18602,6 +18602,7 @@
             "E.Sun",
             "EA Series Trust",
             "EMQQ Global",
+            "EMXETF",
             "EQB",
             "ERShares",
             "ETFB",
@@ -18628,7 +18629,6 @@
             "Evoke",
             "Evolve",
             "Evovest",
-            "Exane",
             "Exemplar",
             "Expat",
             "F/m",
@@ -18799,6 +18799,7 @@
             "Janus Henderson",
             "Janus Henderson Tabula",
             "Jensen",
+            "JioBlackRock",
             "John Hancock",
             "Jupiter",
             "KB",
@@ -18932,6 +18933,7 @@
             "NH",
             "NH-Amundi",
             "NPF",
+            "NYLIM",
             "NZAM",
             "Nanhua",
             "Nanuk",
@@ -19760,6 +19762,7 @@
             "CEXXMX",
             "CEXXXS",
             "CEXXXX",
+            "CFCIIU",
             "CFOIIS",
             "CHNXXX",
             "CICGLS",
@@ -19796,6 +19799,7 @@
             "CIOIEU",
             "CIOILS",
             "CIOIMS",
+            "CIOIMX",
             "CIOIXX",
             "CIOJLS",
             "CIOJLU",
@@ -19808,6 +19812,7 @@
             "CIXXXS",
             "CIXXXX",
             "CMXXXU",
+            "CMXXXX",
             "EFNCCR",
             "EFNNFR",
             "EFNRCX",
@@ -20399,6 +20404,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
             "post_market"
@@ -21270,7 +21276,6 @@
             "2172",
             "2173",
             "2174",
-            "2176",
             "2177",
             "2178",
             "2179",
@@ -21308,6 +21313,7 @@
             "2226",
             "2227",
             "2228",
+            "2229",
             "23",
             "24",
             "2430",
@@ -23595,6 +23601,7 @@
             "Kapital Mexico Grupo Financiero SA de CV",
             "Kenanga Investment Bank Bhd.",
             "Kensington Asset Management LLC",
+            "Kensington Investment Partners, LLC",
             "Killir Kapital Management LLC",
             "Kingsbarn Capital Management LLC",
             "Kingsview Partners LLC",
@@ -23926,6 +23933,7 @@
             "Twin Oak Holdings LP",
             "T\u00fcrkiye Is Bankasi AS",
             "U.S. Global Investors, Inc.",
+            "UBS AG (London Branch)",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
@@ -24763,6 +24771,7 @@
             "7",
             "70",
             "72",
+            "8",
             "83",
             "85",
             "86",
@@ -26471,6 +26480,7 @@
             "closedend",
             "common",
             "etf",
+            "foreign",
             "mutual",
             "odd",
             "preferred",
