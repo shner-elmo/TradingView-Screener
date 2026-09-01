@@ -13550,12 +13550,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -18455,6 +18455,7 @@
             "BeeHive",
             "Bellevue",
             "Beta",
+            "Beta ETF",
             "BetaPro",
             "BetaShares",
             "Billionaires",
@@ -18552,7 +18553,6 @@
             "CoreValues Alpha",
             "Corgi",
             "Coronation",
-            "Corton",
             "Counterpoint",
             "Credit Mutuel",
             "Credit Suisse",
@@ -18944,7 +18944,6 @@
             "NestYield",
             "Neuberger Berman",
             "New China Fund",
-            "New York Life Investments",
             "NicheJungle",
             "Nicholas",
             "Nifty",
@@ -19308,6 +19307,7 @@
             "Yinhua",
             "Yoke",
             "Yongying",
+            "Yorkville",
             "Yuanta",
             "Yurie",
             "ZEGA",
@@ -19318,7 +19318,6 @@
             "Ziller",
             "Ziraat",
             "aberdeen",
-            "iA",
             "iA Clarington",
             "iFreeETF",
             "iM",
@@ -20404,10 +20403,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
-            "post_market"
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -21089,9 +21088,7 @@
         "n": "fiscal_period_current",
         "t": "text",
         "r": [
-            "2025-H1",
             "2025-H2",
-            "2025-Q2",
             "2025-Q3",
             "2025-Q4",
             "2026-H1",
@@ -23364,7 +23361,6 @@
             "Core Alternative Capital LLC",
             "Corgi Insurance Services, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
-            "Corton Capital, Inc.",
             "Cottonwood ETF Holdings LLC",
             "Counterpoint Mutual Funds LLC",
             "Cullen Capital Management LLC",
@@ -24002,7 +23998,6 @@
             "iA Financial Corp., Inc.",
             "iM Financial Group Co., Ltd.",
             "iM Global Partner SAS",
-            "iM Square SAS",
             "issuance.swiss AG",
             "quant Money Managers Ltd."
         ]
@@ -26483,6 +26478,7 @@
             "foreign",
             "mutual",
             "odd",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",

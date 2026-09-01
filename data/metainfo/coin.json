@@ -9463,22 +9463,22 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -14418,6 +14418,7 @@
             "polkadot-ecosystem",
             "polygon-ecosystem",
             "pump-fun-ecosystem",
+            "robinhood-ecosystem",
             "solana-ecosystem",
             "sui-ecosystem",
             "terra-ecosystem",
@@ -14517,6 +14518,7 @@
             "optimism-ecosystem",
             "oracles",
             "payments",
+            "perpetuals",
             "plasma-ecosystem",
             "polkadot-ecosystem",
             "polygon-ecosystem",
@@ -14529,6 +14531,7 @@
             "real-estate",
             "real-world-assets",
             "rehypothecated-crypto",
+            "robinhood-ecosystem",
             "scaling",
             "seigniorage",
             "smart-contract-platforms",
@@ -14613,6 +14616,7 @@
             "move-to-earn",
             "oracles",
             "payments",
+            "perpetuals",
             "prediction-markets",
             "privacy",
             "real-estate",
