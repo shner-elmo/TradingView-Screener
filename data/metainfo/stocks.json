@@ -13580,12 +13580,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18553,6 +18553,7 @@
             "CoreValues Alpha",
             "Corgi",
             "Coronation",
+            "Corton",
             "Counterpoint",
             "Credit Mutuel",
             "Credit Suisse",
@@ -19085,7 +19086,6 @@
             "Russell",
             "Russell Investments",
             "SAB Invest",
-            "SAM",
             "SBI",
             "SEI",
             "SMDAM",
@@ -19318,6 +19318,7 @@
             "Ziller",
             "Ziraat",
             "aberdeen",
+            "iA",
             "iA Clarington",
             "iFreeETF",
             "iM",
@@ -20405,7 +20406,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -22911,7 +22911,6 @@
             "Neos Investment Management LLC",
             "New York Life Investment Management LLC",
             "New York Stock Exchange",
-            "Newfound Research LLC",
             "Nikkei, Inc.",
             "Numeric Investors LLC",
             "O'Shares Investment Advisers LLC (US)",
@@ -23361,6 +23360,7 @@
             "Core Alternative Capital LLC",
             "Corgi Insurance Services, Inc.",
             "Corporaci\u00f3n Actinver, SAB de CV",
+            "Corton Capital, Inc.",
             "Cottonwood ETF Holdings LLC",
             "Counterpoint Mutual Funds LLC",
             "Cullen Capital Management LLC",
@@ -23903,7 +23903,6 @@
             "The Marygold Cos, Inc.",
             "The Mcivy Co. LLC",
             "The Motley Fool Holdings, Inc.",
-            "The Samuel Group, Inc.",
             "The Standard Bank of South Africa Ltd.",
             "The TCW Group, Inc.",
             "The Toronto-Dominion Bank",
@@ -23998,6 +23997,7 @@
             "iA Financial Corp., Inc.",
             "iM Financial Group Co., Ltd.",
             "iM Global Partner SAS",
+            "iM Square SAS",
             "issuance.swiss AG",
             "quant Money Managers Ltd."
         ]

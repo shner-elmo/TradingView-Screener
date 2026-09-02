@@ -35,13 +35,7 @@
     {
         "n": "sector",
         "t": "text",
-        "r": [
-            "Agricultural",
-            "Energy",
-            "Metals",
-            "currency",
-            "index"
-        ]
+        "r": []
     },
     {
         "n": "Recommend.All",
@@ -211,14 +205,7 @@
     {
         "n": "country",
         "t": "text",
-        "r": [
-            "Africa",
-            "Americas",
-            "Asia",
-            "Europe",
-            "Middle East",
-            "Pacific"
-        ]
+        "r": []
     },
     {
         "n": "DonchCh20.Lower",
@@ -9516,17 +9503,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9536,12 +9518,17 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -14541,7 +14528,6 @@
             "Dash",
             "DeXe",
             "Decentraland",
-            "DeepBook Protocol",
             "DeepBrain Chain",
             "Defi App",
             "Dent",
@@ -14719,7 +14705,6 @@
             "Pump.fun",
             "Purr",
             "Pyth Network",
-            "QANplatform",
             "QUBIC",
             "Qtum",
             "Quant",
@@ -14767,6 +14752,7 @@
             "SuperVerse",
             "SushiSwap",
             "Swarms",
+            "Swisscheese",
             "Synapse",
             "Synthetix",
             "TAC Protocol",
@@ -14954,7 +14940,6 @@
             "XTVCDAI",
             "XTVCDASH",
             "XTVCDBC",
-            "XTVCDEEPB",
             "XTVCDENT",
             "XTVCDEXE",
             "XTVCDGB",
@@ -15133,7 +15118,6 @@
             "XTVCPYR",
             "XTVCPYTH",
             "XTVCPYUSD",
-            "XTVCQANX",
             "XTVCQNT",
             "XTVCQQQX",
             "XTVCQTUM",
@@ -15187,6 +15171,7 @@
             "XTVCSUPRA",
             "XTVCSUSHI",
             "XTVCSWARMS",
+            "XTVCSWCH",
             "XTVCSXT",
             "XTVCSYN",
             "XTVCSYRUP",
@@ -16359,7 +16344,6 @@
         "r": [
             "country/US",
             "provider/ice",
-            "provider/stonextrading",
             "provider/tvc",
             "source/ASX",
             "source/ATHEX",
@@ -16405,6 +16389,7 @@
             "source/SP",
             "source/SPARKS",
             "source/SSE",
+            "source/STONEXTRADING",
             "source/STOXX",
             "source/SZSE",
             "source/TADAWUL",
