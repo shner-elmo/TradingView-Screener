@@ -9513,17 +9513,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9533,12 +9528,17 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14508,7 +14508,6 @@
             "Codatta",
             "Coin98",
             "CoinMarketCap 20 Index DTF",
-            "Coinbase Tokenized bStocks",
             "Collector Crypt",
             "Compound",
             "Conflux",
@@ -14635,6 +14634,7 @@
             "Manyu",
             "Maple Finance",
             "Marlin",
+            "Mask Network",
             "MemeCore",
             "Metadium",
             "Metis",
@@ -14699,7 +14699,6 @@
             "Polkadot",
             "Polygon (prev. MATIC)",
             "Ponke",
-            "Portal To Bitcoin",
             "Prom",
             "Pudgy Penguins",
             "Pump.fun",
@@ -14735,6 +14734,7 @@
             "Shiba Inu",
             "Shiro Neko",
             "Sky",
+            "Slash Vision Labs",
             "Snek",
             "Solana",
             "Somnia",
@@ -14775,6 +14775,7 @@
             "The Juggernaut",
             "The Sandbox",
             "Theta Network",
+            "Threshold",
             "Trust Wallet Token",
             "Turbo",
             "Tutorial",
@@ -14820,7 +14821,6 @@
             "aixbt",
             "dYdX (ethDYDX)",
             "dogwifhat",
-            "eCash",
             "edgeX",
             "elizaOS",
             "ether.fi",
@@ -14828,7 +14828,6 @@
             "iShares Silver Trust Tokenized ETF (Ondo)",
             "peaq",
             "pippin",
-            "rats (Ordinals)",
             "siren",
             "tokenbot",
             "wojak"
@@ -14919,7 +14918,6 @@
             "XTVCCHZ",
             "XTVCCLANKER",
             "XTVCCMC20",
-            "XTVCCOINBASETO",
             "XTVCCOMP",
             "XTVCCOQ",
             "XTVCCOTI",
@@ -15054,6 +15052,7 @@
             "XTVCMANTA",
             "XTVCMANTRA",
             "XTVCMANYU3",
+            "XTVCMASK",
             "XTVCMAVIA",
             "XTVCMEMECORE",
             "XTVCMETA",
@@ -15111,7 +15110,6 @@
             "XTVCPRCL",
             "XTVCPROM",
             "XTVCPSG",
-            "XTVCPTB",
             "XTVCPUMPCADE",
             "XTVCPUMPF",
             "XTVCPURR2",
@@ -15122,7 +15120,6 @@
             "XTVCQQQX",
             "XTVCQTUM",
             "XTVCQUBIC",
-            "XTVCRATS2",
             "XTVCRAVED",
             "XTVCRAY",
             "XTVCRE",
@@ -15170,11 +15167,13 @@
             "XTVCSUPER",
             "XTVCSUPRA",
             "XTVCSUSHI",
+            "XTVCSVL",
             "XTVCSWARMS",
             "XTVCSWCH",
             "XTVCSXT",
             "XTVCSYN",
             "XTVCSYRUP",
+            "XTVCT",
             "XTVCTACP",
             "XTVCTAKE",
             "XTVCTAOB",
@@ -15227,7 +15226,6 @@
             "XTVCXAUT",
             "XTVCXCN",
             "XTVCXDC",
-            "XTVCXEC",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXNY",
