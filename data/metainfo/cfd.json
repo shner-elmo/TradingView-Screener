@@ -9503,12 +9503,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9523,22 +9523,22 @@
         "r": null
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14460,6 +14460,7 @@
             "Avalanche",
             "Avantis",
             "Axie Infinity",
+            "Aztec",
             "BASED",
             "BNB",
             "BOOK OF MEME",
@@ -14575,7 +14576,6 @@
             "Hamster Kombat",
             "Harmony",
             "HarryPotterObamaSonic10Inu (ERC-20)",
-            "Harvest Finance",
             "Hashflow",
             "Hedera",
             "Heima",
@@ -14709,7 +14709,6 @@
             "QUBIC",
             "Quant",
             "REI NETWORK",
-            "RICE AI",
             "RaveDAO",
             "Ravencoin",
             "Raydium",
@@ -14750,7 +14749,6 @@
             "Stronghold SHx",
             "Subsquid",
             "Sui",
-            "SuperVerse",
             "SushiSwap",
             "Swarms",
             "Swisscheese",
@@ -14818,7 +14816,9 @@
             "Zcash",
             "Zebec Network",
             "Zerebro",
+            "Zilliqa",
             "aixbt",
+            "cat in a dogs world",
             "dYdX (ethDYDX)",
             "dogwifhat",
             "edgeX",
@@ -14877,6 +14877,7 @@
             "XTVCAVAX",
             "XTVCAVNT",
             "XTVCAXS",
+            "XTVCAZTEC",
             "XTVCB",
             "XTVCBABYDOGE",
             "XTVCBANKLO",
@@ -14965,7 +14966,6 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCEUL",
-            "XTVCFARM",
             "XTVCFARTBOY",
             "XTVCFARTCOIN",
             "XTVCFDUSD",
@@ -15058,6 +15058,7 @@
             "XTVCMEMECORE",
             "XTVCMETA",
             "XTVCMETIS",
+            "XTVCMEW",
             "XTVCMNT",
             "XTVCMOG",
             "XTVCMONAD",
@@ -15129,7 +15130,6 @@
             "XTVCREKTC",
             "XTVCRENDER",
             "XTVCREPPO",
-            "XTVCRICEA",
             "XTVCRIF",
             "XTVCRIO",
             "XTVCRIVER",
@@ -15166,7 +15166,6 @@
             "XTVCSTRKS",
             "XTVCSTXS",
             "XTVCSUI",
-            "XTVCSUPER",
             "XTVCSUPRA",
             "XTVCSUSHI",
             "XTVCSVL",
@@ -15241,6 +15240,7 @@
             "XTVCZEC",
             "XTVCZEN",
             "XTVCZEREBRO",
+            "XTVCZIL",
             "XTVCZORA2",
             "XTVCZROL",
             "XTVCZRX"

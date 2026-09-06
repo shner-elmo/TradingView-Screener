@@ -140,7 +140,6 @@
             "AUD",
             "CAD",
             "CHF",
-            "CNH",
             "EUR",
             "GBP",
             "INR",
@@ -209,7 +208,6 @@
             "THB",
             "TRY",
             "USD",
-            "XTVCNH",
             "XTVUSX"
         ]
     },
