@@ -229,9 +229,7 @@
         "n": "currency",
         "t": "text",
         "r": [
-            "BRL",
-            "EUR",
-            "KRW"
+            "EUR"
         ]
     },
     {
@@ -652,9 +650,7 @@
         "t": "text",
         "r": [
             "",
-            "BRL",
-            "EUR",
-            "KRW"
+            "EUR"
         ]
     },
     {
@@ -668,7 +664,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session"
         ]
