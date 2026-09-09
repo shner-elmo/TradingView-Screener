@@ -3246,6 +3246,11 @@
         "r": null
     },
     {
+        "n": "Value.Traded",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "High.1M",
         "t": "number",
         "r": null
@@ -13549,22 +13554,22 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI3",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -13579,12 +13584,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -17844,6 +17849,51 @@
         "r": null
     },
     {
+        "n": "Value.Traded|1",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|15",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|30",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|240",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|1W",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "Value.Traded|1M",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "W.R|1",
         "t": "number",
         "r": null
@@ -18485,6 +18535,7 @@
             "Bushido",
             "CCB",
             "CCM",
+            "CGS",
             "CI",
             "CI First Asset",
             "CIB",
@@ -20402,6 +20453,7 @@
         "r": [
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -21489,58 +21541,7 @@
         "n": "fundamental_currency_code",
         "t": "text",
         "r": [
-            "AED",
-            "ARS",
-            "AUD",
-            "BDT",
-            "BHD",
-            "BRL",
-            "CAD",
-            "CHF",
-            "CLP",
-            "CNY",
-            "COP",
-            "CZK",
-            "DKK",
-            "EGP",
-            "EUR",
-            "GBP",
-            "HKD",
-            "HUF",
-            "IDR",
-            "ILS",
-            "INR",
-            "ISK",
-            "JPY",
-            "KES",
-            "KRW",
-            "KWD",
-            "LKR",
-            "MAD",
-            "MXN",
-            "MYR",
-            "NGN",
-            "NOK",
-            "NZD",
-            "PEN",
-            "PHP",
-            "PKR",
-            "PLN",
-            "QAR",
-            "RON",
-            "RSD",
-            "RUB",
-            "SAR",
-            "SEK",
-            "SGD",
-            "THB",
-            "TND",
-            "TRY",
-            "TWD",
-            "USD",
-            "VES",
-            "VND",
-            "ZAR"
+            "USD"
         ]
     },
     {
@@ -24252,6 +24253,7 @@
             "14.30 - 19.30",
             "14.35 - 17.50",
             "14.38 - 17.68",
+            "14.45 - 19.55",
             "14.50 - 15.50",
             "14.50 - 16.50",
             "14.50 - 17.50",
@@ -26962,6 +26964,7 @@
             "7.56 - 8.88",
             "7.60 - 8.20",
             "7.60 - 8.36",
+            "7.60 - 8.60",
             "7.60 - 8.74",
             "7.60 - 9.60",
             "7.60 - 9.80",
@@ -27948,6 +27951,7 @@
             "Jensen Investment Management, Inc.",
             "Jio Blackrock Asset Management Pvt Ltd.",
             "Jupiter Fund Management Plc",
+            "Jupiter Topco LLC",
             "KB Financial Group, Inc.",
             "KB Securities Co., Ltd. /Private Equity/",
             "KBA Consulting Management Ltd.",
