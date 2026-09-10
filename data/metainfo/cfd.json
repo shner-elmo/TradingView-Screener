@@ -9513,17 +9513,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -9533,12 +9528,17 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14526,8 +14526,10 @@
             "Dash",
             "DeXe",
             "Decentraland",
+            "Decred",
             "DeepBrain Chain",
             "Defi App",
+            "Delysium",
             "Dent",
             "DigiByte",
             "Dogecoin",
@@ -14551,6 +14553,7 @@
             "FLOKI",
             "FTX Token",
             "FUNToken",
+            "Falcon Finance",
             "Fartboy",
             "Fartcoin",
             "Filecoin",
@@ -14650,11 +14653,9 @@
             "MultiversX",
             "MyNeighborAlice",
             "NEAR Protocol",
-            "NFPrompt",
             "NVIDIA tokenized stock (xStock)",
             "NaoX Protocol",
             "Nasdaq tokenized ETF (xStock)",
-            "Neiro",
             "Neo",
             "New XAI gork",
             "Nexo",
@@ -14708,7 +14709,7 @@
             "QUBIC",
             "Quant",
             "REI NETWORK",
-            "RaveDAO",
+            "RICE AI",
             "Ravencoin",
             "Raydium",
             "Re",
@@ -14780,6 +14781,7 @@
             "Tutorial",
             "USDC",
             "USDD",
+            "USDS",
             "UnifAI Network",
             "Uniswap",
             "Useless Coin",
@@ -14847,6 +14849,7 @@
             "XTVCACU",
             "XTVCADA",
             "XTVCAEROD",
+            "XTVCAGI",
             "XTVCAIO",
             "XTVCAIOZ",
             "XTVCAIXBT",
@@ -14935,6 +14938,7 @@
             "XTVCDAI",
             "XTVCDASH",
             "XTVCDBC",
+            "XTVCDCR",
             "XTVCDENT",
             "XTVCDEXE",
             "XTVCDGB",
@@ -14966,6 +14970,7 @@
             "XTVCFARTCOIN",
             "XTVCFDUSD",
             "XTVCFET",
+            "XTVCFF",
             "XTVCFHE",
             "XTVCFIDA",
             "XTVCFIL",
@@ -15069,10 +15074,8 @@
             "XTVCNAORIS",
             "XTVCNEAR",
             "XTVCNEET",
-            "XTVCNEIRO",
             "XTVCNEO",
             "XTVCNEXO",
-            "XTVCNFPR",
             "XTVCNFT",
             "XTVCNIL",
             "XTVCNIULAI",
@@ -15121,13 +15124,13 @@
             "XTVCQNT",
             "XTVCQQQX",
             "XTVCQUBIC",
-            "XTVCRAVED",
             "XTVCRAY",
             "XTVCRE",
             "XTVCREI2",
             "XTVCREKTC",
             "XTVCRENDER",
             "XTVCREPPO",
+            "XTVCRICEA",
             "XTVCRIF",
             "XTVCRIO",
             "XTVCRIVER",
@@ -15196,6 +15199,7 @@
             "XTVCUSDC",
             "XTVCUSDD",
             "XTVCUSDEE",
+            "XTVCUSDS2",
             "XTVCUSDT",
             "XTVCUSELESS",
             "XTVCUSTC",
@@ -15273,7 +15277,6 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
