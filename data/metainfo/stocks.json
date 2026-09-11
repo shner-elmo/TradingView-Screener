@@ -13555,22 +13555,22 @@
         "r": null
     },
     {
-        "n": "RSI|15",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|30",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -13585,12 +13585,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -19016,6 +19016,7 @@
             "OTG",
             "OTP",
             "Oakmark",
+            "Obermatt",
             "Obra",
             "Ocean Park",
             "Oddo BHF",
@@ -19320,6 +19321,7 @@
             "WCM",
             "WEBs",
             "WHITEWOLF",
+            "WOOD & Company",
             "Wahed",
             "Wanjia",
             "WarCap",
@@ -20457,6 +20459,7 @@
         "r": [
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -21068,6 +21071,7 @@
             "CLP",
             "CNY",
             "COP",
+            "CZK",
             "DKK",
             "EUR",
             "GBP",
@@ -22932,7 +22936,6 @@
             "Redwood Investment Management LLC (California)",
             "Refinitiv Benchmark Services (UK) Ltd.",
             "Rennaissance Capital Mgt Invt",
-            "Research Affiliates LLC",
             "Richard Bernstein Advisors LLC",
             "Rocky Mountain Financial Advisors LLC",
             "Rogers International Raw Materials Fund LP",
@@ -22958,6 +22961,7 @@
             "Sustainalytics (Toronto)",
             "Svenska Handelsbanken AB",
             "Syntax Advisors LLC",
+            "Syzygy Asset Management LLC",
             "Taiwan Index Plus Corp.",
             "Taiwan Stock Exchange Corp.",
             "Teucrium Trading LLC",
@@ -23418,7 +23422,6 @@
             "1.06 - 1.43",
             "1.06 - 1.44",
             "1.07 - 1.10",
-            "1.07 - 1.33",
             "1.08 - 1.26",
             "1.08 - 1.28",
             "1.08 - 1.38",
@@ -23808,6 +23811,7 @@
             "11.10 - 15.80",
             "11.15 - 12.20",
             "11.18 - 13.28",
+            "11.20 - 14.00",
             "11.20 - 15.00",
             "11.25 - 11.60",
             "11.25 - 11.75",
@@ -26110,7 +26114,6 @@
             "4.18 - 5.03",
             "4.186102-4.983455",
             "4.20 - 4.90",
-            "4.20 - 5.50",
             "4.20 - 5.80",
             "4.21 - 5.01",
             "4.21 - 5.69",
@@ -28330,6 +28333,7 @@
             "WA Holdings, Inc.",
             "WBI Trading Co., Inc.",
             "WEBs Investments, Inc.",
+            "WOOD & Company Group SA",
             "Wahed Invest LLC",
             "Wanjia Asset Management Co., Ltd.",
             "Warren Capital Management, Inc.",
@@ -30582,6 +30586,7 @@
             "UA",
             "UG",
             "US",
+            "UY",
             "UZ",
             "VE",
             "VG",
