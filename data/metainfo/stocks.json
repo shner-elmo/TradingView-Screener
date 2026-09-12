@@ -3440,6 +3440,7 @@
         "t": "text",
         "r": [
             "Aland Islands",
+            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -13585,12 +13586,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18377,7 +18378,7 @@
             "AGP",
             "AK",
             "ALPS",
-            "AMG Funds",
+            "AMG",
             "AMINA",
             "AORIS",
             "AOT",
@@ -18508,6 +18509,7 @@
             "Beta ETF",
             "BetaPro",
             "BetaShares",
+            "Beyond Investing",
             "Billionaires",
             "Bitcoin Capital",
             "Bitwise",
@@ -18635,6 +18637,7 @@
             "Defiance",
             "Deka",
             "Desjardins",
+            "Deutsche X-trackers",
             "Diamond Hill",
             "DigitalX",
             "Dimensional",
@@ -19308,6 +19311,7 @@
             "Vident",
             "Vietnam",
             "VinaCapital",
+            "Vinva",
             "Virtune",
             "Virtus",
             "VistaShares",
@@ -20234,6 +20238,7 @@
         "t": "text",
         "r": [
             "AE",
+            "AI",
             "AR",
             "AT",
             "AU",
@@ -20457,10 +20462,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "market",
-            "out_of_session",
-            "post_market",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
@@ -28326,6 +28328,7 @@
             "Victory Capital Holdings, Inc.",
             "Vident Investors' Oversight Trust",
             "VinaCapital Fund Management JSC",
+            "Vinva Holdings Ltd.",
             "Virtune AB (Publ)",
             "Virtus Investment Partners, Inc.",
             "Volatility Shares LLC",
@@ -30556,7 +30559,6 @@
             "NO",
             "NZ",
             "OM",
-            "PA",
             "PE",
             "PG",
             "PH",

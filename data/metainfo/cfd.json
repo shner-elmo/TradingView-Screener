@@ -9503,17 +9503,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9523,12 +9518,17 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -14480,6 +14480,7 @@
             "Bless",
             "BluWhale",
             "Blum",
+            "Blur",
             "Bonfida",
             "Bonk",
             "Boson Protocol",
@@ -14654,6 +14655,7 @@
             "MultiversX",
             "MyNeighborAlice",
             "NEAR Protocol",
+            "NEM",
             "NVIDIA tokenized stock (xStock)",
             "NaoX Protocol",
             "Nasdaq tokenized ETF (xStock)",
@@ -14681,9 +14683,11 @@
             "Ontology Gas",
             "Onyxcoin",
             "OpenEden",
+            "Operon Origins",
             "Optimism",
             "Orca",
             "Orchid",
+            "Ore",
             "OriginTrail",
             "Osmosis",
             "PAX Gold",
@@ -14721,7 +14725,6 @@
             "Ribbita by Virtuals",
             "Ripple USD",
             "River",
-            "Rootstock Infrastructure Framework",
             "SKYAI",
             "SP500 tokenized ETF (xStock)",
             "SPX6900",
@@ -14895,6 +14898,7 @@
             "XTVCBLESS",
             "XTVCBLUAI",
             "XTVCBLUM",
+            "XTVCBLUR",
             "XTVCBMTB",
             "XTVCBNB",
             "XTVCBNKRB",
@@ -15097,6 +15101,8 @@
             "XTVCOP",
             "XTVCORCA",
             "XTVCORDI",
+            "XTVCOREV",
+            "XTVCORO",
             "XTVCOSMO",
             "XTVCOXT",
             "XTVCPARTI",
@@ -15132,7 +15138,6 @@
             "XTVCRENDER",
             "XTVCREPPO",
             "XTVCRICEA",
-            "XTVCRIF",
             "XTVCRIO",
             "XTVCRIVER",
             "XTVCRLUSD",
@@ -15228,6 +15233,7 @@
             "XTVCXAUT",
             "XTVCXCN",
             "XTVCXDC",
+            "XTVCXEM",
             "XTVCXLM",
             "XTVCXMR",
             "XTVCXNY",
@@ -15278,8 +15284,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
