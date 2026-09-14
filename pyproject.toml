@@ -1,6 +1,6 @@
 [project]
 name = "tradingview-screener"
-version = "3.2.1"
+version = "3.2.2"
 description = "A package for creating stock screeners with the TradingView API"
 authors = [{name = "shner-elmo", email = "770elmo@gmail.com"}]
 license = {text = "MIT"}
