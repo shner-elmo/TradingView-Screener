@@ -13556,17 +13556,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13576,12 +13571,17 @@
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -19228,6 +19228,7 @@
             "TEQ",
             "THOR",
             "TIH Funds",
+            "TOBAM",
             "TRADEPLUS",
             "TRUSTON",
             "Tabula",
@@ -19819,7 +19820,6 @@
             "CEXXMX",
             "CEXXXS",
             "CEXXXX",
-            "CFCIIU",
             "CFOIIS",
             "CHNXXX",
             "CICGLS",
@@ -19856,7 +19856,6 @@
             "CIOIEU",
             "CIOILS",
             "CIOIMS",
-            "CIOIMX",
             "CIOIXX",
             "CIOJLS",
             "CIOJLU",
@@ -19868,7 +19867,6 @@
             "CIXXXS",
             "CIXXXX",
             "CMXXXU",
-            "CMXXXX",
             "EFNCCR",
             "EFNNFR",
             "EFNRCX",
@@ -20462,7 +20460,11 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "out_of_session"
+            "holiday",
+            "market",
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -23424,7 +23426,6 @@
             "1.06 - 1.43",
             "1.06 - 1.44",
             "1.07 - 1.10",
-            "1.08 - 1.26",
             "1.08 - 1.28",
             "1.08 - 1.38",
             "1.08 - 1.44",
@@ -23808,7 +23809,6 @@
             "11.00 - 14.00",
             "11.00 - 14.30",
             "11.00 - 14.50",
-            "11.10 - 12.20",
             "11.10 - 12.80",
             "11.10 - 15.80",
             "11.15 - 12.20",
@@ -23850,7 +23850,6 @@
             "110.00 - 140.00",
             "110.00 - 145.00",
             "110.00 - 150.00",
-            "110.00 - 162.00",
             "1100.00 - 1101.00",
             "1100.00 - 1140.00",
             "1100.00 - 1150.00",
@@ -25978,7 +25977,6 @@
             "36.00 - 38.00",
             "36.00 - 40.00",
             "36.00 - 42.12",
-            "36.00 - 43.20",
             "36.00 - 44.00",
             "36.04 - 40.00",
             "360.00 - 380.00",
@@ -26154,7 +26152,6 @@
             "4.58 - 6.28",
             "4.60 - 5.50",
             "4.60 - 5.60",
-            "4.60 - 6.10",
             "4.65 - 5.36",
             "4.68 - 5.16",
             "4.68 - 5.18",
@@ -26772,6 +26769,7 @@
             "6.76 - 9.14",
             "6.80 - 8.00",
             "6.80 - 8.20",
+            "6.80 - 8.80",
             "6.80 - 9.00",
             "6.87 - 7.38",
             "6.90 - 8.90",
@@ -26882,7 +26880,6 @@
             "650.00 - 850.00",
             "650.00 - 960.00",
             "6500.00 - 7200.00",
-            "6500.00 - 7400.00",
             "6500.00 - 7500.00",
             "6500.00 - 7700.00",
             "6500.00 - 8000.00",
@@ -28291,6 +28288,7 @@
             "Tibet Oriental Wealth Securities Co., Ltd.",
             "Tien Phong Commercial Joint Stock Bank",
             "Timothy Partners Ltd.",
+            "Tobam Holding Co. SAS",
             "Toews Corp.",
             "TortoiseEcofin Investments LLC",
             "Tralucent Asset Management, Inc.",
@@ -28304,7 +28302,6 @@
             "Twin Oak Holdings LP",
             "T\u00fcrkiye Is Bankasi AS",
             "U.S. Global Investors, Inc.",
-            "UBS AG (London Branch)",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
