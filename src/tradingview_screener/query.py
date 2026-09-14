@@ -754,9 +754,8 @@ class Query:
         return rows_count, df
 
     def copy(self) -> Query:
-        new = Query()
-        new.query = self.query.copy()
-        return new
+        """Return an independent query, preserving its market endpoint and state."""
+        return copy.deepcopy(self)
 
     def __repr__(self) -> str:
         return f'< {pprint.pformat(self.query)}\n url={self.url!r} >'
