@@ -9513,17 +9513,12 @@
         "r": null
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
@@ -9533,12 +9528,17 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|120",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14429,6 +14429,7 @@
             "0x Protocol",
             "1inch",
             "4",
+            "4Stock",
             "AINFT",
             "AIOZ Network",
             "AKEDO",
@@ -14484,7 +14485,6 @@
             "Bonk",
             "Boson Protocol",
             "Brett (Based)",
-            "Bubblemaps",
             "Bullish Degen",
             "Buttcoin",
             "COTI",
@@ -14598,6 +14598,7 @@
             "Immunefi",
             "Immutable",
             "Index Cooperative",
+            "Initia",
             "Injective",
             "Internet Computer",
             "IoTeX",
@@ -14611,7 +14612,6 @@
             "Kamino",
             "Kaspa",
             "KernelDAO",
-            "Keyboard Cat",
             "Kite",
             "Koma Inu",
             "Kusama",
@@ -14624,8 +14624,8 @@
             "Lista DAO",
             "Litecoin",
             "Litentry",
+            "Long Xia  (Lobster)",
             "Loopring",
-            "Lorenzo Protocol",
             "MESSIER",
             "MOG Coin",
             "MSQUARE GLOBAL",
@@ -14639,6 +14639,7 @@
             "Marlin",
             "MarsCoin",
             "Mask Network",
+            "Measurable Data Token",
             "MemeCore",
             "Metadium",
             "Metis",
@@ -14781,6 +14782,7 @@
             "Theta Network",
             "Threshold",
             "Toshi",
+            "Tria",
             "Trust Wallet Token",
             "Turbo",
             "Tutorial",
@@ -14818,7 +14820,6 @@
             "Yearn",
             "ZORA",
             "Zama",
-            "Zano",
             "Zcash",
             "Zebec Network",
             "Zerebro",
@@ -14848,6 +14849,7 @@
             "XTVC1INCH",
             "XTVC2Z",
             "XTVC4",
+            "XTVC4STOCK",
             "XTVCAAVE",
             "XTVCACEF",
             "XTVCACH",
@@ -14885,7 +14887,6 @@
             "XTVCAZTEC",
             "XTVCB",
             "XTVCBABYDOGE",
-            "XTVCBANKLO",
             "XTVCBASECAT2",
             "XTVCBASED2",
             "XTVCBAT",
@@ -14900,7 +14901,6 @@
             "XTVCBLUAI",
             "XTVCBLUM",
             "XTVCBLUR",
-            "XTVCBMTB",
             "XTVCBNB",
             "XTVCBNKRB",
             "XTVCBOME",
@@ -15024,6 +15024,7 @@
             "XTVCIMX",
             "XTVCINDEX",
             "XTVCINDEXT",
+            "XTVCINIT",
             "XTVCINJ",
             "XTVCIOST",
             "XTVCIOTA",
@@ -15037,7 +15038,6 @@
             "XTVCKAITO",
             "XTVCKAS",
             "XTVCKERNEL",
-            "XTVCKEYCAT",
             "XTVCKITE",
             "XTVCKMNO",
             "XTVCKOMA",
@@ -15050,6 +15050,7 @@
             "XTVCLISTA",
             "XTVCLIT",
             "XTVCLITL",
+            "XTVCLONGXIA",
             "XTVCLRC",
             "XTVCLSK",
             "XTVCLTC",
@@ -15064,6 +15065,7 @@
             "XTVCMARSCOIN6",
             "XTVCMASK",
             "XTVCMAVIA",
+            "XTVCMDT",
             "XTVCMEMECORE",
             "XTVCMETA",
             "XTVCMETIS",
@@ -15196,6 +15198,7 @@
             "XTVCTOSHI3",
             "XTVCTRAC",
             "XTVCTRB",
+            "XTVCTRIA2",
             "XTVCTROLLSO",
             "XTVCTRUMPOF",
             "XTVCTRX",
@@ -15248,7 +15251,6 @@
             "XTVCXVG",
             "XTVCYFI",
             "XTVCZAMA",
-            "XTVCZANO",
             "XTVCZBCN",
             "XTVCZEC",
             "XTVCZEN",
@@ -15289,6 +15291,7 @@
         "r": [
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
