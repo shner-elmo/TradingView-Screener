@@ -4821,6 +4821,11 @@
         "r": null
     },
     {
+        "n": "24h_vol_to_market_cap",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "ADR|1",
         "t": "number",
         "r": null
@@ -13566,12 +13571,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -18863,6 +18868,7 @@
             "KBStar ETF",
             "KCGI",
             "KGI",
+            "KICK",
             "KIM",
             "KINDEX",
             "KISI",
@@ -18903,6 +18909,7 @@
             "Little Harbor Advisors",
             "Loftus Peak",
             "Logan",
+            "Lone Peak",
             "Long Pond",
             "LongPoint",
             "Longview",
@@ -19173,6 +19180,7 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
+            "Selectra Investments",
             "Seligson & Co",
             "Seraphim",
             "Shelton Capital",
@@ -19790,6 +19798,7 @@
             "CEOJCS",
             "CEOJCU",
             "CEOJDS",
+            "CEOJDU",
             "CEOJES",
             "CEOJEU",
             "CEOJFS",
@@ -19861,6 +19870,7 @@
             "CIOJLS",
             "CIOJLU",
             "CIOJMS",
+            "CIOJRS",
             "CIOXMX",
             "CIOXXS",
             "CIOXXX",
@@ -19944,6 +19954,7 @@
             "ESVTFM",
             "ESVTFN",
             "ESVTFR",
+            "ESVTOB",
             "ESVTOR",
             "ESVTXR",
             "ESVUFB",
@@ -20155,6 +20166,11 @@
     {
         "n": "change_from_open_abs|1M",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "circulating_to_max_supply_ratio",
+        "t": "percent",
         "r": null
     },
     {
@@ -21272,6 +21288,7 @@
             "2065",
             "2069",
             "2071",
+            "2072",
             "2073",
             "2074",
             "2075",
@@ -21518,6 +21535,11 @@
         "n": "frequency_upcoming",
         "t": "text",
         "r": []
+    },
+    {
+        "n": "fully_diluted_value",
+        "t": "price",
+        "r": null
     },
     {
         "n": "fund_flows.1M",
@@ -23202,7 +23224,6 @@
             "0.26 - 0.34",
             "0.27 - 0.29",
             "0.27 - 0.31",
-            "0.27 - 0.33",
             "0.27 - 0.35",
             "0.27 - 0.37",
             "0.27 - 0.39",
@@ -24586,7 +24607,6 @@
             "1670.00 - 1760.00",
             "1670.00 - 1810.00",
             "16700.00 - 20500.00",
-            "16700.00 - 20600.00",
             "16700.00 - 21600.00",
             "168.00 - 171.00",
             "168.00 - 174.00",
@@ -26119,7 +26139,6 @@
             "4.21 - 5.69",
             "4.22 - 6.75",
             "4.23 - 5.80",
-            "4.25 - 4.75",
             "4.25 - 5.00",
             "4.25 - 5.25",
             "4.25 - 5.75",
@@ -26648,6 +26667,7 @@
             "55.60 - 61.16",
             "55.65 - 60.35",
             "550.00 - 580.00",
+            "550.00 - 600.00",
             "550.00 - 800.00",
             "5500.00 - 5600.00",
             "5500.00 - 6000.00",
@@ -26801,6 +26821,7 @@
             "6000.00 - 9000.00",
             "60000.00 - 65000.00",
             "60000.00 - 90000.00",
+            "601.00 - 632.00",
             "603.00 - 610.00",
             "6050.00 - 7150.00",
             "61.00 - 63.00",
@@ -26862,6 +26883,7 @@
             "6400.00 - 7800.00",
             "64000.00 - 71000.00",
             "64000.00 - 80000.00",
+            "643.00 - 676.00",
             "645.00 - 695.00",
             "646.00 - 679.00",
             "6480.00 - 7340.00",
@@ -27731,6 +27753,7 @@
             "Convergence Investment Partners LLC",
             "Core Alternative Capital LLC",
             "Corgi Insurance Services, Inc.",
+            "Corgi Strategies LLC",
             "Corporaci\u00f3n Actinver, SAB de CV",
             "Corton Capital, Inc.",
             "Cottonwood ETF Holdings LLC",
@@ -27950,6 +27973,7 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
+            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Ltd.",
@@ -28003,6 +28027,7 @@
             "Little Harbor Advisors LLC",
             "Loftus Peak Pty Ltd.",
             "Logan Capital Management, Inc.",
+            "Lone Peak Global Investors LLC",
             "Long Pond Capital LP",
             "LongPoint Asset Management, Inc.",
             "L\u00e4hiTapiola Keskin\u00e4inen Vakuutusyhti\u00f6",
@@ -28686,6 +28711,11 @@
         ]
     },
     {
+        "n": "market_cap_to_tvl",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "maturity_date",
         "t": "time-yyyymmdd",
         "r": null
@@ -29229,6 +29259,7 @@
             "9864",
             "9866",
             "9867",
+            "9873",
             "9887",
             "9897",
             "9898",
@@ -29250,6 +29281,11 @@
     },
     {
         "n": "number_of_shareholders_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "nvt",
         "t": "number",
         "r": null
     },
@@ -29296,6 +29332,11 @@
     {
         "n": "open|1M",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "open_interest_to_volume_24h",
+        "t": "number",
         "r": null
     },
     {
@@ -30835,6 +30876,11 @@
         "r": null
     },
     {
+        "n": "total_to_max_supply_ratio",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "transparent_holding_flag",
         "t": "text",
         "r": [
@@ -30954,6 +31000,11 @@
     {
         "n": "update_time",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "velocity",
+        "t": "number",
         "r": null
     },
     {

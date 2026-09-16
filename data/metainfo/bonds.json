@@ -32,6 +32,11 @@
         "r": null
     },
     {
+        "n": "price_earnings_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "sector",
         "t": "text",
         "r": []
@@ -129,7 +134,22 @@
         ]
     },
     {
+        "n": "free_cash_flow_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "gap",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_margin_fy",
         "t": "percent",
         "r": null
     },
@@ -149,8 +169,18 @@
         "r": null
     },
     {
+        "n": "net_income_bef_disc_oper_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "open",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "oper_income_margin_fy",
+        "t": "percent",
         "r": null
     },
     {
@@ -185,6 +215,51 @@
     },
     {
         "n": "premarket_gap",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "price_book_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_book_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_free_cash_flow_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_revenue_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_ratio_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_other_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_other_ratio_ttm",
         "t": "percent",
         "r": null
     },
@@ -240,6 +315,11 @@
     {
         "n": "bid",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "24h_vol_to_market_cap",
+        "t": "number",
         "r": null
     },
     {
@@ -479,6 +559,26 @@
         "r": null
     },
     {
+        "n": "cash_n_short_term_invest_to_total_current_liabilities_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_current_liabilities_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_debt_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_debt_fy",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "change|1",
         "t": "percent",
         "r": null
@@ -496,6 +596,11 @@
     {
         "n": "change_from_open_abs|1",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "circulating_to_max_supply_ratio",
+        "t": "percent",
         "r": null
     },
     {
@@ -664,6 +769,7 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session"
         ]
@@ -684,6 +790,11 @@
         "r": null
     },
     {
+        "n": "earnings_yield",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "enterprise_value_ebit_fwd",
         "t": "number",
         "r": null
@@ -696,6 +807,11 @@
     {
         "n": "enterprise_value_sales_fwd",
         "t": "number",
+        "r": null
+    },
+    {
+        "n": "eps_surprise_percent_fq",
+        "t": "percent",
         "r": null
     },
     {
@@ -714,6 +830,11 @@
         "r": null
     },
     {
+        "n": "float_shares_percent_current",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "forex_priority",
         "t": "number",
         "r": null
@@ -725,6 +846,11 @@
             "false",
             "true"
         ]
+    },
+    {
+        "n": "fully_diluted_value",
+        "t": "price",
+        "r": null
     },
     {
         "n": "gap|1",
@@ -871,6 +997,11 @@
         ]
     },
     {
+        "n": "market_cap_to_tvl",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "maturity_date",
         "t": "time-yyyymmdd",
         "r": null
@@ -891,8 +1022,23 @@
         "r": null
     },
     {
+        "n": "non_gaap_price_to_earnings_per_share_forecast_next_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "nvt",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "open|1",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "open_interest_to_volume_24h",
+        "t": "number",
         "r": null
     },
     {
@@ -951,7 +1097,37 @@
         "r": null
     },
     {
+        "n": "price_sales",
+        "t": "price",
+        "r": null
+    },
+    {
         "n": "price_sales_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_target_1y",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "price_target_1y_delta",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "price_to_cash_f_operating_activities_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_to_cash_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_to_working_capital_fq",
         "t": "number",
         "r": null
     },
@@ -1046,8 +1222,28 @@
         ]
     },
     {
+        "n": "relative_volume",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "revenue_surprise_percent_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "rtc",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_to_total_assets_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_to_total_assets_fy",
+        "t": "number",
         "r": null
     },
     {
@@ -1126,6 +1322,21 @@
         "r": null
     },
     {
+        "n": "total_debt_to_ebitda_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_debt_to_ebitda_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_to_max_supply_ratio",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "typespecs",
         "t": "set",
         "r": [
@@ -1157,6 +1368,11 @@
     {
         "n": "update_time",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "velocity",
+        "t": "number",
         "r": null
     },
     {
