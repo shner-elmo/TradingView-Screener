@@ -3440,7 +3440,6 @@
         "t": "text",
         "r": [
             "Aland Islands",
-            "Anguilla",
             "Argentina",
             "Australia",
             "Austria",
@@ -13560,12 +13559,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13580,22 +13579,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18599,6 +18598,7 @@
             "Coastal",
             "Cohen & Steers",
             "CoinShares",
+            "Colchester",
             "Columbia",
             "Columbia Threadneedle",
             "Concourse",
@@ -18627,6 +18627,7 @@
             "DFA",
             "DGA",
             "DNB",
+            "DOO",
             "DSP",
             "DWS",
             "Da Cheng",
@@ -20252,7 +20253,6 @@
         "t": "text",
         "r": [
             "AE",
-            "AI",
             "AR",
             "AT",
             "AU",
@@ -20476,8 +20476,11 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -21275,8 +21278,6 @@
             "2048",
             "2050",
             "2051",
-            "2052",
-            "2054",
             "2055",
             "2056",
             "2059",
@@ -23443,6 +23444,8 @@
             "1.06 - 1.43",
             "1.06 - 1.44",
             "1.07 - 1.10",
+            "1.07 - 1.33",
+            "1.08 - 1.26",
             "1.08 - 1.28",
             "1.08 - 1.38",
             "1.08 - 1.44",
@@ -23998,6 +24001,7 @@
             "12.70 - 15.50",
             "12.70 - 15.60",
             "12.80 - 13.50",
+            "12.80 - 15.00",
             "12.84 - 15.20",
             "12.85 - 13.85",
             "120.00 - 125.00",
@@ -24257,6 +24261,7 @@
             "1380.00 - 1980.00",
             "13800.00 - 15500.00",
             "13800.00 - 15700.00",
+            "13800.00 - 15800.00",
             "13800.00 - 16500.00",
             "139.00 - 146.00",
             "139.00 - 147.00",
@@ -24266,7 +24271,6 @@
             "14.00 - 16.00",
             "14.00 - 16.75",
             "14.00 - 17.00",
-            "14.00 - 18.00",
             "14.00 - 18.80",
             "14.00 - 21.00",
             "14.02 - 16.82",
@@ -26454,6 +26458,7 @@
             "49.00 - 51.00",
             "49.00 - 53.00",
             "49.00 - 55.00",
+            "49.00 - 61.00",
             "49.00 - 63.00",
             "49.00 - 68.00",
             "49.50 - 54.00",
@@ -27800,6 +27805,7 @@
             "Dokhod Asset Management Co. OOO",
             "Dongxu Optoelectronic Investment Co., Ltd.",
             "Donoghue Forlines LLC",
+            "Doo Group",
             "Doubleline ETF Holdings LP",
             "Dragon Capital Vietfund Management JSC",
             "Dvx Ventures LLC",
@@ -28244,6 +28250,7 @@
             "Shin Kong Financial Holding Co. Ltd.",
             "Shinhan Financial Group Co., Ltd.",
             "Shriram Credit Co. Ltd.",
+            "Silchester Partners Ltd.",
             "Simplex Financial Holdings Co., Ltd.",
             "Simplify Asset Management, Inc.",
             "SinoPac Financial Holdings Co., Ltd.",
@@ -28275,7 +28282,6 @@
             "T-Bank (Russia)",
             "T-Technologies IPJSC",
             "T. Rowe Price Group, Inc.",
-            "TBI Investment Managers (Pty) Ltd.",
             "TFG Parent Holdings LLC",
             "TIAA Board of Governors",
             "TIMEFOLIO Asset Management Co., Ltd.",
@@ -30905,7 +30911,6 @@
             "etf",
             "mutual",
             "odd",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
