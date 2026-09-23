@@ -9592,22 +9592,22 @@
         "r": null
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -14514,11 +14514,13 @@
             "Asteroid Shiba",
             "Audiera",
             "Aura",
+            "Aurora",
             "Avalanche",
             "Axie Infinity",
             "Aztec",
             "B3 (Base)",
             "BNB",
+            "BOB (Build on Bitcoin)",
             "BOOK OF MEME",
             "BSquared Network",
             "BUILDon",
@@ -14600,6 +14602,7 @@
             "Dusk",
             "EGO",
             "ETHGas",
+            "EVAA Protocol",
             "EigenCloud",
             "Enjin Coin",
             "Enso",
@@ -14629,7 +14632,6 @@
             "GRIFFAIN",
             "GROK",
             "Gala",
-            "Gas",
             "Genius Terminal",
             "GoPlus Security",
             "Gram (prev. Toncoin)",
@@ -14788,9 +14790,7 @@
             "SPX6900",
             "SUPRA",
             "Saga",
-            "Sahara AI",
             "Salesforce Tokenized Stock (Ondo)",
-            "Secret",
             "Seeker",
             "Sei",
             "Shiba Inu",
@@ -14801,7 +14801,6 @@
             "Solana",
             "Solv Protocol",
             "Somnia",
-            "Sophon",
             "Space and Time",
             "Stable",
             "Starknet",
@@ -14940,6 +14939,7 @@
             "XTVCASTEROID",
             "XTVCATOM",
             "XTVCAURA2",
+            "XTVCAURORA",
             "XTVCAVA",
             "XTVCAVAX",
             "XTVCAXS",
@@ -14963,6 +14963,7 @@
             "XTVCBLUR",
             "XTVCBNB",
             "XTVCBNKRB",
+            "XTVCBOBBUIL",
             "XTVCBOME",
             "XTVCBONK",
             "XTVCBOSON",
@@ -15034,6 +15035,7 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCEUL",
+            "XTVCEVAAP",
             "XTVCF",
             "XTVCFARTBOY",
             "XTVCFARTCOIN",
@@ -15053,7 +15055,6 @@
             "XTVCFTT",
             "XTVCFUN",
             "XTVCGALA",
-            "XTVCGAS",
             "XTVCGENIUS",
             "XTVCGEODN",
             "XTVCGMT",
@@ -15212,9 +15213,7 @@
             "XTVCRUNE",
             "XTVCRVN",
             "XTVCSAGA2",
-            "XTVCSAHARA",
             "XTVCSAND",
-            "XTVCSCRT",
             "XTVCSEI",
             "XTVCSHIB",
             "XTVCSHIRO",
@@ -15229,7 +15228,6 @@
             "XTVCSOL",
             "XTVCSOLV",
             "XTVCSOMI",
-            "XTVCSOPHO",
             "XTVCSPX6",
             "XTVCSQD",
             "XTVCSTABLE3",
@@ -15351,9 +15349,9 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
