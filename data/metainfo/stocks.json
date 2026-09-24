@@ -124,24 +124,12 @@
                 "name": "BIST 30 Capped 10"
             },
             {
-                "id": "BIST:X100C",
-                "name": "BIST 100 Capped 25"
-            },
-            {
                 "id": "BIST:X100S",
                 "name": "BIST 100 Capped 10"
             },
             {
-                "id": "BIST:X10XB",
-                "name": "BIST Liquid 10 Ex Banks"
-            },
-            {
                 "id": "BIST:XAKUR",
                 "name": "BIST Brokerage Houses"
-            },
-            {
-                "id": "BIST:XBANA",
-                "name": "BIST Main"
             },
             {
                 "id": "BIST:XBANK",
@@ -204,10 +192,6 @@
                 "name": "BIST Participation 30 Equal Weighted Return"
             },
             {
-                "id": "BIST:XK050",
-                "name": "BIST Participation 50"
-            },
-            {
                 "id": "BIST:XK100",
                 "name": "BIST Participation 100"
             },
@@ -226,10 +210,6 @@
             {
                 "id": "BIST:XKTMT",
                 "name": "BIST Participation Dividend"
-            },
-            {
-                "id": "BIST:XKTUM",
-                "name": "BIST Participation All Shares"
             },
             {
                 "id": "BIST:XKURY",
@@ -340,14 +320,6 @@
                 "name": "BIST Technology Capped"
             },
             {
-                "id": "BIST:XTM25",
-                "name": "BIST Dividend 25"
-            },
-            {
-                "id": "BIST:XTMTU",
-                "name": "BIST Dividend"
-            },
-            {
                 "id": "BIST:XTRZM",
                 "name": "BIST Tourism"
             },
@@ -394,10 +366,6 @@
             {
                 "id": "BIST:XUTUM",
                 "name": "BIST All Shares"
-            },
-            {
-                "id": "BIST:XYLDZ",
-                "name": "BIST Stars"
             },
             {
                 "id": "BIST:XYORT",
@@ -502,14 +470,6 @@
             {
                 "id": "BME:IND20400",
                 "name": "IGBM Consumer Services"
-            },
-            {
-                "id": "BME:IND20401",
-                "name": "IGBM Leisure, Tourism & Hotel Industry"
-            },
-            {
-                "id": "BME:IND20402",
-                "name": "IGBM Retailing"
             },
             {
                 "id": "BME:IND20403",
@@ -1332,6 +1292,10 @@
                 "name": "Caracas Stock Exchange Industrial"
             },
             {
+                "id": "BVL:MXNUAMPEGEN",
+                "name": "MSCI NUAM Peru General"
+            },
+            {
                 "id": "BVMT:PX1",
                 "name": "Tunindex"
             },
@@ -1474,10 +1438,6 @@
             {
                 "id": "EURONEXT:PSI20",
                 "name": "PSI"
-            },
-            {
-                "id": "EURONEXT:PX1",
-                "name": "CAC 40"
             },
             {
                 "id": "EURONEXT:PX4",
@@ -3481,7 +3441,6 @@
             "Ireland",
             "Israel",
             "Italy",
-            "Jamaica",
             "Japan",
             "Jordan",
             "Kazakhstan",
@@ -3521,7 +3480,6 @@
             "Russian Federation",
             "Rwanda",
             "Saudi Arabia",
-            "Senegal",
             "Serbia",
             "Singapore",
             "Slovakia",
@@ -13555,12 +13513,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13575,22 +13533,22 @@
         "r": null
     },
     {
-        "n": "RSI|60",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18437,6 +18395,7 @@
             "American Beacon",
             "American Century",
             "Amova",
+            "Ampega",
             "Amplify",
             "Amplius",
             "Amundi",
@@ -19931,7 +19890,6 @@
             "EPVXFR",
             "EPVXUR",
             "EPXNFR",
-            "EPXXXB",
             "EPXXXX",
             "ESETFR",
             "ESEUFN",
@@ -20295,7 +20253,6 @@
             "IN",
             "IS",
             "IT",
-            "JM",
             "JO",
             "JP",
             "KE",
@@ -20345,7 +20302,6 @@
             "SG",
             "SI",
             "SK",
-            "SN",
             "SV",
             "TG",
             "TH",
@@ -20476,6 +20432,7 @@
             "holiday",
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -21275,6 +21232,7 @@
             "2050",
             "2051",
             "2052",
+            "2054",
             "2055",
             "2056",
             "2059",
@@ -22030,11 +21988,8 @@
             "SYML:BIST;X030C",
             "SYML:BIST;X030EA",
             "SYML:BIST;X030S",
-            "SYML:BIST;X100C",
             "SYML:BIST;X100S",
-            "SYML:BIST;X10XB",
             "SYML:BIST;XAKUR",
-            "SYML:BIST;XBANA",
             "SYML:BIST;XBANK",
             "SYML:BIST;XBLSM",
             "SYML:BIST;XELKT",
@@ -22050,13 +22005,11 @@
             "SYML:BIST;XINSA",
             "SYML:BIST;XK030",
             "SYML:BIST;XK030EA",
-            "SYML:BIST;XK050",
             "SYML:BIST;XK100",
             "SYML:BIST;XKAGT",
             "SYML:BIST;XKMYA",
             "SYML:BIST;XKOBI",
             "SYML:BIST;XKTMT",
-            "SYML:BIST;XKTUM",
             "SYML:BIST;XKURY",
             "SYML:BIST;XLBNK",
             "SYML:BIST;XMADN",
@@ -22084,8 +22037,6 @@
             "SYML:BIST;XTCRT",
             "SYML:BIST;XTEKS",
             "SYML:BIST;XTKJS",
-            "SYML:BIST;XTM25",
-            "SYML:BIST;XTMTU",
             "SYML:BIST;XTRZM",
             "SYML:BIST;XTUMY",
             "SYML:BIST;XU030",
@@ -22098,7 +22049,6 @@
             "SYML:BIST;XUSRD",
             "SYML:BIST;XUTEK",
             "SYML:BIST;XUTUM",
-            "SYML:BIST;XYLDZ",
             "SYML:BIST;XYORT",
             "SYML:BIST;XYUZO",
             "SYML:BME;IBC",
@@ -22125,8 +22075,6 @@
             "SYML:BME;IND20305",
             "SYML:BME;IND20306",
             "SYML:BME;IND20400",
-            "SYML:BME;IND20401",
-            "SYML:BME;IND20402",
             "SYML:BME;IND20403",
             "SYML:BME;IND20404",
             "SYML:BME;IND20406",
@@ -22332,6 +22280,7 @@
             "SYML:BVCV;IBC",
             "SYML:BVCV;IFINANCIE",
             "SYML:BVCV;IINDUSTR",
+            "SYML:BVL;SPBLPGPT",
             "SYML:BVMT;PX1",
             "SYML:BVMT;TUN20",
             "SYML:CBOE;SPESG",
@@ -22368,7 +22317,6 @@
             "SYML:EURONEXT;OBX",
             "SYML:EURONEXT;OSEBX",
             "SYML:EURONEXT;PSI20",
-            "SYML:EURONEXT;PX1",
             "SYML:EURONEXT;PX4",
             "SYML:FTSE;AIM1",
             "SYML:FTSE;AIM5",
@@ -23351,7 +23299,6 @@
             "0.70 - 0.90",
             "0.70 - 1.00",
             "0.71 - 0.87",
-            "0.71 - 1.05",
             "0.72 - 0.89",
             "0.72 - 0.96",
             "0.73 - 0.80",
@@ -24648,6 +24595,7 @@
             "1700.00 - 1750.00",
             "1700.00 - 1760.00",
             "1700.00 - 1770.00",
+            "1700.00 - 1785.00",
             "1700.00 - 1800.00",
             "1700.00 - 1840.00",
             "1700.00 - 1900.00",
@@ -26942,7 +26890,6 @@
             "678.26 - 780.00",
             "68.00 - 70.00",
             "68.00 - 72.00",
-            "68.00 - 77.00",
             "68.00 - 79.00",
             "68.00 - 85.00",
             "68.18 - 75.00",
@@ -27913,6 +27860,7 @@
             "HANWHA LIFE INSURANCE Co., Ltd.",
             "HANetf Holdings Ltd.",
             "HDFC Bank Ltd.",
+            "HDI Haftpflichtverband der Deutschen Industrie VVaG",
             "HFT Investment Management Co., Ltd.",
             "HSBC Holdings Plc",
             "HWCap Holdings LLC",
@@ -30909,7 +30857,6 @@
             "etf",
             "mutual",
             "odd",
-            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
