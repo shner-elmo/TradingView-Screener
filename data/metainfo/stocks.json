@@ -124,12 +124,24 @@
                 "name": "BIST 30 Capped 10"
             },
             {
+                "id": "BIST:X100C",
+                "name": "BIST 100 Capped 25"
+            },
+            {
                 "id": "BIST:X100S",
                 "name": "BIST 100 Capped 10"
             },
             {
+                "id": "BIST:X10XB",
+                "name": "BIST Liquid 10 Ex Banks"
+            },
+            {
                 "id": "BIST:XAKUR",
                 "name": "BIST Brokerage Houses"
+            },
+            {
+                "id": "BIST:XBANA",
+                "name": "BIST Main"
             },
             {
                 "id": "BIST:XBANK",
@@ -192,6 +204,10 @@
                 "name": "BIST Participation 30 Equal Weighted Return"
             },
             {
+                "id": "BIST:XK050",
+                "name": "BIST Participation 50"
+            },
+            {
                 "id": "BIST:XK100",
                 "name": "BIST Participation 100"
             },
@@ -210,6 +226,10 @@
             {
                 "id": "BIST:XKTMT",
                 "name": "BIST Participation Dividend"
+            },
+            {
+                "id": "BIST:XKTUM",
+                "name": "BIST Participation All Shares"
             },
             {
                 "id": "BIST:XKURY",
@@ -320,6 +340,14 @@
                 "name": "BIST Technology Capped"
             },
             {
+                "id": "BIST:XTM25",
+                "name": "BIST Dividend 25"
+            },
+            {
+                "id": "BIST:XTMTU",
+                "name": "BIST Dividend"
+            },
+            {
                 "id": "BIST:XTRZM",
                 "name": "BIST Tourism"
             },
@@ -366,6 +394,10 @@
             {
                 "id": "BIST:XUTUM",
                 "name": "BIST All Shares"
+            },
+            {
+                "id": "BIST:XYLDZ",
+                "name": "BIST Stars"
             },
             {
                 "id": "BIST:XYORT",
@@ -470,6 +502,14 @@
             {
                 "id": "BME:IND20400",
                 "name": "IGBM Consumer Services"
+            },
+            {
+                "id": "BME:IND20401",
+                "name": "IGBM Leisure, Tourism & Hotel Industry"
+            },
+            {
+                "id": "BME:IND20402",
+                "name": "IGBM Retailing"
             },
             {
                 "id": "BME:IND20403",
@@ -1438,6 +1478,10 @@
             {
                 "id": "EURONEXT:PSI20",
                 "name": "PSI"
+            },
+            {
+                "id": "EURONEXT:PX1",
+                "name": "CAC 40"
             },
             {
                 "id": "EURONEXT:PX4",
@@ -13513,17 +13557,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13533,12 +13572,17 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI|60",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -19187,6 +19231,7 @@
             "Symmetry Panoramic",
             "T-Capital",
             "T-Rex",
+            "T-Strive",
             "T. Rowe Price",
             "TBI",
             "TCW",
@@ -20429,10 +20474,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
-            "post_market",
             "pre_market"
         ]
     },
@@ -21988,8 +22031,11 @@
             "SYML:BIST;X030C",
             "SYML:BIST;X030EA",
             "SYML:BIST;X030S",
+            "SYML:BIST;X100C",
             "SYML:BIST;X100S",
+            "SYML:BIST;X10XB",
             "SYML:BIST;XAKUR",
+            "SYML:BIST;XBANA",
             "SYML:BIST;XBANK",
             "SYML:BIST;XBLSM",
             "SYML:BIST;XELKT",
@@ -22005,11 +22051,13 @@
             "SYML:BIST;XINSA",
             "SYML:BIST;XK030",
             "SYML:BIST;XK030EA",
+            "SYML:BIST;XK050",
             "SYML:BIST;XK100",
             "SYML:BIST;XKAGT",
             "SYML:BIST;XKMYA",
             "SYML:BIST;XKOBI",
             "SYML:BIST;XKTMT",
+            "SYML:BIST;XKTUM",
             "SYML:BIST;XKURY",
             "SYML:BIST;XLBNK",
             "SYML:BIST;XMADN",
@@ -22037,6 +22085,8 @@
             "SYML:BIST;XTCRT",
             "SYML:BIST;XTEKS",
             "SYML:BIST;XTKJS",
+            "SYML:BIST;XTM25",
+            "SYML:BIST;XTMTU",
             "SYML:BIST;XTRZM",
             "SYML:BIST;XTUMY",
             "SYML:BIST;XU030",
@@ -22049,6 +22099,7 @@
             "SYML:BIST;XUSRD",
             "SYML:BIST;XUTEK",
             "SYML:BIST;XUTUM",
+            "SYML:BIST;XYLDZ",
             "SYML:BIST;XYORT",
             "SYML:BIST;XYUZO",
             "SYML:BME;IBC",
@@ -22075,6 +22126,8 @@
             "SYML:BME;IND20305",
             "SYML:BME;IND20306",
             "SYML:BME;IND20400",
+            "SYML:BME;IND20401",
+            "SYML:BME;IND20402",
             "SYML:BME;IND20403",
             "SYML:BME;IND20404",
             "SYML:BME;IND20406",
@@ -22317,6 +22370,7 @@
             "SYML:EURONEXT;OBX",
             "SYML:EURONEXT;OSEBX",
             "SYML:EURONEXT;PSI20",
+            "SYML:EURONEXT;PX1",
             "SYML:EURONEXT;PX4",
             "SYML:FTSE;AIM1",
             "SYML:FTSE;AIM5",
@@ -23256,7 +23310,6 @@
             "0.53 - 0.67",
             "0.55 - 0.60",
             "0.55 - 0.65",
-            "0.55 - 0.68",
             "0.55 - 0.70",
             "0.55 - 0.71",
             "0.55 - 0.75",
@@ -23299,6 +23352,7 @@
             "0.70 - 0.90",
             "0.70 - 1.00",
             "0.71 - 0.87",
+            "0.71 - 1.05",
             "0.72 - 0.89",
             "0.72 - 0.96",
             "0.73 - 0.80",
@@ -25901,7 +25955,6 @@
             "34000.00 - 38200.00",
             "34000.00 - 40000.00",
             "34000.00 - 43000.00",
-            "34000.00 - 44000.00",
             "34000.00 - 45000.00",
             "342.00 - 360.00",
             "343.00 - 361.00",
@@ -27577,7 +27630,6 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amundi Asset Management SAS",
-            "Amundi Luxembourg SA",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel One Asset Management Co. Ltd.",
             "Angel One Ltd.",
@@ -27868,6 +27920,7 @@
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
             "Hana Securities Co., Ltd.",
+            "Hanetf Multi-Asset ETC Issuer Plc",
             "Hang Seng Investment Management Ltd.",
             "Harel Insurance Investments & Financial Services Ltd.",
             "Harfor Fund Management Co., Ltd.",
