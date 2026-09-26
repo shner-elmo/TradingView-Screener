@@ -9592,22 +9592,22 @@
         "r": null
     },
     {
-        "n": "RSI|30",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -14502,6 +14502,7 @@
             "Alon",
             "Amp",
             "Ankr",
+            "Anonymous Cat",
             "ApeCoin",
             "ApeX Protocol",
             "Aptos",
@@ -14519,6 +14520,7 @@
             "Axie Infinity",
             "Aztec",
             "B3 (Base)",
+            "BENQI",
             "BNB",
             "BOB (Build on Bitcoin)",
             "BOOK OF MEME",
@@ -14639,14 +14641,12 @@
             "Hamster Kombat",
             "Harmony",
             "HarryPotterObamaSonic10Inu (ERC-20)",
-            "Hashflow",
             "Hedera",
             "Heima",
             "Helium",
             "Hemi",
             "Heroes of Mavia",
             "Highstreet",
-            "Hivemapper",
             "Horizen",
             "Humanity",
             "Hyperliquid",
@@ -14699,6 +14699,7 @@
             "MarsCoin",
             "MemeCore",
             "Metadium",
+            "Meteora",
             "Metis",
             "Milady Cult Coin",
             "Mina",
@@ -14745,7 +14746,7 @@
             "Orchid",
             "Ore",
             "OriginTrail",
-            "Osmosis",
+            "PAAL AI",
             "PAX Gold",
             "PUMPCADE",
             "PancakeSwap",
@@ -14794,7 +14795,6 @@
             "Seeker",
             "Sei",
             "Shiba Inu",
-            "Shiro Neko",
             "Sky",
             "Snek",
             "Solana",
@@ -15071,11 +15071,9 @@
             "XTVCHBAR",
             "XTVCHEI",
             "XTVCHEMI",
-            "XTVCHFT",
             "XTVCHIGH",
             "XTVCHMSTR",
             "XTVCHNT",
-            "XTVCHONEY",
             "XTVCHYPEH",
             "XTVCICP",
             "XTVCIMU",
@@ -15128,6 +15126,7 @@
             "XTVCMAVIA",
             "XTVCMEMECORE",
             "XTVCMETA",
+            "XTVCMETE",
             "XTVCMETIS",
             "XTVCMEW",
             "XTVCMINA",
@@ -15165,8 +15164,8 @@
             "XTVCORDI",
             "XTVCOREV",
             "XTVCORO",
-            "XTVCOSMO",
             "XTVCOXT",
+            "XTVCPAAL",
             "XTVCPARTI",
             "XTVCPAXG",
             "XTVCPEAQ",
@@ -15193,6 +15192,7 @@
             "XTVCPURR2",
             "XTVCPYTH",
             "XTVCPYUSD",
+            "XTVCQI",
             "XTVCQNT",
             "XTVCQQQX",
             "XTVCQUBIC",
@@ -15215,7 +15215,6 @@
             "XTVCSAND",
             "XTVCSEI",
             "XTVCSHIB",
-            "XTVCSHIRO",
             "XTVCSHX",
             "XTVCSIREN",
             "XTVCSKRS",
@@ -15309,6 +15308,7 @@
             "XTVCZAMA",
             "XTVCZANO",
             "XTVCZBCN",
+            "XTVCZCATANON",
             "XTVCZEC",
             "XTVCZEN",
             "XTVCZEREBRO",
@@ -15348,8 +15348,7 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session",
-            "pre_market"
+            "out_of_session"
         ]
     },
     {
