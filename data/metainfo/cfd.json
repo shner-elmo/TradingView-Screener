@@ -256,6 +256,7 @@
             "GPW",
             "HSI",
             "IDX",
+            "INDEX",
             "NSE",
             "NZX",
             "OANDA",
@@ -9582,12 +9583,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -14507,6 +14508,7 @@
             "ApeX Protocol",
             "Aptos",
             "Arbitrum",
+            "AriaAI",
             "Ark",
             "Arkham",
             "Artificial Inu",
@@ -14517,13 +14519,13 @@
             "Audiera",
             "Aura",
             "Aurora",
+            "Autonolas",
             "Avalanche",
             "Axie Infinity",
             "Aztec",
             "B3 (Base)",
             "BENQI",
             "BNB",
-            "BOB (Build on Bitcoin)",
             "BOOK OF MEME",
             "BSquared Network",
             "BUILDon",
@@ -14541,7 +14543,6 @@
             "Bitget Token",
             "Bittensor",
             "Bless",
-            "BluWhale",
             "Blum",
             "Blur",
             "Boner Coin",
@@ -14569,6 +14570,7 @@
             "Chainflip",
             "Chainlink",
             "Chiliz",
+            "Chromia",
             "Civic",
             "Clearpool",
             "Clore.ai",
@@ -14605,7 +14607,7 @@
             "Drift",
             "Dusk",
             "EGO",
-            "ETHGas",
+            "EVAA Protocol",
             "EigenCloud",
             "Enjin Coin",
             "Enso",
@@ -14628,6 +14630,7 @@
             "Flock.io",
             "Flow",
             "Forest Protocol",
+            "Four",
             "Fusionist",
             "GEODNET",
             "GMT",
@@ -14676,6 +14679,7 @@
             "Kinetiq",
             "Kite",
             "Koma Inu",
+            "Kori The Pom",
             "Kusama",
             "Lido DAO",
             "Lighter",
@@ -14699,6 +14703,7 @@
             "Marlin",
             "MarsCoin",
             "MemeCore",
+            "Memecoin",
             "Metadium",
             "Meteora",
             "Metis",
@@ -14709,14 +14714,15 @@
             "Monad",
             "Monero",
             "Moo Deng",
+            "Moonbeam",
             "Moonriver",
             "Morpho",
             "Mubarak",
             "MultiversX",
+            "MyNeighborAlice",
             "NEAR Protocol",
             "NVIDIA tokenized stock (xStock)",
             "NaoX Protocol",
-            "Nasdaq tokenized ETF (xStock)",
             "Neo",
             "Nexo",
             "Nillion",
@@ -14755,7 +14761,7 @@
             "Pepe",
             "Phala Network",
             "Pieverse",
-            "Pistacio",
+            "Pirate Chain",
             "Plasma",
             "Plume",
             "Polkadot",
@@ -14785,7 +14791,6 @@
             "Ripple USD",
             "River",
             "Router Protocol (New)",
-            "SKYAI",
             "SPX6900",
             "STONK",
             "SUPRA",
@@ -14816,7 +14821,6 @@
             "SynFutures",
             "Synapse",
             "Synthetix",
-            "TAC Protocol",
             "TENDIES (TendiesRH)",
             "THORChain",
             "TROLL (SOL)",
@@ -14836,7 +14840,6 @@
             "The Index",
             "The Juggernaut",
             "The Sandbox",
-            "The White Whale",
             "Theta Network",
             "Threshold",
             "Toshi",
@@ -14865,7 +14868,6 @@
             "Virtuals Protocol",
             "Vita Inu",
             "WEMIX",
-            "WINkLink",
             "WOO",
             "Waves",
             "Wiki Cat",
@@ -14921,6 +14923,7 @@
             "XTVCAKT",
             "XTVCALCH",
             "XTVCALGO",
+            "XTVCALICE",
             "XTVCALLO",
             "XTVCALON",
             "XTVCAMP2",
@@ -14935,8 +14938,10 @@
             "XTVCAR",
             "XTVCARBI",
             "XTVCARC",
+            "XTVCARIAA",
             "XTVCARK",
             "XTVCARKM",
+            "XTVCARRR",
             "XTVCASTER2",
             "XTVCASTEROID",
             "XTVCATOM",
@@ -14960,12 +14965,10 @@
             "XTVCBICO",
             "XTVCBITCOIN",
             "XTVCBLESS",
-            "XTVCBLUAI",
             "XTVCBLUM",
             "XTVCBLUR",
             "XTVCBNB",
             "XTVCBNKRB",
-            "XTVCBOBBUIL",
             "XTVCBOME",
             "XTVCBONER",
             "XTVCBONK",
@@ -14989,6 +14992,7 @@
             "XTVCCFX",
             "XTVCCGPT",
             "XTVCCHILLGUY",
+            "XTVCCHR",
             "XTVCCHZ",
             "XTVCCLANKER",
             "XTVCCLORE",
@@ -15038,6 +15042,7 @@
             "XTVCETH",
             "XTVCETHFI",
             "XTVCEUL",
+            "XTVCEVAAP",
             "XTVCF",
             "XTVCFARTBOY",
             "XTVCFARTCOIN",
@@ -15054,11 +15059,13 @@
             "XTVCFLR",
             "XTVCFORESTP",
             "XTVCFOREX",
+            "XTVCFORMF",
             "XTVCFTT",
             "XTVCFUN",
             "XTVCGALA",
             "XTVCGENIUS",
             "XTVCGEODN",
+            "XTVCGLMR",
             "XTVCGMT",
             "XTVCGPS",
             "XTVCGRAM",
@@ -15066,7 +15073,6 @@
             "XTVCGRIFFAIN",
             "XTVCGROK",
             "XTVCGRT",
-            "XTVCGWEI",
             "XTVCH",
             "XTVCHAJIMI",
             "XTVCHBAR",
@@ -15102,6 +15108,7 @@
             "XTVCKMNO",
             "XTVCKNTQ",
             "XTVCKOMA",
+            "XTVCKORI",
             "XTVCKSM",
             "XTVCLDO",
             "XTVCLEO",
@@ -15125,6 +15132,7 @@
             "XTVCMANYU3",
             "XTVCMARSCOIN6",
             "XTVCMAVIA",
+            "XTVCMEMECO",
             "XTVCMEMECORE",
             "XTVCMETA",
             "XTVCMETE",
@@ -15156,6 +15164,7 @@
             "XTVCOCTA",
             "XTVCOG",
             "XTVCOKB",
+            "XTVCOLAS",
             "XTVCONDO",
             "XTVCONE",
             "XTVCONG",
@@ -15177,7 +15186,6 @@
             "XTVCPHA",
             "XTVCPIEVERSE",
             "XTVCPIPPIN",
-            "XTVCPISTACIO",
             "XTVCPLUME",
             "XTVCPOLYG",
             "XTVCPOND",
@@ -15194,7 +15202,6 @@
             "XTVCPYUSD",
             "XTVCQI",
             "XTVCQNT",
-            "XTVCQQQX",
             "XTVCQUBIC",
             "XTVCRARE",
             "XTVCRAY",
@@ -15221,7 +15228,6 @@
             "XTVCSIREN",
             "XTVCSKRS",
             "XTVCSKY2",
-            "XTVCSKYAI2",
             "XTVCSLVON",
             "XTVCSNEK",
             "XTVCSNX",
@@ -15244,7 +15250,6 @@
             "XTVCSYN",
             "XTVCSYRUP",
             "XTVCT",
-            "XTVCTACP",
             "XTVCTAKE",
             "XTVCTAOB",
             "XTVCTEL",
@@ -15288,9 +15293,7 @@
             "XTVCW",
             "XTVCWAVES",
             "XTVCWEMIX",
-            "XTVCWHITEWHALE",
             "XTVCWIF",
-            "XTVCWIN",
             "XTVCWKC",
             "XTVCWLDW",
             "XTVCWOJAK2",
@@ -15351,7 +15354,7 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market"
+            "pre_market"
         ]
     },
     {
@@ -15831,6 +15834,7 @@
         "t": "text",
         "r": [
             "delay",
+            "eod",
             "rt"
         ]
     },
@@ -16530,6 +16534,7 @@
             "source/GPW",
             "source/HSI",
             "source/IDX",
+            "source/INDEX",
             "source/NSE",
             "source/NZX",
             "source/OANDA",
@@ -16663,6 +16668,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16671,6 +16677,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16679,6 +16686,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16687,6 +16695,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16695,6 +16704,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16703,6 +16713,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16711,6 +16722,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16719,6 +16731,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16727,6 +16740,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },
@@ -16735,6 +16749,7 @@
         "t": "text",
         "r": [
             "delayed_streaming_900",
+            "endofday",
             "streaming"
         ]
     },

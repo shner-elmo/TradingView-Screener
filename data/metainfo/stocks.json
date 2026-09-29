@@ -464,10 +464,6 @@
                 "name": "IGBM Construction"
             },
             {
-                "id": "BME:IND20205",
-                "name": "IGBM Chemical Industry"
-            },
-            {
                 "id": "BME:IND20206",
                 "name": "IGBM Engineering & Others"
             },
@@ -608,10 +604,6 @@
                 "name": "ITBM Construction"
             },
             {
-                "id": "BME:IND21205",
-                "name": "ITBM Chemical Industry"
-            },
-            {
                 "id": "BME:IND21206",
                 "name": "ITBM Engineering & Others"
             },
@@ -750,10 +742,6 @@
             {
                 "id": "BME:IND31203",
                 "name": "IGBV Construction"
-            },
-            {
-                "id": "BME:IND31205",
-                "name": "IGBV Chemical Industry"
             },
             {
                 "id": "BME:IND31206",
@@ -2784,10 +2772,6 @@
                 "name": "Russia Metals and Mining"
             },
             {
-                "id": "RUS:RUSTL",
-                "name": "Russia Telecommunication"
-            },
-            {
                 "id": "RUS:RUSTN",
                 "name": "Russia Transportation"
             },
@@ -3486,6 +3470,7 @@
             "Ireland",
             "Israel",
             "Italy",
+            "Ivory Coast",
             "Jamaica",
             "Japan",
             "Jordan",
@@ -3538,7 +3523,6 @@
             "Sweden",
             "Switzerland",
             "Taiwan",
-            "Tanzania",
             "Thailand",
             "Togo",
             "Tunisia",
@@ -4020,6 +4004,7 @@
             "Motor Vehicles",
             "Movies/Entertainment",
             "Multi-Line Insurance",
+            "Municipality",
             "Office Equipment/Supplies",
             "Oil & Gas Pipelines",
             "Oil & Gas Production",
@@ -13579,12 +13564,12 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -18372,6 +18357,7 @@
             "3iQ",
             "AAM",
             "AB Funds",
+            "ABF",
             "ABF PAIF",
             "ABSA",
             "ACE",
@@ -18691,7 +18677,6 @@
             "Evolve",
             "Evovest",
             "Exane",
-            "Exemplar",
             "Expat",
             "F/m",
             "FINQ",
@@ -18779,6 +18764,7 @@
             "HDFC",
             "HFT",
             "HSBC",
+            "Haitong",
             "Hamilton",
             "Hana",
             "Hang Seng",
@@ -18880,6 +18866,7 @@
             "KSM",
             "KTAM",
             "Keating",
+            "Kenanga Investors",
             "Kensington",
             "Kingsbarn",
             "Kiwoom",
@@ -19009,7 +18996,6 @@
             "NestYield",
             "Neuberger Berman",
             "New China Fund",
-            "NicheJungle",
             "Nicholas",
             "Nifty",
             "Ninepoint",
@@ -19182,7 +19168,6 @@
             "Scotia",
             "Seed investments",
             "Segall Bryant & Hamill",
-            "Selectra Investments",
             "Seligson & Co",
             "Seraphim",
             "Shelton Capital",
@@ -20270,6 +20255,7 @@
             "BW",
             "CA",
             "CH",
+            "CI",
             "CL",
             "CN",
             "CO",
@@ -20356,7 +20342,6 @@
             "TN",
             "TR",
             "TW",
-            "TZ",
             "UA",
             "UG",
             "US",
@@ -20479,7 +20464,8 @@
         "r": [
             "market",
             "out_of_session",
-            "post_market"
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -20645,6 +20631,11 @@
     {
         "n": "dividends_yield_fy",
         "t": "percent",
+        "r": null
+    },
+    {
+        "n": "documents",
+        "t": "number",
         "r": null
     },
     {
@@ -22119,7 +22110,6 @@
             "SYML:BME;IND20201",
             "SYML:BME;IND20202",
             "SYML:BME;IND20203",
-            "SYML:BME;IND20205",
             "SYML:BME;IND20206",
             "SYML:BME;IND20207",
             "SYML:BME;IND20300",
@@ -22155,7 +22145,6 @@
             "SYML:BME;IND21201",
             "SYML:BME;IND21202",
             "SYML:BME;IND21203",
-            "SYML:BME;IND21205",
             "SYML:BME;IND21206",
             "SYML:BME;IND21207",
             "SYML:BME;IND21300",
@@ -22191,7 +22180,6 @@
             "SYML:BME;IND31201",
             "SYML:BME;IND31202",
             "SYML:BME;IND31203",
-            "SYML:BME;IND31205",
             "SYML:BME;IND31206",
             "SYML:BME;IND31207",
             "SYML:BME;IND31300",
@@ -22519,7 +22507,6 @@
             "SYML:MOEX;MOEXFN",
             "SYML:MOEX;MOEXINN",
             "SYML:MOEX;MOEXMM",
-            "SYML:MOEX;MOEXTL",
             "SYML:MOEX;MOEXTN",
             "SYML:MOEX;RTSCH",
             "SYML:MOEX;RTSI",
@@ -23004,6 +22991,7 @@
             "Tortoise Index Solutions LLC",
             "U.S. Global Investors, Inc.",
             "UBS Americas, Inc.",
+            "UniCredit Bank GmbH",
             "Value Line Funds Investment Trust",
             "VettaFi LLC",
             "Vident Financial LLC",
@@ -23260,7 +23248,6 @@
             "0.38 - 0.46",
             "0.38 - 0.48",
             "0.38 - 0.52",
-            "0.38 - 0.60",
             "0.38 - 0.62",
             "0.39 - 0.50",
             "0.40 - 0.42",
@@ -23530,6 +23517,7 @@
             "1.35 - 2.00",
             "1.36 - 1.56",
             "1.37 - 1.49",
+            "1.37 - 1.51",
             "1.37 - 1.77",
             "1.38 - 1.72",
             "1.40 - 1.50",
@@ -24342,7 +24330,6 @@
             "143.00 - 153.00",
             "1430.00 - 1500.00",
             "1430.00 - 1590.00",
-            "1430.00 - 1630.00",
             "1430.00 - 1970.00",
             "14300.00 - 16300.00",
             "14300.00 - 17400.00",
@@ -24544,7 +24531,6 @@
             "1600.00 - 1770.00",
             "1600.00 - 1800.00",
             "1600.00 - 2000.00",
-            "1600.00 - 2100.00",
             "16000.00 - 18000.00",
             "16000.00 - 18500.00",
             "16000.00 - 18800.00",
@@ -24609,6 +24595,7 @@
             "1670.00 - 1760.00",
             "1670.00 - 1810.00",
             "16700.00 - 20500.00",
+            "16700.00 - 20600.00",
             "16700.00 - 21600.00",
             "168.00 - 171.00",
             "168.00 - 174.00",
@@ -25611,6 +25598,7 @@
             "2800.00 - 3000.00",
             "2800.00 - 3100.00",
             "2800.00 - 3200.00",
+            "2800.00 - 3300.00",
             "28000.00 - 32000.00",
             "28000.00 - 33000.00",
             "28000.00 - 34000.00",
@@ -25786,7 +25774,6 @@
             "3.92 - 4.12",
             "3.92 - 4.30",
             "3.93 - 4.73",
-            "3.98 - 4.76",
             "30.00 - 31.00",
             "30.00 - 32.00",
             "30.00 - 32.30",
@@ -26091,6 +26078,7 @@
             "39.00 - 41.00",
             "39.00 - 42.00",
             "39.00 - 43.00",
+            "39.00 - 44.00",
             "39.00 - 46.00",
             "39.36 - 43.36",
             "39.50 - 42.25",
@@ -26588,6 +26576,7 @@
             "51.00 - 53.00",
             "51.00 - 54.00",
             "51.00 - 56.00",
+            "51.00 - 59.00",
             "51.00 - 61.00",
             "510.00 - 540.00",
             "510.00 - 550.00",
@@ -26929,6 +26918,7 @@
             "660.00 - 750.00",
             "6600.00 - 7500.00",
             "6600.00 - 7700.00",
+            "6600.00 - 8500.00",
             "66000.00 - 76000.00",
             "665.00 - 701.00",
             "668.00 - 704.00",
@@ -26945,6 +26935,7 @@
             "678.26 - 780.00",
             "68.00 - 70.00",
             "68.00 - 72.00",
+            "68.00 - 77.00",
             "68.00 - 79.00",
             "68.00 - 85.00",
             "68.18 - 75.00",
@@ -27193,7 +27184,6 @@
             "8.50 - 9.90",
             "8.52 - 10.08",
             "8.60 - 10.40",
-            "8.60 - 9.60",
             "8.60 - 9.78",
             "8.68 - 9.94",
             "8.70 - 9.20",
@@ -27248,7 +27238,6 @@
             "8100.00 - 9100.00",
             "8100.00 - 9200.00",
             "815.00 - 825.00",
-            "816.00 - 1337.00",
             "818.00 - 821.00",
             "82.00 - 84.00",
             "82.00 - 86.00",
@@ -27260,6 +27249,7 @@
             "820.00 - 900.00",
             "820.00 - 945.00",
             "8200.00 - 10000.00",
+            "8200.00 - 10200.00",
             "8200.00 - 10300.00",
             "824.00 - 866.00",
             "825.00 - 1025.00",
@@ -27337,6 +27327,7 @@
             "890.00 - 1080.00",
             "890.00 - 930.00",
             "890.00 - 950.00",
+            "8900.00 - 10000.00",
             "8900.00 - 11000.00",
             "9.00 - 10.00",
             "9.00 - 10.75",
@@ -27632,6 +27623,7 @@
             "Ameriprise Financial, Inc.",
             "Amplify Holding Co. LLC",
             "Amundi Asset Management SAS",
+            "An Binh Fund Management JSC",
             "Analyst I.M.S. Investment Management Services Ltd.",
             "Angel One Asset Management Co. Ltd.",
             "Angel One Ltd.",
@@ -27982,7 +27974,6 @@
             "Ironbark Asset Management Pty Ltd.",
             "Ishares Digital Assets AG",
             "Ita\u00fa Unibanco Holding SA",
-            "J Lamarck SpA",
             "JKO Asset Management Co., Ltd.",
             "JPMorgan Chase & Co.",
             "Janus Henderson Group Ltd.",
@@ -28109,7 +28100,6 @@
             "Neil Azous Revocable Trust",
             "New York Life Insurance Co.",
             "Newgold Owner Trust",
-            "Niche Asset Management Ltd.",
             "Nicholas Wealth LLC",
             "Nightview Capital LLC",
             "Ninepoint Financial Group, Inc.",
@@ -28336,6 +28326,7 @@
             "Twin Oak Holdings LP",
             "T\u00fcrkiye Is Bankasi AS",
             "U.S. Global Investors, Inc.",
+            "UBS AG (London Branch)",
             "UBS Group AG",
             "UTI Asset Management Co. Ltd.",
             "Uni-President Enterprises Corp.",
@@ -28407,7 +28398,6 @@
             "iA Financial Corp., Inc.",
             "iM Financial Group Co., Ltd.",
             "iM Global Partner SAS",
-            "iM Square SAS",
             "issuance.swiss AG",
             "nxtAssets GmbH",
             "quant Money Managers Ltd."
@@ -29182,7 +29172,6 @@
             "7",
             "70",
             "72",
-            "8",
             "83",
             "85",
             "86",
@@ -30609,7 +30598,6 @@
             "NO",
             "NZ",
             "OM",
-            "PA",
             "PE",
             "PG",
             "PH",
@@ -30912,6 +30900,8 @@
             "etf",
             "mutual",
             "odd",
+            "otc",
+            "pre-ipo",
             "preferred",
             "reit",
             "sharia",
