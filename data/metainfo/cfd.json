@@ -226,7 +226,6 @@
         "n": "exchange",
         "t": "text",
         "r": [
-            "ASX",
             "ATHEX",
             "BCBA",
             "BCS",
@@ -9583,12 +9582,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -9603,12 +9602,12 @@
         "r": null
     },
     {
-        "n": "RSI4",
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
@@ -14498,6 +14497,7 @@
             "Aerodrome Finance",
             "Akash Network",
             "Alchemist AI",
+            "Aleo",
             "Algorand",
             "Allora",
             "Alon",
@@ -14616,6 +14616,7 @@
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
+            "Ethereum Name Service",
             "Euler",
             "FLARE",
             "FLOKI",
@@ -14740,7 +14741,6 @@
             "ORDI",
             "OVERTAKE",
             "Oasis",
-            "OctaSpace",
             "Ondo",
             "Ontology",
             "Ontology Gas",
@@ -14922,6 +14922,7 @@
             "XTVCAKE",
             "XTVCAKT",
             "XTVCALCH",
+            "XTVCALEO",
             "XTVCALGO",
             "XTVCALICE",
             "XTVCALLO",
@@ -15036,6 +15037,7 @@
             "XTVCEIGEN",
             "XTVCENA",
             "XTVCENJ",
+            "XTVCENS",
             "XTVCENSO",
             "XTVCEPICC",
             "XTVCETC",
@@ -15161,7 +15163,6 @@
             "XTVCNOT",
             "XTVCNPCN",
             "XTVCNVDAX",
-            "XTVCOCTA",
             "XTVCOG",
             "XTVCOKB",
             "XTVCOLAS",
@@ -15354,6 +15355,7 @@
         "r": [
             "market",
             "out_of_session",
+            "post_market",
             "pre_market"
         ]
     },
@@ -16505,7 +16507,6 @@
         "r": [
             "provider/ice",
             "provider/tvc",
-            "source/ASX",
             "source/ATHEX",
             "source/BCBA",
             "source/BCS",
