@@ -48,8 +48,24 @@
                 "name": "FTSE ADX ESG Screened"
             },
             {
+                "id": "ASX:XAO",
+                "name": "All Ordinaries"
+            },
+            {
+                "id": "ASX:XFL",
+                "name": "S&P/ASX 50"
+            },
+            {
                 "id": "ASX:XJO",
                 "name": "S&P/ASX 200"
+            },
+            {
+                "id": "ASX:XKO",
+                "name": "S&P/ASX 300"
+            },
+            {
+                "id": "ASX:XMJ",
+                "name": "S&P/ASX 200 Materials"
             },
             {
                 "id": "ATHEX:FTSE",
@@ -13532,12 +13548,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -13562,12 +13578,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -18497,6 +18513,7 @@
             "BlueSphere",
             "Bluemonte",
             "Blueprint",
+            "Bochk",
             "BondBloxx",
             "Boreas",
             "Bosera",
@@ -20454,10 +20471,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
-            "post_market"
+            "post_market",
+            "pre_market"
         ]
     },
     {
@@ -21998,7 +22015,11 @@
             "SYML:ADX;FADX15",
             "SYML:ADX;FADXI15",
             "SYML:ADX;FADXSI",
+            "SYML:ASX;XAO",
+            "SYML:ASX;XFL",
             "SYML:ASX;XJO",
+            "SYML:ASX;XKO",
+            "SYML:ASX;XMJ",
             "SYML:ATHEX;FTSE",
             "SYML:ATHEX;FTSEA",
             "SYML:ATHEX;FTSEM",
@@ -23202,6 +23223,7 @@
             "0.27 - 0.31",
             "0.27 - 0.33",
             "0.27 - 0.35",
+            "0.27 - 0.37",
             "0.27 - 0.39",
             "0.28 - 0.32",
             "0.28 - 0.34",
@@ -23291,6 +23313,7 @@
             "0.53 - 0.67",
             "0.55 - 0.60",
             "0.55 - 0.65",
+            "0.55 - 0.68",
             "0.55 - 0.70",
             "0.55 - 0.71",
             "0.55 - 0.75",
@@ -23382,7 +23405,6 @@
             "0.91 - 1.29",
             "0.92 - 1.00",
             "0.92 - 1.10",
-            "0.92 - 1.20",
             "0.92 - 1.47",
             "0.93 - 1.13",
             "0.97 - 1.31",
@@ -24382,7 +24404,6 @@
             "15.50 - 18.91",
             "15.50 - 19.50",
             "15.50 - 21.50",
-            "15.60 - 19.96",
             "15.60 - 20.28",
             "15.65 - 18.85",
             "15.66 - 19.14",
@@ -25692,6 +25713,7 @@
             "3.26 - 3.98",
             "3.27 - 3.91",
             "3.27 - 4.42",
+            "3.28 - 4.91",
             "3.30 - 3.60",
             "3.30 - 4.15",
             "3.30 - 4.30",
@@ -28395,6 +28417,7 @@
             "iA Financial Corp., Inc.",
             "iM Financial Group Co., Ltd.",
             "iM Global Partner SAS",
+            "iM Square SAS",
             "issuance.swiss AG",
             "nxtAssets GmbH",
             "quant Money Managers Ltd."
