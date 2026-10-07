@@ -32,6 +32,11 @@
         "r": null
     },
     {
+        "n": "price_earnings_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "volume",
         "t": "number",
         "r": null
@@ -57,6 +62,7 @@
         "r": [
             "ASX",
             "BIST",
+            "BMFBOVESPA",
             "BSE",
             "CBOT",
             "CBOT_MINI",
@@ -64,6 +70,8 @@
             "CME_MINI",
             "COMEX",
             "EUREX",
+            "EURONEXT",
+            "KRX",
             "MCX",
             "NSE",
             "NYMEX",
@@ -72,7 +80,22 @@
         ]
     },
     {
+        "n": "free_cash_flow_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "free_cash_flow_margin_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "gap",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "gross_profit_margin_fy",
         "t": "percent",
         "r": null
     },
@@ -87,8 +110,18 @@
         "r": null
     },
     {
+        "n": "net_income_bef_disc_oper_margin_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "open",
         "t": "price",
+        "r": null
+    },
+    {
+        "n": "oper_income_margin_fy",
+        "t": "percent",
         "r": null
     },
     {
@@ -127,6 +160,51 @@
         "r": null
     },
     {
+        "n": "price_book_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_book_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_free_cash_flow_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_revenue_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_sales_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "research_and_dev_ratio_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_other_ratio_fy",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "sell_gen_admin_exp_other_ratio_ttm",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "submarket",
         "t": "text",
         "r": [
@@ -138,12 +216,15 @@
         "t": "text",
         "r": [
             "AUD",
+            "BRL",
             "CAD",
             "CHF",
             "EUR",
             "GBP",
             "INR",
             "JPY",
+            "KRW",
+            "NOK",
             "NZD",
             "THB",
             "TRY",
@@ -162,6 +243,11 @@
         "r": null
     },
     {
+        "n": "24h_vol_to_market_cap",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "bars_count",
         "t": "number",
         "r": null
@@ -175,6 +261,31 @@
     },
     {
         "n": "bid_ask_spread_pct",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_current_liabilities_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_current_liabilities_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_debt_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "cash_n_short_term_invest_to_total_debt_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "circulating_to_max_supply_ratio",
         "t": "percent",
         "r": null
     },
@@ -198,12 +309,15 @@
         "t": "text",
         "r": [
             "AUD",
+            "BRL",
             "CAD",
             "CHF",
             "EUR",
             "GBP",
             "INR",
             "JPY",
+            "KRW",
+            "NOK",
             "NZD",
             "THB",
             "TRY",
@@ -234,6 +348,11 @@
         "r": null
     },
     {
+        "n": "earnings_yield",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "enterprise_value_ebit_fwd",
         "t": "number",
         "r": null
@@ -249,8 +368,18 @@
         "r": null
     },
     {
+        "n": "eps_surprise_percent_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "expiration",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "float_shares_percent_current",
+        "t": "percent",
         "r": null
     },
     {
@@ -260,6 +389,11 @@
             "false",
             "true"
         ]
+    },
+    {
+        "n": "fully_diluted_value",
+        "t": "price",
+        "r": null
     },
     {
         "n": "gap_down",
@@ -347,6 +481,11 @@
         ]
     },
     {
+        "n": "market_cap_to_tvl",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "maturity_date",
         "t": "time-yyyymmdd",
         "r": null
@@ -364,6 +503,21 @@
     {
         "n": "name",
         "t": "text",
+        "r": null
+    },
+    {
+        "n": "non_gaap_price_to_earnings_per_share_forecast_next_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "nvt",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "open_interest_to_volume_24h",
+        "t": "number",
         "r": null
     },
     {
@@ -400,7 +554,37 @@
         "r": null
     },
     {
+        "n": "price_sales",
+        "t": "price",
+        "r": null
+    },
+    {
         "n": "price_sales_fwd",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_target_1y",
+        "t": "price",
+        "r": null
+    },
+    {
+        "n": "price_target_1y_delta",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "price_to_cash_f_operating_activities_ttm",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_to_cash_ratio",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "price_to_working_capital_fq",
         "t": "number",
         "r": null
     },
@@ -410,11 +594,32 @@
         "r": null
     },
     {
+        "n": "relative_volume",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "revenue_surprise_percent_fq",
+        "t": "percent",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_to_total_assets_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "shrhldrs_equity_to_total_assets_fy",
+        "t": "number",
+        "r": null
+    },
+    {
         "n": "source-logoid",
         "t": "text",
         "r": [
             "source/ASX",
             "source/BIST",
+            "source/BMFBOVESPA",
             "source/BSE",
             "source/CBOT",
             "source/CBOT_MINI",
@@ -422,6 +627,8 @@
             "source/CME_MINI",
             "source/COMEX",
             "source/EUREX",
+            "source/EURONEXT",
+            "source/KRX",
             "source/MCX",
             "source/NSE",
             "source/NYMEX",
@@ -439,7 +646,8 @@
         "t": "text",
         "r": [
             "",
-            "euoption"
+            "euoption",
+            "usoption"
         ]
     },
     {
@@ -448,11 +656,27 @@
         "r": null
     },
     {
+        "n": "total_debt_to_ebitda_fq",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_debt_to_ebitda_fy",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "total_to_max_supply_ratio",
+        "t": "percent",
+        "r": null
+    },
+    {
         "n": "typespecs",
         "t": "set",
         "r": [
             "",
-            "euoption"
+            "euoption",
+            "usoption"
         ]
     },
     {
@@ -470,6 +694,11 @@
     {
         "n": "update_time",
         "t": "time",
+        "r": null
+    },
+    {
+        "n": "velocity",
+        "t": "number",
         "r": null
     },
     {

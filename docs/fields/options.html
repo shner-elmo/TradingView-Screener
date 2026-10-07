@@ -148,6 +148,12 @@
       <td></td>
     </tr>
     <tr>
+      <td>price_earnings_ttm</td>
+      <td>Price to Earnings Ratio (TTM)</td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>volume</td>
       <td>Volume</td>
       <td>number</td>
@@ -176,10 +182,11 @@
       <td>Exchange</td>
       <td>text</td>
       <td>  <details>
-    <summary>14</summary>
+    <summary>17</summary>
     <ul>
       <li>ASX</li>
       <li>BIST</li>
+      <li>BMFBOVESPA</li>
       <li>BSE</li>
       <li>CBOT</li>
       <li>CBOT_MINI</li>
@@ -187,6 +194,8 @@
       <li>CME_MINI</li>
       <li>COMEX</li>
       <li>EUREX</li>
+      <li>EURONEXT</li>
+      <li>KRX</li>
       <li>MCX</li>
       <li>NSE</li>
       <li>NYMEX</li>
@@ -197,8 +206,26 @@
 </td>
     </tr>
     <tr>
+      <td>free_cash_flow_margin_fy</td>
+      <td>Free Cash Flow Margin (FY)</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>free_cash_flow_margin_ttm</td>
+      <td>Free Cash Flow Margin (TTM)</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>gap</td>
       <td>Gap %</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>gross_profit_margin_fy</td>
+      <td>Gross Margin (FY)</td>
       <td>percent</td>
       <td></td>
     </tr>
@@ -215,9 +242,21 @@
       <td></td>
     </tr>
     <tr>
+      <td>net_income_bef_disc_oper_margin_fy</td>
+      <td>Net Margin (FY)</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>open</td>
       <td>Open</td>
       <td>price</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>oper_income_margin_fy</td>
+      <td>Operating Margin (FY)</td>
+      <td>percent</td>
       <td></td>
     </tr>
     <tr>
@@ -263,6 +302,60 @@
       <td></td>
     </tr>
     <tr>
+      <td>price_book_ratio</td>
+      <td>Price to Book (FY)</td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_book_fq</td>
+      <td>Price to Book (MRQ)</td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_free_cash_flow_ttm</td>
+      <td>Price to Free Cash Flow (TTM)</td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_revenue_ttm</td>
+      <td>Price to Revenue Ratio (TTM)</td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_sales_ratio</td>
+      <td>Price to Sales (FY)</td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>research_and_dev_ratio_fy</td>
+      <td>Research & development Ratio (FY)</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>research_and_dev_ratio_ttm</td>
+      <td>Research & development Ratio (TTM)</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>sell_gen_admin_exp_other_ratio_fy</td>
+      <td>Selling General & Admin expenses Ratio (FY)</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>sell_gen_admin_exp_other_ratio_ttm</td>
+      <td>Selling General & Admin expenses Ratio (TTM)</td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>submarket</td>
       <td>Submarket</td>
       <td>text</td>
@@ -279,15 +372,18 @@
       <td>Quote currency</td>
       <td>text</td>
       <td>  <details>
-    <summary>12</summary>
+    <summary>15</summary>
     <ul>
       <li>AUD</li>
+      <li>BRL</li>
       <li>CAD</li>
       <li>CHF</li>
       <li>EUR</li>
       <li>GBP</li>
       <li>INR</li>
       <li>JPY</li>
+      <li>KRW</li>
+      <li>NOK</li>
       <li>NZD</li>
       <li>THB</li>
       <li>TRY</li>
@@ -307,6 +403,12 @@
       <td>bid</td>
       <td>Bid</td>
       <td>price</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>24h_vol_to_market_cap</td>
+      <td></td>
+      <td>number</td>
       <td></td>
     </tr>
     <tr>
@@ -334,6 +436,36 @@
       <td></td>
     </tr>
     <tr>
+      <td>cash_n_short_term_invest_to_total_current_liabilities_fq</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_to_total_current_liabilities_fy</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_to_total_debt_fq</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>cash_n_short_term_invest_to_total_debt_fy</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>circulating_to_max_supply_ratio</td>
+      <td></td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>coupon</td>
       <td></td>
       <td>number</td>
@@ -356,15 +488,18 @@
       <td></td>
       <td>text</td>
       <td>  <details>
-    <summary>12</summary>
+    <summary>15</summary>
     <ul>
       <li>AUD</li>
+      <li>BRL</li>
       <li>CAD</li>
       <li>CHF</li>
       <li>EUR</li>
       <li>GBP</li>
       <li>INR</li>
       <li>JPY</li>
+      <li>KRW</li>
+      <li>NOK</li>
       <li>NZD</li>
       <li>THB</li>
       <li>TRY</li>
@@ -405,6 +540,12 @@
       <td></td>
     </tr>
     <tr>
+      <td>earnings_yield</td>
+      <td></td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>enterprise_value_ebit_fwd</td>
       <td></td>
       <td>number</td>
@@ -423,9 +564,21 @@
       <td></td>
     </tr>
     <tr>
+      <td>eps_surprise_percent_fq</td>
+      <td></td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>expiration</td>
       <td></td>
       <td>time</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>float_shares_percent_current</td>
+      <td></td>
+      <td>percent</td>
       <td></td>
     </tr>
     <tr>
@@ -440,6 +593,12 @@
     </ul>
   </details>
 </td>
+    </tr>
+    <tr>
+      <td>fully_diluted_value</td>
+      <td></td>
+      <td>price</td>
+      <td></td>
     </tr>
     <tr>
       <td>gap_down</td>
@@ -551,6 +710,12 @@
 </td>
     </tr>
     <tr>
+      <td>market_cap_to_tvl</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>maturity_date</td>
       <td></td>
       <td>time-yyyymmdd</td>
@@ -572,6 +737,24 @@
       <td>name</td>
       <td></td>
       <td>text</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>non_gaap_price_to_earnings_per_share_forecast_next_fy</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>nvt</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>open_interest_to_volume_24h</td>
+      <td></td>
+      <td>number</td>
       <td></td>
     </tr>
     <tr>
@@ -618,7 +801,43 @@
       <td></td>
     </tr>
     <tr>
+      <td>price_sales</td>
+      <td></td>
+      <td>price</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>price_sales_fwd</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_target_1y</td>
+      <td></td>
+      <td>price</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_target_1y_delta</td>
+      <td></td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_to_cash_f_operating_activities_ttm</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_to_cash_ratio</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>price_to_working_capital_fq</td>
       <td></td>
       <td>number</td>
       <td></td>
@@ -630,14 +849,39 @@
       <td></td>
     </tr>
     <tr>
+      <td>relative_volume</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>revenue_surprise_percent_fq</td>
+      <td></td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>shrhldrs_equity_to_total_assets_fq</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>shrhldrs_equity_to_total_assets_fy</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>source-logoid</td>
       <td></td>
       <td>text</td>
       <td>  <details>
-    <summary>14</summary>
+    <summary>17</summary>
     <ul>
       <li>source/ASX</li>
       <li>source/BIST</li>
+      <li>source/BMFBOVESPA</li>
       <li>source/BSE</li>
       <li>source/CBOT</li>
       <li>source/CBOT_MINI</li>
@@ -645,6 +889,8 @@
       <li>source/CME_MINI</li>
       <li>source/COMEX</li>
       <li>source/EUREX</li>
+      <li>source/EURONEXT</li>
+      <li>source/KRX</li>
       <li>source/MCX</li>
       <li>source/NSE</li>
       <li>source/NYMEX</li>
@@ -665,10 +911,11 @@
       <td></td>
       <td>text</td>
       <td>  <details>
-    <summary>2</summary>
+    <summary>3</summary>
     <ul>
       <li></li>
       <li>euoption</li>
+      <li>usoption</li>
     </ul>
   </details>
 </td>
@@ -680,14 +927,33 @@
       <td></td>
     </tr>
     <tr>
+      <td>total_debt_to_ebitda_fq</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>total_debt_to_ebitda_fy</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>total_to_max_supply_ratio</td>
+      <td></td>
+      <td>percent</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>typespecs</td>
       <td></td>
       <td>set</td>
       <td>  <details>
-    <summary>2</summary>
+    <summary>3</summary>
     <ul>
       <li></li>
       <li>euoption</li>
+      <li>usoption</li>
     </ul>
   </details>
 </td>
@@ -717,6 +983,12 @@
       <td></td>
     </tr>
     <tr>
+      <td>velocity</td>
+      <td></td>
+      <td>number</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>volume_change</td>
       <td></td>
       <td>percent</td>
@@ -732,16 +1004,16 @@
     <tfoot>
     <tr>
       <th scope="row">Fields</th>
-      <td>80</td>
+      <td>123</td>
     </tr>
     <tr>
       <th scope="row">Deduplicated fields</th>
-      <td>80</td>
+      <td>123</td>
     </tr>
     </tfoot>
   </table>
   <div>
-    <mark>Last updated: 2026-09-08 11:49:15</mark>
+    <mark>Last updated: 2026-10-07 14:01:47</mark>
   </div>
 </main>
 <script>
