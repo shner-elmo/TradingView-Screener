@@ -13557,22 +13557,22 @@
         "r": null
     },
     {
-        "n": "RSI3",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|60",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI4",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|60",
         "t": "number",
         "r": null
     },
@@ -18483,7 +18483,6 @@
             "BOCOM Schroder",
             "BTG Pactual",
             "BWM",
-            "Bahana",
             "Bahl & Gaynor",
             "Baillie Gifford Funds",
             "Bajaj Allianz",
@@ -19141,6 +19140,7 @@
             "Russell",
             "Russell Investments",
             "SAB Invest",
+            "SAM",
             "SBI",
             "SEI",
             "SMDAM",
@@ -19182,7 +19182,6 @@
             "Simplex",
             "Simplify",
             "SinoPac",
-            "Skylar",
             "Smart",
             "Smartshares",
             "SoFi",
@@ -20471,7 +20470,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "post_market"
@@ -21170,7 +21168,8 @@
             "2026-Q1",
             "2026-Q2",
             "2026-Q3",
-            "2026-Q4"
+            "2026-Q4",
+            "2027-Q1"
         ]
     },
     {
@@ -21327,7 +21326,6 @@
             "2131",
             "2132",
             "2134",
-            "2135",
             "2136",
             "2137",
             "2144",
@@ -23361,7 +23359,6 @@
             "0.72 - 0.89",
             "0.72 - 0.96",
             "0.73 - 0.80",
-            "0.73 - 0.90",
             "0.73 - 1.24",
             "0.74 - 0.94",
             "0.75 - 0.85",
@@ -23488,7 +23485,6 @@
             "1.20 - 1.50",
             "1.20 - 1.56",
             "1.20 - 1.80",
-            "1.21 - 1.39",
             "1.22 - 1.44",
             "1.23 - 1.33",
             "1.24 - 1.52",
@@ -23506,7 +23502,6 @@
             "1.27 - 1.39",
             "1.28 - 1.38",
             "1.28 - 1.42",
-            "1.28 - 1.56",
             "1.28 - 1.60",
             "1.28 - 1.72",
             "1.30 - 1.35",
@@ -23547,6 +23542,7 @@
             "1.45 - 1.79",
             "1.45 - 2.05",
             "1.48 - 1.52",
+            "1.48 - 1.59",
             "1.50 - 1.70",
             "1.50 - 1.71",
             "1.50 - 1.80",
@@ -23608,6 +23604,7 @@
             "1.80 - 1.85",
             "1.80 - 1.90",
             "1.80 - 2.20",
+            "1.80 - 2.80",
             "1.82 - 2.40",
             "1.85 - 2.45",
             "1.85 - 2.50",
@@ -24202,7 +24199,6 @@
             "1320.00 - 1380.00",
             "1320.00 - 1430.00",
             "1320.00 - 1440.00",
-            "1320.00 - 1460.00",
             "13200.00 - 14700.00",
             "13200.00 - 15200.00",
             "13200.00 - 17600.00",
@@ -24803,6 +24799,7 @@
             "18500.00 - 21500.00",
             "186.00 - 188.00",
             "186.00 - 192.00",
+            "186.00 - 196.00",
             "1860.00 - 2020.00",
             "1865.00 - 1960.00",
             "187.00 - 196.00",
@@ -27938,7 +27935,6 @@
             "Hana Bancorp, Inc.",
             "Hana Financial Group, Inc.",
             "Hana Securities Co., Ltd.",
-            "Hanetf Multi-Asset ETC Issuer Plc",
             "Hang Seng Investment Management Ltd.",
             "Harel Insurance Investments & Financial Services Ltd.",
             "Harfor Fund Management Co., Ltd.",
@@ -28328,6 +28324,7 @@
             "The Marygold Cos, Inc.",
             "The Mcivy Co. LLC",
             "The Motley Fool Holdings, Inc.",
+            "The Samuel Group, Inc.",
             "The Standard Bank of South Africa Ltd.",
             "The TCW Group, Inc.",
             "The Toronto-Dominion Bank",

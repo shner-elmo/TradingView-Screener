@@ -9581,12 +9581,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9611,12 +9611,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14535,7 +14535,6 @@
             "BUILDon",
             "Baby Doge Coin",
             "BankrCoin",
-            "Basecat",
             "Basic Attention Token",
             "Berachain",
             "Bertram The Pomeranian",
@@ -14749,6 +14748,7 @@
             "Orca",
             "Orchid",
             "Ore",
+            "Origin Protocol",
             "OriginTrail",
             "PAAL AI",
             "PAX Gold",
@@ -14776,6 +14776,7 @@
             "Purr",
             "Pyth Network",
             "QUBIC",
+            "Qitcoin",
             "Quant",
             "RHEA Finance",
             "RSS3",
@@ -14790,7 +14791,7 @@
             "Ribbita by Virtuals",
             "Ripple USD",
             "River",
-            "Router Protocol (New)",
+            "SKALE",
             "SOON",
             "SPX6900",
             "STONK",
@@ -14876,7 +14877,6 @@
             "XDC Network",
             "XPR Network",
             "XRP",
-            "Yee Token",
             "ZIGChain",
             "Zama",
             "Zano",
@@ -14960,7 +14960,6 @@
             "XTVCB2",
             "XTVCB3",
             "XTVCBABYDOGE",
-            "XTVCBASECAT2",
             "XTVCBAT",
             "XTVCBCH",
             "XTVCBEATA",
@@ -15168,6 +15167,7 @@
             "XTVCNPCN",
             "XTVCNVDAX",
             "XTVCOG",
+            "XTVCOGN",
             "XTVCOKB",
             "XTVCOLAS",
             "XTVCONDO",
@@ -15206,6 +15206,7 @@
             "XTVCPYUSD",
             "XTVCQI",
             "XTVCQNT",
+            "XTVCQTC",
             "XTVCQUBIC",
             "XTVCRARE",
             "XTVCRAY",
@@ -15219,7 +15220,6 @@
             "XTVCRLC",
             "XTVCRLUSD",
             "XTVCROSE",
-            "XTVCROUTE",
             "XTVCRSR",
             "XTVCRSS3",
             "XTVCRUNE",
@@ -15231,6 +15231,7 @@
             "XTVCSHIB",
             "XTVCSHX",
             "XTVCSIREN",
+            "XTVCSKL",
             "XTVCSKY2",
             "XTVCSLVON",
             "XTVCSNEK",
@@ -15314,7 +15315,6 @@
             "XTVCXRP",
             "XTVCXTZ",
             "XTVCXVG",
-            "XTVCYEETO",
             "XTVCZAMA",
             "XTVCZANO",
             "XTVCZBCN",
@@ -15358,10 +15358,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {
