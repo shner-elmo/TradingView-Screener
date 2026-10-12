@@ -9581,12 +9581,12 @@
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
@@ -9611,12 +9611,12 @@
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
@@ -14557,6 +14557,7 @@
             "CZ'S Dog",
             "Canopy",
             "Cardano",
+            "Cartesi",
             "Cash Cat",
             "Casper",
             "CateCoin",
@@ -14625,6 +14626,7 @@
             "Flock.io",
             "Flow",
             "Forest Protocol",
+            "GAMEE",
             "GEODNET",
             "GMT",
             "GRASS",
@@ -14632,7 +14634,6 @@
             "GROK",
             "Gala",
             "Genius Terminal",
-            "GoPlus Security",
             "Gram (prev. Toncoin)",
             "Ha Ji Mi",
             "Hamster Kombat",
@@ -14711,7 +14712,6 @@
             "Metadium",
             "Meteora",
             "Metis",
-            "Milady Cult Coin",
             "Mina",
             "Mind Network",
             "Monad",
@@ -14728,6 +14728,7 @@
             "Neiro",
             "Neo",
             "Neon EVM",
+            "Nervos Network",
             "Nexo",
             "Nillion",
             "Niu Lai  (Niu Lai)",
@@ -14843,7 +14844,6 @@
             "Tezos",
             "The Black Bull",
             "The Graph",
-            "The Index",
             "The Juggernaut",
             "The Sandbox",
             "Theta Network",
@@ -15003,6 +15003,7 @@
             "XTVCCHILLGUY",
             "XTVCCHR",
             "XTVCCHZ",
+            "XTVCCKB",
             "XTVCCLANKER",
             "XTVCCMC20",
             "XTVCCNPY",
@@ -15016,7 +15017,7 @@
             "XTVCCROSS",
             "XTVCCRV",
             "XTVCCSPR",
-            "XTVCCULTM",
+            "XTVCCTSI",
             "XTVCCVC",
             "XTVCCVX",
             "XTVCCYBERLEEK",
@@ -15068,8 +15069,8 @@
             "XTVCGENIUS",
             "XTVCGEODN",
             "XTVCGLMR",
+            "XTVCGMEE",
             "XTVCGMT",
-            "XTVCGPS",
             "XTVCGRAM",
             "XTVCGRASS2",
             "XTVCGRIFFAIN",
@@ -15090,7 +15091,6 @@
             "XTVCIMU",
             "XTVCIMX",
             "XTVCINDEX",
-            "XTVCINDEXT",
             "XTVCINIT",
             "XTVCINJ",
             "XTVCIOST",
@@ -15368,8 +15368,10 @@
         "n": "current_session",
         "t": "text",
         "r": [
+            "holiday",
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market"
         ]
     },
     {
