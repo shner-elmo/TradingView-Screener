@@ -9601,22 +9601,22 @@
         "r": null
     },
     {
-        "n": "RSI4",
-        "t": "number",
-        "r": null
-    },
-    {
         "n": "RSI|60",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI4",
         "t": "number",
         "r": null
     },
     {
         "n": "RSI5",
+        "t": "number",
+        "r": null
+    },
+    {
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -14481,7 +14481,6 @@
         "r": [
             "00 Token",
             "0G",
-            "0x Protocol",
             "1inch",
             "4",
             "4Stock",
@@ -14538,6 +14537,7 @@
             "Basic Attention Token",
             "Berachain",
             "Bertram The Pomeranian",
+            "Bi An Ren Sheng",
             "Biconomy",
             "BitTorrent-New",
             "Bitcoin",
@@ -14608,12 +14608,10 @@
             "Edel",
             "EigenCloud",
             "Enjin Coin",
-            "Epic Chain",
             "Ethena",
             "Ethena USDe",
             "Ethereum",
             "Ethereum Classic",
-            "Euler",
             "Everlyn AI",
             "FLARE",
             "FLOKI",
@@ -14712,6 +14710,7 @@
             "Metadium",
             "Meteora",
             "Metis",
+            "Milady Cult Coin",
             "Mina",
             "Mind Network",
             "Monad",
@@ -14789,7 +14788,6 @@
             "RSS3",
             "Ravencoin",
             "Raydium",
-            "Realio Network",
             "Rekt",
             "Render",
             "Renzo",
@@ -14872,8 +14870,8 @@
             "Virtuals Protocol",
             "Vita Inu",
             "WEMIX",
-            "WINkLink",
             "WOO",
+            "Walrus",
             "Waves",
             "Wiki Cat",
             "World Liberty Financial USD",
@@ -14882,7 +14880,7 @@
             "XDC Network",
             "XPR Network",
             "XRP",
-            "ZIGChain",
+            "Yee Token",
             "Zama",
             "Zano",
             "Zcash",
@@ -14972,6 +14970,7 @@
             "XTVCBERA",
             "XTVCBERTR",
             "XTVCBGB",
+            "XTVCBIANRENSHENG",
             "XTVCBICO",
             "XTVCBITCOIN",
             "XTVCBLUM",
@@ -15018,6 +15017,7 @@
             "XTVCCRV",
             "XTVCCSPR",
             "XTVCCTSI",
+            "XTVCCULTM",
             "XTVCCVC",
             "XTVCCVX",
             "XTVCCYBERLEEK",
@@ -15044,11 +15044,9 @@
             "XTVCELIZAOS",
             "XTVCENA",
             "XTVCENJ",
-            "XTVCEPICC",
             "XTVCETC",
             "XTVCETH",
             "XTVCETHFI",
-            "XTVCEUL",
             "XTVCF",
             "XTVCFARTBOY",
             "XTVCFARTCOIN",
@@ -15225,7 +15223,6 @@
             "XTVCRENDER",
             "XTVCREZ",
             "XTVCRHEA",
-            "XTVCRIO",
             "XTVCRIVER",
             "XTVCRLC",
             "XTVCRLUSD",
@@ -15303,10 +15300,10 @@
             "XTVCVTR",
             "XTVCVVV",
             "XTVCW",
+            "XTVCWALR",
             "XTVCWAVES",
             "XTVCWEMIX",
             "XTVCWIF",
-            "XTVCWIN",
             "XTVCWKC",
             "XTVCWLDW",
             "XTVCWOJAK2",
@@ -15324,6 +15321,7 @@
             "XTVCXRP",
             "XTVCXTZ",
             "XTVCXVG",
+            "XTVCYEETO",
             "XTVCZAMA",
             "XTVCZANO",
             "XTVCZBCN",
@@ -15332,11 +15330,9 @@
             "XTVCZEN",
             "XTVCZEREBRO",
             "XTVCZEUSN",
-            "XTVCZIG",
             "XTVCZIL",
             "XTVCZKP",
-            "XTVCZROL",
-            "XTVCZRX"
+            "XTVCZROL"
         ]
     },
     {
@@ -15368,10 +15364,8 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
-            "out_of_session",
-            "post_market"
+            "out_of_session"
         ]
     },
     {

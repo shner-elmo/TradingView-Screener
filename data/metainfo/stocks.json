@@ -3461,6 +3461,7 @@
             "France",
             "Gabon",
             "Germany",
+            "Ghana",
             "Gibraltar",
             "Greece",
             "Greenland",
@@ -4759,7 +4760,6 @@
             "HUF",
             "IDR",
             "ILA",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -13545,12 +13545,12 @@
         "r": null
     },
     {
-        "n": "RSI|15",
+        "n": "RSI2",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI2",
+        "n": "RSI|15",
         "t": "number",
         "r": null
     },
@@ -13575,12 +13575,12 @@
         "r": null
     },
     {
-        "n": "RSI|120",
+        "n": "RSI5",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI5",
+        "n": "RSI|120",
         "t": "number",
         "r": null
     },
@@ -18481,6 +18481,7 @@
             "BOCOM Schroder",
             "BTG Pactual",
             "BWM",
+            "Bahana",
             "Bahl & Gaynor",
             "Baillie Gifford Funds",
             "Bajaj Allianz",
@@ -19943,6 +19944,7 @@
             "ESRTFR",
             "ESRUFN",
             "ESRUFR",
+            "ESRUXR",
             "ESVTFB",
             "ESVTFM",
             "ESVTFN",
@@ -20278,6 +20280,7 @@
             "FR",
             "GA",
             "GB",
+            "GH",
             "GI",
             "GL",
             "GR",
@@ -20405,7 +20408,6 @@
             "HKD",
             "HUF",
             "IDR",
-            "ILS",
             "INR",
             "ISK",
             "JPY",
@@ -20468,7 +20470,6 @@
         "n": "current_session",
         "t": "text",
         "r": [
-            "holiday",
             "market",
             "out_of_session",
             "post_market"
@@ -23627,7 +23628,6 @@
             "1.90 - 2.42",
             "1.90 - 2.45",
             "1.90 - 2.50",
-            "1.90 - 2.57",
             "1.90 - 3.00",
             "1.91 - 2.20",
             "1.91 - 2.31",
@@ -24545,6 +24545,7 @@
             "1600.00 - 1770.00",
             "1600.00 - 1800.00",
             "1600.00 - 2000.00",
+            "1600.00 - 2100.00",
             "16000.00 - 18000.00",
             "16000.00 - 18500.00",
             "16000.00 - 18800.00",
@@ -26503,6 +26504,7 @@
             "5.10 - 6.16",
             "5.10 - 6.90",
             "5.16 - 6.19",
+            "5.18 - 5.69",
             "5.18 - 5.90",
             "5.18 - 6.22",
             "5.18 - 6.38",
