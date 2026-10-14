@@ -9591,12 +9591,12 @@
         "r": null
     },
     {
-        "n": "RSI3",
+        "n": "RSI|30",
         "t": "number",
         "r": null
     },
     {
-        "n": "RSI|30",
+        "n": "RSI3",
         "t": "number",
         "r": null
     },
@@ -14556,6 +14556,7 @@
             "CROSS",
             "CZ'S Dog",
             "Canopy",
+            "Capricorn",
             "Cardano",
             "Cartesi",
             "Cash Cat",
@@ -14633,7 +14634,6 @@
             "Gala",
             "Genius Terminal",
             "Gram (prev. Toncoin)",
-            "Ha Ji Mi",
             "Hamster Kombat",
             "Harmony",
             "HarryPotterObamaSonic10Inu (ERC-20)",
@@ -14650,7 +14650,6 @@
             "IOST",
             "IOTA",
             "IXS",
-            "Illuvium",
             "Immunefi",
             "Immutable",
             "Index Cooperative",
@@ -14747,6 +14746,7 @@
             "Oasis",
             "Ondo",
             "Ontology",
+            "Ontology Gas",
             "Onyxcoin",
             "Operon Origins",
             "Optimism",
@@ -14784,6 +14784,7 @@
             "QUBIC",
             "Qitcoin",
             "Quant",
+            "Quantum Resistant Ledger",
             "RHEA Finance",
             "RSS3",
             "Ravencoin",
@@ -14813,7 +14814,6 @@
             "Stable",
             "Starknet",
             "Starpower",
-            "Steem",
             "Stellar",
             "Storj",
             "Stronghold SHx",
@@ -14940,6 +14940,7 @@
             "XTVCANYONE",
             "XTVCAPE",
             "XTVCAPI3",
+            "XTVCAPR",
             "XTVCAPTO",
             "XTVCAR",
             "XTVCARBI",
@@ -15075,7 +15076,6 @@
             "XTVCGROK",
             "XTVCGRT",
             "XTVCH",
-            "XTVCHAJIMI",
             "XTVCHBAR",
             "XTVCHEI",
             "XTVCHEMI",
@@ -15085,7 +15085,6 @@
             "XTVCHOOKR",
             "XTVCHYPEH",
             "XTVCICP",
-            "XTVCILV",
             "XTVCIMU",
             "XTVCIMX",
             "XTVCINDEX",
@@ -15180,6 +15179,7 @@
             "XTVCOLAS",
             "XTVCONDO",
             "XTVCONE",
+            "XTVCONG",
             "XTVCONT",
             "XTVCOP",
             "XTVCORCA",
@@ -15214,6 +15214,7 @@
             "XTVCPYUSD",
             "XTVCQI",
             "XTVCQNT",
+            "XTVCQRL",
             "XTVCQTC",
             "XTVCQUBIC",
             "XTVCRARE",
@@ -15250,7 +15251,6 @@
             "XTVCSQD",
             "XTVCSTABLE3",
             "XTVCSTARP",
-            "XTVCSTEEM",
             "XTVCSTONK2",
             "XTVCSTORJ",
             "XTVCSTRKS",
@@ -15365,7 +15365,9 @@
         "t": "text",
         "r": [
             "market",
-            "out_of_session"
+            "out_of_session",
+            "post_market",
+            "pre_market"
         ]
     },
     {
