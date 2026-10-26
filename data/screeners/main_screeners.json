@@ -502,8 +502,6 @@
         "query": {
             "columns": [
                 "ticker-view",
-                "exchange.tr",
-                "source-logoid",
                 "isin-displayed",
                 "yield_to_worst",
                 "close_pct",
@@ -520,7 +518,9 @@
                 "bond_fitch_rating_lt.tr",
                 "bond_fitch_rating_lt",
                 "bond_moodys_rating_lt.tr",
-                "bond_moodys_rating_lt"
+                "bond_moodys_rating_lt",
+                "exchange.tr",
+                "source-logoid"
             ],
             "ignore_unknown_fields": false,
             "options": {
@@ -538,6 +538,6 @@
                 "bond"
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'exchange.tr',\n     'source-logoid',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'bond_snp_rating_lt',\n     'bond_fitch_rating_lt.tr',\n     'bond_fitch_rating_lt',\n     'bond_moodys_rating_lt.tr',\n     'bond_moodys_rating_lt',\n )\n .order_by('bond_snp_rating_lt', ascending=False)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'bond_snp_rating_lt',\n     'bond_fitch_rating_lt.tr',\n     'bond_fitch_rating_lt',\n     'bond_moodys_rating_lt.tr',\n     'bond_moodys_rating_lt',\n     'exchange.tr',\n     'source-logoid',\n )\n .order_by('bond_snp_rating_lt', ascending=False)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False))"
     }
 ]
