@@ -385,7 +385,7 @@
                 "24h_close_change|5",
                 "market_cap_calc",
                 "fundamental_currency_code",
-                "24h_vol_cmc",
+                "24h_vol|5",
                 "circulating_supply",
                 "24h_vol_to_market_cap",
                 "socialdominance",
@@ -409,7 +409,7 @@
                 "coin"
             ]
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'crypto_total_rank',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol_cmc',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'TechRating_1D',\n     'TechRating_1D.tr',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('ignore_unknown_fields', False))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'crypto_total_rank',\n     'close',\n     'type',\n     'typespecs',\n     'pricescale',\n     'minmov',\n     'fractional',\n     'minmove2',\n     'currency',\n     '24h_close_change|5',\n     'market_cap_calc',\n     'fundamental_currency_code',\n     '24h_vol|5',\n     'circulating_supply',\n     '24h_vol_to_market_cap',\n     'socialdominance',\n     'crypto_common_categories.tr',\n     'TechRating_1D',\n     'TechRating_1D.tr',\n )\n .order_by('crypto_total_rank', ascending=True)\n .limit(100)\n .set_markets('coin')\n .set_property('ignore_unknown_fields', False))"
     },
     {
         "name": "ETFs",
@@ -526,6 +526,9 @@
             "options": {
                 "lang": "en"
             },
+            "price_conversion": {
+                "to_currency": "USD"
+            },
             "range": [
                 0,
                 100
@@ -536,8 +539,315 @@
             },
             "markets": [
                 "bond"
-            ]
+            ],
+            "filter2": {
+                "operator": "and",
+                "operands": [
+                    {
+                        "expression": {
+                            "left": "time",
+                            "operation": "in_day_range",
+                            "right": [
+                                -5,
+                                0
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "outstanding_amount",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "expression": {
+                                        "left": "outstanding_amount",
+                                        "operation": "egreater",
+                                        "right": 100000000
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "yield_to_maturity",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_maturity",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_maturity",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "yield_to_put",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_put",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_put",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "yield_to_call",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_call",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_call",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "yield_to_worst",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_worst",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "yield_to_worst",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "ytm_to_bid",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "ytm_to_bid",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "ytm_to_bid",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "ytm_to_ask",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "ytm_to_ask",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "ytm_to_ask",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "ytw_to_bid",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "ytw_to_bid",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "ytw_to_bid",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "operation": {
+                            "operator": "or",
+                            "operands": [
+                                {
+                                    "expression": {
+                                        "left": "ytw_to_ask",
+                                        "operation": "empty"
+                                    }
+                                },
+                                {
+                                    "operation": {
+                                        "operator": "and",
+                                        "operands": [
+                                            {
+                                                "expression": {
+                                                    "left": "ytw_to_ask",
+                                                    "operation": "greater",
+                                                    "right": 1.5
+                                                }
+                                            },
+                                            {
+                                                "expression": {
+                                                    "left": "ytw_to_ask",
+                                                    "operation": "eless",
+                                                    "right": 20
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
         },
-        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'bond_snp_rating_lt',\n     'bond_fitch_rating_lt.tr',\n     'bond_fitch_rating_lt',\n     'bond_moodys_rating_lt.tr',\n     'bond_moodys_rating_lt',\n     'exchange.tr',\n     'source-logoid',\n )\n .order_by('bond_snp_rating_lt', ascending=False)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False))"
+        "query_as_code": "(Query()\n .select(\n     'ticker-view',\n     'isin-displayed',\n     'yield_to_worst',\n     'close_pct',\n     'close_net',\n     'type',\n     'typespecs',\n     'fundamental_currency_code',\n     'current_coupon',\n     'maturity_date',\n     'redemption_type.tr',\n     'bond_issuer_type.tr',\n     'bond_snp_rating_lt.tr',\n     'bond_snp_rating_lt',\n     'bond_fitch_rating_lt.tr',\n     'bond_fitch_rating_lt',\n     'bond_moodys_rating_lt.tr',\n     'bond_moodys_rating_lt',\n     'exchange.tr',\n     'source-logoid',\n )\n .where2(\n     And(\n         col('time').in_day_range(-5, 0),\n         Or(col('outstanding_amount').empty(), col('outstanding_amount') >= 100000000),\n         Or(\n             col('yield_to_maturity').empty(),\n             And(col('yield_to_maturity') > 1.5, col('yield_to_maturity') <= 20),\n         ),\n         Or(\n             col('yield_to_put').empty(),\n             And(col('yield_to_put') > 1.5, col('yield_to_put') <= 20),\n         ),\n         Or(\n             col('yield_to_call').empty(),\n             And(col('yield_to_call') > 1.5, col('yield_to_call') <= 20),\n         ),\n         Or(\n             col('yield_to_worst').empty(),\n             And(col('yield_to_worst') > 1.5, col('yield_to_worst') <= 20),\n         ),\n         Or(col('ytm_to_bid').empty(), And(col('ytm_to_bid') > 1.5, col('ytm_to_bid') <= 20)),\n         Or(col('ytm_to_ask').empty(), And(col('ytm_to_ask') > 1.5, col('ytm_to_ask') <= 20)),\n         Or(col('ytw_to_bid').empty(), And(col('ytw_to_bid') > 1.5, col('ytw_to_bid') <= 20)),\n         Or(col('ytw_to_ask').empty(), And(col('ytw_to_ask') > 1.5, col('ytw_to_ask') <= 20)),\n     )\n )\n .order_by('bond_snp_rating_lt', ascending=False)\n .limit(100)\n .set_markets('bond')\n .set_property('ignore_unknown_fields', False)\n .set_property('price_conversion', {'to_currency': 'USD'}))"
     }
 ]
